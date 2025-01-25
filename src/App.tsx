@@ -10,12 +10,13 @@ import {
   setupIonicReact
 } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
-import { ellipse, square, triangle } from 'ionicons/icons';
+import { BookOpenIcon, UserIcon } from "@heroicons/react/outline";
+
 import Tab1 from './pages/Tab1';
-import Tab2 from './pages/Tab2';
-import Tab3 from './pages/Tab3';
 import LandingPage from './pages/LandingPage';
 import HomePage from './pages/HomePage';
+import ProfilePage from './pages/ProfilePage';
+import CoursePage from './pages/CoursePage';
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
@@ -57,33 +58,39 @@ const App: React.FC = () => (
           <Route exact path="/welcome">
             <LandingPage />
           </Route>
+          <Route exact path="/profile">
+            <ProfilePage />
+          </Route>
           <Route exact path="/home">
             <HomePage />
           </Route>
           <Route exact path="/tab1">
             <Tab1 />
           </Route>
-          <Route exact path="/tab1">
-            <Tab1 />
-          </Route>
+
+          <Route path="/course/:courseCode" component={CoursePage} />
          
           <Route exact path="/">
-            <Redirect to="/tab1" />
+            <Redirect to="/welcome" />
           </Route>
         </IonRouterOutlet>
         <IonTabBar slot="bottom">
           <IonTabButton tab="welcome" href="/welcome">
-            <IonIcon aria-hidden="true" icon={ellipse} />
-            <IonLabel>SGV Institute</IonLabel>
+            <BookOpenIcon className="h-6 w-6" />
+            <IonLabel>Courses</IonLabel>
           </IonTabButton>
-          <IonTabButton tab="home" href="/home">
-            <IonIcon aria-hidden="true" icon={triangle} />
+          <IonTabButton tab="profile" href="/profile">
+            <UserIcon className="h-6 w-6" />
+            <IonLabel>Profile</IonLabel>
+          </IonTabButton>
+          {/* <IonTabButton tab="home" href="/home">
+            <HomeIcon className="h-6 w-6" />
             <IonLabel>Home</IonLabel>
-          </IonTabButton>
-          <IonTabButton tab="tab1" href="/tab1">
-            <IonIcon aria-hidden="true" icon={square} />
-            <IonLabel>Tab 1</IonLabel>
-          </IonTabButton>
+          </IonTabButton> */}
+          {/* <IonTabButton tab="tab1" href="/tab1">
+            <UserIcon className="h-6 w-6" />
+            <IonLabel>Knowledge Agent</IonLabel>
+          </IonTabButton> */}
         </IonTabBar>
       </IonTabs>
     </IonReactRouter>

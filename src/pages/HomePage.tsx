@@ -2,8 +2,6 @@ import React from "react";
 import { IonContent, IonHeader, IonPage, IonToolbar, IonCard, IonCardContent, IonSearchbar, IonSegment, IonSegmentButton, IonLabel } from "@ionic/react";
 import { AcademicCapIcon, ShieldCheckIcon, LockClosedIcon } from "@heroicons/react/outline";
 
-import "tailwindcss/tailwind.css";
-
 const HomePage = () => {
     const categories = [
       { name: "Project Management", icon: <AcademicCapIcon className="h-6 w-6 text-pink-500" /> },
