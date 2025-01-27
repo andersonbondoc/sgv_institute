@@ -1,0 +1,38 @@
+[{
+    "exam_id": 1,
+    "title": "Project Management Fundamentals for Implementation of Digital Solutions",
+    "questions": [{
+              "q_number": 1,
+              "q_statement": "Which of the following most accurately describes a Project?",
+              "q_field_type": "single_select" ,
+              "q_selection": [{
+                  "A": "A temporary endevour undertaken with a defined beginning and end in time, defined scope and resources to create a singular unique product, service or result.",
+                  "B": "A defined set of tasks and activities that deliver products or services.",
+                  "C": "A profitable, contractual, business commitment with a client to deliver specific services that address their issues and meet shared expectations of quality and value.",
+                  "D": "Any engagement, program, or contract that delivers client services."
+              }]
+          },
+          {
+              "q_number": 2,
+              "q_statement": "Another question here",
+              "q_field_type": "single_select" ,
+              "q_selection": [{
+                  "A": "A temporary endevour undertaken with a defined beginning and end in time, defined scope and resources to create a singular unique product, service or result.",
+                  "B": "A defined set of tasks and activities that deliver products or services.",
+                  "C": "A profitable, contractual, business commitment with a client to deliver specific services that address their issues and meet shared expectations of quality and value.",
+                  "D": "Any engagement, program, or contract that delivers client services."
+              }]
+          },
+          {
+              "q_number": 3,
+              "q_statement": "Another question here",
+              "q_field_type": "single_select" ,
+              "q_selection": [{
+                  "A": "A temporary endevour undertaken with a defined beginning and end in time, defined scope and resources to create a singular unique product, service or result.",
+                  "B": "A defined set of tasks and activities that deliver products or services.",
+                  "C": "A profitable, contractual, business commitment with a client to deliver specific services that address their issues and meet shared expectations of quality and value.",
+                  "D": "Any engagement, program, or contract that delivers client services."
+              }]
+          }
+      ]
+}]

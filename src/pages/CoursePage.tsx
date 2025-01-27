@@ -14,6 +14,8 @@ const CoursePage: React.FC = () => {
       title: "Project Management Fundamentals for Implementation of Digital Solutions",
       description: "Master the art of managing complex projects efficiently.",
       price: "Free",
+      icon: "/src/assets/abstract.png",
+        bgColor: "bg-indigo-100",
     },
     DS100: {
       courseCode: "DS100",

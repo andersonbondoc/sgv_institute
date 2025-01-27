@@ -20,8 +20,8 @@ const LandingPage = () => {
             title: "Project Management Fundamentals for Implementation of Digital Solutions",
             description: "Master the art of managing complex projects efficiently.",
             price: "Free",
-            icon: "/assets/icon-project-management.svg",
-            bgColor: "bg-blue-100",
+            icon: "/src/assets/abstract.png",
+            bgColor: "bg-indigo-100",
         },
         {
             id: 2,
@@ -29,7 +29,7 @@ const LandingPage = () => {
             title: "Data Security",
             description: "Learn techniques to secure sensitive data in modern systems.",
             price: "Free",
-            icon: "/assets/icon-data-security.svg",
+            icon: "/src/assets/abstract.png",
             bgColor: "bg-green-100",
         },
         {
@@ -38,7 +38,7 @@ const LandingPage = () => {
             title: "Data Privacy",
             description: "Understand the principles of data privacy and compliance.",
             price: "Free",
-            icon: "/assets/icon-data-privacy.svg",
+            icon: "/src/assets/abstract.png",
             bgColor: "bg-yellow-100",
         },
         {
@@ -47,7 +47,7 @@ const LandingPage = () => {
             title: "Change Management",
             description: "Develop skills to manage and lead organizational changes.",
             price: "Free",
-            icon: "/assets/icon-change-management.svg",
+            icon: "/src/assets/abstract.png",
             bgColor: "bg-pink-100",
         },
         {
@@ -56,7 +56,7 @@ const LandingPage = () => {
             title: "Data Governance",
             description: "Discover how to establish effective data governance policies.",
             price: "Free",
-            icon: "/assets/icon-data-governance.svg",
+            icon: "/src/assets/abstract.png",
             bgColor: "bg-purple-100",
         },
     ];

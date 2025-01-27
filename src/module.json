@@ -1,0 +1,177 @@
+[{
+    "id": 1,
+    "moduleId": "PMFIDS_PM",
+    "type": "course",
+    "sections": [
+      {
+        "order": 1,
+        "title": "Introduction",
+        "body": "Welcome to the course...",
+        "image": "/src/assets/abstract.png",
+        "image2": "/src/assets/abstract.png",
+        "video": "/src/assets/video.mp4"
+      },
+      {
+        "order": 2,
+        "title": "Key Concepts",
+        "body": "Here are the key concepts...",
+        "image": "/src/assets/abstract.png",
+        "image2": "/src/assets/abstract.png",
+        "video": "/src/assets/video.mp4"
+      },
+      {
+        "order": 3,
+        "title": "Knowledge Check",
+        "body": "What are the three primary constraints of the project management triangle?",
+        "image": "/src/assets/abstract.png",
+        "image2": "/src/assets/abstract.png",
+        "video": "/src/assets/video.mp4",
+        "q_field_type": "single_select" ,
+        "q_selection": [{
+          "A": "Resources, Schedule, Quality",
+          "B": "Quality, Time, Budget",
+          "C": "Scope, Time, Cost",
+          "D": "Scope, Quality, Budget"
+        }],
+        "q_answer": "C"
+      },
+      {
+        "order": 4,
+        "title": "Summary",
+        "body": "Here is the summary",
+        "image": "/src/assets/abstract.png"
+      },
+      {
+        "order": 5,
+        "title": "Ending",
+        "body": "Here is the ending",
+        "image": "/src/assets/abstract.png"
+      }
+      
+    ],
+    "exams": [{
+      "exam_id": 1,
+      "title": "Project Management Fundamentals for Implementation of Digital Solutions",
+      "questions": [{
+                "q_number": 1,
+                "q_statement": "Which of the following most accurately describes a Project?",
+                "q_field_type": "single_select" ,
+                "q_selection": [{
+                    "A": "A temporary endevour undertaken with a defined beginning and end in time, defined scope and resources to create a singular unique product, service or result.",
+                    "B": "A defined set of tasks and activities that deliver products or services.",
+                    "C": "A profitable, contractual, business commitment with a client to deliver specific services that address their issues and meet shared expectations of quality and value.",
+                    "D": "Any engagement, program, or contract that delivers client services."
+                }]
+            },
+            {
+                "q_number": 2,
+                "q_statement": "Another question here",
+                "q_field_type": "single_select" ,
+                "q_selection": [{
+                    "A": "A temporary endevour undertaken with a defined beginning and end in time, defined scope and resources to create a singular unique product, service or result.",
+                    "B": "A defined set of tasks and activities that deliver products or services.",
+                    "C": "A profitable, contractual, business commitment with a client to deliver specific services that address their issues and meet shared expectations of quality and value.",
+                    "D": "Any engagement, program, or contract that delivers client services."
+                }]
+            },
+            {
+                "q_number": 3,
+                "q_statement": "Another question here",
+                "q_field_type": "single_select" ,
+                "q_selection": [{
+                    "A": "A temporary endevour undertaken with a defined beginning and end in time, defined scope and resources to create a singular unique product, service or result.",
+                    "B": "A defined set of tasks and activities that deliver products or services.",
+                    "C": "A profitable, contractual, business commitment with a client to deliver specific services that address their issues and meet shared expectations of quality and value.",
+                    "D": "Any engagement, program, or contract that delivers client services."
+                }]
+            }
+        ]
+     }]
+  },
+
+  {
+    "id": 2,
+    "moduleId": "PMFIDS_BCM",
+    "type": "course",
+    "sections": [
+      {
+        "order": 1,
+        "title": "Introduction",
+        "body": "Welcome to the course...",
+        "image": "/src/assets/abstract.png"
+      },
+      {
+        "order": 2,
+        "title": "Key Concepts",
+        "body": "Here are the key concepts...",
+        "image": "/src/assets/abstract.png"
+      },
+      {
+        "order": 3,
+        "title": "Knowledge Check",
+        "body": "What are the three primary constraints of the project management triangle?",
+        "image": "/src/assets/abstract.png",
+        "q_field_type": "single_select" ,
+        "q_selection": [{
+          "A": "Resources, Schedule, Quality",
+          "B": "Quality, Time, Budget",
+          "C": "Scope, Time, Cost",
+          "D": "Scope, Quality, Budget"
+        }],
+        "q_answer": "C"
+      },
+      {
+        "order": 4,
+        "title": "Summary",
+        "body": "Here is the summary",
+        "image": "/src/assets/abstract.png"
+      },
+      {
+        "order": 5,
+        "title": "Ending",
+        "body": "Here is the ending",
+        "image": "/src/assets/abstract.png"
+      }
+      
+    ],
+    "exams": [{
+      "exam_id": 1,
+      "title": "Project Management Fundamentals for Implementation of Digital Solutions",
+      "questions": [{
+                "q_number": 1,
+                "q_statement": "Which of the following most accurately describes a Project?",
+                "q_field_type": "single_select" ,
+                "q_selection": [{
+                    "A": "A temporary endevour undertaken with a defined beginning and end in time, defined scope and resources to create a singular unique product, service or result.",
+                    "B": "A defined set of tasks and activities that deliver products or services.",
+                    "C": "A profitable, contractual, business commitment with a client to deliver specific services that address their issues and meet shared expectations of quality and value.",
+                    "D": "Any engagement, program, or contract that delivers client services."
+                }]
+            },
+            {
+                "q_number": 2,
+                "q_statement": "Another question here",
+                "q_field_type": "single_select" ,
+                "q_selection": [{
+                    "A": "A temporary endevour undertaken with a defined beginning and end in time, defined scope and resources to create a singular unique product, service or result.",
+                    "B": "A defined set of tasks and activities that deliver products or services.",
+                    "C": "A profitable, contractual, business commitment with a client to deliver specific services that address their issues and meet shared expectations of quality and value.",
+                    "D": "Any engagement, program, or contract that delivers client services."
+                }]
+            },
+            {
+                "q_number": 3,
+                "q_statement": "Another question here",
+                "q_field_type": "single_select" ,
+                "q_selection": [{
+                    "A": "A temporary endevour undertaken with a defined beginning and end in time, defined scope and resources to create a singular unique product, service or result.",
+                    "B": "A defined set of tasks and activities that deliver products or services.",
+                    "C": "A profitable, contractual, business commitment with a client to deliver specific services that address their issues and meet shared expectations of quality and value.",
+                    "D": "Any engagement, program, or contract that delivers client services."
+                }]
+            }
+        ]
+     }]
+  }
+
+]
