@@ -74,9 +74,9 @@ const LandingPage = () => {
                 className="w-full logo"
                 />
             </div> 
-            <h2 className="text-3xl font-bold text-gray-900">SGV Institute</h2>
+            <h2 className="text-3xl font-bold text-gray-900">SGV FSO Institute</h2>
             <p className="text-gray-700">
-              SGV Institute offers a variety of courses to elevate your skills and knowledge.
+              SGV FSO Institute offers a variety of courses to elevate your skills and knowledge.
             </p>
           </div>
 
