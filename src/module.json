@@ -1,6 +1,7 @@
 [{
     "id": 1,
     "moduleId": "PMFIDS_PM",
+    "moduleName": "Project Management",
     "type": "course",
     "sections": [
       {
@@ -39,13 +40,17 @@
         "order": 4,
         "title": "Summary",
         "body": "Here is the summary",
-        "image": "/src/assets/abstract.png"
+        "image": "/src/assets/abstract.png",
+        "image2": "/src/assets/abstract.png",
+        "video": "/src/assets/video.mp4"
       },
       {
         "order": 5,
         "title": "Ending",
         "body": "Here is the ending",
-        "image": "/src/assets/abstract.png"
+        "image": "/src/assets/abstract.png",
+        "image2": "/src/assets/abstract.png",
+        "video": "/src/assets/video.mp4"
       }
       
     ],
@@ -92,6 +97,7 @@
   {
     "id": 2,
     "moduleId": "PMFIDS_BCM",
+    "moduleName": "Budget and Cost Management",
     "type": "course",
     "sections": [
       {
