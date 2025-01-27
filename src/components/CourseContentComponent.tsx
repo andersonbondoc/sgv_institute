@@ -58,7 +58,7 @@ const CourseContentComponent: React.FC = () => {
       ) : (
         <CourseContentSection
         moduleId={selectedModule}
-          onBackToModules={() => setSelectedModule(null)} // Function to navigate back
+          onBackToModules={() => setSelectedModule(null)}
         />
       )}
     </div>
