@@ -1,38 +1,116 @@
 [{
     "exam_id": 1,
     "title": "Project Management Fundamentals for Implementation of Digital Solutions",
+    "body": "This assessment is designed to test your knowledge. Results of this assessment will be used to structure the workshop.",
     "questions": [{
               "q_number": 1,
-              "q_statement": "Which of the following most accurately describes a Project?",
-              "q_field_type": "single_select" ,
-              "q_selection": [{
-                  "A": "A temporary endevour undertaken with a defined beginning and end in time, defined scope and resources to create a singular unique product, service or result.",
-                  "B": "A defined set of tasks and activities that deliver products or services.",
-                  "C": "A profitable, contractual, business commitment with a client to deliver specific services that address their issues and meet shared expectations of quality and value.",
-                  "D": "Any engagement, program, or contract that delivers client services."
-              }]
+                "q_statement": "BSO Unibank is considering to initiate a project, to align stakeholder expectations and prepare the detailed plans for the project, what kind of document should the project team must create?",
+                "q_field_type": "single_select" ,
+                "q_selection": [{
+                    "A": "RAID Log",
+                    "B": "Budget Outline",
+                    "C": "Project Charter",
+                    "D": "RACI Matrix"
+                }]
           },
           {
               "q_number": 2,
-              "q_statement": "Another question here",
-              "q_field_type": "single_select" ,
+              "q_statement": "A good, solid plan answers several questions related to the following aspects of a project: (Select all that apply)",
+              "q_field_type": "multi_select" ,
               "q_selection": [{
-                  "A": "A temporary endevour undertaken with a defined beginning and end in time, defined scope and resources to create a singular unique product, service or result.",
-                  "B": "A defined set of tasks and activities that deliver products or services.",
-                  "C": "A profitable, contractual, business commitment with a client to deliver specific services that address their issues and meet shared expectations of quality and value.",
-                  "D": "Any engagement, program, or contract that delivers client services."
+                  "A": "How much time do we have to finish the tasks?",
+                  "B": "What are the roles and responsibilities of people involved in the project?",
+                  "C": "What are the rationale, goals, and objectives of the project?",
+                  "D": "All of the above"
               }]
           },
           {
               "q_number": 3,
-              "q_statement": "Another question here",
+              "q_statement": "Projects an be initiated for various reasons, usually when there is a ___________.",
               "q_field_type": "single_select" ,
               "q_selection": [{
-                  "A": "A temporary endevour undertaken with a defined beginning and end in time, defined scope and resources to create a singular unique product, service or result.",
-                  "B": "A defined set of tasks and activities that deliver products or services.",
-                  "C": "A profitable, contractual, business commitment with a client to deliver specific services that address their issues and meet shared expectations of quality and value.",
-                  "D": "Any engagement, program, or contract that delivers client services."
+                  "A": "Incoming budget",
+                  "B": "Need for a change",
+                  "C": "Customer demands",
+                  "D": "Peer pressure"
               }]
+          },
+          {
+            "q_number": 4,
+              "q_statement": "Milestones are meaningful when communicating the ____________ with the project team, key stakeholders, and sponsors.",
+              "q_field_type": "single_select" ,
+              "q_selection": [{
+                  "A": "status of the project",
+                  "B": "iteration of planning",
+                  "C": "beginning and end of the project",
+                  "D": "target audience"
+              }]
+          },
+          {
+            "q_number": 5,
+              "q_statement": "Question 5",
+              "q_field_type": "single_select" ,
+              "q_selection": [{
+                  "A": "Choice A",
+                  "B": "Choice B",
+                  "C": "Choice C",
+                  "D": "Choice D"
+              }]
+          },
+          {
+            "q_number": 6,
+              "q_statement": "What principle is a key approach for developing an emergent high-level paln, which is then revisited in subsequent phases for further development and refinement of a detailed or robust project plan?",
+              "q_field_type": "single_select" ,
+              "q_selection": [{
+                  "A": "Roadmap",
+                  "B": "Business Case",
+                  "C": "RACI Matrix",
+                  "D": "ODW Principle"
+              }]
+          },
+          {
+            "q_number": 7,
+              "q_statement": "Critical Path Method or CPM is used to ______, ______, and ______ the plan's activities and timing. The CPM is used to evaluate and optimize project plans. (Select all that apply)",
+              "q_field_type": "multi_select" ,
+              "q_selection": [{
+                  "A": "Build",
+                  "B": "Evaluate",
+                  "C": "Milestones",
+                  "D": "Calculate"
+              }]
+          },
+          {
+            "q_number": 8,
+            "q_statement": "Assignment is the matchmaking of a resource to a task in a project plan. Assigning resources allows you to answer which questions? (Select all that apply)",
+            "q_field_type": "multi_select" ,
+            "q_selection": [{
+                "A": "Have you assigned so many tasks that a resource is beyond capacity?",
+                "B": "Who are your workstream members?",
+                "C": "Are you expecting a resource to work on a task when they are not available?",
+                "D": "Who should be working on what task and when?"
+            }]
+          },
+          {
+            "q_number": 9,
+            "q_statement": "Which of the following describes Issue Management?",
+            "q_field_type": "single_select" ,
+            "q_selection": [{
+                "A": "The process helps the project team to understand what to do with issues once identified. The Project Manager should ensure that the project team has the required skills to facilitate the movement of an issue throughout the process.",
+                "B": "It allows the project team to document, proactively account for, and address items interrelated with the project.",
+                "C": "When effectively employed, stakeholder management is critical to the success of a project.",
+                "D": "None of the above"
+            }]
+          },
+          {
+            "q_number": 10,
+            "q_statement": "Which of the following are important output in Closing phase? (Select all that apply)",
+            "q_field_type": "multi_select" ,
+            "q_selection": [{
+                "A": "Supplier contract close document",
+                "B": "Team performance assessments",
+                "C": "Team resources released",
+                "D": "None of the above"
+            }]
           }
       ]
 }]
