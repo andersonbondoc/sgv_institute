@@ -8,25 +8,25 @@
         "order": 1,
         "title": "Introduction",
         "body": "Welcome to the course...",
-        "image": "/src/assets/abstract.png",
-        "image2": "/src/assets/abstract.png",
-        "video": "/src/assets/video.mp4"
+        "image": "/src/assets/img/WBLImagePlaceholder.png",
+        "image2": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
       },
       {
         "order": 2,
         "title": "Key Concepts",
         "body": "Here are the key concepts...",
-        "image": "/src/assets/abstract.png",
-        "image2": "/src/assets/abstract.png",
-        "video": "/src/assets/video.mp4"
+        "image": "/src/assets/img/WBLImagePlaceholder.png",
+        "image2": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
       },
       {
         "order": 3,
         "title": "Knowledge Check",
         "body": "What are the three primary constraints of the project management triangle?",
-        "image": "/src/assets/abstract.png",
-        "image2": "/src/assets/abstract.png",
-        "video": "/src/assets/video.mp4",
+        "image": "/src/assets/img/WBLImagePlaceholder.png",
+        "image2": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4",
         "q_field_type": "single_select" ,
         "q_selection": [{
           "A": "Resources, Schedule, Quality",
@@ -40,17 +40,17 @@
         "order": 4,
         "title": "Summary",
         "body": "Here is the summary",
-        "image": "/src/assets/abstract.png",
-        "image2": "/src/assets/abstract.png",
-        "video": "/src/assets/video.mp4"
+        "image": "/src/assets/img/WBLImagePlaceholder.png",
+        "image2": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
       },
       {
         "order": 5,
         "title": "Ending",
         "body": "Here is the ending",
-        "image": "/src/assets/abstract.png",
-        "image2": "/src/assets/abstract.png",
-        "video": "/src/assets/video.mp4"
+        "image": "/src/assets/img/WBLImagePlaceholder.png",
+        "image2": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
       }
       
     ],
@@ -182,19 +182,19 @@
         "order": 1,
         "title": "Introduction",
         "body": "Welcome to the course...",
-        "image": "/src/assets/abstract.png"
+        "image": "/src/assets/img/WBLImagePlaceholder.png"
       },
       {
         "order": 2,
         "title": "Key Concepts",
         "body": "Here are the key concepts...",
-        "image": "/src/assets/abstract.png"
+        "image": "/src/assets/img/WBLImagePlaceholder.png"
       },
       {
         "order": 3,
         "title": "Knowledge Check",
         "body": "What are the three primary constraints of the project management triangle?",
-        "image": "/src/assets/abstract.png",
+        "image": "/src/assets/img/WBLImagePlaceholder.png",
         "q_field_type": "single_select" ,
         "q_selection": [{
           "A": "Resources, Schedule, Quality",
@@ -208,13 +208,13 @@
         "order": 4,
         "title": "Summary",
         "body": "Here is the summary",
-        "image": "/src/assets/abstract.png"
+        "image": "/src/assets/img/WBLImagePlaceholder.png"
       },
       {
         "order": 5,
         "title": "Ending",
         "body": "Here is the ending",
-        "image": "/src/assets/abstract.png"
+        "image": "/src/assets/img/WBLImagePlaceholder.png"
       }
       
     ],
@@ -345,19 +345,19 @@
         "order": 1,
         "title": "Introduction",
         "body": "Welcome to the course...",
-        "image": "/src/assets/abstract.png"
+        "image": "/src/assets/img/WBLImagePlaceholder.png"
       },
       {
         "order": 2,
         "title": "Key Concepts",
         "body": "Here are the key concepts...",
-        "image": "/src/assets/abstract.png"
+        "image": "/src/assets/img/WBLImagePlaceholder.png"
       },
       {
         "order": 3,
         "title": "Knowledge Check",
         "body": "What are the three primary constraints of the project management triangle?",
-        "image": "/src/assets/abstract.png",
+        "image": "/src/assets/img/WBLImagePlaceholder.png",
         "q_field_type": "single_select" ,
         "q_selection": [{
           "A": "Resources, Schedule, Quality",
@@ -371,13 +371,13 @@
         "order": 4,
         "title": "Summary",
         "body": "Here is the summary",
-        "image": "/src/assets/abstract.png"
+        "image": "/src/assets/img/WBLImagePlaceholder.png"
       },
       {
         "order": 5,
         "title": "Ending",
         "body": "Here is the ending",
-        "image": "/src/assets/abstract.png"
+        "image": "/src/assets/img/WBLImagePlaceholder.png"
       }
       
     ],
