@@ -86,7 +86,7 @@ const LandingPage = () => {
           </div>
 
  
-          <div className="w-full max-w-4xl space-y-6">
+          <div className="w-full max-w-4xl space-y-2">
             <h3 className="text-xl font-semibold text-gray-900">Recommended Courses</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {courses.map((course) => (

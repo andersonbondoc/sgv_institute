@@ -84,12 +84,11 @@ const CoursePage: React.FC = () => {
 
       {/* Course Content */}
       <IonContent className="p-6 bg-gray-50">
-      
         <div className="p-4">
-            <div className="text-center space-y-4 mt-10">
-            <h1 className="text-2xl font-bold text-gray-900">{course.title}</h1>
-            <p className="text-gray-700">{course.description}</p>
-            <p className="text-indigo-500 font-medium">{course.price}</p>
+            <div className="text-center space-y-4 mt-10 hidden md:block">
+                <h1 className="text-2xl font-bold text-gray-900">{course.title}</h1>
+                <p className="text-gray-700">{course.description}</p>
+                <p className="text-indigo-500 font-medium">{course.price}</p>
             </div>
             {/* <div className="mt-4 flex justify-center items-center">
                 <IonButton

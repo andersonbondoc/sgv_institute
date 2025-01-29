@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
-import { IonCard, IonCardContent } from "@ionic/react";
+import { IonCard, IonCardContent, IonIcon } from "@ionic/react";
+import { closeCircle, arrowBack, arrowForward } from "ionicons/icons";
 
 interface CourseContentSectionProps {
   moduleId: string;
@@ -39,10 +40,13 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({ moduleId, o
 
   return (
     <div className="bg-gray-50 min-h-screen">
+        <div className="flex justify-end mb-4">
+            <IonIcon icon={closeCircle} onClick={onBackToModules} size="large" className="p-2 mr-4 bg-indigo-500 text-white rounded-lg cursor-pointer"></IonIcon>
+        </div>
       {sections.length > 0 && currentSectionIndex < sections.length ? (
         <IonCard className="p-2 bg-white shadow-md">
           <IonCardContent>
-            <h2 className="text-2xl font-bold">{currentSection.title}</h2>
+            <h1 className="text-2xl font-bold">{currentSection.title}</h1>
             <p className="text-gray-700 mt-2">{currentSection.body}</p>
             {currentSection.image && (
               <img
@@ -58,14 +62,14 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({ moduleId, o
               disabled={currentSectionIndex === 0}
               className="px-4 py-2 bg-gray-200 text-gray-700 rounded-lg"
             >
-              Back
+              <IonIcon icon={arrowBack}/> Back
             </button>
             <button
               onClick={handleNext}
               disabled={currentSectionIndex === sections.length - 1}
-              className="px-4 py-2 bg-indigo-500 text-white rounded-lg"
+              className="px-4 py-2 bg-indigo-700 text-white rounded-lg"
             >
-              Next
+              Next <IonIcon icon={arrowForward}/>
             </button>
           </div>
         </IonCard>
@@ -74,7 +78,7 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({ moduleId, o
           <h2 className="text-2xl font-bold">No content available</h2>
           <button
             onClick={onBackToModules}
-            className="mt-4 px-4 py-2 bg-indigo-500 text-white rounded-lg"
+            className="mt-4 px-4 py-2 bg-indigo-700 text-white rounded-lg"
           >
             Back to Modules
           </button>

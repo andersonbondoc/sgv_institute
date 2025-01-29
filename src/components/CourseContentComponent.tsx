@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { IonCard, IonCardContent } from "@ionic/react";
+import { IonCard, IonCardContent, IonSearchbar } from "@ionic/react";
 import CourseContentSection from "./CourseContentSections";
 
 const CourseContentComponent: React.FC = () => {
@@ -10,7 +10,7 @@ const CourseContentComponent: React.FC = () => {
       id: 0,
       courseId: "PMFIDS",
       moduleId: "PMFIDS_PM",
-      title: "Project Management",
+      title: "Project Management Fundamentsl, Tools, and Techniques",
       description: "Learn the fundamentals of managing projects efficiently.",
       icon: "/src/assets/abstract.png",
       bgColor: "bg-indigo-100",
@@ -39,6 +39,9 @@ const CourseContentComponent: React.FC = () => {
     <div className="mt-2 p-2 bg-gray-50 min-h-screen">
       {!selectedModule ? (
         <div className="space-y-6">
+          <div className="w-full">
+            <IonSearchbar placeholder="Search Modules..." className="mb-4"></IonSearchbar>
+          </div>
           {contents.map((content) => (
             <IonCard
               key={content.id}
@@ -48,7 +51,7 @@ const CourseContentComponent: React.FC = () => {
               <IonCardContent className="flex items-center space-x-4">
                 <img src={content.icon} alt={content.title} className="w-12 h-12 rounded-full" />
                 <div>
-                  <h4 className="text-2xl font-semibold text-gray-800">{content.title}</h4>
+                  <div className="text-2xl font-bold">{content.title}</div>
                   <p className="text-gray-600 text-base">{content.description}</p>
                 </div>
               </IonCardContent>
