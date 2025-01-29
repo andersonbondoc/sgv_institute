@@ -14,8 +14,10 @@
       },
       {
         "order": 2,
-        "title": "Key Concepts",
-        "body": "Here are the key concepts...",
+        "title": "Defining Project",
+        "body": "A project is a temporary endeavor undertaken to create a unique product, service or result.",
+        "body2": "A project is distinct from routine operations and has a singular goal",
+        "body3": "A project is temporary in that it has a defined beginning and end in time, and therefore defined scope and resources",
         "image": "/src/assets/img/WBLImagePlaceholder.png",
         "image2": "/src/assets/img/WBLImagePlaceholder.png",
         "video": "/src/assets/WBLVideoPlaceholder.mp4"

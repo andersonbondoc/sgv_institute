@@ -41,37 +41,50 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({ moduleId, o
   return (
     <div className="bg-gray-50 min-h-screen">
         <div className="flex justify-end mb-4">
-            <IonIcon icon={closeCircle} onClick={onBackToModules} size="large" className="p-2 mr-4 bg-indigo-500 text-white rounded-lg cursor-pointer"></IonIcon>
+            <IonIcon icon={closeCircle} onClick={onBackToModules} size="large" className="p-2 mr-4 bg-grey-500  rounded-lg cursor-pointer"></IonIcon>
         </div>
       {sections.length > 0 && currentSectionIndex < sections.length ? (
-        <IonCard className="p-2 bg-white shadow-md">
-          <IonCardContent>
-            <h1 className="text-2xl font-bold">{currentSection.title}</h1>
-            <p className="text-gray-700 mt-2">{currentSection.body}</p>
-            {currentSection.image && (
-              <img
-                src={currentSection.image}
-                alt={currentSection.title}
-                className="w-20 h-20 mt-4 rounded-lg"
-              />
-            )}
-          </IonCardContent>
-          <div className="flex justify-between mt-4">
+        <IonCard className="p-4 bg-white shadow-lg rounded-xl">
+            <IonCardContent>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
+                {/* Left Column: Image */}
+                {currentSection.image && (
+                <div className="flex justify-center">
+                    <img
+                    src={currentSection.image}
+                    alt={currentSection.title}
+                    className="w-full max-w-md h-auto rounded-lg shadow-md"
+                    />
+                </div>
+                )}
+        
+                {/* Right Column: Content */}
+                <div>
+                <div className="text-3xl font-bold text-gray-900 mb-6">{currentSection.title}</div>
+                <div className="text-2xl text-gray-700 mt-4">{currentSection.body}</div>
+                <div className="text-2xl text-gray-700 mt-2">{currentSection.body2}</div>
+                <div className="text-2xl text-gray-700 mt-2">{currentSection.body3}</div>
+                </div>
+            </div>
+            </IonCardContent>
+        
+            {/* Navigation Buttons */}
+            <div className="flex justify-between mt-6 px-4 pb-4">
             <button
-              onClick={handleBack}
-              disabled={currentSectionIndex === 0}
-              className="px-4 py-2 bg-gray-200 text-gray-700 rounded-lg"
+                onClick={handleBack}
+                disabled={currentSectionIndex === 0}
+                className="px-4 py-2 bg-gray-300 text-gray-700 rounded-lg flex items-center gap-2"
             >
-              <IonIcon icon={arrowBack}/> Back
+                <IonIcon icon={arrowBack} /> Back
             </button>
             <button
-              onClick={handleNext}
-              disabled={currentSectionIndex === sections.length - 1}
-              className="px-4 py-2 bg-indigo-700 text-white rounded-lg"
+                onClick={handleNext}
+                disabled={currentSectionIndex === sections.length - 1}
+                className="px-4 py-2 bg-indigo-700 text-white rounded-lg flex items-center gap-2"
             >
-              Next <IonIcon icon={arrowForward}/>
+                Next <IonIcon icon={arrowForward} />
             </button>
-          </div>
+            </div>
         </IonCard>
       ) : (
         <div>
