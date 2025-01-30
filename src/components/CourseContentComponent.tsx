@@ -1,16 +1,23 @@
 import React, { useState } from "react";
-import { IonCard, IonCardContent, IonSearchbar } from "@ionic/react";
+import { useHistory, useParams } from 'react-router-dom';
+import { IonCard, IonCardContent, IonSearchbar, IonButton, IonIcon, IonLabel } from "@ionic/react";
+import { createOutline } from "ionicons/icons";
 import CourseContentSection from "./CourseContentSections";
 
 const CourseContentComponent: React.FC = () => {
   const [selectedModule, setSelectedModule] = useState<string | null>(null);
-
+  const { courseId } = useParams<{ courseId: string }>()
+  const history = useHistory();
+  const handleTakeExam = () => {
+    history.push(`/course/${courseId}/exam`);
+    window.location.reload();
+  };
   const contents = [
     {
       id: 0,
       courseId: "PMFIDS",
       moduleId: "PMFIDS_PM",
-      title: "Project Management Fundamentsl, Tools, and Techniques",
+      title: "Project Management Fundamentals, Tools, and Techniques",
       description: "Learn the fundamentals of managing projects efficiently.",
       icon: "/src/assets/abstract.png",
       bgColor: "bg-indigo-100",
@@ -36,7 +43,7 @@ const CourseContentComponent: React.FC = () => {
   ];
 
   return (
-    <div className="mt-2 p-2 bg-gray-50 min-h-screen">
+    <div className="bg-gray-50 min-h-screen">
       {!selectedModule ? (
         <div className="space-y-6">
           <div className="w-full">
@@ -52,17 +59,23 @@ const CourseContentComponent: React.FC = () => {
                 <img src={content.icon} alt={content.title} className="w-12 h-12 rounded-full" />
                 <div>
                   <div className="text-2xl font-bold">{content.title}</div>
-                  <p className="text-gray-600 text-base">{content.description}</p>
+                  <div className="text-1xl mt-4 text-gray-600">{content.description}</div>
                 </div>
               </IonCardContent>
             </IonCard>
           ))}
+          <div className="mt-4 flex justify-center items-center">
+              <button onClick={handleTakeExam}
+              className="px-4 py-4 bg-indigo-700 text-white rounded-lg flex items-center gap-2"
+              > 
+                  <IonIcon icon={createOutline} size="small"></IonIcon>
+                  <span className="font-bold">Take Course Examination</span>
+                  
+              </button>
+          </div>
         </div>
       ) : (
-        <CourseContentSection
-        moduleId={selectedModule}
-          onBackToModules={() => setSelectedModule(null)}
-        />
+        <CourseContentSection moduleId={selectedModule} onBackToModules={() => setSelectedModule(null)}/>
       )}
     </div>
   );

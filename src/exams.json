@@ -1,4 +1,5 @@
 [{
+    "courseId": "PMFIDS",
     "exam_id": 1,
     "title": "Project Management Fundamentals for Implementation of Digital Solutions",
     "body": "This assessment is designed to test your knowledge. Results of this assessment will be used to structure the workshop.",
@@ -16,7 +17,7 @@
           {
               "q_number": 2,
               "q_statement": "A good, solid plan answers several questions related to the following aspects of a project: (Select all that apply)",
-              "q_field_type": "multi_select" ,
+              "q_field_type": "single_select" ,
               "q_selection": [{
                   "A": "How much time do we have to finish the tasks?",
                   "B": "What are the roles and responsibilities of people involved in the project?",
@@ -71,7 +72,7 @@
           {
             "q_number": 7,
               "q_statement": "Critical Path Method or CPM is used to ______, ______, and ______ the plan's activities and timing. The CPM is used to evaluate and optimize project plans. (Select all that apply)",
-              "q_field_type": "multi_select" ,
+              "q_field_type": "single_select" ,
               "q_selection": [{
                   "A": "Build",
                   "B": "Evaluate",
@@ -82,7 +83,7 @@
           {
             "q_number": 8,
             "q_statement": "Assignment is the matchmaking of a resource to a task in a project plan. Assigning resources allows you to answer which questions? (Select all that apply)",
-            "q_field_type": "multi_select" ,
+            "q_field_type": "single_select" ,
             "q_selection": [{
                 "A": "Have you assigned so many tasks that a resource is beyond capacity?",
                 "B": "Who are your workstream members?",
@@ -104,7 +105,7 @@
           {
             "q_number": 10,
             "q_statement": "Which of the following are important output in Closing phase? (Select all that apply)",
-            "q_field_type": "multi_select" ,
+            "q_field_type": "single_select" ,
             "q_selection": [{
                 "A": "Supplier contract close document",
                 "B": "Team performance assessments",

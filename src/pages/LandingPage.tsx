@@ -109,14 +109,13 @@ const LandingPage = () => {
                   <p className="mt-4 text-sm text-gray-700">{course.description}</p>
                   <div className="mt-4 flex justify-between items-center">
                     <span className="text-indigo-500 font-medium">{course.price}</span>
-                    <IonButton
-                    className="text-sm px-4 py-2 bg-indigo-500 text-white rounded-lg shadow-md flex items-center space-x-2"
-                    fill="clear"
+                    <button
+                    className="px-6 py-2 bg-indigo-700 text-white rounded-lg flex items-center gap-2"
                     onClick={() => handleTakeCourse(course.courseCode)}
                     >
-                        <span>Take Course</span>
+                        <span className="font-bold">Take Course</span>
                         <IonIcon icon={arrowForwardCircleOutline} size="small"></IonIcon>
-                    </IonButton>
+                    </button>
                   </div>
                 </div>
               ))}

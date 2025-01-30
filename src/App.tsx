@@ -17,6 +17,7 @@ import LandingPage from './pages/LandingPage';
 import HomePage from './pages/HomePage';
 import ProfilePage from './pages/ProfilePage';
 import CoursePage from './pages/CoursePage';
+import CourseExamination from './pages/CourseExamination'
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
@@ -68,7 +69,8 @@ const App: React.FC = () => (
             <Tab1 />
           </Route>
 
-          <Route path="/course/:courseCode" component={CoursePage} />
+          <Route path="/course/:courseId" component={CoursePage} />
+          <Route path="/course/:courseId/exam" component={CourseExamination}/>
          
           <Route exact path="/">
             <Redirect to="/welcome" />
