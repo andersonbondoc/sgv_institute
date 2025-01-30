@@ -67,7 +67,6 @@ const CourseExamination: React.FC = () => {
                 {question.q_number}. {question.q_statement}
                 </div>
 
-                {/* Answer Choices (Replaced IonRadio with HTML radio buttons) */}
                 <div className="col-span-2">
                 <div className="grid grid-cols-2 gap-4">
                     {question.q_selection[0] &&
