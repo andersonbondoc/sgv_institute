@@ -25,9 +25,9 @@ const ProfilePage: React.FC = () => {
       <IonContent className="p-6 bg-gray-50">
         <div className="flex flex-col items-center space-y-6">
           {/* Profile Picture */}
-          <div className="w-24 h-24 rounded-full border-4 border-indigo-500 shadow-md overflow-hidden">
+          <div className="w-24 h-24 rounded-full border-4 border-indigo-500 shadow-md overflow-hidden mt-8">
             <img
-              src="/assets/profile-placeholder.png"
+              src="/src/assets/abstract.png"
               alt="Profile"
               className="w-full h-full object-cover"
             />
