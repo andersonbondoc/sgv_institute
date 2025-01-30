@@ -58,7 +58,7 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({ moduleId, o
           icon={closeCircle}
           onClick={onBackToModules}
           size="large"
-          className="p-2 mr-4 rounded-lg cursor-pointer"
+          className="p-2 mr-4 rounded-lg cursor-pointer text-gray-400"
         />
       </div>
 

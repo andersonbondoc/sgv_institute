@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useParams, useHistory } from "react-router-dom";
-import { IonPage, IonHeader, IonToolbar, IonContent, IonButtons, IonButton, IonTitle, IonIcon } from "@ionic/react";
-import { arrowBackOutline, arrowForwardCircle } from "ionicons/icons";
+import { IonPage, IonHeader, IonToolbar, IonContent, IonButtons, IonButton, IonTitle, IonIcon, IonModal, IonText } from "@ionic/react";
+import { arrowBackOutline, enterOutline, closeCircle, checkmarkCircleOutline, readerOutline, push } from "ionicons/icons";
 
 interface Question {
   q_number: number;
@@ -24,6 +24,9 @@ const CourseExamination: React.FC = () => {
   const [answers, setAnswers] = useState<Record<number, string>>({});
   const history = useHistory();
 
+  const [showModal, setShowModal] = useState(false); // For controlling the modal visibility
+  const [score, setScore] = useState({ correct: 0, total: 10 });
+
   useEffect(() => {
     import("../exams.json")
       .then((data) => {
@@ -40,6 +43,12 @@ const CourseExamination: React.FC = () => {
     console.log('t1')
     setAnswers((prev) => ({ ...prev, [qNumber]: value }));
   };
+
+  const handleSubmit = () => {
+    setScore({ correct: 8, total: 10 }); 
+    setShowModal(true); 
+  };
+
 
   if (!examData) return <IonContent>Loading...</IonContent>;
 
@@ -90,11 +99,41 @@ const CourseExamination: React.FC = () => {
         </div>
 
         <div className="mt-6 flex justify-end">
-            <button className="px-6 py-2 bg-indigo-700 text-white rounded-lg flex items-center gap-2">
-            Submit Answers
-            <IonIcon icon={arrowForwardCircle} />
+            <button className="px-6 py-2 bg-indigo-700 text-white rounded-lg flex items-center gap-2" onClick={handleSubmit}>
+            Submit my answers
+            <IonIcon icon={enterOutline} />
             </button>
         </div>
+
+          {/* Result Modal */}
+        <IonModal isOpen={showModal} onDidDismiss={() => setShowModal(false)}>
+          <IonContent className="ion-padding">
+            <div className="text-right">
+                <IonIcon size="large" className="p-2 mr-4 rounded-lg cursor-pointer" onClick={() => setShowModal(false)} icon={closeCircle} />
+            </div>
+            <div className="flex justify-center items-center">
+              <div className="bg-white rounded-xl shadow-lg w-full max-w-md">
+                <div className="text-center">
+                    <h2 className="text-3xl font-semibold mb-4">Assessment Result</h2>
+                    <div className="text-xl text-gray-800">
+                        <IonIcon size="large" className="p-2 mr-4 rounded-lg cursor-pointer text-indigo-600"  icon={checkmarkCircleOutline} />
+                      <p className="mb-2">Your Score: <span className="font-bold">{score.correct}/{score.total}</span></p>
+                      <p className="mb-4">Percentage: <span className="font-bold">{((score.correct / score.total) * 100).toFixed(2)}%</span></p>
+
+                      <p className="mt-4 mb-4">Congratulations for passing this course examination! 🥳🥳🥳</p>
+                    </div>
+                    <div className="flex justify-center items-center">
+                        <button className="mb-4 px-6 py-2 bg-indigo-700 text-white rounded-lg flex items-center gap-2">
+                            <IonIcon icon={readerOutline} />
+                            Download Certificate
+                        </button>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </IonContent>
+        </IonModal>
+
         </IonContent>
     </IonPage>
   );
