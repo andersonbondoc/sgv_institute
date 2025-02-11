@@ -225,125 +225,131 @@
         "title": "Ending",
         "body": "Here is the ending",
         "image": "/src/assets/img/WBLImagePlaceholder.png"
-      }
-      
-    ],
-    "exams": [{
-      "exam_id": 1,
-      "title": "Course Examination",
-      "body": "This assessment is designed to test your knowledge. Results of this assessment will be used to structure the workshop.",
-      "questions": [{
-                "q_number": 1,
-                "q_statement": "You are managing a project that involves multiple phases and a significant budget. As part of your responsibilities, you need to ensure effective financial control throughout the project's lifecycle. Which of the following processes are required to maintain effective financial control of a project?",
-                "q_field_type": "single_select" ,
-                "q_selection": [{
-                    "A": "Estimating, budgeting, and controlling project costs",
-                    "B": "Scheduling project tasks and milestones",
-                    "C": "Managing project risks and issues",
-                    "D": "Allocating resources and managing team performance"
-                }]
-            },
-            {
-                "q_number": 2,
-                "q_statement": "The Earned Value Management (EVM) develops and monitors three key dimensions for each work package and control account. This dimension is the realized cost incurred for the work performed on an activity during a specific time period.",
-                "q_field_type": "single_select" ,
-                "q_selection": [{
-                    "A": "Cost Performance Index",
-                    "B": "Earned Value",
-                    "C": "Cost Variance",
-                    "D": "Actual Cost"
-                }]
-            },
-            {
-                "q_number": 3,
-                "q_statement": "Juan is an IT professional who specializes in digitally transforming banks for over 20 years. The current bank that he’s working under assigned him to pitch a project in which he will be spearheading alongside Pedro, the operations manager. The CEO told Juan and Pedro that the board believes that the bank is already matured in its operations and is equipped with enough resources and competencies to expand its reach, therefore wanting the bank to have its own mobile application. During the planning phase of the project, which cost estimating technique is best for Juan and Pedro to use for their pitch?",
-                "q_field_type": "single_select" ,
-                "q_selection": [{
-                    "A": "Delphi (Consensus) Estimating",
-                    "B": "Parametric Estimating",
-                    "C": "Top-Down Estimating",
-                    "D": "Analogous Estimating"
-                }]
-            },
-            {
-                "q_number": 4,
-                "q_statement": "Which of the choices is one of the four functions of cost management?",
-                "q_field_type": "single_select" ,
-                "q_selection": [{
-                    "A": "Plan and Deliverable Management",
-                    "B": "Resource Planning",
-                    "C": "Project Scheduling",
-                    "D": "Scope Management"
-                }]
-            },
-            {
-                "q_number": 5,
-                "q_statement": "This budgeting methodology focuses on value-adding processes of an organization.",
-                "q_field_type": "single_select" ,
-                "q_selection": [{
-                    "A": "Activity-Based Budget",
-                    "B": "Zero-Based Budget",
-                    "C": "Bottom-Up Estimating",
-                    "D": "Reserve Analysis"
-                }]
-            },
-            {
-                "q_number": 6,
-                "q_statement": "The biggest challenge of this budgeting methodology is ensuring the commitment of all employees to be in constant budgeting mode.",
-                "q_field_type": "single_select" ,
-                "q_selection": [{
-                    "A": "Flexible Budget",
-                    "B": "Zero-Based Budget",
-                    "C": "Rolling Budget",
-                    "D": "Activity-Based Budget"
-                }]
-            },
-            {
-                "q_number": 7,
-                "q_statement": "This cost estimation technique accounts for risk factors, therefore arriving at the best, worst, and most likely case scenarios.",
-                "q_field_type": "single_select" ,
-                "q_selection": [{
-                    "A": "Three-Point Estimating",
-                    "B": "Earned Value Analysis",
-                    "C": "Vendor Bid Analysis",
-                    "D": "Template Method"
-                }]
-            },
-            {
-                "q_number": 8,
-                "q_statement": "An organization’s strategy in quantitative form.",
-                "q_field_type": "single_select" ,
-                "q_selection": [{
-                    "A": "Framework",
-                    "B": "Financial Statement",
-                    "C": "Budget",
-                    "D": "Work Breakdown Structure (WBS)"
-                }]
-            },
-            {
-                "q_number": 9,
-                "q_statement": "Cash flows are crucial for the financial health of a project or business. In which of the following situations are cash flows particularly important?",
-                "q_field_type": "single_select" ,
-                "q_selection": [{
-                    "A": "Always, especially in times of change or where there is a reasonable degree of risk",
-                    "B": "Only if you are short of money",
-                    "C": "Only if you have a surplus",
-                    "D": "Only if income and/or expenses are particularly variable"
-                }]
-            },
-            {
-                "q_number": 10,
-                "q_statement": "First National Bank is a mid-sized financial institution that has been facing challenges with its traditional budgeting process. The management team has noticed that the current budgeting system lacks accuracy and transparency, leading to inefficiencies and cost overruns. To address these issues, the bank decided to implement activity-based budgeting (ABB). After conducting a thorough analysis of their operations, First National Bank identified the key activities that drive costs within the organization. They focused on supporting value-adding processes and improving the accuracy of cost measurement. The implementation of ABB provided a much more accurate cost plan, control, and evaluation. Evaluate the impact of improved cost measurement accuracy on the financial planning and decision-making process at First National Bank.",
-                "q_field_type": "single_select" ,
-                "q_selection": [{
-                    "A": "More accurate and reliable financial data for planning and forecasting",
-                    "B": "Better identification of cost drivers and areas for cost reduction",
-                    "C": "Improved ability to make informed strategic decisions based on detailed cost analysis",
-                    "D": "All of the above"
-                }]
-            }
-        ]
-     }]
+      },
+      {
+        "order": 6,
+        "title": "Exam",
+        "body": "",
+        "image": "",
+        "exams": [{
+        "exam_id": 1,
+            "title": "Course Examination",
+            "body": "This assessment is designed to test your knowledge. Results of this assessment will be used to structure the workshop.",
+            "questions": [{
+                        "q_number": 1,
+                        "q_statement": "You are managing a project that involves multiple phases and a significant budget. As part of your responsibilities, you need to ensure effective financial control throughout the project's lifecycle. Which of the following processes are required to maintain effective financial control of a project?",
+                        "q_field_type": "single_select" ,
+                        "q_selection": [{
+                            "A": "Estimating, budgeting, and controlling project costs",
+                            "B": "Scheduling project tasks and milestones",
+                            "C": "Managing project risks and issues",
+                            "D": "Allocating resources and managing team performance"
+                        }]
+                    },
+                    {
+                        "q_number": 2,
+                        "q_statement": "The Earned Value Management (EVM) develops and monitors three key dimensions for each work package and control account. This dimension is the realized cost incurred for the work performed on an activity during a specific time period.",
+                        "q_field_type": "single_select" ,
+                        "q_selection": [{
+                            "A": "Cost Performance Index",
+                            "B": "Earned Value",
+                            "C": "Cost Variance",
+                            "D": "Actual Cost"
+                        }]
+                    },
+                    {
+                        "q_number": 3,
+                        "q_statement": "Juan is an IT professional who specializes in digitally transforming banks for over 20 years. The current bank that he’s working under assigned him to pitch a project in which he will be spearheading alongside Pedro, the operations manager. The CEO told Juan and Pedro that the board believes that the bank is already matured in its operations and is equipped with enough resources and competencies to expand its reach, therefore wanting the bank to have its own mobile application. During the planning phase of the project, which cost estimating technique is best for Juan and Pedro to use for their pitch?",
+                        "q_field_type": "single_select" ,
+                        "q_selection": [{
+                            "A": "Delphi (Consensus) Estimating",
+                            "B": "Parametric Estimating",
+                            "C": "Top-Down Estimating",
+                            "D": "Analogous Estimating"
+                        }]
+                    },
+                    {
+                        "q_number": 4,
+                        "q_statement": "Which of the choices is one of the four functions of cost management?",
+                        "q_field_type": "single_select" ,
+                        "q_selection": [{
+                            "A": "Plan and Deliverable Management",
+                            "B": "Resource Planning",
+                            "C": "Project Scheduling",
+                            "D": "Scope Management"
+                        }]
+                    },
+                    {
+                        "q_number": 5,
+                        "q_statement": "This budgeting methodology focuses on value-adding processes of an organization.",
+                        "q_field_type": "single_select" ,
+                        "q_selection": [{
+                            "A": "Activity-Based Budget",
+                            "B": "Zero-Based Budget",
+                            "C": "Bottom-Up Estimating",
+                            "D": "Reserve Analysis"
+                        }]
+                    },
+                    {
+                        "q_number": 6,
+                        "q_statement": "The biggest challenge of this budgeting methodology is ensuring the commitment of all employees to be in constant budgeting mode.",
+                        "q_field_type": "single_select" ,
+                        "q_selection": [{
+                            "A": "Flexible Budget",
+                            "B": "Zero-Based Budget",
+                            "C": "Rolling Budget",
+                            "D": "Activity-Based Budget"
+                        }]
+                    },
+                    {
+                        "q_number": 7,
+                        "q_statement": "This cost estimation technique accounts for risk factors, therefore arriving at the best, worst, and most likely case scenarios.",
+                        "q_field_type": "single_select" ,
+                        "q_selection": [{
+                            "A": "Three-Point Estimating",
+                            "B": "Earned Value Analysis",
+                            "C": "Vendor Bid Analysis",
+                            "D": "Template Method"
+                        }]
+                    },
+                    {
+                        "q_number": 8,
+                        "q_statement": "An organization’s strategy in quantitative form.",
+                        "q_field_type": "single_select" ,
+                        "q_selection": [{
+                            "A": "Framework",
+                            "B": "Financial Statement",
+                            "C": "Budget",
+                            "D": "Work Breakdown Structure (WBS)"
+                        }]
+                    },
+                    {
+                        "q_number": 9,
+                        "q_statement": "Cash flows are crucial for the financial health of a project or business. In which of the following situations are cash flows particularly important?",
+                        "q_field_type": "single_select" ,
+                        "q_selection": [{
+                            "A": "Always, especially in times of change or where there is a reasonable degree of risk",
+                            "B": "Only if you are short of money",
+                            "C": "Only if you have a surplus",
+                            "D": "Only if income and/or expenses are particularly variable"
+                        }]
+                    },
+                    {
+                        "q_number": 10,
+                        "q_statement": "First National Bank is a mid-sized financial institution that has been facing challenges with its traditional budgeting process. The management team has noticed that the current budgeting system lacks accuracy and transparency, leading to inefficiencies and cost overruns. To address these issues, the bank decided to implement activity-based budgeting (ABB). After conducting a thorough analysis of their operations, First National Bank identified the key activities that drive costs within the organization. They focused on supporting value-adding processes and improving the accuracy of cost measurement. The implementation of ABB provided a much more accurate cost plan, control, and evaluation. Evaluate the impact of improved cost measurement accuracy on the financial planning and decision-making process at First National Bank.",
+                        "q_field_type": "single_select" ,
+                        "q_selection": [{
+                            "A": "More accurate and reliable financial data for planning and forecasting",
+                            "B": "Better identification of cost drivers and areas for cost reduction",
+                            "C": "Improved ability to make informed strategic decisions based on detailed cost analysis",
+                            "D": "All of the above"
+                        }]
+                    }
+                ]
+            }]
+      } 
+    ]
+    
   },
   {
     "id": 3,
