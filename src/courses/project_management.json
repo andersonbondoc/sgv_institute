@@ -1,0 +1,494 @@
+[{
+    "id": 1,
+    "moduleId": "PMFIDS_PM",
+    "moduleName": "Project Management",
+    "type": "course",
+    "sections": [
+      {
+        "order": 1,
+        "title": "Introduction",
+        "subheader": "Welcome to SGV Institute module on Project Management Fundamentals, Tools and Techniques!",
+        "body": "This module is designed to provide you with a comprehensive understanding of project management, project management functions, tools, techniques, and frameworks, and project lifecycle.",
+        "list1": "A project is distinct from routine operations and has a singular goal; A project is temporary in that it has a defined beginning and end in time, and therefore defined; A project is distinct from routine operations and has a singular goal",
+        "list2": "",
+        "image": "/src/assets/img/WBLImagePlaceholder.png",
+        "image2": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
+      },
+      {
+        "order": 2,
+        "title": "Defining Project",
+        "subheader": "",
+        "body": "A project is a temporary endeavor undertaken to create a unique product, service or result.",
+        "list1": "A project is distinct from routine operations and has a singular goal",
+        "list2": "A project is temporary in that it has a defined beginning and end in time, and therefore defined scope and resources",
+        "image": "/src/assets/img/WBLImagePlaceholder.png",
+        "image2": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
+      },
+      {
+        "order": 3,
+        "title": "Knowledge Check",
+        "subheader": "",
+        "body": "What are the three primary constraints of the project management triangle?",
+        "image": "/src/assets/img/WBLImagePlaceholder.png",
+        "image2": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4",
+        "q_field_type": "single_select" ,
+        "q_selection": [{
+          "A": "Resources, Schedule, Quality",
+          "B": "Quality, Time, Budget",
+          "C": "Scope, Time, Cost",
+          "D": "Scope, Quality, Budget"
+        }],
+        "q_answer": "C"
+      },
+      {
+        "order": 4,
+        "title": "Learning Summary",
+        "subheader": "Congratulations on completing this module!",
+        "body": "Now that you have completed this lesson, you should be able to:",
+        "list1": "Define what is project and project management; Identify the three constraints of project management triangle and its importance to a poject",
+        "list2": "",
+        "image": "/src/assets/img/WBLImagePlaceholder.png",
+        "image2": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
+      },
+      {
+        "order": 5,
+        "title": "Finish",
+        "subheader": "Download Certificate",
+        "body": " Ut enim ad minim veniam",
+        "list1": "",
+        "list2": "",
+        "image": "/src/assets/img/WBLImagePlaceholder.png",
+        "image2": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
+      }],
+    "exams": [{
+      "exam_id": 1,
+      "title": "Course Examination",
+      "body": "This assessment is designed to test your knowledge. Results of this assessment will be used to structure the workshop.",
+      "questions": [{
+                "q_number": 1,
+                "q_statement": "BSO Unibank is considering to initiate a project, to align stakeholder expectations and prepare the detailed plans for the project, what kind of document should the project team must create?",
+                "q_field_type": "single_select" ,
+                "q_selection": [{
+                    "A": "RAID Log",
+                    "B": "Budget Outline",
+                    "C": "Project Charter",
+                    "D": "RACI Matrix"
+                }]
+            },
+            {
+                "q_number": 2,
+                "q_statement": "A good, solid plan answers several questions related to the following aspects of a project: (Select all that apply)",
+                "q_field_type": "multi_select" ,
+                "q_selection": [{
+                    "A": "How much time do we have to finish the tasks?",
+                    "B": "What are the roles and responsibilities of people involved in the project?",
+                    "C": "What are the rationale, goals, and objectives of the project?",
+                    "D": "All of the above"
+                }]
+            },
+            {
+                "q_number": 3,
+                "q_statement": "Projects an be initiated for various reasons, usually when there is a ___________.",
+                "q_field_type": "single_select" ,
+                "q_selection": [{
+                    "A": "Incoming budget",
+                    "B": "Need for a change",
+                    "C": "Customer demands",
+                    "D": "Peer pressure"
+                }]
+            },
+            {
+                "q_number": 4,
+                "q_statement": "Milestones are meaningful when communicating the ____________ with the project team, key stakeholders, and sponsors.",
+                "q_field_type": "single_select" ,
+                "q_selection": [{
+                    "A": "status of the project",
+                    "B": "iteration of planning",
+                    "C": "beginning and end of the project",
+                    "D": "target audience"
+                }]
+            },
+            {
+                "q_number": 5,
+                "q_statement": "Question 5",
+                "q_field_type": "single_select" ,
+                "q_selection": [{
+                    "A": "Choice A",
+                    "B": "Choice B",
+                    "C": "Choice C",
+                    "D": "Choice D"
+                }]
+            },
+            {
+                "q_number": 6,
+                "q_statement": "What principle is a key approach for developing an emergent high-level paln, which is then revisited in subsequent phases for further development and refinement of a detailed or robust project plan?",
+                "q_field_type": "single_select" ,
+                "q_selection": [{
+                    "A": "Roadmap",
+                    "B": "Business Case",
+                    "C": "RACI Matrix",
+                    "D": "ODW Principle"
+                }]
+            },
+            {
+                "q_number": 7,
+                "q_statement": "Critical Path Method or CPM is used to ______, ______, and ______ the plan's activities and timing. The CPM is used to evaluate and optimize project plans. (Select all that apply)",
+                "q_field_type": "multi_select" ,
+                "q_selection": [{
+                    "A": "Build",
+                    "B": "Evaluate",
+                    "C": "Milestones",
+                    "D": "Calculate"
+                }]
+            },
+            {
+                "q_number": 8,
+                "q_statement": "Assignment is the matchmaking of a resource to a task in a project plan. Assigning resources allows you to answer which questions? (Select all that apply)",
+                "q_field_type": "multi_select" ,
+                "q_selection": [{
+                    "A": "Have you assigned so many tasks that a resource is beyond capacity?",
+                    "B": "Who are your workstream members?",
+                    "C": "Are you expecting a resource to work on a task when they are not available?",
+                    "D": "Who should be working on what task and when?"
+              }]
+            },
+            {
+                "q_number": 9,
+                "q_statement": "Which of the following describes Issue Management?",
+                "q_field_type": "single_select" ,
+                "q_selection": [{
+                    "A": "The process helps the project team to understand what to do with issues once identified. The Project Manager should ensure that the project team has the required skills to facilitate the movement of an issue throughout the process.",
+                    "B": "It allows the project team to document, proactively account for, and address items interrelated with the project.",
+                    "C": "When effectively employed, stakeholder management is critical to the success of a project.",
+                    "D": "None of the above"
+              }]
+            },
+            {
+                "q_number": 10,
+                "q_statement": "Which of the following are important output in Closing phase? (Select all that apply)",
+                "q_field_type": "multi_select" ,
+                "q_selection": [{
+                    "A": "Supplier contract close document",
+                    "B": "Team performance assessments",
+                    "C": "Team resources released",
+                    "D": "None of the above"
+              }]
+            }]
+     }]
+  },
+
+  {
+    "id": 2,
+    "moduleId": "PMFIDS_BCM",
+    "moduleName": "Budget and Cost Management",
+    "type": "course",
+    "sections": [
+      {
+        "order": 1,
+        "title": "Introduction",
+        "body": "Welcome to the course...",
+        "image": "/src/assets/img/WBLImagePlaceholder.png"
+      },
+      {
+        "order": 2,
+        "title": "Key Concepts",
+        "body": "Here are the key concepts...",
+        "image": "/src/assets/img/WBLImagePlaceholder.png"
+      },
+      {
+        "order": 3,
+        "title": "Knowledge Check",
+        "body": "What are the three primary constraints of the project management triangle?",
+        "image": "/src/assets/img/WBLImagePlaceholder.png",
+        "q_field_type": "single_select" ,
+        "q_selection": [{
+          "A": "Resources, Schedule, Quality",
+          "B": "Quality, Time, Budget",
+          "C": "Scope, Time, Cost",
+          "D": "Scope, Quality, Budget"
+        }],
+        "q_answer": "C"
+      },
+      {
+        "order": 4,
+        "title": "Summary",
+        "body": "Here is the summary",
+        "image": "/src/assets/img/WBLImagePlaceholder.png"
+      },
+      {
+        "order": 5,
+        "title": "Ending",
+        "body": "Here is the ending",
+        "image": "/src/assets/img/WBLImagePlaceholder.png"
+      }
+      
+    ],
+    "exams": [{
+      "exam_id": 1,
+      "title": "Course Examination",
+      "body": "This assessment is designed to test your knowledge. Results of this assessment will be used to structure the workshop.",
+      "questions": [{
+                "q_number": 1,
+                "q_statement": "You are managing a project that involves multiple phases and a significant budget. As part of your responsibilities, you need to ensure effective financial control throughout the project's lifecycle. Which of the following processes are required to maintain effective financial control of a project?",
+                "q_field_type": "single_select" ,
+                "q_selection": [{
+                    "A": "Estimating, budgeting, and controlling project costs",
+                    "B": "Scheduling project tasks and milestones",
+                    "C": "Managing project risks and issues",
+                    "D": "Allocating resources and managing team performance"
+                }]
+            },
+            {
+                "q_number": 2,
+                "q_statement": "The Earned Value Management (EVM) develops and monitors three key dimensions for each work package and control account. This dimension is the realized cost incurred for the work performed on an activity during a specific time period.",
+                "q_field_type": "single_select" ,
+                "q_selection": [{
+                    "A": "Cost Performance Index",
+                    "B": "Earned Value",
+                    "C": "Cost Variance",
+                    "D": "Actual Cost"
+                }]
+            },
+            {
+                "q_number": 3,
+                "q_statement": "Juan is an IT professional who specializes in digitally transforming banks for over 20 years. The current bank that he’s working under assigned him to pitch a project in which he will be spearheading alongside Pedro, the operations manager. The CEO told Juan and Pedro that the board believes that the bank is already matured in its operations and is equipped with enough resources and competencies to expand its reach, therefore wanting the bank to have its own mobile application. During the planning phase of the project, which cost estimating technique is best for Juan and Pedro to use for their pitch?",
+                "q_field_type": "single_select" ,
+                "q_selection": [{
+                    "A": "Delphi (Consensus) Estimating",
+                    "B": "Parametric Estimating",
+                    "C": "Top-Down Estimating",
+                    "D": "Analogous Estimating"
+                }]
+            },
+            {
+                "q_number": 4,
+                "q_statement": "Which of the choices is one of the four functions of cost management?",
+                "q_field_type": "single_select" ,
+                "q_selection": [{
+                    "A": "Plan and Deliverable Management",
+                    "B": "Resource Planning",
+                    "C": "Project Scheduling",
+                    "D": "Scope Management"
+                }]
+            },
+            {
+                "q_number": 5,
+                "q_statement": "This budgeting methodology focuses on value-adding processes of an organization.",
+                "q_field_type": "single_select" ,
+                "q_selection": [{
+                    "A": "Activity-Based Budget",
+                    "B": "Zero-Based Budget",
+                    "C": "Bottom-Up Estimating",
+                    "D": "Reserve Analysis"
+                }]
+            },
+            {
+                "q_number": 6,
+                "q_statement": "The biggest challenge of this budgeting methodology is ensuring the commitment of all employees to be in constant budgeting mode.",
+                "q_field_type": "single_select" ,
+                "q_selection": [{
+                    "A": "Flexible Budget",
+                    "B": "Zero-Based Budget",
+                    "C": "Rolling Budget",
+                    "D": "Activity-Based Budget"
+                }]
+            },
+            {
+                "q_number": 7,
+                "q_statement": "This cost estimation technique accounts for risk factors, therefore arriving at the best, worst, and most likely case scenarios.",
+                "q_field_type": "single_select" ,
+                "q_selection": [{
+                    "A": "Three-Point Estimating",
+                    "B": "Earned Value Analysis",
+                    "C": "Vendor Bid Analysis",
+                    "D": "Template Method"
+                }]
+            },
+            {
+                "q_number": 8,
+                "q_statement": "An organization’s strategy in quantitative form.",
+                "q_field_type": "single_select" ,
+                "q_selection": [{
+                    "A": "Framework",
+                    "B": "Financial Statement",
+                    "C": "Budget",
+                    "D": "Work Breakdown Structure (WBS)"
+                }]
+            },
+            {
+                "q_number": 9,
+                "q_statement": "Cash flows are crucial for the financial health of a project or business. In which of the following situations are cash flows particularly important?",
+                "q_field_type": "single_select" ,
+                "q_selection": [{
+                    "A": "Always, especially in times of change or where there is a reasonable degree of risk",
+                    "B": "Only if you are short of money",
+                    "C": "Only if you have a surplus",
+                    "D": "Only if income and/or expenses are particularly variable"
+                }]
+            },
+            {
+                "q_number": 10,
+                "q_statement": "First National Bank is a mid-sized financial institution that has been facing challenges with its traditional budgeting process. The management team has noticed that the current budgeting system lacks accuracy and transparency, leading to inefficiencies and cost overruns. To address these issues, the bank decided to implement activity-based budgeting (ABB). After conducting a thorough analysis of their operations, First National Bank identified the key activities that drive costs within the organization. They focused on supporting value-adding processes and improving the accuracy of cost measurement. The implementation of ABB provided a much more accurate cost plan, control, and evaluation. Evaluate the impact of improved cost measurement accuracy on the financial planning and decision-making process at First National Bank.",
+                "q_field_type": "single_select" ,
+                "q_selection": [{
+                    "A": "More accurate and reliable financial data for planning and forecasting",
+                    "B": "Better identification of cost drivers and areas for cost reduction",
+                    "C": "Improved ability to make informed strategic decisions based on detailed cost analysis",
+                    "D": "All of the above"
+                }]
+            }
+        ]
+     }]
+  },
+  {
+    "id": 3,
+    "moduleId": "PMFIDS_RM",
+    "moduleName": "Risk Management",
+    "type": "course",
+    "sections": [
+      {
+        "order": 1,
+        "title": "Introduction",
+        "body": "Welcome to the course...",
+        "image": "/src/assets/img/WBLImagePlaceholder.png"
+      },
+      {
+        "order": 2,
+        "title": "Key Concepts",
+        "body": "Here are the key concepts...",
+        "image": "/src/assets/img/WBLImagePlaceholder.png"
+      },
+      {
+        "order": 3,
+        "title": "Knowledge Check",
+        "body": "What are the three primary constraints of the project management triangle?",
+        "image": "/src/assets/img/WBLImagePlaceholder.png",
+        "q_field_type": "single_select" ,
+        "q_selection": [{
+          "A": "Resources, Schedule, Quality",
+          "B": "Quality, Time, Budget",
+          "C": "Scope, Time, Cost",
+          "D": "Scope, Quality, Budget"
+        }],
+        "q_answer": "C"
+      },
+      {
+        "order": 4,
+        "title": "Summary",
+        "body": "Here is the summary",
+        "image": "/src/assets/img/WBLImagePlaceholder.png"
+      },
+      {
+        "order": 5,
+        "title": "Ending",
+        "body": "Here is the ending",
+        "image": "/src/assets/img/WBLImagePlaceholder.png"
+      }
+      
+    ],
+    "exams": [{
+      "exam_id": 1,
+      "title": "Course Examination",
+      "body": "This assessment is designed to test your knowledge. Results of this assessment will be used to structure the workshop.",
+      "questions": [{
+                "q_number": 1,
+                "q_statement": "Which of the following is the last step in Project Risk Management process?",
+                "q_field_type": "single_select" ,
+                "q_selection": [{
+                    "A": "Monitor Risk",
+                    "B": "Identify Risk",
+                    "C": "Plan response for risk",
+                    "D": "Analyze risk",
+                    "E": "Prioritize risk"
+                }]
+            },
+            {
+                "q_number": 2,
+                "q_statement": "Which risk strategy is used to reduce the probability and/or impact of a risk event?",
+                "q_field_type": "single_select" ,
+                "q_selection": [{
+                    "A": "Risk mitigation",
+                    "B": "Risk avoidance",
+                    "C": "Risk acceptance",
+                    "D": "Risk transfer"
+                }]
+            },
+            {
+                "q_number": 3,
+                "q_statement": "Which of the following is considered an internal risk? (Select all that apply)",
+                "q_field_type": "multi_select" ,
+                "q_selection": [{
+                    "A": "Schedule risks",
+                    "B": "Legal risks",
+                    "C": "Strategic risks",
+                    "D": "Scope risks",
+                    "E": "Operational risks"
+                }]
+            },
+            {
+                "q_number": 4,
+                "q_statement": "Total quality management is a strategy to:",
+                "q_field_type": "single_select" ,
+                "q_selection": [{
+                    "A": "Avoid pitfalls",
+                    "B": "Boost team morale",
+                    "C": "Continuously improve",
+                    "D": "Receive customer feedback"
+                }]
+            },
+            {
+                "q_number": 5,
+                "q_statement": "The use of a RAID log helps the PMO or Project Manager: (Select all that apply)",
+                "q_field_type": "multi_select" ,
+                "q_selection": [{
+                    "A": "capture, analyze, select and document the risks, assumptions, issues and dependencies encountered while planning for and executing the project",
+                    "B": "capture, organize, prioritize and document the risks, assumptions, issues and dependencies encountered while planning for and executing the project",
+                    "C": "capture, analyze, prioritize and document the risks, assumptions, issues and dependencies encountered while planning for and executing the project",
+                    "D": "capture, organize, select and mitigate the risks, assumptions, issues and dependencies encountered while planning for and executing the project"
+                }]
+            },
+            {
+                "q_number": 6,
+                "q_statement": "The priorities under Goal 4 of the Financial Services Cyber Resilience Plan are the following, except? (Select all that apply)",
+                "q_field_type": "multi_select" ,
+                "q_selection": [{
+                    "A": "Complete policy reforms on digital security controls, Application Programming Interface (API) security, Cybersecurity Maturity Model (CMM) framework, and supply chain risk management",
+                    "B": "Conduct cybersecurity roadshows for small and medium-sized financial institutions (FIs)",
+                    "C": "Pursue holistic programs on cybersecurity skills and talent development",
+                    "D": "Explore establishment of an Industry Cyber Innovation/Research Hub",
+                    "E": "Conduct benchmarking exercises on cyber capabilities"
+                }]
+            },
+            {
+                "q_number": 7,
+                "q_statement": "Which among following indicates impacted areas of quality on testing within API integration efforts?",
+                "q_field_type": "single_select" ,
+                "q_selection": [{
+                    "A": "Issue Testing, Encryption Testing, Exploratory Testing",
+                    "B": "API Gateway Testing, End-to-End Testing, Operationalization Testing",
+                    "C": "Documentation Testing, Prioritization Testing, Functionality Testing",
+                    "D": "Data Validation, Usability Testing, Security Testing"
+                }]
+            },
+            {
+                "q_number": 8,
+                "q_statement": "BSFIs are required to establish a robust ITRM system covering key components, which are? (Select all that apply)",
+                "q_field_type": "single_select" ,
+                "q_selection": [{
+                    "A": "IT Controls Implementation",
+                    "B": "Cyber Education Program",
+                    "C": "IT Governance",
+                    "D": "Risk Measurement and Monitoring",
+                    "E": "Risk Identification and Assessment"
+                }]
+            }
+        ]
+     }]
+  }
+
+]
