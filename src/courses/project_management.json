@@ -1,15 +1,15 @@
 [{
     "id": 1,
     "moduleId": "PMFIDS_PM",
-    "moduleName": "Project Management",
+    "moduleName": "Project Management Fundamentals, Tools, and Techniques",
     "type": "course",
     "sections": [
       {
         "order": 1,
-        "title": "Introduction",
-        "subheader": "Welcome to SGV Institute module on Project Management Fundamentals, Tools and Techniques!",
-        "body": "This module is designed to provide you with a comprehensive understanding of project management, project management functions, tools, techniques, and frameworks, and project lifecycle.",
-        "list1": "A project is distinct from routine operations and has a singular goal; A project is temporary in that it has a defined beginning and end in time, and therefore defined; A project is distinct from routine operations and has a singular goal",
+        "title": "Course Introduction",
+        "subheader": "",
+        "body": "Welcome to the WBL (Web-Based Learning) module on Project Management Fundamentals, Tools, and Techniques! This module is designed to provide you with a comprehensive understanding of project management, project management functions, tools, techniques, and frameworks, and project lifecycle. Below is an overview of the topics covered in this module:",
+        "list1": "",
         "list2": "",
         "image": "/src/assets/img/WBLImagePlaceholder.png",
         "image2": "/src/assets/img/WBLImagePlaceholder.png",
@@ -17,17 +17,42 @@
       },
       {
         "order": 2,
-        "title": "Defining Project",
+        "title": "Menu",
         "subheader": "",
-        "body": "A project is a temporary endeavor undertaken to create a unique product, service or result.",
-        "list1": "A project is distinct from routine operations and has a singular goal",
-        "list2": "A project is temporary in that it has a defined beginning and end in time, and therefore defined scope and resources",
+        "body": "1. Overview of Project Management, 2. Project Management Functions, 3. Tools, Techniques, and Frameworks, 4. Project Lifecycle",
+        "list1": "",
+        "list2": "",
+        "image": "/src/assets/img/WBLImagePlaceholder.png",
+        "image2": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
+          
+      },
+      {
+        "order": 3,
+        "title": "Course Completion Requirements",
+        "subheader": "Welcome",
+        "body": "Select each heading to find out more. When you have selected all the headings, select the down arrow at the right to continue.",
+        "list1": "Course Credit and Completion Requirements",
+        "list2": "Course Objective",
         "image": "/src/assets/img/WBLImagePlaceholder.png",
         "image2": "/src/assets/img/WBLImagePlaceholder.png",
         "video": "/src/assets/WBLVideoPlaceholder.mp4"
       },
       {
-        "order": 3,
+        "order": 4,
+        "title": "Lesson 1",
+        "subheader1": "Overview of Project Management",
+        "subheader2": "Overview of Project Management",
+        "body": "Select each heading to find out more. When you have selected all the headings, select the down arrow at the right to continue.",
+        "list1": "Course Credit and Completion Requirements",
+        "list2": "Course Objective",
+        "list3": "Topics",
+        "image": "/src/assets/img/WBLImagePlaceholder.png",
+        "image2": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
+      },
+      {
+        "order": 4,
         "title": "Knowledge Check",
         "subheader": "",
         "body": "What are the three primary constraints of the project management triangle?",
