@@ -1,15 +1,15 @@
 [{
     "id": 1,
     "moduleId": "PMFIDS_PM",
-    "moduleName": "Project Management",
+    "moduleName": "Project Management Fundamentals, Tools, and Techniques",
     "type": "course",
     "sections": [
       {
         "order": 1,
-        "title": "Introduction",
-        "subheader": "Welcome to SGV Institute module on Project Management Fundamentals, Tools and Techniques!",
-        "body": "This module is designed to provide you with a comprehensive understanding of project management, project management functions, tools, techniques, and frameworks, and project lifecycle.",
-        "list1": "A project is distinct from routine operations and has a singular goal; A project is temporary in that it has a defined beginning and end in time, and therefore defined; A project is distinct from routine operations and has a singular goal",
+        "title": "Course Introduction",
+        "subheader": "",
+        "body": "Welcome to the WBL (Web-Based Learning) module on Project Management Fundamentals, Tools, and Techniques! This module is designed to provide you with a comprehensive understanding of project management, project management functions, tools, techniques, and frameworks, and project lifecycle. Below is an overview of the topics covered in this module:",
+        "list1": "",
         "list2": "",
         "image": "/src/assets/img/WBLImagePlaceholder.png",
         "image2": "/src/assets/img/WBLImagePlaceholder.png",
@@ -17,21 +17,120 @@
       },
       {
         "order": 2,
-        "title": "Defining Project",
-        "subheader": "",
-        "body": "A project is a temporary endeavor undertaken to create a unique product, service or result.",
-        "list1": "A project is distinct from routine operations and has a singular goal",
-        "list2": "A project is temporary in that it has a defined beginning and end in time, and therefore defined scope and resources",
+        "title": "Course Completion Requirements",
+        "subheader": "Welcome",
+        "body": "Select each heading to find out more. When you have selected all the headings, select the down arrow at the right to continue.",
+        "subheader1": "Course Credit and Completion Requirements",
+        "list1": "Course Credit and Completion Requirements; As a prerequisite of the workshop and to achieve the learning objectives you must complete this Web-Based Learning; Complete all interactions.;Complete all practice questions.;Take the examination, you must pass at least 80% within three attempts to finish this web-based learning.;You must complete the assessment alone. Using answers received from others, including any form of artificial intelligence, to complete an assessment is cheating.;Please note that this learning will expire by April 25,2025. You must complete and pass all of the scored portions of this course within this period, or your related learning progress will be removed.", 
+        "subheader2": "Course Objective", 
         "image": "/src/assets/img/WBLImagePlaceholder.png",
         "image2": "/src/assets/img/WBLImagePlaceholder.png",
         "video": "/src/assets/WBLVideoPlaceholder.mp4"
       },
       {
         "order": 3,
-        "title": "Knowledge Check",
+        "title": "Learning Objectives",
+        "subheader": "Welcome",
+        "body": "Select each heading to find out more. When you have selected all the headings, select the down arrow at the right to continue.",
+        "subheader1": "Course Credit and Completion Requirements",
+        "subheader2": "Course Objective", 
+        "list1": "Learning Objectives; Upon successful completion of the course, you will be able to:; Familiarize with common project management terms and methodologies including fundamentals, tools, skills, techniques, roles, and responsibilities.; Understand the different phases of a project: initiation, planning, execution, monitoring and controlling, and closing; Recognize the key activities, deliverables, and goals for each phase; To be equipped with the foundational knowledge needed to initiate, plan, execute, and close projects successfully",
+        "subheader3": "Topics",
+        "list2":"Overview of Project Management;Project Management Functions; Tools, Techniques, and Frameworks; Project Lifecycle",
+        "image": "/src/assets/img/WBLImagePlaceholder.png",
+        "image2": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
+      },
+      {
+        "order": 4,
+        "title": "Menu",
+        "subheader": "",
+        "body": "1. Overview of Project Management, 2. Project Management Functions, 3. Tools, Techniques, and Frameworks, 4. Project Lifecycle",
+        "list1": "",
+        "list2": "",
+        "image": "/src/assets/img/WBLImagePlaceholder.png",
+        "image2": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"    
+      },
+      {
+        "order": 5,
+        "title": "Lesson 1",
+        "subheader": "Overview of Project Management",
+        "body": "", 
+        "list1": "",
+        "list2": "",
+        "image": "/src/assets/img/WBLImagePlaceholder.png",
+        "image2": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
+      },  
+      {
+        "order": 6,
+        "title": "Learning Objective", 
+        "body": "At the end of this lesson, you will be able to:", 	
+        "list1": "Identify what defines a project; Recognize what is Project Management Triangle, its purpose, and importance", 
+        "list2": "",
+        "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order6.png",
+        "image2": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
+      },
+      {
+        "order": 7,
+        "title": "Defining “Project”", 	
+        "list1": "A project is a temporary endeavor undertaken to create a unique product, service or result.; A project is temporary in that it has a defined beginning and end in time, and therefore defined scope and resources.; A project is distinct from routine operations and has a singular goal.",      
+        "list2": "",
+        "image": "/src/assets/img/WBLImagePlaceholder.png",
+        "image2": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
+      },  
+      {  
+        "order": 8,
+        "title": "What is Project Management?", 	
+        "subheader": "Project Management Institute", 
+        "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order8_1.png",
+        "body": "The application of knowledge, skills, tools, and techniques to project activities to meet project requirements.", 
+        "image1": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order8_2.png",
+        "body1": "The practice of planning, organizing, and executing the tasks needed to turn a brilliant idea into a tangible product, service, or deliverable.",
+        "image2": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order8_3.png",
+        "body2": "The discipline revolving around the execution of a project throughout its lifecycle.",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
+       }, 
+       {
+        "order": 9,
+        "title": "Knowledge Check 1",
+        "subheader": "",
+        "body": "Which of the following most accurately describes a “project”?",
+        "image": "/src/assets/img/WBLImagePlaceholder.png",
+        "image2": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4",
+        "q_field_type": "single_select" ,
+        "q_selection": [{
+          "A": "Temporary endeavor undertaken with a defined beginning and end in time, defined scope and resources to create a singular unique product, service or result. ",
+          "B": "A defined set of tasks and activities that deliver products or services.",
+          "C": "A profitable, contractual, business commitment with a client to deliver specific services that address their issues and meet shared expectations of quality and value.",
+          "D": "Any engagement, program, or contract that delivers client services."
+        }],
+        "q_answer": "A"
+      }, 
+      {
+        "order": 10,
+        "title": "Project Management Triangle",
+        "body": "Changes to any of the three constrained elements — Scope, Cost or Time — results in changes to the other two due to their interdependent relationship.",
+        "subheader": "Scope",
+        "list1": "A set of tasks and activities", 
+        "subheader1": "Cost",
+        "list2": "A use of resources and investment",
+        "subheader2": "Time",
+        "list3": "The duration from the start to finish of a Project",
+        "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order10.png",
+        "image2": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
+      },
+      {
+        "order": 11,
+        "title": "Knowledge Check 2",
         "subheader": "",
         "body": "What are the three primary constraints of the project management triangle?",
-        "image": "/src/assets/img/WBLImagePlaceholder.png",
+        "image": "/src/assets/img/WBLImaePlaceholder.png",
         "image2": "/src/assets/img/WBLImagePlaceholder.png",
         "video": "/src/assets/WBLVideoPlaceholder.mp4",
         "q_field_type": "single_select" ,
@@ -42,20 +141,1086 @@
           "D": "Scope, Quality, Budget"
         }],
         "q_answer": "C"
+      }, 
+      {
+        "order": 12,
+        "title": "Learning Summary",
+        "subheader": "Congratulations on completing Lesson 1 of this course!",  	    
+        "list1": "Now that you have completed this lesson, you should be able to:;Define what is project and project management;Identify the three constraints of project management triangle and its importance to a project.", 
+        "image": "/src/assets/img/WBLImagePlaceholder.png",
+        "image2": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
       },
       {
-        "order": 4,
+        "order": 13,
+        "title": "Lesson 2",
+        "subheader": "Project Management Functions",
+        "body": "",
+        "image": "/src/assets/img/WBLImagePlaceholder.png",
+        "image2": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
+      },
+      {
+        "order": 14,
+        "title": "Learning Objective",
+        "subheader": "",
+        "body": "At the end of this lesson, you will be able to:",
+        "list1": "Understand different members of a project team; Define what is project management functions and its different components; Identify the roles, responsibilities and benefits of PMO", 
+        "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order14.png",
+        "image2": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
+      },
+      {
+        "oder": 15, 
+        "title": "Members of a Project Team", 	
+        "subheader": "Project Sponsor:",
+        "body": "Overall accountable for the project success.",
+        "list1": "Ensure the project's strategic significance.;Provide approval and funding for the project.; Promote support by key stakeholders.; Support broad authority for project manager and team.", 
+        "subheader1": "Project Manager",
+        "body1": "Execution of the project; Link between the strategy and the team.",  
+        "list2": "Satisfy the needs of the project.; Focuses on specified project objectives.; Controls the assigned project resources to meet project objectives.; Manages the constraints of individual projects.",
+        "subheader2": "Project Management Office (PMO)", 
+        "body2": "Implementation of project management framework; Maintains standards for project management.", 
+        "list3": "Manages major program changes.; Identifies and develops project management methodology, best practices, and standards. ", 
+        "subheader3": "Functional Leads/Team Leaders:",
+        "body3":"Responsible for a particular area of concern, typically based on a set of related skills, processes or specific subject area.", 
+        "list4": "Focused on providing management oversight for a functional or a business unit.; Monitors team’s progress on achieving project milestones and provides expertise where needed.", 
+        "subheader4": "Project Team/Team Members:",
+        "body4": "Responsible for the quality of the output relevant to undertaking.",  
+        "list5": "Address various stakeholder needs, concerns and expectations.; Integrate people and activities to perform project work according to approved plan.; Conduct and administer procurement.; Deliver project benefits and outcomes.",
+        "image": "/src/assets/img/WBLImagePlaceholder.png",
+        "image2": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
+      }, 
+      {
+        "oder": 16,
+        "title": "Project Management Functions", 	          
+        "subheader": "", 
+        "body": "Project Managers are primarily responsible in planning and orchestrating the activities needed to deliver the scope of the project while making sure that things are on time and budget.", 
+        "body1": "In some cases, a PMO is established to support effective project delivery.",
+        "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order16.png",
+        "image2": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
+      }, 
+      { 
+        "oder": 17,
+        "title": "Project Management Functions", 
+        "subheader": "Reporting & review meetings",  
+        "body": "Communication and check ups with all stakeholders.",
+        "subheader1":  "Risk & issue management", 
+        "body1": "Ensuring to have the foresight of risks and manage issues; ensuring risks will not materialize and will not become issues.", 
+        "subheader2": "Dependency management", 
+        "body2": "Roles of the Project Managers to look at the macro and micro impacts on the deliverables.", 
+        "subheader3": "Change control", 
+        "body3": "The understanding of the commitment and listen to the client on what changes needs to be made.", 
+        "subheader4": "Communications management",
+        "body4": "Understanding who you're communicating with.", 
+        "subheader5": "Stakeholder management",
+        "body5": "The external > client-related interactions", 
+        "subheader6": "Budget & cost management", 
+        "body6": " is the delivering of the deliverables at the cost that they are billed. (Managing the budget)",
+        "subheader7": "Resource management", 
+        "body7": "The picking the right resource or skillset and is mostly people-related.", 
+        "subheader8": "Plan & deliverable management", 
+        "body8": "When the contract as the basis of the scope of work or deliverables as well as when should be done.",
+        "image": "/src/assets/img/WBLImagePlaceholder.png",
+        "image2": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
+      },           
+      {
+        "oder": 18,
+        "title": "Project Management Functions",   
+        "subheader": "The Project Management Office (PMO)",
+        "body": "The PMO maintains control over the administration of the project by:", 
+        "list1": "Setting up proper governance structures, and; Establishing processes, methodologies and standards to monitor and accelerate project progress", 
+        "subheader1": "Benefits of a PMO", 
+        "list2": "Facilitate effective communication across project teams, project leadership and stakeholders.; Facilitate the active and timely involvement of all stakeholders to the program to align outcomes with program objectives; Proactive identification, assessment, reporting and mitigation of risks and issue",
+        "image": "/src/assets/img/WBLImagePlaceholder.png",
+        "image2": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
+      },
+      {
+        "order": 19,
+        "title": "Knowledge Check 3",
+        "subheader": "",
+        "body": "Which of the following project management functions is primarily focused on managing and “picking” the right project team?",
+        "image": "/src/assets/img/WBLImagePlaceholder.png",
+        "image2": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4",
+        "q_field_type": "single_select" ,
+        "q_selection": [{
+          "A": "Risk Management",
+          "B": "Stakeholder Management",
+          "C": "Quality management",
+          "D": "Resource Management"
+        }],
+        "q_answer": "C"
+      },                   
+      {
+        "order": 20,
+        "title": "Knowledge Check 4",
+        "subheader": "",
+        "body": "Which of the following is NOT a project management function?",
+        "image": "/src/assets/img/WBLImagePlaceholder.png",
+        "image2": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4",
+        "q_field_type": "single_select" ,
+        "q_selection": [{
+          "A": "Plan & deliverable management",
+          "B": "Change Control",
+          "C": "Quality management",
+          "D": "Dependency management"
+        }],
+        "q_answer": "C"
+      },                    
+      {
+        "order": 21,
+        "title": "Learning Summary",
+        "subheader": "",
+        "body": "Congratulations on completing Lesson 2 of this course!", 
+        "list1": "Now that you have completed this lesson, you should be able to; Differentiate members of a project team; Define what is project management functions and its different components; and,; Identify the roles, responsibilities and benefits of PMO.",
+        "image": "/src/assets/img/WBLImagePlaceholder.png",
+        "image2": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
+      },                 
+      {
+        "order": 22,
+        "title": "Lesson 3",
+        "subheader": "Project Management Tools, Techniques, and Frameworks",
+        "body": "",
+        "list1": "",
+        "image": "/src/assets/img/WBLImagePlaceholder.png",
+        "image2": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
+      },  
+      {
+        "order": 23,
+        "title": "Learning Objective", 	
+        "body": "At the end of this lesson, you will be able to:",
+        "list1": "Identify what are project management methods; What are waterfall, agile, and hybrid project management approaches",
+        "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order23.png",
+        "image2": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
+      }, 
+      {
+        "order": 24,
+        "title": "Project Management Tools, Techniques, and Frameworks",
+        "subheader": "What is the Project Management Method?", 
+        "body": "The Project Management Method is a Consulting method that describes a process-based approach to plan, coordinate and control the execution of our services at the project level.", 
+        "subheader1": "Waterfall Methodology", 
+        "body1": "Traditional project management methodologies often follow a very linear and sequential approach. The scope and requirements are defined at the very beginning, and any changes to the defined scope must be reassessed and analyzed.", 
+        "subheader2": "Agile Methodology", 
+        "body2": "Agile methodologies, however, follows an iterative and “growing” approach. It welcomes frequently changing requirements and builds upon the collaboration and creativity of the team.", 
+        "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order24.png",
+        "image2": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
+      }, 
+      {
+        "order": 25,
+        "title": "Project Management Tools, Techniques, and Frameworks",
+        "subheader": "Popular Agile Approaches",
+        "body": "Agile is an umbrella term for various types of software development approaches.", 
+        "body1": "Below are some of the most common practices used by agile practitioners:",
+        "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order8_1.png",
+        "body2": "SCRUM is a project management approach that anchors itself on teamwork, accountability and iterative progress toward a well-defined goal. Customers or stakeholders are actively involved in each sprint (fixed timeframes to deliver a feature).", 
+        "image1": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order8_2.png",
+        "body3": "KANBAN is a framework that requires real-time communication of capacity and full transparency of work. Work items are presented visually on what is called a “Kanban board.”", 
+        "image2": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order8_3.png",
+        "body4": "Lean Software Development (LSD) is an approach derived from the Lean Management. It is where the team produces a bare minimum version of a product, gathers feedback from users, and iterates it based on what they need and don’t need.", 
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
+      }, 
+      {
+        "order": 26,
+        "title": "Project Management Tools, Techniques, and Frameworks",
+        "subheader": "Hybrid Approach",
+        "body":  "The hybrid approach is a combination of waterfall (traditional) and agile (adaptive) project management methodologies.", 
+        "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order26.png",
+        "image2": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
+      },
+      {
+        "order": 27,
+        "title": "Knowledge Check 5",
+        "subheader": "",
+        "body": "The Agile Methodology is best described by which of the following statements? (Select all that apply and then select Submit.)",
+        "image": "/src/assets/img/WBLImagePlaceholder.png",
+        "image2": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4",
+        "q_field_type": "multi_select" ,
+        "q_selection": [{
+          "A": "A consulting method that describes a process-based approach to plan, coordinate and control the execution of our services at the project level.",
+          "B": "It welcomes frequently changing requirements and builds upon the collaboration and creativity of the team.",
+          "C": "It follows an iterative and “growing” approach.",
+          "D": "Traditional project management methodologies often follow a very linear and sequential approach."
+        }],
+        "q_answer": "B, C"
+      },                        
+      {
+        "order": 28,
+        "title": "Knowledge Check 6",
+        "subheader": "",
+        "body": "Which of the following best describes the statement “It is where the team produces a bare minimum version of a product, gathers feedback from users, and iterates it based on what they need and don not need”?",
+        "image": "/src/assets/img/WBLImagePlaceholder.png",
+        "image2": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4",
+        "q_field_type": "single_select" ,
+        "q_selection": [{
+          "A": "SCRUM Approach",
+          "B": "Kanban Approach",
+          "C": "Hybrid Methodology",
+          "D": "Lean Software Development Approach"
+        }],
+        "q_answer": "D"
+      },
+      {
+        "order": 29,
+        "title": "Lesson Summary", 	
+        "subheader": "",
+        "body": "Congratulations on completing Lesson 3 of this course!", 
+        "list1": "Now that you have completed this lesson, you should be able to answer:; What are project management methods; What are waterfall, agile, and hybrid project management approaches.", 
+        "image": "/src/assets/img/WBLImagePlaceholder.png",
+        "image2": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
+      },    
+      {
+        "order": 30,
+        "title": "Lesson 4",
+        "subheader": "Project Management Lifecycle",
+        "body": "",
+        "list1": "", 
+        "image": "/src/assets/img/WBLImagePlaceholder.png",
+        "image2": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
+      },  
+      { 
+        "order": 31,
+        "title": "Learning Objective", 	
+        "list1": "At the end of this lesson, you will be able to:; Recognize what is project lifecycle; Identify different phases of project lifecycle and its components; Manage end-to-end project cycle from initiation to closing, as well as in performing the execution of the project and continuous monitoring and control of the project",
+        "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order31.png",
+        "image2": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
+      }, 
+      {
+        "order": 32,
+        "title": "The Project Lifecycle", 	
+        "subheader": "Phase 1: Initiation", 
+        "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order32.png",
+        "image2": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
+      },
+      {
+        "order": 33,
+        "title": "Initiation Phase", 
+        "body": "Projects can be initiated for various reasons, usually when there is a need for a change due to regulations, legislations, customer demands, strategy, cost pressures or combination of these.", 
+        "subheader": "Regulations",
+        "body1": "There is a new banking regulation that requires us to perform a new set of processes.",
+        "subheader1": "Legislations",
+        "body2": "Recent legislation changes require us to safeguard our customer data using certain protections.",
+        "subheader2": "Customer Demands",
+        "body3": "Customers demand new innovative designs — we need to develop a new camera for mobile devices.", 
+        "subheader3": "Strategy",
+        "body4": "The company is expanding into a new region, we need to update our business strategy.", 
+        "subheader4": "Cost Pressures",
+        "body5": "Our new products are costly. We need to reduce our costs to improve our profits.",
+        "image": "/src/assets/img/WBLImagePlaceholder.png",
+        "image2": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
+      }, 
+      {
+        "order": 34,
+        "title": "The Initiation Phase", 
+        "body": "During Initiation Phase, we define a new project or a new phase of an existing project by obtaining authorization to start the project. Project’s scope and objectives are defined at this stage so that the benefits and outcomes of the project are achieved by the close of the project. One usual output of project initiation phase is a Project Charter.",
+        "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order33.png",
+        "image2": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
+      },
+      {
+        "order": 35,
+        "title": "Knowledge Check 7",
+        "subheader": "",
+        "body": "Which of the following best describes the purpose of the Initiate phase?",
+        "image": "/src/assets/img/WBLImagePlaceholder.png",
+        "image2": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4",
+        "q_field_type": "single_select" ,
+        "q_selection": [{
+          "A": "Financial resources are committed",
+          "B": "Define a new project or a new phase of an existing project",
+          "C": "Producing a project workplan",
+          "D": "Creation of a stakeholder analysis"
+        }],
+        "q_answer": "B"
+      },
+      {
+        "order": 36,
+        "title": "Project Charter",
+        "body": "Project Charter formally documents the overall objectives and scope of the project, as well as the general providing summary information on key aspects of the project.​", 
+        "body1": "The process of creating the Project Charter serves to align stakeholder expectations and is used as foundation for preparing detailed plans all throughout the project lifecycle. When the project charter is approved, the project becomes officially authorized.", 
+        "list1": "Key components of a project charter:; Project goals and objectives; Project background; Clearly defined project scope; Project governance; Key stakeholders; Project deliverable and key milestones; Summary of critical risks, assumptions and constraints; High level cost-estimate",
+        "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order36.png",
+        "image2": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
+      },
+      {
+        "order": 37,
+        "title": "Framing a Project: Key Questions",
+        "body": "A complete understanding of what lies below the surface of a project is critical to a successful project initiation and eventually a successful project outcome.​", 
+        "body1": "The following questions can be used to help you, and your team understand the ins and outs of a project:", 
+        "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order37.png",
+        "image2": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
+      },
+      {
+        "order": 38,
+        "title": "Project Charter on a page",
+        "body": "This Project Charter, 1-page summary example shows the major components.", 
+        "body1": "Some components may have more relative importance than others from project to project", 
+        "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order38.png",
+        "image2": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
+      },
+      {
+        "order": 39,
+        "title": "Answering with an iterative cycle",
+        "body": "", 
+        "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order39.png",
+        "image2": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
+      },
+      {
+        "order": 40,
+        "title": "O-D-W Principle",
+        "body": "The O-D-W principle is a key approach for developing an emergent high-level plan, which is then revisited in subsequent phases for further development and refinement of a detailed / robust project plan. A thorough understanding and focus on O-D-W keeps the work of the project aligned with the overall business needs and outcomes.", 
+        "body1": "During this early stage of project lifecycle, limited information may be available for answering detailed questions regarding the project. Establishing baseline understanding will help provide a measurement of the project’s progress and success.",
+        "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order40.png",
+        "image1": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
+      },
+      {
+        "order": 41,
+        "title": "Knowledge Check 8",
+        "subheader": "",
+        "body": "In O-D-W Principle, what questions corresponds to “Objectives”?",
+        "image": "/src/assets/img/WBLImagePlaceholder.png",
+        "image2": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4",
+        "q_field_type": "single_select" ,
+        "q_selection": [{
+          "A": "How will the project objectives serve the business objectives?",
+          "B": "What work plan tasks are required to create all the project deliverables",
+          "C": "What are the business objectives?",
+          "D": "None of the above"
+        }],
+        "q_answer": "C"
+      },
+      {
+        "order": 42,
+        "title": "RACI Matrix",
+        "body": "The RACI Matrix is a simple charting tool used to define responsibility for each task within a project. It ensures that each task is assigned to the appropriate person or department to align responsibilities and set clear expectations.", 
+        "body1": "RACI is an acronym with each letter representing a different role to perform.", 
+        "subheader": "Responsible", 
+        "body2": "DOER", 
+        "list1": "The responsible employee physically does the work.; Who is assigned to work on this task?​​", 
+        "subheader1": "Accountable", 
+        "body3": "OWNER",
+        "list2": "The accountable employee oversees the work and is ultimately answerable for the activity or decision.; Who has the authority to sign off the work?​", 
+        "subheader2":"Consulted", 
+        "body4": "IN THE LOOP",
+        "list3": "The consulted employee offers advice or feedback to improve the work.​; Who can tell me more about this task?​", 
+        "subheader3": "Informed", 
+        "body5": "IN THE PICTURE", 
+        "list4": "The informed party does not take part in the work but should be notified of the results.; Who must be kept updated about the progress?​​",
+        "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order42.png",
+        "image1": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
+      },
+      {
+        "order": 43,
+        "title": "Project Initiation Phase: Summary",
+        "subheader": "PURPOSE", 
+        "image": "src/assets/img/project_managemen/Project Fundamentals/PMFIDS_PM_PFTT_order43_1.jpg", 
+        "body": "Define a new project or a new phase of an existing project", 
+        "subheader1":"KEY ACTIVITIES", 
+        "image1": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order43_2.jpg",
+        "list1": "Define high-level project objectives, scope and outcome; Define preliminary project schedule, approach, cost estimate and risks; Identify planning resources", 
+        "subheader2": "KEY OUTPUTS", 
+        "list2": "Project Charter; Sponsor Approval; Identified planning phase resources; Stakeholder register", 
+        "image2": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order43_3.jpg",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
+      },
+      {
+        "order": 44,
+        "title": "Knowledge Check 9",
+        "subheader": "",
+        "body": "Which of the RACI Matrix acronym can answer the question, “Who can tell me more about this task”?",
+        "image": "/src/assets/img/WBLImagePlaceholder.png",
+        "image2": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4",
+        "q_field_type": "single_select" ,
+        "q_selection": [{
+          "A": "Accountable",
+          "B": "Responsible",
+          "C": "Informed",
+          "D": "Consulted"
+        }],
+        "q_answer": "D"
+      },
+      {
+        "order": 45,
+        "title": "The Project Lifecycle", 	
+        "subheader": "Phase 2: Planning", 
+        "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order45.png",
+        "image2": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
+      }, 
+      {
+        "order": 46,
+        "title": "The Planning Phase", 	
+        "body": "Planning is an iterative process, and planning activities and outcomes mature and evolve as the project moves through the project lifecycle.",  
+        "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order46.png",
+        "image1": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
+      }, 
+      {
+        "order": 47,
+        "title": "What is a plan?", 	
+        "list1": "A formal, approved document used to guide both project execution and project control.; Used to document planning assumptions and decisions, facilitate communication among project stakeholders and document approved scope, cost and schedule baselines.; May be summarized or detailed.",  
+        "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order47.png",
+        "image1": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
+      },
+      {
+        "order": 48,
+        "title": "The Planning Phase",
+        "body": "The Plan phase takes available information and assembles it into a feasible project work plan to achieve client outcomes.", 
+        "body1": "During this phase we establish the scope of the project, refine the objectives, and define the course of action required to attain the objectives that the project is undertaken to achieve.", 	
+        "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order48.png",
+        "image1": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
+      }, 
+      {
+        "order": 49,
+        "title": "Building a Robust Project Plan",
+        "body": "A good, solid plan answers several questions related to the following aspects of a project:",
+        "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order49.png",
+        "subheader": "WHY",  
+        "body1": "What are the rationale, goals, and objectives of the project?", 	
+        "image1": "/src/assets/img/WBLImagePlaceholder.png",
+        "subheader1": "WHAT",
+        "body2": "What is the scope, what are the deliverables and what are the outcomes?", 
+        "image2": "/src/assets/img/WBLImagePlaceholder.png",
+        "subheader2": "WHEN",
+        "body3": "How much time do we have to finish the tasks?", 
+        "image3": "/src/assets/img/WBLImagePlaceholder.png",
+        "subheader3": "HOW",
+        "body4": "What are the methodology and approach we are going to follow? How much money do we have to spend?", 
+        "image4": "/src/assets/img/WBLImagePlaceholder.png",
+        "subheader4": "WHO", 
+        "body5": "What are the roles and responsibilities of people involved in the project?", 
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
+      },
+      {
+        "order": 50,
+        "title": "ODW: developing the workplan",
+        "subheader": "Objectives", 
+        "list1": "What are the business objectives?; How will the project objectives serve the business objectives?",
+        "body": "Inputs from the Initiate phase",
+        "subheader1": "Deliverables", 
+        "list2": "What work products and services, outputs and outcomes are required to satisfy all the project objectives?", 
+        "body1": "Inputs from the Initiate phase", 
+        "subheader2": "Workplan", 
+        "list3": "What workplan tasks are required to create all the project deliverables?", 
+        "body2": "Output generated in the Planning phase",
+        "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order50.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
+      },
+      {
+        "order": 51,
+        "title": "Five steps crucial to planning",
+        "subheader":"Activity definition",
+        "list1": "Identifying the specific activities that must be performed to produce the project deliverables identified in the work breakdown structure (WBS)",
+        "subheader1":"Activity sequencing",
+        "list2": "Arranging the activities to reflect their logical sequence and dependencies",
+        "subheader2":"Activity effort and duration estimating",
+        "list3": "Estimating effort and duration required to complete individual activities",
+        "subheader3":"Schedule development",
+        "list4": "Calculating a project schedule using the activities, their dependencies, resource assignments and estimated duration",
+        "subheader4":"Critical path identification (Critical Path Method or CPM)",
+        "list5": "The longest path of activities through the network that has no “float” or “slack,” i.e., any delay to the activities on this path delay the entire project; The critical path determines the duration of the project",
+        "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order51.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
+      }, 
+      {
+        "order": 52,
+        "title": "Six-steps — the ODW way",
+        "subheader":"Develop the Work Breakdown Structure (WBS)",
+        "list1": "Review project objectives and input materials; Determine WBS approach; Create WBS hierarchy; Check WBS for coverage of project objectives",
+        "subheader1":"Estimate the work effort",
+        "list2": "Define activities; Develop initial sequence of activities; Estimate amount of work",
+        "subheader2":"Assign resources and costs",
+        "list3": "Assign project team roles and costs to tasks; Determine other types and costs of resources for each task (e.g., equipment, tools, facilities and expenses)",
+        "subheader3":"Develop milestones",
+        "list4": "Identify a set of chronological milestones to serve as reference points; Identify target date and define milestone completion criteria",
+        "subheader4":"Develop the project schedule",
+        "list5": "Select scheduling tool; Transform WBS into project activities; Define activity dependences and determine critical path; Assign resources and costs",
+        "subheader5": "Create a baseline and track the project plan", 
+        "list6": "Baseline project plan for cost and schedule tracking; Begin tracking project weekly; Use Estimate to Complete (ETC) techniques", 
+        "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order52_1.png",
+        "image1": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order52_2.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
+      },
+      {
+        "order": 53, 
+        "title": "Plan Development", 
+        "body": "Each iteration of planning goes from a high-level strategic focus to a tactical, activity, and task focus.", 
+        "list1": "Key notes to consider when developing a project plan:; A plan should have a target beginning and end, with each activity/task connected to one another; Different types of plan are created for different purposes; Level of details in the plan can be adjusted based on target audience",
+        "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order53.png",
+        "image1": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
+      },
+      {
+        "order": 54, 
+        "title": "Plan Development", 
+        "body": "Milestones are meaningful when communicating the status of a project with the project team, key stakeholders, and sponsors.", 
+        "body1": "A milestone is reached, when at least one of the following is true:", 
+        "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order54.png",
+        "image1": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
+      },
+      {
+        "order": 55, 
+        "title": "Six-steps to development", 
+        "body": "There are six steps to develop a robust workplan using the ODW way:", 
+        "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order55.png",
+        "image1": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
+      },
+      {
+        "order": 56, 
+        "title": "Work Breakdown Structure", 
+        "body": "A Work Breakdown Structure (WBS) is a listing of the discrete steps of work to be executed by a project team, described with an action orientation.",
+        "body1": "WBS helps clarify the tasks to be delivered on a project over a scheduled period of time.", 
+        "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order56.png",
+        "image1": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
+      },
+      {
+        "order": 57,
+        "title": "Knowledge Check 10",
+        "subheader": "",
+        "body": "Scenario: A PM and CEO agreed to appoint a Senior person to take on the role of the Sponsor. The challenge is the Sponsor has very little time available, and it is not one of his KPIs., Select the correct option and then select Submit, How do you manage this situation?",
+        "image": "/src/assets/img/WBLImagePlaceholder.png",
+        "image2": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4",
+        "q_field_type": "single_select" ,
+        "q_selection": [{
+          "A": "Escalate issue to the CEO as this could jeopardize the project.",
+          "B": "Try to manage the role with Sponsor to ensure no issues are raised for the employee.",
+          "C": "Act as Sponsor and enable him/her for the OPCO meetings.",
+          "D": "Do nothing. Get on with the project and ensure it's delivered on time and on budget."
+        }],
+        "q_answer": "B"
+      }, 
+      {
+        "order": 58, 
+        "title": "Estimating Work Effort", 
+        "list1": "Estimate the work effort:; Follows WBS development approach of top-down or bottom-up; Technique used may vary based upon several factors, including size, scope and complexity of the project",
+        "list2": "Important Points:; Estimating is an integral part of Project Management.; The objective is to generate quantifiable estimates, along with associated assumptions and risks, which represent the effort and cost for a set of activities needed to produce deliverables.; Accurate estimates are critical to the success of a project. The best source of an estimate is to look at history. Remember, accuracy in estimating means being close not exact.; Good estimates do not guarantee a successful project, however bad estimates virtually guarantee failure.", 
+        "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order58.png",
+        "image1": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
+      },
+      { 
+        "order": 59, 
+        "title": "Estimating Work Effort", 
+        "list1": "Important Points:; Provide a quantitative assessment of the number of work periods to complete an activity; Provide range of uncertainty when estimating an activity (2 weeks +/- 2 days); Document assumptions made to derive the estimates; Update the activity list with any further breakdowns as a result of the duration estimates",
+        "list2": "Additional Important Points:; Project scope and clear work breakdown structure are defined; Base quantities of deliverables and activities are identified and documented; Auditable and repeatable estimating process; Underlying project assumptions are well defined and documented; Uncertainties are understood, documented and incorporated; It passes the “reasonability” test for feasibility/sensibility; Agreement/buy-in from the team", 
+        "image": "/src/assets/img/WBLImagePlaceholder.png",
+        "image1": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order59.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
+      },  
+      {
+        "order": 60, 
+        "title": "Estimate the Resources and Costs",
+        "list1": "Estimating resources and cost — experience, practice and guidance", 
+        "list2": "Project Managers seek guidance on estimating method to be used from the practice leaders", 
+        "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order60.png",
+        "image1": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
+      },
+      {
+        "order": 61, 
+        "title": "Assigning Resources and Delegation",
+        "body": "Assignment is the matchmaking of a resource to a task in a project plan", 
+        "subheader": "Assigning resources allows you to answer" , 
+        "list1": "Who should be working on what task and when?;Have you assigned so many tasks that a resource is beyond capacity?; Are you expecting a resource to work on a task when they are not available?; Assigning a resource to a task enables you to track the progress of the resource’s work on the task.",
+        "body1": "Delegation is deciding the right person accompanied with responsibility and accountability to deliver a work effort",
+        "subheader1": "Revisit your project plan when delegating tasks" ,  
+        "list2": "What is the activity all about?; What needs to be delivered?; When do you expect to start and complete?; Are there any dependencies to consider?; Who are your workstream members?; Delegating effectively empowers your team to gain control, hone their skills, and develop sense of autonomy.", 
+        "image": "/src/assets/img/WBLImagePlaceholder.png",
+        "image1": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
+      },  
+      {
+        "order": 62, 
+        "title": "Milestones defined",
+        "list1": "A milestone marks a point in time for which one or more of the following is true:; Marks the completion of a group of related activities or deliverables; Is where key decisions or key deliverables must be completed for the project to advance; Is generally on a critical path for the project’s completion; Can be tied to another project such that achievement of one of your project’s milestones may impact progress on other projects; Is agreed upon with the project team, key stakeholders and sponsors; Is meaningful when communicating the status of a project with the project team, key stakeholders and sponsors; Milestones establish a commitment between the project sponsor and project team", 
+        "list2": "Benefits of using Milestones:; Ease and simplify communication across the Project Sponsor, Project Team, and PMO; Create high-level visibility: Create high-level accountability; Ensure facilitated agreement at all levels; Ensure clear understanding of the milestone’s intent; Support metrics", 
+        "list3": "Defining Milestones; Milestones are most effective when all parties with a stake in the project are involved in their selection.; Review project objectives and schedule; Draft milestones with project team; Review and update milestones with project sponsor; Receive approval from project sponsor; Track and monitor milestones against project plan",
+        "image": "/src/assets/img/WBLImagePlaceholder.png",
+        "image1": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
+      },  
+      {
+        "order": 63, 
+        "title": "Critical Path Method",
+        "body": "Critical Path Method or CPM is used to build, calculate, and evaluate the plan’s activities and timing. The CPM is used to evaluate and optimize project plans.", 
+        "body1": "Critical Path is a series of tasks that will extend the project’s end date, if those tasks are delayed. These tasks have a single, pre-determined time estimate. It can also be explained as the longest-duration path through a network diagram and determines the shortest time to complete the project. ", 
+        "body2": "It is worth noting that there may be tasks with a Float/Stack value which allows for a task to be delayed from its expected start date, but without impact to the project’s finish date.",
+        "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order63.png",
+        "image1": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
+      },
+      {
+        "order": 64, 
+        "title": "Critical Path Method: Sample",
+        "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order64.png",
+        "image1": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
+      },
+      {
+        "order": 65, 
+        "title": "Baseline and track the project plan",
+        "list1": "Baseline a project to track the iterative changes and impacts to time, scope and cost; Baselines are a snapshot of the project attributes at a certain time; Project Management tools and applications can compare later changes to initial baseline conditions;  Differences between the baseline and later versions can help Project Managers adjust or recover the plan; Baseline tracking contributes to continuous improvement of project planning in the specific environment", 
+        "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order65.png",
+        "image1": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
+      },
+      {
+        "order": 66, 
+        "title": "The Project Plan is ready for a baseline when:",
+        "list1": "The Project Manager has received all estimate and schedule inputs from team and has drafted the Project Plan and Schedule.; The Project Manager has met with the team, reviewed the plan and obtained buy-in for the plan.; The Project Manager has met and discussed the team’s proposed plan with executive leadership and receives approval or “sign off”.; The Project Manager has met with the PMO to review and obtain sign off on the plan.; All team, leadership and client changes are included in the plan.",
+        "image": "/src/assets/img/WBLImagePlaceholder.png",
+        "image1": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
+      },  
+      {
+        "order": 67, 
+        "title": "Creating a Project Plan",
+        "body": "A Project Plan is a documented plan critical to tracking progress and reporting status. It describes how the project will be executed, monitored, and controlled.", 
+        "body1": "This plan is a summary level document containing the results of planning. It serves as a complement to the Project Charter and represents a more detailed view of specific work streams and activities conducted during the project.",
+        "list1": "Columns Defined:; Workstream - The name of the group for which specific developed and assigned.; Activity - A brief note about work to be performed.; Dependency - A relationship in which a task is connected or reliant on another task for execution or completion.; Deliverable/Milestone - The finished work product resulting from a process (deliverable); or a significant point, occurrence or outcome in the project (milestone).; Status – Following the RAG principle for the 3 main status",
+        "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order67.png",
+        "image1": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
+      },
+      {
+        "order": 68, 
+        "title": "Creating a Project Plan",
+        "body":"Individual supporting plans or work products are created to supplement the overall Project Plan baseline. Each supporting plan is created to document baseline data and/or changes and updates for reference.",
+        "list1": "Communications Management Plan - component of the project management plan that describes how project communications will be planned, structured, monitored, and controlled; Stakeholder Engagement Plan - component of the project management plan and identifies the management strategies required to effectively engage stakeholders. The stakeholder management plan can be formal or informal, highly detailed or broadly framed, based on the needs of the project; Scope Management Plan - describes how the project scope will be planned, structured, and controlled; Change Control Plan - sets expectations on how the approach to changes will be managed, what defines a change, the purpose and role of the change control board, and the overall change management process; Risk Management Plan - component of the project management plan and describes how risk management activities will be structured and performed; Schedule Management Plan - establishes the criteria and the activities for developing, monitoring, and controlling the schedule ", 
+        "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order68.png",
+        "image1": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
+      },
+      {
+        "order": 69, 
+        "title": "Summary Project Plan",
+        "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order69.png",
+        "image1": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
+      },
+      {
+        "order": 70, 
+        "title": "Project Planning Phase: Summary",
+        "image": "src/assets/img/project_managemen/Project Fundamentals/PMFIDS_PM_PFTT_order43_1.jpg", 
+        "subheader": "PURPOSE", 
+        "list1": "Establish the scope of the project, refine the objectives, and define the course of action required to attain the objectives that the project is undertaken to achieve", 
+        "image1": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order43_2.jpg",
+        "subheader1" :"KEY ACTIVITIES", 
+        "list2": "Work Breakdown Structure; Project Roadmaps and Milestones; Project Risks, Issues, Dependencies", 
+        "image2": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order43_3.jpg",
+        "subheader2": "KEY OUTPUTS",
+        "list3": "Project Plan; Stakeholder Register",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
+      },
+      {
+        "order": 71, 
+        "title": "The Project Lifecycle",
+        "subheader": "Phase 3: Execution",
+        "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order71.png",
+        "image1": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
+      },
+      {
+        "order": 72, 
+        "title": "The Execution Phase",
+        "body": "The Execute, and the Monitor and Control phases focus on task delivery and project oversight. These two phases are nearly always simultaneous, but each has a distinct purpose and objective. Monitor and Control provides oversight of the Plan, the Execute and the Close phases.",
+        "subheader": "Execute",
+        "body1": "The Execute phase consists of those processes that are performed to complete the work defined in the Project Management plan to satisfy the project specifications. This process involves coordinating with people and resources, managing stakeholder expectations, as well as integrating and performing the activities of the project in accordance with the Project Management plan.",
+        "subheader1": "Monitor and Control",
+        "body2": "The Monitor and Control phase consists of those processes required to track, review and orchestrate the progress and performance of the project; identify any areas in which changes to the plan are required and initiate the corresponding changes.",
+        "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order72.png",
+        "image1": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
+      },
+      {
+        "order": 73, 
+        "title": "Leading the work",
+        "body": "“Successful Project Managers are managers who practice both strong management skills and effective leadership skills.” Reference: Kumar, Victoria (2009). PMI Global Congress 2009.",
+        "body1": "This assertion is especially important during the execution of the project work", 
+        "list1": "Project Managers must lead the team by:; Motivating and Inspiring - Project leaders will constantly be encouraging and prompting their people to do the best work possible and acknowledge those that produce both in public and private.; Team Building - Project leaders are deliberately looking for opportunities to help team members work with each other to achieve their collective goals. On larger projects, project leadership fosters the process and mechanisms to enable sub-team leads to do the same.; Negotiating and communicating - Project leaders' model desired and exemplary communication skills. This includes creating a healthy environment where open and honest communications carry throughout the team and stakeholders.; Listening and influencing - Project leaders must listen to their team members’ ideas and concerns — and then acknowledge and show consideration for their contribution to the discussion. This happens before the leader issues an opinion or decision.",
+        "image": "/src/assets/img/WBLImagePlaceholder.png",
+        "image1": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
+      },    
+      {
+        "order": 74, 
+        "title": "Project execution",
+        "body": "Since changes will happen during project execution. Project Managers must manage the delivery of the work while leading the team and stakeholders through changes to the project triangle.",
+        "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order74.png",
+        "image1": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
+      },
+      {
+        "order": 75,
+        "title": "Knowledge Check 11",
+        "subheader": "",
+        "body": "Which of the following options best describes the Execute phase of a project?",
+        "image": "/src/assets/img/WBLImagePlaceholder.png",
+        "image2": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4",
+        "q_field_type": "single_select" ,
+        "q_selection": [{
+          "A": "The phase that contains the tracking, reporting and identification of project progress",
+          "B": "The phase that determines and documents the goals and objectives of the project",
+          "C": "The phase that defines the work breakdown structure",
+          "D": "The phase that coordinates and performs the activities and tasks directly related to completion of project activities."
+        }],
+        "q_answer": "D"
+      },
+      {
+        "order": 76, 
+        "title": "Key Differences Between Waterfall and Agile Project Management",
+        "body": "PMOs that are experimenting with Agile often find that a Hybrid approach can be most effective to accelerate traditional Waterfall projects while Agile principles are becoming fully understood and implemented.",
+        "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order76.png",
+        "image1": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
+      },
+      {
+        "order": 77, 
+        "title": "Role of the PMO",
+        "body": "The Project Management Office (PMO) is the control room for managing project control processes for large projects or programs.",
+        "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order77.png",
+        "image1": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
+      },
+      {
+        "order": 78, 
+        "title": "Project Execution Phase: Summary",
+        "image": "src/assets/img/project_managemen/Project Fundamentals/PMFIDS_PM_PFTT_order43_1.jpg", 
+        "subheader": "PURPOSE", 
+        "list1": "Deliver the work defined in the project management plan to satisfy the project specifications", 
+        "image1": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order43_2.jpg",
+        "subheader1" :"KEY ACTIVITIES", 
+        "list2": "Setting people up to perform according to the approved work plan; Managing stakeholder expectations", 
+        "image2": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order43_3.jpg",
+        "subheader2": "KEY OUTPUTS",
+        "list3": "Issue/Risk Register; Risk Management Plan",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
+      }, 
+      {
+        "order": 79, 
+        "title": "The Project Lifecycle",
+        "subheader": "Phase 4: Monitoring & Control", 
+        "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order79.png",
+        "image1": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
+      },
+      {
+        "order": 80, 
+        "title": "Monitoring and Control Phase",
+        "list1": "The Monitor and Control phase consists of:; Processes required to track, review and orchestrate the progress and performance of the project; Identify any areas in which changes to the plan are required; Initiate the corresponding changes", 
+        "body": "Aim of the Phase: Provide critical visibility and insight to project against plan and initiate corrective action as needed.",
+        "subheader": "KEY BENEFITS",
+        "list2": "Project performance is measured and analyzed at regular intervals, appropriate events; Able to identify variances from the project management plan.",
+        "subheader1": "KEY ACTIVITIES",
+        "list3": "Control changes and recommend actions (preventive or corrective); Monitor ongoing activities and gauge against project performance measures.; Maintain project change control processes.",
+        "image": "/src/assets/img/WBLImagePlaceholder.png",
+        "image1": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
+      },  
+      {
+        "order": 81, 
+        "title": "Monitoring and controlling projects using stakeholder management and governance",
+        "subheader": "Effective Governance Program:",
+        "list1": "Structure and roles; Key roles, e.g. sponsor; Forums, e.g., steering committee",
+        "list2": "Control processes; Risk and issue management; Budget management; Schedule and dependency control; Change control; Resource and vendor management; Quality assurance",
+        "list3": "Performance dashboard; Project progress and status reporting; Phase gate and milestone reporting; Benefits and outcomes tracking", 
+        "image": "/src/assets/img/WBLImagePlaceholder.png",
+        "image1": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
+      },
+      {
+        "order": 82, 
+        "title": "Monitoring and controlling projects when events change plans",
+        "body": "When the plan gets challenged, you need to return to the key project questions drilled out from the Initiate and Plan and captured in the associated artifacts.", 
+        "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order82.png",
+        "image1": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
+      },
+      {
+        "order": 83, 
+        "title": "Monitoring and Control Phase",
+        "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order83.png",
+        "image1": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
+      },
+      {
+        "order": 84, 
+        "title": "Stakeholder management: who are the stakeholders?",
+        "body": "Stakeholders are a range of people who have a vested interest in the project’s progress and success.", 
+        "list1": "Benefit or are impacted directly or indirectly from the change or project outcomes; Behavior’s may need to change; Influence the people involved in the project; Control resources and commodities needed to carry out the project tasks and activities; Heavily influence others who are affected by the project’s outcomes",
+        "image": "/src/assets/img/WBLImagePlaceholder.png",
+        "image1": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
+      },
+      {
+        "order": 85, 
+        "title": "Stakeholder management: who are the stakeholders?",
+        "body": "Stakeholders are a range of people who have a vested interest in the project’s progress and success.", 
+        "list1": "Sponsor - Owns the project, accountable for its delivery.; Project Manager - Responsible for successful delivery.; Functional Leads - Making investments in time/money.; Key Stakeholders - Clients, beneficiaries and/or impacted parties.; Project Team -Job satisfaction and reputations depend on it.; Other PMs - May share dependencies and resources.",
+        "image": "/src/assets/img/WBLImagePlaceholder.png",
+        "image1": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
+      },
+      {
+        "order": 86, 
+        "title": "Importance of effective Stakeholder Management",
+        "body": "When effectively employed, stakeholder management is critical to a project’s success.", 
+        "list1": "Achievement of strategic objectives through positive relationships with stakeholders; Proactive management of expectations through a defined process; Consistent communications use and information dissemination using a common language; Effective Change Management activities using a formalized process and discipline",
+        "image": "/src/assets/img/WBLImagePlaceholder.png",
+        "image1": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
+      },  
+      {
+        "order": 87, 
+        "title": "Stakeholder management and the Project Manager",
+        "body": "Apply a structured approach to understanding what information each stakeholder needs and how best to communicate it to them.", 
+        "subheader": "Identify stakeholders", 
+        "list1": "Identify all key people or groups impacted by the project; Analyze their interest, influence and impact on the project",
+        "subheader1": "Plan communications",
+        "list2": "Determine the stakeholder information needs and define and plan communications approach",
+        "subheader2": "Distribute and communicate information", 
+        "list3": "Make relevant information available to project stakeholders as planned, using methods/media that are fit-for-purpose",
+        "subheader3": "Manage stakeholder expectations", 
+        "list4": "Communicate and work with stakeholders to meet their priority needs and address issues/concerns as they occur",
+        "subheader4": "Communicate performance", 
+        "list5": "Collect and communicate performance information, including status reports, progress measurement and forecasts",
+        "image": "/src/assets/img/WBLImagePlaceholder.png",
+        "image1": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
+      },
+      {
+        "order": 88, 
+        "title": "Stakeholder Management",
+        "body": "It is important to communicate and work well with your stakeholders’ needs and expectations and address issues as they occur. When effectively employed, stakeholder management is critical to a project’s success.", 
+        "subheader": "Key points to remember:",
+        "body1": "Know WHO your stakeholders are",
+        "list1": "Stakeholders both internal and external can help achieve project objectives; What to do: Aim to create a positive relationship with them",
+        "body2": "Know WHEN and WHERE to discuss project issues and concerns with  your stakeholders",
+        "list2": "Keeping stakeholders engaged and informed can reduce uncertainties and promote supportive relationship; What to do: Establish checkpoints or cadences with different level of stakeholders (e.g. weekly or monthly cadences)",
+        "body3": "Know HOW to communicate your items",
+        "list3": "Leveling out understanding among stakeholders can help establish better appreciation of items being raised; What to do: Use a common language and standardized terminology when reporting",
+        "image": "/src/assets/img/WBLImagePlaceholder.png",
+        "image1": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
+      },
+      {
+        "order": 89,
+        "title": "Determining the stakeholders’ role",
+        "body": "The RACI Matrix is a simple charting tool used to define responsibility for each task within a project. It ensures that each task is assigned to the appropriate person or department to align responsibilities and set clear expectations.", 
+        "body1": "RACI is an acronym with each letter representing a different role to perform.", 
+        "subheader": "Responsible", 
+        "body2": "DOER", 
+        "list1": "The responsible employee physically does the work.; Who is assigned to work on this task?​​", 
+        "subheader1": "Accountable", 
+        "body3": "OWNER",
+        "list2": "The accountable employee oversees the work and is ultimately answerable for the activity or decision.; Who has the authority to sign off the work?​", 
+        "subheader2":"Consulted", 
+        "body4": "IN THE LOOP",
+        "list3": "The consulted employee offers advice or feedback to improve the work.​; Who can tell me more about this task?​", 
+        "subheader3": "Informed", 
+        "body5": "IN THE PICTURE", 
+        "list4": "The informed party does not take part in the work but should be notified of the results.; Who must be kept updated about the progress?​​",
+        "image": "/src/assets/img/WBLImagePlaceholder.png",
+        "image1": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
+      },
+      {
+        "order": 90, 
+        "title": "The project manager and governance",
+        "body": "Planning effective governance structure and practices sets up the project for success.", 
+        "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order90.png",
+        "image1": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
+      },
+      {
+        "order": 91, 
+        "title": "Risks, Assumptions, Issues, and Dependencies",
+        "body": "The RAID matrix allows the project team to document, proactively account for, and address items interrelated with the project.",
+        "body1": "The staff on a project is often responsible for identifying the risks and helping to complete the RAID tool.", 
+        "list1": "Risks; A risk is defined as a future threat to the overall success of a project or a contingent part; Every risk has an associated likelihood, and therefore, severity rating; Risks must be mitigated or accepted", 
+        "list2": "Assumptions; An assumption is a statement accepted as fact; Assumptions must be validated", 
+        "list3": "Issues; An issue is an immediate formally defined concern that requires action; It impedes the progress of a Workstream or the Program and about which no agreement to resolve has been reached", 
+        "list4": "Dependencies; Dependencies are relationships between products or tasks; For example, one product may be made up of several other “dependent” products or a task may not begin until a “dependent” task is complete", 
+        "image": "/src/assets/img/WBLImagePlaceholder.png",
+        "image1": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
+      },
+      {
+        "order": 92, 
+        "title": "RAID Summary",
+        "body": "Unlike risks and issues, assumptions and dependencies in the RAID log are documented instances where the project has determined that there is an assumption or dependency which exists, so that in the process of resolving issues or mitigating risks, these factors are not missed — and can be incorporated into the solution.", 
+        "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order92.png",
+        "image1": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
+      },
+      {
+        "order": 93, 
+        "title": "Your Response to Risks identified",
+        "body": "As we assess the risk, we should also consider balancing cost, time, and scope of the project.", 
+        "list1": "ACCEPT - It might not always be cost-effective to avoid, transfer, or mitigate all risks, at some point a certain level of risk must be accepted.; AVOID - Risk avoidance is the simplest response strategy – basically this involves just not going forward with the activity that posed the risk.; TRANSFER - Risk transfer strategies seek to pass the risk off to a third party.; MITIGATE - Risk mitigation involves trying to reduce an existing risk.", 
+        "subheader": "Evaluate Impact of your Risk:", 
+        "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order93.png",
+        "image1": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
+      },
+      {
+        "order": 94, 
+        "title": "Issue Management",
+        "body": "The issue lifecycle is straightforward. The process helps the project team to understand what to do with issues once identified. The Project Manager should ensure that the project team has the required skills to facilitate the movement of an issue throughout the process.", 
+        "list1": "Project Managers should be able to answer the following questions regarding issue control:; Who will be assigned for resolving the issue?; How will the team know when to escalate an issue to management or the steering committee? Consider creating a matrix of potential business impact versus issue complexity to help decide which issues should be taken to higher levels of management.; Which criteria will determine an issue's priority status?; Who will set the target resolution date?; How will issues be communicated within the team?", 
+        "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order94.png",
+        "image1": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
+      },
+      {
+        "order": 95, 
+        "title": "Sample RAID Log",
+        "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order95.png",
+        "image1": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
+      },
+      {
+        "order": 96, 
+        "title": "Project Status Report",
+        "body": "Status Report is a summary of an ongoing project performance information for a specific period of time. It is regularly updated and presented to key stakeholders and sponsor all throughout the execution of a project.", 
+        "list1": "Follow the RAG Status Guidance and use the color indicators below to determine the status of a Milestone or Budget (Planned vs Actual):; COMPLETED - Fully achieved; DELAYED - Project not on track, has significant challenges and/or issues that can impact overall success of an expected outcome; AT RISK - Project on track, has significant challenges and/or issues that can impact overall success of an expected outcome; ON TRACK - Project on track, no significant challenges and/or issues that can impact overall success of an expected outcome", 
+        "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order96.png",
+        "image1": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
+      },
+      {
+        "order": 97, 
+        "title": "Project Status Report",
+        "body": "Timeline, Cost, and Scope changes typically happen during Execution. A Project Manager must be prepared to manage the delivery of the work while leading the team through the process of adjusting the work plan and resetting expectations as the work develops.", 
+        "body1": "A Project Manager should also continuously refresh and affirm many of the tasks, inputs and outputs in all of the phases from Initiate through Monitor and Control. ", 
+        "body2": "Some of the foundational documents will need updating throughout the project, and sometimes a formal Change Request is needed.",
+        "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order74.png",
+        "image1": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
+      },
+      {
+        "order": 98,
+        "title": "Knowledge Check 12",
+        "subheader": "",
+        "body": "What is the significance of a status report?",
+        "image": "/src/assets/img/WBLImagePlaceholder.png",
+        "image2": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4",
+        "q_field_type": "single_select" ,
+        "q_selection": [{
+          "A": "The process helps the project team to understand what to do with issues once identified.",
+          "B": "A summary of an ongoing project performance information for a specific period of time.",
+          "C": "Risk transfer strategies seek to pass the risk off to a third party",
+          "D": "Events that will have an adverse impact on your project if they occur."
+        }],
+        "q_answer": "B"
+      },  
+      {
+        "order": 99,
+        "title": "Project Monitoring & Control Phase: Summary",
+        "subheader": "PURPOSE", 
+        "image": "src/assets/img/project_managemen/Project Fundamentals/PMFIDS_PM_PFTT_order43_1.jpg",
+        "body": "Track, review, and regulate the progress and performance of the project; identify any areas in which changes to the plan are required; and initiate the corresponding changes", 
+        "subheader1":"KEY ACTIVITIES", 
+        "image1": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order43_2.jpg",
+        "list1": "Identifying Risks, Assumptions, Issues, and Dependencies; Recommending and controlling changes that are corrective and preventive in nature", 
+        "subheader2": "KEY OUTPUTS", 
+        "list2": "Risk Register; Status Report", 
+        "image2": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order43_3.jpg",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
+      },  
+      {
+        "order": 100,
+        "title": "The Project Lifecycle", 	
+        "subheader": "Phase 5: Closing", 
+        "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order100.png",
+        "image2": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4" 
+      },
+      {
+        "order": 101,
+        "title": "Closing Phase", 	
+        "body": "Closing the project consists of those processes performed to conclude all activities and formally complete the project, phase, or contractual obligations.", 
+        "dody1": "This activity, when completed, verifies that the defined processes are completed within to close the project or a project phase, as appropriate, and formally establishes that the project or project phase is complete.​", 
+        "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order101.png",
+        "image2": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4" 
+      },
+      {
+        "order": 102,
+        "title": "Closing Phase", 	
+        "list1": "IMPORTANT OUTPUT:; Accepted deliverables; Supplier contract close document; Corrective actions; Team performance assessments; Documented lessons learned; Team resources released; Project close report", 
+        "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order102.png",
+        "image2": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4" 
+      },
+      {
+        "order": 103,
+        "title": "Project team debrief and lessons learned", 	
+        "body": "Ways through which Project Managers facilitate the gathering and documentation of intellectual property", 
+        "list1": "Conducting the final project team debrief meeting; Conducting a project close meeting with sponsor; Documenting and validating project outcomes against the project objectives", 
+        "list2": "Elements of a good project team debrief include:;Input from all teams (including client members, if appropriate); Clear expectations of transparency; Discussion addresses mobilization, communications, planning, quality, resourcing and teaming; Team members are prepared to share observations of lessons learned",
+        "list3": "Capturing lessons learned:;What worked well and why?; What did not work well and why?; How could the team do better next time?", 
+        "image": "/src/assets/img/WBLImagePlaceholder.png",
+        "image2": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4" 
+      },
+      {
+        "order": 104,
+        "title": "Project Close Report", 	
+        "body": "Summarizes the overall performance of a project against objectives, deliverables, and milestones. Includes a simplified view of any remaining outstanding issues and variance analysis in project scope, time, and cost.", 
+        "list1": "Executive Summary – Provides a brief overview of the project, its objectives, and high-level outcomes; Project Objectives – Be specific about any deviations from the original objectives.; Scope – highlight any scope creep or changes in the project; Deliverables – we can group them into milestones and highlight specific challenges; Successes – discuss any notable milestones and accomplishments; Challenges – discuss here how these challenges were addressed; Lessons learned – Explain and discuss how these lessons can be applied to future projects; Risk Management – also mention if they materialized or not; Quality and performance – you may explain here the project’s quality control process; Recommendations – this is an opportunity to discuss future pursuits or projects", 
+        "body1": "The Project Manager presents the final report to the client project sponsor and other key stakeholders and must obtain an approval to close the project.", 
+        "body2": "If there are outstanding issues preventing the sponsor from approving the close, the Project Manager and sponsor should create an action plan with a planned completion date.", 
+        "image": "/src/assets/img/WBLImagePlaceholder.png",
+        "image2": "/src/assets/img/WBLImagePlaceholder.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4" 
+      },
+      {
+        "order": 105,
         "title": "Learning Summary",
         "subheader": "Congratulations on completing this module!",
-        "body": "Now that you have completed this lesson, you should be able to:",
-        "list1": "Define what is project and project management; Identify the three constraints of project management triangle and its importance to a poject",
+        "list1": "Now that you have completed this lesson, you should be able to: What is project lifecycle; Different phases of project lifecycle and its components; Manage end-to-end project cycle from initiation to closing, as well as in performing the execution of the project and continuous monitoring and control of the project.",
         "list2": "",
         "image": "/src/assets/img/WBLImagePlaceholder.png",
         "image2": "/src/assets/img/WBLImagePlaceholder.png",
         "video": "/src/assets/WBLVideoPlaceholder.mp4"
       },
       {
-        "order": 5,
+        "order": 106,
         "title": "Finish",
         "subheader": "Download Certificate",
         "body": " Ut enim ad minim veniam",
@@ -68,7 +1233,7 @@
     "exams": [{
       "exam_id": 1,
       "title": "Course Examination",
-      "body": "This assessment is designed to test your knowledge. Results of this assessment will be used to structure the workshop.",
+      "body": "This assessment is designed to test your knowledge, and you must score at least 70% to pass.",
       "questions": [{
                 "q_number": 1,
                 "q_statement": "BSO Unibank is considering to initiate a project, to align stakeholder expectations and prepare the detailed plans for the project, what kind of document should the project team must create?",
@@ -78,7 +1243,8 @@
                     "B": "Budget Outline",
                     "C": "Project Charter",
                     "D": "RACI Matrix"
-                }]
+                }],
+                "q_answer": "C"
             },
             {
                 "q_number": 2,
@@ -89,7 +1255,8 @@
                     "B": "What are the roles and responsibilities of people involved in the project?",
                     "C": "What are the rationale, goals, and objectives of the project?",
                     "D": "All of the above"
-                }]
+                }],
+                "q_answer": "D"
             },
             {
                 "q_number": 3,
@@ -100,7 +1267,8 @@
                     "B": "Need for a change",
                     "C": "Customer demands",
                     "D": "Peer pressure"
-                }]
+                }], 
+                "q_answer": "B"
             },
             {
                 "q_number": 4,
@@ -111,17 +1279,18 @@
                     "B": "iteration of planning",
                     "C": "beginning and end of the project",
                     "D": "target audience"
-                }]
+                }], 
+                "q_answer": "A"
             },
             {
                 "q_number": 5,
-                "q_statement": "Question 5",
+                "q_statement": "Who is the accountable employee who oversees the work and is ultimately responsible for the activity or decision?",
                 "q_field_type": "single_select" ,
                 "q_selection": [{
-                    "A": "Choice A",
-                    "B": "Choice B",
-                    "C": "Choice C",
-                    "D": "Choice D"
+                    "A": "Doer",
+                    "B": "Owner",
+                    "C": "In the loop",
+                    "D": "In the picture"
                 }]
             },
             {
@@ -133,7 +1302,8 @@
                     "B": "Business Case",
                     "C": "RACI Matrix",
                     "D": "ODW Principle"
-                }]
+                }], 
+                "q_answer": "D"
             },
             {
                 "q_number": 7,
@@ -144,7 +1314,8 @@
                     "B": "Evaluate",
                     "C": "Milestones",
                     "D": "Calculate"
-                }]
+                }], 
+                "q_answer": "A, B, D"
             },
             {
                 "q_number": 8,
@@ -155,18 +1326,20 @@
                     "B": "Who are your workstream members?",
                     "C": "Are you expecting a resource to work on a task when they are not available?",
                     "D": "Who should be working on what task and when?"
-              }]
+                }], 
+                "q_answer": "B, C, D"
             },
             {
                 "q_number": 9,
-                "q_statement": "Which of the following describes Issue Management?",
+                "q_statement": "Which of the following describes Issue Management?, Select the correct option and then select Submit",
                 "q_field_type": "single_select" ,
                 "q_selection": [{
                     "A": "The process helps the project team to understand what to do with issues once identified. The Project Manager should ensure that the project team has the required skills to facilitate the movement of an issue throughout the process.",
                     "B": "It allows the project team to document, proactively account for, and address items interrelated with the project.",
                     "C": "When effectively employed, stakeholder management is critical to the success of a project.",
                     "D": "None of the above"
-              }]
+                 }], 
+                "q_answer": "A"
             },
             {
                 "q_number": 10,
@@ -177,7 +1350,8 @@
                     "B": "Team performance assessments",
                     "C": "Team resources released",
                     "D": "None of the above"
-              }]
+                }],
+                "q_answer": "A, B, C"
             }]
      }]
   },
@@ -702,54 +1876,658 @@
   {
     "id": 3,
     "moduleId": "PMFIDS_RM",
-    "moduleName": "Risk Management",
+    "moduleName": "Project Risk Management",
     "type": "course",
     "sections": [
       {
-        "order": 1,
-        "title": "Introduction",
-        "body": "Welcome to the course...",
+        "order": 1, 
+        "title": "Course Introduction",
+        "body": "Welcome to the WBL (Web-Based Learning) module on Project Risk Management! This module is designed to deliver an understanding of the types of risks and the process of identifying, analyzing, handling and monitoring risks in managing projects. Below is an overview of the topics covered in this module:",
         "image": "/src/assets/img/WBLImagePlaceholder.png"
       },
       {
         "order": 2,
-        "title": "Key Concepts",
-        "body": "Here are the key concepts...",
+        "title": "Course Completion Requirements",
+        "subheader": "Welcome",
+        "body": "Select each heading to find out more. When you have selected all the headings, select the down arrow at the right to continue.",
+        "subheader1": "Course Credit and Completion Requirements",
+        "list1": "To receive proper learning credit and achieve the learning objectives, you must not skip any screens.; Complete all interactions.; Complete all practice questions.; Pass the final assessment with at least 70%; While completing the assessment, you are welcome to refer to the content of this course as much as you need, but you must complete the assessment alone. Using answers received from others, including any form of artificial intelligence, to complete an assessment is cheating.; Please note that this learning will expire in April 25, 2025. You must complete and pass all of the scored portions of this course within this period, or your related learning progress will be removed.",
         "image": "/src/assets/img/WBLImagePlaceholder.png"
       },
       {
         "order": 3,
-        "title": "Knowledge Check",
-        "body": "What are the three primary constraints of the project management triangle?",
-        "image": "/src/assets/img/WBLImagePlaceholder.png",
-        "q_field_type": "single_select" ,
-        "q_selection": [{
-          "A": "Resources, Schedule, Quality",
-          "B": "Quality, Time, Budget",
-          "C": "Scope, Time, Cost",
-          "D": "Scope, Quality, Budget"
-        }],
-        "q_answer": "C"
+        "title": "Course Completion Requirements",
+        "subheader": "Welcome",
+        "body": "Select each heading to find out more. When you have selected all the headings, select the down arrow at the right to continue.",
+        "subheader1": "Course Objective",
+        "body1": "Upon successful completion of the course, you will be able to:",
+        "list1": "Define project risk and identify various types of risks that may occur in a project.; Recognize the risk management process and explore tools and fram.",
+        "subheader2": "Topics",
+        "list2":"Overview of Risks; Risk Management; Quality Assurance; Regulations",
+        "image": "/src/assets/img/WBLImagePlaceholder.png"
       },
       {
         "order": 4,
-        "title": "Summary",
-        "body": "Here is the summary",
-        "image": "/src/assets/img/WBLImagePlaceholder.png"
+        "title": "Menu",
+        "subheader": "",
+        "body": "Select one topic to begin",
+        "list 1": "Overview of Risks",
+        "image1": "/src/assets/img/WBLImagePlaceholder.png",
+        "list 2": "Risk Management",
+        "image2": "/src/assets/img/WBLImagePlaceholder.png",
+        "list 3": "Quality Assurance",
+        "image3": "/src/assets/img/WBLImagePlaceholder.png",
+        "list 4": "Regulations",
+        "image4": "/src/assets/img/WBLImagePlaceholder.png"
       },
       {
         "order": 5,
-        "title": "Ending",
-        "body": "Here is the ending",
+        "title": "Lesson 1",
+        "subheader": "Overview of Risks",
+        "body": "",
         "image": "/src/assets/img/WBLImagePlaceholder.png"
-      }
-      
-    ],
-    "exams": [{
-      "exam_id": 1,
-      "title": "Course Examination",
-      "body": "This assessment is designed to test your knowledge. Results of this assessment will be used to structure the workshop.",
-      "questions": [{
+      },
+      {
+        "order": 6,
+        "title": "Learning Objective",
+        "body": "At the end of this lesson, you will be able to:",
+        "list": "Define project risk and identify various types of risks that may occur in a project.",
+        "image": "src/assets/img/projectmanagement/projectriskmanagement/PMFIDS_PM_PRM_order6.png"
+      },
+      {
+        "order": 7,
+        "title": "What is a Project Risk?",
+        "list": "An unpredictable event or situation that, if it happens, can positively or negatively impact the goals of a project.; Project risks can have positive outcomes, referred to as opportunities, or they can result in negative or unfavorable consequences, known as threats."
+      },
+      {
+        "order": 8,
+        "title": "Types of Risks",
+        "body": "Risks may be classified into two:",
+        "subheader1": "Internal Risk",
+        "body1": "Internal Risk: Internal risks are those that may come from the organization. Project analysts must identify and prioritize these types of risks",
+        "subheader2": "External Risk",
+        "body2": "External Risk: External risks are beyond the control of the project team and the organization hosting the project. These risks are typically harder to foresee and manage"
+      },
+      {
+        "order": 9,
+        "title":"Internal Risk",
+        "body": "These risks occur due to strengths and weaknesses internal to the organization.",
+        "subheader1": "Schedule Risk",
+        "body1": "Schedule Risk are risk that activities may take longer than anticipated. Schedule delays usually lead to increased costs and postpone the realization of project benefits, potentially resulting in a loss of competitive advantage",
+        "subheader2": "Resource Risk",
+         "body2": "Resource Risk are risks from outsourcing and personnel-related issues. Large projects may involve dozens or even hundreds of employees, making it crucial to manage attrition. Introducing a new resource at a later stage in the project can significantly slow down progress",
+         "subheader3":"Budget Risk",
+         "body3": "Budget risks involve the escalation of project costs due to inaccurate cost estimations and scope creep.",
+         "subheader4": "Performance Risk",
+         "body4": "Performance Risk are the risk that a completed project may not perform as intended or fail to meet the business requirements that justified its initiation",
+         "subheader5": "Scope Risk",
+         "body5": "Scope risks encompass changes in scope, often resulting from scope creep.",
+         "subheader6": "Quality Risk",
+         "body6": "Quality risks may arise if the product or project lacks clear acceptance criteria or fails to meet customer needs.",
+         "subheader7": "Technical Risk",
+         "body7": "Technical Risk are potential technology failures that could disrupt business operations, such as information security incidents or service outages. Projects utilizing new technology may encounter the risk of the technology not meeting expectations. For instance, an e-commerce platform crash could lead to lost revenue. Operational risks also encompass issues arising from poor implementation and process problems, including procurement, production, or distribution challenges.",
+         "image": "src/assets/img/projectmanagement/projectriskmanagement/PMFIDS_PM_PRM_order9.JPG"
+      },
+      {
+        "order": 10,
+        "title": "External Risks",
+        "body": "These risks occur due to strengths and weaknesses internal to the organization.",
+        "subheader1": "Strategic Risk",
+        "body1": "Strategic Risk are risks associated with failed business decisions or indecision that may impact a company. These risks can lead to potential losses from pursuing an unsuccessful business plan. For example, selecting a technology for a project that ultimately cannot be made to work.",
+        "subheader2": "Environmental Risk",
+        "body2": "This risk arises from the potential for business activities to alter the status quo due to specific events. Examples include delays in obtaining legislative approvals from authorized agencies, projects located in coastal zones, negative community impacts, and natural disasters such as earthquakes, hurricanes, or volcanic eruptions.",
+        "subheader3": "Market Risk",
+        "body3": "Market risks are the potential for an organization to incur losses due to factors that impact the overall performance of financial markets.",
+        "subheader4": "Legal Risk",
+        "body4": "Legal Risk are potential losses stemming from the unpredictability of legal proceedings, such as bankruptcy or impending litigation.",
+        "image": "src/assets/img/projectmanagement/projectriskmanagement/PMFIDS_PM_PRM_order10.JPG"
+      },
+      {
+        "order": 11,
+        "title": "Other Type of Risks",
+        "body": "Project managers must comprehend cybersecurity risks to safeguard their projects from cyberattacks. Below are some key cybersecurity risks to be mindful of.",
+        "subheader1": "Data breaches",
+        "body1": "Data breaches are among the most prevalent cybersecurity threats. In 2022, over 6.5 billion data records were exposed due to data breaches.",
+        "subheader2": "Phishing",
+        "body2": "Phishing continues to be a significant threat in the banking industry. Cybercriminals use deceptive emails, text messages, or websites that appear legitimate to trick customers or employees into disclosing sensitive information such as account numbers, passwords, or personal details. Once they obtain this information, hackers can steal money, commit identity theft, or infiltrate the bank's internal systems.",
+        "subheader3": "Insider threats",
+        "body3": "Insider threats, whether from disgruntled employees, contractors, or third-party vendors, pose a significant risk to a bank's cybersecurity. Insiders with access to sensitive data can either intentionally or unintentionally leak information or create an entry point for hackers",
+        "subheader4": "DDoS attacks",
+        "body4": "These involve flooding a bank's online services with excessive traffic, leading to system slowdowns or crashes. This renders services such as online banking and payment processing unavailable. These attacks can be especially harmful to banks, disrupting business operations, frustrating customers, and leaving systems vulnerable to additional exploitation.",
+        "subheader5": "APTs",
+        "body5": "APTs are highly sophisticated attacks in which cybercriminals gain unauthorized access to a bank's network and meticulously monitor its systems. Over time, they steal data and compromise critical infrastructure. These attacks are particularly dangerous because they are difficult to detect and can remain unnoticed for months, allowing hackers to extract valuable information before the bank becomes aware of the breach.",
+        "subheader6": "Third-party risk",
+        "body6": "Banks depend on third-party vendors and suppliers for various services, such as cloud storage and payment processing. Unfortunately, these third-party providers can be a weak link in a bank's cybersecurity chain. A cyberattack on a third-party vendor can create a backdoor, allowing hackers to access the bank's sensitive data.",
+        "subheader7": "Compliance violations",
+        "body7": "Compliance violations can result in fines and other penalties. It is crucial to ensure that your organization and digitalization projects adhere to all applicable regulations.",
+        "image": "src/assets/img/projectmanagement/projectriskmanagement/PMFIDS_PM_PRM_order11.JPG"
+      },
+      {
+        "order": 12,
+        "title": "Knowledge Check 1",
+        "subheader": "",
+        "body": "This is a type of risk where a completed project fails to perform as intended.",
+        "image": "/src/assets/img/WBLImagePlaceholder.png",
+        "q_field_type": "single_select" ,
+        "q_selection": [{
+          "A": "Quality Risk",
+          "B": "Performance Risk",
+          "C": "Scope Risk",
+          "D": "Strategic Risk"
+        }],
+        "q_answer": "B"
+      },
+      {
+        "order": 13,
+        "title": "Lesson Summary",
+        "subheader": "Congratulations on completing Lesson 1 of this course!",
+        "body": "Now that you have completed this lesson, you should be able to:",
+        "list": "Define project risk and identify various types of risks that may occur in a project.",
+        "image": "/src/assets/img/WBLImagePlaceholder.png"
+      },
+      {
+        "order": 14,
+        "title": "Lesson 2",
+        "subheader": "Risk Management",
+        "body": "Select each heading to find out more. When you have selected all the headings, select the down arrow at the right to continue.",
+        "image": "/src/assets/img/WBLImagePlaceholder.png"
+    },
+    {
+        "order": 15,
+        "title": "Learning Objective",
+        "body": "At the end of this lesson, you will be able to:",
+        "list": "Recognize the risk management process and explore tools and frameworks relevant to each step of the process.",
+        "image": "src/assets/img/projectmanagement/projectriskmanagement/PMFIDS_PM_PRM_order15.png"
+    },
+    {
+        "order": 16,
+        "title": "What is Risk Management?",
+        "list": "This encompasses the processes involved in planning, identifying, analyzing, responding to, and monitoring and controlling risks within a project.; The objectives are to enhance the likelihood and impact of positive events while reducing the probability and impact of adverse events affecting the project"
+    },
+    {
+        "order": 17,
+        "title": "Risk Management Process",
+        "body": "The risk management process is comprised of four phases, as depicted in the following diagram: Identification, Assessment, Handling, and Monitoring",
+        "subheader1": "Risk Identification",
+        "body1": "Risk identification involves examining project areas and critical technical processes to identify and document associated risks. Identifying potential issues, hazards, threats, and vulnerabilities that could negatively impact work efforts or plans forms the foundation of the risk management strategy. The project will employ several methods to identify risks:",
+        "list1": "Examination  the work breakdown structure to identify potential risk areas.; Conduct interviews with subject matter experts.; Analyze lessons learned documents or engage in discussions.; Examine design specifications for product enhancements, interfaces, and reports.; Evaluate project management and implementation strategies.; Perform risk assessment and risk management reviews.",
+        "subheader2": "Risk Assessment",
+        "body2": "Risk assessment involves analyzing identified risks and prioritizing them based on their potential threat to achieving project goals. During this phase, the project team examines each risk to determine its cause and potential effects. Risks are then rated based on their likelihood of occurrence and the severity of their impact on cost (e.g., Philippine Peso), schedule (e.g., time), and technical performance, as applicable.",
+        "subheader3": "Risk Handling",
+        "body3": "Risk handling involves identifying, evaluating, selecting, and implementing options to manage risks at acceptable levels, considering project constraints and objectives. This process outlines specific actions to be taken, timelines, responsible parties, and associated costs and schedules. The handling strategy is determined based on the overall risk assessment rating, as detailed below.",
+        "subheader4": "Risk Monitoring",
+        "body4": "Risk monitoring systematically tracks and evaluates the performance of risk-handling actions against established metrics throughout the project. It also involves developing additional risk-handling options as needed. To effectively control and manage risks during the project, the team regularly monitors both the risks and the outcomes of the risk-handling actions.; A Risk Register has been created to track each risk-handling activity for this project. Additionally, information on high overall risks will be included in the Monthly Project Status Report and discussed during Steering Committee meetings.",
+        "image": "src/assets/img/projectmanagement/projectriskmanagement/PMFIDS_PM_PRM_order17.png"
+    },
+    {
+        "order": 18,
+        "title": "Risk Identification",
+        "subheader": "RAID Log",
+        "image": "src/assets/img/projectmanagement/projectriskmanagement/PMFIDS_PM_PRM_order18.jpg",
+        "subheader1": "Risks",
+        "body1": "A risk is defined as a potential future threat to the overall success of a project or any of its components. Each risk is associated with a likelihood and a corresponding severity rating.",
+        "image1": "src/assets/img/projectmanagement/projectriskmanagement/PMFIDS_PM_PRM_order18_1.JPG",
+        "subheader2": "Assumptions",
+        "body2": "Any factors that you assume will be in place and contribute to the successful outcome of your project. An assumption is a statement accepted as fact. Assumptions must be validated.",
+        "image2": "src/assets/img/projectmanagement/projectriskmanagement/PMFIDS_PM_PRM_order18_2.jpg",
+        "subheader3": "Issues",
+        "body3": "An issue is an immediate, formally defined concern that requires action. It hinders the progress of a Workstream or the Program and lacks an agreed-upon resolution.",
+        "image3": "src/assets/img/projectmanagement/projectriskmanagement/PMFIDS_PM_PRM_order18_3.JPG",
+        "subheader4": "Dependencies",
+        "body4": "Dependencies are relationships between products or tasks. For instance, one product may consist of several other dependent products, or a task may not commence until a dependent task is completed.",
+        "image4": "src/assets/img/projectmanagement/projectriskmanagement/PMFIDS_PM_PRM_order18_4.JPG"
+    },
+    {
+        "order": 19,
+        "title": "Risk Identification",
+        "subheader": "RAID Log",
+        "body": "Utilizing a RAID log, or a similar tool, assists the PMO or Project Manager in capturing, organizing, prioritizing, and documenting the risks, assumptions, issues, and dependencies encountered during project planning and execution.",
+        "image": "src/assets/img/projectmanagement/projectriskmanagement/PMFIDS_PM_PRM_order19.JPG",
+        "subheader1": "Raid log entries should be:",
+        "subheader2": "Specific",
+        "body2": "Phrases like It won’t work are not detailed enough. Ensure each entry is fully identified, explained, and well-documented with supporting references.",
+        "subheader3": "Reviewed",
+        "body4": "Regularly review risks and issues to determine if circumstances have changed.",
+        "subheader5": "Validated",
+        "body5": "Regularly validate assumptions and dependencies. As the project progresses, these may no longer be valid as originally stated.",
+        "subheader6": "Defined",
+        "body6": "Focus on high-impact and high-probability risks and issues. Each item should have clearly defined owners and expected next actions.",
+        "subheader7": "Escalated",
+        "body7": "When necessary, review items for potential escalation using an escalation protocol managed by the PMO and governance processes.",
+        "image2": "src/assets/img/projectmanagement/projectriskmanagement/PMFIDS_PM_PRM_order19_1.jpg"
+    },
+    {
+        "order": 20,
+        "title": "Knowledge Check 2",
+        "subheader": "",
+        "body": "Identify the definitions for each of the RAID log items.",
+        "image": "/src/assets/img/WBLImagePlaceholder.png",
+        "q_field_type": "single_select" ,
+        "q_selection": [{
+          "A": "Likely Probability, Major Impact",
+          "B": "Likely Probability, Moderate Impact",
+          "C": "Rare Probability, Extreme Impact",
+          "D": "Moderate Probability, Trivial Impact"
+        }],
+        "q_answer": "A"
+      },
+      {
+        "order": 21,
+        "title": "Risk Identification",
+        "subheader": "Risk Register",
+        "image": "src/assets/img/projectmanagement/projectriskmanagement/PMFIDS_PM_PRM_order21.jpg",
+        "list1": "A risk register is a document used as a risk management tool to identify potential setbacks within a project. The purpose of this process is to collectively identify, analyze, and address risks before they become problems.",
+        "image1": "/src/assets/img/WBLImagePlaceholder.png",
+        "list2": "According to the PMBOK guide, a risk register, or risk log, is a document that contains the results of risk analysis and records risk response plans. The primary output from risk identification is the initial entry into the risk register.",
+        "image2": "/src/assets/img/WBLImagePlaceholder.png",
+        "list3": "The risk register details all identified risks, provides descriptions, categorizes them, and discusses potential causes and probabilities. It also includes potential responses and identifies who is responsible for managing each risk. The risk register is an integral part of the project management plan.",
+        "image3": "/src/assets/img/WBLImagePlaceholder.png"
+    },
+    {    
+        "order": 22,
+        "title": "Risk Identification",
+        "subheader": "Risk Register Components",
+        "image": "src/assets/img/projectmanagement/projectriskmanagement/PMFIDS_PM_PRM_order22.png",
+        "subheader1": "Risk Identification",
+        "body1": "This typically takes the form of a risk name or identification number, which is used to identify and track the risk within the risk register.; A risk identification field should include:",
+        "list1": "Risk name; Identification date; Subtitle, if needed",
+        "image1": "/src/assets/img/WBLImagePlaceholder.png",
+        "subheader2": "Risk Description",
+        "body2": "After the identification is complete, a brief description should be added to your log.; A risk description should include:",
+        "list2": "A short, high-level overview of the risk; Why the risk is a potential issue; How long you choose to make your descriptions is up to how detailed you want your log to be, but the average length is typically 80 to 100 characters.; The main takeaway is that a description should accurately describe the risk without getting in the weeds so it can be easily identified.",
+        "image2": "/src/assets/img/WBLImagePlaceholder.png",
+        "subheader3": "Risk Category",
+        "body3": "Quickly identifying the risk facilitates assigning it to the appropriate team, especially when working on a complex project with multiple risks. A risk category could include any of the following:; To determine the category type, you first need to evaluate the source of the risk and identify who can help resolve it. If the solution isn't immediately clear, you may need to collaborate with department heads.",
+        "list3": "Operations; Budget; Schedule; Technology; Information; Security; Quality; Project plan",
+        "image3": "/src/assets/img/WBLImagePlaceholder.png",
+        "subheader4": "Risk Likelihood",
+        "body4": "The estimated probability of the risk occurring.; The likelihood of a risk can be documented with a simple selection of: ; Categorizing your risks by likelihood helps prioritize which risks to address first and which can be deferred.",
+        "list4": "Not likely; Likely; Very likely",
+        "image4": "/src/assets/img/WBLImagePlaceholder.png",
+        "subheader5": "Risk Analysis",
+        "body5": "A risk analysis assesses the potential impact a risk could have on your project, helping to quickly identify the most critical risks to address. This should not be confused with priority, which considers both the likelihood and the impact analysis.; While teams document risk levels differently, you can start with this simple five-point scale: ; If you're having difficulty determining the risk level, consider seeking a second opinion from a department head. This collaboration can help you accurately assess the potential impact.",
+        "list5": "Very low; Low; Medium; High; Very high",
+        "image5": "/src/assets/img/WBLImagePlaceholder.png",
+        "subheader6": "Risk Mitigation",
+        "body6": "A mitigation plan, also known as a risk response plan, is one of the most crucial components of a risk register. The primary goal of a risk management plan is to identify and mitigate potential risks. Essentially, it serves as an action plan.; A risk mitigation plan should include:",
+        "list6": "A step-by-step solution on how to lessen the risk; A brief description of the intended outcome; How the plan will affect the impact",
+        "image6": "/src/assets/img/WBLImagePlaceholder.png",
+        "subheader7": "Risk Priority",
+        "body7": "While the impact of a risk helps determine its priority, it's important to include this information in your log as well. Priority should consider both the likelihood of the risk and the risk analysis. These aspects together will clarify which risks are most likely to have harmful consequences on the project.; Priority can be documented by a simple number scale:",
+        "list7": "1 (Low); 2 (Medium); 3 (High)",
+        "image7": "/src/assets/img/WBLImagePlaceholder.png",
+        "subheader8": "Risk Ownership",
+        "body8": "The individual responsible for managing the risk and implementing the prevention or contingency plans. Risk owners can include stakeholders, members of the project team, the project manager, and the project sponsor.",
+        "image8": "/src/assets/img/WBLImagePlaceholder.png",
+        "subheader9": "Risk Status",
+        "body9": "This helps convey whether a risk has been successfully mitigated or not.; A risk status field should be filled out with one of the following: ; If you’d like to provide more detailed status options, you may choose a more specific list such as active, not started, on hold, ongoing, and complete.",
+        "list9": "Open; In progress; Closed",
+        "image9": "/src/assets/img/WBLImagePlaceholder.png"
+      },
+      {
+        "order": 23,
+        "title": "Risk Assessment",
+        "subheader": "Probability Impact Matrix",
+        "body": "A Probability and Risk Matrix is a grid used to map the likelihood of each risk occurring and its impact on project objectives if it does occur. This matrix specifies combinations of probability and impact, allowing individual project risks to be categorized into priority groups. By using the probability and impact matrix, risks are classified as low, medium, or high based on two distinct factors: the overall probability of occurrence and the presumed impact if it occurs.",
+        "subheader1": "Impact",
+        "body1": "Impact is evaluated based on the extent of changes to the work plan (timing), cost, and quality if the risk materializes.",
+        "subheader2": "Probability",
+        "body2": "Probability measures the likelihood that the risk will materialize.",
+        "image": "src/assets/img/projectmanagement/projectriskmanagement/PMFIDS_PM_PRM_order23.png"
+      },
+      {      
+        "order": 24,
+        "title": "Knowledge Check 3",
+        "subheader": "",
+        "body": "In assessing risks through the probability impact matrix, which of the following must be primarily prioritized?",
+        "image": "/src/assets/img/WBLImagePlaceholder.png",
+        "q_field_type": "single_select" ,
+        "q_selection": [{
+          "A": "Likely Probability, Major Impact",
+          "B": "Likely Probability, Moderate Impact",
+          "C": "Rare Probability, Extreme Impact",
+          "D": "Moderate Probability, Trivial Impact"
+        }],
+        "q_answer": "A"
+      },
+      {
+        "order": 25,
+        "title": "Risk Handling",
+        "subheader": "Four potential strategies to deal with risk:",
+        "subheader1": "Avoid",
+        "body1": "Risk avoidance is a strategy in which the project team takes action to eliminate a threat or shield the project from its impact. This often involves modifying the Project Management plan to completely remove the threat.; The Project Manager may also isolate the project objectives from the risk's impact or alter the objective at risk. Examples include extending the schedule, changing the strategy, or reducing the scope. The most extreme avoidance strategy is to shut down the project entirely. Some risks that emerge early in the project can be avoided by clarifying requirements, gathering information, improving communication, or acquiring expertise",
+        "subheader2": "Mitigate",
+        "body2": "Risk mitigation is a strategy in which the project team takes action to reduce the likelihood or impact of a risk. This involves lowering the probability and/or impact of an adverse risk to within acceptable threshold limits.; Taking early action to minimize the probability and/or impact of a risk occurring is often more effective than attempting to address the damage after the risk has materialized. Examples of mitigation actions include adopting less complex processes, conducting additional tests, or selecting a more reliable supplier.; Mitigation may also involve developing prototypes to reduce the risk of scaling up from a bench-scale model of a process or product. When it is not possible to reduce the probability, a mitigation response might focus on addressing the risk impact by targeting linkages that determine its severity. For instance, designing redundancy into a system can reduce the impact of a failure of the original component.",
+        "subheader3": "Transfer",
+        "body3": "Risk transfer is a strategy in which the project team shifts the impact of a threat to a third party, along with the responsibility for managing the response. Transferring the risk does not eliminate it; it simply assigns the responsibility for its management to another party. This does not mean disowning the risk by passing it to a later project or another person without their knowledge or agreement. Risk transfer typically involves paying a risk premium to the party assuming the risk.; Transferring liability for risk is particularly effective in managing financial risk exposure. Transfer tools can vary widely and include, but are not limited to, insurance, performance bonds, warranties, and guarantees. Contracts or agreements can be used to transfer liability for specific risks to another party. For example, if a buyer has capabilities that the seller lacks, it may be prudent to contractually transfer some work and its associated risk back to the buyer. In many cases, a cost-plus contract may transfer the cost risk to the buyer, while a fixed-price contract may transfer the risk to the seller.",
+        "subheader4": "Accept",
+        "body4": "Risk acceptance is a strategy in which the project team decides to acknowledge the risk and take no action unless the risk materializes. This approach is chosen when it is not feasible or cost-effective to address a specific risk in any other manner.; This strategy signifies that the project team has either decided not to alter the Project Management plan to address the risk or is unable to identify any other suitable response strategy. Risk acceptance can be either passive or active. Passive acceptance involves no action other than documenting the strategy, allowing the project team to address risks as they occur and periodically review the threat to ensure it does not change significantly. The most common active acceptance strategy is to establish a contingency reserve, which includes allocating time, money, or resources to manage the risks."
+      },
+      {
+        "order": 26,
+        "title": "Knowledge Check 4",
+        "subheader": "",
+        "body": "Jaren is currently managing a project. His team was able to identify a list of risks that may occur upon implementation. However, the team was unable to look for any other suitable response strategy to one of its identified risks; therefore, the team decided to stick with the current Project Management plan. What type of risk handling strategy did Jaren’s team employ?",
+        "image": "/src/assets/img/WBLImagePlaceholder.png",
+        "q_field_type": "single_select" ,
+        "q_selection": [{
+          "A": "Avoidance",
+          "B": "Mitigation",
+          "C": "Transference",
+          "D": "Acceptance"
+        }],
+        "q_answer": "D"
+      },
+      {
+        "order": 27,
+        "title": "Lesson Summary",
+        "subheader": "Congratulations on completing Lesson 2 of this course!",
+        "body": "Now that you have completed this lesson, you should be able to:",
+        "list": "Recognize the risk management process and explore tools and frameworks relevant to each step of the process.",
+        "image": "/src/assets/img/WBLImagePlaceholder.png"
+      },
+      {
+        "order": 28,
+        "title": "Lesson 3",
+        "subheader": "Quality Assurance",
+        "body": "Select each heading to find out more. When you have selected all the headings, select the down arrow at the right to continue.",
+        "image": "/src/assets/img/WBLImagePlaceholder.png"
+      },
+      {
+        "order": 29, 
+        "title": "Learning Objective",
+        "subheader": "At the end of this lesson, you will be able to:",
+        "body": "Gain a full understanding of Quality Assurance and its benefits and importance in managing digital transformation projects, specifically in the Risk Monitoring phase.",
+        "image": "src/assets/img/projectmanagement/projectriskmanagement/PMFIDS_PM_PRM_order29.png"
+      },
+      {
+        "order": 30,
+        "title": "What is QA?",
+        "list": "Quality assurance in project management involves implementing a set of actions aimed at ensuring that the project’s final outcomes align with the expected requirements. It focuses on the processes that teams utilize to maintain standards and deliver quality results.; This can be regarded as an added layer to conduct Risk Monitoring in projects."
+    },
+    {
+        "order": 31,
+        "title": "What is QA?",
+        "subheader": "International Quality Standards",
+        "body": "International Organization for Standardization (ISO); The International Organization for Standardization (ISO) is an independent, non-governmental international organization that develops guidelines for wide range of products, services, and systems to ensure quality, safety, and efficiency. These standards are globally recognized and adopted by businesses, governments, and organizations to establish uniformity and compliance across various sectors.; ISO maintains a family of quality management standards collectively known as the ISO 9000.",
+        "image": "src/assets/img/projectmanagement/projectriskmanagement/PMFIDS_PM_PRM_order31.png",
+        "subheader1": "Good quality management must address:",
+        "subheader2": "Quality of the Project",
+        "body2": "Pushing the team too hard to meet requirements can result in lower profits, higher risks, employee attrition, errors, and extra rework. Therefore, the process of creating the product is just as important as the product itself.",
+        "subheader3": "Quality of the Product",
+        "body3": "Upon the product’s availability, ask yourself:",
+        "list 3": "Upon the product’s availability, ask yourself:; If there is variations, is it acceptable?; Is it ready for use, and does it satisfy stakeholder expectations?"
+      },
+      {
+        "order": 32,
+        "title": "Quality Strategies",
+        "subheader": "Total Quality Management",
+        "list": "A strategy focused on continuous improvement; Every employee in the company is accountable for maintaining quality; Defines ‘quality’ based on customer requirements",
+        "image": "src/assets/img/projectmanagement/projectriskmanagement/PMFIDS_PM_PRM_order32.png",
+        "subheader1": "Sample Quality Initiatives for Continuous Improvement",
+        "image1": "src/assets/img/projectmanagement/projectriskmanagement/PMFIDS_PM_PRM_order32_1.png",
+        "subheader2": "Lean Manufacturing",
+        "body2": "Employs a method of eliminating waste and improving value.",
+        "subheader3": "Six Sigma",
+        "body3": "The Six Sigma standard, introduced by Bill Smith of Motorola, allows only 3.4 defects per million units. This technique is well-suited for manufacturing environments with large-scale production."
+      },
+      {
+        "order": 33,
+        "title": "Benefits of QA in Project Management",
+        "subheader": "Increase effeciency",
+        "body": "When a project manager adopts QA standards throughout the project, the team will gain a clear understanding of the requirements for quality, leading to increased efficiency.",
+        "subheader1": "Ensure customer satisfaction",
+        "body1": "Employing QA processes helps project teams focus on delivering high-quality, error-free outcomes, which can guarantee customer satisfaction upon the product or service's release.",
+        "subheader2": "Boost team morale",
+        "body2": "Team members who understand the QA standards for each project stage feel motivated to reach the desired results, thereby boosting their confidence and team morale.",
+        "subheader3": "Make countinuous improvements",
+        "body3": "Through QA methods, project managers are able to direct their efforts towards the continuous enhancement of processes to ensure quality standards are maintained.",
+        "image": "src/assets/img/projectmanagement/projectriskmanagement/PMFIDS_PM_PRM_order33.JPG"
+      },
+      {
+        "order": 34,
+        "title": "Benefits of QA in Project Management",
+        "subheader": "Pitfalls that can be avoided with a proactive approach to QA",
+        "image": "src/assets/img/projectmanagement/projectriskmanagement/PMFIDS_PM_PRM_order34.png",
+        "subheader1":"Lack of skilled QA resources",
+        "body1": "Assigning testing tasks to business resources who lack expertise can cause unproductive and inaccurate testing. QA staff must thoroughly evaluate new testing technology and gather all relevant quality and testing requirements before implementation.",
+        "image1": "/src/assets/img/WBLImagePlaceholder.png",
+        "subheader2": "Over-investing in Technology",
+        "body2": "The QA needs of small banks differ from those of large, global institutions. What is effective for one may be too costly for another. Do not fall into the trap of believing that automation can resolve every QA issue.",
+        "image2": "/src/assets/img/WBLImagePlaceholder.png",
+        "subheader3": "Lack of Readiness",
+        "body3": "This risk assumes that organizations can postpone adding QA resources and delay involving QA early in a project. Planning should include considerations for contractual negotiations and the timing of onboarding third-party vendors.",
+        "image3": "/src/assets/img/WBLImagePlaceholder.png",
+        "subheader4": "Underestimating the Effort",
+        "body4": "It's essential to incorporate all QA management activities in any significant endeavor. These include:",
+        "list4": "Test planning and obtaining approvals; Writing test cases; Executing tests; Fixing defects",
+        "image4": "/src/assets/img/WBLImagePlaceholder.png",
+        "subheader5": "Inexperienced Leadership",
+        "body5":"QA executives should not assume that all testing resources share the same skill set. They must also understand the specific talents needed in frontline QA managers, such as whether the focus should be on process expertise or testing skills.",
+        "image5": "/src/assets/img/WBLImagePlaceholder.png",
+        "subheader6": "Do-it-yourself syndrome",
+        "body6": "QA teams should incorporate the subject matter expertise provided by business users and not overlook their valuable insights. Additionally, QA leaders should avoid making decisions independently; instead, they should seek consensus and secure the support of these users.",
+        "image6": "/src/assets/img/WBLImagePlaceholder.png",
+        "subheader7": "Over-engineering the Effort",
+        "body7": "Over-testing can lead to inflated costs and wasted time. The key criterion for testing is the value that the initiative delivers.",
+        "image7": "/src/assets/img/WBLImagePlaceholder.png"
+      },
+      {
+        "order": 35,
+        "title": "Importance of QA in Digital Transformation Projects",
+        "subheader": "Building a QA Practice",
+        "body": "Form a trusted team comprising essential roles such as project management, technical leads, business leads, and business analysts.",
+        "image": "/src/assets/img/WBLImagePlaceholder.png",
+        "body1": "Hire a QA lead or manager, either from within the bank or externally, selecting the most suitable candidate for the role. ",
+        "image1": "/src/assets/img/WBLImagePlaceholder.png",
+        "body2": "Evaluate the qualifications required for your bank's QA team.",
+        "image2": "/src/assets/img/WBLImagePlaceholder.png",
+        "body3": "Consider existing staffs (business analysts and technical experts), but refrain from depending on them to serve as QA-trained resources.",
+        "image3": "/src/assets/img/WBLImagePlaceholder.png",
+        "body4": "Determine the size of effort that QA practice will address.",
+        "image4": "/src/assets/img/WBLImagePlaceholder.png",
+        "body5": "Assess the tools required for your QA practice.",
+        "image5": "/src/assets/img/WBLImagePlaceholder.png",
+        "body6": "Identify the training demands of the QA practice.",
+        "image6": "/src/assets/img/WBLImagePlaceholder.png",
+        "body7": "Consider the QA process and methodology crucial for your organization’s success.",
+        "image7": "/src/assets/img/WBLImagePlaceholder.png",
+        "body8": "Consider necessary communications for your organization.",
+        "image8": "/src/assets/img/WBLImagePlaceholder.png"
+      },
+      {
+        "order": 36,
+        "title": "Importance of QA in Digital Transformation Projects",
+        "subheader": "Establishing an Ongoing QA Practice",
+        "subheader1": "Integration Efforts",
+        "body1": "The rapid advancement of API technology, which often involves real-time integration, requires strong QA management to conduct thorough end-to-end testing whenever changes occur in your bank’s technology ecosystem. A strong QA practice provides the necessary oversight and discipline to ensure that newly combined solutions are adequately tested.",
+        "image1": "src/assets/img/projectmanagement/projectriskmanagement/PMFIDS_PM_PRM_order36.png",
+        "subheader2": "New Software Releases",
+        "body2": "All software releases carry the risk of downtime. Prior to these scheduled events, it is essential for you and your stakeholders to assess the potential impact of a given release on revenue and production stability. Your assessment should be based on accurate QA data."
+      },
+      {
+        "order": 37, 
+        "title": "Importance of QA in Digital Transformation Projects",
+        "subheader": "Sustainable QA Practice",
+        "body": "To establish a quality methodology, one should leverage established quality industry standards such as ISO 9001 – Quality Management System Requirements. These standards are ideal for setting up a best-practice quality management methodology within a bank. They require the institution to establish quality controls throughout its business processes to ensure customer requirements are fulfilled before delivering products and services.; In a proven QA methodology, management-level quality controls are commonly grouped into four phases: Plan, Do, Check, and Act.",
+        "subheader1": "Plan",
+        "list 1": "Determine the customer's expectations and requirements.; Identify and document the processes and quality controls needed to satisfy customer’s expectations.",
+        "subheader2": "Do",
+        "body2": "Perform the established processes and quality controls—Prevent, Detect, and Correct—to ensure the customer's expectations are fulfilled: ; The product or service is handed over to the customer.",
+        "list 2": "Prevent – The processes and quality controls are implemented to avert the occurrence of defects.; Detect – The processes and quality controls are implemented to proactively identify possible defects.; Correct – The processes and quality controls are implemented to fix and resolve identified defects.",
+        "subheader3": "Check",
+        "list 3": " Customer feedback is obtained.; Assess the effectiveness of the processes and quality controls by asking the question, Are the customer's expectations being met?",
+        "subheader4": "Act",
+        "body4": "Actions are taken to enhance the effectiveness and efficiency of the documented processes and quality controls to meet the customer’s expectations.",
+        "image": "src/assets/img/projectmanagement/projectriskmanagement/PMFIDS_PM_PRM_order37.png"
+      },
+      {
+        "order": 38,
+        "title": "Knowledge Check 5",
+        "subheader": "",
+        "body": "Quality controls ensure customer requirements are met before the products and services are delivered. How is the quality controls at the management level commonly grouped? (Select all that apply).",
+        "image": "/src/assets/img/WBLImagePlaceholder.png",
+        "q_field_type": "multi_select" ,
+        "q_selection": [{
+          "A": "Prioritize",
+          "B": "Plan",
+          "C": "Act",
+          "D": "Check",
+          "E": "Brainstorm",
+          "F": "Do"
+
+        }],
+        "q_answer": "B, C, D, E"
+      },
+      {
+        "order": 39,
+        "title": "Lesson Summary",
+        "subheader": "Congratulations on completing Lesson 3 of this course!",
+        "body": "Now that you have completed this lesson, you should be able to:",
+        "list": "Gain a full understanding of Quality Assurance and its benefits and importance in managing digital transformation projects, specifically in the Risk Monitoring phase.",
+        "image": "/src/assets/img/WBLImagePlaceholder.png"
+      },
+      {
+        "order": 40,
+        "title": "Lesson 4",
+        "subheader": "Regulations",
+        "body": "Select each heading to find out more. When you have selected all the headings, select the down arrow at the right to continue.",
+        "image": "/src/assets/img/WBLImagePlaceholder.png"
+      },
+      {
+        "order": 41, 
+        "title": "Learning Objective",
+        "body": "At the end of this lesson, you will be able to:",
+        "list": "Obtain knowledge on the existing Philippine regulations in risk management systems to get ahead of identifying and monitoring possible risks in projects.",
+        "image": "src/assets/img/projectmanagement/projectriskmanagement/PMFIDS_PM_PRM_order41.png"
+      },
+      {
+        "order": 42,
+        "title": "Bangko Sentral framework for IT risk supervision",
+        "subheader": "Information Technology Risk Management (ITRM)",
+        "list": "ITRM should be considered a component and integrated with the institutions’ risk management program.; The guidelines likewise provide practical plans to address risks associated with emerging trends in technology and growing concerns on cyber security.",
+        "subheader1": "Policy Statement",
+        "list1": "BSFIs employ advances in technology to sharpen business insights, enhance operational efficiencies, and deliver innovative financial products and services in line with emerging market trends and evolving client needs.; Technological developments also enable greater access to financial services that promote an inclusive and responsive digital financial ecosystem.; Social media platforms may further complicate matters as news of disruptions as well as customer complaints can spread at unprecedented speeds.; Cyber-threats and attacks confronting the financial services industry pose added risks that can undermine public trust and confidence in the financial system.; BSFIs should establish robust and effective technology risk management processes, governance structures, and cybersecurity controls to ensure that the benefits derived from technological innovations can be fully optimized without compromising financial stability, operational resilience, and consumer protection.",
+        "image1": "src/assets/img/projectmanagement/projectriskmanagement/PMFIDS_PM_PRM_order42.JPG",
+        "subheader2": "Purpose and Scope",
+        "list 2": "The enhanced guidelines aim to provide guidance in managing risks associated with use of technology.; The guidelines are based on international standards and recognized principles of international practice for ITRM and shall serve as Bangko Sentral’s baseline requirement for all BSFIs.; The framework covers different facets of ITRM, some of which are supplemented with detailed guidelines in Appendices 74, 75, 76, 77, 78 and 79.; Subject guidelines, including the Appendices 74, 75, 76, 77, 78 and 79, are not “one-size-fits-all” and implementation of these need to be risk-based and commensurate with size, nature and types of products and services and complexity of IT operations of the individual BSFIs.; BSFIs shall exercise sound judgment in determining applicable provisions relevant to their risk profile.",
+        "image2": "src/assets/img/projectmanagement/projectriskmanagement/PMFIDS_PM_PRM_order42_1.JPG"
+      },
+      {
+        "order": 43,
+        "title": "Bangko Sentral framework for IT risk supervision",
+        "subheader": "Information Technology Risk Management (ITRM)",
+        "body": "Appendices: IT Risk Management Standards and Guidelines",
+        "subheader1": "74 IT Audit",
+        "body1": "“…audit program should address IT risk exposures throughout the organization, including the areas of IT management and strategic planning, IT operations, client/server architecture, local and wide-area networks, telecommunications, physical and information security, electronic products and services, systems development and acquisition, and business continuity planning”",
+        "subheader2": "75 Information Security",
+        "body2": "“…enables BSFIs to remain competitive and relevant as the financial services industry moves towards digital innovation.”",
+        "subheader3": "76 Project Management/Development, Acquisition and Change  Management",
+        "body3": "“…enterprise-wide and ongoing approach should be formalized in the IT strategic plan to help ensure that all major IT projects are consistent with its overall strategic goals.”",
+        "subheader4": "77 IT Operations",
+        "body4": "“…necessitates the adoption of risk management processes that promote sound and controlled operation of IT environments to ensure that IT operations process and store information in a timely, reliable, secure, and resilient manner.”",
+        "subheader5": "78 IT Outsourcing/Vendor Management",
+        "body5": "“…risks may be realized in a different manner than if the functions were inside resulting in the need for well-structured process to properly manage risks and ensure that the interest of customers will not be compromised.”",
+        "subheader6": "79 Electronic Banking, Electronic Payment, Electronic Money and Other Electronic Products and Services",
+        "body6": "“…the rapid development of electronic capabilities carries risks as well as benefits and it is important that these risks are recognized and managed by BSFIs in a prudent manner to promote safe and secure e-services and operations.”"
+      },
+      {
+        "order": 44,
+        "title": "Bangko Sentral framework for IT risk supervision",
+        "subheader": "IT Risk Management System (ITRMS)",
+        "body": "BSFIs are required to establish a robust ITRM system covering four key components:",
+        "subheader1": "IT Governance",
+        "list1": "Oversight and organization of IT functions; IT policies, procedures and standards; IT audit; Staff competence and training; Management Information Systems (MIS); IT risk management function",
+        "subheader2": "Risk Identification and Assessment",
+        "list2": "Begins with the identification of the current and prospective IT risk exposures arising from the institution’s IT environment and related processes.; Once management understands the institution’s IT environment and analyzes the risk, it should rank the risks and prioritize its response.; Periodic risk assessment process should be done at the enterprise-wide level and an effective monitoring program for the risk mitigation activities should be manifested through mitigation or corrective action plans, assignment of responsibilities and accountability and management reporting.",
+        "subheader3": "IT Controls Implementation",
+        "list3": "BSFI Management should implement satisfactory control practices that address the following as part of its overall IT risk mitigation strategy:; Information security; Project management/development and acquisition and change management; IT operations; IT outsourcing/Vendor management; Electronic banking, Electronic payments, Electronic money and other Electronic products and services",
+        "subheader4": "Risk Measurement and Monitoring",
+        "list4": "Performance vis-à-vis approved IT strategic plan; Performance benchmarks/service levels; Quality assurance/quality control; Policy compliance; External assessment program",
+        "image": "src/assets/img/projectmanagement/projectriskmanagement/PMFIDS_PM_PRM_order44.JPG"
+      },      
+      {
+        "order": 45,
+        "title": "AFASA on Risk Management Systems and Controls to Protect Financial Accounts",
+        "subheader": "Anti-Financial Scamming Act (AFASA) was signed on July 20, 2024, and took effect on August 13, 2024",
+        "subheader1": "Section 6. Responsibility to Protect Access to Client’s Financial Account",
+        "list": "Institutions shall ensure that access to clients’ financial accounts is protected by adequate risk management systems and controls; Risk management systems and controls must be proportionate and commensurate to the nature, size and complexity of operations.; Institutions determined by the BSP to be compliant with the requirements of adequate risk management systems and controls shall not be liable for any loss or damage arising from the offenses under Sections 4 (Prohibited Acts) and Section 5 (Other Offenses).; Without prejudice to other liabilities under existing laws and consistent with BSP rules and regulations, institutions shall be liable for restitution of funds to the Account Owners for failure to employ adequate risk management systems and controls, or failure to exercise the highest degree of diligence in preventing loss or damage arising from the offenses under Section 4 and 5.; Conviction shall not be a prerequisite to the restitution of funds.",
+        "subheader2": "Section 4. Prohibited Acts",
+        "body2": "The following acts shall constitute Financial Account scamming under this Act:; (a) Money Muling Activities. A person performing any of the followings acts for the purpose of obtaining, receiving, depositing, transferring, or withdrawing proceeds that are known to be derived from crimes, offenses, or social engineering schemes shall be considered as a money mule:; (b) Social Engineering Schemes. A social engineering scheme is committed by a person who obtains sensitive identifying information of another person, through deception or fraud, resulting in unauthorized access and control over the person's Financial Account, by performing any of the following acts:; c) Economic Sabotage. The prohibited acts under Section 4(a) and (b) shall be considered as economic sabotage when committed under any of the following circumstances:",
+        "list2": "Using, borrowing or allowing the use of a Financial Account; Opening a Financial Account under a fictitious name or using the identity or identification documents of another; Buying or renting a Financial Account; Selling or lending a Financial Account; or Recruiting, enlisting, contracting, hiring, utilizing, or inducing any person to perform the acts mentioned in items 1 to 4 of this subsection.; Misrepresenting oneself as acting on behalf of an Institution, or making false representations to solicit another person's sensitive identifying information; or Using electronic communications to obtain another person's sensitive identifying information.; By a group of three (3) or more persons conspiring or confederating with one another; Against three (3) or more persons individually or as a group;Using a mass mailer; or Through human trafficking.",
+        "subheader3": "Section 5. Other Offenses",
+        "body3": "The following shall also constitute as offenses under this Act:",
+        "list3": "Willfully aiding or abetting in the commission of any of the offenses enumerated under Section 4; Willfully attempting to commit any of the offenses enumerated under Section 4; Opening a Financial Account under a fictitious name or using the identity or identification documents of another; or Buying or selling a Financial Account.",
+        "subheader4": "BSFIs should ensure adoption of the following key controls to protect financial accounts:",
+        "list4": "Fraud Management Systems (FMS); Infrastructure and security monitoring; Multi-factor Authentication (MFA); Account owner enrollment and verification processes, and ongoing monitoring of customer account and transactions; Audit Trail; Cybersecurity tests and evaluations",
+        "body4": "BSFIs which are determined compliant by the BSP shall not be liable for any loss or damage arising from the offenses under Section 4 and 5 of AFASA. However, BSFIs shall be liable for the restitution of funds to Account Owners for the failure to employ adequate risk management systems and controls for failure to exercise the highest degree of diligence in preventing loss or damage arising from the said offenses."
+      },
+      {
+        "order": 46,
+        "title": "Financial Services Cyber Resilience Plan 2024-2029",
+        "subheader": "Goal 1",
+        "body": "This covers strategies to sharpen the industry’s capabilities to proactively respond to and recover from major cyber incidents.; Priority actions under this goal are:",
+        "list": "D1: Establish baseline industry incident response plan; D2: Develop scenario-based incident response playbooks; D3: Conduct progressive industry-wide cyber testing exercise regime; D4: Explore setting up of an industry Security Operations Center (SOC)",
+        "subheader1": "Goal 2",
+        "body1": "This encompasses strategies to institutionalize and expand sharing of timely and actionable cyberthreat intelligence across the financial community, including coordination and collaboration with other industry stakeholders and the National CERT (CERT-PH).; Priority actions under this goal are:",
+        "list1": "A1: Expand and further enhance Bankers Association of the Philippines Cybersecurity Incident Database (BAPCID) as an industry sharing platform; A2: Strengthen and forge strategic partnerships in domestic and international for a; A3: Support the enactment of cyber-related legislative initiatives (e.g., Anti-Financial Account Scamming Act, Liberalization of Secrecy of Deposits, etc.)",
+        "subheader2": "Goal 3",
+        "body2": "This goal covers strategies to instill strong cybersecurity culture and enhance cybersecurity skills and capabilities in the financial services industry.; Key priority actions include:",
+        "list2": "S1: Develop and implement cyber education program for BSFI Board and Senior Management; S2: Regularly conduct Chief Information Security Officer (CISO)/cyber form and Annual Cybersecurity Summit; S3: Conduct cybersecurity roadshows for small and medium-sized financial institutions (FIs); S4: Pursue holistic programs on cybersecurity skills and talent development; S5: Mainstream cyber education and awareness programs for financial clients.",
+        "subheader3": "Goal 4",
+        "body3": "This goal contains strategies to promote cybersecurity best practices and standards across cybersecurity domains.; Priority actions under this goal are:",
+        "list3": "H1: Complete policy reforms on digital security controls, Application Programming Interface (API) security, Cybersecurity Maturity Model (CMM) framework, and supply chain risk management; H2: Explore establishment of an Industry Cyber Innovation/Research Hub; H3: Conduct benchmarking exercises on cyber capabilities",
+        "image": "src/assets/img/projectmanagement/projectriskmanagement/PMFIDS_PM_PRM_order46.JPG"
+      },
+      {
+        "order": 47,
+        "title": "Knowledge Check 6",
+        "subheader": "",
+        "body": "Which of the following are the key controls financial institutions must adopt to protect financial accounts? (Select all that apply.)",
+        "image": "/src/assets/img/WBLImagePlaceholder.png",
+        "q_field_type": "multi_select" ,
+        "q_selection": [{
+          "A": "Multi-factor authentication",
+          "B": "Audit trail",
+          "C": "IT functions",
+          "D": "Mass mailer",
+          "E": "Infrastructure and security monitoring",
+          "F": "Delivery channels"
+
+        }],
+        "q_answer": "A, B, E"
+      },  
+      {
+        "order": 48,
+        "title": "Lesson Summary",
+        "subheader": "Congratulations on completing Lesson 4 of this course!",
+        "body": "Now that you have completed this lesson, you should be able to:",
+        "list": "Obtain knowledge on the existing Philippine regulations in risk management systems to get ahead of identifying and monitoring possible risks in projects."
+      },
+      {
+        "order": 49,
+        "title": "Course Summary",
+        "subheader": "Congratulations on completing this course!",
+        "body": "Now that you have completed this course, you should be able to:",
+        "list": "Define project risk and identify various types of risks that may occur in a project.; Recognize the risk management process and explore tools and frameworks relevant to each step of the process.; Gain a full understanding of Quality Assurance and its benefits and importance in managing digital transformation projects, specifically in the Risk Monitoring phase.; Obtain knowledge on the existing Philippine regulations in risk management systems to get ahead of identifying and monitoring possible risks in projects."
+      },
+      {
+        "order": 50,
+        "title": "Course Completion",
+        "subheader": "Congratulations on completing this course!",
+        "body": "You can refer to the course during the assessment. To do so, re-open the course before starting the assessment.",
+        "image": "/src/assets/img/WBLImagePlaceholder.png"
+      },
+      {
+        "order": 51,
+        "title": "Exam",
+        "body": "",
+        "image": "",
+        "exams": [{
+        "exam_id": 1,
+            "title": "Course Examination",
+            "body": "This assessment is designed to test your knowledge. Results of this assessment will be used to structure the workshop.",
+            "questions": [{
                 "q_number": 1,
                 "q_statement": "Which of the following is the last step in Project Risk Management process?",
                 "q_field_type": "single_select" ,
@@ -759,7 +2537,8 @@
                     "C": "Plan response for risk",
                     "D": "Analyze risk",
                     "E": "Prioritize risk"
-                }]
+                }],
+                "q_answer": "A"
             },
             {
                 "q_number": 2,
@@ -770,7 +2549,8 @@
                     "B": "Risk avoidance",
                     "C": "Risk acceptance",
                     "D": "Risk transfer"
-                }]
+                }],
+                "q_answer": "A"
             },
             {
                 "q_number": 3,
@@ -782,7 +2562,8 @@
                     "C": "Strategic risks",
                     "D": "Scope risks",
                     "E": "Operational risks"
-                }]
+                }],
+                "q_answer": "A, D"
             },
             {
                 "q_number": 4,
@@ -793,7 +2574,8 @@
                     "B": "Boost team morale",
                     "C": "Continuously improve",
                     "D": "Receive customer feedback"
-                }]
+                }],
+                "q_answer": "C"
             },
             {
                 "q_number": 5,
@@ -804,7 +2586,8 @@
                     "B": "capture, organize, prioritize and document the risks, assumptions, issues and dependencies encountered while planning for and executing the project",
                     "C": "capture, analyze, prioritize and document the risks, assumptions, issues and dependencies encountered while planning for and executing the project",
                     "D": "capture, organize, select and mitigate the risks, assumptions, issues and dependencies encountered while planning for and executing the project"
-                }]
+                }],
+                "q_answer": "B"
             },
             {
                 "q_number": 6,
@@ -816,7 +2599,8 @@
                     "C": "Pursue holistic programs on cybersecurity skills and talent development",
                     "D": "Explore establishment of an Industry Cyber Innovation/Research Hub",
                     "E": "Conduct benchmarking exercises on cyber capabilities"
-                }]
+                }],
+                "q_answer": "B, C"
             },
             {
                 "q_number": 7,
@@ -827,22 +2611,24 @@
                     "B": "API Gateway Testing, End-to-End Testing, Operationalization Testing",
                     "C": "Documentation Testing, Prioritization Testing, Functionality Testing",
                     "D": "Data Validation, Usability Testing, Security Testing"
-                }]
+                }],
+                "q_answer": "D"
             },
             {
                 "q_number": 8,
                 "q_statement": "BSFIs are required to establish a robust ITRM system covering key components, which are? (Select all that apply)",
-                "q_field_type": "single_select" ,
+                "q_field_type": "multi_select" ,
                 "q_selection": [{
                     "A": "IT Controls Implementation",
                     "B": "Cyber Education Program",
                     "C": "IT Governance",
                     "D": "Risk Measurement and Monitoring",
                     "E": "Risk Identification and Assessment"
-                }]
-            }
-        ]
-     }]
-  }
-
-]
+                    }],
+                    "q_answer": "A, C, D, E"
+                    }]
+                  }
+              ]
+          }]
+    } 
+  ]
