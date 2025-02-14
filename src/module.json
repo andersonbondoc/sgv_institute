@@ -64,8 +64,30 @@
         "image": "/src/assets/img/WBLImagePlaceholder.png",
         "image2": "/src/assets/img/WBLImagePlaceholder.png",
         "video": "/src/assets/WBLVideoPlaceholder.mp4"
+<<<<<<< HEAD
       }
     ],
+=======
+      }, 
+      {   
+        "order": 6,
+        "title": "Five steps crucial to planning",
+        "subheader":"Activity definition",
+        "list1": "Identifying the specific activities that must be performed to produce the project deliverables identified in the work breakdown structure (WBS)",
+        "subheader1":"Activity sequencing",
+        "list2": "Arranging the activities to reflect their logical sequence and dependencies",
+        "subheader2":"Activity effort and duration estimating",
+        "list3": "Estimating effort and duration required to complete individual activities",
+        "subheader3":"Schedule development",
+        "list4": "Calculating a project schedule using the activities, their dependencies, resource assignments and estimated duration",
+        "subheader4":"Critical path identification (Critical Path Method or CPM)",
+        "list5": "The longest path of activities through the network that has no “float” or “slack,” i.e., any delay to the activities on this path delay the entire project; The critical path determines the duration of the project",
+        "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order51.png",
+        "video": "/src/assets/WBLVideoPlaceholder.mp4"
+       }
+    ],
+
+>>>>>>> eb288ca5e6c7f551d7428f9ee64c680e04499fe7
     "exams": [{
       "exam_id": 1,
       "title": "Course Examination",
@@ -224,8 +246,15 @@
       {
         "order": 5,
         "title": "Ending",
-        "body": "Here is the ending",
+        "body": "During the cost estimating stage, real pricing information is crucial to gather through sellers, suppliers, and contractors to make accurate cost estimates.<br> Real pricing data can help reflect current market conditions therefore minimizing discrepancies and risks of underestimating and overestimating costs. It also supports informed decision-making, enhances adaptability, and ensures accountability. <br> It is also essential to account for contingencies, so a buffer is highly recommended to be included in your total cost. <br> In this stage, it is important to already have a schedule, list of deliverables, and success metrics.",
         "image": "/src/assets/img/WBLImagePlaceholder.png"
+      },
+      {
+        "order": 6,
+        "title": "Cost Estimation Techniques",
+        "body": "Aside from the mentioned estimation techniques, the following are other methods and practices that can ensure effective estimation should it be used in conjunction with other processes.",
+        "list1": "Delphi Method – utilizes the combined experiences of executives and managers to engage in comprehensive discussions and ultimately arrive at a consensus on the most accurate estimates; Template Method – references schedules and budgets from previous projects with similar nature but different outcomes can serve as a reference for initiating the new project; Parametric Technique – uses statistical relationships between historical data and various factors; Three-Point Estimating – improves accuracy of cost estimates by taking risk factors into account, factoring optimistic (cO), pessimistic (cP), and most likely (cM) cases where two commonly used formulas are the triangular and beta distribution; Cost of Quality (COQ) – emphasizes conforming to a project’s quality requirements including guidelines on the need to achieve quality due to failure and rework; Project Management Information Software (PMIS) – a software that includes statistical tools to estimate and/or forecast costs; Vendor Bid Analysis – focuses on responsive bids from qualified vendors; Reserve Analysis – includes contingency reserves in order to account for sudden or uncertain costs and identified risks which are accepted and for which contingent and mitigating responses are developed",
+        "image": "/src/assets/img/FirstFunctionCostMgt.png"
       }
       
     ],
