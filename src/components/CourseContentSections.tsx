@@ -86,10 +86,13 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({ moduleId, o
                 <div>
                   <div className="text-3xl font-bold text-gray-900 mb-6">{currentSection.title}</div>
                   <div className="text-2xl font-bold text-gray-900 mb-6">{currentSection.subheader}</div>
-                  <div className="text-2xl text-gray-700 mt-4">{currentSection.body}</div>
+                  <div className="text-2xl font-bold text-gray-900 mb-6">{currentSection.subheader1}</div>
+                  <div className="text-2xl font-bold text-gray-900 mb-6">{currentSection.subheader2}</div>
+                  <div className="text-xl text-gray-700 mt-4">{currentSection.body}</div>
+                  <div className="text-xl text-gray-700 mt-4">{currentSection.body1}</div>
 
                   {currentSection.list1 && (
-                    <ul className="list-disc list-inside text-2xl text-gray-700 mt-2">
+                    <ul className="list-disc list-inside text-2xl text-gray-700 mt-4">
                       {currentSection.list1.split(";").map((item: string, index: number) => (
                         <li className="text-base/8" key={`list1-${index}`}>{item.trim()}</li>
                       ))}
@@ -97,11 +100,27 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({ moduleId, o
                   )}
 
                   {currentSection.list2 && (
-                    <ul className="list-disc list-inside text-2xl text-gray-700 mt-2">
+                    <ul className="list-disc list-inside text-2xl text-gray-700 mt-4">
                       {currentSection.list2.split(";").map((item: string, index: number) => (
                         <li className="text-base/8" key={`list2-${index}`}>{item.trim()}</li>
                       ))}
                     </ul>
+                  )}
+
+                  {currentSection.list3 && (
+                    <ul className="list-disc list-inside text-2xl text-gray-700 mt-4">
+                      {currentSection.list3.split(";").map((item: string, index: number) => (
+                        <li className="text-base/8" key={`list3-${index}`}>{item.trim()}</li>
+                      ))}
+                    </ul>
+                  )}
+
+                  {currentSection.numberedlist && (
+                    <ol className="list-disc list-inside text-2xl text-gray-700 mt-4">
+                      {currentSection.numberedlist.split(";").map((item: string, index: number) => (
+                        <li className="text-base/8" key={`numberedlist-${index}`}>{item.trim()}</li>
+                      ))}
+                    </ol>
                   )}
 
                   {currentSection.title === "Knowledge Check" && currentSection.q_selection && (
