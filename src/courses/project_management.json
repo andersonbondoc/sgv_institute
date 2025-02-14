@@ -380,33 +380,26 @@
     "id": 3,
     "moduleId": "PMFIDS_RM",
     "moduleName": "Project Risk Management",
-    "type": "course",
+    "type": "module",
     "sections": [
       {
         "order": 1, 
-        "title": "Course Introduction",
+        "title": "Module Introduction",
         "body": "Welcome to the WBL (Web-Based Learning) module on Project Risk Management! This module is designed to deliver an understanding of the types of risks and the process of identifying, analyzing, handling and monitoring risks in managing projects. Below is an overview of the topics covered in this module:",
         "image": "/src/assets/img/WBLImagePlaceholder.png"
       },
       {
         "order": 2,
-        "title": "Course Completion Requirements",
+        "title": "Module Completion Requirements",
         "subheader": "Welcome",
         "body": "Select each heading to find out more. When you have selected all the headings, select the down arrow at the right to continue.",
-        "subheader1": "Course Credit and Completion Requirements",
-        "list1": "To receive proper learning credit and achieve the learning objectives, you must not skip any screens.; Complete all interactions.; Complete all practice questions.; Pass the final assessment with at least 70%; While completing the assessment, you are welcome to refer to the content of this course as much as you need, but you must complete the assessment alone. Using answers received from others, including any form of artificial intelligence, to complete an assessment is cheating.; Please note that this learning will expire in April 25, 2025. You must complete and pass all of the scored portions of this course within this period, or your related learning progress will be removed.",
         "image": "/src/assets/img/WBLImagePlaceholder.png"
       },
       {
         "order": 3,
-        "title": "Course Completion Requirements",
+        "title": "Module Completion Requirements",
         "subheader": "Welcome",
-        "body": "Select each heading to find out more. When you have selected all the headings, select the down arrow at the right to continue.",
-        "subheader1": "Course Objective",
-        "body1": "Upon successful completion of the course, you will be able to:",
-        "list1": "Define project risk and identify various types of risks that may occur in a project.; Recognize the risk management process and explore tools and fram.",
-        "subheader2": "Topics",
-        "list2":"Overview of Risks; Risk Management; Quality Assurance; Regulations",
+        "body": "<html><body><h1>WELCOME</h1><p>Select each heading to find out more. When you have selected all the headings, select the down arrow at the right to continue.</p><h2>Module Credit and Completion Requirements</h2><ul><li>To receive proper learning credit and achieve the learning objectives, you must not skip any screens.</li><li>Complete all interactions.</li><li>Complete all practice questions.</li><li>Pass the final assessment with at least 70%</li><li>While completing the assessment, you are welcome to refer to the content of this module as much as you need, but you must complete the assessment alone. Using answers received from others, including any form of artificial intelligence, to complete an assessment is cheating.</li></ul></br><p>Please note that this learning will expire in April 25, 2025. You must complete and pass all of the scored portions of this course within this period, or your related learning progress will be removed.</p><h3>Module Objective</h3><p>Upon successful completion of the course, you will be able to:</p><ul><li>Define project risk and identify various types of risks that may occur in a project.</li><li>Recognize the risk management process and explore tools and frameworks relevant to each step of the process.</li><li>Gain a full understanding of Quality Assurance and its benefits and importance in managing digital transformation projects, specifically in the Risk Monitoring phase.</li><li>Obtain knowledge on the existing Philippine regulations in risk management systems to get ahead of identifying and monitoring possible risks in projects.</li></ul>",
         "image": "/src/assets/img/WBLImagePlaceholder.png"
       },
       {
@@ -414,21 +407,12 @@
         "title": "Menu",
         "subheader": "",
         "body": "Select one topic to begin",
-        "list 1": "Overview of Risks",
-        "image1": "/src/assets/img/WBLImagePlaceholder.png",
-        "list 2": "Risk Management",
-        "image2": "/src/assets/img/WBLImagePlaceholder.png",
-        "list 3": "Quality Assurance",
-        "image3": "/src/assets/img/WBLImagePlaceholder.png",
-        "list 4": "Regulations",
-        "image4": "/src/assets/img/WBLImagePlaceholder.png"
+        "list 1": "Overview of Risks; Risk Management; Quality Assurance; Regulations",
       },
       {
         "order": 5,
         "title": "Lesson 1",
-        "subheader": "Overview of Risks",
-        "body": "",
-        "image": "/src/assets/img/WBLImagePlaceholder.png"
+        "subheader": "Overview of Risks"
       },
       {
         "order": 6,
@@ -508,7 +492,6 @@
       {
         "order": 12,
         "title": "Knowledge Check 1",
-        "subheader": "",
         "body": "This is a type of risk where a completed project fails to perform as intended.",
         "image": "/src/assets/img/WBLImagePlaceholder.png",
         "q_field_type": "single_select" ,
@@ -525,15 +508,13 @@
         "title": "Lesson Summary",
         "subheader": "Congratulations on completing Lesson 1 of this course!",
         "body": "Now that you have completed this lesson, you should be able to:",
-        "list": "Define project risk and identify various types of risks that may occur in a project.",
-        "image": "/src/assets/img/WBLImagePlaceholder.png"
+        "list": "Define project risk and identify various types of risks that may occur in a project."
       },
       {
         "order": 14,
         "title": "Lesson 2",
         "subheader": "Risk Management",
-        "body": "Select each heading to find out more. When you have selected all the headings, select the down arrow at the right to continue.",
-        "image": "/src/assets/img/WBLImagePlaceholder.png"
+        "body": "Select each heading to find out more. When you have selected all the headings, select the down arrow at the right to continue."
     },
     {
         "order": 15,
@@ -550,7 +531,7 @@
     {
         "order": 17,
         "title": "Risk Management Process",
-        "body": "The risk management process is comprised of four phases, as depicted in the following diagram: Identification, Assessment, Handling, and Monitoring",
+        "body": "The risk management process is comprised of four phases, as depicted in the following diagram: Identification, Assessment, Handling, and Monitoring. All phases must be communicated and tracked accordingly.",
         "subheader1": "Risk Identification",
         "body1": "Risk identification involves examining project areas and critical technical processes to identify and document associated risks. Identifying potential issues, hazards, threats, and vulnerabilities that could negatively impact work efforts or plans forms the foundation of the risk management strategy. The project will employ several methods to identify risks:",
         "list1": "Examination  the work breakdown structure to identify potential risk areas.; Conduct interviews with subject matter experts.; Analyze lessons learned documents or engage in discussions.; Examine design specifications for product enhancements, interfaces, and reports.; Evaluate project management and implementation strategies.; Perform risk assessment and risk management reviews.",
@@ -602,17 +583,15 @@
     {
         "order": 20,
         "title": "Knowledge Check 2",
-        "subheader": "",
-        "body": "Identify the definitions for each of the RAID log items.",
-        "image": "/src/assets/img/WBLImagePlaceholder.png",
-        "q_field_type": "single_select" ,
+        "body": "Which of the following statements are TRUE about RAID log? (Select all that apply)",
+        "q_field_type": "multi_select" ,
         "q_selection": [{
-          "A": "Likely Probability, Major Impact",
-          "B": "Likely Probability, Moderate Impact",
-          "C": "Rare Probability, Extreme Impact",
-          "D": "Moderate Probability, Trivial Impact"
+          "A": "Risk is an immediate, formally-defined concerns which require action",
+          "B": "Assumptions are statements accepted as fact",
+          "C": "Dependencies are relationships between products or tasks",
+          "D": "Issues are future threats to the overall success of a project or a contingent part"
         }],
-        "q_answer": "A"
+        "q_answer": "B, C"
       },
       {
         "order": 21,
@@ -620,11 +599,8 @@
         "subheader": "Risk Register",
         "image": "src/assets/img/projectmanagement/projectriskmanagement/PMFIDS_PM_PRM_order21.jpg",
         "list1": "A risk register is a document used as a risk management tool to identify potential setbacks within a project. The purpose of this process is to collectively identify, analyze, and address risks before they become problems.",
-        "image1": "/src/assets/img/WBLImagePlaceholder.png",
         "list2": "According to the PMBOK guide, a risk register, or risk log, is a document that contains the results of risk analysis and records risk response plans. The primary output from risk identification is the initial entry into the risk register.",
-        "image2": "/src/assets/img/WBLImagePlaceholder.png",
         "list3": "The risk register details all identified risks, provides descriptions, categorizes them, and discusses potential causes and probabilities. It also includes potential responses and identifies who is responsible for managing each risk. The risk register is an integral part of the project management plan.",
-        "image3": "/src/assets/img/WBLImagePlaceholder.png"
     },
     {    
         "order": 22,
@@ -634,44 +610,30 @@
         "subheader1": "Risk Identification",
         "body1": "This typically takes the form of a risk name or identification number, which is used to identify and track the risk within the risk register.; A risk identification field should include:",
         "list1": "Risk name; Identification date; Subtitle, if needed",
-        "image1": "/src/assets/img/WBLImagePlaceholder.png",
         "subheader2": "Risk Description",
         "body2": "After the identification is complete, a brief description should be added to your log.; A risk description should include:",
         "list2": "A short, high-level overview of the risk; Why the risk is a potential issue; How long you choose to make your descriptions is up to how detailed you want your log to be, but the average length is typically 80 to 100 characters.; The main takeaway is that a description should accurately describe the risk without getting in the weeds so it can be easily identified.",
-        "image2": "/src/assets/img/WBLImagePlaceholder.png",
         "subheader3": "Risk Category",
-        "body3": "Quickly identifying the risk facilitates assigning it to the appropriate team, especially when working on a complex project with multiple risks. A risk category could include any of the following:; To determine the category type, you first need to evaluate the source of the risk and identify who can help resolve it. If the solution isn't immediately clear, you may need to collaborate with department heads.",
-        "list3": "Operations; Budget; Schedule; Technology; Information; Security; Quality; Project plan",
-        "image3": "/src/assets/img/WBLImagePlaceholder.png",
+        "body3": "<p>Quickly identifying the risk facilitates assigning it to the appropriate team, especially when working on a complex project with multiple risks. A risk category could include any of the following:</p><br/><ul><li>Operations Budget</li><li>Schedule</li><li>Technology</li><li>Information</li><li>Security</li><li>Quality</li><li>Project plan</li></ul><p>To determine the category type, you first need to evaluate the source of the risk and identify who can help resolve it. If the solution isn't immediately clear, you may need to collaborate with department heads.</p>",
         "subheader4": "Risk Likelihood",
-        "body4": "The estimated probability of the risk occurring.; The likelihood of a risk can be documented with a simple selection of: ; Categorizing your risks by likelihood helps prioritize which risks to address first and which can be deferred.",
-        "list4": "Not likely; Likely; Very likely",
-        "image4": "/src/assets/img/WBLImagePlaceholder.png",
+        "body4": "<p>The estimated probability of the risk occurring.; The likelihood of a risk can be documented with a simple selection of: </p><br/><ul><li>Not likely</li><li>Likely</li><li>Very likely</li></ul><p>Categorizing your risks by likelihood helps prioritize which risks to address first and which can be deferred.</p>",
         "subheader5": "Risk Analysis",
-        "body5": "A risk analysis assesses the potential impact a risk could have on your project, helping to quickly identify the most critical risks to address. This should not be confused with priority, which considers both the likelihood and the impact analysis.; While teams document risk levels differently, you can start with this simple five-point scale: ; If you're having difficulty determining the risk level, consider seeking a second opinion from a department head. This collaboration can help you accurately assess the potential impact.",
-        "list5": "Very low; Low; Medium; High; Very high",
-        "image5": "/src/assets/img/WBLImagePlaceholder.png",
+        "body5": "<p>A risk analysis assesses the potential impact a risk could have on your project, helping to quickly identify the most critical risks to address. This should not be confused with priority, which considers both the likelihood and the impact analysis. </p><br/><p>While teams document risk levels differently, you can start with this simple five-point scale: </p><br/><ul><li>Very low</li><li>Low</li><li>Medium</li><li>High</li><li>Very high</li></ul><p>If you're having difficulty determining the risk level, consider seeking a second opinion from a department head. This collaboration can help you accurately assess the potential impact.</p>",
         "subheader6": "Risk Mitigation",
-        "body6": "A mitigation plan, also known as a risk response plan, is one of the most crucial components of a risk register. The primary goal of a risk management plan is to identify and mitigate potential risks. Essentially, it serves as an action plan.; A risk mitigation plan should include:",
+        "body6": "<p>A mitigation plan, also known as a risk response plan, is one of the most crucial components of a risk register. The primary goal of a risk management plan is to identify and mitigate potential risks. Essentially, it serves as an action plan.</p><br/><p>A risk mitigation plan should include:</p>",
         "list6": "A step-by-step solution on how to lessen the risk; A brief description of the intended outcome; How the plan will affect the impact",
-        "image6": "/src/assets/img/WBLImagePlaceholder.png",
         "subheader7": "Risk Priority",
-        "body7": "While the impact of a risk helps determine its priority, it's important to include this information in your log as well. Priority should consider both the likelihood of the risk and the risk analysis. These aspects together will clarify which risks are most likely to have harmful consequences on the project.; Priority can be documented by a simple number scale:",
-        "list7": "1 (Low); 2 (Medium); 3 (High)",
-        "image7": "/src/assets/img/WBLImagePlaceholder.png",
+        "body7": "<p>While the impact of a risk helps determine its priority, it's important to include this information in your log as well. Priority should consider both the likelihood of the risk and the risk analysis. These aspects together will clarify which risks are most likely to have harmful consequences on the project.</p><br/><p>Priority can be documented by a simple number scale:</p>",
         "subheader8": "Risk Ownership",
         "body8": "The individual responsible for managing the risk and implementing the prevention or contingency plans. Risk owners can include stakeholders, members of the project team, the project manager, and the project sponsor.",
-        "image8": "/src/assets/img/WBLImagePlaceholder.png",
         "subheader9": "Risk Status",
-        "body9": "This helps convey whether a risk has been successfully mitigated or not.; A risk status field should be filled out with one of the following: ; If you’d like to provide more detailed status options, you may choose a more specific list such as active, not started, on hold, ongoing, and complete.",
-        "list9": "Open; In progress; Closed",
-        "image9": "/src/assets/img/WBLImagePlaceholder.png"
+        "body9": "<p>This helps convey whether a risk has been successfully mitigated or not.</p><br/><p>A risk status field should be filled out with one of the following:</p><br/><ul><li>Open</li><li>In progress</li><li>Closed</li></ul><p>If you’d like to provide more detailed status options, you may choose a more specific list such as active, not started, on hold, ongoing, and complete.</p>"
       },
       {
         "order": 23,
         "title": "Risk Assessment",
         "subheader": "Probability Impact Matrix",
-        "body": "A Probability and Risk Matrix is a grid used to map the likelihood of each risk occurring and its impact on project objectives if it does occur. This matrix specifies combinations of probability and impact, allowing individual project risks to be categorized into priority groups. By using the probability and impact matrix, risks are classified as low, medium, or high based on two distinct factors: the overall probability of occurrence and the presumed impact if it occurs.",
+        "body": "<p>A Probability and Risk Matrix is a grid used to map the likelihood of each risk occurring and its impact on project objectives if it does occur. This matrix specifies combinations of probability and impact, allowing individual project risks to be categorized into priority groups. By using the probability and impact matrix, risks are classified as low, medium, or high based on two distinct factors: the overall probability of occurrence and the presumed impact if it occurs.</p><br/><p>Once risks are identified and classified, the next step is to prioritize them. Risk can be prioritized based on their probability of occurrence and impact. Impacts may be negative for threats and positive for opportunities. The key benefits of this assessment is that it focuses efforts on high priority risks. Probability and impact are assessed for each identified individual project risk.</p>",
         "subheader1": "Impact",
         "body1": "Impact is evaluated based on the extent of changes to the work plan (timing), cost, and quality if the risk materializes.",
         "subheader2": "Probability",
@@ -683,7 +645,6 @@
         "title": "Knowledge Check 3",
         "subheader": "",
         "body": "In assessing risks through the probability impact matrix, which of the following must be primarily prioritized?",
-        "image": "/src/assets/img/WBLImagePlaceholder.png",
         "q_field_type": "single_select" ,
         "q_selection": [{
           "A": "Likely Probability, Major Impact",
@@ -726,15 +687,13 @@
         "title": "Lesson Summary",
         "subheader": "Congratulations on completing Lesson 2 of this course!",
         "body": "Now that you have completed this lesson, you should be able to:",
-        "list": "Recognize the risk management process and explore tools and frameworks relevant to each step of the process.",
-        "image": "/src/assets/img/WBLImagePlaceholder.png"
+        "list": "Recognize the risk management process and explore tools and frameworks relevant to each step of the process."
       },
       {
         "order": 28,
         "title": "Lesson 3",
         "subheader": "Quality Assurance",
-        "body": "Select each heading to find out more. When you have selected all the headings, select the down arrow at the right to continue.",
-        "image": "/src/assets/img/WBLImagePlaceholder.png"
+        "body": "Select each heading to find out more. When you have selected all the headings, select the down arrow at the right to continue."
       },
       {
         "order": 29, 
@@ -752,7 +711,7 @@
         "order": 31,
         "title": "What is QA?",
         "subheader": "International Quality Standards",
-        "body": "International Organization for Standardization (ISO); The International Organization for Standardization (ISO) is an independent, non-governmental international organization that develops guidelines for wide range of products, services, and systems to ensure quality, safety, and efficiency. These standards are globally recognized and adopted by businesses, governments, and organizations to establish uniformity and compliance across various sectors.; ISO maintains a family of quality management standards collectively known as the ISO 9000.",
+        "body": "<p>International Organization for Standardization (ISO)</p><br/><p>The International Organization for Standardization (ISO) is an independent, non-governmental international organization that develops guidelines for wide range of products, services, and systems to ensure quality, safety, and efficiency. These standards are globally recognized and adopted by businesses, governments, and organizations to establish uniformity and compliance across various sectors.</p><br/><p>ISO maintains a family of quality management standards collectively known as the ISO 9000.</p>",
         "image": "src/assets/img/projectmanagement/projectriskmanagement/PMFIDS_PM_PRM_order31.png",
         "subheader1": "Good quality management must address:",
         "subheader2": "Quality of the Project",
@@ -794,49 +753,33 @@
         "image": "src/assets/img/projectmanagement/projectriskmanagement/PMFIDS_PM_PRM_order34.png",
         "subheader1":"Lack of skilled QA resources",
         "body1": "Assigning testing tasks to business resources who lack expertise can cause unproductive and inaccurate testing. QA staff must thoroughly evaluate new testing technology and gather all relevant quality and testing requirements before implementation.",
-        "image1": "/src/assets/img/WBLImagePlaceholder.png",
         "subheader2": "Over-investing in Technology",
         "body2": "The QA needs of small banks differ from those of large, global institutions. What is effective for one may be too costly for another. Do not fall into the trap of believing that automation can resolve every QA issue.",
-        "image2": "/src/assets/img/WBLImagePlaceholder.png",
         "subheader3": "Lack of Readiness",
         "body3": "This risk assumes that organizations can postpone adding QA resources and delay involving QA early in a project. Planning should include considerations for contractual negotiations and the timing of onboarding third-party vendors.",
-        "image3": "/src/assets/img/WBLImagePlaceholder.png",
         "subheader4": "Underestimating the Effort",
         "body4": "It's essential to incorporate all QA management activities in any significant endeavor. These include:",
         "list4": "Test planning and obtaining approvals; Writing test cases; Executing tests; Fixing defects",
-        "image4": "/src/assets/img/WBLImagePlaceholder.png",
         "subheader5": "Inexperienced Leadership",
         "body5":"QA executives should not assume that all testing resources share the same skill set. They must also understand the specific talents needed in frontline QA managers, such as whether the focus should be on process expertise or testing skills.",
-        "image5": "/src/assets/img/WBLImagePlaceholder.png",
         "subheader6": "Do-it-yourself syndrome",
         "body6": "QA teams should incorporate the subject matter expertise provided by business users and not overlook their valuable insights. Additionally, QA leaders should avoid making decisions independently; instead, they should seek consensus and secure the support of these users.",
-        "image6": "/src/assets/img/WBLImagePlaceholder.png",
         "subheader7": "Over-engineering the Effort",
-        "body7": "Over-testing can lead to inflated costs and wasted time. The key criterion for testing is the value that the initiative delivers.",
-        "image7": "/src/assets/img/WBLImagePlaceholder.png"
+        "body7": "Over-testing can lead to inflated costs and wasted time. The key criterion for testing is the value that the initiative delivers."
       },
       {
         "order": 35,
         "title": "Importance of QA in Digital Transformation Projects",
         "subheader": "Building a QA Practice",
         "body": "Form a trusted team comprising essential roles such as project management, technical leads, business leads, and business analysts.",
-        "image": "/src/assets/img/WBLImagePlaceholder.png",
         "body1": "Hire a QA lead or manager, either from within the bank or externally, selecting the most suitable candidate for the role. ",
-        "image1": "/src/assets/img/WBLImagePlaceholder.png",
         "body2": "Evaluate the qualifications required for your bank's QA team.",
-        "image2": "/src/assets/img/WBLImagePlaceholder.png",
         "body3": "Consider existing staffs (business analysts and technical experts), but refrain from depending on them to serve as QA-trained resources.",
-        "image3": "/src/assets/img/WBLImagePlaceholder.png",
         "body4": "Determine the size of effort that QA practice will address.",
-        "image4": "/src/assets/img/WBLImagePlaceholder.png",
         "body5": "Assess the tools required for your QA practice.",
-        "image5": "/src/assets/img/WBLImagePlaceholder.png",
         "body6": "Identify the training demands of the QA practice.",
-        "image6": "/src/assets/img/WBLImagePlaceholder.png",
         "body7": "Consider the QA process and methodology crucial for your organization’s success.",
-        "image7": "/src/assets/img/WBLImagePlaceholder.png",
-        "body8": "Consider necessary communications for your organization.",
-        "image8": "/src/assets/img/WBLImagePlaceholder.png"
+        "body8": "Consider necessary communications for your organization."
       },
       {
         "order": 36,
@@ -856,8 +799,7 @@
         "subheader1": "Plan",
         "list 1": "Determine the customer's expectations and requirements.; Identify and document the processes and quality controls needed to satisfy customer’s expectations.",
         "subheader2": "Do",
-        "body2": "Perform the established processes and quality controls—Prevent, Detect, and Correct—to ensure the customer's expectations are fulfilled: ; The product or service is handed over to the customer.",
-        "list 2": "Prevent – The processes and quality controls are implemented to avert the occurrence of defects.; Detect – The processes and quality controls are implemented to proactively identify possible defects.; Correct – The processes and quality controls are implemented to fix and resolve identified defects.",
+        "body2": "<p>Perform the established processes and quality controls—Prevent, Detect, and Correct—to ensure the customer's expectations are fulfilled:</p><br/><ul><li>Prevent:The processes and quality controls are implemented to avert the occurrence of defects.</li><li>Detect:The processes and quality controls are implemented to proactively identify possible defects.</li><li>Correct:The processes and quality controls are implemented to fix and resolve identified defects.</li></ul><p>The product or service is handed over to the customer</p>",
         "subheader3": "Check",
         "list 3": " Customer feedback is obtained.; Assess the effectiveness of the processes and quality controls by asking the question, Are the customer's expectations being met?",
         "subheader4": "Act",
@@ -888,14 +830,12 @@
         "subheader": "Congratulations on completing Lesson 3 of this course!",
         "body": "Now that you have completed this lesson, you should be able to:",
         "list": "Gain a full understanding of Quality Assurance and its benefits and importance in managing digital transformation projects, specifically in the Risk Monitoring phase.",
-        "image": "/src/assets/img/WBLImagePlaceholder.png"
       },
       {
         "order": 40,
         "title": "Lesson 4",
         "subheader": "Regulations",
-        "body": "Select each heading to find out more. When you have selected all the headings, select the down arrow at the right to continue.",
-        "image": "/src/assets/img/WBLImagePlaceholder.png"
+        "body": "Select each heading to find out more. When you have selected all the headings, select the down arrow at the right to continue."
       },
       {
         "order": 41, 
@@ -956,7 +896,7 @@
         "subheader1": "Section 6. Responsibility to Protect Access to Client’s Financial Account",
         "list": "Institutions shall ensure that access to clients’ financial accounts is protected by adequate risk management systems and controls; Risk management systems and controls must be proportionate and commensurate to the nature, size and complexity of operations.; Institutions determined by the BSP to be compliant with the requirements of adequate risk management systems and controls shall not be liable for any loss or damage arising from the offenses under Sections 4 (Prohibited Acts) and Section 5 (Other Offenses).; Without prejudice to other liabilities under existing laws and consistent with BSP rules and regulations, institutions shall be liable for restitution of funds to the Account Owners for failure to employ adequate risk management systems and controls, or failure to exercise the highest degree of diligence in preventing loss or damage arising from the offenses under Section 4 and 5.; Conviction shall not be a prerequisite to the restitution of funds.",
         "subheader2": "Section 4. Prohibited Acts",
-        "body2": "The following acts shall constitute Financial Account scamming under this Act:; (a) Money Muling Activities. A person performing any of the followings acts for the purpose of obtaining, receiving, depositing, transferring, or withdrawing proceeds that are known to be derived from crimes, offenses, or social engineering schemes shall be considered as a money mule:; (b) Social Engineering Schemes. A social engineering scheme is committed by a person who obtains sensitive identifying information of another person, through deception or fraud, resulting in unauthorized access and control over the person's Financial Account, by performing any of the following acts:; c) Economic Sabotage. The prohibited acts under Section 4(a) and (b) shall be considered as economic sabotage when committed under any of the following circumstances:",
+        "body2": "<p>The following acts shall constitute Financial Account scamming under this Act:</p><br/><p>(a) Money Muling Activities. A person performing any of the followings acts for the purpose of obtaining, receiving, depositing, transferring, or withdrawing proceeds that are known to be derived from crimes, offenses, or social engineering schemes shall be considered as a money mule:<p><br/><ul><li>Using, borrowing or allowing the use of a Financial Account;</li><li>Opening a Financial Account under a fictitious name or using the identity or identification documents of another;</li><li>Buying or renting a Financial Account;</li><li>Selling or lending a Financial Account; or</li><li>Recruiting, enlisting, contracting, hiring, utilizing, or inducing any person to perform the acts mentioned in items 1 to 4 of this subsection.</li></ul><p>(b) Social Engineering Schemes. A social engineering scheme is committed by a person who obtains sensitive identifying information of another person, through deception or fraud, resulting in unauthorized access and control over the person's Financial Account, by performing any of the following acts:</p><br/><ul><li>Misrepresenting oneself as acting on behalf of an Institution, or making false representations to solicit another person's sensitive identifying information; or</li><li>Using electronic communications to obtain another person's sensitive identifying information.</li></ul><p>(c) Economic Sabotage. The prohibited acts under Section 4(a) and (b) shall be considered as economic sabotage when committed under any of the following circumstances:</p><br/><ul><li>By a group of three (3) or more persons conspiring or confederating with one another;</li><li>Against three (3) or more persons individually or as a group;</li><li>Using a mass mailer; or</li><li>Through human trafficking.</li></ul>",
         "list2": "Using, borrowing or allowing the use of a Financial Account; Opening a Financial Account under a fictitious name or using the identity or identification documents of another; Buying or renting a Financial Account; Selling or lending a Financial Account; or Recruiting, enlisting, contracting, hiring, utilizing, or inducing any person to perform the acts mentioned in items 1 to 4 of this subsection.; Misrepresenting oneself as acting on behalf of an Institution, or making false representations to solicit another person's sensitive identifying information; or Using electronic communications to obtain another person's sensitive identifying information.; By a group of three (3) or more persons conspiring or confederating with one another; Against three (3) or more persons individually or as a group;Using a mass mailer; or Through human trafficking.",
         "subheader3": "Section 5. Other Offenses",
         "body3": "The following shall also constitute as offenses under this Act:",
@@ -1019,7 +959,6 @@
         "title": "Course Completion",
         "subheader": "Congratulations on completing this course!",
         "body": "You can refer to the course during the assessment. To do so, re-open the course before starting the assessment.",
-        "image": "/src/assets/img/WBLImagePlaceholder.png"
       },
       {
         "order": 51,
