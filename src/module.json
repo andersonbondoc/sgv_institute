@@ -64,30 +64,8 @@
         "image": "/src/assets/img/WBLImagePlaceholder.png",
         "image2": "/src/assets/img/WBLImagePlaceholder.png",
         "video": "/src/assets/WBLVideoPlaceholder.mp4"
-<<<<<<< HEAD
       }
     ],
-=======
-      }, 
-      {   
-        "order": 6,
-        "title": "Five steps crucial to planning",
-        "subheader":"Activity definition",
-        "list1": "Identifying the specific activities that must be performed to produce the project deliverables identified in the work breakdown structure (WBS)",
-        "subheader1":"Activity sequencing",
-        "list2": "Arranging the activities to reflect their logical sequence and dependencies",
-        "subheader2":"Activity effort and duration estimating",
-        "list3": "Estimating effort and duration required to complete individual activities",
-        "subheader3":"Schedule development",
-        "list4": "Calculating a project schedule using the activities, their dependencies, resource assignments and estimated duration",
-        "subheader4":"Critical path identification (Critical Path Method or CPM)",
-        "list5": "The longest path of activities through the network that has no “float” or “slack,” i.e., any delay to the activities on this path delay the entire project; The critical path determines the duration of the project",
-        "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order51.png",
-        "video": "/src/assets/WBLVideoPlaceholder.mp4"
-       }
-    ],
-
->>>>>>> eb288ca5e6c7f551d7428f9ee64c680e04499fe7
     "exams": [{
       "exam_id": 1,
       "title": "Course Examination",

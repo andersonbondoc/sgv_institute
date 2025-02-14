@@ -2122,7 +2122,7 @@
         "title": "Menu",
         "subheader": "",
         "body": "Select one topic to begin",
-        "list 1": "Overview of Risks; Risk Management; Quality Assurance; Regulations",
+        "list 1": "Overview of Risks; Risk Management; Quality Assurance; Regulations"
       },
       {
         "order": 5,
@@ -2133,13 +2133,13 @@
         "order": 6,
         "title": "Learning Objective",
         "body": "At the end of this lesson, you will be able to:",
-        "list": "Define project risk and identify various types of risks that may occur in a project.",
+        "list1": "Define project risk and identify various types of risks that may occur in a project.",
         "image": "src/assets/img/projectmanagement/projectriskmanagement/PMFIDS_PM_PRM_order6.png"
       },
       {
         "order": 7,
         "title": "What is a Project Risk?",
-        "list": "An unpredictable event or situation that, if it happens, can positively or negatively impact the goals of a project.; Project risks can have positive outcomes, referred to as opportunities, or they can result in negative or unfavorable consequences, known as threats."
+        "list1": "An unpredictable event or situation that, if it happens, can positively or negatively impact the goals of a project.; Project risks can have positive outcomes, referred to as opportunities, or they can result in negative or unfavorable consequences, known as threats."
       },
       {
         "order": 8,
@@ -2223,7 +2223,7 @@
         "title": "Lesson Summary",
         "subheader": "Congratulations on completing Lesson 1 of this course!",
         "body": "Now that you have completed this lesson, you should be able to:",
-        "list": "Define project risk and identify various types of risks that may occur in a project."
+        "list1": "Define project risk and identify various types of risks that may occur in a project."
       },
       {
         "order": 14,
@@ -2235,13 +2235,13 @@
         "order": 15,
         "title": "Learning Objective",
         "body": "At the end of this lesson, you will be able to:",
-        "list": "Recognize the risk management process and explore tools and frameworks relevant to each step of the process.",
+        "list1": "Recognize the risk management process and explore tools and frameworks relevant to each step of the process.",
         "image": "src/assets/img/projectmanagement/projectriskmanagement/PMFIDS_PM_PRM_order15.png"
     },
     {
         "order": 16,
         "title": "What is Risk Management?",
-        "list": "This encompasses the processes involved in planning, identifying, analyzing, responding to, and monitoring and controlling risks within a project.; The objectives are to enhance the likelihood and impact of positive events while reducing the probability and impact of adverse events affecting the project"
+        "list1": "This encompasses the processes involved in planning, identifying, analyzing, responding to, and monitoring and controlling risks within a project.; The objectives are to enhance the likelihood and impact of positive events while reducing the probability and impact of adverse events affecting the project"
     },
     {
         "order": 17,
@@ -2315,7 +2315,7 @@
         "image": "src/assets/img/projectmanagement/projectriskmanagement/PMFIDS_PM_PRM_order21.jpg",
         "list1": "A risk register is a document used as a risk management tool to identify potential setbacks within a project. The purpose of this process is to collectively identify, analyze, and address risks before they become problems.",
         "list2": "According to the PMBOK guide, a risk register, or risk log, is a document that contains the results of risk analysis and records risk response plans. The primary output from risk identification is the initial entry into the risk register.",
-        "list3": "The risk register details all identified risks, provides descriptions, categorizes them, and discusses potential causes and probabilities. It also includes potential responses and identifies who is responsible for managing each risk. The risk register is an integral part of the project management plan.",
+        "list3": "The risk register details all identified risks, provides descriptions, categorizes them, and discusses potential causes and probabilities. It also includes potential responses and identifies who is responsible for managing each risk. The risk register is an integral part of the project management plan."
     },
     {    
         "order": 22,
@@ -2402,7 +2402,7 @@
         "title": "Lesson Summary",
         "subheader": "Congratulations on completing Lesson 2 of this course!",
         "body": "Now that you have completed this lesson, you should be able to:",
-        "list": "Recognize the risk management process and explore tools and frameworks relevant to each step of the process."
+        "list1": "Recognize the risk management process and explore tools and frameworks relevant to each step of the process."
       },
       {
         "order": 28,
@@ -2420,7 +2420,7 @@
       {
         "order": 30,
         "title": "What is QA?",
-        "list": "Quality assurance in project management involves implementing a set of actions aimed at ensuring that the project’s final outcomes align with the expected requirements. It focuses on the processes that teams utilize to maintain standards and deliver quality results.; This can be regarded as an added layer to conduct Risk Monitoring in projects."
+        "list1": "Quality assurance in project management involves implementing a set of actions aimed at ensuring that the project’s final outcomes align with the expected requirements. It focuses on the processes that teams utilize to maintain standards and deliver quality results.; This can be regarded as an added layer to conduct Risk Monitoring in projects."
     },
     {
         "order": 31,
@@ -2439,7 +2439,7 @@
         "order": 32,
         "title": "Quality Strategies",
         "subheader": "Total Quality Management",
-        "list": "A strategy focused on continuous improvement; Every employee in the company is accountable for maintaining quality; Defines ‘quality’ based on customer requirements",
+        "list1": "A strategy focused on continuous improvement; Every employee in the company is accountable for maintaining quality; Defines ‘quality’ based on customer requirements",
         "image": "src/assets/img/projectmanagement/projectriskmanagement/PMFIDS_PM_PRM_order32.png",
         "subheader1": "Sample Quality Initiatives for Continuous Improvement",
         "image1": "src/assets/img/projectmanagement/projectriskmanagement/PMFIDS_PM_PRM_order32_1.png",
@@ -2544,7 +2544,7 @@
         "title": "Lesson Summary",
         "subheader": "Congratulations on completing Lesson 3 of this course!",
         "body": "Now that you have completed this lesson, you should be able to:",
-        "list": "Gain a full understanding of Quality Assurance and its benefits and importance in managing digital transformation projects, specifically in the Risk Monitoring phase.",
+        "list1": "Gain a full understanding of Quality Assurance and its benefits and importance in managing digital transformation projects, specifically in the Risk Monitoring phase."
       },
       {
         "order": 40,
@@ -2556,19 +2556,19 @@
         "order": 41, 
         "title": "Learning Objective",
         "body": "At the end of this lesson, you will be able to:",
-        "list": "Obtain knowledge on the existing Philippine regulations in risk management systems to get ahead of identifying and monitoring possible risks in projects.",
+        "list1": "Obtain knowledge on the existing Philippine regulations in risk management systems to get ahead of identifying and monitoring possible risks in projects.",
         "image": "src/assets/img/projectmanagement/projectriskmanagement/PMFIDS_PM_PRM_order41.png"
       },
       {
         "order": 42,
         "title": "Bangko Sentral framework for IT risk supervision",
         "subheader": "Information Technology Risk Management (ITRM)",
-        "list": "ITRM should be considered a component and integrated with the institutions’ risk management program.; The guidelines likewise provide practical plans to address risks associated with emerging trends in technology and growing concerns on cyber security.",
+        "list1": "ITRM should be considered a component and integrated with the institutions’ risk management program.; The guidelines likewise provide practical plans to address risks associated with emerging trends in technology and growing concerns on cyber security.",
         "subheader1": "Policy Statement",
-        "list1": "BSFIs employ advances in technology to sharpen business insights, enhance operational efficiencies, and deliver innovative financial products and services in line with emerging market trends and evolving client needs.; Technological developments also enable greater access to financial services that promote an inclusive and responsive digital financial ecosystem.; Social media platforms may further complicate matters as news of disruptions as well as customer complaints can spread at unprecedented speeds.; Cyber-threats and attacks confronting the financial services industry pose added risks that can undermine public trust and confidence in the financial system.; BSFIs should establish robust and effective technology risk management processes, governance structures, and cybersecurity controls to ensure that the benefits derived from technological innovations can be fully optimized without compromising financial stability, operational resilience, and consumer protection.",
+        "list2": "BSFIs employ advances in technology to sharpen business insights, enhance operational efficiencies, and deliver innovative financial products and services in line with emerging market trends and evolving client needs.; Technological developments also enable greater access to financial services that promote an inclusive and responsive digital financial ecosystem.; Social media platforms may further complicate matters as news of disruptions as well as customer complaints can spread at unprecedented speeds.; Cyber-threats and attacks confronting the financial services industry pose added risks that can undermine public trust and confidence in the financial system.; BSFIs should establish robust and effective technology risk management processes, governance structures, and cybersecurity controls to ensure that the benefits derived from technological innovations can be fully optimized without compromising financial stability, operational resilience, and consumer protection.",
         "image1": "src/assets/img/projectmanagement/projectriskmanagement/PMFIDS_PM_PRM_order42.JPG",
         "subheader2": "Purpose and Scope",
-        "list 2": "The enhanced guidelines aim to provide guidance in managing risks associated with use of technology.; The guidelines are based on international standards and recognized principles of international practice for ITRM and shall serve as Bangko Sentral’s baseline requirement for all BSFIs.; The framework covers different facets of ITRM, some of which are supplemented with detailed guidelines in Appendices 74, 75, 76, 77, 78 and 79.; Subject guidelines, including the Appendices 74, 75, 76, 77, 78 and 79, are not “one-size-fits-all” and implementation of these need to be risk-based and commensurate with size, nature and types of products and services and complexity of IT operations of the individual BSFIs.; BSFIs shall exercise sound judgment in determining applicable provisions relevant to their risk profile.",
+        "list 3": "The enhanced guidelines aim to provide guidance in managing risks associated with use of technology.; The guidelines are based on international standards and recognized principles of international practice for ITRM and shall serve as Bangko Sentral’s baseline requirement for all BSFIs.; The framework covers different facets of ITRM, some of which are supplemented with detailed guidelines in Appendices 74, 75, 76, 77, 78 and 79.; Subject guidelines, including the Appendices 74, 75, 76, 77, 78 and 79, are not “one-size-fits-all” and implementation of these need to be risk-based and commensurate with size, nature and types of products and services and complexity of IT operations of the individual BSFIs.; BSFIs shall exercise sound judgment in determining applicable provisions relevant to their risk profile.",
         "image2": "src/assets/img/projectmanagement/projectriskmanagement/PMFIDS_PM_PRM_order42_1.JPG"
       },
       {
@@ -2609,7 +2609,7 @@
         "title": "AFASA on Risk Management Systems and Controls to Protect Financial Accounts",
         "subheader": "Anti-Financial Scamming Act (AFASA) was signed on July 20, 2024, and took effect on August 13, 2024",
         "subheader1": "Section 6. Responsibility to Protect Access to Client’s Financial Account",
-        "list": "Institutions shall ensure that access to clients’ financial accounts is protected by adequate risk management systems and controls; Risk management systems and controls must be proportionate and commensurate to the nature, size and complexity of operations.; Institutions determined by the BSP to be compliant with the requirements of adequate risk management systems and controls shall not be liable for any loss or damage arising from the offenses under Sections 4 (Prohibited Acts) and Section 5 (Other Offenses).; Without prejudice to other liabilities under existing laws and consistent with BSP rules and regulations, institutions shall be liable for restitution of funds to the Account Owners for failure to employ adequate risk management systems and controls, or failure to exercise the highest degree of diligence in preventing loss or damage arising from the offenses under Section 4 and 5.; Conviction shall not be a prerequisite to the restitution of funds.",
+        "list1": "Institutions shall ensure that access to clients’ financial accounts is protected by adequate risk management systems and controls; Risk management systems and controls must be proportionate and commensurate to the nature, size and complexity of operations.; Institutions determined by the BSP to be compliant with the requirements of adequate risk management systems and controls shall not be liable for any loss or damage arising from the offenses under Sections 4 (Prohibited Acts) and Section 5 (Other Offenses).; Without prejudice to other liabilities under existing laws and consistent with BSP rules and regulations, institutions shall be liable for restitution of funds to the Account Owners for failure to employ adequate risk management systems and controls, or failure to exercise the highest degree of diligence in preventing loss or damage arising from the offenses under Section 4 and 5.; Conviction shall not be a prerequisite to the restitution of funds.",
         "subheader2": "Section 4. Prohibited Acts",
         "body2": "<p>The following acts shall constitute Financial Account scamming under this Act:</p><br/><p>(a) Money Muling Activities. A person performing any of the followings acts for the purpose of obtaining, receiving, depositing, transferring, or withdrawing proceeds that are known to be derived from crimes, offenses, or social engineering schemes shall be considered as a money mule:<p><br/><ul><li>Using, borrowing or allowing the use of a Financial Account;</li><li>Opening a Financial Account under a fictitious name or using the identity or identification documents of another;</li><li>Buying or renting a Financial Account;</li><li>Selling or lending a Financial Account; or</li><li>Recruiting, enlisting, contracting, hiring, utilizing, or inducing any person to perform the acts mentioned in items 1 to 4 of this subsection.</li></ul><p>(b) Social Engineering Schemes. A social engineering scheme is committed by a person who obtains sensitive identifying information of another person, through deception or fraud, resulting in unauthorized access and control over the person's Financial Account, by performing any of the following acts:</p><br/><ul><li>Misrepresenting oneself as acting on behalf of an Institution, or making false representations to solicit another person's sensitive identifying information; or</li><li>Using electronic communications to obtain another person's sensitive identifying information.</li></ul><p>(c) Economic Sabotage. The prohibited acts under Section 4(a) and (b) shall be considered as economic sabotage when committed under any of the following circumstances:</p><br/><ul><li>By a group of three (3) or more persons conspiring or confederating with one another;</li><li>Against three (3) or more persons individually or as a group;</li><li>Using a mass mailer; or</li><li>Through human trafficking.</li></ul>",
         "list2": "Using, borrowing or allowing the use of a Financial Account; Opening a Financial Account under a fictitious name or using the identity or identification documents of another; Buying or renting a Financial Account; Selling or lending a Financial Account; or Recruiting, enlisting, contracting, hiring, utilizing, or inducing any person to perform the acts mentioned in items 1 to 4 of this subsection.; Misrepresenting oneself as acting on behalf of an Institution, or making false representations to solicit another person's sensitive identifying information; or Using electronic communications to obtain another person's sensitive identifying information.; By a group of three (3) or more persons conspiring or confederating with one another; Against three (3) or more persons individually or as a group;Using a mass mailer; or Through human trafficking.",
@@ -2625,16 +2625,16 @@
         "title": "Financial Services Cyber Resilience Plan 2024-2029",
         "subheader": "Goal 1",
         "body": "This covers strategies to sharpen the industry’s capabilities to proactively respond to and recover from major cyber incidents.; Priority actions under this goal are:",
-        "list": "D1: Establish baseline industry incident response plan; D2: Develop scenario-based incident response playbooks; D3: Conduct progressive industry-wide cyber testing exercise regime; D4: Explore setting up of an industry Security Operations Center (SOC)",
+        "list1": "D1: Establish baseline industry incident response plan; D2: Develop scenario-based incident response playbooks; D3: Conduct progressive industry-wide cyber testing exercise regime; D4: Explore setting up of an industry Security Operations Center (SOC)",
         "subheader1": "Goal 2",
         "body1": "This encompasses strategies to institutionalize and expand sharing of timely and actionable cyberthreat intelligence across the financial community, including coordination and collaboration with other industry stakeholders and the National CERT (CERT-PH).; Priority actions under this goal are:",
-        "list1": "A1: Expand and further enhance Bankers Association of the Philippines Cybersecurity Incident Database (BAPCID) as an industry sharing platform; A2: Strengthen and forge strategic partnerships in domestic and international for a; A3: Support the enactment of cyber-related legislative initiatives (e.g., Anti-Financial Account Scamming Act, Liberalization of Secrecy of Deposits, etc.)",
+        "list2": "A1: Expand and further enhance Bankers Association of the Philippines Cybersecurity Incident Database (BAPCID) as an industry sharing platform; A2: Strengthen and forge strategic partnerships in domestic and international for a; A3: Support the enactment of cyber-related legislative initiatives (e.g., Anti-Financial Account Scamming Act, Liberalization of Secrecy of Deposits, etc.)",
         "subheader2": "Goal 3",
         "body2": "This goal covers strategies to instill strong cybersecurity culture and enhance cybersecurity skills and capabilities in the financial services industry.; Key priority actions include:",
-        "list2": "S1: Develop and implement cyber education program for BSFI Board and Senior Management; S2: Regularly conduct Chief Information Security Officer (CISO)/cyber form and Annual Cybersecurity Summit; S3: Conduct cybersecurity roadshows for small and medium-sized financial institutions (FIs); S4: Pursue holistic programs on cybersecurity skills and talent development; S5: Mainstream cyber education and awareness programs for financial clients.",
+        "list3": "S1: Develop and implement cyber education program for BSFI Board and Senior Management; S2: Regularly conduct Chief Information Security Officer (CISO)/cyber form and Annual Cybersecurity Summit; S3: Conduct cybersecurity roadshows for small and medium-sized financial institutions (FIs); S4: Pursue holistic programs on cybersecurity skills and talent development; S5: Mainstream cyber education and awareness programs for financial clients.",
         "subheader3": "Goal 4",
         "body3": "This goal contains strategies to promote cybersecurity best practices and standards across cybersecurity domains.; Priority actions under this goal are:",
-        "list3": "H1: Complete policy reforms on digital security controls, Application Programming Interface (API) security, Cybersecurity Maturity Model (CMM) framework, and supply chain risk management; H2: Explore establishment of an Industry Cyber Innovation/Research Hub; H3: Conduct benchmarking exercises on cyber capabilities",
+        "list4": "H1: Complete policy reforms on digital security controls, Application Programming Interface (API) security, Cybersecurity Maturity Model (CMM) framework, and supply chain risk management; H2: Explore establishment of an Industry Cyber Innovation/Research Hub; H3: Conduct benchmarking exercises on cyber capabilities",
         "image": "src/assets/img/projectmanagement/projectriskmanagement/PMFIDS_PM_PRM_order46.JPG"
       },
       {
@@ -2660,20 +2660,20 @@
         "title": "Lesson Summary",
         "subheader": "Congratulations on completing Lesson 4 of this course!",
         "body": "Now that you have completed this lesson, you should be able to:",
-        "list": "Obtain knowledge on the existing Philippine regulations in risk management systems to get ahead of identifying and monitoring possible risks in projects."
+        "list1": "Obtain knowledge on the existing Philippine regulations in risk management systems to get ahead of identifying and monitoring possible risks in projects."
       },
       {
         "order": 49,
         "title": "Course Summary",
         "subheader": "Congratulations on completing this course!",
         "body": "Now that you have completed this course, you should be able to:",
-        "list": "Define project risk and identify various types of risks that may occur in a project.; Recognize the risk management process and explore tools and frameworks relevant to each step of the process.; Gain a full understanding of Quality Assurance and its benefits and importance in managing digital transformation projects, specifically in the Risk Monitoring phase.; Obtain knowledge on the existing Philippine regulations in risk management systems to get ahead of identifying and monitoring possible risks in projects."
+        "list1": "Define project risk and identify various types of risks that may occur in a project.; Recognize the risk management process and explore tools and frameworks relevant to each step of the process.; Gain a full understanding of Quality Assurance and its benefits and importance in managing digital transformation projects, specifically in the Risk Monitoring phase.; Obtain knowledge on the existing Philippine regulations in risk management systems to get ahead of identifying and monitoring possible risks in projects."
       },
       {
         "order": 50,
         "title": "Course Completion",
         "subheader": "Congratulations on completing this course!",
-        "body": "You can refer to the course during the assessment. To do so, re-open the course before starting the assessment.",
+        "body": "You can refer to the course during the assessment. To do so, re-open the course before starting the assessment."
       },
       {
         "order": 51,
