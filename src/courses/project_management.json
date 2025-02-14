@@ -6,13 +6,13 @@
     "sections": [
       {
         "order": 1,
-        "title": "Course Introduction",
+        "title": "Module Introduction",
         "body": "Welcome to the WBL (Web-Based Learning) module on Project Management Fundamentals, Tools, and Techniques! This module is designed to provide you with a comprehensive understanding of project management, project management functions, tools, techniques, and frameworks, and project lifecycle. Below is an overview of the topics covered in this module:",
       },
       {
         "order": 2,
-        "title": "Course Completion Requirements",
-        "body": "<h1>WELCOME</h1> <p>Select each heading to find out more. When you have selected all the headings, select the down arrow at the right to continue.</p><h2>Course Credit and Completion Requirements</h2><ul><li>As a prerequisite of the workshop and to achieve the learning objectives you must complete this Web-Based Learning.</li><li>Complete all interactions.</li><li>Complete all practice questions.</li><li>Take the examination, you must pass at least 70% within three attempts to finish this web-based learning.</li><li>You must complete the assessment alone. Using answers received from others, including any form of artificial intelligence, to complete an assessment is cheating.</li><ul><br/><p>Please note that this learning will expire by April 25,2025.You must complete and pass all of the scored portions of this course within this period, or your related learning progress will be removed.</p><h3>Course Objective</h3>"
+        "title": "Module Completion Requirements",
+        "body": "<h1>WELCOME</h1> <p>Select each heading to find out more. When you have selected all the headings, select the down arrow at the right to continue.</p><h2>Module Credit and Completion Requirements</h2><ul><li>As a prerequisite of the workshop and to achieve the learning objectives you must complete this Web-Based Learning.</li><li>Complete all interactions.</li><li>Complete all practice questions.</li><li>Take the examination, you must pass at least 70% within three attempts to finish this web-based learning.</li><li>You must complete the assessment alone. Using answers received from others, including any form of artificial intelligence, to complete an assessment is cheating.</li><ul><br/><p>Please note that this learning will expire by April 25,2025.You must complete and pass all of the scored portions of this module within this period, or your related learning progress will be removed.</p><h3>Module Objective</h3>"
       },
       {
         "order": 3,
@@ -81,7 +81,7 @@
       {
         "order": 12,
         "title": "Learning Summary",
-        "subheader": "Congratulations on completing Lesson 1 of this course!",  	    
+        "subheader": "Congratulations on completing Lesson 1 of this module!",  	    
         "list1": "Now that you have completed this lesson, you should be able to:;Define what is project and project management;Identify the three constraints of project management triangle and its importance to a project.", 
       },
       {
@@ -145,7 +145,7 @@
       {
         "order": 21,
         "title": "Learning Summary",
-        "body": "Congratulations on completing Lesson 2 of this course!", 
+        "body": "Congratulations on completing Lesson 2 of this module!", 
         "list1": "Now that you have completed this lesson, you should be able to; Differentiate members of a project team; Define what is project management functions and its different components; and,; Identify the roles, responsibilities and benefits of PMO."
       },                 
       {
@@ -205,7 +205,7 @@
       {
         "order": 29,
         "title": "Lesson Summary", 	
-        "body": "Congratulations on completing Lesson 3 of this course!", 
+        "body": "Congratulations on completing Lesson 3 of this module!", 
         "list1": "Now that you have completed this lesson, you should be able to answer:; What are project management methods; What are waterfall, agile, and hybrid project management approaches."
       },    
       {
@@ -373,7 +373,7 @@
         "order": 48,
         "title": "The Planning Phase",
         "body": "The Plan phase takes available information and assembles it into a feasible project work plan to achieve client outcomes.", 
-        "body1": "During this phase we establish the scope of the project, refine the objectives, and define the course of action required to attain the objectives that the project is undertaken to achieve.", 	
+        "body1": "During this phase we establish the scope of the project, refine the objectives, and define the module of action required to attain the objectives that the project is undertaken to achieve.", 	
         "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order48.png"
       }, 
       {
@@ -566,7 +566,7 @@
         "title": "Project Planning Phase: Summary",
         "image": "src/assets/img/project_managemen/Project Fundamentals/PMFIDS_PM_PFTT_order43_1.jpg", 
         "subheader": "PURPOSE", 
-        "list1": "Establish the scope of the project, refine the objectives, and define the course of action required to attain the objectives that the project is undertaken to achieve", 
+        "list1": "Establish the scope of the project, refine the objectives, and define the module of action required to attain the objectives that the project is undertaken to achieve", 
         "image1": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order43_2.jpg",
         "subheader1" :"KEY ACTIVITIES", 
         "list2": "Work Breakdown Structure; Project Roadmaps and Milestones; Project Risks, Issues, Dependencies", 
@@ -870,7 +870,7 @@
       }],
     "exams": [{
       "exam_id": 1,
-      "title": "Course Examination",
+      "title": "Module Examination",
       "body": "This assessment is designed to test your knowledge, and you must score at least 70% to pass.",
       "questions": [{
                 "q_number": 1,
