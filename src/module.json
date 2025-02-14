@@ -223,8 +223,15 @@
       {
         "order": 5,
         "title": "Ending",
-        "body": "Here is the ending",
+        "body": "During the cost estimating stage, real pricing information is crucial to gather through sellers, suppliers, and contractors to make accurate cost estimates.<br> Real pricing data can help reflect current market conditions therefore minimizing discrepancies and risks of underestimating and overestimating costs. It also supports informed decision-making, enhances adaptability, and ensures accountability. <br> It is also essential to account for contingencies, so a buffer is highly recommended to be included in your total cost. <br> In this stage, it is important to already have a schedule, list of deliverables, and success metrics.",
         "image": "/src/assets/img/WBLImagePlaceholder.png"
+      },
+      {
+        "order": 6,
+        "title": "Cost Estimation Techniques",
+        "body": "Aside from the mentioned estimation techniques, the following are other methods and practices that can ensure effective estimation should it be used in conjunction with other processes.",
+        "list1": "Delphi Method – utilizes the combined experiences of executives and managers to engage in comprehensive discussions and ultimately arrive at a consensus on the most accurate estimates; Template Method – references schedules and budgets from previous projects with similar nature but different outcomes can serve as a reference for initiating the new project; Parametric Technique – uses statistical relationships between historical data and various factors; Three-Point Estimating – improves accuracy of cost estimates by taking risk factors into account, factoring optimistic (cO), pessimistic (cP), and most likely (cM) cases where two commonly used formulas are the triangular and beta distribution; Cost of Quality (COQ) – emphasizes conforming to a project’s quality requirements including guidelines on the need to achieve quality due to failure and rework; Project Management Information Software (PMIS) – a software that includes statistical tools to estimate and/or forecast costs; Vendor Bid Analysis – focuses on responsive bids from qualified vendors; Reserve Analysis – includes contingency reserves in order to account for sudden or uncertain costs and identified risks which are accepted and for which contingent and mitigating responses are developed",
+        "image": "/src/assets/img/FirstFunctionCostMgt.png"
       }
       
     ],
