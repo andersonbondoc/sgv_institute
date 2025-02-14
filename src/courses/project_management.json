@@ -1391,7 +1391,7 @@
         "list1": "Overview of Budget and Cost Management",
         "list2": "The Four Functions of Cost Management",
         "image": "/src/assets/img/OverviewBudgetCostMgt.png",
-        "image1": "/src/assets/img/FourFunctions.png"
+        "image1": "/src/assets/img/project_management/budgetandcostmgt/FourFunctions.png"
       },
       {
         "order": 6,
@@ -1409,7 +1409,7 @@
         "subheader2": "Budgeting",
         "list2": "Budgets serve as the means to implement strategy throughout the organization; Budgeting enhances communication, coordination, and motivation, enabling the organization to achieve long-term strategic goals through the alignment and execution of short-term objectives",
         "body": "Decisions made at the strategic and operational levels directly impact the budget and cost management practices. Conversely, effective cost management and adherence to the budget provide the financial stability needed to support sound decision-making. In essence, decision-making, cost management, and budgeting are interdependent processes that collectively ensure the efficient and effective use of resources, enabling organizations to achieve their goals.",
-        "image": "/src/assets/img/CostManagement.png"
+        "image": "/src/assets/img/project_management/budgetandcostmgt/CostManagement.png"
       },
       {
         "order": 8,
@@ -1437,7 +1437,7 @@
         "list1": "Overview of Budget and Cost Management",
         "list2": "The Four Functions of Cost Management",
         "image": "/src/assets/img/OverviewBudgetCostMgt.png",
-        "image1": "/src/assets/img/FourFunctions.png"
+        "image1": "/src/assets/img/project_management/budgetandcostmgt/FourFunctions.png"
       },
       {
         "order": 11,
@@ -1449,7 +1449,7 @@
       {
         "order": 12,
         "title": "The Four Functions of Cost Management",
-        "image": "/src/assets/img/AllFourFunctionsofCostManagement.png"
+        "image": "/src/assets/img/project_management/budgetandcostmgt/AllFourFunctionsofCostManagement.png"
       },
       {
         "order": 13,
@@ -1457,33 +1457,33 @@
         "subheader": "Resource Planning",
         "body": "In the first module of project management, you have already been introduced to resource management as a function which discusses the importance of picking out the appropriate resources and skills for a project. Resource planning, in budget and cost management, involves not only determining the quantity and quality of resources but also scheduling their availability to ensure that each phase of the project progresses smoothly. It is a function of cost management that helps ensure the optimal use of resources through financial discipline and successful completion of the project. Resources encompass anything that aids in the completion of a project including money, time, equipment, team members, etc. During this stage, the following are important to have:",
         "list1": "Well-defined project objectives; A high-level project roadmap or a work breakdown structure (WBS); A preliminary resource management plan; A project scope statement",
-        "image": "/src/assets/img/FirstFunctionCostMgt.png"
+        "image": "/src/assets/img/project_management/budgetandcostmgt/FirstFunctionCostMgt.png"
       },
       {
         "order": 14,
         "title": "Resource Planning Issues",
         "body": "Identifying, allocating, and managing a project's resources is needed to ensure project success. However, shortages and misalignment with goals persist to exist throughout the project lifecycle. During the resource planning stage, you may have been given a high-level estimate of how much a project will be. This can pose as a challenge because the budget can be too small once you start allocating funds to cover the necessary resources required to complete the project. To address this issue, setting realistic budgets at project start is important. These are steps you can take to ensure a realistic budget: conduct market research for accurate cost estimates, plan comprehensively to identify potential costs, define clear objectives and scope to prevent scope creep, engage with stakeholders for insights, and establish a process for regular budget reviews and adjustments.",
-        "image": "/src/assets/img/ResourcePlanningIssues.png"
+        "image": "/src/assets/img/project_management/budgetandcostmgt/ResourcePlanningIssues.png"
       },
       {
         "order": 15,
         "title": "The Four Functions of Cost Management",
         "subheader": "Cost Estimating",
         "body": "During the cost estimating stage, real pricing information is crucial to gather to make accurate cost estimates. For tangible sources, communicate with sellers, suppliers, and other vendors for prices, and for labor costs, acquire multiple quotes from potential contractors. Real pricing data can help reflect current market conditions therefore minimizing discrepancies and risks of underestimating and overestimating costs. It also supports informed decision-making, enhances adaptability, and ensures accountability. It is also essential to account for contingencies, so a buffer is highly recommended to be included in your total cost. In this stage, it is important to already have a schedule, list of deliverables, and success metrics.",
-        "image": "/src/assets/img/SecondFunctionCostMgt.png"
+        "image": "/src/assets/img/project_management/budgetandcostmgt/SecondFunctionCostMgt.png"
       },
       {
         "order": 16,
         "title": "Cost Estimation Techniques",
         "body": "The most common cost estimation techniques are: Analogous, Top-Down, and Bottom-Up.",
-        "image": "/src/assets/img/CostEstimationTechniques.png"
+        "image": "/src/assets/img/project_management/budgetandcostmgt/CostEstimationTechniques.png"
       },
       {
         "order": 17,
         "title": "Cost Estimation Techniques",
         "subheader": "Analogous Estimating",
         "body": "Analogous Estimating relies on the actual cost of previous, similar projects as the basis for estimating the cost of the current project. It is frequently used to estimate a value when there is a limited amount of detailed information about the project, usually during the early phases of a project. This technique uses historical information and expert judgment. While the technique is less time consuming, it is also generally less accurate.",
-        "image": "/src/assets/img/Analogous.png"
+        "image": "/src/assets/img/project_management/budgetandcostmgt/Analogous.png"
       },
       {
         "order": 18,
@@ -1491,7 +1491,7 @@
         "subheader": "Top-Down Estimating",
         "body": "Top-Down Estimating is where the overall project cost is estimated first, to be followed by the individual costs. This approach is used initially until the tasks in the work breakdown structure are clearly defined. This is practical for the initial stage of strategic decision-making. Other methods such as the following can be utilized to ensure the effectiveness of this technique:",
         "list1": "Delphi (Consensus) Method – uses the pooled experiences of senior and/or middle managers to discuss thoroughly and ultimately reach an agreement of best estimates.; Analogous Technique",
-        "image": "/src/assets/img/TopDown.png"
+        "image": "/src/assets/img/project_management/budgetandcostmgt/TopDown.png"
       },
       {
         "order": 19,
@@ -1499,14 +1499,14 @@
         "subheader": "Bottom-Up Estimation",
         "body": "Bottom-Up Estimating is a method of estimating the costs of individual workstreams or activities of a project and then adding them up to arrive at the total project cost. Estimating duration and costs for each work package facilitates the development of schedules and a time-phased budget, which are required to monitor and control the project as it progresses. The following are other approaches that complement bottom-up estimating:",
         "list1": "Template Method – The schedules and budget from past projects of similar starts but with different endings can be used as a starting point for the new project.; Parametric Technique – Uses a statistical relationship between relevant historical data and other variables to calculate a cost estimate for project work. This technique can produce higher levels of accuracy depending upon the sophistication of the project.",
-        "image": "/src/assets/img/BottomUp.png"
+        "image": "/src/assets/img/project_management/budgetandcostmgt/BottomUp.png"
       },
       {
         "order": 20,
         "title": "Cost Estimation Techniques",
         "body": "Aside from the mentioned estimation techniques, the following are other methods and practices that can ensure effective estimation should it be used in conjunction with other processes.",
         "list1": "Delphi Method – utilizes the combined experiences of executives and managers to engage in comprehensive discussions and ultimately arrive at a consensus on the most accurate estimates; Template Method – references schedules and budgets from previous projects with similar nature but different outcomes can serve as a reference for initiating the new project; Parametric Technique – uses statistical relationships between historical data and various factors; Three-Point Estimating – improves accuracy of cost estimates by taking risk factors into account, factoring optimistic (cO), pessimistic (cP), and most likely (cM) cases where two commonly used formulas are the triangular and beta distribution; Cost of Quality (COQ) – emphasizes conforming to a project’s quality requirements including guidelines on the need to achieve quality due to failure and rework; Project Management Information Software (PMIS) – a software that includes statistical tools to estimate and/or forecast costs; Vendor Bid Analysis – focuses on responsive bids from qualified vendors; Reserve Analysis – includes contingency reserves in order to account for sudden or uncertain costs and identified risks which are accepted and for which contingent and mitigating responses are developed",
-        "image": "/src/assets/img/FirstFunctionCostMgt.png"
+        "image": "/src/assets/img/project_management/budgetandcostmgt/FirstFunctionCostMgt.png"
       },
       {
         "order": 21,
@@ -1528,13 +1528,13 @@
         "body": "In project management, the budgeting process is a collaborative and iterative effort that involves multiple stakeholders and careful planning. By forming a budget committee, establishing clear guidelines, submitting detailed proposals, negotiating effectively, and securing final approval, project managers can ensure that their projects are financially sound and positioned for success. This structured approach not only helps in managing costs but also enhances accountability, transparency, and stakeholder confidence. Project budgets outline in detail the planned expenditures for the project, specifying amounts and purposes with the project timeline. The Budget Process, although used for strategic planning, can also be utilized for projects.",
         "list1": "Form a budget committee – In projects, roles of each member should be clearly defined. You may also consult with the experts of different departments of the organization to ensure diverse perspectives are incorporated; Establish budget guidelines that are based on project objectives, milestones, and incentives; Submit budget proposals to your leaders and notable stakeholders or sponsors; Negotiate budget proposals – If you are collaborating with an external party, say if you want to implement a digital solution for example, you might run into changes in prices therefore it’s important to go through negotiation before reviewing, refining, and approving the budget; Review and approve the final budget through a presentation to senior management, sponsors, and stakeholders. It is important to obtain a sign-off from all relevant parties of the project",
         "image": "/src/assets/img/ThirdFunctionCostMgt.png",
-        "image2": "/src/assets/img/BudgetProcess.png"
+        "image2": "/src/assets/img/project_management/budgetandcostmgt/BudgetProcess.png"
       },
       {
         "order": 23,
         "title": "Budgeting Methodologies",
         "body": "Budgeting methodologies are systematic approaches used by organizations to plan, allocate, and manage their financial resources. These methodologies provide frameworks for estimating costs, setting financial targets, and monitoring expenditures. Each methodology has its unique features and is suited to different types of projects and organizational needs. Here are some common budgeting methodologies.",
-        "image": "/src/assets/img/BudgetingMethods.png"
+        "image": "/src/assets/img/project_management/budgetandcostmgt/BudgetingMethods.png"
       },
       {
         "order": 24,
@@ -1543,7 +1543,7 @@
         "body": "A rolling budget is used to ensure a consistent number of operating periods are always planned. This approach is beneficial  for organizations looking to avoid an annual budget planning event that can consume a large block of management time. This budgeting’s benefits are as follows:",
         "list1": "Breaks the budget process down into more manageable monthly processes rather than a lengthier annual process; Improves the relevancy of data and perspective used in the budgeting process; Helps keep everyone constantly focused on the organization’s strategy and how it is moving forward into the future",
         "body1": "Being a dynamic approach, rolling budgets in the lens of project management, can be utilized to reflect changes in the project environment. This method allows for ongoing adjustments and refinements based on actual performance and evolving circumstance. However, the challenge of using a rolling budget would be the commitment across the organization and project team to be in continuous budgeting mode.",
-        "image": "/src/assets/img/RollingBudget.png"
+        "image": "/src/assets/img/project_management/budgetandcostmgt/RollingBudget.png"
       },
       {
         "order": 25,
@@ -1552,14 +1552,14 @@
         "body": "An activity-based budget is a detailed budget methodology that results in a more sophisticated and detailed view of the many activities that drive costs in organizations. This budgeting provides the following benefits:",
         "list1": "Provides a much more accurate cost plan, control, and evaluation; Focuses on supporting value-adding processes in the organization; Improves accuracy of cost measurement",
         "body1": "In project management, activity-based budget will focus on the costs of each activity essentially useful alongside bottom-up estimation because each work package will be considered to arrive at total cost. By understanding the cost drivers, project managers can allocate resources more effectively, prioritizing activities that are critical to project success. However, an activity-based budget can be complex and time-consuming, requiring detailed analysis and tracking of activities with their associated costs.",
-        "image": "/src/assets/img/ActivityBasedBudget.png"
+        "image": "/src/assets/img/project_management/budgetandcostmgt/ActivityBasedBudget.png"
       },
       {
         "order": 26,
         "title": "Budgeting Methodologies",
         "subheader": "Zero-Based Budget",
         "body": "A zero-based budget is a structured approach wherein nothing is assumed to carry forward to the next year’s budget. It begins by evaluating all current and proposed projects based on relationship to the organization’s evolving strategy. This methodology is effective at controlling and reducing budgetary slack. By starting from ‘zero’, project managers can ensure that the budget is closely aligned with the project’s current goals and priorities, rather than relying on historical spending patterns. This method encourages the elimination of unnecessary expenditures, resulting in the optimization of resource usage. However, zero-based budgeting is more rigorous and time consuming given the process of justifying every expense, as you are starting from a 'blank' page.",
-        "image": "/src/assets/img/ZeroBasedBudget.png"
+        "image": "/src/assets/img/project_management/budgetandcostmgt/ZeroBasedBudget.png"
       },
       {
         "order": 27,
@@ -1568,7 +1568,7 @@
         "body": "A flexible budget is essential if business conditions are constantly changing. This budget can be adjusted depending on the variation in revenues and expenses. It provides the following advantages:",
         "list1": "Provides a valuable view that supports the management process of planning, controlling, and evaluating costs; Builds effective ‘what-if’ budgets on different scenarios",
         "body1": "Flexible budgets in projects enable project managers to adjust the budget in response to changes in project scope, resource availability, or external factors and circumstances. The project team and project manager must be prepared to track, report, and monitor changes continuously in order to make timely adjustments to the budget. Each methodology has its strengths and challenges, and project managers must choose the one that best fits their project's needs and organizational context.",
-        "image": "/src/assets/img/FlexibleBudget.png"
+        "image": "/src/assets/img/project_management/budgetandcostmgt/FlexibleBudget.png"
       },
       {
         "order": 28,
@@ -1586,145 +1586,362 @@
       {
         "order": 29,
         "title": "Sample Case for Budgeting and Cash Flow Forecasting",
-        "Subheader": "Project Overview",
+        "subheader": "Project Overview",
         "body": "XYZ bank recognized the need to enhance its digital presence and improve customer experience by developing a mobile banking application. The project’s scope involves the development Development of a mobile application for iOS and Android platforms, including features such as account management, fund transfers, bill payments, and customer support.",
         "list1": "Organization: XYZ Bank; Project Name: XYZ Bank Mobile Application; Duration: 24 months; Budget: Php 8,000,000; Scope: Development of a mobile application for iOS and Android platforms, including features such as account management, fund transfers, bill payments, and customer support.",
-        "image": "/src/assets/img/FirstFunctionCostMgt.png"
+        "image": "/src/assets/img/project_management/budgetandcostmgt/FirstFunctionCostMgt.png"
       },
       {
         "order": 30,
         "title": "Budgeting Steps",
-        "Subheader": "Step 1: Creating an Excel Spreadsheet",
+        "subheader": "Step 1: Creating an Excel Spreadsheet",
         "body": "The first step is to create an Excel spreadsheet. Excel is a powerful tool that allows you to organize and analyze financial data effectively. By organizing your budget in an Excel spreadsheet, you'll have a clear and comprehensive view of your financial landscape, making it easier to forecast and manage your budget effectively for your normal operations or for your projects.",
         "list1": "To begin, open a new Excel workbook. This will serve as the foundation for your budget.; Start by labeling your columns with the key categories you'll need, such as Account Titles and Description of those account titles. These categories will help you track and categorize all financial transactions.; Next, create a section for your budget.; Then, move on to the expenses section. Once your budget and expenses sections are set up, you can start entering your data. Remember to update your spreadsheet regularly to reflect any changes in your financial situation.",
-        "image": "/src/assets/img/BudgetingStep1.png"
+        "image": "/src/assets/img/project_management/budgetandcostmgt/BudgetingStep1.png"
       },
       {
         "order": 31,
         "title": "Budgeting Steps",
-        "Subheader": "Step 2: Input Account Titles for Income and Expenses",
+        "subheader": "Step 2: Input Account Titles for Income and Expenses",
         "body": "Now that we have our Excel spreadsheet set up, let's move on to the second step in forecasting a budget: inputting account titles for income and expenses. In this step, we will populate the 'Account Titles' column with specific titles for each source of income and type of expense. This will help us categorize and track our financial transactions more effectively. By clearly defining and inputting these account titles, you'll create a structured and organized budget that makes it easy to track and analyze your financial data. This step is crucial for maintaining clarity and accuracy in your budgeting process.",
         "list1": "Start by listing you budget under the 'Account Titles' column.; Next, move on to the expenses section. Under the 'Account Titles' column, list all the different types of expenses you anticipate. Project expenses might include planning and analysis, design and development, testing, quality assurance, deployment, and maintenance support. Again, be as detailed as possible to ensure that all potential expenses are accounted for.",
-        "image": "/src/assets/img/BudgetingStep2.png"
+        "image": "/src/assets/img/project_management/budgetandcostmgt/BudgetingStep2.png"
       },
       {
         "order": 32,
         "title": "Budgeting Steps",
-        "Subheader": "Step 3: Input Descriptions for Each Account Title",
+        "subheader": "Step 3: Input Descriptions for Each Account Title",
         "body": "In the third step of forecasting a budget, we will add detailed descriptions for each account title in the 'Description' column. This step is essential for providing context and clarity to each income and expense item, making it easier to understand and manage your budget. The more specific and clear your descriptions are, the easier it will be to manage and adjust your budget as needed.",
         "list1": "Start by providing a brief but informative description for each expense to specify what it entails. For instance, for ‘Planning and Analysis’ you might write market research and project scope identification. By inputting detailed descriptions for each account title, you ensure that everyone who reviews the budget understands the nature and purpose of each income and expense item. This added layer of detail enhances transparency and aids in more accurate financial planning and analysis.",
-        "image": "/src/assets/img/BudgetingStep3.png"
+        "image": "/src/assets/img/project_management/budgetandcostmgt/BudgetingStep3.png"
       },
       {
         "order": 33,
         "title": "Budgeting Steps",
-        "Subheader": "Step 4: Input Breakdown of Estimated Income and Expenses",
+        "subheader": "Step 4: Input Breakdown of Estimated Income and Expenses",
         "body": "In the fourth step of forecasting a budget, we will input the breakdown of our estimated budget usage and expenses for the year under the 'Calculations' column. This step is crucial for creating a detailed and realistic financial plan. By inputting the breakdown of your estimated budget usage and expenses, you create a comprehensive financial plan that outlines your expected financial performance for the project. This detailed breakdown will help you monitor your financial progress, identify any potential shortfalls, and make informed decisions to stay on track with your budget. The accuracy of your estimates is key to effective budget management, so take the time to gather reliable data and make informed projections.",
         "list1": "Start by estimating your budget utilization. Enter these monthly or annual estimates in the 'Calculations' column next to the corresponding row for budget and description. Repeat this process until you have distributed and exhausted the whole budget.; Next, move on to the expenses. For each expense account title, estimate the monthly or annual costs. For instance, like Design and Development, there are phases to this expense hence one month exceeds its equal distribution by 200,000. Enter these estimates in the 'Calculations' column next to the corresponding expense account title and description. Be sure to include all anticipated expenses.",
-        "image": "/src/assets/img/BudgetingStep4.png"
+        "image": "/src/assets/img/project_management/budgetandcostmgt/BudgetingStep4.png"
       },
       {
         "order": 34,
         "title": "Budgeting Steps",
-        "Subheader": "Step 4.1: Identify specific expenses that could be part of the project’s overall activities",
+        "subheader": "Step 4.1: Identify specific expenses that could be part of the project’s overall activities",
         "body": "Under the fourth step of budget forecasting, it is important to identify specific expenses. Breaking down activity costs and expenses is a fundamental practice in project management and financial planning. It involves detailing and categorizing all the costs associated with each specific activity within a project. Here we have two examples of specific breakdowns of costs. Let’s dive into the planning and analysis. As an initial forecast, we can categorize this expense into two: market research and requirement analysis. Usually, an organization can choose if they will ‘outsource’ or make their mobile application in-house. Let’s say that the organization hired a vendor to collaborate with their own experts in the end-to-end process of creating a mobile application. As we see here, we followed the steps of the budget forecast in making the specific breakdown of the design and development expenses. From identifying activities, providing a description, calculating its monthly allocation, and computing its totals.",
-        "image": "/src/assets/img/BudgetingStep4_1.png"
+        "image": "/src/assets/img/project_management/budgetandcostmgt/BudgetingStep4_1.png"
       },
       {
         "order": 35,
         "title": "Budgeting Steps",
-        "Subheader": "Step 4.1: Identify specific expenses that could be part of the project’s overall activities",
+        "subheader": "Step 4.1: Identify specific expenses that could be part of the project’s overall activities",
         "body": "Now let’s look at the design and development expenses. Following the table shown for the expenses of planning and analysis, we categorized this expense into three: UI/UX Design, Backend Development, and Frontend Development. Breaking down activity costs and expenses is essential for effective project management and financial planning. It enhances budget accuracy, improves cost control, supports better resource allocation, enables informed decision-making, increases transparency, improves risk management, enhances performance measurement, and ensures compliance and accurate reporting. By adopting a detailed approach to cost management, budgeting, and financial planning, organizations can achieve greater financial stability, efficiency, and success in their projects.",
-        "image": "/src/assets/img/BudgetingStep4_2.png"
+        "image": "/src/assets/img/project_management/budgetandcostmgt/BudgetingStep4_2.png"
       },
       {
         "order": 36,
         "title": "Budgeting Steps",
-        "Subheader": "Step 5: Input Total Budget and Expenses",
+        "subheader": "Step 5: Input Total Budget and Expenses",
         "body": "In the fifth step of forecasting a budget, we will input the total budget and expenses for the project under the 'Budget' column. This step consolidates all your estimates into a clear and concise financial plan. By inputting the total budget and expenses, you create a clear financial roadmap for the project. This consolidated view allows you to see the overall financial picture. Having a well-defined total budget helps you set financial goals, allocate resources effectively, and make informed decisions to achieve your financial objectives. Remember, regular monitoring and adjustments are key to staying on track with your budget throughout the project lifecycle.",
         "list1": "Start by calculating the total budget for each expense account titles. Sum up the monthly or annual estimates you entered in the 'Calculations' column to get the total projected expense for the project.; Enter this total in the 'Budget' column next to the corresponding income and expense account titles.; Repeat this process for all expense sources to get a comprehensive view of your budget utilization.",
-        "image": "/src/assets/img/BudgetingStep5.png"
+        "image": "/src/assets/img/project_management/budgetandcostmgt/BudgetingStep5.png"
       },
       {
         "order": 37,
         "title": "Budgeting Steps",
-        "Subheader": "Step 6: Compute Totals for the Budget and Expense Account Titles",
+        "subheader": "Step 6: Compute Totals for the Budget and Expense Account Titles",
         "body": "In the sixth step of forecasting a budget, we will compute the totals for the expense account titles, ensuring that it is balanced with the budget we have allotted for this project. By computing the totals of your expenses against our provided budget, you can easily compare the two figures to determine your financial position. If your total budget exceeds your total expenses, you have a surplus, which can be allocated to specific phases of the project. If your total expenses exceed your budget, you have a deficit, which will require adjustments. Having these totals clearly displayed in your budget provides a quick and comprehensive view of your financial health. ",
         "list1": "Calculate the total expenses. Sum up all the values in the 'Budget' column for the expense account titles. This will give you the total projected expenses.; Enter this total at the bottom of the 'Budget' column under the expense section, labeled as 'Total Expenses.’",
-        "image": "/src/assets/img/BudgetingStep6.png"
+        "image": "/src/assets/img/project_management/budgetandcostmgt/BudgetingStep6.png"
       },
       {
         "order": 38,
         "title": "Budgeting Steps",
-        "Subheader": "Step 7: Account for possible extensions and delays",
+        "subheader": "Step 7: Account for possible extensions and delays",
         "body": "This is an optional but highly suggested step in forecasting a budget, we will account for possible risks, issues, and obstacles that can cause delays and extensions. Start by analyzing which activity in your project could be ‘extended’ and be value-adding for your operations. In this sample scenario, the organization thinks that they would possibly need additional support in the first few months after going live with its mobile application. Although, once the project execution starts, constant reviewing of the budget will also begin. Periodically reviewing your project’s progress per phase and your fund, can help you assess the adequacy of your contingency planning. You may adjust your plan if necessary, by reallocating or increasing your budget. However, it is important to note that changes in the initial plan must be communicated clearly to all stakeholders involved in the project.",
-        "image": "/src/assets/img/BudgetingStep7.png"
+        "image": "/src/assets/img/project_management/budgetandcostmgt/BudgetingStep7.png"
       },
       {
         "order": 39,
         "title": "Budgeting Steps",
-        "Subheader": "Final Steps: Ensuring Accuracy and Creating Multiple Scenarios",
+        "subheader": "Final Steps: Ensuring Accuracy and Creating Multiple Scenarios",
         "body": "By ensuring data accuracy, reviewing formulas, comparing with historical data, and creating multiple scenarios, you can develop a comprehensive and flexible budget forecast. This process enhances your ability to manage finances effectively and prepares you for various financial situations.",
         "list1": "After creating a budget forecast, ensure that all data inputs are accurate and sourced from reliable and up-to-date information.; Review the formulas used in the spreadsheet to ensure they are correctly implemented and reference the appropriate cells, ensure that all inputs are aligned.; Compare the forecasted figures with historical data to identify trends and variances.; Create multiple scenarios (e.g., best-case, worst-case, and most likely scenarios) to understand the potential range of outcomes and prepare for different possibilities.",
-        "image": "/src/assets/img/BudgetingStepFinal.png"
+        "image": "/src/assets/img/project_management/budgetandcostmgt/BudgetingStepFinal.png"
       },
       {
         "order": 40,
         "title": "Cash Flow Forecasting Steps",
-        "Subheader": "Cash Flow",
+        "subheader": "Cash Flow",
         "body": "A company's cash flow at any point in time is influenced by various factors, including payables, receivables, debt service, capital expenditures, and sales or repurchases of stock. Payables manage outgoing funds, while receivables track incoming funds. Debt service covers loan repayments, and capital expenditures involve investments in physical assets. Stock transactions impact cash flow through raising capital or returning value to shareholders. By analyzing these components, we can create a detailed cash flow forecast to ensure financial stability and effectively plan for future needs."
       },
       {
         "order": 41,
         "title": "Cash Flow",
-        "Subheader": "Things To Take Note Of",
-        "image": "/src/assets/img/CashFlow.png"
+        "subheader": "Things To Take Note Of",
+        "image": "/src/assets/img/project_management/budgetandcostmgt/CashFlow.png"
       },
       {
         "order": 42,
         "title": "Cash Flow",
-        "Subheader": "Things To Take Note Of",
+        "subheader": "Things To Take Note Of",
         "subheader1": "What is Cashflow forecast?",
         "list1": "Cashflow forecast aims to predict how much cash you will have in the bank at any point over the coming months/years.; It shows impact on your bank balance of the peaks and troughs in the receipt and payments",
-        "image": "/src/assets/img/CashFlow1.png"
+        "image": "/src/assets/img/project_management/budgetandcostmgt/CashFlow1.png"
       },
       {
         "order": 43,
         "title": "Cash Flow",
-        "Subheader": "Things To Take Note Of",
-        "Subheader1": "Cashflow forecasting is a timing of payments",
+        "subheader": "Things To Take Note Of",
+        "subheader1": "Cashflow forecasting is a timing of payments",
         "body": "Cashflow forecasting is not just the flow of money coming in and out but also the timing of payments. You always want money first to be in, before spending it out. For example, if you receive an income of PHP 10 on Monday and incur expenses of PHP 9 on Friday, you can cover the expenses and still have PHP 1 left. However, if the income arrives on Saturday instead, there won't be any money available to cover Friday's expenses. By analyzing the timing of payments, we can create a detailed cash flow forecast to ensure financial stability and effectively plan for future needs.",
-        "image": "/src/assets/img/CashFlow2.png"
+        "image": "/src/assets/img/project_management/budgetandcostmgt/CashFlow2.png"
       },
       {
         "order": 44,
         "title": "Cash Flow",
-        "Subheader": "Things To Take Note Of",
+        "subheader": "Things To Take Note Of",
         "subheader1": "What is the difference of Cashflow forecasting vs Budget forecasting?",
         "body": "Budget Forecasting predicts whether there will be enough income over the period to cover costs, but cashflow forecasting tells you whether you can pay your bills in a timely manner",
         "list1": "Budget Forecast = How much is coming in and out; Cashflow Forecast = When",
-        "image": "/src/assets/img/CashFlow3.png"
+        "image": "/src/assets/img/project_management/budgetandcostmgt/CashFlow3.png"
       },
       {
         "order": 45,
         "title": "Cash Flow",
-        "Subheader": "Things To Take Note Of",
+        "subheader": "Things To Take Note Of",
         "subheader1": "When are cashflows important?",
         "subheader2": "Always!",
         "body": "Cash flows are always important, but they become especially critical in certain situations. Especially in times of change or where there is a reasonable degree of risk:",
         "list1": "If you are short of money; If you have a surplus; If income and/or expenses are particularly variable",
-        "image": "/src/assets/img/CashFlow4.png"
+        "image": "/src/assets/img/project_management/budgetandcostmgt/CashFlow4.png"
       },
       {
         "order": 46,
-        "title": "",
-        "Subheader": "",
-        "body": "",
-        "list1": "",
-        "image": "/src/assets/img/FirstFunctionCostMgt.png"
+        "title": "Cash Flow Forecasting Steps",
+        "subheader": "Step 1: Creating an Excel Spreadsheet for Cash Flow Forecasting",
+        "body": "By organizing your cash flow forecast in an Excel spreadsheet and using the account titles from your budget forecast, you create a structured and comprehensive view of your financial transactions. This setup will help you track the timing of cash inflows and outflows, ensuring that you can manage your finances effectively and maintain a healthy cash flow.",
+        "image": "/src/assets/img/project_management/budgetandcostmgt/CashFlowStep1.png"
       },
       {
         "order": 47,
+        "title": "Cash Flow Forecasting Steps",
+        "subheader": "Step 2: Plotting Estimated Budget Distribution under the Cash In column",
+        "body": "Note: In this scenario, the distribution was based on the transitions of the project’s phases.",
+        "image": "/src/assets/img/project_management/budgetandcostmgt/CashFlowStep2.png"
+      },
+      {
+        "order": 48,
+        "title": "Cash Flow Forecasting Steps",
+        "subheader": "Step 3: Plot all your projected expenses",
+        "body": "Note: It is important to conduct market research and analysis before budgeting in order for you to ensure accuracy of pricing on what’s available right now in the market.",
+        "image": "/src/assets/img/project_management/budgetandcostmgt/CashFlowStep3.png"
+      },
+      {
+        "order": 49,
+        "title": "Cash Flow Forecasting Steps",
+        "subheader": "Step 4: Computation of the Cumulative Cash Flows",
+        "body": "Tracking cumulative cash flow now will allow you to compare actual cash flow against the budgeted cash flow once you begin with the project. This helps in identifying variances and taking corrective actions to stay within the budget. Cumulative cash flow provides insights into the financial performance of a project.",
+        "image": "/src/assets/img/project_management/budgetandcostmgt/CashFlowStep4.png"
+      },
+      {
+        "order": 50,
+        "title": "Cash Flow Forecasting Steps",
+        "subheader": "Step 5: Cumulative Cash Flows for the following months",
+        "list1": "Start by referring to the prior month’s cumulative cash flow; Add the cash inflow for the current month and deduct the cash outflow to arrive at the current cumulative cash flow.; Repeat this process until you arrive at the end of the project duration, which is zero for a forecast.",
+        "image": "/src/assets/img/project_management/budgetandcostmgt/CashFlowStep5.png"
+      },
+      {
+        "order": 51,
+        "title": "Cash Flow Forecasting Steps",
+        "subheader": "Step 6: Computing Net In or Out Per Month",
+        "body": "<p>Following the forecasted possibility of delays and extensions in the budget forecast, we must also reflect this in the cash flow forecast.</p><br /><p>Should there be adjustments in the budget in the future, whether there is reallocation of resources or additional investments, updating the cumulative cash flows’ balances can help you make informed decisions about the project.</p>",
+        "image": "/src/assets/img/project_management/budgetandcostmgt/CashFlowStep1.png"
+      },
+      {
+        "order": 52,
+        "title": "Cash Flow Forecasting Steps",
+        "subheader": "Final Steps",
+        "list1": "First, examine the cash balances at the end of each month. Are you comfortable with these balances? Ensure that there are no months where the cash balance drops too low, potentially putting you at risk of not being able to meet your financial obligations.; Next, identify any potential surpluses of cash. Is there a surplus of cash in certain months that could be used more effectively? Consider how you might allocate these funds to other phases or aspects of the project to ensure quality and maximize.; Finally, analyze if any phases of the project can make your cash vulnerable. Ensure that your data is up to date in order to be well-prepared for the project. This step helps you identify potential risks, make informed decisions, and maintain a healthy cash flow throughout the project lifecycle.; Remember, regular monitoring and updating of your cash flow forecast are essential to adapt to changing circumstances and maintain financial stability",
+        "image": "/src/assets/img/project_management/budgetandcostmgt/CashFlowStepFinal.png"
+      },
+      {
+        "order": 53,
+        "title": "What visuals to use?",
+        "body": "<p>To gain better visibility on your cash flows, it's helpful to create a line chart using the data from the bank balance per month. This visual representation allows you to easily track trends and identify any potential issues.</p><br /><p>The line chart will show the fluctuations in your bank balance over the year, highlighting periods of surplus and potential shortfalls. By visualizing your cash flows, you can quickly identify trends, anticipate cash flow gaps, and make informed decisions to maintain financial stability.</p><br /><p>Regularly updating and reviewing this line chart will help you stay on top of your cash flow situation and ensure that you are well-prepared for any financial challenges that may arise.</p>",
+        "image": "/src/assets/img/project_management/budgetandcostmgt/Visuals.png"
+      },
+      {
+        "order": 54,
+        "title": "Knowledge Check",
+        "body": "Which of the following factors are involved in determining a company’s cashflow at any point in time?",
+        "q_field_type": "single_select" ,
+        "q_selection": [{
+          "A": "Payables, receivables, debt service, capital, expenditures, sales/repurchase of stock",
+          "B": "Only payables and receivables",
+          "C": "Payables, receivables, and sales revenue",
+          "D": "Only capital expenditures and debt service"
+        }],
+        "q_answer": "A"
+      },
+      {
+        "order": 55,
+        "title": "Cost Estimating and Budgeting Issues",
+        "body": "Despite ensuring effective estimation and budgeting methodologies are utilized, unforeseen changes and expenses can hinder a project’s progress. Issues in budgeting and estimating can arise from inaccurate data, unforeseen expenses, and scope changes. These issues in general can contribute to going over budget, delays, and shortfalls.",
+        "image": "/src/assets/img/project_management/budgetandcostmgt/CostBudgetIssues1.png"
+      },
+      {
+        "order": 56,
+        "title": "Cost Estimating and Budgeting Issues",
+        "body": "Inaccuracy of estimates is a common issue during estimating and budgeting. Gathering real pricing data is a good way to minimize inaccuracies; it can be done through historical data analysis, vendor and supplier quotes for actual prices in the market, benchmarking, establishing clear objectives and scope, and consulting experts in the field to understand resources’ current market prices.",
+        "image": "/src/assets/img/project_management/budgetandcostmgt/CostBudgetIssues2.png"
+      },
+      {
+        "order": 57,
+        "title": "Cost Estimating and Budgeting Issues",
+        "body": "Issues can also arise when additional requests and features are added to project specifications. It significantly impacts the original budget and timeline. When new requirements are introduced without proper consultation and evaluation, it can lead to cost overruns and resource strain. Effective management of these issues require a clear process for the submission of change orders.",
+        "image": "/src/assets/img/project_management/budgetandcostmgt/CostBudgetIssues3.png"
+      },
+      {
+        "order": 58,
+        "title": "The Four Functions of Cost Management",
+        "subheader": "Cost Control",
+        "body": "<p>Cost control is the process of monitoring the status of the project to update the project costs and managing changes to the cost baseline. The primary advantage of this function is that it enables the identification of deviations from the plan, allowing for corrective measures to be taken to reduce risk.</p><br /><p>Project cost control includes:</p>",
+        "list1": "Influencing the factors that create changes to the authorized cost baseline; Ensuring that all change requests are acted on in a timely manner; Managing the actual changes when and as they occur; Ensuring that cost expenditures do not exceed the authorized funding by period, WBS component, activity, and in total for the project; Monitoring cost performance to isolate and understand variances from the approved cost baseline; Monitoring work performance against funds expended; Preventing unapproved changes from being included in the reported cost or resource usage; Informing appropriate stakeholders of all approved changes and associated cost; Bringing expected cost overruns within acceptable limits.",
+        "image": "/src/assets/img/project_management/budgetandcostmgt/FourthFunctionCostMgt.png"
+      },
+      {
+        "order": 59,
+        "title": "Cost Control Issues",
+        "body": "Cost control issues can arise from various factors including resource allocation, unforeseen changes, and various delays.",
+        "image": "/src/assets/img/project_management/budgetandcostmgt/CostControlIssues1.png"
+      },
+      {
+        "order": 60,
+        "title": "Cost Control Issues",
+        "body": "<p>Teams requesting unplanned resources can occur due to underestimating the initial resources needs, unexpected challenges or obstacles, or changes in the project scope such as additional requests. It disrupts the project’s financial planning.</p><br /><p>Effective cost control requires careful collaborative and contingency planning, clear performance metrics, fair resource allocation, and established, consistent communication platforms.</p>",
+        "list1": "",
+        "image": "/src/assets/img/project_management/budgetandcostmgt/CostControlIssues2.png"
+      },
+      {
+        "order": 61,
+        "title": "Cost Control Issues",
+        "body": "A significant cost control issue arises when a project falls behind its planned schedule. Delays can lead to increased labor costs, extended use of resources, and potential penalties. It is important to communicate clearly with team leads and project managers to ensure that all stakeholders understand the increase in costs that will be incurred due to the delay. To minimize, or even mitigate other delays and issues, the following are good activities to practice during the project:",
+        "list1": "Cadence meetings to discuss project progress, address arising issues, and reinforce the importance of the timeline; An established feedback loop allows team leads, project staff, and the project manager to provide their respective inputs on the project’s current progress; During the project lifecycle, some processes and ways of working can be improved hence the need to identify bottlenecks and causes of delays. This proactive approach to problem-solving can help support the team in delivering their tasks.; Educate stakeholders and the project team on the specific financial impacts of delays. Provide concrete examples and data to illustrate how even minor delays can lead to significant cost increases. This helps to create a sense of urgency and accountability among team members, encouraging them to stay focused and committed to meeting deadlines.; Utilize visual aids, such as Gantt charts and project roadmaps, to illustrate the project timeline and key milestones, making it easier for team members to see how their tasks fit into the overall schedule",
+        "image": "/src/assets/img/project_management/budgetandcostmgt/CostControlIssues3.png"
+      },
+      {
+        "order": 62,
+        "title": "Common Cost Management Issues",
+        "body": "Modifications to the project scope and timeline can significantly influence the overall costs and budget. Effective cost management is essential to anticipate, monitor, and control these changes to ensure project success. To recall, here are the five common cost management issues discussed all throughout the four functions of cost management. Ultimately, these issues can cause the project to exceed its initial budget, leading to financial and resource strain.",
+        "image": "/src/assets/img/project_management/budgetandcostmgt/CommonCostMgtIssues.png"
+      },
+      {
+        "order": 63,
+        "title": "Cost Overruns",
+        "body": "Cost overruns occur when a project exceeds its initial budget, resulting in higher-than-expected total costs. It refers to unexpected increase/s in a project’s expenses that leads to spending beyond the planned budget. Here are other causes of cost overruns. Click each icon to find out more about it.",
+        "image": "/src/assets/img/project_management/budgetandcostmgt/CostOverruns.png"
+      },
+      {
+        "order": 64,
+        "title": "CostOverruns",
+        "body": "Unclear communication can cause misunderstanding and misalignment among project team members and stakeholders.",
+        "image": "/src/assets/img/project_management/budgetandcostmgt/CostOverruns1.png"
+      },
+      {
+        "order": 65,
+        "title": "CostOverruns",
+        "body": "Inaccurate project estimation can lead to cost overruns by underestimating the resources, time, and budget required to complete the project. When initial estimates are too low, the project may face unexpected expenses and resource shortages as it progresses. This can result in the need for additional funding, extended timelines, and increased labor costs, ultimately causing the project to exceed its original budget.",
+        "image": "/src/assets/img/project_management/budgetandcostmgt/CostOverruns2.png"
+      },
+      {
+        "order": 66,
+        "title": "CostOverruns",
+        "body": "Ineffective scheduling causes delays and disruptions in the project timeline. When tasks are not properly sequenced or allocated sufficient time, it can result in bottlenecks, idle resources, and missed deadlines.",
+        "image": "/src/assets/img/project_management/budgetandcostmgt/CostOverruns3.png"
+      },
+      {
+        "order": 67,
+        "title": "CostOverruns",
+        "body": "Unexpected costs due to fortuitous events, such as natural disasters, accidents, or sudden regulatory changes, can lead to significant cost overruns. These unforeseen events can disrupt project activities, damage resources and necessitate additional expenditures for repairs, replacements, or compliance. As these costs are not accounted for in the initial budget, they can quickly escalate and push the project beyond its financial limits. Effective risk management and contingency planning are essential to mitigate the impact of such unpredictable events on the project budget.",
+        "image": "/src/assets/img/project_management/budgetandcostmgt/CostOverruns4.png"
+      },
+      {
+        "order": 68,
+        "title": "CostOverruns",
+        "body": "Inconsistency in project execution can lead to cost overruns by creating inefficiencies and errors. When processes, standards, and quality controls are not uniformly applied, it can result in rework, wasted materials, and duplicated efforts.",
+        "image": "/src/assets/img/project_management/budgetandcostmgt/CostOverruns5.png"
+      },
+      {
+        "order": 69,
+        "title": "CostOverruns",
+        "body": "Lack of risk management leaves a project unprepared for potential issues and uncertainties. Without identifying, assessing, and mitigating risks, unforeseen problems such as technical challenges, resource shortages, or market fluctuations can arise and disrupt the project.",
+        "image": "/src/assets/img/project_management/budgetandcostmgt/CostOverruns6.png"
+      },
+      {
+        "order": 70,
+        "title": "CostOverruns",
+        "body": "Inexperience is another possible cause of cost overruns. When project managers or team members lack the necessary skills and knowledge, they may underestimate the complexity of tasks, overlook critical details, and fail to anticipate potential challenges.",
+        "image": "/src/assets/img/project_management/budgetandcostmgt/CostOverruns7.png"
+      },
+      {
+        "order": 71,
+        "title": "CostOverruns",
+        "body": "Low productivity levels can lead to cost overruns by extending project timelines and increasing labor costs. When team members are not working efficiently, tasks take longer to complete, resulting in delays and missed deadlines. This inefficiency often necessitates additional work hours and resources to stay on track, driving up costs.",
+        "image": "/src/assets/img/project_management/budgetandcostmgt/CostOverruns8.png"
+      },
+      {
+        "order": 72,
+        "title": "Knowledge Check",
+        "body": "Cost overruns can be caused by: Select all that apply.",
+        "q_field_type": "multi_select" ,
+        "q_selection": [{
+          "A": "Inconsistency",
+          "B": "Defined project objectives",
+          "C": "Low productivity levels",
+          "D": "Real pricing information",
+          "E": "Inaccurate project estimation",
+          "F": "Unexpected costs due to fortuitous events",
+          "G": "Unclear communication"
+        }],
+        "q_answer": "A; C; E; F; G"
+      },
+      {
+        "order": 73,
+        "title": "Cost Control Techniques",
+        "body": "Cost control techniques are essential practices in project management and financial planning aimed at ensuring that projects stay within their allocated budgets. These techniques involve monitoring and managing expenses, analyzing cost variances, and implementing corrective actions to address any deviations from the budget. By effectively applying these techniques, organizations can optimize resource utilization, prevent cost overruns, and achieve financial objectives.",
+        "image": "/src/assets/img/project_management/budgetandcostmgt/CostControlTechniques.png"
+      },
+      {
+        "order": 74,
+        "title": "Cost Control Techniques",
+        "subheader": "EVM",
+        "body": "<p>Earned value management (EVM) is a methodology that combines scope, schedule, and resource measurements to assess project performance and progress. It is a commonly used method of performance measurement for projects. It integrates the scope baseline with the cost baseline, along with the schedule baseline, to form the performance baseline, which helps the project management team assess and measure project performance and progress.</p><br /><p>This method develops and monitors three key dimensions for each work package and control account:</p><ul><li>Planned Value – is the authorized budget assigned to schedule work</li><li>Earned Value – is the measure of work performed expressed in terms of the budget authorized for that work; this is often used to calculate the percent complete of a project</li><li>Actual Cost – is the realized cost</li>></ul><br /><p>Variances from the approved baseline will also be monitored:</p><ul><li>Schedule Variance – is a measure of schedule performance expressed as the difference between the earned and planned value. It is the amount by which the project is ahead or behind the planned delivery date, at a given point in time. It is a measure of schedule performance on a project.</li><li>Cost Variance – is the amount of budget deficit or surplus at a given point in time, expressed as the difference between earned value and the actual cost. It is a measure of cost performance on a project.</li></ul>",
+        "image": "/src/assets/img/project_management/budgetandcostmgt/CostControlTechniques1.png"
+      },
+      {
+        "order": 75,
+        "title": "Cost Control Techniques",
+        "subheader": "Forecasting",
+        "body": "<p>Forecasting, although mentioned in cost estimating and budgeting, can also be used as a cost control technique. Forecasting can be used as a cost control technique because it involves predicting future financial conditions and performance based on historical data, trends, and assumptions. By anticipating potential costs and financial outcomes, organizations can make informed decisions, allocate resources more effectively, and identify potential budgetary issues before they arise. This proactive approach allows for timely adjustments to plans and budgets, helping to prevent cost overruns and ensuring that projects remain financially viable.</p><br /><p>Forecasts are generated, updated, and reissued based on work performance data that is provided as the project is being executed. During the project, the team may develop a forecast for the estimate at completion (EAC) that may differ from the budget at completion (BAC) based on the project performance.</p><br /><p>EACs are typically based on the actual costs incurred for work completed, plus an estimate to complete (ETC) the remaining work.</p>",
+        "image": "/src/assets/img/project_management/budgetandcostmgt/CostControlTechniques2.png"
+      },
+      {
+        "order": 76,
+        "title": "Cost Control Techniques",
+        "subheader": "Performance Reviews",
+        "body": "Performance reviews compare cost performance over time, schedule activities or work packages overrunning and underrunning the budget, and estimated funds needed to complete work in progress. It involves regularly evaluating the progress and efficiency of projects, departments, or employees against predefined goals and benchmarks.",
+        "list1": "Variance Analysis – compares planned and actual activity costs to identify variances between the baseline and actual performance. Further analysis can be performed to determine the cause and degree of variance relative to the schedule baseline and any corrective or preventative actions needed.; Trend Analysis – examines project performance overtime to determine if performance is improving or deteriorating. It involves examining historical data patterns to gain insights regarding cost behaviors and make informed decisions to manage and control expenses effectively. Through trend analysis, you may spot unusual spikes or drops that may indicate inefficiencies.; Earned Value Performance – compares the performance measurement baseline to actual schedule and cost performance if EVM is being used.",
+        "image": "/src/assets/img/project_management/budgetandcostmgt/CostControlTechniques3.png"
+      },
+      {
+        "order": 77,
+        "title": "Cost Control Techniques",
+        "subheader":"TCPI",
+        "body": "<p>The to-complete performance index (TCPI) is a measure of the cost performance that is required to be achieved with the remaining resources in order to meet a specified management goal, expressed as the ratio of the cost to finish the outstanding work to the remaining budget. It sets clear performance expectations for project teams, encouraging cost-conscious behavior and efficient use of resources.</p><br /><p>If the cumulative Cost Performance Index (CPI) falls below the baseline, as shown in the figure, all future work of the project will need to be performed immediately in the range of the TCPI (BAC) to stay within the authorized BAC.</p><img src=src/assets/img/project_management/budgetandcostmgt/TCPI.png",
+        "image": "/src/assets/img/project_management/budgetandcostmgt/CostControlTechniques4.png"
+      },
+      {
+        "order": 78,
         "title": "Knowledge Check",
         "body": "Which of the following activities are included in project cost control? Select all that apply.",
         "q_field_type": "multi_select" ,
@@ -1737,19 +1954,19 @@
         "q_answer": "A; B; D"
       },
       {
-        "order": 48,
+        "order": 79,
         "title": "Lesson Summary",
         "subheader": "Congratulations on completing Lesson 2 of this course!",
         "body": "Now that you have completed this lesson. Here is a summary:",
         "list1": "The four functions of cost management are resource planning, cost estimating, cost budgeting, and cost control; A company's cash flow at any point in time is a juxtaposition of payables, receivables, debt service, capital expenditures, sales/repurchases of stock and other factors; Cashflows are always important, especially in times of change or where there is a reasonable degree of risk; Issues and risks persist during the budget and cost management phase of a project; anticipating these issues can ensure that project teams are prepared with appropriate responses"
       },
       {
-        "order": 49,
+        "order": 80,
         "title": "Module Completion",
         "body": "Congratulations on completing the Budget and Cost Management module! You've now gained a solid understanding of the essential terms and concepts, as well as the practical skills needed to effectively manage budgets and control costs. As you move forward, remember that the principles and strategies you've learned here are vital tools for ensuring the financial health and success of any project or organization. By applying these techniques, you'll be better equipped to make informed financial decisions, forecast cash flow accurately, and address potential issues proactively. We hope this module has empowered you with the knowledge and confidence to tackle any financial challenge that comes your way. Keep honing your skills, stay diligent in your financial planning, and continue to strive for excellence in budget and cost management."
       },
       {
-        "order": 50,
+        "order": 81,
         "title": "Exam",
         "body": "",
         "image": "",
