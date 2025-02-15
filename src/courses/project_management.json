@@ -99,7 +99,7 @@
       {
         "order": 15, 
         "title": "Members of a Project Team", 
-        "body": "<h1>Project Sponsor</h1> <p>Overall accountable for the project success.</p> <u> <li>Ensure the project's strategic significance.</li> <li>Provide approval and funding for the project.</li> <li>Promote support by key stakeholders.</li> <li>Support broad authority for project manager and team.</li> </u> <h1>Project Manager</h1> <p>Execution of the project and link between the strategy and the team.</p> <u> <li>Satisfy the needs of the project.</li> <li>Focuses on specified project objectives.</li> <li>Controls the assigned project resources to meet project objectives.</li> <li>Manages the constraints of individual projects.</li> </u> <h1>Project Management Office (PMO)</h1> <p>Implementation of project management framework and maintains standards for project management.</p> <u> <li>Manages major program changes.</li> <li>Identifies and develops project management methodology, best practices, and standards.</li> </u> <h1>Functional Leads/Team Leaders</h1> <p>OResponsible for a particular area of concern, typically based on a set of related skills, processes or specific subject area.</p> <u> <li>Focused on providing management oversight for a functional or a business unit.</li> <li>Monitors team’s progress on achieving project milestones and provides expertise where needed.</li> </u> <h1>Project Team/Team Members</h1> <p>Responsible for the quality of the output relevant to undertaking.</p> <u> <li>Address various stakeholder needs, concerns and expectations.</li> <li>Integrate people and activities to perform project work according to approved plan.</li> <li>Conduct and administer procurement.</li> <li>Deliver project benefits and outcomes.</li> </u>"
+        "body": "<h1>Project Sponsor</h1> <p>Overall accountable for the project success.</p> <ul> <li>Ensure the project's strategic significance.</li> <li>Provide approval and funding for the project.</li> <li>Promote support by key stakeholders.</li> <li>Support broad authority for project manager and team.</li> </ul> <h1>Project Manager</h1> <p>Execution of the project and link between the strategy and the team.</p> <ul> <li>Satisfy the needs of the project.</li> <li>Focuses on specified project objectives.</li> <li>Controls the assigned project resources to meet project objectives.</li> <li>Manages the constraints of individual projects.</li> </ul> <h1>Project Management Office (PMO)</h1> <p>Implementation of project management framework and maintains standards for project management.</p> <ul> <li>Manages major program changes.</li> <li>Identifies and develops project management methodology, best practices, and standards.</li> </ul> <h1>Functional Leads/Team Leaders</h1> <p>OResponsible for a particular area of concern, typically based on a set of related skills, processes or specific subject area.</p> <ul> <li>Focused on providing management oversight for a functional or a business unit.</li> <li>Monitors team’s progress on achieving project milestones and provides expertise where needed.</li> </ul> <h1>Project Team/Team Members</h1> <p>Responsible for the quality of the output relevant to undertaking.</p> <ul> <li>Address various stakeholder needs, concerns and expectations.</li> <li>Integrate people and activities to perform project work according to approved plan.</li> <li>Conduct and administer procurement.</li> <li>Deliver project benefits and outcomes.</li> </ul>"
       }, 
       {
         "order": 16,
@@ -114,7 +114,7 @@
       {
         "order": 18,
         "title": "Project Management Functions",   
-        "body": "<h2>The Project Management Office (PMO)</h2> <p>The PMO maintains control over the administration of the project by:</p> <u> <li>Setting up proper governance structures, and; </li> <li>Establishing processes, methodologies and standards to monitor and accelerate project progress</li> </u> <br/> <h3>Benefits of a PMO</h3> <u> <li>Facilitate effective communication across project teams, project leadership and stakeholders. </li> <li> Facilitate the active and timely involvement of all stakeholders to the program to align outcomes with program objectives</li> <li>Centralized creation and communication of project plan providing a structured and transparent view of activities with milestones to achieve desired results. </li> <li>Focused management of budget, resources, scope and timelines throughout the project lifecycle. </li> <li>Proactive identification, assessment, reporting and mitigation of risks and issue</li> </u>"
+        "body": "<h2>The Project Management Office (PMO)</h2> <p>The PMO maintains control over the administration of the project by:</p> <ul> <li>Setting up proper governance structures, and; </li> <li>Establishing processes, methodologies and standards to monitor and accelerate project progress</li> </ul> <br/> <h3>Benefits of a PMO</h3> <ul> <li>Facilitate effective communication across project teams, project leadership and stakeholders. </li> <li> Facilitate the active and timely involvement of all stakeholders to the program to align outcomes with program objectives</li> <li>Centralized creation and communication of project plan providing a structured and transparent view of activities with milestones to achieve desired results. </li> <li>Focused management of budget, resources, scope and timelines throughout the project lifecycle. </li> <li>Proactive identification, assessment, reporting and mitigation of risks and issue</li> </ul>"
       },
       {
         "order": 19,
@@ -228,23 +228,13 @@
       {
         "order": 33,
         "title": "Initiation Phase", 
-        "body": "Projects can be initiated for various reasons, usually when there is a need for a change due to regulations, legislations, customer demands, strategy, cost pressures or combination of these.", 
-        "subheader": "Regulations",
-        "body1": "There is a new banking regulation that requires us to perform a new set of processes.",
-        "subheader1": "Legislations",
-        "body2": "Recent legislation changes require us to safeguard our customer data using certain protections.",
-        "subheader2": "Customer Demands",
-        "body3": "Customers demand new innovative designs — we need to develop a new camera for mobile devices.", 
-        "subheader3": "Strategy",
-        "body4": "The company is expanding into a new region, we need to update our business strategy.", 
-        "subheader4": "Cost Pressures",
-        "body5": "Our new products are costly. We need to reduce our costs to improve our profits.",
-        "image": "/src/assets/img/WBLImagePlaceholder.png"
+        "body": "<p>Projects can be initiated for various reasons, usually when there is a need for a change due to regulations, legislations, customer demands, strategy, cost pressures or combination of these. </p> <br/> <p>Regulations</p> <ul> <li>There is a new banking regulation that requires us to perform a new set of processes. </li> </ul> <p>Legislations</p> <ul> <li>Recent legislation changes require us to safeguard our customer data using certain protections. </li> </ul> <p>Customer Demands</p> <ul> <li>Customers demand new innovative designs — we need to develop a new camera for mobile devices. </li> </ul> <p>Strategy</p> <ul> <li>The company is expanding into a new region, we need to update our business strategy. </li> </ul> <p>Cost Pressures</p> <ul> <li>Our new products are costly. We need to reduce our costs to improve our profits. </li> </ul>"
       }, 
       {
         "order": 34,
         "title": "The Initiation Phase", 
-        "body": "During Initiation Phase, we define a new project or a new phase of an existing project by obtaining authorization to start the project. Project’s scope and objectives are defined at this stage so that the benefits and outcomes of the project are achieved by the close of the project. One usual output of project initiation phase is a Project Charter."
+        "body": "During Initiation Phase, we define a new project or a new phase of an existing project by obtaining authorization to start the project. Project’s scope and objectives are defined at this stage so that the benefits and outcomes of the project are achieved by the close of the project. One usual output of project initiation phase is a Project Charter.", 
+        "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order34.png" 
       },
       {
         "order": 35,
@@ -261,25 +251,18 @@
       },
       {
         "order": 36,
-        "title": "Project Charter",
-        "body": "Project Charter formally documents the overall objectives and scope of the project, as well as the general providing summary information on key aspects of the project.​", 
-        "body1": "The process of creating the Project Charter serves to align stakeholder expectations and is used as foundation for preparing detailed plans all throughout the project lifecycle. When the project charter is approved, the project becomes officially authorized.", 
-        "list1": "Key components of a project charter:; Project goals and objectives; Project background; Clearly defined project scope; Project governance; Key stakeholders; Project deliverable and key milestones; Summary of critical risks, assumptions and constraints; High level cost-estimate",
-        "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order36.png"
+        "title": "Project Charter", 
+        "body":"<p>Project Charter formally documents the overall objectives and scope of the project, as well as the general providing summary information on key aspects of the project.​ </p> <p>The process of creating the Project Charter serves to align stakeholder expectations and is used as foundation for preparing detailed plans all throughout the project lifecycle. When the project charter is approved, the project becomes officially authorized. </p> <br/> <p>Key components of a project charter: </p> <ul> <li>Project goals and objectives</li> <li>Project background</li> <li>Clearly defined project scope</li> <li>Project governance</li> <li>Key stakeholders</li> <li>Project deliverable and key milestones</li> <li>Summary of critical risks, assumptions and constraints</li> <li>High level cost-estimate</li> </ul> <img src=src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order36.png>"
       },
       {
         "order": 37,
         "title": "Framing a Project: Key Questions",
-        "body": "A complete understanding of what lies below the surface of a project is critical to a successful project initiation and eventually a successful project outcome.​", 
-        "body1": "The following questions can be used to help you, and your team understand the ins and outs of a project:", 
-        "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order37.png"
+        "body": "<p>A complete understanding of what lies below the surface of a project is critical to a successful project initiation and eventually a successful project outcome.​ </p> <p>The following questions can be used to help you, and your team understand the ins and outs of a project: </p> <br/> <img src=src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order37.png>"
       },
       {
         "order": 38,
         "title": "Project Charter on a page",
-        "body": "This Project Charter, 1-page summary example shows the major components.", 
-        "body1": "Some components may have more relative importance than others from project to project", 
-        "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order38.png"
+        "body": "<p>This Project Charter, 1-page summary example shows the major components. </p> <p>Some components may have more relative importance than others from project to project </p> <img src=src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order38.png>"
       },
       {
         "order": 39,
@@ -289,9 +272,7 @@
       {
         "order": 40,
         "title": "O-D-W Principle",
-        "body": "The O-D-W principle is a key approach for developing an emergent high-level plan, which is then revisited in subsequent phases for further development and refinement of a detailed / robust project plan. A thorough understanding and focus on O-D-W keeps the work of the project aligned with the overall business needs and outcomes.", 
-        "body1": "During this early stage of project lifecycle, limited information may be available for answering detailed questions regarding the project. Establishing baseline understanding will help provide a measurement of the project’s progress and success.",
-        "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order40.png"
+        "body":"<p>The O-D-W principle is a key approach for developing an emergent high-level plan, which is then revisited in subsequent phases for further development and refinement of a detailed / robust project plan. A thorough understanding and focus on O-D-W keeps the work of the project aligned with the overall business needs and outcomes. </p> <p>During this early stage of project lifecycle, limited information may be available for answering detailed questions regarding the project. Establishing baseline understanding will help provide a measurement of the project’s progress and success. </p> <img src=src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order40.png>"
       },
       {
         "order": 41,
@@ -309,37 +290,20 @@
       {
         "order": 42,
         "title": "RACI Matrix",
-        "body": "The RACI Matrix is a simple charting tool used to define responsibility for each task within a project. It ensures that each task is assigned to the appropriate person or department to align responsibilities and set clear expectations.", 
-        "body1": "RACI is an acronym with each letter representing a different role to perform.", 
-        "subheader": "Responsible", 
-        "body2": "DOER", 
-        "list1": "The responsible employee physically does the work.; Who is assigned to work on this task?​​", 
-        "subheader1": "Accountable", 
-        "body3": "OWNER",
-        "list2": "The accountable employee oversees the work and is ultimately answerable for the activity or decision.; Who has the authority to sign off the work?​", 
-        "subheader2":"Consulted", 
-        "body4": "IN THE LOOP",
-        "list3": "The consulted employee offers advice or feedback to improve the work.​; Who can tell me more about this task?​", 
-        "subheader3": "Informed", 
-        "body5": "IN THE PICTURE", 
-        "list4": "The informed party does not take part in the work but should be notified of the results.; Who must be kept updated about the progress?​​",
-        "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order42.png"
+        "body":"<p>The RACI Matrix is a simple charting tool used to define responsibility for each task within a project. It ensures that each task is assigned to the appropriate person or department to align responsibilities and set clear expectations. </p> <p>RACI is an acronym with each letter representing a different role to perform. </p> <br/> <h2>Responsible</h2> <p>DOER</p> <ul> <li>The responsible employee physically does the work. </li> <li>Who is assigned to work on this task?​​</li> </ul> <h2>Accountable</h2> <p>OWNER</p> <ul> <li>The accountable employee oversees the work and is ultimately answerable for the activity or decision. </li> <li>Who has the authority to sign off the work?</li> </ul> <h2>Consulted</h2> <p>IN THE LOOP</p> <ul> <li>The consulted employee offers advice or feedback to improve the work.​ </li> <li>Who can tell me more about this task?​</li> </ul> <h2>Informed</h2> <p>IN THE PICTURE</p> <ul> <li>The informed party does not take part in the work but should be notified of the results. </li> <li>Who must be kept updated about the progress?​​</li> </ul>"
       },
       {
         "order": 43,
-        "title": "Project Initiation Phase: Summary",
-        "subheader": "PURPOSE", 
-        "image": "src/assets/img/project_managemen/Project Fundamentals/PMFIDS_PM_PFTT_order43_1.jpg", 
-        "body": "Define a new project or a new phase of an existing project", 
-        "subheader1":"KEY ACTIVITIES", 
-        "image1": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order43_2.jpg",
-        "list1": "Define high-level project objectives, scope and outcome; Define preliminary project schedule, approach, cost estimate and risks; Identify planning resources", 
-        "subheader2": "KEY OUTPUTS", 
-        "list2": "Project Charter; Sponsor Approval; Identified planning phase resources; Stakeholder register", 
-        "image2": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order43_3.jpg"
+        "title": "RACI Matrix Sample",
+        "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order43.png"  
       },
       {
         "order": 44,
+        "title": "Project Initiation Phase: Summary",
+        "body": "<img src=src/assets/img/project_managemen/Project Fundamentals/PMFIDS_PM_PFTT_order43_1.jpg> <br/> <h2>PURPOSE</h2> <p>Define a new project or a new phase of an existing project </p> <img src=src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order43_2.jpg> <br/> <h2>KEY ACTIVITIES</h2> <ul> <li>Define high-level project objectives, scope and outcome </li> <li>Define preliminary project schedule, approach, cost estimate and risks</li> <li>Identify planning resources</li> </ul> <img src=src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order43_3.jpg> <br/> <h2>KEY OUTPUTS</h2> <ul> <li>Project Charter </li> <li>Sponsor Approval</li> <li>Identified planning phase resources</li> <li>Stakeholder register</li> </ul>"
+      },
+      {
+        "order": 45,
         "title": "Knowledge Check 9",
         "body": "Which of the RACI Matrix acronym can answer the question, “Who can tell me more about this task”?",
         "q_field_type": "single_select" ,
@@ -352,122 +316,74 @@
         "q_answer": "D"
       },
       {
-        "order": 45,
+        "order": 46,
         "title": "The Project Lifecycle", 	
         "subheader": "Phase 2: Planning", 
         "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order45.png"
       }, 
       {
-        "order": 46,
+        "order": 47,
         "title": "The Planning Phase", 	
         "body": "Planning is an iterative process, and planning activities and outcomes mature and evolve as the project moves through the project lifecycle.",  
         "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order46.png"
       }, 
       {
-        "order": 47,
+        "order": 48,
         "title": "What is a plan?", 	
         "list1": "A formal, approved document used to guide both project execution and project control.; Used to document planning assumptions and decisions, facilitate communication among project stakeholders and document approved scope, cost and schedule baselines.; May be summarized or detailed.",  
         "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order47.png"
       },
       {
-        "order": 48,
+        "order": 49,
         "title": "The Planning Phase",
-        "body": "The Plan phase takes available information and assembles it into a feasible project work plan to achieve client outcomes.", 
-        "body1": "During this phase we establish the scope of the project, refine the objectives, and define the module of action required to attain the objectives that the project is undertaken to achieve.", 	
-        "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order48.png"
+        "body": "<p>The Plan phase takes available information and assembles it into a feasible project work plan to achieve client outcomes. </p> <p>During this phase we establish the scope of the project, refine the objectives, and define the module of action required to attain the objectives that the project is undertaken to achieve. </p> <img src=src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order48.png>"
       }, 
       {
-        "order": 49,
+        "order": 50,
         "title": "Building a Robust Project Plan",
         "body": "A good, solid plan answers several questions related to the following aspects of a project:",
-        "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order49.png",
-        "subheader": "WHY",  
-        "body1": "What are the rationale, goals, and objectives of the project?", 	
-        "subheader1": "WHAT",
-        "body2": "What is the scope, what are the deliverables and what are the outcomes?", 
-        "subheader2": "WHEN",
-        "body3": "How much time do we have to finish the tasks?", 
-        "subheader3": "HOW",
-        "body4": "What are the methodology and approach we are going to follow? How much money do we have to spend?", 
-        "subheader4": "WHO", 
-        "body5": "What are the roles and responsibilities of people involved in the project?"
-      },
-      {
-        "order": 50,
-        "title": "ODW: developing the workplan",
-        "subheader": "Objectives", 
-        "list1": "What are the business objectives?; How will the project objectives serve the business objectives?",
-        "body": "Inputs from the Initiate phase",
-        "subheader1": "Deliverables", 
-        "list2": "What work products and services, outputs and outcomes are required to satisfy all the project objectives?", 
-        "body1": "Inputs from the Initiate phase", 
-        "subheader2": "Workplan", 
-        "list3": "What workplan tasks are required to create all the project deliverables?", 
-        "body2": "Output generated in the Planning phase",
-        "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order50.png"
+        "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order49.png"
       },
       {
         "order": 51,
-        "title": "Five steps crucial to planning",
-        "subheader":"Activity definition",
-        "list1": "Identifying the specific activities that must be performed to produce the project deliverables identified in the work breakdown structure (WBS)",
-        "subheader1":"Activity sequencing",
-        "list2": "Arranging the activities to reflect their logical sequence and dependencies",
-        "subheader2":"Activity effort and duration estimating",
-        "list3": "Estimating effort and duration required to complete individual activities",
-        "subheader3":"Schedule development",
-        "list4": "Calculating a project schedule using the activities, their dependencies, resource assignments and estimated duration",
-        "subheader4":"Critical path identification (Critical Path Method or CPM)",
-        "list5": "The longest path of activities through the network that has no “float” or “slack,” i.e., any delay to the activities on this path delay the entire project; The critical path determines the duration of the project",
-        "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order51.png"
-      }, 
-      {
-        "order": 52,
-        "title": "Six-steps — the ODW way",
-        "subheader":"Develop the Work Breakdown Structure (WBS)",
-        "list1": "Review project objectives and input materials; Determine WBS approach; Create WBS hierarchy; Check WBS for coverage of project objectives",
-        "subheader1":"Estimate the work effort",
-        "list2": "Define activities; Develop initial sequence of activities; Estimate amount of work",
-        "subheader2":"Assign resources and costs",
-        "list3": "Assign project team roles and costs to tasks; Determine other types and costs of resources for each task (e.g., equipment, tools, facilities and expenses)",
-        "subheader3":"Develop milestones",
-        "list4": "Identify a set of chronological milestones to serve as reference points; Identify target date and define milestone completion criteria",
-        "subheader4":"Develop the project schedule",
-        "list5": "Select scheduling tool; Transform WBS into project activities; Define activity dependences and determine critical path; Assign resources and costs",
-        "subheader5": "Create a baseline and track the project plan", 
-        "list6": "Baseline project plan for cost and schedule tracking; Begin tracking project weekly; Use Estimate to Complete (ETC) techniques", 
-        "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order52_1.png",
-        "image1": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order52_2.png"
+        "title": "ODW: developing the workplan",
+        "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order50.png"
       },
       {
-        "order": 53, 
+        "order": 52,
+        "title": "Five steps crucial to planning",
+        "body": "<h2>Activity definition</h2> <ul> <li>Identifying the specific activities that must be performed to produce the project deliverables identified in the work breakdown structure (WBS) </li> </ul> <h2>Activity sequencing</h2> <ul> <li>Arranging the activities to reflect their logical sequence and dependencies </li> </ul> <h2>Activity effort and duration estimating</h2> <ul> <li>Estimating effort and duration required to complete individual activities </li> </ul> <h2>Schedule development</h2> <ul> <li>Calculating a project schedule using the activities, their dependencies, resource assignments and estimated duration </li> </ul> <h2>Critical path identification (Critical Path Method or CPM)</h2> <ul> <li>The longest path of activities through the network that has no “float” or “slack,” i.e., any delay to the activities on this path delay the entire project </li> <li>The critical path determines the duration of the project</li> </ul> <br/> <img src=src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order51.png>"
+      }, 
+      {
+        "order": 53,
+        "title": "Six-steps — the ODW way",
+        "body": "<img src=src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order52_1.png> <img src=src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order52_2.png> <br/> <p>Develop the Work Breakdown Structure (WBS)</p> <ul> <li>Review project objectives and input materials</li> <li>Determine WBS approach</li> <li>Create WBS hierarchy</li> <li>Check WBS for coverage of project objectives</li> </ul> <p>Estimate the work effort</p> <ul> <li>Define activities</li> <li>Develop initial sequence of activities</li> <li>Estimate amount of work</li> </ul> <p>Assign resources and costs</p> <ul> <li>Assign project team roles and costs to tasks</li> <li>Determine other types and costs of resources for each task (e.g., equipment, tools, facilities and expenses)</li> </ul> <p>Develop milestones</p> <ul> <li>Identify a set of chronological milestones to serve as reference points </li> <li>Identify target date and define milestone completion criteria</li> </ul> <p>Develop the project schedule</p> <ul> <li>Select scheduling tool </li> <li>Transform WBS into project activities</li> <li>Define activity dependences and determine critical path</li> <li>Assign resources and costs</li> </ul> <p>Create a baseline and track the project plan</p> <ul> <li>Baseline project plan for cost and schedule tracking </li> <li>Begin tracking project weekly</li> <li>Use Estimate to Complete (ETC) techniques</li> </ul>"
+      },
+      {
+        "order": 54, 
         "title": "Plan Development", 
         "body": "Each iteration of planning goes from a high-level strategic focus to a tactical, activity, and task focus.", 
         "list1": "Key notes to consider when developing a project plan:; A plan should have a target beginning and end, with each activity/task connected to one another; Different types of plan are created for different purposes; Level of details in the plan can be adjusted based on target audience",
         "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order53.png"
       },
       {
-        "order": 54, 
+        "order": 55, 
         "title": "Plan Development", 
-        "body": "Milestones are meaningful when communicating the status of a project with the project team, key stakeholders, and sponsors.", 
-        "body1": "A milestone is reached, when at least one of the following is true:", 
-        "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order54.png"
+        "body":"<p>Milestones are meaningful when communicating the status of a project with the project team, key stakeholders, and sponsors. </p> <p>A milestone is reached, when at least one of the following is true: </p> <img src=src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order54.png>"
       },
       {
-        "order": 55, 
+        "order": 56, 
         "title": "Six-steps to development", 
         "body": "There are six steps to develop a robust workplan using the ODW way:", 
         "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order55.png"
       },
       {
-        "order": 56, 
+        "order": 57, 
         "title": "Work Breakdown Structure", 
-        "body": "A Work Breakdown Structure (WBS) is a listing of the discrete steps of work to be executed by a project team, described with an action orientation.",
-        "body1": "WBS helps clarify the tasks to be delivered on a project over a scheduled period of time.", 
-        "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order56.png"
+        "body": "<p>A Work Breakdown Structure (WBS) is a listing of the discrete steps of work to be executed by a project team, described with an action orientation. </p> <p>WBS helps clarify the tasks to be delivered on a project over a scheduled period of time. </p> <img src=src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order56.png>"
       },
       {
-        "order": 57,
+        "order": 58,
         "title": "Knowledge Check 10",
         "body": "Scenario: A PM and CEO agreed to appoint a Senior person to take on the role of the Sponsor. The challenge is the Sponsor has very little time available, and it is not one of his KPIs., Select the correct option and then select Submit, How do you manage this situation?",
         "q_field_type": "single_select" ,
@@ -480,131 +396,96 @@
         "q_answer": "B"
       }, 
       {
-        "order": 58, 
-        "title": "Estimating Work Effort", 
-        "list1": "Estimate the work effort:; Follows WBS development approach of top-down or bottom-up; Technique used may vary based upon several factors, including size, scope and complexity of the project",
-        "list2": "Important Points:; Estimating is an integral part of Project Management.; The objective is to generate quantifiable estimates, along with associated assumptions and risks, which represent the effort and cost for a set of activities needed to produce deliverables.; Accurate estimates are critical to the success of a project. The best source of an estimate is to look at history. Remember, accuracy in estimating means being close not exact.; Good estimates do not guarantee a successful project, however bad estimates virtually guarantee failure.", 
-        "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order58.png"
-      },
-      { 
         "order": 59, 
         "title": "Estimating Work Effort", 
-        "list1": "Important Points:; Provide a quantitative assessment of the number of work periods to complete an activity; Provide range of uncertainty when estimating an activity (2 weeks +/- 2 days); Document assumptions made to derive the estimates; Update the activity list with any further breakdowns as a result of the duration estimates",
-        "list2": "Additional Important Points:; Project scope and clear work breakdown structure are defined; Base quantities of deliverables and activities are identified and documented; Auditable and repeatable estimating process; Underlying project assumptions are well defined and documented; Uncertainties are understood, documented and incorporated; It passes the “reasonability” test for feasibility/sensibility; Agreement/buy-in from the team", 
-        "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order59.png"
+        "body" : "<p>Estimate the work effort: </p> <ul> <li>Follows WBS development approach of top-down or bottom-up</li> <li>Technique used may vary based upon several factors, including size, scope and complexity of the project</li> </ul> <br/> <img src=src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order58.png> <br/> <p>Important Points: </p> <ul> <li>Estimating is an integral part of Project Management.</li> <li>The objective is to generate quantifiable estimates, along with associated assumptions and risks, which represent the effort and cost for a set of activities needed to produce deliverables.</li> <li>Accurate estimates are critical to the success of a project. The best source of an estimate is to look at history. Remember, accuracy in estimating means being close not exact.</li> <li>Good estimates do not guarantee a successful project, however bad estimates virtually guarantee failure.</li> </ul>"
+      },
+      { 
+        "order": 60, 
+        "title": "Estimating Work Effort", 
+        "body": "<img src=src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order59.png> <br/> <ul> <li>Provide a quantitative assessment of the number of work periods to complete an activity</li> <li>Provide range of uncertainty when estimating an activity (2 weeks +/- 2 days)</li> <li>Document assumptions made to derive the estimates</li> <li>Update the activity list with any further breakdowns as a result of the duration estimates</li> </ul> <ul> <li>Project scope and clear work breakdown structure are defined </li> <li>Base quantities of deliverables and activities are identified and documented</li> <li>Auditable and repeatable estimating process</li> <li>Underlying project assumptions are well defined and documented</li> <li>Uncertainties are understood, documented and incorporated</li> <li>It passes the “reasonability” test for feasibility/sensibility</li> <li>Agreement/buy-in from the team</li> </ul>"
       },  
       {
-        "order": 60, 
+        "order": 61, 
         "title": "Estimate the Resources and Costs",
-        "list1": "Estimating resources and cost — experience, practice and guidance", 
-        "list2": "Project Managers seek guidance on estimating method to be used from the practice leaders", 
+        "list1": "Estimating resources and cost — experience, practice and guidance; Project Managers seek guidance on estimating method to be used from the practice leaders", 
         "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order60.png"
       },
       {
-        "order": 61, 
-        "title": "Assigning Resources and Delegation",
-        "body": "Assignment is the matchmaking of a resource to a task in a project plan", 
-        "subheader": "Assigning resources allows you to answer" , 
-        "list1": "Who should be working on what task and when?;Have you assigned so many tasks that a resource is beyond capacity?; Are you expecting a resource to work on a task when they are not available?; Assigning a resource to a task enables you to track the progress of the resource’s work on the task.",
-        "body1": "Delegation is deciding the right person accompanied with responsibility and accountability to deliver a work effort",
-        "subheader1": "Revisit your project plan when delegating tasks" ,  
-        "list2": "What is the activity all about?; What needs to be delivered?; When do you expect to start and complete?; Are there any dependencies to consider?; Who are your workstream members?; Delegating effectively empowers your team to gain control, hone their skills, and develop sense of autonomy."
-      },  
-      {
         "order": 62, 
-        "title": "Milestones defined",
-        "list1": "A milestone marks a point in time for which one or more of the following is true:; Marks the completion of a group of related activities or deliverables; Is where key decisions or key deliverables must be completed for the project to advance; Is generally on a critical path for the project’s completion; Can be tied to another project such that achievement of one of your project’s milestones may impact progress on other projects; Is agreed upon with the project team, key stakeholders and sponsors; Is meaningful when communicating the status of a project with the project team, key stakeholders and sponsors; Milestones establish a commitment between the project sponsor and project team", 
-        "list2": "Benefits of using Milestones:; Ease and simplify communication across the Project Sponsor, Project Team, and PMO; Create high-level visibility: Create high-level accountability; Ensure facilitated agreement at all levels; Ensure clear understanding of the milestone’s intent; Support metrics", 
-        "list3": "Defining Milestones; Milestones are most effective when all parties with a stake in the project are involved in their selection.; Review project objectives and schedule; Draft milestones with project team; Review and update milestones with project sponsor; Receive approval from project sponsor; Track and monitor milestones against project plan"
+        "title": "Assigning Resources and Delegation",
+        "body": "<p>Assignment is the matchmaking of a resource to a task in a project plan</p> <br/> <p>Assigning resources allows you to answer </p> <ul> <li>Who should be working on what task and when? </li> <li>;Have you assigned so many tasks that a resource is beyond capacity?</li> <li>; Are you expecting a resource to work on a task when they are not available?</li> <li>Assigning a resource to a task enables you to track the progress of the resource’s work on the task.</li> </ul> <br/> <p>Delegation is deciding the right person accompanied with responsibility and accountability to deliver a work effort</p> <p>Revisit your project plan when delegating tasks</p> <br/> <ul> <li>What is the activity all about?</li> <li>What needs to be delivered?</li> <li>When do you expect to start and complete?</li> <li>Are there any dependencies to consider?</li> <li>Who are your workstream members?</li> </ul> <p>Delegating effectively empowers your team to gain control, hone their skills, and develop sense of autonomy.</p>"
       },  
       {
         "order": 63, 
-        "title": "Critical Path Method",
-        "body": "Critical Path Method or CPM is used to build, calculate, and evaluate the plan’s activities and timing. The CPM is used to evaluate and optimize project plans.", 
-        "body1": "Critical Path is a series of tasks that will extend the project’s end date, if those tasks are delayed. These tasks have a single, pre-determined time estimate. It can also be explained as the longest-duration path through a network diagram and determines the shortest time to complete the project. ", 
-        "body2": "It is worth noting that there may be tasks with a Float/Stack value which allows for a task to be delayed from its expected start date, but without impact to the project’s finish date.",
-        "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order63.png"
-      },
+        "title": "Milestones defined",
+        "body": "<p>A milestone marks a point in time for which one or more of the following is true:</p> <ul> <li>Marks the completion of a group of related activities or deliverables</li> <li>Is where key decisions or key deliverables must be completed for the project to advance</li> <li>Is generally on a critical path for the project’s completion</li> <li>Can be tied to another project such that achievement of one of your project’s milestones may impact progress on other projects</li> <li>Is agreed upon with the project team, key stakeholders and sponsors</li> <li>Is meaningful when communicating the status of a project with the project team, key stakeholders and sponsors; Milestones establish a commitment between the project sponsor and project team</li> </ul> <p>Benefits of using Milestones: </p> <ul> <li>Ease and simplify communication across the Project Sponsor, Project Team, and PMO</li> <li>Create high-level visibility</li> <li>Create high-level accountability</li> <li>Ensure facilitated agreement at all levels</li> <li>Ensure clear understanding of the milestone’s intent</li> <li>Support metrics</li> </ul> <p>Defining Milestones</p> <ul> <li>Milestones are most effective when all parties with a stake in the project are involved in their selection.</li> <li>Review project objectives and schedule</li> <li>Draft milestones with project team</li> <li>Review and update milestones with project sponsor</li> <li>Receive approval from project sponsor</li> <li>Track and monitor milestones against project plan</li> </ul>"
+      },  
       {
         "order": 64, 
+        "title": "Critical Path Method",
+        "body": "<p>Critical Path Method or CPM is used to build, calculate, and evaluate the plan’s activities and timing. The CPM is used to evaluate and optimize project plans.</p> <p>Critical Path is a series of tasks that will extend the project’s end date, if those tasks are delayed. These tasks have a single, pre-determined time estimate. It can also be explained as the longest-duration path through a network diagram and determines the shortest time to complete the project.</p> <p>It is worth noting that there may be tasks with a Float/Stack value which allows for a task to be delayed from its expected start date, but without impact to the project’s finish date.</p> <img src=src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order63.png>"
+      },
+      {
+        "order": 65, 
         "title": "Critical Path Method: Sample",
         "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order64.png"
       },
       {
-        "order": 65, 
+        "order": 66, 
         "title": "Baseline and track the project plan",
         "list1": "Baseline a project to track the iterative changes and impacts to time, scope and cost; Baselines are a snapshot of the project attributes at a certain time; Project Management tools and applications can compare later changes to initial baseline conditions;  Differences between the baseline and later versions can help Project Managers adjust or recover the plan; Baseline tracking contributes to continuous improvement of project planning in the specific environment", 
         "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order65.png"
       },
       {
-        "order": 66, 
+        "order": 67, 
         "title": "The Project Plan is ready for a baseline when:",
         "list1": "The Project Manager has received all estimate and schedule inputs from team and has drafted the Project Plan and Schedule.; The Project Manager has met with the team, reviewed the plan and obtained buy-in for the plan.; The Project Manager has met and discussed the team’s proposed plan with executive leadership and receives approval or “sign off”.; The Project Manager has met with the PMO to review and obtain sign off on the plan.; All team, leadership and client changes are included in the plan."
       },  
       {
-        "order": 67, 
-        "title": "Creating a Project Plan",
-        "body": "A Project Plan is a documented plan critical to tracking progress and reporting status. It describes how the project will be executed, monitored, and controlled.", 
-        "body1": "This plan is a summary level document containing the results of planning. It serves as a complement to the Project Charter and represents a more detailed view of specific work streams and activities conducted during the project.",
-        "list1": "Columns Defined:; Workstream - The name of the group for which specific developed and assigned.; Activity - A brief note about work to be performed.; Dependency - A relationship in which a task is connected or reliant on another task for execution or completion.; Deliverable/Milestone - The finished work product resulting from a process (deliverable); or a significant point, occurrence or outcome in the project (milestone).; Status – Following the RAG principle for the 3 main status",
-        "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order67.png"
-      },
-      {
         "order": 68, 
         "title": "Creating a Project Plan",
-        "body":"Individual supporting plans or work products are created to supplement the overall Project Plan baseline. Each supporting plan is created to document baseline data and/or changes and updates for reference.",
-        "list1": "Communications Management Plan - component of the project management plan that describes how project communications will be planned, structured, monitored, and controlled; Stakeholder Engagement Plan - component of the project management plan and identifies the management strategies required to effectively engage stakeholders. The stakeholder management plan can be formal or informal, highly detailed or broadly framed, based on the needs of the project; Scope Management Plan - describes how the project scope will be planned, structured, and controlled; Change Control Plan - sets expectations on how the approach to changes will be managed, what defines a change, the purpose and role of the change control board, and the overall change management process; Risk Management Plan - component of the project management plan and describes how risk management activities will be structured and performed; Schedule Management Plan - establishes the criteria and the activities for developing, monitoring, and controlling the schedule ", 
-        "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order68.png"
+        "body": "<p>A Project Plan is a documented plan critical to tracking progress and reporting status. It describes how the project will be executed, monitored, and controlled.</p> <p>This plan is a summary level document containing the results of planning. It serves as a complement to the Project Charter and represents a more detailed view of specific work streams and activities conducted during the project.</p> <img src=src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order67.png> <br/> <ul> <li>Columns Defined: </li> <li>Workstream - The name of the group for which specific developed and assigned.</li> <li>Activity - A brief note about work to be performed.</li> <li>Dependency - A relationship in which a task is connected or reliant on another task for execution or completion.</li> <li>Deliverable/Milestone - The finished work product resulting from a process (deliverable); or a significant point, occurrence or outcome in the project (milestone).</li> <li>Status – Following the RAG principle for the 3 main status</li> </ul>"
       },
       {
         "order": 69, 
+        "title": "Creating a Project Plan",
+        "body": "<img src=src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order68.png> <p>Individual supporting plans or work products are created to supplement the overall Project Plan baseline. Each supporting plan is created to document baseline data and/or changes and updates for reference.</p> <br/> <p>Communications Management Plan</p> <ul> <li>component of the project management plan that describes how project communications will be planned, structured, monitored, and controlled</li> </ul> <p>Stakeholder Engagement Plan</p> <ul> <li>component of the project management plan and identifies the management strategies required to effectively engage stakeholders. The stakeholder management plan can be formal or informal, highly detailed or broadly framed, based on the needs of the project</li> </ul> <p>Scope Management Plan</p> <ul> <li>describes how the project scope will be planned, structured, and controlled</li> </ul> <p>Change Control Plan</p> <ul> <li>sets expectations on how the approach to changes will be managed, what defines a change, the purpose and role of the change control board, and the overall change management process</li> </ul> <p>Risk Management Plan</p> <ul> <li>component of the project management plan and describes how risk management activities will be structured and performed</li> </ul> <p>Schedule Management Plan</p> <ul> <li>establishes the criteria and the activities for developing, monitoring, and controlling the schedule</li> </ul>"
+      },
+      {
+        "order": 70, 
         "title": "Summary Project Plan",
         "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order69.png"
       },
       {
-        "order": 70, 
+        "order": 71, 
         "title": "Project Planning Phase: Summary",
-        "image": "src/assets/img/project_managemen/Project Fundamentals/PMFIDS_PM_PFTT_order43_1.jpg", 
-        "subheader": "PURPOSE", 
-        "list1": "Establish the scope of the project, refine the objectives, and define the module of action required to attain the objectives that the project is undertaken to achieve", 
-        "image1": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order43_2.jpg",
-        "subheader1" :"KEY ACTIVITIES", 
-        "list2": "Work Breakdown Structure; Project Roadmaps and Milestones; Project Risks, Issues, Dependencies", 
-        "image2": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order43_3.jpg",
-        "subheader2": "KEY OUTPUTS",
-        "list3": "Project Plan; Stakeholder Register"
+        "body": "<img src=src/assets/img/project_managemen/Project Fundamentals/PMFIDS_PM_PFTT_order43_1.jpg> <h2>PURPOSE</h2> <ul> <li>Establish the scope of the project, refine the objectives, and define the module of action required to attain the objectives that the project is undertaken to achieve</li> </ul> <br/> <img src=src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order43_2.jpg> <h2>KEY ACTIVITIES</h2> <ul> <li>Work Breakdown Structure </li> <li>Project Roadmaps and Milestones</li> <li>Project Risks, Issues, Dependencies</li> </ul> <br/> <img src=src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order43_3.jpg> <h2>KEY OUTPUTS</h2> <ul> <li>Project Plan</li> <li>Stakeholder Register</li> </ul>"
       },
       {
-        "order": 71, 
+        "order": 72, 
         "title": "The Project Lifecycle",
         "subheader": "Phase 3: Execution",
         "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order71.png"
       },
       {
-        "order": 72, 
-        "title": "The Execution Phase",
-        "body": "The Execute, and the Monitor and Control phases focus on task delivery and project oversight. These two phases are nearly always simultaneous, but each has a distinct purpose and objective. Monitor and Control provides oversight of the Plan, the Execute and the Close phases.",
-        "subheader": "Execute",
-        "body1": "The Execute phase consists of those processes that are performed to complete the work defined in the Project Management plan to satisfy the project specifications. This process involves coordinating with people and resources, managing stakeholder expectations, as well as integrating and performing the activities of the project in accordance with the Project Management plan.",
-        "subheader1": "Monitor and Control",
-        "body2": "The Monitor and Control phase consists of those processes required to track, review and orchestrate the progress and performance of the project; identify any areas in which changes to the plan are required and initiate the corresponding changes.",
-        "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order72.png"
-      },
-      {
         "order": 73, 
-        "title": "Leading the work",
-        "body": "“Successful Project Managers are managers who practice both strong management skills and effective leadership skills.” Reference: Kumar, Victoria (2009). PMI Global Congress 2009.",
-        "body1": "This assertion is especially important during the execution of the project work", 
-        "list1": "Project Managers must lead the team by:; Motivating and Inspiring - Project leaders will constantly be encouraging and prompting their people to do the best work possible and acknowledge those that produce both in public and private.; Team Building - Project leaders are deliberately looking for opportunities to help team members work with each other to achieve their collective goals. On larger projects, project leadership fosters the process and mechanisms to enable sub-team leads to do the same.; Negotiating and communicating - Project leaders' model desired and exemplary communication skills. This includes creating a healthy environment where open and honest communications carry throughout the team and stakeholders.; Listening and influencing - Project leaders must listen to their team members’ ideas and concerns — and then acknowledge and show consideration for their contribution to the discussion. This happens before the leader issues an opinion or decision."
-      },    
+        "title": "The Execution Phase",
+        "body": "<p>The Execute, and the Monitor and Control phases focus on task delivery and project oversight. These two phases are nearly always simultaneous, but each has a distinct purpose and objective. Monitor and Control provides oversight of the Plan, the Execute and the Close phases.</p> <br/> <img src=src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order72.png> <br/> <h2>Execute</h2> <p>The Execute phase consists of those processes that are performed to complete the work defined in the Project Management plan to satisfy the project specifications. This process involves coordinating with people and resources, managing stakeholder expectations, as well as integrating and performing the activities of the project in accordance with the Project Management plan.</p> <h2>Monitor and Control</h2> <p>The Monitor and Control phase consists of those processes required to track, review and orchestrate the progress and performance of the project; identify any areas in which changes to the plan are required and initiate the corresponding changes.</p>"
+      },
       {
         "order": 74, 
+        "title": "Leading the work",
+        "body": "<p>“Successful Project Managers are managers who practice both strong management skills and effective leadership skills.” Reference: Kumar, Victoria (2009). PMI Global Congress 2009.</p> <p>This assertion is especially important during the execution of the project work</p> <p>Project Managers must lead the team by:</p> <p>Motivating and Inspiring</p> <ul> <li>Project leaders will constantly be encouraging and prompting their people to do the best work possible and acknowledge those that produce both in public and private.</li> </ul> <p>Team Building</p> <ul> <li>Project leaders are deliberately looking for opportunities to help team members work with each other to achieve their collective goals. On larger projects, project leadership fosters the process and mechanisms to enable sub-team leads to do the same.</li> </ul> <p>Negotiating and communicating</p> <ul> <li>Project leaders' model desired and exemplary communication skills. This includes creating a healthy environment where open and honest communications carry throughout the team and stakeholders.</li> </ul> <p>Listening and influencing</p> <ul> <li>Project leaders must listen to their team members’ ideas and concerns — and then acknowledge and show consideration for their contribution to the discussion. This happens before the leader issues an opinion or decision.</li> </ul>"
+      },    
+      {
+        "order": 75, 
         "title": "Project execution",
         "body": "Since changes will happen during project execution. Project Managers must manage the delivery of the work while leading the team and stakeholders through changes to the project triangle.",
-        "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order74.png",
+        "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order74.png"
       },
       {
-        "order": 75,
+        "order": 76,
         "title": "Knowledge Check 11",
         "body": "Which of the following options best describes the Execute phase of a project?",
         "q_field_type": "single_select" ,
@@ -617,152 +498,102 @@
         "q_answer": "D"
       },
       {
-        "order": 76, 
+        "order": 77, 
         "title": "Key Differences Between Waterfall and Agile Project Management",
         "body": "PMOs that are experimenting with Agile often find that a Hybrid approach can be most effective to accelerate traditional Waterfall projects while Agile principles are becoming fully understood and implemented.",
         "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order76.png"
       },
       {
-        "order": 77, 
+        "order": 78, 
         "title": "Role of the PMO",
         "body": "The Project Management Office (PMO) is the control room for managing project control processes for large projects or programs.",
         "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order77.png"
       },
       {
-        "order": 78, 
+        "order": 79, 
         "title": "Project Execution Phase: Summary",
-        "image": "src/assets/img/project_managemen/Project Fundamentals/PMFIDS_PM_PFTT_order43_1.jpg", 
-        "subheader": "PURPOSE", 
-        "list1": "Deliver the work defined in the project management plan to satisfy the project specifications", 
-        "image1": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order43_2.jpg",
-        "subheader1" :"KEY ACTIVITIES", 
-        "list2": "Setting people up to perform according to the approved work plan; Managing stakeholder expectations", 
-        "image2": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order43_3.jpg",
-        "subheader2": "KEY OUTPUTS",
-        "list3": "Issue/Risk Register; Risk Management Plan"
+        "body": "<img src=src/assets/img/project_managemen/Project Fundamentals/PMFIDS_PM_PFTT_order43_1.jpg> <h2>PURPOSE</h2> <ul> <li>Deliver the work defined in the project management plan to satisfy the project specifications</li> </ul> <br/> <img src=src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order43_2.jpg> <h2>KEY ACTIVITIES</h2> <ul> <li>Setting people up to perform according to the approved work plan</li> <li>Managing stakeholder expectations</li> </ul> <br/> <img src=src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order43_3.jpg> <h2>KEY OUTPUTS</h2> <ul> <li>Issue/Risk Register</li> <li>Risk Management Plan </li> </ul>"
       }, 
       {
-        "order": 79, 
+        "order": 80, 
         "title": "The Project Lifecycle",
         "subheader": "Phase 4: Monitoring & Control", 
         "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order79.png"
       },
       {
-        "order": 80, 
+        "order": 81, 
         "title": "Monitoring and Control Phase",
-        "list1": "The Monitor and Control phase consists of:; Processes required to track, review and orchestrate the progress and performance of the project; Identify any areas in which changes to the plan are required; Initiate the corresponding changes", 
-        "body": "Aim of the Phase: Provide critical visibility and insight to project against plan and initiate corrective action as needed.",
-        "subheader": "KEY BENEFITS",
-        "list2": "Project performance is measured and analyzed at regular intervals, appropriate events; Able to identify variances from the project management plan.",
-        "subheader1": "KEY ACTIVITIES",
-        "list3": "Control changes and recommend actions (preventive or corrective); Monitor ongoing activities and gauge against project performance measures.; Maintain project change control processes."
+        "body": "<p>The Monitor and Control phase consists of:</p> <ul> <li>Processes required to track, review and orchestrate the progress and performance of the project</li> <li>Identify any areas in which changes to the plan are required</li> <li>Initiate the corresponding changes</li> </ul> <p>Aim of the Phase: Provide critical visibility and insight to project against plan and initiate corrective action as needed.</p> <br/> <h2>KEY BENEFITS</h2> <ul> <li>Project performance is measured and analyzed at regular intervals, appropriate events</li> <li>Able to identify variances from the project management plan.</li> </ul> <h2>KEY ACTIVITIES</h2> <ul> <li>Control changes and recommend actions (preventive or corrective)</li> <li>Monitor ongoing activities and gauge against project performance measures.</li> <li>Maintain project change control processes.</li> </ul>"
       },  
       {
-        "order": 81, 
+        "order": 82, 
         "title": "Monitoring and controlling projects using stakeholder management and governance",
-        "subheader": "Effective Governance Program:",
-        "list1": "Structure and roles; Key roles, e.g. sponsor; Forums, e.g., steering committee",
-        "list2": "Control processes; Risk and issue management; Budget management; Schedule and dependency control; Change control; Resource and vendor management; Quality assurance",
-        "list3": "Performance dashboard; Project progress and status reporting; Phase gate and milestone reporting; Benefits and outcomes tracking"
+        "body": "<p>Effective Governance Program:</p> <br/> <h2>Structure and roles</h2> <ul> <li>Key roles, e.g. sponsor</li> <li>Forums, e.g., steering committee</li> </ul> <h2>Control processes</h2> <ul> <li>Risk and issue management</li> <li>Budget management</li> <li>Schedule and dependency control</li> <li>Change control</li> <li>Resource and vendor management</li> <li>Quality assurance</li> </ul> <h2>Performance dashboard</h2> <ul> <li>Project progress and status reporting</li> <li>Phase gate and milestone reporting</li> <li>Benefits and outcomes tracking</li> </ul>"
       },
       {
-        "order": 82, 
+        "order": 83, 
         "title": "Monitoring and controlling projects when events change plans",
         "body": "When the plan gets challenged, you need to return to the key project questions drilled out from the Initiate and Plan and captured in the associated artifacts.", 
         "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order82.png"
       },
       {
-        "order": 83, 
+        "order": 84, 
         "title": "Monitoring and Control Phase",
         "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order83.png"
-      },
-      {
-        "order": 84, 
-        "title": "Stakeholder management: who are the stakeholders?",
-        "body": "Stakeholders are a range of people who have a vested interest in the project’s progress and success.", 
-        "list1": "Benefit or are impacted directly or indirectly from the change or project outcomes; Behavior’s may need to change; Influence the people involved in the project; Control resources and commodities needed to carry out the project tasks and activities; Heavily influence others who are affected by the project’s outcomes"
       },
       {
         "order": 85, 
         "title": "Stakeholder management: who are the stakeholders?",
         "body": "Stakeholders are a range of people who have a vested interest in the project’s progress and success.", 
-        "list1": "Sponsor - Owns the project, accountable for its delivery.; Project Manager - Responsible for successful delivery.; Functional Leads - Making investments in time/money.; Key Stakeholders - Clients, beneficiaries and/or impacted parties.; Project Team -Job satisfaction and reputations depend on it.; Other PMs - May share dependencies and resources."
+        "list1": "Benefit or are impacted directly or indirectly from the change or project outcomes; Behavior’s may need to change; Influence the people involved in the project; Control resources and commodities needed to carry out the project tasks and activities; Heavily influence others who are affected by the project’s outcomes"
       },
       {
         "order": 86, 
+        "title": "Stakeholder management: who are the stakeholders?",
+        "body": "Stakeholders are a range of people who have a vested interest in the project’s progress and success.", 
+        "list1": "Sponsor - Owns the project, accountable for its delivery.; Project Manager - Responsible for successful delivery.; Functional Leads - Making investments in time/money.; Key Stakeholders - Clients, beneficiaries and/or impacted parties.; Project Team -Job satisfaction and reputations depend on it.; Other PMs - May share dependencies and resources."
+      },
+      {
+        "order": 87, 
         "title": "Importance of effective Stakeholder Management",
         "body": "When effectively employed, stakeholder management is critical to a project’s success.", 
         "list1": "Achievement of strategic objectives through positive relationships with stakeholders; Proactive management of expectations through a defined process; Consistent communications use and information dissemination using a common language; Effective Change Management activities using a formalized process and discipline"
       },  
       {
-        "order": 87, 
+        "order": 88, 
         "title": "Stakeholder management and the Project Manager",
         "body": "Apply a structured approach to understanding what information each stakeholder needs and how best to communicate it to them.", 
-        "subheader": "Identify stakeholders", 
-        "list1": "Identify all key people or groups impacted by the project; Analyze their interest, influence and impact on the project",
-        "subheader1": "Plan communications",
-        "list2": "Determine the stakeholder information needs and define and plan communications approach",
-        "subheader2": "Distribute and communicate information", 
-        "list3": "Make relevant information available to project stakeholders as planned, using methods/media that are fit-for-purpose",
-        "subheader3": "Manage stakeholder expectations", 
-        "list4": "Communicate and work with stakeholders to meet their priority needs and address issues/concerns as they occur",
-        "subheader4": "Communicate performance", 
-        "list5": "Collect and communicate performance information, including status reports, progress measurement and forecasts"
+        "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order87.png"
       },
       {
-        "order": 88, 
+        "order": 89, 
         "title": "Stakeholder Management",
-        "body": "It is important to communicate and work well with your stakeholders’ needs and expectations and address issues as they occur. When effectively employed, stakeholder management is critical to a project’s success.", 
-        "subheader": "Key points to remember:",
-        "body1": "Know WHO your stakeholders are",
-        "list1": "Stakeholders both internal and external can help achieve project objectives; What to do: Aim to create a positive relationship with them",
-        "body2": "Know WHEN and WHERE to discuss project issues and concerns with  your stakeholders",
-        "list2": "Keeping stakeholders engaged and informed can reduce uncertainties and promote supportive relationship; What to do: Establish checkpoints or cadences with different level of stakeholders (e.g. weekly or monthly cadences)",
-        "body3": "Know HOW to communicate your items",
-        "list3": "Leveling out understanding among stakeholders can help establish better appreciation of items being raised; What to do: Use a common language and standardized terminology when reporting"
+        "body": "<p>It is important to communicate and work well with your stakeholders’ needs and expectations and address issues as they occur. When effectively employed, stakeholder management is critical to a project’s success.</p> <br/> <p>Key points to remember:</p> <p>Know WHO your stakeholders are</p> <ul> <li>Stakeholders both internal and external can help achieve project objectives</li> <li>What to do: Aim to create a positive relationship with them</li> </ul> <p>Know WHEN and WHERE to discuss project issues and concerns with  your stakeholders</p> <ul> <li>Keeping stakeholders engaged and informed can reduce uncertainties and promote supportive relationship</li> <li>What to do: Establish checkpoints or cadences with different level of stakeholders (e.g. weekly or monthly cadences)</li> </ul> <p>Know HOW to communicate your items</p> <ul> <li>Leveling out understanding among stakeholders can help establish better appreciation of items being raised</li> <li>What to do: Use a common language and standardized terminology when reporting</li> </ul>"
       },
       {
-        "order": 89,
+        "order": 90,
         "title": "Determining the stakeholders’ role",
-        "body": "The RACI Matrix is a simple charting tool used to define responsibility for each task within a project. It ensures that each task is assigned to the appropriate person or department to align responsibilities and set clear expectations.", 
-        "body1": "RACI is an acronym with each letter representing a different role to perform.", 
-        "subheader": "Responsible", 
-        "body2": "DOER", 
-        "list1": "The responsible employee physically does the work.; Who is assigned to work on this task?​​", 
-        "subheader1": "Accountable", 
-        "body3": "OWNER",
-        "list2": "The accountable employee oversees the work and is ultimately answerable for the activity or decision.; Who has the authority to sign off the work?​", 
-        "subheader2":"Consulted", 
-        "body4": "IN THE LOOP",
-        "list3": "The consulted employee offers advice or feedback to improve the work.​; Who can tell me more about this task?​", 
-        "subheader3": "Informed", 
-        "body5": "IN THE PICTURE", 
-        "list4": "The informed party does not take part in the work but should be notified of the results.; Who must be kept updated about the progress?​​"
-       },
+        "body":"<p>The RACI Matrix is a simple charting tool used to define responsibility for each task within a project. It ensures that each task is assigned to the appropriate person or department to align responsibilities and set clear expectations. </p> <p>RACI is an acronym with each letter representing a different role to perform. </p> <br/> <h2>Responsible</h2> <p>DOER</p> <ul> <li>The responsible employee physically does the work. </li> <li>Who is assigned to work on this task?​​</li> </ul> <h2>Accountable</h2> <p>OWNER</p> <ul> <li>The accountable employee oversees the work and is ultimately answerable for the activity or decision. </li> <li>Who has the authority to sign off the work?</li> </ul> <h2>Consulted</h2> <p>IN THE LOOP</p> <ul> <li>The consulted employee offers advice or feedback to improve the work.​ </li> <li>Who can tell me more about this task?​</li> </ul> <h2>Informed</h2> <p>IN THE PICTURE</p> <ul> <li>The informed party does not take part in the work but should be notified of the results. </li> <li>Who must be kept updated about the progress?​​</li> </ul>"
+      },
       {
-        "order": 90, 
+        "order": 91, 
         "title": "The project manager and governance",
         "body": "Planning effective governance structure and practices sets up the project for success.", 
         "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order90.png"
       },
       {
-        "order": 91, 
+        "order": 92, 
         "title": "Risks, Assumptions, Issues, and Dependencies",
-        "body": "The RAID matrix allows the project team to document, proactively account for, and address items interrelated with the project.",
-        "body1": "The staff on a project is often responsible for identifying the risks and helping to complete the RAID tool.", 
-        "list1": "Risks; A risk is defined as a future threat to the overall success of a project or a contingent part; Every risk has an associated likelihood, and therefore, severity rating; Risks must be mitigated or accepted", 
-        "list2": "Assumptions; An assumption is a statement accepted as fact; Assumptions must be validated", 
-        "list3": "Issues; An issue is an immediate formally defined concern that requires action; It impedes the progress of a Workstream or the Program and about which no agreement to resolve has been reached", 
-        "list4": "Dependencies; Dependencies are relationships between products or tasks; For example, one product may be made up of several other “dependent” products or a task may not begin until a “dependent” task is complete"
+        "body": "<p>The RAID matrix allows the project team to document, proactively account for, and address items interrelated with the project.</p> <p>The staff on a project is often responsible for identifying the risks and helping to complete the RAID tool.</p> <br/> <h2>Risks</h2> <ul> <li>A risk is defined as a future threat to the overall success of a project or a contingent part</li> <li>Every risk has an associated likelihood, and therefore, severity rating</li> <li>Risks must be mitigated or accepted</li> </ul> <h2>Assumptions</h2> <ul> <li>An assumption is a statement accepted as fact</li> <li>Assumptions must be validated</li> </ul> <h2>Issues</h2> <ul> <li>An issue is an immediate formally defined concern that requires action</li> <li>It impedes the progress of a Workstream or the Program and about which no agreement to resolve has been reached</li> </ul> <h2>Dependencies</h2> <ul> <li>Dependencies are relationships between products or tasks</li> <li>For example, one product may be made up of several other “dependent” products or a task may not begin until a “dependent” task is complete</li> </ul>"
       },
       {
-        "order": 92, 
+        "order": 93, 
         "title": "RAID Summary",
         "body": "Unlike risks and issues, assumptions and dependencies in the RAID log are documented instances where the project has determined that there is an assumption or dependency which exists, so that in the process of resolving issues or mitigating risks, these factors are not missed — and can be incorporated into the solution.", 
         "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order92.png"
       },
       {
-        "order": 93, 
+        "order": 94, 
         "title": "Your Response to Risks identified",
         "body": "As we assess the risk, we should also consider balancing cost, time, and scope of the project.", 
         "list1": "ACCEPT - It might not always be cost-effective to avoid, transfer, or mitigate all risks, at some point a certain level of risk must be accepted.; AVOID - Risk avoidance is the simplest response strategy – basically this involves just not going forward with the activity that posed the risk.; TRANSFER - Risk transfer strategies seek to pass the risk off to a third party.; MITIGATE - Risk mitigation involves trying to reduce an existing risk.", 
@@ -770,34 +601,29 @@
         "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order93.png"
       },
       {
-        "order": 94, 
+        "order": 95, 
         "title": "Issue Management",
-        "body": "<p>This issue lifecycle is straightforward. The process helps the project team to understand what to do with issues once identified. The Project Manager should ensure that the project team has the required skills to facilitate the movement of an issue throughout the process.</p><img src= src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order94.png/><p>Project Managers should be able to answer the following questions regarding issue control:</p><ul><li>Who will be assigned for resolving the issue?</li><li>How will the team know when to escalate an issue to management or the steering committee?</li><li>Consider creating a matrix of potential business impact versus issue complexity to help decide which issues should be taken to higher levels of management.</li><li>Which criteria will determine an issue's priority status?</li><li>Who will set the target resolution date?; How will issues be communicated within the team?</li></ul>",
-        "list1": "Project Managers should be able to answer the following questions regarding issue control:; Who will be assigned for resolving the issue?; How will the team know when to escalate an issue to management or the steering committee? Consider creating a matrix of potential business impact versus issue complexity to help decide which issues should be taken to higher levels of management.; Which criteria will determine an issue's priority status?; Who will set the target resolution date?; How will issues be communicated within the team?", 
-        "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order94.png"
+        "body": "<p>This issue lifecycle is straightforward. The process helps the project team to understand what to do with issues once identified. The Project Manager should ensure that the project team has the required skills to facilitate the movement of an issue throughout the process.</p><img src= src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order94.png/><p>Project Managers should be able to answer the following questions regarding issue control:</p><ul><li>Who will be assigned for resolving the issue?</li><li>How will the team know when to escalate an issue to management or the steering committee?</li><li>Consider creating a matrix of potential business impact versus issue complexity to help decide which issues should be taken to higher levels of management.</li><li>Which criteria will determine an issue's priority status?</li><li>Who will set the target resolution date?; How will issues be communicated within the team?</li></ul>"
       },
       {
-        "order": 95, 
+        "order": 96, 
         "title": "Sample RAID Log",
         "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order95.png"
       },
       {
-        "order": 96, 
+        "order": 97, 
         "title": "Project Status Report",
         "body": "Status Report is a summary of an ongoing project performance information for a specific period of time. It is regularly updated and presented to key stakeholders and sponsor all throughout the execution of a project.", 
         "list1": "Follow the RAG Status Guidance and use the color indicators below to determine the status of a Milestone or Budget (Planned vs Actual):; COMPLETED - Fully achieved; DELAYED - Project not on track, has significant challenges and/or issues that can impact overall success of an expected outcome; AT RISK - Project on track, has significant challenges and/or issues that can impact overall success of an expected outcome; ON TRACK - Project on track, no significant challenges and/or issues that can impact overall success of an expected outcome", 
         "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order96.png"
       },
       {
-        "order": 97, 
+        "order": 98, 
         "title": "Project Status Report",
-        "body": "Timeline, Cost, and Scope changes typically happen during Execution. A Project Manager must be prepared to manage the delivery of the work while leading the team through the process of adjusting the work plan and resetting expectations as the work develops.", 
-        "body1": "A Project Manager should also continuously refresh and affirm many of the tasks, inputs and outputs in all of the phases from Initiate through Monitor and Control. ", 
-        "body2": "Some of the foundational documents will need updating throughout the project, and sometimes a formal Change Request is needed.",
-        "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order74.png"
+        "body": "<p>Timeline, Cost, and Scope changes typically happen during Execution. A Project Manager must be prepared to manage the delivery of the work while leading the team through the process of adjusting the work plan and resetting expectations as the work develops.</p> <p>A Project Manager should also continuously refresh and affirm many of the tasks, inputs and outputs in all of the phases from Initiate through Monitor and Control. </p> <p>Some of the foundational documents will need updating throughout the project, and sometimes a formal Change Request is needed.</p> <br/> <img src= src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order74.png>"
       },
       {
-        "order": 98,
+        "order": 99,
         "title": "Knowledge Check 12",
         "body": "What is the significance of a status report?",
         "q_field_type": "single_select" ,
@@ -810,63 +636,47 @@
         "q_answer": "B"
       },  
       {
-        "order": 99,
+        "order": 100,
         "title": "Project Monitoring & Control Phase: Summary",
-        "subheader": "PURPOSE", 
-        "image": "src/assets/img/project_managemen/Project Fundamentals/PMFIDS_PM_PFTT_order43_1.jpg",
-        "body": "Track, review, and regulate the progress and performance of the project; identify any areas in which changes to the plan are required; and initiate the corresponding changes", 
-        "subheader1":"KEY ACTIVITIES", 
-        "image1": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order43_2.jpg",
-        "list1": "Identifying Risks, Assumptions, Issues, and Dependencies; Recommending and controlling changes that are corrective and preventive in nature", 
-        "subheader2": "KEY OUTPUTS", 
-        "list2": "Risk Register; Status Report", 
-        "image2": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order43_3.jpg"
+        "body":"<img src=src/assets/img/project_managemen/Project Fundamentals/PMFIDS_PM_PFTT_order43_1.jpg> <h2>PURPOSE</h2> <ul> <li>Track, review, and regulate the progress and performance of the project; identify any areas in which changes to the plan are required; and initiate the corresponding changes</li> </ul> <br/> <img src=src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order43_2.jpg> <h2>KEY ACTIVITIES</h2> <ul> <li>Identifying Risks, Assumptions, Issues, and Dependencies</li> <li>Recommending and controlling changes that are corrective and preventive in nature</li> </ul> <br/> <img src=src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order43_3.jpg> <h2>KEY OUTPUTS</h2> <ul> <li>Risk Register</li> <li>Status Report</li> </ul>"
       },  
       {
-        "order": 100,
+        "order": 101,
         "title": "The Project Lifecycle", 	
         "subheader": "Phase 5: Closing", 
         "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order100.png"
       },
       {
-        "order": 101,
-        "title": "Closing Phase", 	
-        "body": "Closing the project consists of those processes performed to conclude all activities and formally complete the project, phase, or contractual obligations.", 
-        "dody1": "This activity, when completed, verifies that the defined processes are completed within to close the project or a project phase, as appropriate, and formally establishes that the project or project phase is complete.​", 
-        "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order101.png"
-      },
-      {
         "order": 102,
         "title": "Closing Phase", 	
-        "list1": "IMPORTANT OUTPUT:; Accepted deliverables; Supplier contract close document; Corrective actions; Team performance assessments; Documented lessons learned; Team resources released; Project close report", 
-        "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order102.png"
+        "body": "<p>Closing the project consists of those processes performed to conclude all activities and formally complete the project, phase, or contractual obligations. </p> <p>This activity, when completed, verifies that the defined processes are completed within to close the project or a project phase, as appropriate, and formally establishes that the project or project phase is complete.​</p> <br/> <img src=src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order101.png>"
       },
       {
         "order": 103,
-        "title": "Project team debrief and lessons learned", 	
-        "body": "Ways through which Project Managers facilitate the gathering and documentation of intellectual property", 
-        "list1": "Conducting the final project team debrief meeting; Conducting a project close meeting with sponsor; Documenting and validating project outcomes against the project objectives", 
-        "list2": "Elements of a good project team debrief include:;Input from all teams (including client members, if appropriate); Clear expectations of transparency; Discussion addresses mobilization, communications, planning, quality, resourcing and teaming; Team members are prepared to share observations of lessons learned",
-        "list3": "Capturing lessons learned:;What worked well and why?; What did not work well and why?; How could the team do better next time?"
+        "title": "Closing Phase", 	
+        "body": "<img src=src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order102.png> <p>IMPORTANT OUTPUT</p> <ul> <li>Accepted deliverables</li> <li>Supplier contract close document</li> <li>Corrective actions</li> <li>Team performance assessments</li> <li>Documented lessons learned</li> <li>Team resources released</li> <li>Project close report</li> </ul> <p>Additional BG Voice: The key activities of the Close phase include:</p> <ul> <li>Confirming project outcomes have been achieved</li> <li>Conducting a project close meeting</li> <li>Conducting a team debrief</li> <li>Releasing project resources</li> <li>Performing the administrative close</li> <li>Conducting knowledge management activity</li> </ul> <p>Ultimately, the key outputs from the Close phase result in the end of the project. Before that can happen, though, the Project Manager must assure that the final outputs are complete, as necessary. These are:</p> <ul> <li>Accepted Deliverables</li> <li>Corrective Actions</li> <li>Documented Lessons Learned</li> <li>Project Close Document</li> <li>Supplier Contract Close Document</li> <li>Team Performance Assessments</li> <li>Team Resources Released</li> </ul>"
       },
       {
         "order": 104,
-        "title": "Project Close Report", 	
-        "body": "Summarizes the overall performance of a project against objectives, deliverables, and milestones. Includes a simplified view of any remaining outstanding issues and variance analysis in project scope, time, and cost.", 
-        "list1": "Executive Summary – Provides a brief overview of the project, its objectives, and high-level outcomes; Project Objectives – Be specific about any deviations from the original objectives.; Scope – highlight any scope creep or changes in the project; Deliverables – we can group them into milestones and highlight specific challenges; Successes – discuss any notable milestones and accomplishments; Challenges – discuss here how these challenges were addressed; Lessons learned – Explain and discuss how these lessons can be applied to future projects; Risk Management – also mention if they materialized or not; Quality and performance – you may explain here the project’s quality control process; Recommendations – this is an opportunity to discuss future pursuits or projects", 
-        "body1": "The Project Manager presents the final report to the client project sponsor and other key stakeholders and must obtain an approval to close the project.", 
-        "body2": "If there are outstanding issues preventing the sponsor from approving the close, the Project Manager and sponsor should create an action plan with a planned completion date."
+        "title": "Project team debrief and lessons learned", 	
+        "body": "<p>Ways through which Project Managers facilitate the gathering and documentation of intellectual property</p> <ul> <li>Conducting the final project team debrief meeting</li> <li>Conducting a project close meeting with sponsor</li> <li>Documenting and validating project outcomes against the project objectives</li> </ul> <p>Elements of a good project team debrief include:</p> <ul> <li>Input from all teams (including client members, if appropriate)</li> <li>Clear expectations of transparency</li> <li>Discussion addresses mobilization, communications, planning, quality, resourcing and teaming</li> <li>Team members are prepared to share observations of lessons learned</li> </ul> <p>Capturing lessons learned</p> <ul> <li>What worked well and why?</li> <li>What did not work well and why?</li> <li>How could the team do better next time?</li> </ul>"
       },
       {
         "order": 105,
+        "title": "Project Close Report", 	
+        "body": "<p>Summarizes the overall performance of a project against objectives, deliverables, and milestones. Includes a simplified view of any remaining outstanding issues and variance analysis in project scope, time, and cost.</p> <ul> <li>Executive Summary – Provides a brief overview of the project, its objectives, and high-level outcomes</li> <li>Project Objectives – Be specific about any deviations from the original objectives.</li> <li>Scope – highlight any scope creep or changes in the project</li> <li>Deliverables – we can group them into milestones and highlight specific challenges</li> <li>Successes – discuss any notable milestones and accomplishments</li> <li>Challenges – discuss here how these challenges were addressed</li> <li>Lessons learned – Explain and discuss how these lessons can be applied to future projects</li> <li>Risk Management – also mention if they materialized or not</li> <li>Quality and performance – you may explain here the project’s quality control process</li> <li>Recommendations – this is an opportunity to discuss future pursuits or projects</li> </ul> <p>The Project Manager presents the final report to the client project sponsor and other key stakeholders and must obtain an approval to close the project. </p> <p>If there are outstanding issues preventing the sponsor from approving the close, the Project Manager and sponsor should create an action plan with a planned completion date.</p>"
+      },
+      {
+        "order": 106,
         "title": "Learning Summary",
         "subheader": "Congratulations on completing this module!",
         "list1": "Now that you have completed this lesson, you should be able to: What is project lifecycle; Different phases of project lifecycle and its components; Manage end-to-end project cycle from initiation to closing, as well as in performing the execution of the project and continuous monitoring and control of the project."
       },
       {
-        "order": 106,
-        "title": "Finish",
-        "subheader": "Download Certificate"
+        "order": 107,
+        "title": "Module Completion",
+        "subheader": "Download Certificate", 
+        "body": "You can refer to the course during the assessment. To do so, re-open the course before starting the assessment."
       }],
     "exams": [{
       "exam_id": 1,
@@ -1597,8 +1407,6 @@
       {
         "order": 81,
         "title": "Exam",
-        "body": "",
-        "image": "",
         "exams": [{
         "exam_id": 1,
             "title": "Course Examination",
