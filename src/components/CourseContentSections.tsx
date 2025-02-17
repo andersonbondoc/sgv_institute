@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { IonCard, IonIcon } from "@ionic/react";
-import { arrowDown, arrowUp, closeCircle } from "ionicons/icons";
+import { arrowBack, arrowForward, closeCircle } from "ionicons/icons";
 import { motion } from "framer-motion";
 
 interface CourseContentSectionProps {
@@ -89,11 +89,11 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({ moduleId, o
 
       {sections.length > 0 && currentSectionIndex < sections.length ? (
         <motion.div
-          key={animationKey}
-          initial={{ opacity: 0, y: 50 }}
-          animate={{ opacity: 1, y: 0 }}
-          exit={{ opacity: 0, y: -50 }}
-          transition={{ duration: 0.5 }}
+            key={animationKey}
+            initial={{ opacity: 0, x: -50 }}
+            animate={{ opacity: 1, x: 0 }}
+            exit={{ opacity: 0, x: 50 }}
+            transition={{ duration: 0.5 }}
         >
           <IonCard className="p-6 bg-white shadow-lg rounded-xl">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
@@ -183,14 +183,14 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({ moduleId, o
                 disabled={currentSectionIndex === 0}
                 className="w-12 h-12 bg-gray-300 rounded-full flex items-center justify-center"
               >
-                <IonIcon icon={arrowUp} />
+                <IonIcon icon={arrowBack} />
               </button>
               <button
                 onClick={handleNext}
                 disabled={currentSectionIndex === sections.length - 1}
                 className="w-12 h-12 bg-indigo-700 text-white rounded-full flex items-center justify-center"
               >
-                <IonIcon icon={arrowDown} />
+                <IonIcon icon={arrowForward} />
               </button>
             </div>
           </IonCard>
