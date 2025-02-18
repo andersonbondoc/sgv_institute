@@ -6,6 +6,14 @@ http://ionicframework.com/docs/theming/ */
   color: #ffb142;
 }
 
+.prose img {
+    margin: 0;
+}
+
 .logo {
     border-radius: 10px;
+}
+
+.prose div {
+    display: flex;
 }

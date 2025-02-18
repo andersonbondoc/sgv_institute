@@ -103,6 +103,7 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({ moduleId, o
             transition={{ duration: 0.5 }}
         >
           <IonCard ref={cardRef} className="p-6 bg-white shadow-lg rounded-xl">
+             
                 <div
                     className={
                     currentSection.layout === "col-1"
@@ -121,71 +122,71 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({ moduleId, o
                     )}
 
                     <div>
-                    <div className="text-2xl text-yellow-500 font-bold mb-6">
+                        <div className="text-2xl text-yellow-500 font-bold mb-6">
                         {currentSection.title}
-                    </div>
-                    <div className="text-2xl text-yellow-500 font-bold mb-6">
-                        {currentSection.subheader}
-                    </div>
-                    
-                    {/* Render HTML from the body property */}
-                    <div
-                        className="prose mt-4"
-                        dangerouslySetInnerHTML={{ __html: currentSection.body }}
-                    />
-
-                    {currentSection.list1 && (
-                        <ul className="list-disc list-inside mt-4">
-                        {currentSection.list1.split(";").map((item: string, index: number) => (
-                            <li className="text-base/8" key={`list1-${index}`}>
-                            {item.trim()}
-                            </li>
-                        ))}
-                        </ul>
-                    )}
-
-                    {currentSection.numberedlist && (
-                        <ol className="list-disc list-inside text-2xl mt-4">
-                        {currentSection.numberedlist.split(";").map((item: string, index: number) => (
-                            <li className="text-base/8" key={`numberedlist-${index}`}>
-                            {item.trim()}
-                            </li>
-                        ))}
-                        </ol>
-                    )}
-
-                    {currentSection.title === "Knowledge Check" &&
-                        currentSection.q_selection && (
-                        <div className="mt-6">
-                            <div className="space-y-4">
-                            {Object.entries(currentSection.q_selection[0]).map(
-                                ([key, value]) => (
-                                <label
-                                    key={key}
-                                    className="flex items-center space-x-3 p-3 border rounded-lg cursor-pointer hover:bg-gray-100"
-                                >
-                                    <input
-                                    type="radio"
-                                    name="knowledge-check"
-                                    value={key}
-                                    checked={selectedAnswer === key}
-                                    onChange={(e) => handleAnswerChange(e.target.value)}
-                                    className="text-indigo-600 border-gray-300 focus:ring-indigo-500"
-                                    />
-                                    <span className="text-lg text-gray-800">
-                                    {String(value)}
-                                    </span>
-                                </label>
-                                )
-                            )}
-                            </div>
-                            <div className="mt-8">
-                            {feedback && (
-                                <p className="text-3xl font-semibold">{feedback}</p>
-                            )}
-                            </div>
                         </div>
+                        <div className="text-2xl text-yellow-500 font-bold mb-6">
+                            {currentSection.subheader}
+                        </div>
+                    
+                        {/* Render HTML from the body property */}
+                        <div
+                            className="prose mt-4"
+                            dangerouslySetInnerHTML={{ __html: currentSection.body }}
+                        />
+
+                        {currentSection.list1 && (
+                            <ul className="list-disc list-inside mt-4">
+                            {currentSection.list1.split(";").map((item: string, index: number) => (
+                                <li className="text-base/8" key={`list1-${index}`}>
+                                {item.trim()}
+                                </li>
+                            ))}
+                            </ul>
                         )}
+
+                        {currentSection.numberedlist && (
+                            <ol className="list-disc list-inside text-2xl mt-4">
+                            {currentSection.numberedlist.split(";").map((item: string, index: number) => (
+                                <li className="text-base/8" key={`numberedlist-${index}`}>
+                                {item.trim()}
+                                </li>
+                            ))}
+                            </ol>
+                        )}
+
+                        {currentSection.title === "Knowledge Check" &&
+                            currentSection.q_selection && (
+                            <div className="mt-6">
+                                <div className="space-y-4">
+                                {Object.entries(currentSection.q_selection[0]).map(
+                                    ([key, value]) => (
+                                    <label
+                                        key={key}
+                                        className="flex items-center space-x-3 p-3 border rounded-lg cursor-pointer hover:bg-gray-100"
+                                    >
+                                        <input
+                                        type="radio"
+                                        name="knowledge-check"
+                                        value={key}
+                                        checked={selectedAnswer === key}
+                                        onChange={(e) => handleAnswerChange(e.target.value)}
+                                        className="text-indigo-600 border-gray-300 focus:ring-indigo-500"
+                                        />
+                                        <span className="text-lg text-gray-800">
+                                        {String(value)}
+                                        </span>
+                                    </label>
+                                    )
+                                )}
+                                </div>
+                                <div className="mt-8">
+                                {feedback && (
+                                    <p className="text-3xl font-semibold">{feedback}</p>
+                                )}
+                                </div>
+                            </div>
+                            )}
                     </div>
               </div>
            
