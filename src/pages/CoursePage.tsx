@@ -25,6 +25,7 @@ const CoursePage: React.FC = () => {
         if (!response.ok) {
           throw new Error("Failed to fetch course list");
         }
+        
         return response.json();
       })
       .then((data) => {

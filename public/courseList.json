@@ -5,30 +5,67 @@
       "description": "Master the art of managing complex projects efficiently.",
       "price": "Free",
       "icon": "/src/assets/abstract.png",
-      "bgColor": "bg-indigo-100"
+      "bgColor": "bg-indigo-100",
+      "modules": [
+        {
+          "id": 0,
+          "courseId": "PMFIDS",
+          "moduleId": "PMFIDS_PM",
+          "title": "Project Management Fundamentals, Tools, and Techniques",
+          "description": "Learn the fundamentals of managing projects efficiently.",
+          "icon": "/src/assets/abstract.png",
+          "bgColor": "bg-indigo-100"
+        },
+        {
+          "id": 1,
+          "courseId": "PMFIDS",
+          "moduleId": "PMFIDS_BCM",
+          "title": "Budget and Cost Management",
+          "description": "Master the art of budgeting and managing project costs.",
+          "icon": "/src/assets/abstract.png",
+          "bgColor": "bg-green-100"
+        },
+        {
+          "id": 2,
+          "courseId": "PMFIDS",
+          "moduleId": "PMFIDS_RISK",
+          "title": "Project Risk Management",
+          "description" : "Understand how to identify and mitigate project risks.",
+          "icon" : "/src/assets/abstract.png",
+          "bgColor": "bg-yellow-100"
+        }
+      ]
     },
     "DS100": {
       "courseId": "DS100",
       "title": "Data Security",
       "description": "Learn techniques to secure sensitive data in modern systems.",
-      "price": "Free"
+      "price": "Free",
+      "icon": "/src/assets/abstract.png",
+      "bgColor": "bg-indigo-100"
     },
     "DP100": {
       "courseId": "DP100",
       "title": "Data Privacy",
       "description": "Understand the principles of data privacy and compliance.",
-      "price": "Free"
+      "price": "Free",
+      "icon": "/src/assets/abstract.png",
+      "bgColor": "bg-indigo-100"
     },
     "CM100": {
       "courseId": "CM100",
       "title": "Change Management",
       "description": "Develop skills to manage and lead organizational changes.",
-      "price": "Free"
+      "price": "Free",
+      "icon": "/src/assets/abstract.png",
+      "bgColor": "bg-indigo-100"
     },
     "DG100": {
       "courseId": "DG100",
       "title": "Data Governance",
       "description": "Discover how to establish effective data governance policies.",
-      "price": "Free"
+      "price": "Free",
+      "icon": "/src/assets/abstract.png",
+      "bgColor": "bg-indigo-100"
     }
 }  
