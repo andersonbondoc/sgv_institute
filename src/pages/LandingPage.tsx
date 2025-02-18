@@ -79,7 +79,7 @@ const LandingPage: React.FC = () => {
                       />
                     </div>
                     <div>
-                      <h4 className="text-lg font-medium text-gray-800">{course.title}</h4>
+                      <h4 className="text-lg font-medium text-yellow-600">{course.title}</h4>
                       <p className="text-sm text-gray-600">{course.description}</p>
                     </div>
                   </div>
