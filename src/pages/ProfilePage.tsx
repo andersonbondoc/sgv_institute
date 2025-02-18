@@ -22,7 +22,7 @@ const ProfilePage: React.FC = () => {
           <h2 className="text-center text-lg font-bold">My Profile</h2>
         </IonToolbar>
       </IonHeader>
-      <IonContent className="p-6 bg-gray-50">
+      <IonContent className="p-6">
         <div className="flex flex-col items-center space-y-6">
           {/* Profile Picture */}
           <div className="w-24 h-24 rounded-full border-4 border-indigo-500 shadow-md overflow-hidden mt-8">

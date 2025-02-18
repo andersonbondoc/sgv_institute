@@ -1,96 +1,73 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import { IonPage, IonContent, IonSearchbar, IonIcon } from "@ionic/react";
 import { useHistory } from "react-router-dom";
-import { IonContent, IonPage, IonButton, IonIcon, IonSearchbar } from "@ionic/react";
-import { arrowForwardCircleOutline } from "ionicons/icons"; 
+import { arrowForwardCircleOutline } from "ionicons/icons";
 
+const LandingPage: React.FC = () => {
+  const history = useHistory();
+  const [courses, setCourses] = useState<any[]>([]);
+  const [loading, setLoading] = useState(true);
 
+  const handleTakeCourse = (courseId: string) => {
+    history.push(`/course/${courseId}`);
+  };
 
-const LandingPage = () => {
+  useEffect(() => {
+    fetch("/courseList.json")
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error("Failed to fetch course list");
+        }
+        return response.json();
+      })
+      .then((data) => {
+        // Convert the object to an array using Object.values.
+        setCourses(Object.values(data));
+        setLoading(false);
+      })
+      .catch((error) => {
+        console.error("Error fetching course list:", error);
+        setLoading(false);
+      });
+  }, []);
 
-    const history = useHistory();
-
-    const handleTakeCourse = (courseId: string) => {
-        history.push(`/course/${courseId}`);
-    };
-
-    const courses = [
-        {
-            id: 1,
-            courseCode: "PMFIDS",
-            title: "Project Management Fundamentals for Implementation of Digital Solutions",
-            description: "Master the art of managing complex projects efficiently.",
-            price: "Free",
-            icon: "/src/assets/abstract.png",
-            bgColor: "bg-indigo-100",
-        },
-        {
-            id: 2,
-            courseCode: "DS100",
-            title: "Data Security",
-            description: "Learn techniques to secure sensitive data in modern systems.",
-            price: "Free",
-            icon: "/src/assets/abstract.png",
-            bgColor: "bg-green-100",
-        },
-        {
-            id: 3,
-            courseCode: "DP100",
-            title: "Data Privacy",
-            description: "Understand the principles of data privacy and compliance.",
-            price: "Free",
-            icon: "/src/assets/abstract.png",
-            bgColor: "bg-yellow-100",
-        },
-        {
-            id: 4,
-            courseCode: "CM100",
-            title: "Change Management",
-            description: "Develop skills to manage and lead organizational changes.",
-            price: "Free",
-            icon: "/src/assets/abstract.png",
-            bgColor: "bg-pink-100",
-        },
-        {
-            id: 5,
-            courseCode: "DG100",
-            title: "Data Governance",
-            description: "Discover how to establish effective data governance policies.",
-            price: "Free",
-            icon: "/src/assets/abstract.png",
-            bgColor: "bg-purple-100",
-        },
-    ];
+  if (loading) {
+    return (
+      <IonPage>
+        <IonContent className="p-6 bg-gradient-to-b from-purple-50 via-pink-50 to-white flex items-center justify-center">
+          <p>Loading courses...</p>
+        </IonContent>
+      </IonPage>
+    );
+  }
 
   return (
     <IonPage>
       <IonContent className="p-6 bg-gradient-to-b from-purple-50 via-pink-50 to-white">
         <div className="flex flex-col items-center space-y-8 pt-8 p-4">
-        
           <div className="text-center space-y-2">
             <div className="w-12 mx-auto">
-                <img
+              <img
                 src="/src/assets/sgv_logo.png" 
                 alt="SGV Institute Logo"
                 className="w-full logo"
-                />
+              />
             </div> 
-            <h2 className="text-3xl font-bold text-gray-900">SGV FSO Institute</h2>
-            <p className="text-gray-700">
+            <h2 className="text-3xl font-bold">SGV FSO Institute</h2>
+            <p>
               SGV FSO Institute offers a variety of courses to elevate your skills and knowledge.
             </p>
           </div>
 
-      
           <div className="w-full max-w-md">
-            <IonSearchbar placeholder="Search courses..." className="mb-4"></IonSearchbar>
+            <IonSearchbar placeholder="Search courses..." className="mb-4" />
           </div>
 
- 
           <div className="w-full max-w-4xl space-y-2">
             <h3 className="text-xl font-semibold text-gray-900">Recommended Courses</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {courses.map((course) => (
-                <div key={course.id} className="bg-white p-4 rounded-lg shadow-lg">
+                <div key={course.courseId} className="bg-white p-4 rounded-lg shadow-lg">
                   <div className="flex items-center space-x-4">
                     <div
                       className={`w-12 h-12 ${course.bgColor} rounded-full flex items-center justify-center`}
@@ -102,19 +79,18 @@ const LandingPage = () => {
                       />
                     </div>
                     <div>
-                      <h4 className="text-lg font-medium text-gray-800">{course.title}</h4>
+                      <h4 className="text-lg font-medium text-yellow-600">{course.title}</h4>
                       <p className="text-sm text-gray-600">{course.description}</p>
                     </div>
                   </div>
-                  <p className="mt-4 text-sm text-gray-700">{course.description}</p>
                   <div className="mt-4 flex justify-between items-center">
                     <span className="text-indigo-500 font-medium">{course.price}</span>
                     <button
-                    className="px-6 py-2 bg-indigo-700 text-white rounded-lg flex items-center gap-2"
-                    onClick={() => handleTakeCourse(course.courseCode)}
+                      className="px-6 py-2 bg-indigo-700 text-white rounded-lg flex items-center gap-2"
+                      onClick={() => handleTakeCourse(course.courseId)}
                     >
-                        <span className="font-bold">Take Course</span>
-                        <IonIcon icon={arrowForwardCircleOutline} size="small"></IonIcon>
+                      <span className="font-bold">Take Course</span>
+                      <IonIcon icon={arrowForwardCircleOutline} size="small" />
                     </button>
                   </div>
                 </div>

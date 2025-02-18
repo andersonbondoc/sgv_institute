@@ -7,7 +7,10 @@
       {
         "order": 1,
         "title": "Module Introduction",
+<<<<<<< HEAD
 <<<<<<< HEAD:src/courses/project_management.json
+=======
+>>>>>>> 337da48d37e042bf797683361100ce28a6e00d8e
         "subheader": "Welcome to the WBL (Web-Based Learning) module on Project Management Fundamentals, Tools, and Techniques!",
         "body": "This module is designed to provide you with a comprehensive understanding of project management, project management functions, tools, techniques, and frameworks, and project lifecycle."
       },
@@ -15,6 +18,7 @@
         "order": 2,
         "title": "Module Credit and Completion Requirements",
         "body": "<ul><li>To receive proper learning credit and achieve the learning objectives, you must not skip any screens</li><li>Complete all interactions</li><li>Complete all practice questions</li><li>Pass the final assessment with at least 70%</li><li>You must complete the assessment alone. Using answers received from others, including any form of artificial intelligence, to complete an assessment is cheating.</li></ul><br /><p>Please note that this learning will expire by April 25, 2025. You must complete and pass all of the scored portions of this module within this period, or your related learning progress will be removed.</p>"
+<<<<<<< HEAD
 =======
         "body": "Welcome to the WBL (Web-Based Learning) module on Project Management Fundamentals, Tools, and Techniques! This module is designed to provide you with a comprehensive understanding of project management, project management functions, tools, techniques, and frameworks, and project lifecycle. Below is an overview of the topics covered in this module:",
         "image": "/src/assets/abstract.png"
@@ -24,6 +28,8 @@
         "title": "Module Completion Requirements",
         "body": "<h3>WELCOME!</h3> <p>Select each heading to find out more. When you have selected all the headings, select the down arrow at the right to continue.</p><h2>Module Credit and Completion Requirements</h2><ul><li>As a prerequisite of the workshop and to achieve the learning objectives you must complete this Web-Based Learning.</li><li>Complete all interactions.</li><li>Complete all practice questions.</li><li>Take the examination, you must pass at least 70% within three attempts to finish this web-based learning.</li><li>You must complete the assessment alone. Using answers received from others, including any form of artificial intelligence, to complete an assessment is cheating.</li><ul><br/><p>Please note that this learning will expire by April 25,2025.You must complete and pass all of the scored portions of this module within this period, or your related learning progress will be removed.</p><h3>Module Objective</h3>"
 >>>>>>> aa9b6323a15d2937c41a5f0030028b8e1efe84ad:public/courses/project_management.json
+=======
+>>>>>>> 337da48d37e042bf797683361100ce28a6e00d8e
       },
       {
         "order": 3,
@@ -34,11 +40,15 @@
       {
         "order": 4,
         "title": "Menu",
+<<<<<<< HEAD
 <<<<<<< HEAD:src/courses/project_management.json
         "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_Menu.png"
 =======
         "body": "1. Overview of Project Management<br/> 2. Project Management Functions<br/> 3. Tools, Techniques, and Frameworks<br/> 4. Project Lifecycle<br/>"
 >>>>>>> aa9b6323a15d2937c41a5f0030028b8e1efe84ad:public/courses/project_management.json
+=======
+        "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_Menu.png"
+>>>>>>> 337da48d37e042bf797683361100ce28a6e00d8e
       },
       {
         "order": 5,
@@ -60,7 +70,11 @@
       {  
         "order": 8,
         "layout": "col-1",
+<<<<<<< HEAD
         "body": "<h1>What is Project Management?</h1><img src='src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order8_0.png'/><h2>Project Management Institute</h2><img src='src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order8_1.png'/><p>The application of knowledge, skills, tools, and techniques to project activities to meet project requirements.</p><img src='src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order8_2.png'/><p>The practice of planning, organizing, and executing the tasks needed to turn a brilliant idea into a tangible product, service, or deliverable.</p><img src='src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order8_3.png'/><p>The discipline revolving around the execution of a project throughout its lifecycle.</p>"
+=======
+        "body": "<div><div><img src='src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order8_0.png'/></div><div><h1>What is Project Management?</h1></div></div><h2>Project Management Institute</h2><img src='src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order8_1.png'/><p>The application of knowledge, skills, tools, and techniques to project activities to meet project requirements.</p><img src='src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order8_2.png'/><p>The practice of planning, organizing, and executing the tasks needed to turn a brilliant idea into a tangible product, service, or deliverable.</p><img src='src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order8_3.png'/><p>The discipline revolving around the execution of a project throughout its lifecycle.</p>"
+>>>>>>> 337da48d37e042bf797683361100ce28a6e00d8e
        }, 
        {
         "order": 9,
