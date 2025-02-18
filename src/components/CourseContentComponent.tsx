@@ -90,10 +90,10 @@ const CourseContentComponent: React.FC = () => {
           <div className="mt-4 flex justify-center items-center">
             <button
               onClick={handleTakeExam}
-              className="px-4 py-4 bg-indigo-700 text-white rounded-lg flex items-center gap-2"
+              className="px-4 py-4 bg-indigo-700 text-white rounded-lg w-full"
             >
               <IonIcon icon={createOutline} size="small" />
-              <span className="font-bold">Take Course Examination</span>
+              <span className="ml-5 font-bold">Take Course Examination</span>
             </button>
           </div>
         </div>
