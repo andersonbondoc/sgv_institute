@@ -1,7 +1,10 @@
 /* For information on how to create your own theme, please see:
 http://ionicframework.com/docs/theming/ */
 
-
+.prose ul li::marker,
+.prose ol li::marker {
+  color: #ffb142;
+}
 
 .logo {
     border-radius: 10px;

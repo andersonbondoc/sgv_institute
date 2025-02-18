@@ -60,9 +60,9 @@ const CourseContentComponent: React.FC = () => {
     <div>
       {!selectedModule ? (
         <div className="space-y-6 p-4">
-          <div className="w-full">
+          {/* <div className="w-full">
             <IonSearchbar placeholder="Search Modules..." className="mb-4" />
-          </div>
+          </div> */}
           {modules.map((module) => (
             <IonCard
               key={module.moduleId}

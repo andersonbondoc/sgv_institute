@@ -121,10 +121,10 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({ moduleId, o
                     )}
 
                     <div>
-                    <div className="text-2xl font-bold mb-6">
+                    <div className="text-2xl text-yellow-500 font-bold mb-6">
                         {currentSection.title}
                     </div>
-                    <div className="text-2xl font-bold mb-6">
+                    <div className="text-2xl text-yellow-500 font-bold mb-6">
                         {currentSection.subheader}
                     </div>
                     
