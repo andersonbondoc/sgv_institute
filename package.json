@@ -26,6 +26,7 @@
     "@types/react-router-dom": "^5.3.3",
     "framer-motion": "^12.0.6",
     "ionicons": "^7.0.0",
+    "prose": "^0.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router": "^5.3.4",

@@ -13,7 +13,13 @@
       {
         "order": 2,
         "title": "Module Credit and Completion Requirements",
-        "body": "<ul><li>To receive proper learning credit and achieve the learning objectives, you must not skip any screens</li><li>Complete all interactions</li><li>Complete all practice questions</li><li>Pass the final assessment with at least 70%</li><li>You must complete the assessment alone. Using answers received from others, including any form of artificial intelligence, to complete an assessment is cheating.</li></ul><br /><p>Please note that this learning will expire by April 25, 2025. You must complete and pass all of the scored portions of this module within this period, or your related learning progress will be removed.</p>"
+        "body": "Welcome to the WBL (Web-Based Learning) module on Project Management Fundamentals, Tools, and Techniques! This module is designed to provide you with a comprehensive understanding of project management, project management functions, tools, techniques, and frameworks, and project lifecycle. Below is an overview of the topics covered in this module:",
+        "image": "/src/assets/abstract.png"
+      },
+      {
+        "order": 2,
+        "title": "Module Completion Requirements",
+        "body": "<h3>WELCOME!</h3> <p>Select each heading to find out more. When you have selected all the headings, select the down arrow at the right to continue.</p><h2>Module Credit and Completion Requirements</h2><ul><li>As a prerequisite of the workshop and to achieve the learning objectives you must complete this Web-Based Learning.</li><li>Complete all interactions.</li><li>Complete all practice questions.</li><li>Take the examination, you must pass at least 70% within three attempts to finish this web-based learning.</li><li>You must complete the assessment alone. Using answers received from others, including any form of artificial intelligence, to complete an assessment is cheating.</li><ul><br/><p>Please note that this learning will expire by April 25,2025.You must complete and pass all of the scored portions of this module within this period, or your related learning progress will be removed.</p><h3>Module Objective</h3>"
       },
       {
         "order": 3,
