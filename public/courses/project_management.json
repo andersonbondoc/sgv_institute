@@ -45,6 +45,7 @@
       },  
       {  
         "order": 8,
+        "layout": "col-1",
         "body": "<h1>What is Project Management?</h1><img src='src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order8_0.png'/><h2>Project Management Institute</h2><img src='src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order8_1.png'/><p>The application of knowledge, skills, tools, and techniques to project activities to meet project requirements.</p><img src='src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order8_2.png'/><p>The practice of planning, organizing, and executing the tasks needed to turn a brilliant idea into a tangible product, service, or deliverable.</p><img src='src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order8_3.png'/><p>The discipline revolving around the execution of a project throughout its lifecycle.</p>"
        }, 
        {

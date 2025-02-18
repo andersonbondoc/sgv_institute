@@ -18,7 +18,7 @@ const CoursePage: React.FC = () => {
   const history = useHistory();
   const [courses, setCourses] = useState<any>(null);
   const [loading, setLoading] = useState(true);
-
+    
   useEffect(() => {
     fetch("/courseList.json")
       .then((response) => {

@@ -57,7 +57,7 @@ const CourseContentComponent: React.FC = () => {
   }
 
   return (
-    <div className="min-h-screen">
+    <div>
       {!selectedModule ? (
         <div className="space-y-6 p-4">
           <div className="w-full">

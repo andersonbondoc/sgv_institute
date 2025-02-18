@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import { IonCard, IonIcon } from "@ionic/react";
 import { arrowBack, arrowForward, closeCircle } from "ionicons/icons";
 import { motion } from "framer-motion";
@@ -14,6 +14,7 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({ moduleId, o
   const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null);
   const [feedback, setFeedback] = useState<string | null>(null);
   const [animationKey, setAnimationKey] = useState(0);
+  const cardRef = useRef<HTMLIonCardElement>(null);
 
   useEffect(() => {
     // Map module IDs to their corresponding JSON file names
@@ -55,6 +56,9 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({ moduleId, o
       setFeedback(null);
       setAnimationKey((prev) => prev + 1);
       setCurrentSectionIndex((prev) => prev + 1);
+      if (cardRef.current) {
+            cardRef.current.scrollIntoView({ behavior: "smooth", block: "start" });
+        }
     }
   };
 
@@ -64,6 +68,9 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({ moduleId, o
       setFeedback(null);
       setAnimationKey((prev) => prev + 1);
       setCurrentSectionIndex((prev) => prev - 1);
+      if (cardRef.current) {
+            cardRef.current.scrollIntoView({ behavior: "smooth", block: "start" });
+        }
     }
   };
 
@@ -77,7 +84,7 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({ moduleId, o
   };
 
   return (
-    <div className="min-h-screen">
+    <div>
       <div className="flex justify-end">
         <IonIcon
           icon={closeCircle}
@@ -95,8 +102,14 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({ moduleId, o
             exit={{ opacity: 0, x: 50 }}
             transition={{ duration: 0.5 }}
         >
-          <IonCard className="p-6 bg-white shadow-lg rounded-xl">
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
+          <IonCard ref={cardRef} className="p-6 bg-white shadow-lg rounded-xl">
+                <div
+                    className={
+                    currentSection.layout === "col-1"
+                        ? "grid grid-cols-1 gap-6 items-center items-center justify-items-center"
+                        : "grid grid-cols-1 md:grid-cols-2 gap-6 items-center"
+                    }
+                >
                     {currentSection.image && (
                         <div className="flex justify-center">
                             <img
@@ -108,7 +121,7 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({ moduleId, o
                     )}
 
                     <div>
-                    <div className="text-3xl font-bold mb-6">
+                    <div className="text-2xl font-bold mb-6">
                         {currentSection.title}
                     </div>
                     <div className="text-2xl font-bold mb-6">
@@ -117,12 +130,12 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({ moduleId, o
                     
                     {/* Render HTML from the body property */}
                     <div
-                        className="prose text-xl mt-4"
+                        className="prose mt-4"
                         dangerouslySetInnerHTML={{ __html: currentSection.body }}
                     />
 
                     {currentSection.list1 && (
-                        <ul className="list-disc list-inside text-2xl mt-4">
+                        <ul className="list-disc list-inside mt-4">
                         {currentSection.list1.split(";").map((item: string, index: number) => (
                             <li className="text-base/8" key={`list1-${index}`}>
                             {item.trim()}
@@ -157,7 +170,7 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({ moduleId, o
                                     value={key}
                                     checked={selectedAnswer === key}
                                     onChange={(e) => handleAnswerChange(e.target.value)}
-                                    className="w-5 h-5 text-indigo-600 border-gray-300 focus:ring-indigo-500"
+                                    className="text-indigo-600 border-gray-300 focus:ring-indigo-500"
                                     />
                                     <span className="text-lg text-gray-800">
                                     {String(value)}
