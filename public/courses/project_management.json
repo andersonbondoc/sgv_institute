@@ -13,7 +13,13 @@
       {
         "order": 2,
         "title": "Module Credit and Completion Requirements",
-        "body": "<ul><li>To receive proper learning credit and achieve the learning objectives, you must not skip any screens</li><li>Complete all interactions</li><li>Complete all practice questions</li><li>Pass the final assessment with at least 70%</li><li>You must complete the assessment alone. Using answers received from others, including any form of artificial intelligence, to complete an assessment is cheating.</li></ul><br /><p>Please note that this learning will expire by April 25, 2025. You must complete and pass all of the scored portions of this module within this period, or your related learning progress will be removed.</p>"
+        "body": "Welcome to the WBL (Web-Based Learning) module on Project Management Fundamentals, Tools, and Techniques! This module is designed to provide you with a comprehensive understanding of project management, project management functions, tools, techniques, and frameworks, and project lifecycle. Below is an overview of the topics covered in this module:",
+        "image": "/src/assets/abstract.png"
+      },
+      {
+        "order": 2,
+        "title": "Module Completion Requirements",
+        "body": "<h3>WELCOME!</h3> <p>Select each heading to find out more. When you have selected all the headings, select the down arrow at the right to continue.</p><h2>Module Credit and Completion Requirements</h2><ul><li>As a prerequisite of the workshop and to achieve the learning objectives you must complete this Web-Based Learning.</li><li>Complete all interactions.</li><li>Complete all practice questions.</li><li>Take the examination, you must pass at least 70% within three attempts to finish this web-based learning.</li><li>You must complete the assessment alone. Using answers received from others, including any form of artificial intelligence, to complete an assessment is cheating.</li><ul><br/><p>Please note that this learning will expire by April 25,2025.You must complete and pass all of the scored portions of this module within this period, or your related learning progress will be removed.</p><h3>Module Objective</h3>"
       },
       {
         "order": 3,
@@ -46,7 +52,7 @@
       {  
         "order": 8,
         "layout": "col-1",
-        "body": "<div><div><img src='src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order8_0.png'/></div><div><h1>What is Project Management?</h1></div></div><h2>Project Management Institute</h2><img src='src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order8_1.png'/><p>The application of knowledge, skills, tools, and techniques to project activities to meet project requirements.</p><img src='src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order8_2.png'/><p>The practice of planning, organizing, and executing the tasks needed to turn a brilliant idea into a tangible product, service, or deliverable.</p><img src='src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order8_3.png'/><p>The discipline revolving around the execution of a project throughout its lifecycle.</p>"
+        "body": "<div><div class='mr-10'><img src='src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order8_0.png'/></div><div><h2>What is Project Management?</h2></div></div><h2>Project Management Institute</h2><img src='src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order8_1.png'/><p>The application of knowledge, skills, tools, and techniques to project activities to meet project requirements.</p><img src='src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order8_2.png'/><p>The practice of planning, organizing, and executing the tasks needed to turn a brilliant idea into a tangible product, service, or deliverable.</p><img src='src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order8_3.png'/><p>The discipline revolving around the execution of a project throughout its lifecycle.</p>"
        }, 
        {
         "order": 9,
@@ -1583,14 +1589,14 @@
         "order": 4,
         "title": "Module Overview",
         "subheader":"Overview of Risks",
-        "image": "src/assets/img/projectmanagement/projectriskmanagement/MenuRiskMgt.png"
+        "image": ""
       },
       {
         "order": 5,
         "title": "Overview of Risks",
         "subheader": "Learning Objective",
         "body": "<p>At the end of this lesson, you will be able to:<p><br/> <ul> <li>Define project risk and identify various types of risks that may occur in a project.</li>",
-        "image": "src/assets/img/projectmanagement/projectriskmanagement/PMFIDS_PM_RPM_order5.jpg"
+        "image": ""
       },
       {
         "order": 6,
@@ -1647,7 +1653,7 @@
         "order": 13,
         "title": "Module Overview",
         "subheader": "Risk Management",
-        "image": "src/assets/img/projectmanagement/projectriskmanagement/MenuRiskMgt1Check.png"
+        "image": ""
       },
       {
         "order": 14,
@@ -1879,7 +1885,7 @@
         "title": "Quality Assurance",
         "subheader": "Learning Objective",
         "body": "<p>At the end of this lesson, you will be able to:</p> <ul> <li>Gain a full understanding of Quality Assurance and its benefits and importance in managing digital transformation projects, specifically in the Risk Monitoring phase.</li> </ul>",
-        "image": "src/assets/img/projectmanagement/projectriskmanagement/MenuQualityAssurance.png"
+        "image": ""
       },
       {
         "order": 48,
@@ -2035,7 +2041,7 @@
         "order": 70,
         "title": "Module Overview",
         "subheader": "Regulations",
-        "image": "src/assets/img/projectmanagement/projectriskmanagement/MenuRiskMgt3Check.png"
+        "image": ""
       },
       {
         "order": 71,

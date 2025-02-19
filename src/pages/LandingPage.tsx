@@ -83,7 +83,7 @@ const LandingPage: React.FC = () => {
                       <p className="text-sm text-gray-600">{course.description}</p>
                     </div>
                   </div>
-                  <div className="mt-4 flex justify-between items-center">
+                  <div className="mt-8 mb-2 flex justify-between items-center">
                     <span className="text-indigo-500 font-medium">{course.price}</span>
                     <button
                       className="px-6 py-2 bg-indigo-700 text-white rounded-lg flex items-center gap-2"
