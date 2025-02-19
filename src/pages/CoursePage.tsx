@@ -115,16 +115,16 @@ const CoursePage: React.FC = () => {
 
       {/* Course Content */}
       <IonContent className="p-6">
-        <div className="p-4">
-          <div className="text-center space-y-4 mt-4 hidden md:block lg:hidden">
+        <div className="max-w-6xl mx-auto p-4">
+            <div className="text-center space-y-4 mt-4 hidden md:block lg:hidden">
             <h1 className="text-2xl font-bold">{course.title}</h1>
             <p>{course.description}</p>
             <p className="text-indigo-500 font-medium">{course.price}</p>
-          </div>
-          
-          <CourseContentComponent />
+            </div>
+            
+            <CourseContentComponent />
         </div>
-      </IonContent>
+        </IonContent>
     </IonPage>
   );
 };

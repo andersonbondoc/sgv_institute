@@ -24,6 +24,7 @@ const CourseContentComponent: React.FC = () => {
         const course = data[courseId];
         if (course && course.modules) {
           setModules(course.modules);
+          
         } else {
           console.warn(`No modules found for course ${courseId}`);
         }
@@ -34,7 +35,7 @@ const CourseContentComponent: React.FC = () => {
         setLoading(false);
       });
   }, [courseId]);
-
+  console.log(modules)
   const handleTakeExam = () => {
     history.push(`/course/${courseId}/exam`);
     window.location.reload();
@@ -67,7 +68,7 @@ const CourseContentComponent: React.FC = () => {
             <IonCard
               key={module.moduleId}
               onClick={() => setSelectedModule(module.moduleId)}
-              className={`${module.bgColor} cursor-pointer hover:shadow-xl transition duration-300 rounded-lg`}
+              className={`bg-slate-100 cursor-pointer hover:shadow-xl transition duration-300 rounded-lg`}
             >
               <IonCardContent className="flex items-center space-x-4">
                 <img
@@ -76,10 +77,10 @@ const CourseContentComponent: React.FC = () => {
                   className="w-12 h-12 rounded-full"
                 />
                 <div>
-                  <div className="text-2xl font-bold text-stone-900">
+                  <div className="text-2xl font-bold text-yellow-600">
                     {module.title}
                   </div>
-                  <div className="text-xl mt-4 text-stone-900">
+                  <div className="text-xl mt-4 text-stone-700">
                     {module.description}
                   </div>
                 </div>
@@ -89,10 +90,10 @@ const CourseContentComponent: React.FC = () => {
           <div className="mt-4 flex justify-center items-center">
             <button
               onClick={handleTakeExam}
-              className="px-4 py-4 bg-indigo-700 text-white rounded-lg flex items-center gap-2"
+              className="px-4 py-4 bg-indigo-700 text-white rounded-lg w-full"
             >
               <IonIcon icon={createOutline} size="small" />
-              <span className="font-bold">Take Course Examination</span>
+              <span className="ml-5 font-bold">Take Course Examination</span>
             </button>
           </div>
         </div>

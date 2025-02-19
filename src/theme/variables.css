@@ -10,6 +10,14 @@ http://ionicframework.com/docs/theming/ */
     margin: 0;
 }
 
+.prose .mr-10 {
+    margin-right: 10px;
+}
+
+.prose .ml-10 {
+    margin-right: 10px;
+}
+
 .logo {
     border-radius: 10px;
 }
