@@ -117,7 +117,7 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
         >
           <IonCard ref={cardRef} className="p-6 bg-white shadow-lg rounded-xl">
             <div className="mb-2 text-lg font-semibold text-gray-700 text-right">
-              Step {currentStep} / {totalSections}
+              Page {currentStep} / {totalSections}
             </div>
             <IonProgressBar
               value={progress / 100}
