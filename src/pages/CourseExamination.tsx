@@ -80,14 +80,13 @@ const CourseExamination: React.FC = () => {
                 <div className="grid grid-cols-2 gap-4">
                     {question.q_selection[0] &&
                     Object.entries(question.q_selection[0]).map(([key, value]) => (
-                        <label key={key} className="flex items-center space-x-3 bg-gray-100 p-3 rounded-lg cursor-pointer">
+                        <label key={key} className="flex items-center space-x-3 p-3 rounded-lg cursor-pointer">
                         <input
                             type="radio"
                             name={`question-${question.q_number}`}
                             value={key}
                             checked={answers[question.q_number] === key}
                             onChange={(e) => handleAnswerChange(question.q_number, e.target.value)}
-                            className="w-5 h-5"
                         />
                         <span>{value}</span>
                         </label>
@@ -99,7 +98,7 @@ const CourseExamination: React.FC = () => {
         </div>
 
         <div className="mt-6 flex justify-end">
-            <button className="px-6 py-2 bg-indigo-700 text-white rounded-lg flex items-center gap-2" onClick={handleSubmit}>
+            <button className="px-6 py-2 bg-indigo-700 rounded-lg flex items-center gap-2" onClick={handleSubmit}>
             Submit my answers
             <IonIcon icon={enterOutline} />
             </button>
@@ -114,7 +113,7 @@ const CourseExamination: React.FC = () => {
             <div className="flex justify-center items-center">
               <div className="bg-white rounded-xl shadow-lg w-full max-w-md">
                 <div className="text-center">
-                    <h2 className="text-3xl font-semibold mb-4">Assessment Result</h2>
+                    <h2 className="mt-6 text-3xl text-gray-800 font-semibold mb-4">Assessment Result</h2>
                     <div className="text-xl text-gray-800">
                         <IonIcon size="large" className="p-2 mr-4 rounded-lg cursor-pointer text-indigo-600"  icon={checkmarkCircleOutline} />
                       <p className="mb-2">Your Score: <span className="font-bold">{score.correct}/{score.total}</span></p>
@@ -123,7 +122,7 @@ const CourseExamination: React.FC = () => {
                       <p className="mt-4 mb-4">Congratulations for passing this course examination! 🥳🥳🥳</p>
                     </div>
                     <div className="flex justify-center items-center">
-                        <button className="mb-4 px-6 py-2 bg-indigo-700 text-white rounded-lg flex items-center gap-2">
+                        <button className="mb-4 px-6 py-2 bg-indigo-700 rounded-lg flex items-center gap-2">
                             <IonIcon icon={readerOutline} />
                             Download Certificate
                         </button>
