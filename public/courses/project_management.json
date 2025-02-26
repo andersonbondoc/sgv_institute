@@ -6,7 +6,7 @@
     "type": "course",
     "sections": [
       {
-        "order": 1.2,
+        "order": 1,
         "title": "Module Introduction",
         "subheader": "Welcome to the WBL (Web-Based Learning) module on Project Management Fundamentals, Tools, and Techniques!",
         "body": "This module is designed to provide you with a comprehensive understanding of project management, project management functions, tools, techniques, and frameworks, and project lifecycle",
@@ -137,8 +137,8 @@
         "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order4.jpg"
       },
       {
-        "order": 1.0,
-        "layout": "col-1",
+        "order": 5,
+        "layout": "col-2",
         "col1": " <h1>Defining “Project”</h1><ul> <li>A project is a temporary endeavor undertaken to create a unique product, service or result.</li> <li> A project is temporary in that it has a defined beginning and end in time, and therefore defined scope and resources.</li> <li>A project is distinct from routine operations and has a singular goal.</li> </ul>",
         "col2": "<h1>What is Project Management?</h1><div><div><img src='src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order5_0.jpg'/></div><div><h2>Project Management Institute</h2></div></div></br><img src='src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order5_1.jpg'/><p>The application of knowledge, skills, tools, and techniques to project activities to meet project requirements.</p><img src='src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order5_2.jpg'/><p>The practice of planning, organizing, and executing the tasks needed to turn a brilliant idea into a tangible product, service, or deliverable.</p><img src='src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order5_3.jpg'/><p>The discipline revolving around the execution of a project throughout its lifecycle.</p>"
       },
