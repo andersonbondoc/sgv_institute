@@ -3,6 +3,7 @@ import { IonCard, IonIcon } from "@ionic/react";
 import { arrowBack, arrowForward, closeCircle } from "ionicons/icons";
 import { motion } from "framer-motion";
 import { IonProgressBar } from "@ionic/react";
+import PreExamPage from "./PreExamination";
 
 interface CourseContentSectionProps {
   moduleId: string;
@@ -15,13 +16,16 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
 }) => {
   const [sections, setSections] = useState<any[]>([]);
   const [currentSectionIndex, setCurrentSectionIndex] = useState(0);
-  const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null);
+  const [selectedAnswer, setSelectedAnswer] = useState<string[]>([]);
   const [feedback, setFeedback] = useState<string | null>(null);
   const [animationKey, setAnimationKey] = useState(0);
   const cardRef = useRef<HTMLIonCardElement>(null);
+  const [showCurrentQuestionResult, setCurrentQuestionResult] =
+    useState<boolean>(false);
+  const [retryCount, setRetryCount] = useState(0); // Track retry count
+  const [isAnswerShown, setIsAnswerShown] = useState(false);
 
   useEffect(() => {
-    // Map module IDs to their corresponding JSON file names
     const fileMapping: Record<string, string> = {
       PMFIDS_PM: "project_management.json",
       PMFIDS_BCM: "budget_cost_management.json",
@@ -42,6 +46,7 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
           const filteredCourse = courses.find(
             (course: any) => course.moduleId === moduleId
           );
+          console.log("courses: ", courses);
           if (filteredCourse) {
             const sortedSections = filteredCourse.sections.sort(
               (a: any, b: any) => parseFloat(a.order) - parseFloat(b.order)
@@ -63,9 +68,11 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
     totalSections > 0 ? (currentSectionIndex / (totalSections - 1)) * 100 : 0;
   const currentStep = currentSectionIndex + 1;
 
+  const isAnswerSelected = selectedAnswer.length > 0;
+
   const handleNext = () => {
     if (currentSectionIndex < sections.length - 1) {
-      setSelectedAnswer(null);
+      setSelectedAnswer([]);
       setFeedback(null);
       setAnimationKey((prev) => prev + 1);
       setCurrentSectionIndex((prev) => prev + 1);
@@ -73,27 +80,59 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
         cardRef.current.scrollIntoView({ behavior: "smooth", block: "start" });
       }
     }
+    setRetryCount(0);
+    setIsAnswerShown(false);
   };
 
   const handleBack = () => {
     if (currentSectionIndex > 0) {
-      setSelectedAnswer(null);
+      setSelectedAnswer([]);
       setFeedback(null);
       setAnimationKey((prev) => prev + 1);
       setCurrentSectionIndex((prev) => prev - 1);
       if (cardRef.current) {
         cardRef.current.scrollIntoView({ behavior: "smooth", block: "start" });
       }
+      setRetryCount(0);
+      setIsAnswerShown(false);
     }
   };
 
-  const handleAnswerChange = (value: string) => {
-    setSelectedAnswer(value);
+  const handleAnswerChange = (value: string, isChecked: boolean) => {
+    if (isChecked) {
+      setSelectedAnswer((prev) => [...prev, value]);
+    } else {
+      setSelectedAnswer((prev) => prev.filter((answer) => answer !== value));
+    }
+    setFeedback(null);
+  };
+
+  const handleShowAnswer = () => {
+    const selectedAnswers = selectedAnswer;
+    const correctAnswers = currentSection.q_answer
+      .split(",")
+      .map((answer: string) => answer.trim());
+
+    const isCorrect =
+      selectedAnswers.length === correctAnswers.length &&
+      selectedAnswers.every((answer) => correctAnswers.includes(answer)) &&
+      correctAnswers.every((answer: any) => selectedAnswers.includes(answer));
+
     setFeedback(
-      value === currentSection.q_answer
-        ? "✅ Correct answer!"
-        : "❌ Wrong answer. Try again."
+      isCorrect ? "✅ Correct answer!" : "❌ Wrong answer. Try again."
     );
+    setIsAnswerShown(true);
+  };
+
+  const handleRetry = () => {
+    if (retryCount < 3) {
+      setIsAnswerShown(false);
+      setRetryCount((prevCount) => prevCount + 1);
+    } else {
+      setRetryCount(0);
+    }
+    setSelectedAnswer([]);
+    setFeedback(null);
   };
 
   return (
@@ -149,7 +188,6 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
                   {currentSection.subheader}
                 </div>
 
-                {/* Render HTML from the body property */}
                 <div
                   className="prose mt-4"
                   dangerouslySetInnerHTML={{ __html: currentSection.body }}
@@ -192,16 +230,40 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
                               key={key}
                               className="flex items-center space-x-3 p-3 border rounded-lg cursor-pointer hover:bg-gray-100"
                             >
-                              <input
-                                type="radio"
-                                name="knowledge-check"
-                                value={key}
-                                checked={selectedAnswer === key}
-                                onChange={(e) =>
-                                  handleAnswerChange(e.target.value)
-                                }
-                                className="text-indigo-600 border-gray-300 focus:ring-indigo-500"
-                              />
+                              {currentSection.q_field_type ===
+                              "single_select" ? (
+                                <input
+                                  type="radio"
+                                  name="knowledge-check"
+                                  value={key}
+                                  checked={selectedAnswer.includes(key)}
+                                  onChange={(e) =>
+                                    !isAnswerShown &&
+                                    handleAnswerChange(
+                                      e.target.value,
+                                      e.target.checked
+                                    )
+                                  }
+                                  disabled={isAnswerShown} // Disable if answer is shown
+                                  className="text-indigo-600 border-gray-300 focus:ring-indigo-500"
+                                />
+                              ) : (
+                                <input
+                                  type="checkbox"
+                                  name="knowledge-check"
+                                  value={key}
+                                  checked={selectedAnswer.includes(key)}
+                                  onChange={(e) =>
+                                    !isAnswerShown &&
+                                    handleAnswerChange(
+                                      e.target.value,
+                                      e.target.checked
+                                    )
+                                  }
+                                  disabled={isAnswerShown} // Disable if answer is shown
+                                  className="text-indigo-600 border-gray-300 focus:ring-indigo-500"
+                                />
+                              )}
                               <span className="text-lg text-gray-800">
                                 {String(value)}
                               </span>
@@ -210,14 +272,42 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
                         )}
                       </div>
                       <div className="mt-8">
+                        {/* Show "Show Answer" button when an answer is selected but feedback is not available */}
+                        {!feedback && isAnswerSelected && (
+                          <button
+                            onClick={handleShowAnswer}
+                            className="w-full py-3 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold rounded-lg shadow-md transition-colors duration-300"
+                          >
+                            Show Answer
+                          </button>
+                        )}
+
+                        {/* Show "Retry" button only if the answer is wrong and retries left */}
+                        {feedback &&
+                          feedback.includes("❌") &&
+                          isAnswerSelected &&
+                          retryCount < 3 && (
+                            <button
+                              onClick={handleRetry}
+                              className="w-full py-3 bg-yellow-500 hover:bg-yellow-600 text-white font-semibold rounded-lg shadow-md transition-colors duration-300"
+                            >
+                              Retry
+                            </button>
+                          )}
+
+                        {/* Display feedback message */}
                         {feedback && (
-                          <p className="text-3xl font-semibold">{feedback}</p>
+                          <p className="text-3xl font-semibold mt-10">
+                            {feedback}
+                          </p>
                         )}
                       </div>
                     </div>
                   )}
               </div>
             </div>
+            {currentSection.title === "Module Pre-Examination" &&
+              currentSection.exams && <PreExamPage sections={currentSection} />}
 
             <div className="flex justify-between mt-6 px-4 pb-4">
               <button
@@ -229,7 +319,6 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
               </button>
               <button
                 onClick={handleNext}
-                disabled={currentSectionIndex === sections.length - 1}
                 className="w-12 h-12 bg-indigo-700 text-white rounded-full flex items-center justify-center"
               >
                 <IonIcon icon={arrowForward} />
