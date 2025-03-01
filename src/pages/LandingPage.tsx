@@ -2,34 +2,58 @@ import React, { useState, useEffect } from "react";
 import { IonPage, IonContent, IonSearchbar, IonIcon } from "@ionic/react";
 import { useHistory } from "react-router-dom";
 import { arrowForwardCircleOutline } from "ionicons/icons";
+import { getUserByEmail } from "../queries/userQueries";
 
 const LandingPage: React.FC = () => {
   const history = useHistory();
   const [courses, setCourses] = useState<any[]>([]);
   const [loading, setLoading] = useState(true);
+  const [email, setEmail] = useState("");
+  const [error, setError] = useState("");
+  const [isCardOpen, setIsCardOpen] = useState(true);
 
   const handleTakeCourse = (courseId: string) => {
     history.push(`/course/${courseId}`);
   };
 
   useEffect(() => {
-    fetch("/courseList.json")
-      .then((response) => {
-        if (!response.ok) {
-          throw new Error("Failed to fetch course list");
-        }
-        return response.json();
-      })
-      .then((data) => {
-        // Convert the object to an array using Object.values.
-        setCourses(Object.values(data));
-        setLoading(false);
-      })
-      .catch((error) => {
-        console.error("Error fetching course list:", error);
-        setLoading(false);
-      });
+    const cachedCourses = localStorage.getItem("courses");
+    if (cachedCourses) {
+      setCourses(JSON.parse(cachedCourses));
+      setLoading(false);
+    } else {
+      fetch("/courseList.json")
+        .then((response) => {
+          if (!response.ok) {
+            throw new Error("Failed to fetch course list");
+          }
+          return response.json();
+        })
+        .then((data) => {
+          const coursesArray = Object.values(data);
+          setCourses(coursesArray);
+          localStorage.setItem("courses", JSON.stringify(coursesArray));
+          setLoading(false);
+        })
+        .catch((error) => {
+          console.error("Error fetching course list:", error);
+          setLoading(false);
+        });
+    }
   }, []);
+
+  const validateEmail = async () => {
+    const { exists, error, user } = await getUserByEmail(email);
+
+    if (!exists) {
+      setError(error || "Email validation failed.");
+    } else {
+      console.log('user: ', user)
+      localStorage.setItem("user", JSON.stringify(user));
+      setIsCardOpen(false);
+      setError("");
+    }
+  };
 
   if (loading) {
     return (
@@ -43,23 +67,36 @@ const LandingPage: React.FC = () => {
 
   return (
     <IonPage>
-      <IonContent className="p-6 bg-gradient-to-b from-purple-50 via-pink-50 to-white">
+      <IonContent className="p-6 bg-gradient-to-b from-purple-50 via-pink-50 to-white relative">
+        {isCardOpen && (
+          <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-40">
+            <div className="bg-white p-6 rounded-lg shadow-lg w-96 text-center z-50">
+              <h3 className="text-xl font-semibold mb-4">Enter Your Email</h3>
+              <input
+                type="email"
+                placeholder="Enter your email"
+                className="w-full p-2 border rounded-lg mb-2"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+              />
+              {error && <p className="text-red-500 text-sm mb-2">{error}</p>}
+              <button className="w-full bg-indigo-600 text-white py-2 rounded-lg" onClick={validateEmail}>
+                Submit
+              </button>
+            </div>
+          </div>
+        )}
+
         <div className="flex flex-col items-center space-y-8 pt-8 p-4">
           <div className="text-center space-y-2">
             <div className="w-12 mx-auto">
-              <img
-                src="/src/assets/sgv_logo.png" 
-                alt="SGV Institute Logo"
-                className="w-full logo"
-              />
-            </div> 
+              <img src="/src/assets/sgv_logo.png" alt="SGV Institute Logo" className="w-full logo" />
+            </div>
             <h2 className="text-3xl font-bold">SGV FSO Institute</h2>
-            <p>
-              SGV FSO Institute offers a variety of courses to elevate your skills and knowledge.
-            </p>
+            <p>SGV FSO Institute offers a variety of courses to elevate your skills and knowledge.</p>
           </div>
 
-          <div className="w-full max-w-md">
+          <div className={`w-full max-w-md transition-opacity duration-300 ${isCardOpen ? "pointer-events-none opacity-40" : ""}`}>
             <IonSearchbar placeholder="Search courses..." className="mb-4" />
           </div>
 
@@ -69,14 +106,8 @@ const LandingPage: React.FC = () => {
               {courses.map((course) => (
                 <div key={course.courseId} className="bg-white p-4 rounded-lg shadow-lg">
                   <div className="flex items-center space-x-4">
-                    <div
-                      className={`w-12 h-12 ${course.bgColor} rounded-full flex items-center justify-center`}
-                    >
-                      <img
-                        src={course.icon}
-                        alt={`${course.title} Icon`}
-                        className="w-6 h-6"
-                      />
+                    <div className={`w-12 h-12 ${course.bgColor} rounded-full flex items-center justify-center`}>
+                      <img src={course.icon} alt={`${course.title} Icon`} className="w-6 h-6" />
                     </div>
                     <div>
                       <h4 className="text-lg font-medium text-yellow-600">{course.title}</h4>

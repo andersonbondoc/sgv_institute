@@ -8,29 +8,34 @@ import {
   IonItem,
 } from "@ionic/react";
 import { useHistory } from "react-router-dom";
+import { validateVoucher } from "../queries/voucherQueries";
 
 const VoucherCard = ({ onClose }: any) => {
   const history = useHistory();
   const [voucherError, setVoucherError] = useState("");
   const voucherInputRef = useRef("");
 
-  const validVouchers = [
-    process.env.VOUCHER_1,
-    process.env.VOUCHER_2,
-    process.env.VOUCHER_3,
-    process.env.VOUCHER_4,
-    process.env.VOUCHER_5,
-  ];
+  const handleApply = async () => {
+    const voucherCode = voucherInputRef.current;
+    if (!voucherCode) {
+      setVoucherError("Please enter a voucher code.");
+      return;
+    }
 
-  const handleApply = () => {
-    if (validVouchers.includes(voucherInputRef.current)) {
+    const storedUser = localStorage.getItem("user");
+    if (!storedUser) {
+      setVoucherError("User not found. Please log in again.");
+      return;
+    }
+    const user = JSON.parse(storedUser);
+    const userId = user.userid;
+    const result = await validateVoucher(voucherCode, userId);
+    if (!result.valid) {
+      setVoucherError(result.message);
+    } else {
       localStorage.setItem("isCorrectVoucher", "true");
       setVoucherError("");
       onClose();
-    } else {
-      setVoucherError(
-        "The voucher you entered is incorrect or does not exist."
-      );
     }
   };
 
@@ -47,26 +52,6 @@ const VoucherCard = ({ onClose }: any) => {
           Enter Voucher Code
         </IonCardHeader>
         <IonCardContent>
-          {/* <IonItem
-            style={{
-              "--background": "#e5e7eb",
-            }}
-          >
-            <IonInput
-              label="Floating label"
-              labelPlacement="floating"
-              placeholder="Enter text"
-              style={{
-                backgroundColor: "#e5e7eb", // Light gray
-                padding: "8px",
-                border: "none",
-                borderRadius: "4px",
-                width: "100%",
-                color: "black",
-              }}
-            />
-          </IonItem> */}
-
           <IonItem
             style={{
               "--background": "#e5e7eb",
@@ -84,10 +69,9 @@ const VoucherCard = ({ onClose }: any) => {
                   setVoucherError(""); // Clear error when input is cleared
                 }
               }}
-              className=" p-2 rounded-md w-full mb-4 focus:outline-none focus:ring-2 focus:ring-yellow-200 text-sm text-black"
+              className="p-2 rounded-md w-full mb-4 focus:outline-none focus:ring-2 focus:ring-yellow-200 text-sm text-black"
             ></IonInput>
           </IonItem>
-
           {voucherError && (
             <p className="text-red-600 text-center mt-2 text-sm">
               {voucherError}
@@ -98,16 +82,15 @@ const VoucherCard = ({ onClose }: any) => {
               fill="solid"
               color="default"
               onClick={handleCancel}
-              className="w-24 text-sm font-medium text-yellow-600  rounded-md transition-all duration-200 hover:bg-gray-100 hover:border-yellow-600"
+              className="w-24 text-sm font-medium text-yellow-600 rounded-md transition-all duration-200 hover:bg-gray-100 hover:border-yellow-600"
             >
               Cancel
             </IonButton>
-
             <IonButton
               fill="solid"
               color="warning"
               onClick={handleApply}
-              className="w-24 text-sm font-medium text-white  rounded-md transition-all duration-200 hover:!bg-yellow-600 active:opacity-80"
+              className="w-24 text-sm font-medium text-white rounded-md transition-all duration-200 hover:!bg-yellow-600 active:opacity-80"
             >
               Apply
             </IonButton>
