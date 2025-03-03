@@ -4,6 +4,9 @@ import { arrowBack, arrowForward, closeCircle } from "ionicons/icons";
 import { motion } from "framer-motion";
 import { IonProgressBar } from "@ionic/react";
 import PreExamPage from "./PreExamination";
+import PosExamination from "./PosExamination";
+import { saveExamResult } from "../queries/examResults";
+import ExamResultCard from "./ExamResultCard";
 
 interface CourseContentSectionProps {
   moduleId: string;
@@ -24,6 +27,8 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
     useState<boolean>(false);
   const [retryCount, setRetryCount] = useState(0); // Track retry count
   const [isAnswerShown, setIsAnswerShown] = useState(false);
+  const [isHidePrevNextButton, setHidePrevNextButton] = useState(false);
+  const [isExamFinished, setExamFinished] = useState(false);
 
   useEffect(() => {
     const fileMapping: Record<string, string> = {
@@ -69,8 +74,58 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
   const currentStep = currentSectionIndex + 1;
 
   const isAnswerSelected = selectedAnswer.length > 0;
+  const renderPageColtwoContent = () => {
+    return (
+      <>
+        <div className="text-2xl text-yellow-500 font-bold mb-6">
+          {currentSection.title}
+        </div>
+        <div className="grid grid-cols-2 gap-2 ">
+          <div
+            className="prose"
+            dangerouslySetInnerHTML={{ __html: currentSection.col1 }}
+          />
+
+          <div
+            className="prose"
+            dangerouslySetInnerHTML={{ __html: currentSection.col2 }}
+          />
+        </div>
+      </>
+    );
+  };
+
+  const renderPageColthreeContent = () => {
+    return (
+      <>
+        <div className="text-2xl text-yellow-500 font-bold mb-6">
+          {currentSection.title}
+        </div>
+        <div className="grid grid-cols-3 gap-3 ">
+          <div
+            className="prose"
+            dangerouslySetInnerHTML={{ __html: currentSection.col1 }}
+          />
+          <div
+            className="prose"
+            dangerouslySetInnerHTML={{ __html: currentSection.col2 }}
+          />
+          <div
+            className="prose"
+            dangerouslySetInnerHTML={{ __html: currentSection.col3 }}
+          />
+        </div>
+      </>
+    );
+  };
 
   const handleNext = () => {
+    const isInExamination = localStorage.getItem("isExamination");
+    if (isInExamination === "true") {
+      setHidePrevNextButton(true);
+    } else {
+      setHidePrevNextButton(false);
+    }
     if (currentSectionIndex < sections.length - 1) {
       setSelectedAnswer([]);
       setFeedback(null);
@@ -85,6 +140,10 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
   };
 
   const handleBack = () => {
+    const isInExamination = localStorage.getItem("isExamination");
+    if (isInExamination === "true") {
+      setHidePrevNextButton(true);
+    }
     if (currentSectionIndex > 0) {
       setSelectedAnswer([]);
       setFeedback(null);
@@ -134,7 +193,55 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
     setSelectedAnswer([]);
     setFeedback(null);
   };
+  const isExam =
+    currentSection?.title === "Module Pre-Examination" ||
+    currentSection?.title === "Module Post-Examination";
+  const handleFinishModule = async () => {
+    console.log("trigger");
+    console.log(isExam);
+    const examModule = sections.find(
+      (section) => section.title === currentSection?.title
+    );
+    console.log(examModule);
+    if (!examModule) return;
 
+    const exam = examModule.exams[0];
+    const examId = exam.exam_id;
+    const examTitle = exam.title;
+
+    const totalQuestion = examModule.exams.flatMap(
+      (exam: any) => exam.questions
+    ).length;
+
+    const storedUser = localStorage.getItem("user");
+    if (!storedUser) {
+      console.error("User not found in localStorage");
+      return;
+    }
+    const user = JSON.parse(storedUser);
+    const userId = user.userid;
+
+    const examScoreStr = localStorage.getItem("examScore") || "0";
+    const examScore = parseInt(examScoreStr, 10);
+    const percentage = ((examScore / totalQuestion) * 100).toFixed(2);
+
+    const { data, error } = await saveExamResult(
+      examTitle,
+      userId,
+      examId,
+      totalQuestion,
+      parseFloat(percentage)
+    );
+
+    if (error) {
+      console.error("Failed to save exam result:", error);
+    } else {
+      console.log("Exam result saved successfully:", data);
+    }
+    handleNext();
+  };
+
+  console.log("currentSection.title: ", currentSection?.title);
   return (
     <div>
       <div className="flex justify-end">
@@ -167,163 +274,186 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
               className={
                 currentSection.layout === "col-1"
                   ? "grid grid-cols-1 gap-6 items-center items-center justify-items-center"
-                  : "grid grid-cols-1 md:grid-cols-2 gap-6 items-center"
+                  : ""
               }
             >
-              {currentSection.image && (
-                <div className="flex justify-center">
-                  <img
-                    src={currentSection.image}
-                    alt={currentSection.title}
-                    className="rounded-lg"
-                  />
-                </div>
-              )}
-
-              <div>
-                <div className="text-2xl text-yellow-500 font-bold mb-6">
-                  {currentSection.title}
-                </div>
-                <div className="text-2xl text-yellow-500 font-bold mb-6">
-                  {currentSection.subheader}
-                </div>
-
-                <div
-                  className="prose mt-4"
-                  dangerouslySetInnerHTML={{ __html: currentSection.body }}
-                />
-
-                {currentSection.list1 && (
-                  <ul className="list-disc list-inside mt-4">
-                    {currentSection.list1
-                      .split(";")
-                      .map((item: string, index: number) => (
-                        <li className="text-base/8" key={`list1-${index}`}>
-                          {item.trim()}
-                        </li>
-                      ))}
-                  </ul>
-                )}
-
-                {currentSection.numberedlist && (
-                  <ol className="list-disc list-inside text-2xl mt-4">
-                    {currentSection.numberedlist
-                      .split(";")
-                      .map((item: string, index: number) => (
-                        <li
-                          className="text-base/8"
-                          key={`numberedlist-${index}`}
-                        >
-                          {item.trim()}
-                        </li>
-                      ))}
-                  </ol>
-                )}
-
-                {currentSection.title === "Knowledge Check" &&
-                  currentSection.q_selection && (
-                    <div className="mt-6">
-                      <div className="space-y-4">
-                        {Object.entries(currentSection.q_selection[0]).map(
-                          ([key, value]) => (
-                            <label
-                              key={key}
-                              className="flex items-center space-x-3 p-3 border rounded-lg cursor-pointer hover:bg-gray-100"
-                            >
-                              {currentSection.q_field_type ===
-                              "single_select" ? (
-                                <input
-                                  type="radio"
-                                  name="knowledge-check"
-                                  value={key}
-                                  checked={selectedAnswer.includes(key)}
-                                  onChange={(e) =>
-                                    !isAnswerShown &&
-                                    handleAnswerChange(
-                                      e.target.value,
-                                      e.target.checked
-                                    )
-                                  }
-                                  disabled={isAnswerShown} // Disable if answer is shown
-                                  className="text-indigo-600 border-gray-300 focus:ring-indigo-500"
-                                />
-                              ) : (
-                                <input
-                                  type="checkbox"
-                                  name="knowledge-check"
-                                  value={key}
-                                  checked={selectedAnswer.includes(key)}
-                                  onChange={(e) =>
-                                    !isAnswerShown &&
-                                    handleAnswerChange(
-                                      e.target.value,
-                                      e.target.checked
-                                    )
-                                  }
-                                  disabled={isAnswerShown} // Disable if answer is shown
-                                  className="text-indigo-600 border-gray-300 focus:ring-indigo-500"
-                                />
-                              )}
-                              <span className="text-lg text-gray-800">
-                                {String(value)}
-                              </span>
-                            </label>
-                          )
-                        )}
-                      </div>
-                      <div className="mt-8">
-                        {/* Show "Show Answer" button when an answer is selected but feedback is not available */}
-                        {!feedback && isAnswerSelected && (
-                          <button
-                            onClick={handleShowAnswer}
-                            className="w-full py-3 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold rounded-lg shadow-md transition-colors duration-300"
-                          >
-                            Show Answer
-                          </button>
-                        )}
-
-                        {/* Show "Retry" button only if the answer is wrong and retries left */}
-                        {feedback &&
-                          feedback.includes("❌") &&
-                          isAnswerSelected &&
-                          retryCount < 3 && (
-                            <button
-                              onClick={handleRetry}
-                              className="w-full py-3 bg-yellow-500 hover:bg-yellow-600 text-white font-semibold rounded-lg shadow-md transition-colors duration-300"
-                            >
-                              Retry
-                            </button>
-                          )}
-
-                        {/* Display feedback message */}
-                        {feedback && (
-                          <p className="text-3xl font-semibold mt-10">
-                            {feedback}
-                          </p>
-                        )}
-                      </div>
+              {currentSection.layout === "col-2" ? (
+                renderPageColtwoContent()
+              ) : currentSection.layout === "col-3" ? (
+                renderPageColthreeContent()
+              ) : (
+                <>
+                  {currentSection.image && (
+                    <div className="flex justify-center">
+                      <img
+                        src={currentSection.image}
+                        alt={currentSection.title}
+                        className="rounded-lg"
+                      />
                     </div>
                   )}
-              </div>
+
+                  <div>
+                    <div className="text-2xl text-yellow-500 font-bold mb-6">
+                      {currentSection.title}
+                    </div>
+                    <div className="text-2xl text-yellow-500 font-bold mb-6">
+                      {currentSection.subheader}
+                    </div>
+
+                    <div
+                      className="prose mt-4"
+                      dangerouslySetInnerHTML={{ __html: currentSection.body }}
+                    />
+
+                    {currentSection.list1 && (
+                      <ul className="list-disc list-inside mt-4">
+                        {currentSection.list1
+                          .split(";")
+                          .map((item: string, index: number) => (
+                            <li className="text-base/8" key={`list1-${index}`}>
+                              {item.trim()}
+                            </li>
+                          ))}
+                      </ul>
+                    )}
+
+                    {currentSection.numberedlist && (
+                      <ol className="list-disc list-inside text-2xl mt-4">
+                        {currentSection.numberedlist
+                          .split(";")
+                          .map((item: string, index: number) => (
+                            <li
+                              className="text-base/8"
+                              key={`numberedlist-${index}`}
+                            >
+                              {item.trim()}
+                            </li>
+                          ))}
+                      </ol>
+                    )}
+
+                    {currentSection.title === "Knowledge Check" &&
+                      currentSection.q_selection && (
+                        <div className="mt-6">
+                          <div className="space-y-4">
+                            {Object.entries(currentSection.q_selection[0]).map(
+                              ([key, value]) => (
+                                <label
+                                  key={key}
+                                  className="flex items-center space-x-3 p-3 border rounded-lg cursor-pointer hover:bg-gray-100"
+                                >
+                                  {currentSection.q_field_type ===
+                                  "single_select" ? (
+                                    <input
+                                      type="radio"
+                                      name="knowledge-check"
+                                      value={key}
+                                      checked={selectedAnswer.includes(key)}
+                                      onChange={(e) =>
+                                        !isAnswerShown &&
+                                        handleAnswerChange(
+                                          e.target.value,
+                                          e.target.checked
+                                        )
+                                      }
+                                      disabled={isAnswerShown} // Disable if answer is shown
+                                      className="text-indigo-600 border-gray-300 focus:ring-indigo-500"
+                                    />
+                                  ) : (
+                                    <input
+                                      type="checkbox"
+                                      name="knowledge-check"
+                                      value={key}
+                                      checked={selectedAnswer.includes(key)}
+                                      onChange={(e) =>
+                                        !isAnswerShown &&
+                                        handleAnswerChange(
+                                          e.target.value,
+                                          e.target.checked
+                                        )
+                                      }
+                                      disabled={isAnswerShown} // Disable if answer is shown
+                                      className="text-indigo-600 border-gray-300 focus:ring-indigo-500"
+                                    />
+                                  )}
+                                  <span className="text-lg text-gray-800">
+                                    {String(value)}
+                                  </span>
+                                </label>
+                              )
+                            )}
+                          </div>
+                          <div className="mt-8">
+                            {/* Show "Show Answer" button when an answer is selected but feedback is not available */}
+                            {!feedback && isAnswerSelected && (
+                              <button
+                                onClick={handleShowAnswer}
+                                className="w-full py-3 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold rounded-lg shadow-md transition-colors duration-300"
+                              >
+                                Show Answer
+                              </button>
+                            )}
+
+                            {/* Show "Retry" button only if the answer is wrong and retries left */}
+                            {feedback &&
+                              feedback.includes("❌") &&
+                              isAnswerSelected &&
+                              retryCount < 3 && (
+                                <button
+                                  onClick={handleRetry}
+                                  className="w-full py-3 bg-yellow-500 hover:bg-yellow-600 text-white font-semibold rounded-lg shadow-md transition-colors duration-300"
+                                >
+                                  Retry
+                                </button>
+                              )}
+
+                            {/* Display feedback message */}
+                            {feedback && (
+                              <p className="text-3xl font-semibold mt-10">
+                                {feedback}
+                              </p>
+                            )}
+                          </div>
+                        </div>
+                      )}
+                  </div>
+                </>
+              )}
             </div>
             {currentSection.title === "Module Pre-Examination" &&
-              currentSection.exams && <PreExamPage sections={currentSection} />}
-
-            <div className="flex justify-between mt-6 px-4 pb-4">
-              <button
-                onClick={handleBack}
-                disabled={currentSectionIndex === 0}
-                className="w-12 h-12 bg-gray-300 rounded-full flex items-center justify-center"
-              >
-                <IonIcon icon={arrowBack} />
-              </button>
-              <button
-                onClick={handleNext}
-                className="w-12 h-12 bg-indigo-700 text-white rounded-full flex items-center justify-center"
-              >
-                <IonIcon icon={arrowForward} />
-              </button>
-            </div>
+              currentSection.exams && (
+                <PreExamPage
+                  sections={currentSection}
+                  handleFinishQuestionButton={handleFinishModule}
+                />
+              )}
+            {currentSection.title === "Module Post-Examination" &&
+              currentSection.exams && (
+                <PosExamination
+                  sections={currentSection}
+                  handleFinishQuestionButton={handleFinishModule}
+                />
+              )}
+            {!isExam && (
+              <>
+                <div className="flex justify-between mt-6 px-4 pb-4">
+                  <button
+                    onClick={handleBack}
+                    disabled={currentSectionIndex === 0}
+                    className="w-12 h-12 bg-gray-300 rounded-full flex items-center justify-center"
+                  >
+                    <IonIcon icon={arrowBack} />
+                  </button>
+                  <button
+                    onClick={handleNext}
+                    className="w-12 h-12 bg-indigo-700 text-white rounded-full flex items-center justify-center"
+                  >
+                    <IonIcon icon={arrowForward} />
+                  </button>
+                </div>
+              </>
+            )}
           </IonCard>
         </motion.div>
       ) : (
