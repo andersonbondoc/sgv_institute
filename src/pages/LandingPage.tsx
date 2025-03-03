@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { IonPage, IonContent, IonSearchbar, IonIcon } from "@ionic/react";
 import { useHistory } from "react-router-dom";
-import { arrowForwardCircleOutline } from "ionicons/icons";
+import { arrowForwardCircleOutline, enterOutline } from "ionicons/icons";
 import { getUserByEmail } from "../queries/userQueries";
 
 const LandingPage: React.FC = () => {
@@ -86,20 +86,20 @@ const LandingPage: React.FC = () => {
               >
                 ✕
               </button>
-              <h3 className="text-xl font-semibold mb-4">Enter Your Email</h3>
+              <h3 className="text-xl font-semibold mb-4">Please enter your email:</h3>
               <input
                 type="email"
-                placeholder="Enter your email"
+                placeholder="juandelacruz@bank.com.ph"
                 className="w-full p-2 border rounded-lg mb-2"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
               />
               {error && <p className="text-red-500 text-sm mb-2">{error}</p>}
               <button
-                className="w-full bg-indigo-600 text-white py-2 rounded-lg"
+                className="mt-8 mb-8 w-full bg-gray-700 text-white py-2 rounded-lg"
                 onClick={validateEmail}
               >
-                Submit
+                <IonIcon icon={enterOutline} size="small" /> Login
               </button>
             </div>
           </div>
@@ -118,17 +118,22 @@ const LandingPage: React.FC = () => {
             <p>
               SGV FSO Institute offers a variety of courses to elevate your
               skills and knowledge.{" "}
-              {!isLogin && (
-                <span
-                  onClick={handleLogin}
-                  className="font-bold text-blue-800 cursor-pointer"
-                >
-                  Please Login to continue
-                </span>
-              )}
             </p>
           </div>
 
+          <div>
+              <button>
+                {!isLogin && (
+                  <span
+                    onClick={handleLogin}
+                    className="px-6 py-2 bg-gray-700 text-white rounded-lg flex items-center gap-2 cursor-pointer"
+                  >
+                    <IonIcon icon={enterOutline} size="small" /> Login
+                  </span>
+                )}
+              </button>
+            </div>
+            
           <div
             className={`w-full max-w-md transition-opacity duration-300 ${
               isCardOpen ? "pointer-events-none opacity-40" : ""
