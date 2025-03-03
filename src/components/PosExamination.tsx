@@ -20,15 +20,15 @@ const PreExamPage: React.FC<PreExamPageProps> = ({
   useEffect(() => {
     const sectionsArray = Array.isArray(sections) ? sections : [sections];
     if (sectionsArray.length > 0) {
-      const preExamSection = sectionsArray.find(
-        (section) => section.title === "Module Pre-Examination"
+      const postExamSection = sectionsArray.find(
+        (section) => section.title === "Module Post-Examination"
       );
-      const totalQuestion = preExamSection.exams.flatMap(
+      const totalQuestion = postExamSection.exams.flatMap(
         (exam: any) => exam.questions
       ).length;
       setTotalQuestion(totalQuestion);
-      if (preExamSection) {
-        const questions = preExamSection.exams.flatMap((exam: any) =>
+      if (postExamSection) {
+        const questions = postExamSection.exams.flatMap((exam: any) =>
           exam.questions.map((question: any) => ({
             text: question.q_statement,
             options: Object.entries(question.q_selection[0]).map(
@@ -117,7 +117,7 @@ const PreExamPage: React.FC<PreExamPageProps> = ({
     }
     localStorage.setItem("examScore", score.toString());
     setShowResult(true);
-    handleFinishQuestionButton();
+    // handleFinishQuestionButton();
   };
 
   const handleRetryExam = () => {
@@ -197,16 +197,16 @@ const PreExamPage: React.FC<PreExamPageProps> = ({
           </div>
         )}
       </div>
-      {/* {showResult && (
+      {showResult && (
         <ExamResultCard
           show={showResult}
           onClose={() => setShowResult(false)}
           score={score}
           totalQuestion={totalQuestion}
-          title="Pre-Examination"
+          title="Post-Examination"
           onRetry={handleRetryExam}
         />
-      )} */}
+      )}
     </div>
   );
 };

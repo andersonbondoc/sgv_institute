@@ -2,16 +2,50 @@ import React, { useState, useEffect } from "react";
 import { IonPage, IonContent, IonSearchbar, IonIcon } from "@ionic/react";
 import { useHistory } from "react-router-dom";
 import { arrowForwardCircleOutline } from "ionicons/icons";
-import { getUserByEmail } from "../queries/userQueries";
+import { getUserByEmail, supabaseSendEmail } from "../queries/userQueries";
+import { ToastError, ToastSuccess } from "../components/Toast";
+import { supabase } from "../queries/supabaseClient";
 
 const LandingPage: React.FC = () => {
   const history = useHistory();
   const [courses, setCourses] = useState<any[]>([]);
   const [loading, setLoading] = useState(true);
   const [email, setEmail] = useState("");
-  const [error, setError] = useState("");
+  const [successMessage, setSuccessMessage] = useState<string>("");
+  const [showSuccessMessage, setShowSuccessMessage] = useState<boolean>(false);
+  const [errorMessage, setErrorMessage] = useState<string>("");
+  const [showErrorMessage, setShowErrorMessage] = useState<boolean>(false);
   const [isCardOpen, setIsCardOpen] = useState(false);
   const [isLogin, setIsLogin] = useState(!!localStorage.getItem("user"));
+  useEffect(() => {
+    const queryParams = new URLSearchParams(location.search);
+    const token = queryParams.get("token");
+    console.log("Full URL:", location.href);
+    console.log("Token from URL:", token);
+    if (token) {
+      supabase.auth
+        .signInWithOtp({ email: token })
+        .then(({ data, error }) => {
+          if (error) {
+            console.error("Login failed:", error);
+            errorToast("Login failed. Please try again.", 3000);
+          } else {
+            console.log("User Data:", data.user);
+            if (data.user) {
+              localStorage.setItem("user", JSON.stringify(data.user));
+              setLoading(false);
+            }
+          }
+        })
+        .catch((error) => {
+          console.error("Error during login:", error);
+          errorToast("An error occurred during login.", 3000);
+        });
+    } else {
+      errorToast("Invalid or expired link.", 3000);
+      setLoading(false);
+    }
+  }, [location.search, history]);
 
   const handleTakeCourse = (courseId: string) => {
     const isLogin = localStorage.getItem("user");
@@ -21,6 +55,7 @@ const LandingPage: React.FC = () => {
       setIsCardOpen(true);
     }
   };
+
   useEffect(() => {
     const cachedCourses = localStorage.getItem("courses");
     if (cachedCourses) {
@@ -47,17 +82,47 @@ const LandingPage: React.FC = () => {
     }
   }, []);
 
+  const successToast = (message: string, timeout: number) => {
+    setSuccessMessage(message);
+    setShowSuccessMessage(true);
+
+    setTimeout(() => {
+      setShowSuccessMessage(false);
+      setSuccessMessage("");
+    }, timeout);
+  };
+
+  const errorToast = (message: string, timeout: number) => {
+    setErrorMessage(message);
+    setShowErrorMessage(true);
+    setTimeout(() => {
+      setShowErrorMessage(false);
+      setErrorMessage("");
+    }, timeout);
+  };
   const validateEmail = async () => {
     const { exists, error, user } = await getUserByEmail(email);
 
     if (!exists) {
-      setError(error || "Email validation failed.");
+      errorToast(error || "Email validation failed.", 3000);
+      setSuccessMessage("");
     } else {
-      console.log("user: ", user);
-      localStorage.setItem("user", JSON.stringify(user));
       setIsCardOpen(false);
-      setError("");
       setIsLogin(true);
+
+      const sendEmail = await supabaseSendEmail(email);
+      if (!sendEmail.success) {
+        errorToast(sendEmail.error || "Failed to send magic link.", 3000);
+        setSuccessMessage("");
+      } else {
+        localStorage.setItem("user", JSON.stringify(user));
+        successToast(
+          "Email validated successfully. Please check your inbox to log in.",
+          3000
+        );
+        setIsCardOpen(false);
+        setIsLogin(true);
+      }
     }
   };
 
@@ -74,9 +139,12 @@ const LandingPage: React.FC = () => {
   const handleLogin = () => {
     setIsCardOpen(true);
   };
+
   return (
     <IonPage>
       <IonContent className="p-6 bg-gradient-to-b from-purple-50 via-pink-50 to-white relative">
+        <ToastSuccess message={successMessage} show={showSuccessMessage} />
+        <ToastError message={errorMessage} show={showErrorMessage} />
         {isCardOpen && (
           <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-40">
             <div className="bg-white p-6 rounded-lg shadow-lg w-96 text-center z-50 relative">
@@ -94,7 +162,6 @@ const LandingPage: React.FC = () => {
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
               />
-              {error && <p className="text-red-500 text-sm mb-2">{error}</p>}
               <button
                 className="w-full bg-indigo-600 text-white py-2 rounded-lg"
                 onClick={validateEmail}

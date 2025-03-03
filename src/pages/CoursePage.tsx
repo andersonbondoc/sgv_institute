@@ -55,7 +55,6 @@ const CoursePage: React.FC = () => {
   }, []);
 
   const handleBackButton = () => {
-    localStorage.removeItem("isCorrectVoucher");
     setModalOpen(false);
     history.goBack();
   };
