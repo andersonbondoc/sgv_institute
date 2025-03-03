@@ -41,10 +41,11 @@ const LandingPage: React.FC = () => {
           console.error("Error during login:", error);
           errorToast("An error occurred during login.", 3000);
         });
-    } else {
-      errorToast("Invalid or expired link.", 3000);
-      setLoading(false);
     }
+    // else {
+    //   errorToast("Invalid or expired link.", 3000);
+    //   setLoading(false);
+    // }
   }, [location.search, history]);
 
   const handleTakeCourse = (courseId: string) => {
