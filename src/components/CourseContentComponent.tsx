@@ -24,7 +24,6 @@ const CourseContentComponent: React.FC = () => {
         const course = data[courseId];
         if (course && course.modules) {
           setModules(course.modules);
-          
         } else {
           console.warn(`No modules found for course ${courseId}`);
         }
@@ -35,10 +34,14 @@ const CourseContentComponent: React.FC = () => {
         setLoading(false);
       });
   }, [courseId]);
-  console.log(modules)
+  console.log(modules);
   const handleTakeExam = () => {
     history.push(`/course/${courseId}/exam`);
     window.location.reload();
+  };
+
+  const handleSelectedModule = (module: any) => {
+    setSelectedModule(module.moduleId);
   };
 
   if (loading) {
@@ -67,7 +70,7 @@ const CourseContentComponent: React.FC = () => {
           {modules.map((module) => (
             <IonCard
               key={module.moduleId}
-              onClick={() => setSelectedModule(module.moduleId)}
+              onClick={() => handleSelectedModule(module)}
               className={`bg-slate-100 cursor-pointer hover:shadow-xl transition duration-300 rounded-lg`}
             >
               <IonCardContent className="flex items-center space-x-4">
