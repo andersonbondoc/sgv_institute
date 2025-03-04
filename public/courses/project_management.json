@@ -1599,7 +1599,7 @@
         "title": "Module Introduction",
         "subheader": "Welcome to the WBL (Web-Based Learning) module on Project Risk Management!",
         "body": "<p>This module is designed to deliver an understanding of the types of risks and the process of identifying, analyzing, handling and monitoring risks in managing projects.</p>",
-        "image": "src/assets/img/project_management/risk_management/ModuleIntroduction.jpg"
+        "image": "src/assets/img/general images/ModuleIntroduction.jpg"
       },
       {
         "order": 2,
@@ -1612,7 +1612,7 @@
             "questions": [
               {
                 "q_number": 1,
-                "q_statement": "<p>Which risk strategy is used to reduce the probability and/or impact of a risk event?</p></p>",
+                "q_statement": "<p>Which risk strategy is used to reduce the probability and/or impact of a risk event?</p>",
                 "q_field_type": "single_select",
                 "q_selection": [
                   {
@@ -1626,7 +1626,7 @@
               },
               {
                 "q_number": 2,
-                "q_statement": "<p>BSFIs are required to establish a robust ITRM system covering key components, which are?</p><br/> <p>Select all that apply",
+                "q_statement": "<p>BSFIs are required to establish a robust ITRM system covering key components, which are? (Select all that apply)</p>",
                 "q_field_type": "multi_select",
                 "q_selection": [
                   {
@@ -1682,7 +1682,7 @@
               },
               {
                 "q_number": 6,
-                "q_statement": "<p>A risk mitigation plan must include:</p><br/> <p>Select all that apply.</p>",
+                "q_statement": "<p>A risk mitigation plan must include:(Select all that apply)</p>",
                 "q_field_type": "multi_select",
                 "q_selection": [
                   {
@@ -1696,7 +1696,7 @@
               },
               {
                 "q_number": 7,
-                "q_statement": "<p>Which of the following is considered an internal risk?</p><br/> <p>Select all that apply</p>",
+                "q_statement": "<p>Which of the following is considered an internal risk?(Select all that apply)</p>",
                 "q_field_type": "multi_select",
                 "q_selection": [
                   {
@@ -1717,7 +1717,7 @@
         "order": 3,
         "title": "Module Credit and Completion Requirements and Learning Objective",
         "body": "<h2>Credit and Completion Requirements</h2> <ul> <li>To receive proper learning credit and achieve the learning objectives, you must not skip any screens.</li> <li>Complete all interactions.</li> <li>Complete all practice questions.</li> <li>Pass the final assessment with at least 70%</li> <li>While completing the assessment, you are welcome to refer to the content of this course as much as you need, but you must complete the assessment alone. Using answers received from others, including any form of artificial intelligence, to complete an assessment is cheating.</li> </ul><br/> <p>Please note that this learning will expire in April 25,2025. You must complete and pass all of the scored portions of this course within this period, or your related learning progress will be removed.</p> <h2>Learning Objective</h2> <p>Upon successful completion of the course, you will be able to:</p> <ul> <li>Define project risk and identify various types of risks that may occur in a project.</li> <li>Recognize the risk management process and explore tools and frameworks relevant to each step of the process.</li> <li>Gain a full understanding of Quality Assurance and its benefits and importance in managing digital transformation projects, specifically in the Risk Monitoring phase.</li> <li>Obtain knowledge on the existing Philippine regulations in risk management systems to get ahead of identifying and monitoring possible risks in projects.</li>",
-        "image": "src/assets/img/project_management/risk_management/CreditCompletionLearningObjectives.jpg"
+        "image": "src/assets/img/general images/CreditCompletionLearningObjectives.jpg"
       },
       {
         "order": 4,
@@ -1765,7 +1765,7 @@
         "order": 10,
         "title": "Knowledge Check",
         "body": "This is a type of risk where a completed project fails to perform as intended.",
-        "image": "src/ssets/img/project_management/risk_management/KnowledgeCheck.jpg",
+        "image": "src/assets/img/general images/KnowledgeCheck.jpg",
         "q_field_type": "single_select",
         "q_selection": [
           {
@@ -1779,10 +1779,10 @@
       },
       {
         "order": 11,
-        "title": "Learning Summary",
+        "title": "Lesson Summary",
         "subheader": "Congratulations on completing Lesson 1 of this module!",
         "body": "<p>Now that you have completed this lesson, you should be able to:</p><ul> <li>Define project risk and identify various types of risks that may occur in a project.</li> </ul>",
-        "image": "src/assets/img/project_management/risk_management/LearningSummary.jpg"
+        "image": "src/assets/img/general images/LessonSummary.jpg"
       },
       {
         "order": 12,
@@ -1825,6 +1825,7 @@
         "order": 16,
         "title": "Knowledge Check",
         "body": "Which of the following statements are TRUE about RAID log? (Select all that apply)",
+        "image": "src/assets/img/general images/KnowledgeCheck.jpg",
         "q_field_type": "multi_select",
         "q_selection": [
           {
@@ -1872,6 +1873,7 @@
         "order": 21,
         "title": "Knowledge Check",
         "body": "In assessing risks through the probability impact matrix, which of the following must be primarily prioritized?",
+        "image": "src/assets/img/general images/KnowledgeCheck.jpg",
         "q_field_type": "single_select",
         "q_selection": [
           {
@@ -1896,6 +1898,7 @@
         "order": 23,
         "title": "Knowledge Check",
         "body": "Jaren is currently managing a project. His team was able to identify a list of risks that may occur upon implementation. However, the team was unable to look for any other suitable response strategy to one of its identified risks; therefore, the team decided to stick with the current Project Management plan. What type of risk handling strategy did Jaren’s team employ?",
+        "image": "src/assets/img/general images/KnowledgeCheck.jpg",
         "q_field_type": "single_select",
         "q_selection": [
           {
@@ -1909,10 +1912,10 @@
       },
       {
         "order": 24,
-        "title": "Learning Summary",
+        "title": "Lesson Summary",
         "subheader": "Congratulations on completing Lesson 2 of this module!",
         "body": "<p>Now that you have completed this lesson, you should be able to:</p><ul> <li>Recognize the risk management process and explore tools and frameworks relevant to each step of the process.</li> </ul>",
-        "image": "src/assets/img/project_management/risk_management/LearningSummary.jpg"
+        "image": "src/assets/img/general images/LessonSummary.jpg"
       },
       {
         "order": 25,
@@ -1998,7 +2001,7 @@
         "order": 72,
         "title": "Knowledge Check",
         "body": "Quality controls ensure customer requirements are met before the products and services are delivered. How is the quality controls at the management level commonly grouped? (Select all that apply).",
-        "image": "/src/assets/img/WBLImagePlaceholder.png",
+        "image": "src/assets/img/general images/KnowledgeCheck.jpg",
         "q_field_type": "multi_select",
         "q_selection": [
           {
@@ -2014,10 +2017,10 @@
       },
       {
         "order": 36,
-        "title": "Learning Summary",
+        "title": "Lesson Summary",
         "subheader": "Congratulations on completing Lesson 3 of this module!",
         "body": "<p>Now that you have completed this lesson, you should be able to:</p><ul><li>Gain a full understanding of Quality Assurance and its benefits and importance in managing digital transformation projects, specifically in the Risk Monitoring phase.</li></ul>",
-        "image": "src/assets/img/project_management/risk_management/LearningSummary.jpg"
+        "image": "src/assets/img/general images/LessonSummary.jpg"
       },
       {
         "order": 37,
@@ -2045,13 +2048,13 @@
         "order": 40,
         "title": "Bangko Sentral framework for IT risk supervision",
         "subheader": "Information Technology Risk Management (ITRM)",
-        "body": "<p>Appendices: IT Risk Management Standards and Guidelines</p><ul> <li>IT Audit: “…audit program should address IT risk exposures throughout the organization, including the areas of IT management and strategic planning, IT operations, client/server architecture, local and wide-area networks, telecommunications, physical and information security, electronic products and services, systems development and acquisition, and business continuity planning”</li> <li>Information Security: “…enables BSFIs to remain competitive and relevant as the financial services industry moves towards digital innovation.”</li> <li>Project Management/Development Acquisition and Change Management: “…enterprise-wide and ongoing approach should be formalized in the IT strategic plan to help ensure that all major IT projects are consistent with its overall strategic goals.”</li> <li>IT Operations: “…necessitates the adoption of risk management processes that promote sound and controlled operation of IT environments to ensure that IT operations process and store information in a timely, reliable, secure, and resilient manner.”</li> <li>IT Outsourcing/Vendor Management: “…risks may be realized in a different manner than if the functions were inside resulting in the need for well-structured process to properly manage risks and ensure that the interest of customers will not be compromised.”</li> <li>Electronic Banking, Electronic Payment, Electronic Money and Other Electronic Products and Services: “…the rapid development of electronic capabilities carries risks as well as benefits and it is important that these risks are recognized and managed by BSFIs in a prudent manner to promote safe and secure e-services and operations.”</li> </ul>"
+        "body": "<p>Appendices: IT Risk Management Standards and Guidelines</p> <ul> <li>IT Audit: “…audit program should address IT risk exposures throughout the organization, including the areas of IT management and strategic planning, IT operations, client/server architecture, local and wide-area networks, telecommunications, physical and information security, electronic products and services, systems development and acquisition, and business continuity planning”</li> <li>Information Security: “…enables BSFIs to remain competitive and relevant as the financial services industry moves towards digital innovation.”</li> <li>Project Management/Development Acquisition and Change Management: “…enterprise-wide and ongoing approach should be formalized in the IT strategic plan to help ensure that all major IT projects are consistent with its overall strategic goals.”</li> <li>IT Operations: “…necessitates the adoption of risk management processes that promote sound and controlled operation of IT environments to ensure that IT operations process and store information in a timely, reliable, secure, and resilient manner.”</li> <li>IT Outsourcing/Vendor Management: “…risks may be realized in a different manner than if the functions were inside resulting in the need for well-structured process to properly manage risks and ensure that the interest of customers will not be compromised.”</li> <li>Electronic Banking, Electronic Payment, Electronic Money and Other Electronic Products and Services: “…the rapid development of electronic capabilities carries risks as well as benefits and it is important that these risks are recognized and managed by BSFIs in a prudent manner to promote safe and secure e-services and operations.”</li> </ul>"
       },
       {
         "order": 41,
         "title": "Bangko Sentral framework for IT risk supervision",
         "subheader": "IT Risk Management System (ITRMS)",
-        "body": "<p>BSFIs are required to establish a robust ITRM system covering four key components:</p><ul> <li>IT Governance</li> <ul> <li>Oversight and organization of IT functions</li> <li>IT policies, procedures and standards</li> <li>IT audit</li> <li>Staff competence and training</li> <li>Management Information Systems (MIS)</li> <li>IT risk management function</li> </ul> <li>Risk Identification and Assessment</li> <ul> <li>Begins with the identification of the current and prospective IT risk exposures arising from the institution’s IT environment and related processes.</li> <li>Once management understands the institution’s IT environment and analyzes the risk, it should rank the risks and prioritize its response.</li> <li>Periodic risk assessment process should be done at the enterprise-wide level and an effective monitoring program for the risk mitigation activities should be manifested through mitigation or corrective action plans, assignment of responsibilities and accountability and management reporting.</li> </ul> <li>IT Controls Implementation</li> <ul> <li>BSFI Management should implement satisfactory control practices that address the following as part of its overall IT risk mitigation strategy:</li> <li>Information security</li> <li>Project management/development and acquisition and change management</li> <li>IT operations</li> <li>IT outsourcing/Vendor management</li> <li>Electronic banking, Electronic payments, Electronic money and other Electronic products and services</li> </ul> <li>Risk Measurement and Monitoring</li> <ul> <li>Performance vis-à-vis approved IT strategic plan</li> <li>Performance benchmarks/service levels</li> <li>Quality assurance/quality control</li> <li>Policy Compliance</li> <li>External assessment program</li> </ul> </ul>",
+        "body": "<p>BSFIs are required to establish a robust ITRM system covering four key components:</p> <ul> <li>IT Governance</li> <ul> <li>Oversight and organization of IT functions</li> <li>IT policies, procedures and standards</li> <li>IT audit</li> <li>Staff competence and training</li> <li>Management Information Systems (MIS)</li> <li>IT risk management function</li> </ul> <li>Risk Identification and Assessment</li> <ul> <li>Begins with the identification of the current and prospective IT risk exposures arising from the institution’s IT environment and related processes.</li> <li>Once management understands the institution’s IT environment and analyzes the risk, it should rank the risks and prioritize its response.</li> <li>Periodic risk assessment process should be done at the enterprise-wide level and an effective monitoring program for the risk mitigation activities should be manifested through mitigation or corrective action plans, assignment of responsibilities and accountability and management reporting.</li> </ul> <li>IT Controls Implementation</li> <ul> <li>BSFI Management should implement satisfactory control practices that address the following as part of its overall IT risk mitigation strategy:</li> <li>Information security</li> <li>Project management/development and acquisition and change management</li> <li>IT operations</li> <li>IT outsourcing/Vendor management</li> <li>Electronic banking, Electronic payments, Electronic money and other Electronic products and services</li> </ul> <li>Risk Measurement and Monitoring</li> <ul> <li>Performance vis-à-vis approved IT strategic plan</li> <li>Performance benchmarks/service levels</li> <li>Quality assurance/quality control</li> <li>Policy Compliance</li> <li>External assessment program</li> </ul> </ul>",
         "image": "src/assets/img/projectmanagement/projectriskmanagement/PMFIDS_PM_PRM_order44.JPG"
       },
       {
@@ -2059,7 +2062,7 @@
         "layout": "col-2",
         "title": "AFASA on Risk Management Systems and Controls to Protect Financial Accounts",
         "subheader": "Anti-Financial Scamming Act (AFASA) was signed on July 20, 2024, and took effect on August 13, 2024",
-        "co1": "<h2>Section 6. Responsibility to Protect Access to Client’s Financial Account</h2><ul> <li>Institutions shall ensure that access to clients’ financial accounts is protected by adequate risk management systems and controls</li> <li>Risk management systems and controls must be proportionate and commensurate to the nature, size and complexity of operations.</li> <li>Institutions determined by the BSP to be compliant with the requirements of adequate risk management systems and controls shall not be liable for any loss or damage arising from the offenses under Sections 4 (Prohibited Acts) and Section 5 (Other Offenses).</li> <li>Without prejudice to other liabilities under existing laws and consistent with BSP rules and regulations, institutions shall be liable for restitution of funds to the Account Owners for failure to employ adequate risk management systems and controls, or failure to exercise the highest degree of diligence in preventing loss or damage arising from the offenses under Section 4 and 5.</li> </ul>",
+        "co1": "<h2>Section 6. Responsibility to Protect Access to Client’s Financial Account</h2> <ul> <li>Institutions shall ensure that access to clients’ financial accounts is protected by adequate risk management systems and controls</li> <li>Risk management systems and controls must be proportionate and commensurate to the nature, size and complexity of operations.</li> <li>Institutions determined by the BSP to be compliant with the requirements of adequate risk management systems and controls shall not be liable for any loss or damage arising from the offenses under Sections 4 (Prohibited Acts) and Section 5 (Other Offenses).</li> <li>Without prejudice to other liabilities under existing laws and consistent with BSP rules and regulations, institutions shall be liable for restitution of funds to the Account Owners for failure to employ adequate risk management systems and controls, or failure to exercise the highest degree of diligence in preventing loss or damage arising from the offenses under Section 4 and 5.</li> </ul>",
         "col2": "<h3>Section 4. Prohibited Acts</h3> <p>The following acts shall constitute Financial Account scamming under this Act:</p><br/> <p>(a) Money Muling Activities. A person performing any of the followings acts for the purpose of obtaining, receiving, depositing, transferring, or withdrawing proceeds that are known to be derived from crimes, offenses, or social engineering schemes shall be considered as a money mule:</p> <ul> <li>Using, borrowing or allowing the use of a Financial Account;</li> <li>Opening a Financial Account under a fictitious name or using the identity or identification documents of another;</li> <li>Buying or renting a Financial Account;</li> <li>Selling or lending a Financial Account; or</li> <li>Recruiting, enlisting, contracting, hiring, utilizing, or inducing any person to perform the acts mentioned in items 1 to 4 of this subsection.</li> </ul> <p>(b) Social Engineering Schemes. A social engineering scheme is committed by a person who obtains sensitive identifying information of another person, through deception or fraud, resulting in unauthorized access and control over the person's Financial Account, by performing any of the following acts:</p> <ul> <li>Misrepresenting oneself as acting on behalf of an Institution, or making false representations to solicit another person's sensitive identifying information; or</li> <li>Using electronic communications to obtain another person's sensitive identifying information.</li> </ul> <p>(c) Economic Sabotage. The prohibited acts under Section 4(a) and (b) shall be considered as economic sabotage when committed under any of the following circumstances:</p> <ul> <li>By a group of three (3) or more persons conspiring or confederating with one another;</li> <li>Against three (3) or more persons individually or as a group;</li> <li>Using a mass mailer; or</li> <li>Through human trafficking.</li> </ul> <h3>Section 5. Other Offenses</h3> <p>The following shall also constitute as offenses under this Act:</p> <ul> <li>Willfully aiding or abetting in the commission of any of the offenses enumerated under Section 4;</li> <li>Willfully attempting to commit any of the offenses enumerated under Section 4;</li> <li>Opening a Financial Account under a fictitious name or using the identity or identification documents of another; or</li> <li>Buying or selling a Financial Account.</li> </ul>"
       },
       {
@@ -2077,7 +2080,7 @@
         "order": 45,
         "title": "Knowledge Check",
         "body": "Which of the following are the key controls financial institutions must adopt to protect financial accounts? (Select all that apply.)",
-        "image": "/src/assets/img/WBLImagePlaceholder.png",
+        "image": "src/assets/img/general images/KnowledgeCheck.jpg",
         "q_field_type": "multi_select",
         "q_selection": [
           {
@@ -2093,23 +2096,23 @@
       },
       {
         "order": 46,
-        "title": "Learning Summary",
+        "title": "Lesson Summary",
         "subheader": "Congratulations on completing Lesson 4 of this module!",
         "body": "<p>Now that you have completed this lesson, you should be able to:</p><ul><li>Obtain knowledge on the existing Philippine regulations in risk management systems to get ahead of identifying and monitoring possible risks in projects.</li></ul>",
-        "image": "src/assets/img/project_management/risk_management/LearningSummary.jpg"
+        "image": "src/assets/img/general images/LessonSummary.jpg"
       },
       {
         "order": 47,
         "title": "Module Summary",
         "body": "<p>Now that you have completed this course, you should be able to:</p><ul><li>Define project risk and identify various types of risks that may occur in a project.</li><li>Recognize the risk management process and explore tools and frameworks relevant to each step of the process.</li><li>Gain a full understanding of Quality Assurance and its benefits and importance in managing digital transformation projects, specifically in the Risk Monitoring phase.</li><li>Obtain knowledge on the existing Philippine regulations in risk management systems to get ahead of identifying and monitoring possible risks in projects.</li></ul>",
-        "image": "src/assets/img/project_management/risk_management/ModuleSummary.jpg"
+        "image": "src/assets/img/general images/ModuleSummary.jpg"
       },
       {
         "order": 48,
         "title": "Module Completion",
         "subheader": "Download Certificate",
         "body": "<h3>Congratulations on completing the Project Risk Management module!</h3> <p>You've now developed a comprehensive understanding of the fundamental terms and concepts related to project risk management.</p><br/> <p>As you move forward, remember the various types of risks that may occur in a project as well as the importance of effectively utilizing the risk management process. Explore the various tools and frameworks that are relevant to each step of this process. In addition, keep in mind the significance of quality assurance and its advantages in managing digital transformation projects, as well as the regulations in the Philippines concerning risk management systems.</p><br/> <p>We hope this module has equipped you with the knowledge and confidence to tackle any project risks that may come your way.</p>",
-        "image": "src/assets/img/project_management/risk_management/ModuleCompletion.jpg"
+        "image": "src/assets/img/general images/ModuleCompletion.jpg"
       },
       {
         "order": 49,
@@ -2128,7 +2131,7 @@
             "questions": [
               {
                 "q_number": 1,
-                "q_statement": "Which of the following is the last step in Project Risk Management process?",
+                "q_statement": "<p>Which of the following is the last step in Project Risk Management process?</p>",
                 "q_field_type": "single_select",
                 "q_selection": [
                   {
@@ -2143,7 +2146,7 @@
               },
               {
                 "q_number": 2,
-                "q_statement": "Which of the following is considered an internal risk? (Select all that apply)",
+                "q_statement": "<p>Which of the following is considered an internal risk? (Select all that apply)</p>",
                 "q_field_type": "multi_select",
                 "q_selection": [
                   {
@@ -2158,7 +2161,7 @@
               },
               {
                 "q_number": 3,
-                "q_statement": "Total quality management is a strategy to:",
+                "q_statement": "<p>Total quality management is a strategy to:</p>",
                 "q_field_type": "single_select",
                 "q_selection": [
                   {
@@ -2172,8 +2175,8 @@
               },
               {
                 "q_number": 4,
-                "q_statement": "The use of a RAID log helps the PMO or Project Manager: (Select all that apply)",
-                "q_field_type": "multi_select",
+                "q_statement": "<p>The use of a RAID log helps the PMO or Project Manager:</p>",
+                "q_field_type": "single_select",
                 "q_selection": [
                   {
                     "A": "capture, analyze, select and document the risks, assumptions, issues and dependencies encountered while planning for and executing the project",
@@ -2186,7 +2189,7 @@
               },
               {
                 "q_number": 5,
-                "q_statement": "The priorities under Goal 4 of the Financial Services Cyber Resilience Plan are the following, except? (Select all that apply)",
+                "q_statement": "<p>The priorities under Goal 4 of the Financial Services Cyber Resilience Plan are the following, except? (Select all that apply)</p>",
                 "q_field_type": "multi_select",
                 "q_selection": [
                   {
@@ -2201,7 +2204,7 @@
               },
               {
                 "q_number": 6,
-                "q_statement": "Which among following indicates impacted areas of quality on testing within API integration efforts?",
+                "q_statement": "<p>Which among following indicates impacted areas of quality on testing within API integration efforts?</p>",
                 "q_field_type": "single_select",
                 "q_selection": [
                   {
@@ -2215,7 +2218,7 @@
               },
               {
                 "q_number": 7,
-                "q_statement": "BSFIs are required to establish a robust ITRM system covering key components, which are? (Select all that apply)",
+                "q_statement": "<p>BSFIs are required to establish a robust ITRM system covering key components, which are? (Select all that apply)</p>",
                 "q_field_type": "multi_select",
                 "q_selection": [
                   {
