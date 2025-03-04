@@ -270,75 +270,86 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
               color="warning"
               className="mb-8"
             />
-            <div
-              className={
-                currentSection.layout === "col-1"
-                  ? "grid grid-cols-1 gap-6 items-center items-center justify-items-center"
-                  : ""
-              }
-            >
-              {currentSection.layout === "col-2" ? (
-                renderPageColtwoContent()
-              ) : currentSection.layout === "col-3" ? (
-                renderPageColthreeContent()
-              ) : (
-                <>
-                  {currentSection.image && (
-                    <div className="flex justify-center">
-                      <img
-                        src={currentSection.image}
-                        alt={currentSection.title}
-                        className="rounded-lg"
+            {currentSection.layout === "col-2" ? (
+              renderPageColtwoContent()
+            ) : currentSection.layout === "col-3" ? (
+              renderPageColthreeContent()
+            ) : (
+              <div
+                className={
+                  currentSection.layout === "col-1"
+                    ? "grid grid-cols-1 gap-6 items-center items-center justify-items-center"
+                    : "grid grid-cols-1 md:grid-cols-2 gap-6 items-center"
+                }
+              >
+                {currentSection.layout === "col-2" ? (
+                  renderPageColtwoContent()
+                ) : currentSection.layout === "col-3" ? (
+                  renderPageColthreeContent()
+                ) : (
+                  <>
+                    {currentSection.image && (
+                      <div className="flex justify-center">
+                        <img
+                          src={currentSection.image}
+                          alt={currentSection.title}
+                          className="rounded-lg"
+                        />
+                      </div>
+                    )}
+
+                    <div>
+                      <div className="text-2xl text-yellow-500 font-bold mb-6">
+                        {currentSection.title}
+                      </div>
+                      <div className="text-2xl text-yellow-500 font-bold mb-6">
+                        {currentSection.subheader}
+                      </div>
+
+                      <div
+                        className="prose mt-4"
+                        dangerouslySetInnerHTML={{
+                          __html: currentSection.body,
+                        }}
                       />
-                    </div>
-                  )}
 
-                  <div>
-                    <div className="text-2xl text-yellow-500 font-bold mb-6">
-                      {currentSection.title}
-                    </div>
-                    <div className="text-2xl text-yellow-500 font-bold mb-6">
-                      {currentSection.subheader}
-                    </div>
+                      {currentSection.list1 && (
+                        <ul className="list-disc list-inside mt-4">
+                          {currentSection.list1
+                            .split(";")
+                            .map((item: string, index: number) => (
+                              <li
+                                className="text-base/8"
+                                key={`list1-${index}`}
+                              >
+                                {item.trim()}
+                              </li>
+                            ))}
+                        </ul>
+                      )}
 
-                    <div
-                      className="prose mt-4"
-                      dangerouslySetInnerHTML={{ __html: currentSection.body }}
-                    />
+                      {currentSection.numberedlist && (
+                        <ol className="list-disc list-inside text-2xl mt-4">
+                          {currentSection.numberedlist
+                            .split(";")
+                            .map((item: string, index: number) => (
+                              <li
+                                className="text-base/8"
+                                key={`numberedlist-${index}`}
+                              >
+                                {item.trim()}
+                              </li>
+                            ))}
+                        </ol>
+                      )}
 
-                    {currentSection.list1 && (
-                      <ul className="list-disc list-inside mt-4">
-                        {currentSection.list1
-                          .split(";")
-                          .map((item: string, index: number) => (
-                            <li className="text-base/8" key={`list1-${index}`}>
-                              {item.trim()}
-                            </li>
-                          ))}
-                      </ul>
-                    )}
-
-                    {currentSection.numberedlist && (
-                      <ol className="list-disc list-inside text-2xl mt-4">
-                        {currentSection.numberedlist
-                          .split(";")
-                          .map((item: string, index: number) => (
-                            <li
-                              className="text-base/8"
-                              key={`numberedlist-${index}`}
-                            >
-                              {item.trim()}
-                            </li>
-                          ))}
-                      </ol>
-                    )}
-
-                    {currentSection.title === "Knowledge Check" &&
-                      currentSection.q_selection && (
-                        <div className="mt-6">
-                          <div className="space-y-4">
-                            {Object.entries(currentSection.q_selection[0]).map(
-                              ([key, value]) => (
+                      {currentSection.title === "Knowledge Check" &&
+                        currentSection.q_selection && (
+                          <div className="mt-6">
+                            <div className="space-y-4">
+                              {Object.entries(
+                                currentSection.q_selection[0]
+                              ).map(([key, value]) => (
                                 <label
                                   key={key}
                                   className="flex items-center space-x-3 p-3 border rounded-lg cursor-pointer hover:bg-gray-100"
@@ -381,46 +392,47 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
                                     {String(value)}
                                   </span>
                                 </label>
-                              )
-                            )}
-                          </div>
-                          <div className="mt-8">
-                            {/* Show "Show Answer" button when an answer is selected but feedback is not available */}
-                            {!feedback && isAnswerSelected && (
-                              <button
-                                onClick={handleShowAnswer}
-                                className="w-full py-3 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold rounded-lg shadow-md transition-colors duration-300"
-                              >
-                                Show Answer
-                              </button>
-                            )}
-
-                            {/* Show "Retry" button only if the answer is wrong and retries left */}
-                            {feedback &&
-                              feedback.includes("❌") &&
-                              isAnswerSelected &&
-                              retryCount < 3 && (
+                              ))}
+                            </div>
+                            <div className="mt-8">
+                              {/* Show "Show Answer" button when an answer is selected but feedback is not available */}
+                              {!feedback && isAnswerSelected && (
                                 <button
-                                  onClick={handleRetry}
-                                  className="w-full py-3 bg-yellow-500 hover:bg-yellow-600 text-white font-semibold rounded-lg shadow-md transition-colors duration-300"
+                                  onClick={handleShowAnswer}
+                                  className="w-full py-3 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold rounded-lg shadow-md transition-colors duration-300"
                                 >
-                                  Retry
+                                  Show Answer
                                 </button>
                               )}
 
-                            {/* Display feedback message */}
-                            {feedback && (
-                              <p className="text-3xl font-semibold mt-10">
-                                {feedback}
-                              </p>
-                            )}
+                              {/* Show "Retry" button only if the answer is wrong and retries left */}
+                              {feedback &&
+                                feedback.includes("❌") &&
+                                isAnswerSelected &&
+                                retryCount < 3 && (
+                                  <button
+                                    onClick={handleRetry}
+                                    className="w-full py-3 bg-yellow-500 hover:bg-yellow-600 text-white font-semibold rounded-lg shadow-md transition-colors duration-300"
+                                  >
+                                    Retry
+                                  </button>
+                                )}
+
+                              {/* Display feedback message */}
+                              {feedback && (
+                                <p className="text-3xl font-semibold mt-10">
+                                  {feedback}
+                                </p>
+                              )}
+                            </div>
                           </div>
-                        </div>
-                      )}
-                  </div>
-                </>
-              )}
-            </div>
+                        )}
+                    </div>
+                  </>
+                )}
+              </div>
+            )}
+
             {currentSection.title === "Module Pre-Examination" &&
               currentSection.exams && (
                 <PreExamPage
