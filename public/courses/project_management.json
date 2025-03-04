@@ -10,7 +10,7 @@
         "title": "Module Introduction",
         "subheader": "Welcome to the WBL (Web-Based Learning) module on Project Management Fundamentals, Tools, and Techniques!",
         "body": "This module is designed to provide you with a comprehensive understanding of project management, project management functions, tools, techniques, and frameworks, and project lifecycle",
-        "image": "src/assets/img/project_management/Project Fundamentals/ModuleIntroduction.jpg"
+        "image": "src/assets/img/general images/ModuleIntroduction.jpg"
       },
       {
         "order": 2,
@@ -127,7 +127,7 @@
         "order": 3,
         "title": "Module Credit and Completion Requirements and Learning Objective",
         "body": "<h2>Credit and Completion Requirements</h2><ul><li>To receive proper learning credit and achieve the learning objectives, you must not skip any screens</li><li>Complete all interactions</li><li>Complete all practice questions</li><li>Pass the final assessment with at least 70%</li><li>You must complete the assessment alone. Using answers received from others, including any form of artificial intelligence, to complete an assessment is cheating.</li></ul><br /><p>Please note that this learning will expire by April 25, 2025. You must complete and pass all of the scored portions of this module within this period, or your related learning progress will be removed.</p><h2>Module Learning Objectives</h2><p>Upon successful completion of the module, you will be able to:</p> <ul> <li>Familiarize with common project management terms and methodologies including fundamentals, tools, skills, techniques, roles, and responsibilities</li> <li>Understand the different phases of a project: initiation, planning, execution, monitoring and controlling, and closing</li> <li>Recognize the key activities, deliverables, and goals for each phase</li> <li>To be equipped with the foundational knowledge needed to initiate, plan, execute, and close projects successfully</li></ul>",
-        "image": "src/assets/img/project_management/Project Fundamentals/CreditCompletionLearningObjectives.jpg"
+        "image":"src/assets/img/general images/CreditCompletionLearningObjectives.jpg"
       },
       {
         "order": 4,
@@ -146,7 +146,7 @@
         "order": 6,
         "title": "Knowledge Check",
         "body": "Which of the following most accurately describes a “project”?",
-        "image": "src/assets/img/project_management/Project Fundamentals/KnowledgeCheck.jpg",
+        "image":"src/assets/img/general images/KnowledgeCheck.jpg", 
         "q_field_type": "single_select",
         "q_selection": [
           {
@@ -168,7 +168,7 @@
         "order": 8,
         "title": "Knowledge Check",
         "body": "What are the three primary constraints of the project management triangle?",
-        "image": "src/assets/img/project_management/Project Fundamentals/KnowledgeCheck.jpg",
+        "image":"src/assets/img/general images/KnowledgeCheck.jpg", 
         "q_field_type": "single_select",
         "q_selection": [
           {
@@ -182,9 +182,9 @@
       },
       {
         "order": 9,
-        "title": "Learning Summary",
+        "title": "Lesson Summary",
         "body": "<h2>Congratulations on completing Lesson 1 of this module!</h2> <p>Now that you have completed this lesson, you should be able to:</p> <ul> <li>Define what is project and project management.</li> <li>Identify the three constraints of project management triangle and its importance to a project.</li> </ul>",
-        "image": "src/assets/img/project_management/Project Fundamentals/LearningSummary.jpg"
+        "image":"src/assets/img/general images/LessonSummary.jpg"
       },
       {
         "order": 10,
@@ -212,7 +212,7 @@
         "order": 13,
         "title": "Knowledge Check",
         "body": "Which of the following project management functions is primarily focused on managing and “picking” the right project team?",
-        "image": "src/assets/img/project_management/Project Fundamentals/KnowledgeCheck.jpg",
+        "image":"src/assets/img/general images/KnowledgeCheck.jpg", 
         "q_field_type": "single_select",
         "q_selection": [
           {
@@ -228,7 +228,7 @@
         "order": 14,
         "title": "Knowledge Check",
         "body": "Which of the following is NOT a project management function?",
-        "image": "src/assets/img/project_management/Project Fundamentals/KnowledgeCheck.jpg",
+        "image":"src/assets/img/general images/KnowledgeCheck.jpg", 
         "q_field_type": "single_select",
         "q_selection": [
           {
@@ -242,9 +242,9 @@
       },
       {
         "order": 15,
-        "title": "Learning Summary",
+        "title": "Lesson Summary",
         "body": "<h2>Congratulations on completing  Lesson 2 of this module!</h2> <p>Now that you have completed this lesson, you should be able to:</p> <ul> <li>Differentiate members of a project team</li><li>Define what is project management functions and its different components</li><li>Identify the roles, responsibilities and benefits of PMO.</li></ul>",
-        "image": "src/assets/img/project_management/Project Fundamentals/LearningSummary.jpg"
+        "image":"src/assets/img/general images/LessonSummary.jpg"
       },
       {
         "order": 16,
@@ -273,7 +273,7 @@
         "order": 19,
         "title": "Knowledge Check",
         "body": "The Agile Methodology is best described by which of the following statements? (Select all that apply and then select Submit.)",
-        "image": "src/assets/img/project_management/Project Fundamentals/KnowledgeCheck.jpg",
+        "image":"src/assets/img/general images/KnowledgeCheck.jpg", 
         "q_field_type": "multi_select",
         "q_selection": [
           {
@@ -289,7 +289,7 @@
         "order": 20,
         "title": "Knowledge Check",
         "body": "Which of the following best describes the statement “It is where the team produces a bare minimum version of a product, gathers feedback from users, and iterates it based on what they need and don not need”?",
-        "image": "src/assets/img/project_management/Project Fundamentals/KnowledgeCheck.jpg",
+        "image":"src/assets/img/general images/KnowledgeCheck.jpg", 
         "q_field_type": "single_select",
         "q_selection": [
           {
@@ -303,9 +303,9 @@
       },
       {
         "order": 21,
-        "title": "Lesson Summary",
+        "title": "Learning Summary",
         "body": "<h2>Congratulations on completing  Lesson 2 of this module!</h2> <p>Now that you have completed this lesson, you should be able to:</p> <ul> <li>What are project management methods</li> <li>What are waterfall, agile, and hybrid project management approaches.</li></ul>",
-        "image": "src/assets/img/project_management/Project Fundamentals/LearningSummary.jpg"
+        "image":"src/assets/img/general images/LessonSummary.jpg"
       },
       {
         "order": 22,
@@ -334,7 +334,7 @@
         "order": 25,
         "title": "Knowledge Check",
         "body": "Which of the following best describes the purpose of the Initiate phase?",
-        "image": "src/assets/img/project_management/Project Fundamentals/KnowledgeCheck.jpg",
+        "image":"src/assets/img/general images/KnowledgeCheck.jpg", 
         "q_field_type": "single_select",
         "q_selection": [
           {
@@ -367,7 +367,7 @@
         "order": 29,
         "title": "Knowledge Check",
         "body": "In O-D-W Principle, what questions corresponds to “Objectives”?",
-        "image": "src/assets/img/project_management/Project Fundamentals/KnowledgeCheck.jpg",
+        "image":"src/assets/img/general images/KnowledgeCheck.jpg", 
         "q_field_type": "single_select",
         "q_selection": [
           {
@@ -382,8 +382,7 @@
       {
         "order": 30,
         "title": "RACI Matrix",
-        "body": "<p>The RACI Matrix is a simple charting tool used to define responsibility for each task within a project. It ensures that each task is assigned to the appropriate person or department to align responsibilities and set clear expectations. </p> <p>RACI is an acronym with each letter representing a different role to perform. </p> <h2>Responsible</h2> <p>DOER</p> <ul> <li>The responsible employee physically does the work. </li> <li>Who is assigned to work on this task?​​</li> </ul> <h2>Accountable</h2> <p>OWNER</p> <ul> <li>The accountable employee oversees the work and is ultimately answerable for the activity or decision. </li> <li>Who has the authority to sign off the work?</li> </ul> <h2>Consulted</h2> <p>IN THE LOOP</p> <ul> <li>The consulted employee offers advice or feedback to improve the work.​ </li> <li>Who can tell me more about this task?​</li> </ul> <h2>Informed</h2> <p>IN THE PICTURE</p> <ul> <li>The informed party does not take part in the work but should be notified of the results. </li> <li>Who must be kept updated about the progress?​​</li> </ul>",
-        "image": "src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order30.jpg"
+        "body": "<p>The RACI Matrix is a simple charting tool used to define responsibility for each task within a project. It ensures that each task is assigned to the appropriate person or department to align responsibilities and set clear expectations. </p> <p>RACI is an acronym with each letter representing a different role to perform. </p> <h2>Responsible</h2> <p>DOER</p> <ul> <li>The responsible employee physically does the work. </li> <li>Who is assigned to work on this task?​​</li> </ul> <h2>Accountable</h2> <p>OWNER</p> <ul> <li>The accountable employee oversees the work and is ultimately answerable for the activity or decision. </li> <li>Who has the authority to sign off the work?</li> </ul> <h2>Consulted</h2> <p>IN THE LOOP</p> <ul> <li>The consulted employee offers advice or feedback to improve the work.​ </li> <li>Who can tell me more about this task?​</li> </ul> <h2>Informed</h2> <p>IN THE PICTURE</p> <ul> <li>The informed party does not take part in the work but should be notified of the results. </li> <li>Who must be kept updated about the progress?​​</li> </ul>"      
       },
       {
         "order": 31,
@@ -397,7 +396,7 @@
         "order": 32,
         "title": "Knowledge Check",
         "body": "Which of the RACI Matrix acronym can answer the question, “Who can tell me more about this task”?",
-        "image": "src/assets/img/project_management/Project Fundamentals/KnowledgeCheck.jpg",
+        "image":"src/assets/img/general images/KnowledgeCheck.jpg", 
         "q_field_type": "single_select",
         "q_selection": [
           {
@@ -446,7 +445,7 @@
         "layout": "col-2",
         "title": "Plan Development",
         "col1": "<h1>Plan Development</h1><img src='src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order38_0.jpg'><p>Each iteration of planning goes from a high-level strategic focus to a tactical, activity, and task focus. </p> <p>Key notes to consider when developing a project plan: </p> <ul> <li>A plan should have a target beginning and end, with each activity/task connected to one another </li> <li>Different types of plan are created for different purposes </li> <li>Level of details in the plan can be adjusted based on target audience </li> </ul><p>Milestones are meaningful when communicating the status of a project with the project team, key stakeholders, and sponsors.</p> <p>A milestone is reached, when at least one of the following is true:</p><img src='src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order38_1.jpg'>",
-        "col2": "<h1>Six-steps to development</h1> <p>There are six steps to develop a robust workplan using the ODW way:</p> <img src='src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order38_3.jpg'>"
+        "col2": "<h1>Six-steps to development</h1> <p>There are six steps to develop a robust workplan using the ODW way:</p> <img src='src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order38_2.jpg'>"
       },
       {
         "order": 39,
@@ -461,7 +460,7 @@
         "order": 40,
         "title": "Knowledge Check",
         "body": "Scenario: A PM and CEO agreed to appoint a Senior person to take on the role of the Sponsor. The challenge is the Sponsor has very little time available, and it is not one of his KPIs., Select the correct option and then select Submit, How do you manage this situation?",
-        "image": "src/assets/img/project_management/Project Fundamentals/KnowledgeCheck.jpg",
+        "image":"src/assets/img/general images/KnowledgeCheck.jpg", 
         "q_field_type": "single_select",
         "q_selection": [
           {
@@ -480,7 +479,7 @@
         "col1": "<p>Estimate the work effort: </p> <ul> <li>Follows WBS development approach of top-down or bottom-up</li> <li>Technique used may vary based upon several factors, including size, scope and complexity of the project</li> </ul>",
         "col2": "<p>Important Points: </p> <ul> <li>Estimating is an integral part of Project Management.</li> <li>The objective is to generate quantifiable estimates, along with associated assumptions and risks, which represent the effort and cost for a set of activities needed to produce deliverables.</li> <li>Accurate estimates are critical to the success of a project. The best source of an estimate is to look at history. Remember, accuracy in estimating means being close not exact.</li> <li>Good estimates do not guarantee a successful project, however bad estimates virtually guarantee failure.</li> </ul>",
         "col3": "<ul> <li>Provide a quantitative assessment of the number of work periods to complete an activity</li> <li>Provide range of uncertainty when estimating an activity (2 weeks +/- 2 days)</li> <li>Document assumptions made to derive the estimates</li> <li>Update the activity list with any further breakdowns as a result of the duration estimates</li> </ul> <ul> <li>Project scope and clear work breakdown structure are defined </li> <li>Base quantities of deliverables and activities are identified and documented</li> <li>Auditable and repeatable estimating process</li> <li>Underlying project assumptions are well defined and documented</li> <li>Uncertainties are understood, documented and incorporated</li> <li>It passes the “reasonability” test for feasibility/sensibility</li> <li>Agreement/buy-in from the team</li> </ul>",
-        "image": "img src='src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order41.jpg"
+        "image": "img src='src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order41.jpg'"
       },
       {
         "order": 42,
@@ -520,6 +519,7 @@
       },
       {
         "order": 48,
+        "layout": "col-3",
         "title": "Project Planning Phase: Summary",
         "col1": "<img src='src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order31_1.jpg'><h2>Purpose</h2><p>Establish the scope of the project, refine the objectives, and define the module of action required to attain the objectives that the project is undertaken to achieve</p> ",
         "col2": "<img src='src/assets/img/project_management/Project Fundamentals/PMFIDS_PM_PFTT_order31_2.jpg'> <h2>Key Activities</h2> <ul> <li>Work Breakdown Structure </li> <li>Project Roadmaps and Milestones</li> <li>Project Risks, Issues, Dependencies</li> </ul>",
@@ -542,7 +542,7 @@
         "order": 51,
         "title": "Knowledge Check",
         "body": "Which of the following options best describes the Execute phase of a project?",
-        "image": "src/assets/img/project_management/Project Fundamentals/KnowledgeCheck.jpg",
+        "image":"src/assets/img/general images/KnowledgeCheck.jpg", 
         "q_field_type": "single_select",
         "q_selection": [
           {
@@ -631,7 +631,7 @@
         "order": 63,
         "title": "Knowledge Check",
         "body": "What is the significance of a status report?",
-        "image": "src/assets/img/project_management/Project Fundamentals/KnowledgeCheck.jpg",
+        "image":"src/assets/img/general images/KnowledgeCheck.jpg", 
         "q_field_type": "single_select",
         "q_selection": [
           {
@@ -672,22 +672,22 @@
       },
       {
         "order": 68,
-        "title": "Learning Summary",
+        "title": "Lesson Summary",
         "body": "<h2>Congratulations on completing Lesson 4 of this course!</h2> <p>Now that you have completed this lesson, you should be able to:</p> <ul> <li>What is project lifecycle</li> <li>Different phases of project lifecycle and its components</li><li>Manage end-to-end project cycle from initiation to closing, as well as in performing the execution of the project and continuous monitoring and control of the project</li> </ul>",
-        "image": "src/assets/img/project_management/Project Fundamentals/LearningSummary.jpg"
+        "image":"src/assets/img/general images/LessonSummary.jpg"
       },
       {
         "order": 69,
         "title": "Module Summary",
         "body": "<p>Now that you have completed this course, you should be able to</p><ul> <li>Define what is project and project management</li> <li>Identify the three constraints of project management triangle and its importance to a project.</li> <li>What are project management methods</li> <li>What are waterfall, agile, and hybrid project management approaches.</li> <li>Tools, Techniques, and Frameworks</li> <li>What is project lifecycle</li> <li>Different phases of project lifecycle and its components</li> <li>Manage end-to-end project cycle from initiation to closing, as well as in performing the execution of the project and continuous monitoring and control of the project.</li> </ul>",
-        "image": "src/assets/img/project_management/Project Fundamentals/ModuleSummary.jpg"
+        "image":"src/assets/img/general images/ModuleSummary.jpg"
       },
       {
         "order": 70,
         "title": "Module Completion",
         "subheader": "Download Certificate",
         "body": "<h3>Congratulations on completing the Project Management Fundamentals, Tools, and Techniques Lessons module!</h3><p>You've now gained a solid understanding of the essential terms and concepts, as well as the practical skills needed to effectively manage budgets and control costs.</p><br /><p>As you move forward, remember that the principles and strategies you've learned here are vital tools for ensuring the financial health and success of any project or organization. By applying these techniques, you'll be better equipped to make informed financial decisions, forecast cash flow accurately, and address potential issues proactively.</p><br /><p>We hope this module has empowered you with the knowledge and confidence to tackle any financial challenge that comes your way. Keep honing your skills, stay diligent in your financial planning, and continue to strive for excellence in budget and cost management.</p>",
-        "image": "src/assets/img/project_management/Project Fundamentals/ModuleCompletion.jpg"
+        "image":"src/assets/img/general images/ModuleCompletion.jpg"
       },
       {
         "order": 71,
@@ -807,9 +807,8 @@
         ]
       }
     ]
-  },
-
-  {
+}, 
+{
     "id": 2,
     "moduleId": "PMFIDS_BCM",
     "moduleName": "Budget and Cost Management",
@@ -820,7 +819,7 @@
         "title": "Module Introduction",
         "subheader": "Welcome to the Web-Based Learning (WBL) module on Budget and Cost Management!",
         "body": "This module is designed to provide you with a comprehensive understanding of cost management functions, forecasting models, and effective techniques for optimizing project expenses.",
-        "image": "src/assets/img/project_management/budgetandcostmgt/ModuleIntroduction.jpg"
+        "image": "src/assets/img/general images/ModuleIntroduction.jpg"
       },
       {
         "order": 2,
@@ -935,7 +934,7 @@
             "order": 3,
             "title": "Module Credit and Completion Requirements and Learning Objective",
             "body": "<h2>Credit and Completion Requirements</h2><ul><li>To receive proper learning credit and achieve the learning objectives, you must not skip any screens</li><li>Complete all interactions</li><li>Complete all practice questions</li><li>Pass the final assessment with at least 70%</li><li>You must complete the assessment alone. Using answers received from others, including any form of artificial intelligence, to complete an assessment is cheating.</li></ul><br /><p>Please note that this learning will expire by April 25, 2025. You must complete and pass all of the scored portions of this module within this period, or your related learning progress will be removed.</p><h2>Module Learning Objectives</h2><p>Upon successful completion of the module, you will be able to:</p> <ul>  <li>Define key budget and cost management terms and concepts</li> <li>Understand each function of cost management</li> <li>Identify sources of issues that can arise during the budget and cost management phase</li> <li>Understand the need for a budget and cashflow</li> <li>Create a budget and cashflow forecast</li></ul>",
-            "image": "src/assets/img/project_management/budgetandcostmgt/CreditCompletionLearningObjectives.jpg"
+            "image":"src/assets/img/general images/CreditCompletionLearningObjectives.jpg"
           },
           {
             "order": 4,
@@ -953,7 +952,7 @@
             "order": 6,
             "title": "Knowledge Check",
             "body": "This includes processes that are required to maintain effective financial control of projects.",
-            "image": "src/assets/img/project_management/budgetandcostmgt/KnowledgeCheck.jpg",
+            "image":"src/assets/img/general images/KnowledgeCheck.jpg", 
             "q_field_type": "single_select",
             "q_selection": [
               {
@@ -967,10 +966,10 @@
           },
           {
             "order": 7,
-            "title": "Learning Summary",
+            "title": "Lesson Summary",
             "subheader": "Congratulations on completing Lesson 1 of this module!",
             "body": "<p>Now that you have completed this lesson, you should be able to:</p> <ul> <li>Understand the importance of cost management and budgeting in decision-making; Define cost management and its correlation with budgeting</li> </ul>",
-            "image": "src/assets/img/project_management/budgetandcostmgt/LearningSummary.jpg"
+            "image":"src/assets/img/general images/LessonSummary.jpg"
           },
           {
             "order": 8,
@@ -1021,7 +1020,7 @@
             "order": 15,
             "title": "Knowledge Check",
             "body": "The cost estimates in this approach are used initially until the tasks in the work breakdown structure are defined clearly.",
-            "image": "src/assets/img/project_management/budgetandcostmgt/KnowledgeCheck.jpg",
+            "image":"src/assets/img/general images/KnowledgeCheck.jpg", 
             "q_field_type": "single_select",
             "q_selection": [
               {
@@ -1059,7 +1058,7 @@
             "order": 19,
             "title": "Knowledge Check",
             "body": "Budget guidelines are based on the following:",
-            "image": "src/assets/img/project_management/budgetandcostmgt/KnowledgeCheck.jpg",
+            "image":"src/assets/img/general images/KnowledgeCheck.jpg", 
             "q_field_type": "single_select",
             "q_selection": [
               {
@@ -1132,7 +1131,7 @@
             "title": "Budgeting Steps",
             "subheader": "Step 6: Compute Totals for the Budget and Expense Account Titles",
             "body": "<p>In the sixth step of forecasting a budget, we will compute the totals for the expense account titles, ensuring that it is balanced with the budget we have allotted for this project.</p><br /><p>Calculate the total expenses. Sum up all the values in the 'Budget' column for the expense account titles. This will give you the total projected expenses.; Enter this total at the bottom of the 'Budget' column under the expense section, labeled as 'Total Expenses’.</p><br /><p>By computing the totals of your expenses against our provided budget, you can easily compare the two figures to determine your financial position. If your total budget exceeds your total expenses, you have a surplus, which can be allocated to specific phases of the project. If your total expenses exceed your budget, you have a deficit, which will require adjustments.</p><br /><p>Having these totals clearly displayed in your budget provides a quick and comprehensive view of your financial health.</p>",
-            "image": "src/assets/img/project_management\budgetandcostmgt/BudgetingStep6.jpg"
+            "image": "src/assets/img/project_management/budgetandcostmgt/BudgetingStep6.jpg"
           },
           {
             "order": 29,
@@ -1166,7 +1165,7 @@
             "title": "Things To Take Note Of",
             "subheader": "Cashflow forecasting is a timing of payments",
             "body": "Cashflow forecasting is not just the flow of money coming in and out but also the timing of payments. You always want money first to be in, before spending it out. For example, if you receive an income of PHP 10 on Monday and incur expenses of PHP 9 on Friday, you can cover the expenses and still have PHP 1 left. However, if the income arrives on Saturday instead, there won't be any money available to cover Friday's expenses. By analyzing the timing of payments, we can create a detailed cash flow forecast to ensure financial stability and effectively plan for future needs.",
-            "image": "/src/assets/img/project_management/budgetandcostmgt/CashFlow2.jpg"
+            "image": "src/assets/img/project_management/budgetandcostmgt/CashFlow2.jpg"
           },
           {
             "order": 34,
@@ -1174,75 +1173,75 @@
             "subheader": "What is the difference of Cashflow forecasting vs Budget forecasting?",
             "body": "Budget Forecasting predicts whether there will be enough income over the period to cover costs, but cashflow forecasting tells you whether you can pay your bills in a timely manner",
             "list1": "Budget Forecast = How much is coming in and out; Cashflow Forecast = When",
-            "image": "/src/assets/img/project_management/budgetandcostmgt/CashFlow3.jpg"
+            "image": "src/assets/img/project_management/budgetandcostmgt/CashFlow3.jpg"
           },
           {
             "order": 35,
             "title": "Things To Take Note Of",
             "subheader": "When are cashflows important?",
             "body": "<h3>Always!</h3><br /><p>Cash flows are always important, but they become especially critical in certain situations. During times of change or when there is a reasonable degree of risk, understanding your cash flow can help you navigate uncertainties.</p><br /><p>If you are short of money, a cash flow forecast can help you manage your finances and prioritize payments.</p><br /><p>Conversely, if you have a surplus, it can guide you in making informed investment decisions.</p><br /><p>Additionally, if your income and/or expenses are particularly variable, cash flow forecasting helps you anticipate fluctuations and maintain financial stability.</p><br /><p>In summary, monitoring cash flows is essential for effective financial management in any scenario.</p>",
-            "image": "/src/assets/img/project_management/budgetandcostmgt/CashFlow4.jpg"
+            "image": "src/assets/img/project_management/budgetandcostmgt/CashFlow4.jpg"
           },
           {
             "order": 36,
             "title": "Cash Flow Forecasting Steps",
             "subheader": "Step 1: Creating an Excel Spreadsheet for Cash Flow Forecasting",
             "body": "By organizing your cash flow forecast in an Excel spreadsheet and using the account titles from your budget forecast, you create a structured and comprehensive view of your financial transactions. This setup will help you track the timing of cash inflows and outflows, ensuring that you can manage your finances effectively and maintain a healthy cash flow.",
-            "image": "/src/assets/img/project_management/budgetandcostmgt/CashFlowStep1.jpg"
+            "image": "src/assets/img/project_management/budgetandcostmgt/CashFlowStep1.jpg"
           },
           {
             "order": 37,
             "title": "Cash Flow Forecasting Steps",
             "subheader": "Step 2: Plotting Estimated Budget Distribution under the Cash In column",
             "body": "Note: In this scenario, the distribution was based on the transitions of the project’s phases.",
-            "image": "/src/assets/img/project_management/budgetandcostmgt/CashFlowStep2.jpg"
+            "image": "src/assets/img/project_management/budgetandcostmgt/CashFlowStep2.jpg"
           },
           {
             "order": 38,
             "title": "Cash Flow Forecasting Steps",
             "subheader": "Step 3: Plot all your projected expenses",
             "body": "Note: It is important to conduct market research and analysis before budgeting in order for you to ensure accuracy of pricing on what’s available right now in the market.",
-            "image": "/src/assets/img/project_management/budgetandcostmgt/CashFlowStep3.jpg"
+            "image": "src/assets/img/project_management/budgetandcostmgt/CashFlowStep3.jpg"
           },
           {
             "order": 39,
             "title": "Cash Flow Forecasting Steps",
             "subheader": "Step 4: Computation of the Cumulative Cash Flows",
             "body": "Tracking cumulative cash flow now will allow you to compare actual cash flow against the budgeted cash flow once you begin with the project. This helps in identifying variances and taking corrective actions to stay within the budget. Cumulative cash flow provides insights into the financial performance of a project.",
-            "image": "/src/assets/img/project_management/budgetandcostmgt/CashFlowStep4.jpg"
+            "image": "src/assets/img/project_management/budgetandcostmgt/CashFlowStep4.jpg"
           },
           {
             "order": 40,
             "title": "Cash Flow Forecasting Steps",
             "subheader": "Step 5: Cumulative Cash Flows for the following months",
             "list1": "Start by referring to the prior month’s cumulative cash flow; Add the cash inflow for the current month and deduct the cash outflow to arrive at the current cumulative cash flow.; Repeat this process until you arrive at the end of the project duration, which is zero for a forecast.",
-            "image": "/src/assets/img/project_management/budgetandcostmgt/CashFlowStep5.jpg"
+            "image": "src/assets/img/project_management/budgetandcostmgt/CashFlowStep5.jpg"
           },
           {
             "order": 41,
             "title": "Cash Flow Forecasting Steps",
             "subheader": "Step 6: Computing Net In or Out Per Month",
             "body": "<p>Following the forecasted possibility of delays and extensions in the budget forecast, we must also reflect this in the cash flow forecast.</p><br /><p>Should there be adjustments in the budget in the future, whether there is reallocation of resources or additional investments, updating the cumulative cash flows’ balances can help you make informed decisions about the project.</p>",
-            "image": "/src/assets/img/project_management/budgetandcostmgt/CashFlowStep1.jpg"
+            "image": "src/assets/img/project_management/budgetandcostmgt/CashFlowStep1.jpg"
           },
           {
             "order": 42,
             "title": "Cash Flow Forecasting Steps",
             "subheader": "Final Steps",
             "list1": "First, examine the cash balances at the end of each month. Are you comfortable with these balances? Ensure that there are no months where the cash balance drops too low, potentially putting you at risk of not being able to meet your financial obligations.; Next, identify any potential surpluses of cash. Is there a surplus of cash in certain months that could be used more effectively? Consider how you might allocate these funds to other phases or aspects of the project to ensure quality and maximize.; Finally, analyze if any phases of the project can make your cash vulnerable. Ensure that your data is up to date in order to be well-prepared for the project. This step helps you identify potential risks, make informed decisions, and maintain a healthy cash flow throughout the project lifecycle.; Remember, regular monitoring and updating of your cash flow forecast are essential to adapt to changing circumstances and maintain financial stability",
-            "image": "/src/assets/img/project_management/budgetandcostmgt/CashFlowStepFinal.jpg"
+            "image": "src/assets/img/project_management/budgetandcostmgt/CashFlowStepFinal.jpg"
           },
           {
             "order": 43,
             "title": "What visuals to use?",
             "body": "<p>To gain better visibility on your cash flows, it's helpful to create a line chart using the data from the bank balance per month. This visual representation allows you to easily track trends and identify any potential issues.</p><br /><p>The line chart will show the fluctuations in your bank balance over the year, highlighting periods of surplus and potential shortfalls. By visualizing your cash flows, you can quickly identify trends, anticipate cash flow gaps, and make informed decisions to maintain financial stability.</p><br /><p>Regularly updating and reviewing this line chart will help you stay on top of your cash flow situation and ensure that you are well-prepared for any financial challenges that may arise.</p>",
-            "image": "/src/assets/img/project_management/budgetandcostmgt/Visuals.jpg"
+            "image": "src/assets/img/project_management/budgetandcostmgt/Visuals.jpg"
           },
           {
             "order": 44,
             "title": "Knowledge Check",
             "body": "Which of the following factors are involved in determining a company’s cashflow at any point in time?",
-            "image": "src/assets/img/project_management/budgetandcostmgt/KnowledgeCheck.jpg",
+            "image":"src/assets/img/general images/KnowledgeCheck.jpg", 
             "q_field_type": "single_select",
             "q_selection": [
               {
@@ -1258,91 +1257,91 @@
             "order": 45,
             "layout": "col-2",
             "title": "Cost Estimating and Budgeting Issues",
-            "col1": "<p>Despite ensuring effective estimation and budgeting methodologies are utilized, unforeseen changes and expenses can hinder a project’s progress.</p><br/><p>Issues in budgeting and estimating can arise from inaccurate data, unforeseen expenses, and scope changes. These issues in general can contribute to going over budget, delays, and shortfalls.</p><img src='/src/assets/img/project_management/budgetandcostmgt/CostBudgetIssues1.jpg'>",
-            "col2": "<p>Inaccuracy of estimates is a common issue during estimating and budgeting. Gathering real pricing data is a good way to minimize inaccuracies; it can be done through historical data analysis, vendor and supplier quotes for actual prices in the market, benchmarking, establishing clear objectives and scope, and consulting experts in the field to understand resources’ current market prices.</p><img src='/src/assets/img/project_management/budgetandcostmgt/CostBudgetIssues2.jpg'>"
+            "col1": "<p>Despite ensuring effective estimation and budgeting methodologies are utilized, unforeseen changes and expenses can hinder a project’s progress.</p><br/><p>Issues in budgeting and estimating can arise from inaccurate data, unforeseen expenses, and scope changes. These issues in general can contribute to going over budget, delays, and shortfalls.</p><img src='src/assets/img/project_management/budgetandcostmgt/CostBudgetIssues1.jpg'>",
+            "col2": "<p>Inaccuracy of estimates is a common issue during estimating and budgeting. Gathering real pricing data is a good way to minimize inaccuracies; it can be done through historical data analysis, vendor and supplier quotes for actual prices in the market, benchmarking, establishing clear objectives and scope, and consulting experts in the field to understand resources’ current market prices.</p><img src='src/assets/img/project_management/budgetandcostmgt/CostBudgetIssues2.jpg'>"
           },
           {
             "order": 46,
             "title": "Cost Estimating and Budgeting Issues",
             "body": "Issues can also arise when additional requests and features are added to project specifications. It significantly impacts the original budget and timeline. When new requirements are introduced without proper consultation and evaluation, it can lead to cost overruns and resource strain. Effective management of these issues require a clear process for the submission of change orders.",
-            "image": "/src/assets/img/project_management/budgetandcostmgt/CostBudgetIssues3.jpg"
+            "image": "src/assets/img/project_management/budgetandcostmgt/CostBudgetIssues3.jpg"
           },
           {
             "order": 47,
             "title": "The Four Functions of Cost Management",
             "subheader": "Cost Control",
             "body": "<p>Cost control is the process of monitoring the status of the project to update the project costs and managing changes to the cost baseline. The primary advantage of this function is that it enables the identification of deviations from the plan, allowing for corrective measures to be taken to reduce risk.</p><br /><p>Project cost control includes:</p><ul> <li>Influencing the factors that create changes to the authorized cost baseline;</li> <li>Ensuring that all change requests are acted on in a timely manner;</li> <li>Managing the actual changes when and as they occur;</li> <li>Ensuring that cost expenditures do not exceed the authorized funding by period, WBS component, activity, and in total for the project;</li> <li>Monitoring cost performance to isolate and understand variances from the approved cost baseline;</li> <li>Monitoring work performance against funds expended;</li> <li>Preventing unapproved changes from being included in the reported cost or resource usage;</li> <li>Informing appropriate stakeholders of all approved changes and associated cost; and</li> <li>Bringing expected cost overruns within acceptable limits.</li> </ul>",
-            "image": "/src/assets/img/project_management/budgetandcostmgt/FourthFunctionCostMgt.jpg"
+            "image": "src/assets/img/project_management/budgetandcostmgt/FourthFunctionCostMgt.jpg"
           },
           {
             "order": 48,
             "layout": "col-2",
             "title": "Cost Control Issues",
-            "col1": "<p>Cost control issues can arise from various factors including resource allocation, unforeseen changes, and various delays.</p><img src='/src/assets/img/project_management/budgetandcostmgt/CostControlIssues1.jpg'>",
-            "col2": "<p>Teams requesting unplanned resources can occur due to underestimating the initial resources needs, unexpected challenges or obstacles, or changes in the project scope such as additional requests. It disrupts the project’s financial planning.</p><br /><p>Effective cost control requires careful collaborative and contingency planning, clear performance metrics, fair resource allocation, and established, consistent communication platforms.</p><img src='/src/assets/img/project_management/budgetandcostmgt/CostControlIssues2.jpg'>"
+            "col1": "<p>Cost control issues can arise from various factors including resource allocation, unforeseen changes, and various delays.</p><img src='src/assets/img/project_management/budgetandcostmgt/CostControlIssues1.jpg'>",
+            "col2": "<p>Teams requesting unplanned resources can occur due to underestimating the initial resources needs, unexpected challenges or obstacles, or changes in the project scope such as additional requests. It disrupts the project’s financial planning.</p><br /><p>Effective cost control requires careful collaborative and contingency planning, clear performance metrics, fair resource allocation, and established, consistent communication platforms.</p><img src='src/assets/img/project_management/budgetandcostmgt/CostControlIssues2.jpg'>"
           },
           {
             "order": 49,
             "title": "Cost Control Issues",
             "body": "<p>A significant cost control issue arises when a project falls behind its planned schedule. Delays can lead to increased labor costs, extended use of resources, and potential penalties. It is important to communicate clearly with team leads and project managers to ensure that all stakeholders understand the increase in costs that will be incurred due to the delay. To minimize, or even mitigate other delays and issues, the following are good activities to practice during the project:</p><ul> <li>Cadence meetings to discuss project progress, address arising issues, and reinforce the importance of the timeline </li> <li>An established feedback loop allows team leads, project staff, and the project manager to provide their respective inputs on the project’s current progress.</li> <li>During the project lifecycle, some processes and ways of working can be improved hence the need to identify bottlenecks and causes of delays. This proactive approach to problem-solving can help support the team in delivering their tasks.</li> <li>Educate stakeholders and the project team on the specific financial impacts of delays. Provide concrete examples and data to illustrate how even minor delays can lead to significant cost increases. This helps to create a sense of urgency and accountability among team members, encouraging them to stay focused and committed to meeting deadlines.</li> <li>Utilize visual aids, such as Gantt charts and project roadmaps, to illustrate the project timeline and key milestones, making it easier for team members to see how their tasks fit into the overall schedule.</li> </ul>",
-            "image": "/src/assets/img/project_management/budgetandcostmgt/CostControlIssues3.jpg"
+            "image": "src/assets/img/project_management/budgetandcostmgt/CostControlIssues3.jpg"
           },
           {
             "order": 50,
             "title": "Common Cost Management Issues",
             "body": "Modifications to the project scope and timeline can significantly influence the overall costs and budget. Effective cost management is essential to anticipate, monitor, and control these changes to ensure project success. To recall, here are the five common cost management issues discussed all throughout the four functions of cost management. Ultimately, these issues can cause the project to exceed its initial budget, leading to financial and resource strain.",
-            "image": "/src/assets/img/project_management/budgetandcostmgt/CommonCostMgtIssues.jpg"
+            "image": "src/assets/img/project_management/budgetandcostmgt/CommonCostMgtIssues.jpg"
           },
           {
             "order": 51,
             "layout": "col-2",
             "title": "Cost Overruns",
-            "col1": "<p>Cost overruns occur when a project exceeds its initial budget, resulting in higher-than-expected total costs. It refers to unexpected increase/s in a project’s expenses that leads to spending beyond the planned budget. Here are other causes of cost overruns. Click each icon to find out more about it.</p><img src='/src/assets/img/project_management/budgetandcostmgt/CostOverruns.jpg'>",
-            "col2": "<p>Unclear communication can cause misunderstanding and misalignment among project team members and stakeholders.</p><img src='/src/assets/img/project_management/budgetandcostmgt/CostOverruns1.jpg'>"
+            "col1": "<p>Cost overruns occur when a project exceeds its initial budget, resulting in higher-than-expected total costs. It refers to unexpected increase/s in a project’s expenses that leads to spending beyond the planned budget. Here are other causes of cost overruns. Click each icon to find out more about it.</p><img src='src/assets/img/project_management/budgetandcostmgt/CostOverruns.jpg'>",
+            "col2": "<p>Unclear communication can cause misunderstanding and misalignment among project team members and stakeholders.</p><img src='src/assets/img/project_management/budgetandcostmgt/CostOverruns1.jpg'>"
           },
           {
             "order": 52,
             "layout": "col-2",
             "title": "CostOverruns",
-            "col1": "<p>Inaccurate project estimation can lead to cost overruns by underestimating the resources, time, and budget required to complete the project. When initial estimates are too low, the project may face unexpected expenses and resource shortages as it progresses. This can result in the need for additional funding, extended timelines, and increased labor costs, ultimately causing the project to exceed its original budget.</p> <img src='/src/assets/img/project_management/budgetandcostmgt/CostOverruns2.jpg'>",
-            "col2": "<p>Ineffective scheduling causes delays and disruptions in the project timeline. When tasks are not properly sequenced or allocated sufficient time, it can result in bottlenecks, idle resources, and missed deadlines.</p><img src='/src/assets/img/project_management/budgetandcostmgt/CostOverruns3.jpg'>"
+            "col1": "<p>Inaccurate project estimation can lead to cost overruns by underestimating the resources, time, and budget required to complete the project. When initial estimates are too low, the project may face unexpected expenses and resource shortages as it progresses. This can result in the need for additional funding, extended timelines, and increased labor costs, ultimately causing the project to exceed its original budget.</p> <img src='src/assets/img/project_management/budgetandcostmgt/CostOverruns2.jpg'>",
+            "col2": "<p>Ineffective scheduling causes delays and disruptions in the project timeline. When tasks are not properly sequenced or allocated sufficient time, it can result in bottlenecks, idle resources, and missed deadlines.</p><img src='src/assets/img/project_management/budgetandcostmgt/CostOverruns3.jpg'>"
           },
           {
             "order": 53,
             "layout": "col-2",
             "title": "CostOverruns",
             "body": "Unexpected costs due to fortuitous events, such as natural disasters, accidents, or sudden regulatory changes, can lead to significant cost overruns. These unforeseen events can disrupt project activities, damage resources and necessitate additional expenditures for repairs, replacements, or compliance. As these costs are not accounted for in the initial budget, they can quickly escalate and push the project beyond its financial limits. Effective risk management and contingency planning are essential to mitigate the impact of such unpredictable events on the project budget.",
-            "image": "/src/assets/img/project_management/budgetandcostmgt/CostOverruns4.jpg"
+            "image": "src/assets/img/project_management/budgetandcostmgt/CostOverruns4.jpg"
           },
           {
             "order": 54,
             "title": "CostOverruns",
             "body": "Inconsistency in project execution can lead to cost overruns by creating inefficiencies and errors. When processes, standards, and quality controls are not uniformly applied, it can result in rework, wasted materials, and duplicated efforts.",
-            "image": "/src/assets/img/project_management/budgetandcostmgt/CostOverruns5.jpg"
+            "image": "src/assets/img/project_management/budgetandcostmgt/CostOverruns5.jpg"
           },
           {
             "order": 55,
             "title": "CostOverruns",
             "body": "Lack of risk management leaves a project unprepared for potential issues and uncertainties. Without identifying, assessing, and mitigating risks, unforeseen problems such as technical challenges, resource shortages, or market fluctuations can arise and disrupt the project.",
-            "image": "/src/assets/img/project_management/budgetandcostmgt/CostOverruns6.jpg"
+            "image": "src/assets/img/project_management/budgetandcostmgt/CostOverruns6.jpg"
           },
           {
             "order": 56,
             "title": "CostOverruns",
             "body": "Inexperience is another possible cause of cost overruns. When project managers or team members lack the necessary skills and knowledge, they may underestimate the complexity of tasks, overlook critical details, and fail to anticipate potential challenges.",
-            "image": "/src/assets/img/project_management/budgetandcostmgt/CostOverruns7.jpg"
+            "image": "src/assets/img/project_management/budgetandcostmgt/CostOverruns7.jpg"
           },
           {
             "order": 57,
             "title": "CostOverruns",
             "body": "Low productivity levels can lead to cost overruns by extending project timelines and increasing labor costs. When team members are not working efficiently, tasks take longer to complete, resulting in delays and missed deadlines. This inefficiency often necessitates additional work hours and resources to stay on track, driving up costs.",
-            "image": "/src/assets/img/project_management/budgetandcostmgt/CostOverruns8.jpg"
+            "image": "src/assets/img/project_management/budgetandcostmgt/CostOverruns8.jpg"
           },
           {
             "order": 58,
             "title": "Knowledge Check",
             "body": "Cost overruns can be caused by: Select all that apply.",
-            "image": "src/assets/img/project_management/budgetandcostmgt/KnowledgeCheck.jpg",
+            "image":"src/assets/img/general images/KnowledgeCheck.jpg", 
             "q_field_type": "multi_select",
             "q_selection": [
               {
@@ -1361,21 +1360,21 @@
             "order": 59,
             "title": "Cost Control Techniques",
             "body": "Cost control techniques are essential practices in project management and financial planning aimed at ensuring that projects stay within their allocated budgets. These techniques involve monitoring and managing expenses, analyzing cost variances, and implementing corrective actions to address any deviations from the budget. By effectively applying these techniques, organizations can optimize resource utilization, prevent cost overruns, and achieve financial objectives.",
-            "image": "/src/assets/img/project_management/budgetandcostmgt/CostControlTechniques.jpg"
+            "image": "src/assets/img/project_management/budgetandcostmgt/CostControlTechniques.jpg"
           },
           {
             "order": 60,
             "title": "Cost Control Techniques",
             "subheader": "EVM",
             "body": "<p>Earned value management (EVM) is a methodology that combines scope, schedule, and resource measurements to assess project performance and progress. It is a commonly used method of performance measurement for projects. It integrates the scope baseline with the cost baseline, along with the schedule baseline, to form the performance baseline, which helps the project management team assess and measure project performance and progress.</p><br /><p>This method develops and monitors three key dimensions for each work package and control account:</p><ul><li>Planned Value – is the authorized budget assigned to schedule work</li><li>Earned Value – is the measure of work performed expressed in terms of the budget authorized for that work; this is often used to calculate the percent complete of a project</li><li>Actual Cost – is the realized cost</li>></ul><br /><p>Variances from the approved baseline will also be monitored:</p><ul><li>Schedule Variance – is a measure of schedule performance expressed as the difference between the earned and planned value. It is the amount by which the project is ahead or behind the planned delivery date, at a given point in time. It is a measure of schedule performance on a project.</li><li>Cost Variance – is the amount of budget deficit or surplus at a given point in time, expressed as the difference between earned value and the actual cost. It is a measure of cost performance on a project.</li></ul>",
-            "image": "/src/assets/img/project_management/budgetandcostmgt/CostControlTechniques1.jpg"
+            "image": "src/assets/img/project_management/budgetandcostmgt/CostControlTechniques1.jpg"
           },
           {
             "order": 61,
             "title": "Cost Control Techniques",
             "subheader": "Forecasting",
             "body": "<p>Forecasting, although mentioned in cost estimating and budgeting, can also be used as a cost control technique. Forecasting can be used as a cost control technique because it involves predicting future financial conditions and performance based on historical data, trends, and assumptions. By anticipating potential costs and financial outcomes, organizations can make informed decisions, allocate resources more effectively, and identify potential budgetary issues before they arise. This proactive approach allows for timely adjustments to plans and budgets, helping to prevent cost overruns and ensuring that projects remain financially viable.</p><br /><p>Forecasts are generated, updated, and reissued based on work performance data that is provided as the project is being executed. During the project, the team may develop a forecast for the estimate at completion (EAC) that may differ from the budget at completion (BAC) based on the project performance.</p><br /><p>EACs are typically based on the actual costs incurred for work completed, plus an estimate to complete (ETC) the remaining work.</p>",
-            "image": "/src/assets/img/project_management/budgetandcostmgt/CostControlTechniques2.jpg"
+            "image": "src/assets/img/project_management/budgetandcostmgt/CostControlTechniques2.jpg"
           },
           {
             "order": 62,
@@ -1383,20 +1382,20 @@
             "subheader": "Performance Reviews",
             "body": "Performance reviews compare cost performance over time, schedule activities or work packages overrunning and underrunning the budget, and estimated funds needed to complete work in progress. It involves regularly evaluating the progress and efficiency of projects, departments, or employees against predefined goals and benchmarks.",
             "list1": "Variance Analysis – compares planned and actual activity costs to identify variances between the baseline and actual performance. Further analysis can be performed to determine the cause and degree of variance relative to the schedule baseline and any corrective or preventative actions needed.; Trend Analysis – examines project performance overtime to determine if performance is improving or deteriorating. It involves examining historical data patterns to gain insights regarding cost behaviors and make informed decisions to manage and control expenses effectively. Through trend analysis, you may spot unusual spikes or drops that may indicate inefficiencies.; Earned Value Performance – compares the performance measurement baseline to actual schedule and cost performance if EVM is being used.",
-            "image": "/src/assets/img/project_management/budgetandcostmgt/CostControlTechniques3.jpg"
+            "image": "src/assets/img/project_management/budgetandcostmgt/CostControlTechniques3.jpg"
           },
           {
             "order": 63,
             "title": "Cost Control Techniques",
             "subheader": "TCPI",
             "body": "<p>The to-complete performance index (TCPI) is a measure of the cost performance that is required to be achieved with the remaining resources in order to meet a specified management goal, expressed as the ratio of the cost to finish the outstanding work to the remaining budget. It sets clear performance expectations for project teams, encouraging cost-conscious behavior and efficient use of resources.</p><br /><p>If the cumulative Cost Performance Index (CPI) falls below the baseline, as shown in the figure, all future work of the project will need to be performed immediately in the range of the TCPI (BAC) to stay within the authorized BAC.</p><img src=src/assets/img/project_management/budgetandcostmgt/TCPI.jpg/>",
-            "image": "/src/assets/img/project_management/budgetandcostmgt/CostControlTechniques4.jpg"
+            "image": "src/assets/img/project_management/budgetandcostmgt/CostControlTechniques4.jpg"
           },
           {
             "order": 64,
             "title": "Knowledge Check",
             "body": "Which of the following activities are included in project cost control? Select all that apply.",
-            "image": "src/assets/img/project_management/budgetandcostmgt/KnowledgeCheck.jpg",
+            "image":"src/assets/img/general images/KnowledgeCheck.jpg", 
             "q_field_type": "multi_select",
             "q_selection": [
               {
@@ -1411,184 +1410,127 @@
           {
             "order": 65,
             "title": "Lesson Summary",
-            "subheader": "Congratulations on completing Lesson 2 of this course!",
-            "body": "<p>Now that you have completed this lesson. Here is a summary:</p><ul> <li>The four functions of cost management are resource planning, cost estimating, cost budgeting, and cost control</li> <li>A company's cash flow at any point in time is a juxtaposition of payables, receivables, debt service, capital expenditures, sales/repurchases of stock and other factors</li> <li>Cashflows are always important, especially in times of change or where there is a reasonable degree of risk; Issues and risks persist during the budget and cost management phase of a project</li> <li>Anticipating these issues can ensure that project teams are prepared with appropriate responses</li> </ul>",
-            "image": "src/assets/img/project_management/budgetandcostmgt/LearningSummary.jpg"
+            "body": "<h2>Congratulations on completing Lesson 4 of this course!</h2> <p>Now that you have completed this lesson, you should be able to:</p> <ul>  <li>Understand what cost management and budgeting is</li> <li>Define the correlation between decision-making and budget and cost management</li> </ul>",
+            "image":"src/assets/img/general images/LessonSummary.jpg"
           },
           {
             "order": 66,
+            "title": "Module Summary",
+            "subheader": "Congratulations on completing Lesson 2 of this course!",
+            "body": "<p>Now that you have completed this lesson. Here is a summary:</p><ul> <li>The four functions of cost management are resource planning, cost estimating, cost budgeting, and cost control</li> <li>A company's cash flow at any point in time is a juxtaposition of payables, receivables, debt service, capital expenditures, sales/repurchases of stock and other factors</li> <li>Cashflows are always important, especially in times of change or where there is a reasonable degree of risk; Issues and risks persist during the budget and cost management phase of a project</li> <li>Anticipating these issues can ensure that project teams are prepared with appropriate responses</li> </ul>",
+            "image":"src/assets/img/general images/ModuleSummary.jpg"
+          },
+          {
+            "order": 67,
             "title": "Module Completion",
-            "subheader": "Congratulations on completing the Budget and Cost Management module!",
+            "subheader": "Download Certificate",
             "body": "<p>You've now gained a solid understanding of the essential terms and concepts, as well as the practical skills needed to effectively manage budgets and control costs.</p><br /><p>As you move forward, remember that the principles and strategies you've learned here are vital tools for ensuring the financial health and success of any project or organization. By applying these techniques, you'll be better equipped to make informed financial decisions, forecast cash flow accurately, and address potential issues proactively.</p><br /><p>We hope this module has empowered you with the knowledge and confidence to tackle any financial challenge that comes your way. Keep honing your skills, stay diligent in your financial planning, and continue to strive for excellence in budget and cost management.</p>",
             "image": "src/assets/img/project_management/budgetandcostmgt/ModuleCompletion.jpg"
           },
           {
-            "order": 67,
+            "order": 68,
             "title": "Budget and Cost Management Lessons",
             "subheader": "Assessment",
             "image": "src/assets/img/project_management/budgetandcostmgt/LearningObjective3.jpg"
           },
           {
-            "order": 68,
+            "order": 2,
             "title": "Module Post-Examination",
-            "exams": [
-              {
-                "exam_id": 1,
+            "exams": [{
+            "exam_id": 1,
                 "title": "Module Post-Examination",
                 "body": "This assessment is designed to test your knowledge. Results of this assessment will be used to structure the workshop.",
-                "questions": [
-                  {
+                "questions": [{
                     "q_number": 1,
                     "q_statement": "This cost estimation technique accounts for risk factors, therefore arriving at the best, worst, and most likely case scenarios.",
-                    "q_field_type": "single_select",
-                    "q_selection": [
-                      {
+                    "q_field_type": "single_select" ,
+                    "q_selection": [{
                         "A": "Three-Point Estimating",
-                        "B": "Earned Value Analysis",
-                        "C": "Vendor Bid Analysis",
-                        "D": "Template Method"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "q_number": 2,
-                "q_statement": "The Earned Value Management (EVM) develops and monitors three key dimensions for each work package and control account. This dimension is the realized cost incurred for the work performed on an activity during a specific time period.",
-                "q_field_type": "single_select",
-                "q_selection": [
-                  {
-                    "A": "Cost Performance Index",
-                    "B": "Earned Value",
-                    "C": "Cost Variance",
-                    "D": "Actual Cost"
-                  }
-                ]
-              },
-              {
-                "q_number": 3,
-                "q_statement": "This budgeting methodology focuses on value-adding processes of an organization.",
-                "q_field_type": "single_select",
-                "q_selection": [
-                  {
-                    "A": "Activity-Based Budget",
-                    "B": "Zero-Based Budget",
-                    "C": "Bottom-Up Estimating",
-                    "D": "Reserve Analysis"
-                  }
-                ]
-              },
-              {
-                "q_number": 4,
-                "q_statement": "Which of the choices is one of the four functions of cost management?",
-                "q_field_type": "single_select",
-                "q_selection": [
-                  {
-                    "A": "Plan and Deliverable Management",
-                    "B": "Resource Planning",
-                    "C": "Project Scheduling",
-                    "D": "Scope Management"
-                  }
-                ]
-              },
-              {
-                "q_number": 5,
-                "q_statement": "This budgeting methodology focuses on value-adding processes of an organization.",
-                "q_field_type": "single_select",
-                "q_selection": [
-                  {
-                    "A": "Activity-Based Budget",
-                    "B": "Zero-Based Budget",
-                    "C": "Bottom-Up Estimating",
-                    "D": "Reserve Analysis"
-                  }
-                ]
-              },
-              {
-                "q_number": 6,
-                "q_statement": "The biggest challenge of this budgeting methodology is ensuring the commitment of all employees to be in constant budgeting mode.",
-                "q_field_type": "single_select",
-                "q_selection": [
-                  {
-                    "A": "Flexible Budget",
-                    "B": "Zero-Based Budget",
-                    "C": "Rolling Budget",
-                    "D": "Activity-Based Budget"
-                  }
-                ]
-              },
-              {
-                "q_number": 7,
-                "q_statement": "This cost estimation technique accounts for risk factors, therefore arriving at the best, worst, and most likely case scenarios.",
-                "q_field_type": "single_select",
-                "q_selection": [
-                  {
-                    "A": "Three-Point Estimating",
-                    "B": "Earned Value Analysis",
-                    "C": "Vendor Bid Analysis",
-                    "D": "Template Method"
-                  }
-                ]
-              },
-              {
-                "q_number": 8,
-                "q_statement": "An organization’s strategy in quantitative form.",
-                "q_field_type": "single_select",
-                "q_selection": [
-                  {
-                    "A": "Framework",
-                    "B": "Financial Statement",
-                    "C": "Budget",
-                    "D": "Work Breakdown Structure (WBS)"
-                  }
-                ]
-              },
-              {
-                "q_number": 9,
-                "q_statement": "Cash flows are crucial for the financial health of a project or business. In which of the following situations are cash flows particularly important?",
-                "q_field_type": "single_select",
-                "q_selection": [
-                  {
-                    "A": "Always, especially in times of change or where there is a reasonable degree of risk",
-                    "B": "Only if you are short of money",
-                    "C": "Only if you have a surplus",
-                    "D": "Only if income and/or expenses are particularly variable"
-                  }
-                ]
-              },
-              {
-                "q_number": 10,
-                "q_statement": "<p>First National Bank is a mid-sized financial institution that has been facing challenges with its traditional budgeting process. The management team has noticed that the current budgeting system lacks accuracy and transparency, leading to inefficiencies and cost overruns. To address these issues, the bank decided to implement activity-based budgeting (ABB).</p><br /><p>After conducting a thorough analysis of their operations, First National Bank identified the key activities that drive costs within the organization. They focused on supporting value-adding processes and improving the accuracy of cost measurement. The implementation of ABB provided a much more accurate cost plan, control, and evaluation.</p><br /><p>Evaluate the impact of improved cost measurement accuracy on the financial planning and decision-making process at First National Bank.</p>",
-                "q_field_type": "single_select",
-                "q_selection": [
-                  {
-                    "A": "More accurate and reliable financial data for planning and forecasting",
-                    "B": "Better identification of cost drivers and areas for cost reduction",
-                    "C": "Improved ability to make informed strategic decisions based on detailed cost analysis",
-                    "D": "All of the above"
-                  }
-                ]
-              },
-              {
-                "q_number": 11,
-                "q_statement": "What impact do cost overruns have on a project and the organization?",
-                "q_field_type": "multi_select",
-                "q_selection": [
-                  {
-                    "A": "Strain on financial resources",
-                    "B": "Delays in project completion",
-                    "C": "Improved stakeholder satisfaction",
-                    "D": "Fast project completion"
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
+                        "B": "Scheduling project tasks and milestones",
+                        "C": "Managing project risks and issues",
+                        "D": "Allocating resources and managing team performance"
+                    }],
+                    "q_answer": "A"
+                },
+                {
+                    "q_number": 2,
+                    "q_statement": "<p>You are managing a project that involves multiple phases and a significant budget. As part of your responsibilities, you need to ensure effective financial control throughout the project's lifecycle.</p><br/> <p>Which of the following processes are required to maintain effective financial control of a project?</p>",
+                    "q_field_type": "single_select" ,
+                    "q_selection": [{
+                        "A": "Estimating, budgeting, and controlling project costs",
+                        "B": "Scheduling project tasks and milestones",
+                        "C": "Managing project risks and issues",
+                        "D": "Allocating resources and managing team performance"
+                    }],
+                    "q_answer": "A"
+                },
+                {
+                    "q_number": 3,
+                    "q_statement": "This budgeting methodology focuses on value-adding processes of an organization.",
+                    "q_field_type": "single_select" ,
+                    "q_selection": [{
+                        "A": "Activity-Based Budget",
+                        "B": "Zero-Based Budget",
+                        "C": "Bottom-Up Estimating",
+                        "D": "Reserve Analysis"
+                    }],
+                    "q_answer": "A"
+                },
+                {
+                    "q_number": 4,
+                    "q_statement": "An organization’s strategy in quantitative form.",
+                    "q_field_type": "single_select",
+                    "q_selection": [{
+                        "A": "Framework",
+                        "B": "Financial Statement",
+                        "C": "Budget",
+                        "D": "Work Breakdown Structure (WBS)"
+                    }],
+                    "q_answer": "C"
+                },
+                {
+                    "q_number": 5,
+                    "q_statement": "<p>Juan is an IT professional who specializes in digitally transforming banks for over 20 years. The current bank that he’s working under assigned him to pitch a project in which he will be spearheading alongside Pedro, the operations manager. The CEO told Juan and Pedro that the board believes that the bank is already matured in its operations and is equipped with enough resources and competencies to expand its reach, therefore wanting the bank to have its own mobile application.</p><p>During the planning phase of the project, which cost estimating technique is best for Juan and Pedro to use for their pitch?</p>",
+                    "q_field_type": "single_select",
+                    "q_selection": [{
+                        "A": "Delphi (Consensus) Estimating",
+                        "B": "Parametric Estimating",
+                        "C": "Top-Down Estimating",
+                        "D": "Analogous Estimating"
+                    }],
+                    "q_answer": "D"
+                },
+                {
+                    "q_number": 6,
+                    "q_statement": "The biggest challenge of this budgeting methodology is ensuring the commitment of all employees to be in constant budgeting mode.",
+                    "q_field_type": "single_select",
+                    "q_selection": [{
+                        "A": "Flexible Budget",
+                        "B": "Zero-Based Budget",
+                        "C": "Rolling Budget",
+                        "D": "Activity-Based Budget"
+                    }],
+                    "q_answer": "C"
+                },
+                {
+                    "q_number": 7,
+                    "q_statement": "<p>First National Bank is a mid-sized financial institution that has been facing challenges with its traditional budgeting process. The management team has noticed that the current budgeting system lacks accuracy and transparency, leading to inefficiencies and cost overruns. To address these issues, the bank decided to implement activity-based budgeting (ABB).</p><p>After conducting a thorough analysis of their operations, First National Bank identified the key activities that drive costs within the organization. They focused on supporting value-adding processes and improving the accuracy of cost measurement. The implementation of ABB provided a much more accurate cost plan, control, and evaluation.</p><p>Evaluate the impact of improved cost measurement accuracy on the financial planning and decision-making process at First National Bank.</p>",
+                    "q_field_type": "single_select",
+                    "q_selection":[{
+                        "A": "More accurate and reliable financial data for planning and forecasting",
+                        "B": "Better identification of cost drivers and areas for cost reduction",
+                        "C": "Improved ability to make informed strategic decisions based on detailed cost analysis",
+                        "D": "All of the above"
+                    }],
+                    "q_answer": "D"
+                }]
+          }]
+        }
+      ]
+    }
+  ]
+}, 
+{
     "id": 3,
     "moduleId": "PMFIDS_RM",
     "moduleName": "Project Risk Management",
@@ -2235,3 +2177,5 @@
     ]
   }
 ]
+
+
