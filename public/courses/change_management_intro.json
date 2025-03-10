@@ -1,0 +1,250 @@
+[{
+    "id": 5,
+    "moduleId": "PMFIDS_INTRO",
+    "moduleName": "Change Management: Change Management Fundamentals",
+    "type": "course",
+    "sections": [
+      {
+        "order": 1,
+        "title": "Module Introduction",
+        "subheader": "Welcome to the WBL (Web-Based Learning) module on Change Management: Change Management Fundamentals!",
+        "body": "Welcome to the Web-Based Learning (WBL) module on Change Management! This module aims to provide you with a comprehensive understanding of the principles and practices vital for effectively managing change within organizations. Throughout the module, you will examine the crucial role of change management in ensuring smooth transitions, boosting employee engagement, and achieving organizational objectives. We will explore various change management frameworks and methodologies, highlighting the significance of addressing the personnel aspects of change. Additionally, you will acquire practical strategies for assessing the impact of change, engaging stakeholders, and implementing successful change initiatives that thrive in today’s dynamic business landscape.", 
+        "image": "src/assets/img/general images/ModuleIntroduction.jpg"
+      },
+      {
+        "order": 2,
+        "title": "Module Pre-Examination",
+        "exams": [{
+        "exam_id": 1,
+            "title": "Module Pre-examination",
+            "body": "This assessment is designed to test your knowledge. Results of this  assessment will be used to structure the workshop.",
+            "questions": [{
+                  "q_number": 1,
+                  "q_statement": "What is change? (Select all that apply)",
+                  "q_field_type": "multi_select" ,
+                  "q_selection": [{
+                        "A": "To make something different",
+                        "B": "To experience a state of instability​",
+                        "C": "To undergo modification​",
+                        "D": "Not flowing in a current or stream​"
+                      }],
+                  "q_answer": "A, C"
+            },
+            {
+                  "q_number": 2,
+                  "q_statement": "What is the primary goal of change management?",
+                  "q_field_type": "single_select" ,
+                  "q_selection": [{
+                      "A": "To implement changes without any disruption​",
+                      "B": "To ensure that changes are implemented smoothly and successfully while minimizing resistance",
+                      "C": "To eliminate all changes within an organization​",
+                      "D": "To increase the number of changes in an organization​"
+                  }], 
+                  "q_answer": "B"   
+            },
+            {
+                  "q_number": 3,
+                  "q_statement": "Which change management model is structured, adaptable, and repeatable framework that prioritizes the human aspects of change?",
+                  "q_field_type": "single_select",
+                  "q_selection": [{
+                      "A": "Lewin's Change Management Model​",
+                      "B": "Kotter's 8-Step Change Model​",
+                      "C": "Prosci Methodology​",
+                      "D": "McKinsey 7-S Framework​"
+                  }],
+                  "q_answer": "C"
+            }]
+        }]
+      },
+      {
+        "order": 3,
+        "title": "Module Credit and Completion Requirements and Learning Objective",
+        "body": "<h4>Credit and Completion Requirements</h4><ul><li>To receive proper learning credit and achieve the learning objectives, you must not skip any screens</li><li>Complete all interactions</li><li>Complete all practice questions</li><li>Pass the final assessment with at least 70%</li><li>You must complete the assessment alone. Using answers received from others, including any form of artificial intelligence, to complete an assessment is cheating.</li></ul><br /><p>Please note that this learning will expire by April 25, 2025. You must complete and pass all of the scored portions of this module within this period, or your related learning progress will be removed.</p><h2>Module Learning Objectives</h2><p>Upon successful completion of the module, you will be able to:</p> <ul> <li>Demonstrate the essential skills and knowledge required to effectively serve as Change Managers on projects.</li> <li>Understand key change management concepts, theories, and frameworks, with a focus on the human side of change.</li> <li>Define and explain what is change management</li> <li>Recognize the different change management framework</li> <li>Understand the concept and the key components of “Change Management on a Page”</li> </ul>", 
+        "image":"src/assets/img/general images/CreditCompletionLearningObjectives.jpg"
+      },
+      {
+        "order": 4,
+        "title": "Change Management Lessons",
+        "subheader": "Change Management Fundamentals: Introduction to Change Management", 
+        "body": "<h4>Module Overview</h4> <h5>Learning Objective</h5> <p>At the end of this lesson, you will be able to:</p> <ul> <li>To define what is change; and,</li> <li>Understand the different change management framework.</li> </ul>",
+        "image": "src/assets/img/change management/Intro/PMFIDS_CM_order4.jpg"
+      }, 
+      {
+        "order": 5,
+        "title": "Introduction to Change Management",
+        "subheader": "What is Change?", 
+        "body": "<ul> <li>(v.) To make something different</li> <li>(v.) To make a shift from one to another</li> <li>(v.) To undergo modification</li> <li>(n.) To act, process, or result of changing</li> </ul>"
+      },
+      {
+        "order": 6,
+        "layout": "col-2", 
+        "title": "Introduction to Change Management",
+        "subheader": "What is Change Management?", 
+        "col1": "<p>In this section, we will introduce key change management frameworks that provide structured approaches to navigating and implementing change effectively within organizations.</p> <img src='src/assets/img/change management/Intro/PMFIDS_CM_order6_0.jpg'> <h4>Lewin’s Change Management Model:</h4> <ul> <li>Kurt Lewin's Change Management Model presents a simple approach to organizational change, structured into three phases: Unfreeze, Change and Refreeze. This high-level model emphasizes the planning and preparation stages of change and supporting employees through each stage.</li> </ul>",
+        "col2": "<img src='src/assets/img/change management/Intro/PMFIDS_CM_order6_1.jpg'> <h4>McKinsey 7-S Framework:</h4> <ul> <li>The McKinsey 7S model focuses on aligning seven key internal elements of an organization for successful change management—categorizing them by “hard” and “soft.” These seven elements are evaluated for their mutual impact to pinpoint areas for improvement.</li> </ul>"    
+      },
+      {
+        "order": 7,
+        "layout": "col-2", 
+        "title": "Introduction to Change Management",
+        "subheader": "What is Change Management?", 
+        "col1": "<img src='src/assets/img/change management/PMFIDS_CM_order7_0.jpg'> <h4>The Bridges Transition Model:</h4> <ul> <li>Bridges' Transition Model, created by William Bridges, focuses on the individual emotional journey during organizational change. It differentiates between change, the external event, and transition.</li> </ul>",
+        "col2": "<img src='src/assets/img/change management/Intro/PMFIDS_CM_order7_1.jpg'> <h4>Kubler-Ross Change Curve:</h4> <ul> <li>The Kubler-Ross Change Curve by Elisabeth Kübler-Ross, adapted from the stages of grief, helps change teams understand emotional responses during organizational change. It’s most useful when managing changes with deep or negative employee impacts, such as significant layoffs or extensive organizational restructurings.</li> </ul>"    
+      },
+      {
+        "order": 8,
+        "title": "Knowledge Check",
+        "body": "<p>Which model focuses on the emotional journey of individuals during change?</p>",
+        "image":"src/assets/img/general images/KnowledgeCheck.jpg", 
+        "q_field_type": "single_select" ,
+        "q_selection": [{
+          "A": "Kotter’s 8-Step Change Model",
+          "B": "Agile Change Management Model",
+          "C": "The Bridges Transition Model",
+          "D": "Kubler-Ross Change Curve"
+        }],
+        "q_answer": "C"
+  
+      },  
+      {
+        "order": 9,
+        "layout": "col-2", 
+        "title": "Introduction to Change Management",
+        "subheader": "What is Change Management?", 
+        "col1": "<img src='src/assets/img/change management/Intro/PMFIDS_CM_order9_0.jpg'> <h4>The Burke-Litwin Change Model:</h4> <ul> <li>The Burke-Litwin Change Model combines internal organizational aspects with external influences. The model is a diagnostic framework that enables you to assess organizational changes according to 12 interconnected factors that collectively impact organizational dynamics.</li> </ul>",
+        "col2": "<img src='src/assets/img/change management/Intro/PMFIDS_CM_order9_1.jpg'> <h4>The Agile Change Management Model:</h4> <ul> <li>The Agile Change Management Model, drawing inspiration from Agile methodologies common in software development, emphasizes the importance of adaptability and rapid responses to evolving changes.</li> </ul>"    
+      },
+      {
+        "order": 10,
+        "layout": "col-2", 
+        "title": "Introduction to Change Management",
+        "subheader": "What is Change Management?", 
+        "col1": "<img src='src/assets/img/change management/Intro/PMFIDS_CM_order10_0.jpg'> <h4>Kotter’s 8-Step Change Model:</h4> <ul> <li>John Kotter's 8-step change model provides a conceptual approach to managing organizational change. It's a top-down model designed to create urgency and build momentum in organizations.</li> </ul>",
+        "col2": "<img src='src/assets/img/change management/Intro/PMFIDS_CM_order10_1.jpg'> <h4>The Prosci Methodology:</h4> <ul> <li>A structured, adaptable, and repeatable framework that prioritizes the human aspects of change, with the ADKAR Model at its core, focusing on individual transitions. By emphasizing employee engagement and acceptance, Prosci recognizes that successful change initiatives hinge on managing the people side of change. Grounded in extensive research and data from thousands of organizations, this methodology is built on proven practices and real-world experiences, making it the most comprehensive approach among those evaluated.</li> </ul>"    
+      },
+      {
+        "order": 11,
+        "title": "Knowledge Check",
+        "body": "What are the three phases of the Prosci Methodology?",
+        "image":"src/assets/img/general images/KnowledgeCheck.jpg", 
+        "q_field_type": "single_select" ,
+        "q_selection": [{
+          "A": "Planning, Execution, Review",
+          "B": "Preparing for Change, Managing Change, Sustaining Change",
+          "C": "Initiation, Implementation, Closure",
+          "D": "Assessment, Development, Deployment"
+        }],
+        "q_answer": "B"
+      }, 
+      {
+        "order": 12,
+        "title": "Lesson Summary",
+        "body": "<h2>Congratulations on completing Lesson 1 of this module!</h2> <p>Now that you have completed this lesson, you should be able to:</p> <ul> <li>To define what is change; and,</li> <li>Understand the different change management framework.</li> </ul>", 
+        "image":"src/assets/img/general images/LessonSummary.jpg"
+      },
+      {
+        "order": 13,
+        "title": "Change Management Lessons",
+        "subheader": "Change Management Fundamentals: Change Management on a Page", 
+        "body": "<h2>Module Overview</h2> <h4>Learning Objective</h4><p>At the end of this lesson, you will be able to:</p> <ul> <li>To define the Prosci Methodology of Change Management; and,</li> <li>Understand the overview of EY’s Change Experience.</li> </ul>",
+        "image": "src/assets/img/change management/  Intro/PMFIDS_CM_order13.jpg"
+      },
+      {
+        "order": 14,
+        "title": "Introduction to Change Management",
+        "subheader": "Change Management on a Page",
+        "body":"<p>The Change Management Framework presented here is a synthesis of Prosci's methodologies and EY's extensive experiences and best practices. Like the Prosci Methodology, EY's Framework of Change Experience is structured around three key stages, outlining the essential steps and phases necessary for successfully implementing change.</p> <img src='src/assets/img/change management/Intro/PMFIDS_CM_order14.jpg'> <p>Prosci’s Methodology is structured around three key phases:</p> <ul> <li>Preparing for Change: This phase focuses on establishing a solid foundation for the change initiative by aligning the organization and ensuring readiness.</li> <li>Managing Change: The aim here is to engage employees, ensuring they understand the change and possess the skills and resources needed to adapt.</li> <li>Sustaining Change: This phase seeks to maintain the change over the long term, ensuring lasting benefits for the organization.</li> </ul>"
+      },
+      { 
+        "order": 15,
+        "title": "Introduction to Change Management",
+        "subheader": "Change Management on a Page",
+        "body":"The introduction to Change Management provides a comprehensive overview of the essential concepts and frameworks that guide organizations through the complexities of change. By synthesizing the methodologies into a structured framework, organizations can effectively prepare for, manage, and sustain change, ultimately enhancing their effectiveness and ensuring long-term success in navigating transformations.",  
+        "image": "src/assets/img/change management/Intro/PMFIDS_CM_order15.jpg"
+      },
+      {
+        "order": 16,
+        "title": "Knowledge Check",
+        "body": "What phase of Prosci Methodology is responsible to engage employees, ensuring they understand the change and possess the skills and resources needed to adapt?",
+        "image":"src/assets/img/general images/KnowledgeCheck.jpg", 
+        "q_field_type": "single_select" ,
+        "q_selection": [{
+          "A": "Preparing for Change",
+          "B": "Create Urgency",
+          "C": "Managing Change",
+          "D": "Sustaining Change"
+        }],
+        "q_answer": "C"
+      },
+      {
+        "order": 17,
+        "title": "Lesson Summary",
+        "body": "<h2>Congratulations on completing Lesson 2 of this module!</h2> <p>Now that you have completed this lesson, you should be able to:</p> <ul> <li>To define the Prosci Methodology of Change Management and,</li> <li>Understand the overview of EY’s Change Experience.</li> </ul>", 
+        "image":"src/assets/img/general images/LessonSummary.jpg"
+      }, 
+      {
+        "order": 18,
+        "title": "Module Summary",
+        "body": "<p>Now that you have completed this module, you should be able to</p><ul> <li>Understand that the introduction to Change Management outlines the fundamental concepts and frameworks essential for effectively navigating and implementing change within organizations.</li> <li>Define that change is the act of making something different or undergoing modification, while Change Management refers to structured approaches that facilitate this process.</li> <li>Recognize that the Prosci Methodology prioritizes the human aspects of change, emphasizing employee engagement through the ADKAR Model.</li> <li>Understand that the Change Management Framework synthesizes these methodologies, structured around three key phases: Preparing for Change, which establishes readiness; Managing Change, which engages employees; and Sustaining Change, which ensures long-term benefits. This comprehensive approach is designed to enhance organizational effectiveness and support successful transitions during significant business transformations.</li> </ul>", 
+        "image":"src/assets/img/general images/ModuleSummary.jpg"
+      },
+      {
+        "order": 19,
+        "title": "Module Completion",
+        "body": "<h4>Congratulations on completing the Change Management Lessons module!</h4><p>You've now gained a solid understanding of the essential terms and concepts for change management fundamentals.</p><p>As you move forward, remember that the principles and strategies you've learned here are vital tools for ensuring the  health and success of any project or organization. By applying these techniques, you'll be better equipped to make informed decisions</p><p>We hope this module has empowered you with the knowledge and confidence to tackle any challenge that comes your way. Keep honing your skills, stay diligent in your planning, and continue to strive for excellence in managing change.</p>", 
+        "image":"src/assets/img/general images/ModuleCompletion.jpg"
+      },
+      {
+        "order": 20, 
+        "title": "Change Management: Change Management Fundamentals Lessons",
+        "subheader": "Assessment", 
+        "image": "src/assets/img/change management/Intro/PMFIDS_CM_order20.jpg"
+      },
+      {
+        "order": 21,
+        "title": "Module Post-Examination",
+        "exams": [{
+        "exam_id": 1,
+            "title": "Module Post-examination",
+            "body": "This assessment is designed to test your knowledge. Results of this  assessment will be used to structure the workshop.",
+            "questions": [{
+                    "q_number": 1,
+                    "q_statement": "What phase of Prosci Methodology is focused on establishing a solid foundation for the change initiative by aligning the organization and ensuring readiness?",
+                    "q_field_type": "single_select" ,
+                    "q_selection": [{
+                        "A": "Managing Change",
+                        "B": "Sustaining Change",
+                        "C": "Preparing for Change",
+                        "D": "Create Urgency"
+                    }],
+                    "q_answer": "C"
+            },
+            {  
+                    "q_number": 2,
+                    "q_statement": "What Change Management Model emphasizes on “adaptability and rapid responses to evolving changes”?",
+                    "q_field_type": "single_select" ,
+                    "q_selection": [{
+                        "A": "Agile Change Management Model",
+                        "B": "Prosci Methodology",
+                        "C": "Lewin’s Change Management Model",
+                        "D": "The Bridges Transition Model"
+                    }],
+                    "q_answer": "A"
+            },
+            {
+                   "q_number": 3,
+                   "q_statement": "What is the primary goal of change management?",
+                    "q_field_type": "single_select" ,
+                    "q_selection": [{
+                        "A": "To implement changes without any disruption",
+                        "B": "To ensure that changes are implemented smoothly and successfully while minimizing resistance",
+                        "C": "To eliminate all changes within an organization",
+                        "D": "To increase the number of changes in an organization"
+                    }],
+                    "q_answer": "A"
+            }]
+          }]
+      }]
+}] 
+
+

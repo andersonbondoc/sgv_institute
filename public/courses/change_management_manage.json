@@ -1,0 +1,329 @@
+[{
+    "id": 7,
+    "moduleId": "PMFIDS_MANAGE",
+    "moduleName": "Manage Change",
+    "type": "module",
+    "sections": [
+    {
+        "order": 1,
+        "title": "Module Introduction",
+        "subheader": "Welcome to the Web-Based Learning (WBL) module on Change Management: Manage Change!",
+        "body": "This module aims to provide you with a comprehensive understanding of the principles and practices vital for effectively managing change within organizations. Throughout the course, you will examine the crucial role of change management in ensuring smooth transitions, boosting employee engagement, and achieving organizational objectives. We will explore various change management frameworks and methodologies, highlighting the significance of addressing the personnel aspects of change. Additionally, you will acquire practical strategies for assessing the impact of change, engaging stakeholders, and implementing successful change initiatives that thrive in today’s dynamic business landscape.", 
+        "image": "src/assets/img/general images/ModuleIntroduction.jpg"
+    },
+    {
+    "order": 2,
+    "title": "Module Pre-Examination",
+    "exams": [{
+    "exam_id": 1,
+        "title": "Module Pre-examination",
+        "body": "This assessment is designed to test your knowledge. Results of this  assessment will be used to structure the workshop.",
+        "questions": [{
+                "q_number": 1,
+                "q_statement": "What is change management plan?",
+                "q_field_type": "single_select" ,
+                "q_selection": [{
+                    "A": "To measure the effectiveness of change initiatives",
+                    "B": "To experience a state of instability",
+                    "C": "To undergo modification",
+                    "D": "A structured approach to managing organizational changes."
+                    }],
+                "q_answer": "D"
+        },
+        {
+                "q_number": 2,
+                "q_statement": "What is the purpose of communication plan?",
+                "q_field_type": "single_select" ,
+                "q_selection": [{
+                    "A": "To conduct training sessions or workshops to help employees understand and adapt to the changes.",
+                    "B": "To engage stakeholders to ensure their concerns and feedback are incorporated into the communication process.",
+                    "C": "To identify the best methods to deliver timely and useful information to different stakeholders who will be involved with and impacted by the change initiative.",
+                    "D": "To identify potential resistance to change and develop strategies to address concerns and foster acceptance."
+                }], 
+                "q_answer": "C"   
+        },
+        {
+                "q_number": 3,
+                "q_statement": "What do you call the structured sessions to equip employees with the skills needed to adapt to new processes or systems?",
+                "q_field_type": "single_select",
+                "q_selection": [{
+                    "A": "Delivering the change initiative",
+                    "B": "Communicating the Change",
+                    "C": "Training and Workshop",
+                    "D": "Creating a Stakeholder Map"
+                }],
+                "q_answer": "C"
+            }]
+        }]
+    },
+    {
+        "order": 3,
+        "title": "Module Credit and Completion Requirements and Learning Objective",
+        "body": "<h2>Credit and Completion Requirements</h2> <ul> <li>To receive proper learning credit and achieve the learning objectives, you must not skip any screens.</li> <li>Complete all interactions.</li> <li>Complete all practice questions.</li> <li>Pass the final assessment with at least 70%</li> <li>While completing the assessment, you are welcome to refer to the content of this course as much as you need, but you must complete the assessment alone. Using answers received from others, including any form of artificial intelligence, to complete an assessment is cheating.</li> </ul><p>Please note that this learning will expire in April 25,2025. You must complete and pass all of the scored portions of this course within this period, or your related learning progress will be removed.</p> <h2>Module Learning Objectives</h2> <p>Upon successful completion of the course, you will be able to:</p> <ul> <li>Demonstrate the essential skills and knowledge required to effectively serve as Change Managers on projects.</li> <li>Understand key change management concepts, theories, and frameworks, with a focus on the human side of change.</li> <li>Understand the process of managing change.</li> <li>Gain knowledge on how to manage a change management plan.</li> <li>Learn how to implement effective strategies and communication to ensure smoother transitions, enhance employee engagement, and achieve desired outcomes.</li> </ul>",
+        "image": "src/assets/img/general images/CreditCompletionLearningObjectives.jpg"
+    },
+    {
+        "order": 4, 
+        "title": "Manage Change Lessons",
+        "subheader": "Change Management Plan",
+        "body": "<h4>Lesson Objectives</h4> <p>At the end of this lesson, you will be able to:</p> <ul> <li>Define what is change management plan;</li> <li>How to create change management plan; and</li> <li>Know the important of CM plan in change initiative</li> </ul>",
+        "image": "src/assets/img/change management/Manage/PMFIDS_CM_order4.jpg"
+    },
+    {
+        "order": 5,
+        "title": "Manage Change",
+        "subheader": "Dealing with Complexities of Managing Digital Transformation through Planning and Executing Change Management Activities",
+        "body": "<h4>Change Management on a Page</h4> <p>Managing change in change management involves systematically preparing, supporting, and guiding individuals and teams through organizational transitions. It emphasizes understanding the human side of change, addressing resistance, and fostering a culture of adaptability. By implementing effective strategies and communication, organizations can ensure smoother transitions, enhance employee engagement, and achieve desired outcomes.</p> <p>Managing digital transformation complexities requires a strategic approach to planning and executing change management activities that address both technological and human factors. This involves engaging stakeholders, fostering a culture of adaptability, and implementing structured processes to ensure a smooth transition while minimizing resistance and maximizing the benefits of digital initiatives.</p>",
+        "image": "src/assets/img/change management/Manage/PMFIDS_CM_order5.jpg"
+    },
+    {
+        "order": 6,
+        "layout": "col-2",
+        "title": "Change Management Plan",
+        "subheader": "Chanage Management Plan Overview",
+        "col1": "<p>A Change Management Plan is a structured approach to managing organizational changes. It outlines the processes, tools, and techniques used to address the people side of change and achieve desired business outcomes.</p> <h4>(Unified Value Proposition – UVP)</h4> <div><div class='mr-10'><img src='src/assets/img/change management/Manage/PMFIDS_CM_order6.jpg'</div> ",
+        "col2": "<h4>Why do you need a change management plan?</h4> <p>A change management plan is essential for systematically executing changes within an organization. It reduces disruptions, facilitates clear communication, addresses resistance, and increases the likelihood of a successful transition by defining objectives, timelines, communication strategies, and support systems for all stakeholders.</p>"
+    },
+    {
+        "order": 7,
+        "title": "Knowledge Check",
+        "body": "What side of the Unified Value Proposition – UVP is executed by the change management discipline?",
+        "image":"src/assets/img/general images/KnowledgeCheck.jpg", 
+            "q_field_type": "single_select" ,
+            "q_selection": [{
+                "A": "Technical side",
+                "B": "Reason for Change",
+                "C": "Transition State",
+                "D": "People Side"
+                }],
+        "q_answer": "D"
+    },
+    {
+        "order": 8,
+        "title": "Creating a Change Management Plan",
+        "subheader": "Best Practices for Writing a Change Management Plan",
+        "image": "src/assets/img/change management/Manage/PMFIDS_CM_order8.jpg"
+    },
+    {
+        "order": 9,
+        "title": "Change Management Plan",
+        "subheader": "Change Management Plan Example",
+        "image": "src/assets/img/change management/Manage/PMFIDS_CM_order9.jpg"
+    },
+    {
+        "order": 10,
+        "title": "Change Management Plan",
+        "subheader": "Importance of Change Management Plan in Change Initiative",
+        "body": "A change management plan is vital as it provides a structured framework for guiding an organization through the transition process. It outlines the objectives, strategies, and steps needed for effective change implementation while minimizing disruption. Additionally, it identifies potential risks and resistance, enabling proactive measures to address concerns and support employees."
+    }, 
+    {
+        "order": 11,
+        "title": "Lesson Summary",
+        "body": "<h3>Congratulations on completing Lesson 1 of this module!</h3> <p>Now that you have completed this lesson, you should be able to:</p> <ul> <li>Define what is change management plan;</li> <li>How to create change management plan;and</li> <li>Know the important of CM plan in change initiative</li> </ul>",
+        "image": "src/assets/img/general images/LessonSummary.jpg"
+    },
+    {
+        "order": 12, 
+        "title": "Manage Change Lessons",
+        "subheader": "Communication and Engagement",
+        "body": "<h4>Lesson Objectives</h4> <p>At the end of this lesson, you will be able to:</p> <ul> <li>Define what is employee engagement;</li> <li>How to drive employee engagement with Change Management;</li> <liHow to communicate the change; and</li> <li>Create a communications plan</li> </ul>",
+        "image": "src/assets/img/change management/Manage/PMFIDS_CM_order12.jpg"
+    },
+    {
+        "order": 13,
+        "title": "Communication and Engagement",
+        "subheader": "Importance of Communication through Change",
+        "body": "<p>During resistance to change, effective communication and engagement are crucial for gaining commitment and actively involving people in the change initiative.</p> <h3>What is Employee Engagement?</h3> <p>Employee engagement measures the level of commitment and connection an employee has with their organization, reflecting their emotional investment in the company's objectives and motivation to contribute to its success.</p>"
+    },
+    {
+        "order": 14,
+        "layout": "col-2",
+        "title": "Communication and Engagement",
+        "subheader": "How to drive employee engagement with Change Management?",
+        "col1": "<p>How an organization manages change is crucial for maintaining employee engagement and operational effectiveness. Prioritizing change management is essential for minimizing its impact on employees.</p> <ul> <li>Transparent Communication: Transparent, effective communication helps build awareness of the need for change, reduce uncertainties, and create trust. This is vital to maintaining engagement during transitions.</li> <ul><li>Change professionals can implement communication plans that clearly explain the reasons behind the change and create a compelling vision of how it benefits the workers and contributes to organizational growth.</li></ul> <li>Employee Involvement: Involving employees in the change process can significantly boost their engagement. When employees are part of planning, implementation and problem-solving, they are more likely to understand, accept and support the change.</li> <li>Training and Development: Adequate training is crucial when new systems, processes or technologies are introduced. It helps employees gain the necessary skills and knowledge to adapt to changes, reducing anxiety and resistance.</li> <ul> <li>Change management strategies include developing training programs to upskill employees and give them the right tools for change.</li> </ul> </ul>",
+        "col2": "<ul> <li>Recognition and Rewards: Recognizing and rewarding contributions during the change can reinforce desired behaviors while boosting morale and engagement. It shows that the organization values its employees' hard work and adaptability.</li> <li>Leadership Engagement: Active senior leaders or sponsors are also pivotal in championing the benefits of change and motivating their professionals by highlighting the positive impacts on the organization and each employee.</li> <li>Structure Approach: A detailed change approach helps focus on the people side of change. Organizations can analyze and prioritize change projects to avoid overwhelming people and improve employee engagement.</li> </ul>"
+    },
+    {
+        "order": 15,
+        "title": "Knowledge Check",
+        "body": "What is Employee Engagement?",
+        "image":"src/assets/img/general images/KnowledgeCheck.jpg", 
+        "q_field_type": "single_select" ,
+            "q_selection": [{
+                "A": "Identifies potential risks and resistance, enabling proactive measures to address concerns and support employees.",
+                "B": "Measures the level of commitment and connection an employee has with their organization.",          
+                "C": "Provides a structured framework for guiding an organization through the transition process.",
+                "D": "Engaging all relevant stakeholders in the change process is critical to its success."
+                }],
+            "q_answer": "B"
+    },
+    {
+        "order": 21, 
+        "title": "Communication and Engagement",
+        "subheader": "Overview of communications plan",
+        "image": "src/assets/img/change management/Manage/PMFIDS_CM_order21.jpg"
+    },
+    {
+        "order": 22,
+        "title": "Knowledge Check",
+        "body": "What is communication plan?",
+        "image":"src/assets/img/general images/KnowledgeCheck.jpg", 
+        "q_field_type": "single_select" ,
+            "q_selection": [{
+                "A": "Identify potential resistance to change and develop strategies to address concerns and foster acceptance.",
+                "B": "Conduct training sessions or workshops to help employees understand and adapt to the changes.",          
+                "C": "A strategic document that outlines how information will be shared within an organization or project.",
+                "D": "Establish a Crisis Management Team (CMT) to oversee the response"
+                }],
+            "q_answer": "C"
+    },
+    {
+        "order": 23,
+        "layout": "col-1",
+        "title": "Communication and Engagement",
+        "subheader": "How to develop a communications calendar",
+        "col1": "<p>A communications calendar helps to keep stakeholders informed, engaged, and aligned with the change initiatives, reducing uncertainty and resistance. Additionally, a communications calendar allows better coordination of messaging, enabling organizations to anticipate and address potential issues proactively to all stakeholders involved.</p> <p>Communications calendar: It will be maintained by the PMO, the methods (media) that will be used to deliver these communications, the frequency of these communications, the targeted audience and the person with responsibility for creating and delivering these communications will be outlined under the calendar.</p>",
+        "image": ""
+    },
+    {
+        "order": 24, 
+        "layout": "col-1",
+        "title": "Communication and Engagement",
+        "subheader": "Implementation of communications approach",
+        "col1": "<ul> <li>Implementation of communications approach: After the development of the communications approach, the next step is to outline steps for implementation.</li> <li>The following diagram outlines each step that contributes to the overall structure of the communications approach.</li> <li>No single step, by itself, constitutes the communications program, but as part of a unified effort, each step plays a vital role in the implementation of the overall communications approach.</li> </ul>",
+        "image": "src/assets/img/change management/Manage/PMFIDS_CM_order24.jpg"
+    }, 
+    {
+        "order": 25,
+        "title": "Lesson Summary",
+        "body": "<h2>Congratulations on completing Lesson 2 of this module!</h2> <p>Now that you have completed this lesson, you should be able to:</p> <ul> <li>Define what is employee engagement;</li> <li>How to drive employee engagement with Change Management;</li> <li>How to communicate the change;and</li> <li>Create a communications plan</li> </ul>",
+        "image": "src/assets/img/general images/LessonSummary.jpg"
+    },
+    {
+        "order": 26, 
+        "title": "Manage Change Lessons",
+        "subheader": "Training and Workshop Facilitation",
+        "body": "<h4>Lesson Objectives</h4> <p>At the end of this lesson, you will be able to:</p> <ul> <li>Understand the change management facilitation; and</li> <liHow to design change management workshops</li> </ul>",
+        "image": "src/assets/img/change management/Manage/PMFIDS_CM_order26.jpg"
+    },
+    {
+        "order": 27,
+        "title": "Training and Workshop Facilitation",
+        "body": "<p>Effective communication and engagement are essential for successful training and workshop facilitation, ensuring participants understand the purpose and relevance of the initiatives.</p> <p>Communication is most effective when delivered at the right time, through the appropriate channel, with the right message, by the right people.</p>"
+    },
+    {
+        "order": 28,
+        "title": "Training and Workshop Facilitation",
+        "subheader": "Introduction to Change Management Facilitation",
+        "body": "<p>A change management facilitator plays a crucial role in guiding organizations through the process of change.</p> <ul> <li>Guidance and Coaching: They provide guidance and coaching to teams and individuals on navigating the change process.</li> <li>Neutral Mediators: They provide guidance and coaching to teams and individuals on navigating the change process.</li> <li>Training Sessions: They conduct training sessions to equip employees with the skills needed to adapt to new processes or systems.</li> <li>Impact: They assess the potential impact of change on various stakeholders and organizational processes.</li> <li>Change management plan: They develop comprehensive change management plans outlining strategies for communication, training, and support.</li> <li>Employee support: They support employees during the transition by providing resources such as FAQs, guides, and access to additional training.</li> </ul>"
+    },
+    {
+        "order": 29,
+        "layout": "col-1",
+        "title": "Training and Workshop",
+        "subheader": "Designing Change Management Workshops",
+        "col1": "<p>Conducting workshops is essential to change management, offering a structured environment for stakeholders to engage with the change process, share insights, and collaboratively develop solutions. In the implementation plan, workshops promote hands-on learning and skill development, equipping participants to adapt to new processes and technologies while aligning their perspectives with the overall change management plan. This fosters a sense of ownership and commitment to the change initiative.</p>",
+        "image": "src/assets/img/change management/Manage/PMFIDS_CM_order29.jpg"
+    },
+    {
+        "order": 30,
+        "layout": "col-2",
+        "title": "Training and Workshop",
+        "subheader": "Structuring the workshop agendas and content",
+        "col1": "<p>Effectively structuring a workshop agenda and content is essential for ensuring the session is organized, engaging, and meets its objectives.</p> <ul> <li>Identify the Target Audience: Understand the needs, backgrounds, and expectations of the participants. Tailoring the content to the audience will enhance engagement and relevance.</li> <li>Determine the Workshop Format: </li> <ul> <li>Presentation: A facilitator-led session with slides and discussions.</li> <li>Interactive Activities: Group exercises, role-playing, or hands-on activities.</li> <li>Breakout Sessions: Smaller group discussions or activities focused on specific topics.</li> <li>Q&A Sessions: Opportunities for participants to ask questions and clarify concepts.</li> </ul> <li>Create the Agenda Outline: Develop a high-level outline of the workshop agenda, including the following components:</li> <ul> <li>Welcome and Introduction</li> <li>Icebreaker Activity</li> <li>Interactive Activity</li> <li>Break</li> <li>Group Sharing</li> </ul> </ul>",
+        "col2": "<ul> <li>Allocate Time for Each Segment: Assign specific time slots for each agenda item to ensure that the workshop stays on track. Be realistic about the time needed for discussions and activities, allowing for flexibility if needed.</li> <li>Prepare Supporting Materials: Develop any necessary materials to support the workshop.</li> <li>Review and Revise: Review the agenda to ensure it aligns with the workshop objectives and flows logically. Make any necessary adjustments based on feedback from colleagues or stakeholders.</li> </ul>"
+    },
+    {
+        "order": 31,
+        "layout": "col-2",
+        "title": "Training and Workshop",
+        "subheader": "Selecting appropriate activities and exercises",
+        "col1": "<p>Choosing suitable activities and exercises for a workshop is vital for achieving desired outcomes and maintaining participant engagement. These activities should align with workshop objectives, address audience needs and promote interaction and collaboration.</p> <ul> <li>Align Activities with Objectives: Choose activities that directly support the objectives. For example, if the goal is to enhance teamwork, select team-building exercises.</li> <li>Consider the Audience: Consider how engaged participants are likely to be. Activities should be stimulating and relevant to maintain interest.</li> <li>Choose Activity Types:</li> <ul> <li>Icebreakers: To create a comfortable atmosphere and encourage interaction.</li> <li>Group Discussions: To encourage sharing of ideas and perspectives.</li> <li>Interactive Exercises: To allow participants to practice skills or concepts.</li> </ul> </ul>",
+        "col2": "<ul> <li>Ensure Variety and Balance: While having a structured agenda is important, allow for flexibility to adapt activities based on group dynamics and participant needs.</li> <li>Prepare Materials and Resources: Ensure you have all the materials needed for each activity and prepare clear instructions for each activity to facilitate smooth execution and understanding.</li> <li>Test Activities in Advance: If possible, test the activities with a small group before the workshop to identify any potential issues and gather feedback.</li> </ul>"
+    },
+    {
+        "order": 32,
+        "title": "Knowledge Check",
+        "body": "What should you consider when structuring a workshop?",
+        "image":"src/assets/img/general images/KnowledgeCheck.jpg", 
+        "q_field_type": "single_select" ,
+            "q_selection": [{
+                "A": "Audience",
+                "B": "Objectives",
+                "C": "Activity Types",
+                "D": "Resources"
+                }],
+            "q_answer": "A"
+    },
+    {
+        "order": 33,
+        "title": "Lesson Summary",
+        "body": "<h2>Congratulations on completing Lesson 3 of this module!</h2> <p>Now that you have completed this lesson, you should be able to:</p> <ul> <li>Understand the change management facilitation; and</li> <li>How to design change management workshops</li> </ul>",
+        "image": "src/assets/img/general images/LessonSummary.jpg"
+    },
+    {
+        "order": 34,
+        "title": "Module Summary",
+        "subheader": "Congratulations on completing Manage Change Module!",
+        "body": "<p>Now that you have completed this module, you should be able to</p> <ul> <li>Change can evoke a range of emotional responses, including anxiety and resistance, making it crucial to address these feelings and uncertainties proactively.</li> <li>Factors such as organizational values, visible leadership commitment, and employee participation significantly influence the adoption of change.</li> <li>Providing a well-structured change initiative and effectively delivering the initiative to various stakeholders, organizations can efficiently enhance and carry out the change initiative.</li> </ul>", 
+        "image":"src/assets/img/general images/ModuleSummary.jpg"
+    },
+    {
+        "order": 35,
+        "title": "Module Completion",
+        "body": "<h2>Congratulations on completing the Manage Change module!</h2> <p>You've now gained a solid understanding of the essential terms and concepts for change management fundamentals.</p><p>As you move forward, remember that the principles and strategies you've learned here are vital tools for ensuring the  health and success of any project or organization. By applying these techniques, you'll be better equipped to make informed decisions</p><p>We hope this module has empowered you with the knowledge and confidence to tackle any challenge that comes your way. Keep honing your skills, stay diligent in your planning, and continue to strive for excellence in managing change.</p>",
+        "image": "src/assets/img/general images/ModuleCompletion.jpg"
+    },
+    {
+        "order": 36,
+        "title": "Manage Change Lessons",
+        "subheader": "Assessment",
+        "image": "src/assets/img/change management/Manage/PMFIDS_CM_order36.jpg"
+    },
+    {
+        "order": 37,
+        "title": "Module Post-examination",
+        "exams": [{
+            "exam_id": 1,
+            "title": "Module Post-examination",
+            "body": "This assessment is designed to test your knowledge. Results of this  assessment will be used to structure the workshop.",
+            "questions": [{
+                "q_number": 1,
+                "q_statement": "What side of the Unified Value Proposition – UVP requires individuals to move from the current state to the future state?",
+                "q_field_type": "single_select" ,
+                "q_selection": [{
+                        "A": "People Side",
+                        "B": "Organizational Change",
+                        "C": "Technical Side",
+                        "D": "Reason for Change"
+                    }],
+                "q_answer": "B"
+            },
+            {
+                "q_number": 2,
+                "q_statement": "What is the purpose of communication plan?",
+                "q_field_type": "single_select" ,
+                "q_selection": [{
+                    "A": "To conduct training sessions or workshops to help employees understand and adapt to the changes.",
+                    "B": "To engage stakeholders to ensure their concerns and feedback are incorporated into the communication process.",
+                    "C": "To identify the best methods to deliver timely and useful information to different stakeholders who will be involved with and impacted by the change initiative.",
+                    "D": "To identify potential resistance to change and develop strategies to address concerns and foster acceptance."
+                }], 
+                "q_answer": "C"   
+            },
+            {
+                "q_number": 3,
+                "q_statement": "What step of structuring the workshop agendas and content is about assigning specific time slots for each agenda item to ensure that the workshop stays on track?",
+                "q_field_type": "single_select",
+                "q_selection": [{
+                    "A": "Step 1: Identify the Target Audience",
+                    "B": "Step 5: Prepare Supporting Materials",
+                    "C": "Step 3: Create the Agenda Outline",
+                    "D": "Step 4: Allocate Time for Each Segment"
+                }],
+                "q_answer": "D"
+            }]
+        }]
+    }]               
+}]
+ 
