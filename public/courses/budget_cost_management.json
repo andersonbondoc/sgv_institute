@@ -22,7 +22,7 @@
             "questions": [
                 {
                   "q_number": 1,
-                  "q_statement": "<p>You are managing a project that involves multiple phases and a significant budget. As part of your responsibilities, you need to ensure effective financial control throughout the project's lifecycle.</p><br/> <p>Which of the following processes are required to maintain effective financial control of a project?",
+                  "q_statement": "<p>You are managing a project that involves multiple phases and a significant budget. As part of your responsibilities, you need to ensure effective financial control throughout the project's lifecycle.</p><br/> <p>Which of the following processes are required to maintain effective financial control of a project?</p>",
                   "q_field_type": "single_select",
                   "q_selection": [
                     {
