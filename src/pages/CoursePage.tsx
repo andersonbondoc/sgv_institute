@@ -39,7 +39,6 @@ const CoursePage: React.FC = () => {
       })
       .then((data) => {
         const checkVoucher = localStorage.getItem("isCorrectVoucher");
-        console.log("checkVoucher: ", checkVoucher);
         if (checkVoucher === "true") {
           setShowVoucherCard(false);
         } else {
@@ -56,6 +55,14 @@ const CoursePage: React.FC = () => {
 
   const handleBackButton = () => {
     setModalOpen(false);
+    localStorage.removeItem("sectionlength-PMFIDS_RISK");
+    localStorage.removeItem("sectionlength-PMFIDS_BCM");
+    localStorage.removeItem("sectionlength-PMFIDS_PM");
+    localStorage.removeItem("examScore");
+    localStorage.removeItem("currentPage-PMFIDS_RISK");
+    localStorage.removeItem("currentPage-PMFIDS_PM");
+    localStorage.removeItem("currentPage-PMFIDS_BCM");
+    localStorage.removeItem("courses");
     history.goBack();
   };
 
@@ -124,8 +131,8 @@ const CoursePage: React.FC = () => {
           <CourseContentComponent />
           <ConfirmExitModal
             isOpen={modalOpen}
-            onClose={handleBackButton}
-            onConfirm={() => history.goBack()}
+            onClose={() => setModalOpen(false)}
+            onConfirm={handleBackButton}
           />
         </div>
       </IonContent>

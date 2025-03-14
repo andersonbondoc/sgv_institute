@@ -1,5 +1,13 @@
 import React, { useState, useEffect } from "react";
-import { IonPage, IonContent, IonSearchbar, IonIcon } from "@ionic/react";
+import {
+  IonPage,
+  IonContent,
+  IonSearchbar,
+  IonIcon,
+  IonListHeader,
+  IonInput,
+  IonCard,
+} from "@ionic/react";
 import { useHistory } from "react-router-dom";
 import { arrowForwardCircleOutline, enterOutline } from "ionicons/icons";
 import { getUserByEmail, supabaseSendEmail } from "../queries/userQueries";
@@ -20,8 +28,7 @@ const LandingPage: React.FC = () => {
   useEffect(() => {
     const queryParams = new URLSearchParams(location.search);
     const token = queryParams.get("token");
-    console.log("Full URL:", location.href);
-    console.log("Token from URL:", token);
+
     if (token) {
       supabase.auth
         .signInWithOtp({ email: token })
@@ -59,6 +66,7 @@ const LandingPage: React.FC = () => {
 
   useEffect(() => {
     const cachedCourses = localStorage.getItem("courses");
+
     if (cachedCourses) {
       setCourses(JSON.parse(cachedCourses));
       setLoading(false);
@@ -147,29 +155,35 @@ const LandingPage: React.FC = () => {
         <ToastSuccess message={successMessage} show={showSuccessMessage} />
         <ToastError message={errorMessage} show={showErrorMessage} />
         {isCardOpen && (
-          <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-40">
-            <div className="bg-white p-6 rounded-lg shadow-lg w-96 text-center z-50 relative">
-              <button
-                className="absolute top-2 right-2 text-gray-600 hover:text-gray-800"
-                onClick={() => setIsCardOpen(false)}
-              >
-                ✕
-              </button>
-              <h3 className="text-xl font-semibold mb-4">Please enter your email:</h3>
-              <input
-                type="email"
-                placeholder="juandelacruz@bank.com.ph"
-                className="w-full p-2 border rounded-lg mb-2"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-              />
-              <button
-                className="mt-8 mb-8 w-full bg-gray-700 text-white py-2 rounded-lg"
-                onClick={validateEmail}
-              >
-                <IonIcon icon={enterOutline} size="small" /> Login
-              </button>
-            </div>
+          <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-40 h-full">
+            {isCardOpen && (
+              <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-40 z-40">
+                <IonCard className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg w-96 text-center z-50 relative">
+                  <button
+                    className="absolute top-2 right-2 text-gray-600 dark:text-gray-300 hover:text-gray-800 dark:hover:text-gray-100"
+                    onClick={() => setIsCardOpen(false)}
+                  >
+                    ✕
+                  </button>
+                  <IonListHeader className="text-xl font-semibold mb-4 text-gray-900 dark:text-gray-100">
+                    Please enter your email:
+                  </IonListHeader>
+                  <IonInput
+                    type="email"
+                    placeholder="juandelacruz@bank.com.ph"
+                    className="w-full p-2 border rounded-lg mb-2 bg-gray-50 dark:bg-gray-700 text-gray-900 dark:text-gray-100"
+                    value={email}
+                    onIonChange={(e) => setEmail(e.detail.value!)}
+                  />
+                  <button
+                    className="mt-8 mb-8 w-full bg-gray-700 dark:bg-gray-600 text-white py-2 rounded-lg"
+                    onClick={validateEmail}
+                  >
+                    <IonIcon icon={enterOutline} size="small" /> Login
+                  </button>
+                </IonCard>
+              </div>
+            )}
           </div>
         )}
 
@@ -190,30 +204,38 @@ const LandingPage: React.FC = () => {
           </div>
 
           <div>
-              <button>
-                {!isLogin && (
-                  <span
-                    onClick={handleLogin}
-                    className="px-6 py-2 bg-gray-700 text-white rounded-lg flex items-center gap-2 cursor-pointer"
-                  >
-                    <IonIcon icon={enterOutline} size="small" /> Login
-                  </span>
-                )}
-              </button>
-            </div>
-            
+            <button>
+              {!isLogin && (
+                <span
+                  onClick={handleLogin}
+                  className="px-6 py-2 bg-gray-700 text-white rounded-lg flex items-center gap-2 cursor-pointer"
+                >
+                  <IonIcon icon={enterOutline} size="small" /> Login
+                </span>
+              )}
+            </button>
+          </div>
+
           <div
             className={`w-full max-w-md transition-opacity duration-300 ${
               isCardOpen ? "pointer-events-none opacity-40" : ""
             }`}
           >
-            <IonSearchbar placeholder="Search courses..." className="mb-4" />
+            <IonSearchbar
+              placeholder="Search courses..."
+              className="mb-4 dark:[--background:#2d2d2d] dark:[--placeholder-color:#a1a1aa] dark:[--color:#ffffff]"
+              style={{
+                "--background": "#ffffff",
+                "--placeholder-color": "#8e8e93",
+                "--color": "#000000",
+              }}
+            />
           </div>
 
           <div className="w-full max-w-4xl space-y-2">
-            <h3 className="text-xl font-semibold text-gray-900">
+            <IonListHeader className="text-xl font-semibold light:text-gray-900">
               Recommended Courses
-            </h3>
+            </IonListHeader>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {courses.map((course) => (
                 <div

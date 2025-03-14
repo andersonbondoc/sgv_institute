@@ -29,7 +29,7 @@ const PreExamPage: React.FC<PreExamPageProps> = ({
       setTotalQuestion(totalQuestion);
       if (preExamSection) {
         const questions = preExamSection.exams.flatMap((exam: any) =>
-          exam.questions.map((question: any) => ({
+          exam.questions?.map((question: any) => ({
             text: question.q_statement,
             options: Object.entries(question.q_selection[0]).map(
               ([key, value]) => ({
@@ -49,10 +49,8 @@ const PreExamPage: React.FC<PreExamPageProps> = ({
   if (preExamQuestions.length === 0) {
     return <div>Loading...</div>;
   }
-
   const currentQuestion = preExamQuestions[currentQuestionIndex];
   const isAnswerSelected = selectedAnswer.length > 0;
-
   const handleAnswerChange = (value: any, checked: any) => {
     if (currentQuestion.fieldType === "single_select") {
       setSelectedAnswer([value]);
@@ -66,7 +64,6 @@ const PreExamPage: React.FC<PreExamPageProps> = ({
   };
 
   const handleNextQuestion = () => {
-    // Evaluate the answer and update the score.
     if (currentQuestion.fieldType === "single_select") {
       if (selectedAnswer[0] === currentQuestion.correctAnswer) {
         setScore((prev) => prev + 1);
@@ -134,17 +131,17 @@ const PreExamPage: React.FC<PreExamPageProps> = ({
           Question {currentQuestionIndex + 1} of {preExamQuestions.length}
         </h2>
         <div className="mb-6">
-          <p className="text-xl font-medium">{currentQuestion.text}</p>
+          <p className="text-xl font-medium">{currentQuestion?.text}</p>
         </div>
-        {currentQuestion.options && (
+        {currentQuestion?.options && (
           <div className="mt-6">
             <div className="space-y-4">
-              {currentQuestion.options.map(({ key, value }: any) => (
+              {currentQuestion?.options?.map(({ key, value }: any) => (
                 <label
                   key={key}
                   className="flex items-center space-x-3 p-3 border rounded-lg cursor-pointer hover:bg-gray-100"
                 >
-                  {currentQuestion.fieldType === "single_select" ? (
+                  {currentQuestion?.fieldType === "single_select" ? (
                     <input
                       type="radio"
                       name={`question-${currentQuestionIndex}`}

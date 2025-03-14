@@ -117,7 +117,7 @@ const PreExamPage: React.FC<PreExamPageProps> = ({
     }
     localStorage.setItem("examScore", score.toString());
     setShowResult(true);
-    // handleFinishQuestionButton();
+    handleFinishQuestionButton();
   };
 
   const handleRetryExam = () => {
