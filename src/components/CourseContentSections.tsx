@@ -11,14 +11,18 @@ import ExamResultCard from "./ExamResultCard";
 interface CourseContentSectionProps {
   moduleId: string;
   onBackToModules: () => void;
+  currentPage: number;
 }
 
 const CourseContentSection: React.FC<CourseContentSectionProps> = ({
   moduleId,
   onBackToModules,
+  currentPage,
 }) => {
   const [sections, setSections] = useState<any[]>([]);
-  const [currentSectionIndex, setCurrentSectionIndex] = useState(0);
+  const [currentSectionIndex, setCurrentSectionIndex] = useState(
+    currentPage || 0
+  );
   const [selectedAnswer, setSelectedAnswer] = useState<string[]>([]);
   const [feedback, setFeedback] = useState<string | null>(null);
   const [animationKey, setAnimationKey] = useState(0);
@@ -51,7 +55,6 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
           const filteredCourse = courses.find(
             (course: any) => course.moduleId === moduleId
           );
-          console.log("courses: ", courses);
           if (filteredCourse) {
             const sortedSections = filteredCourse.sections.sort(
               (a: any, b: any) => parseFloat(a.order) - parseFloat(b.order)
@@ -66,12 +69,6 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
       console.warn("No valid moduleId provided or mapping not found.");
     }
   }, [moduleId]);
-
-  const currentSection = sections[currentSectionIndex];
-  const totalSections = sections.length;
-  const progress =
-    totalSections > 0 ? (currentSectionIndex / (totalSections - 1)) * 100 : 0;
-  const currentStep = currentSectionIndex + 1;
 
   const isAnswerSelected = selectedAnswer.length > 0;
   const renderPageColtwoContent = () => {
@@ -118,19 +115,39 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
       </>
     );
   };
+  useEffect(() => {
+    const savedPage = localStorage.getItem(`currentPage-${moduleId}`);
+    console.log("savedPage", savedPage);
+    if (savedPage) {
+      setCurrentSectionIndex(parseInt(savedPage));
+    }
+  }, [moduleId]);
+  useEffect(() => {
+    if (currentSectionIndex !== null) {
+      const page = currentSectionIndex?.toString() || "0";
+      localStorage.setItem(`currentPage-${moduleId}`, page);
+    }
+  }, [currentSectionIndex, moduleId]);
+
+  useEffect(() => {
+    if (sections.length > 0) {
+      localStorage.setItem(`sectionlength-${moduleId}`, `${sections.length}`);
+    }
+  }, [sections, moduleId]);
+
+  const currentSection = sections[currentSectionIndex];
+  const totalSections = sections.length;
+  const progress =
+    totalSections > 0 ? (currentSectionIndex / (totalSections - 1)) * 100 : 0;
+  const currentStep = currentSectionIndex + 1;
 
   const handleNext = () => {
-    const isInExamination = localStorage.getItem("isExamination");
-    if (isInExamination === "true") {
-      setHidePrevNextButton(true);
-    } else {
-      setHidePrevNextButton(false);
-    }
     if (currentSectionIndex < sections.length - 1) {
       setSelectedAnswer([]);
       setFeedback(null);
       setAnimationKey((prev) => prev + 1);
       setCurrentSectionIndex((prev) => prev + 1);
+
       if (cardRef.current) {
         cardRef.current.scrollIntoView({ behavior: "smooth", block: "start" });
       }
@@ -140,21 +157,18 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
   };
 
   const handleBack = () => {
-    const isInExamination = localStorage.getItem("isExamination");
-    if (isInExamination === "true") {
-      setHidePrevNextButton(true);
-    }
     if (currentSectionIndex > 0) {
       setSelectedAnswer([]);
       setFeedback(null);
       setAnimationKey((prev) => prev + 1);
       setCurrentSectionIndex((prev) => prev - 1);
+
       if (cardRef.current) {
         cardRef.current.scrollIntoView({ behavior: "smooth", block: "start" });
       }
-      setRetryCount(0);
-      setIsAnswerShown(false);
     }
+    setRetryCount(0);
+    setIsAnswerShown(false);
   };
 
   const handleAnswerChange = (value: string, isChecked: boolean) => {
@@ -197,12 +211,9 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
     currentSection?.title === "Module Pre-Examination" ||
     currentSection?.title === "Module Post-Examination";
   const handleFinishModule = async () => {
-    console.log("trigger");
-    console.log(isExam);
     const examModule = sections.find(
       (section) => section.title === currentSection?.title
     );
-    console.log(examModule);
     if (!examModule) return;
 
     const exam = examModule.exams[0];
@@ -241,7 +252,6 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
     handleNext();
   };
 
-  console.log("currentSection.title: ", currentSection?.title);
   return (
     <div>
       <div className="flex justify-end">
