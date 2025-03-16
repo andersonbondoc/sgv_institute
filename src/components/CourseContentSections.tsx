@@ -235,6 +235,16 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
     const examScoreStr = localStorage.getItem("examScore") || "0";
     const examScore = parseInt(examScoreStr, 10);
     const percentage = ((examScore / totalQuestion) * 100).toFixed(2);
+    console.log(
+      `currentPage-${moduleId}`,
+      currentSectionIndex === sections.length - 1
+    );
+    if (currentSectionIndex === sections.length - 1) {
+      localStorage.setItem(
+        `currentPage-${moduleId}`,
+        sections.length.toString()
+      );
+    }
 
     const { data, error } = await saveExamResult(
       examTitle,

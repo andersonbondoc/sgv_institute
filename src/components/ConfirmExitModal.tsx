@@ -17,6 +17,7 @@ const ConfirmExitModal: React.FC<ConfirmExitModalProps> = ({
       isOpen={isOpen}
       header="Warning!"
       message="If you go back, all your progress on this page will be lost. Are you sure you want to continue?"
+      backdropDismiss={false}
       buttons={[
         {
           text: "Cancel",

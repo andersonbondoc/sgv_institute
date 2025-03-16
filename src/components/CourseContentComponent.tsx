@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { useHistory, useParams } from "react-router-dom";
-import { IonCard, IonCardContent } from "@ionic/react";
+import { IonButton, IonCard, IonCardContent } from "@ionic/react";
 import CourseContentSection from "./CourseContentSections";
+import CertificateEditor from "./CertificateEditor";
 
 const CourseContentComponent: React.FC = () => {
   const [selectedModule, setSelectedModule] = useState<string | null>(null);
@@ -10,6 +11,22 @@ const CourseContentComponent: React.FC = () => {
   const { courseId } = useParams<{ courseId: string }>();
   const history = useHistory();
   const [currentPage, setCurrentPage] = useState<number>(0);
+  const [getFullName, setFullName] = useState<string>("");
+  const [getOrganization, setOrganization] = useState<string>("");
+  const [getCourse, setCourse] = useState<string>("");
+  const [getModule, setModuleLessons] = useState<string[]>([]);
+  const [getBanks, setBanks] = useState<string[]>([]);
+
+  useEffect(() => {
+    const storedUser = localStorage.getItem("user");
+    if (!storedUser) {
+      console.error("User not found in localStorage");
+      return;
+    }
+    const user = JSON.parse(storedUser);
+    setFullName(`${user.firstname} ${user.lastname} - ${user.role}`);
+    setOrganization(`${user.organizationname}`);
+  }, []);
 
   useEffect(() => {
     fetch("/courseList.json")
@@ -21,9 +38,24 @@ const CourseContentComponent: React.FC = () => {
       })
       .then((data) => {
         const course = data[courseId];
+        setCourse(course.title);
         if (course && course.modules) {
-          console.log("course: ", course);
+          if (
+            course.title ===
+            "Project Management Fundamentals for Implementation of Digital Solutions"
+          ) {
+            setBanks([
+              "Rural Bank of Porac (Pamp) (RBPP)",
+              "Rural Bank of Montalban (RBMI)",
+              "Banco San Vicente (BSV)",
+              "Camalig Bank (CB)",
+              "Rural Bank of Guinobatan (RBGI)",
+              "Rural Bank of Silay (RBS)",
+              "Rural Bank of Tandag, Inc. (RBT)",
+            ]);
+          }
           setModules(course.modules);
+          setModuleLessons(course.modules.map((row: any) => row.title));
         } else {
           console.warn(`No modules found for course ${courseId}`);
         }
@@ -42,12 +74,44 @@ const CourseContentComponent: React.FC = () => {
 
   const handleSelectedModule = (module: any, moduleId: any) => {
     setSelectedModule(module.moduleId);
-
     const savedPage = localStorage.getItem(`currentPage-${moduleId}`);
     if (savedPage) {
       setCurrentPage(parseInt(savedPage));
     }
   };
+
+  // Calculate completion percentages outside the map function
+  const savedPMFIDS_BCM = parseInt(
+    localStorage.getItem("currentPage-PMFIDS_BCM") || "0"
+  );
+  const savedPMFIDS_RISK = parseInt(
+    localStorage.getItem("currentPage-PMFIDS_RISK") || "0"
+  );
+  const savedPMFIDS_PM = parseInt(
+    localStorage.getItem("currentPage-PMFIDS_PM") || "0"
+  );
+
+  const countPMFIDS_BCM = parseInt(
+    localStorage.getItem("sectionlength-PMFIDS_BCM") || "0"
+  );
+  const countPMFIDS_RISK = parseInt(
+    localStorage.getItem("sectionlength-PMFIDS_RISK") || "0"
+  );
+  const countPMFIDS_PM = parseInt(
+    localStorage.getItem("sectionlength-PMFIDS_PM") || "0"
+  );
+
+  const completionPercentage_PMFIDS_PM =
+    countPMFIDS_PM !== 0 ? (savedPMFIDS_PM / countPMFIDS_PM) * 100 : 0;
+  const completionPercentage_PMFIDS_RISK =
+    countPMFIDS_RISK !== 0 ? (savedPMFIDS_RISK / countPMFIDS_RISK) * 100 : 0;
+  const completionPercentage_PMFIDS_BCM =
+    countPMFIDS_BCM !== 0 ? (savedPMFIDS_BCM / countPMFIDS_BCM) * 100 : 0;
+
+  const isCertificateEnabled =
+    completionPercentage_PMFIDS_PM === 100 &&
+    completionPercentage_PMFIDS_RISK === 100 &&
+    completionPercentage_PMFIDS_BCM === 100;
 
   if (loading) {
     return (
@@ -69,37 +133,7 @@ const CourseContentComponent: React.FC = () => {
     <div>
       {!selectedModule ? (
         <div className="space-y-6 p-4">
-          {modules.map((module, index) => {
-            const savedPMFIDS_BCM = parseInt(
-              localStorage.getItem("currentPage-PMFIDS_BCM") || "0"
-            );
-            const savedPMFIDS_RISK = parseInt(
-              localStorage.getItem("currentPage-PMFIDS_RISK") || "0"
-            );
-            const savedPMFIDS_PM = parseInt(
-              localStorage.getItem("currentPage-PMFIDS_PM") || "0"
-            );
-            const countPMFIDS_BCM = parseInt(
-              localStorage.getItem("sectionlength-PMFIDS_BCM") || "0"
-            );
-            const countPMFIDS_RISK = parseInt(
-              localStorage.getItem("sectionlength-PMFIDS_RISK") || "0"
-            );
-            const countPMFIDS_PM = parseInt(
-              localStorage.getItem("sectionlength-PMFIDS_PM") || "0"
-            );
-            const completionPercentage_PMFIDS_PM =
-              countPMFIDS_PM !== 0
-                ? (savedPMFIDS_PM / countPMFIDS_PM) * 100
-                : 0;
-            const completionPercentage_PMFIDS_RISK =
-              countPMFIDS_RISK !== 0
-                ? (savedPMFIDS_RISK / countPMFIDS_RISK) * 100
-                : 0;
-            const completionPercentage_PMFIDS_BCM =
-              countPMFIDS_BCM !== 0
-                ? (savedPMFIDS_BCM / countPMFIDS_BCM) * 100
-                : 0;
+          {modules.map((module) => {
             const moduleCompletion =
               module.moduleId === "PMFIDS_BCM"
                 ? completionPercentage_PMFIDS_BCM
@@ -112,7 +146,7 @@ const CourseContentComponent: React.FC = () => {
               <IonCard
                 key={module.moduleId}
                 onClick={() => handleSelectedModule(module, module.moduleId)}
-                className={`bg-slate-100 cursor-pointer hover:shadow-xl transition duration-300 rounded-lg relative`}
+                className="bg-slate-100 cursor-pointer hover:shadow-xl transition duration-300 rounded-lg relative"
               >
                 <IonCardContent className="flex items-center space-x-4">
                   <img
@@ -144,6 +178,13 @@ const CourseContentComponent: React.FC = () => {
               </IonCard>
             );
           })}
+          <CertificateEditor
+            name={getFullName}
+            ruralBankName={getOrganization}
+            wblTitle={getCourse}
+            lessons={getModule}
+            isCertificateEnabled={isCertificateEnabled}
+          />
         </div>
       ) : (
         <CourseContentSection
