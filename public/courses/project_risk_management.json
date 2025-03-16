@@ -1,638 +1,579 @@
 [{
-    "id": 3,
-    "moduleId": "PMFIDS_RISK",
-    "moduleName": "Project Risk Management",
-    "type": "module",
-    "sections": [
-      {
-        "order": 1,
-        "title": "Module Introduction",
-        "subheader": "Welcome to the WBL (Web-Based Learning) module on Project Risk Management!",
-        "body": "<p>This module is designed to deliver an understanding of the types of risks and the process of identifying, analyzing, handling and monitoring risks in managing projects.</p>",
-        "image": "src/assets/img/general images/ModuleIntroduction.jpg"
-      },
-      {
-        "order": 2,
-        "title": "Module Pre-Examination",
-        "exams": [
-          {
-            "exam_id": 1,
-            "title": "Module Pre-examination",
-            "body": "This assessment is designed to test your knowledge. Results of this  assessment will be used to structure the workshop.",
-            "questions": [
-              {
-                "q_number": 1,
-                "q_statement": "<p>Which risk strategy is used to reduce the probability and/or impact of a risk event?</p></p>",
-                "q_field_type": "single_select",
-                "q_selection": [
-                  {
-                    "A": "Risk Mitigation",
-                    "B": "Risk avoidance",
-                    "C": "Risk Acceptance",
-                    "D": "Risk Transfer"
-                  }
-                ],
-                "q_answer": "A"
-              },
-              {
-                "q_number": 2,
-                "q_statement": "<p>BSFIs are required to establish a robust ITRM system covering key components, which are?</p><br/> <p>Select all that apply",
-                "q_field_type": "multi_select",
-                "q_selection": [
-                  {
-                    "A": "IT Controls Implementation",
-                    "B": "Cyber Education Program",
-                    "C": "IT Governance",
-                    "D": "Risk Measurement and Monitoring",
-                    "E": "Risk Identification and Assessment"
-                  }
-                ],
-                "q_answer": "A, C, D, E"
-              },
-              {
-                "q_number": 3,
-                "q_statement": "<p>Which among the following accurately describes project risks?</p>",
-                "q_field_type": "single_select",
-                "q_selection": [
-                  {
-                    "A": "Project risks can be managed without any impact on the project's objectives.",
-                    "B": "Project risks can have positive outcomes, referred to as opportunities, or they can result in negative or unfavorable consequences, known as threats.",
-                    "C": "Project risks are unpredictable and may positively impacts a project's goals is referred to as a threat, while a negative impact is called an opportunity.",
-                    "D": "Project risks can only result in negative outcomes and do not have any potential positive impacts on project goals."
-                  }
-                ],
-                "q_answer": "B"
-              },
-              {
-                "q_number": 4,
-                "q_statement": "<p>Total quality management is a strategy to:</p>",
-                "q_field_type": "single_select",
-                "q_selection": [
-                  {
-                    "A": "Avoid pitfalls",
-                    "B": "Boost team morale",
-                    "C": "Continuously improve",
-                    "D": "Receive customer feedback"
-                  }
-                ],
-                "q_answer": "C"
-              },
-              {
-                "q_number": 5,
-                "q_statement": "<p>What is risk management?</p>",
-                "q_field_type": "single_select",
-                "q_selection": [
-                  {
-                    "A": "Risk management processes do not include monitoring and controlling risks once they have been identified and analyzed.",
-                    "B": "The focus of risk management is solely on minimizing the impact of adverse events, without any consideration for enhancing positive events.",
-                    "C": "This encompasses the processes involved in planning, identifying, analyzing, responding to, and monitoring and controlling risks within a project.",
-                    "D": "The primary objective of risk management in a project is to eliminate all risks, regardless of whether they are positive or negative."
-                  }
-                ]
-              },
-              {
-                "q_number": 6,
-                "q_statement": "<p>A risk mitigation plan must include:</p><br/> <p>Select all that apply.</p>",
-                "q_field_type": "multi_select",
-                "q_selection": [
-                  {
-                    "A": "How the plan will affect the impact",
-                    "B": "A brief description of the intended outcome",
-                    "C": "A step-by-step solution on how to lessen the risk",
-                    "D": "List of resources required to implement the mitigation strategies"
-                  }
-                ],
-                "q_answer": "A, B, C"
-              },
-              {
-                "q_number": 7,
-                "q_statement": "<p>Which of the following is considered an internal risk?</p><br/> <p>Select all that apply</p>",
-                "q_field_type": "multi_select",
-                "q_selection": [
-                  {
-                    "A": "Schedule risks",
-                    "B": "Legal risks",
-                    "C": "Strategic risks",
-                    "D": "Scope risks",
-                    "E": "Operational risks"
-                  }
-                ],
-                "q_answer": "A, D"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "order": 3,
-        "title": "Module Credit and Completion Requirements and Learning Objective",
-        "body": "<h2>Credit and Completion Requirements</h2> <ul> <li>To receive proper learning credit and achieve the learning objectives, you must not skip any screens.</li> <li>Complete all interactions.</li> <li>Complete all practice questions.</li> <li>Pass the final assessment with at least 70%</li> <li>While completing the assessment, you are welcome to refer to the content of this course as much as you need, but you must complete the assessment alone. Using answers received from others, including any form of artificial intelligence, to complete an assessment is cheating.</li> </ul><br/> <p>Please note that this learning will expire in April 25,2025. You must complete and pass all of the scored portions of this course within this period, or your related learning progress will be removed.</p> <h2>Learning Objective</h2> <p>Upon successful completion of the course, you will be able to:</p> <ul> <li>Define project risk and identify various types of risks that may occur in a project.</li> <li>Recognize the risk management process and explore tools and frameworks relevant to each step of the process.</li> <li>Gain a full understanding of Quality Assurance and its benefits and importance in managing digital transformation projects, specifically in the Risk Monitoring phase.</li> <li>Obtain knowledge on the existing Philippine regulations in risk management systems to get ahead of identifying and monitoring possible risks in projects.</li>",
-        "image":"src/assets/img/general images/CreditCompletionLearningObjectives.jpg"
-      },
-      {
-        "order": 4,
-        "title": "Project Risk Management Lessons",
-        "subheader": "Overview of Risks",
-        "body": "<h4>Module Overview</h4> <h5>Learning Objective</h5> <p>At the end of this lesson, you will be able to:<p><br/> <ul> <li>Define project risk and identify various types of risks that may occur in a project.</li>",
-        "image": "src/assets/img/project_management/risk_management/PMFIDS_PM_PRM_order5.jpg"
-      },
-      {
-        "order": 5,
-        "title": "What is a Project Risk?",
-        "body": "<ul> <li>An unpredictable event or situation that, if it happens, can positively or negatively impact the goals of a project.</li> <li>Project risks can have positive outcomes, referred to as opportunities, or they can result in negative or unfavorable consequences, known as threats.</li> </ul>"
-      },
-      {
-        "order": 6,
-        "layout": "col-2",
-        "title": "Types of Risks",
-        "subheader": "Risks may be classified into two:",
-        "col1": "<h4>Internal Risk</h4><p>Internal risks are those that may come from the organization. Project analysts must identify and prioritize these types of risks</p>",
-        "col2": "<h4>External Risk</h4><p>External risks are beyond the control of the project team and the organization hosting the project. These risks are typically harder to foresee and manage</p>",
-        "image": "src/assets/img/project_management/risk_management/PMFIDS_PM_PRM_order7.jpg"
-      },
-      {
-        "order": 7,
-        "title": "Internal Risk",
-        "subheader": "These risks occur due to strengths and weaknesses internal to the organization.",
-        "body": "<ul> <li>Schedule Risk: Risk that activities may take longer than anticipated. Schedule delays usually lead to increased costs and postpone the realization of project benefits, potentially resulting in a loss of competitive advantage</li> <li>Resource Risk: Risks from outsourcing and personnel-related issues. Large projects may involve dozens or even hundreds of employees, making it crucial to manage attrition. Introducing a new resource at a later stage in the project can significantly slow down progress</li> <li>Budget Risk: Budget risks involve the escalation of project costs due to inaccurate cost estimations and scope creep.</li> <li>Performance Risk: The risk that a completed project may not perform as intended or fail to meet the business requirements that justified its initiation</li> <li>Scope Risk: Scope risks encompass changes in scope, often resulting from scope creep.</li> <li>Quality Risk: Quality risks may arise if the product or project lacks clear acceptance criteria or fails to meet customer needs.</li> <li>Technical Risk: Potential technology failures that could disrupt business operations, such as information security incidents or service outages. Projects utilizing new technology may encounter the risk of the technology not meeting expectations. For instance, an e-commerce platform crash could lead to lost revenue. Operational risks also encompass issues arising from poor implementation and process problems, including procurement, production, or distribution challenges.</li> </ul>",
-        "image": "src/assets/img/project_management/risk_management/PMFIDS_PM_PRM_order10.JPG"
-      },
-      {
-        "order": 8,
-        "title": "External Risks",
-        "subheader": "These risks occur due to strengths and weaknesses internal to the organization.",
-        "body": "<ul> <li>Strategic Risk: Risks associated with failed business decisions or indecision that may impact a company. These risks can lead to potential losses from pursuing an unsuccessful business plan. For example, selecting a technology for a project that ultimately cannot be made to work.</li> <li>Environmental Risk: This risk arises from the potential for business activities to alter the status quo due to specific events. Examples include delays in obtaining legislative approvals from authorized agencies, projects located in coastal zones, negative community impacts, and natural disasters such as earthquakes, hurricanes, or volcanic eruptions.</li> <li>Market Risk: Market risks are the potential for an organization to incur losses due to factors that impact the overall performance of financial markets.</li> <li>Legal Risk: Potential losses stemming from the unpredictability of legal proceedings, such as bankruptcy or impending litigation.</li> </ul>",
-        "image": "src/assets/img/project_management/risk_management/PMFIDS_PM_PRM_order11.JPG"
-      },
-      {
-        "order": 9,
-        "title": "Other Type of Risks",
-        "subheader": "Project managers must comprehend cybersecurity risks to safeguard their projects from cyberattacks. Below are some key cybersecurity risks to be mindful of.",
-        "body": "<ul> <li>Data breaches: Data breaches are among the most prevalent cybersecurity threats. In 2022, over 6.5 billion data records were exposed due to data breaches.</li> <li>Phishing: Phishing continues to be a significant threat in the banking industry. Cybercriminals use deceptive emails, text messages, or websites that appear legitimate to trick customers or employees into disclosing sensitive information such as account numbers, passwords, or personal details. Once they obtain this information, hackers can steal money, commit identity theft, or infiltrate the bank's internal systems</li> <li>Insider threats: Insider threats, whether from disgruntled employees, contractors, or third-party vendors, pose a significant risk to a bank's cybersecurity. Insiders with access to sensitive data can either intentionally or unintentionally leak information or create an entry point for hackers</li> <li>Distributed Denial of Service (DDoS) Attacks: These involve flooding a bank's online services with excessive traffic, leading to system slowdowns or crashes. This renders services such as online banking and payment processing unavailable. These attacks can be especially harmful to banks, disrupting business operations, frustrating customers, and leaving systems vulnerable to additional exploitation.</li> <li>Advanced Persistent Threats (APTs): APTs are highly sophisticated attacks in which cybercriminals gain unauthorized access to a bank's network and meticulously monitor its systems. Over time, they steal data and compromise critical infrastructure. These attacks are particularly dangerous because they are difficult to detect and can remain unnoticed for months, allowing hackers to extract valuable information before the bank becomes aware of the breach.</li> <li>Third-party risk: Banks depend on third-party vendors and suppliers for various services, such as cloud storage and payment processing. Unfortunately, these third-party providers can be a weak link in a bank's cybersecurity chain. A cyberattack on a third-party vendor can create a backdoor, allowing hackers to access the bank's sensitive data.</li> <li>Compliance violations: Compliance violations can result in fines and other penalties. It is crucial to ensure that your organization and digitalization projects adhere to all applicable regulations.</li> </ul>",
-        "image": "src/assets/img/project_management/risk_management/PMFIDS_PM_PRM_order12.JPG"
-      },
-      {
-        "order": 10,
-        "title": "Knowledge Check",
-        "body": "This is a type of risk where a completed project fails to perform as intended.",
-        "image":"src/assets/img/general images/KnowledgeCheck.jpg", 
-        "q_field_type": "single_select",
-        "q_selection": [
-          {
-            "A": "Quality Risk",
-            "B": "Performance Risk",
-            "C": "Scope Risk",
-            "D": "Strategic Risk"
-          }
-        ],
-        "q_answer": "B"
-      },
-      {
-        "order": 11,
-        "title": "Learning Summary",
-        "subheader": "Congratulations on completing Lesson 1 of this module!",
-        "body": "<p>Now that you have completed this lesson, you should be able to:</p><ul> <li>Define project risk and identify various types of risks that may occur in a project.</li> </ul>",
-        "image":"src/assets/img/general images/LessonSummary.jpg"
-      },
-      {
-        "order": 12,
-        "title": "Project Risk Management Lessons",
-        "subheader": "Risk Management",
-        "body": "<h4>Module Overview</h4> <h5>Learning Objective</h5> <p>At the end of this lesson, you will be able to:<p><br/> <ul> <li>Recognize the risk management process and explore tools and frameworks relevant to each step of the process.</li></ul>",
-        "image": "src/assets/img/project_management/risk_management/PMFIDS_PM_PRM_order16.jpg"
-      },
-      {
-        "order": 13,
-        "layout": "col-2",
-        "title": "Risk Management",
-        "col1": "<h2>What is Risk Management?</h2> <ul> <li>This encompasses the processes involved in planning, identifying, analyzing, responding to, and monitoring and controlling risks within a project.</li> <li>The objectives are to enhance the likelihood and impact of positive events while reducing the probability and impact of adverse events affecting the project</li> </ul>",
-        "col2": "<div><img src='src/assets/img/project_management/risk_management/PMFIDS_PM_PRM_12.jpg'><div><h2>Risk Management Process</h2></div></div> <p>The risk management process is comprised of four phases, as depicted in the following diagram: Identification, Assessment, Handling, and Monitoring. All phases must be communicated and tracked accordingly.</p> <h4>Risk Identification</h4> <p>Risk identification involves examining project areas and critical technical processes to identify and document associated risks. Identifying potential issues, hazards, threats, and vulnerabilities that could negatively impact work efforts or plans forms the foundation of the risk management strategy. The project will employ several methods to identify risks:</p> <ul> <li>Examination  the work breakdown structure to identify potential risk areas.</li> <li>Conduct interviews with subject matter experts.</li> <li>Analyze lessons learned documents or engage in discussions.</li> <li>Examine design specifications for product enhancements, interfaces, and reports.</li> <li>Evaluate project management and implementation strategies.</li> <li>Perform risk assessment and risk management reviews.</li> </ul> <h4>Risk Assessment</h43> <p>Risk assessment involves analyzing identified risks and prioritizing them based on their potential threat to achieving project goals. During this phase, the project team examines each risk to determine its cause and potential effects. Risks are then rated based on their likelihood of occurrence and the severity of their impact on cost (e.g., Philippine Peso), schedule (e.g., time), and technical performance, as applicable.</p> <h4>Risk Handling</h4> <p>Risk handling involves identifying, evaluating, selecting, and implementing options to manage risks at acceptable levels, considering project constraints and objectives. This process outlines specific actions to be taken, timelines, responsible parties, and associated costs and schedules. The handling strategy is determined based on the overall risk assessment rating, as detailed below.</p> <h4>Risk Monitoring</h4> <p>Risk monitoring systematically tracks and evaluates the performance of risk-handling actions against established metrics throughout the project. It also involves developing additional risk-handling options as needed. To effectively control and manage risks during the project, the team regularly monitors both the risks and the outcomes of the risk-handling actions.</p><br/> <p>A Risk Register has been created to track each risk-handling activity for this project. Additionally, information on high overall risks will be included in the Monthly Project Status Report and discussed during Steering Committee meetings.</p>"
-      },
-      {
-        "order": 13,
-        "title": "Risk Identification",
-        "image": "src/assets/img/project_management/risk_management/PMFIDS_PM_PRM_order19.JPG"
-      },
-      {
-        "order": 14,
-        "layout": "col-2",
-        "title": "Risk Identification",
-        "subheader": "RAID",
-        "col1": "<h4>Risk</h4><p>A risk is defined as a potential future threat to the overall success of a project or any of its components. Each risk is associated with a likelihood and a corresponding severity rating.</p> <h4>Assumptions</h4><p>Any factors that you assume will be in place and contribute to the successful outcome of your project. An asumption is a statement accepted as fact. Assumptions must be validated.</p>",
-        "col2": "<h4>Issues</h4><p>An issue is an immediate, formally defined concern that requires action. It hinders the progress of a Workstream or the Program and lacks an agreed-upon resolution.</p> <h4>Dependencies</h4> <p>Dependencies are relationships between products or tasks. For instance, one product may consist of several other dependent products, or a task may not commence until a dependent task is completed.</p>",
-        "image": "src/assets/img/project_management/risk_management/PMFIDS_PM_PRM_order20.jpg"
-      },
-      {
-        "order": 15,
-        "layout": "col-2",
-        "title": "Risk Identification",
-        "subheader": "RAID Log",
-        "col1": "<p>Utilizing a RAID log, or a similar tool, assists the PMO or Project Manager in capturing, organizing, prioritizing, and documenting the risks, assumptions, issues, and dependencies encountered during project planning and execution.<p>",
-        "col2": "<h4>Raid log entries should be:</h4> <ul> <li>Specific: Phrases like It won’t work are not detailed enough. Ensure each entry is fully identified, explained, and well-documented with supporting references.</li> <li>Reviewed: Regularly review risks and issues to determine if circumstances have changed.</li> <li>Validated: Regularly validate assumptions and dependencies. As the project progresses, these may no longer be valid as originally stated.</li> <li>Defined: Focus on high-impact and high-probability risks and issues. Each item should have clearly defined owners and expected next actions.</li> <li>Escalated: When necessary, review items for potential escalation using an escalation protocol managed by the PMO and governance processes.</li> </ul>",
-        "image": "src/assets/img/project_management/risk_management/PMFIDS_PM_PRM_order25.JPG"
-      },
-      {
-        "order": 16,
-        "title": "Knowledge Check",
-        "body": "Which of the following statements are TRUE about RAID log? (Select all that apply)",
-        "image":"src/assets/img/general images/KnowledgeCheck.jpg", 
-        "q_field_type": "multi_select",
-        "q_selection": [
-          {
-            "A": "Risk is an immediate, formally-defined concerns which require action",
-            "B": "Assumptions are statements accepted as fact",
-            "C": "Dependencies are relationships between products or tasks",
-            "D": "Issues are future threats to the overall success of a project or a contingent part"
-          }
-        ],
-        "q_answer": "B, C"
-      },
-      {
-        "order": 17,
-        "title": "Risk Identification",
-        "subheader": "Risk Register",
-        "body": "<p>A risk register is a document used as a risk management tool to identify potential setbacks within a project. The purpose of this process is to collectively identify, analyze, and address risks before they become problems.</p><br/> <p>According to the PMBOK guide, a risk register, or risk log, is a document that contains the results of risk analysis and records risk response plans. The primary output from risk identification is the initial entry into the risk register.</p><br/> <p>The risk register details all identified risks, provides descriptions, categorizes them, and discusses potential causes and probabilities. It also includes potential responses and identifies who is responsible for managing each risk. The risk register is an integral part of the project management plan. </p>",
-        "image": "src/assets/img/project_management/risk_management/PMFIDS_PM_PRM_order28.jpg"
-      },
-      {
-        "order": 18,
-        "layout": "col-2",
-        "title": "Risk Identification",
-        "subheader": "Risk Register Components",
-        "col1": "<h4>Risk Identification</h4> <p>This typically takes the form of a risk name or identification number, which is used to identify and track the risk within the risk register.</p><br/> <p>A risk identification field should include:</p> <ul> <li>Risk name</li> <li>Identification date</li> <li>Subtitle, if needed</li> </ul> <h4>Risk description</h4> <p>After the identification is complete, a brief description should be added to your log.</p><br/> <p>A risk description should include:</p> <ul> <li>A short, high-level overview of the risk</li> <li>Why the risk is a potential issue</li> <li>How long you choose to make your descriptions is up to how detailed you want your log to be, but the average length is typically 80 to 100 characters.</li> <li>The main takeaway is that a description should accurately describe the risk without getting in the weeds so it can be easily identified.</li> </ul>",
-        "col2": "<h4>Risk category</h4> <p>Quickly identifying the risk facilitates assigning it to the appropriate team, especially when working on a complex project with multiple risks. A risk category could include any of the following:</p> <ul> <li>Operations</li> <li>Budget</li> <li>Schedule</li> <li>Technology</li> <li>Information</li> <li>Security</li> <li> Quality</li> <li>Project Plan</li> </ul><br/> <p>To determine the category type, you first need to evaluate the source of the risk and identify who can help resolve it. If the solution isn't immediately clear, you may need to collaborate with department heads.</p> <h4>Risk likelihood</h4><p>The estimated probability of the risk occurring.</p><br/> <p>The likelihood of a risk can be documented with a simple selection of:</p> <ul> <li>Not likely</li> <li>Likely</li> <li>Very likely</li> </ul> <p>Categorizing your risks by likelihood helps prioritize which risks to address first and which can be deferred.</p>",
-        "image": "src/assets/img/project_management/risk_management/PMFIDS_PM_PRM_19.JPG"
-      },
-      {
-        "order": 19,
-        "layout": "col-2",
-        "title": "Risk Identification",
-        "subheader": "Risk Register Components",
-        "col1": "<h4>Risk analysis</h4> <p>A risk analysis assesses the potential impact a risk could have on your project, helping to quickly identify the most critical risks to address. This should not be confused with priority, which considers both the likelihood and the impact analysis.</p><br> <p>While teams document risk levels differently, you can start with this simple five-point scale:</p> <ul> <li>Very low</li> <li>Low</li> <li>Medium</li> <li>High</li> <li>Very high</li> </ul> <p>If you're having difficulty determining the risk level, consider seeking a second opinion from a department head. This collaboration can help you accurately assess the potential impact.</p> <h4>Risk mitigation</h4> <p>A mitigation plan, also known as a risk response plan, is one of the most crucial components of a risk register. The primary goal of a risk management plan is to identify and mitigate potential risks. Essentially, it serves as an action plan.</p><br/> <p>A risk mitigation plan should include:</p> <ul> <li>A step-by-step solution on how to lessen the risk</li> <li>A brief description of the intended outcome</li> <li>How the plan will affect the impact</li> </ul> <h4>Risk priority</h4> <p>While the impact of a risk helps determine its priority, it's important to include this information in your log as well. Priority should consider both the likelihood of the risk and the risk analysis. These aspects together will clarify which risks are most likely to have harmful consequences on the project.</p><br/> <p>Priority can be documented by a simple number scale:</p> <ul> <li>1 (Low)</li> <li>2 (Medium</li> <li>3 (High)</li> </ul> ",
-        "col2": "<h4>Risk ownership</h4> <p>The individual responsible for managing the risk and implementing the prevention or contingency plans. Risk owners can include stakeholders, members of the project team, the project manager, and the project sponsor.</p> <h4>Risk status</h4> <p>This helps convey whether a risk has been successfully mitigated or not.</p><br/> <p>A risk status field should be filled out with one of the following:</p> <ul> <li>Open</li> <li>In progress</li> <li>Closed</li> <p>If you’d like to provide more detailed status options, you may choose a more specific list such as active, not started, on hold, ongoing, and complete.</p>",
-        "image": "src/assets/img/project_management/risk_management/PMFIDS_PM_PRM_19.JPG"
-      },
-      {
-        "order": 20,
-        "title": "Risk Assessment",
-        "subheader": "Probability Impact Matrix",
-        "body": "<p>A Probability and Risk Matrix is a grid used to map the likelihood of each risk occurring and its impact on project objectives if it does occur. This matrix specifies combinations of probability and impact, allowing individual project risks to be categorized into priority groups. By using the probability and impact matrix, risks are classified as low, medium, or high based on two distinct factors: the overall probability of occurrence and the presumed impact if it occurs.</p><br/><p>Once risks are identified and classified, the next step is to prioritize them. Risk can be prioritized based on their probability of occurrence and impact. Impacts may be negative for threats and positive for opportunities. The key benefits of this assessment is that it focuses efforts on high priority risks. Probability and impact are assessed for each identified individual project risk.</p><ul> <li>Impact: evaluated based on the extent of changes to the work plan (timing), cost, and quality if the risk materializes.</li><li>Probability: measures the likelihood that the risk will materialize.</li></ul>",
-        "image": "src/assets/img/project_management/risk_management/PMFIDS_PM_PRM_order40.jpg"
-      },
-      {
-        "order": 21,
-        "title": "Knowledge Check",
-        "body": "In assessing risks through the probability impact matrix, which of the following must be primarily prioritized?",
-        "image":"src/assets/img/general images/KnowledgeCheck.jpg", 
-        "q_field_type": "single_select",
-        "q_selection": [
-          {
-            "A": "Likely Probability, Major Impact",
-            "B": "Likely Probability, Moderate Impact",
-            "C": "Rare Probability, Extreme Impact",
-            "D": "Moderate Probability, Trivial Impact"
-          }
-        ],
-        "q_answer": "A"
-      },
-      {
-        "order": 22,
-        "layout": "col-2",
-        "title": "Risk Handling",
-        "subheader": "Four potential strategies to deal with risk:",
-        "col1": "<h4>Avoid</h4> <p>Risk avoidance is a strategy in which the project team takes action to eliminate a threat or shield the project from its impact. This often involves modifying the Project Management plan to completely remove the threat.</p><br/> <p>The Project Manager may also isolate the project objectives from the risk's impact or alter the objective at risk. Examples include extending the schedule, changing the strategy, or reducing the scope. The most extreme avoidance strategy is to shut down the project entirely. Some risks that emerge early in the project can be avoided by clarifying requirements, gathering information, improving communication, or acquiring expertise</p> <h4>Mitigate</h4> <p>Risk mitigation is a strategy in which the project team takes action to reduce the likelihood or impact of a risk. This involves lowering the probability and/or impact of an adverse risk to within acceptable threshold limits.</p><br/> <p>Taking early action to minimize the probability and/or impact of a risk occurring is often more effective than attempting to address the damage after the risk has materialized. Examples of mitigation actions include adopting less complex processes, conducting additional tests, or selecting a more reliable supplier.</p><br/> <p>Mitigation may also involve developing prototypes to reduce the risk of scaling up from a bench-scale model of a process or product. When it is not possible to reduce the probability, a mitigation response might focus on addressing the risk impact by targeting linkages that determine its severity. For instance, designing redundancy into a system can reduce the impact of a failure of the original component.</p>",
-        "col2": "<h4>Transfer</h4> <p>Risk transfer is a strategy in which the project team shifts the impact of a threat to a third party, along with the responsibility for managing the response. Transferring the risk does not eliminate it; it simply assigns the responsibility for its management to another party. This does not mean disowning the risk by passing it to a later project or another person without their knowledge or agreement. Risk transfer typically involves paying a risk premium to the party assuming the risk.</p><br/> <p>Transferring liability for risk is particularly effective in managing financial risk exposure. Transfer tools can vary widely and include, but are not limited to, insurance, performance bonds, warranties, and guarantees. Contracts or agreements can be used to transfer liability for specific risks to another party. For example, if a buyer has capabilities that the seller lacks, it may be prudent to contractually transfer some work and its associated risk back to the buyer. In many cases, a cost-plus contract may transfer the cost risk to the buyer, while a fixed-price contract may transfer the risk to the seller.</p> <h4>Accept</h4> <p>Risk acceptance is a strategy in which the project team decides to acknowledge the risk and take no action unless the risk materializes. This approach is chosen when it is not feasible or cost-effective to address a specific risk in any other manner.</p><br/> <p>This strategy signifies that the project team has either decided not to alter the Project Management plan to address the risk or is unable to identify any other suitable response strategy. Risk acceptance can be either passive or active. Passive acceptance involves no action other than documenting the strategy, allowing the project team to address risks as they occur and periodically review the threat to ensure it does not change significantly. The most common active acceptance strategy is to establish a contingency reserve, which includes allocating time, money, or resources to manage the risks.</p>",
-        "image": "src/assets/img/project_management/risk_management/PMFIDS_PM_PRM_order42.JPG"
-      },
-      {
-        "order": 23,
-        "title": "Knowledge Check",
-        "body": "Jaren is currently managing a project. His team was able to identify a list of risks that may occur upon implementation. However, the team was unable to look for any other suitable response strategy to one of its identified risks; therefore, the team decided to stick with the current Project Management plan. What type of risk handling strategy did Jaren’s team employ?",
-        "image":"src/assets/img/general images/KnowledgeCheck.jpg", 
-        "q_field_type": "single_select",
-        "q_selection": [
-          {
-            "A": "Avoidance",
-            "B": "Mitigation",
-            "C": "Transference",
-            "D": "Acceptance"
-          }
-        ],
-        "q_answer": "D"
-      },
-      {
-        "order": 24,
-        "title": "Learning Summary",
-        "subheader": "Congratulations on completing Lesson 2 of this module!",
-        "body": "<p>Now that you have completed this lesson, you should be able to:</p><ul> <li>Recognize the risk management process and explore tools and frameworks relevant to each step of the process.</li> </ul>",
-        "image":"src/assets/img/general images/LessonSummary.jpg"
-      },
-      {
-        "order": 25,
-        "title": "Quality Assurance",
-        "subheader": "Module Overview",
-        "body": "<h4>Learning Objective</h4> <p>At the end of this lesson, you will be able to:</p> <ul> <li>Gain a full understanding of Quality Assurance and its benefits and importance in managing digital transformation projects, specifically in the Risk Monitoring phase.</li> </ul>",
-        "image": "src/assets/img/project_management/risk_management/PMFIDS_PM_PRM_order50.jpg"
-      },
-      {
-        "order": 26,
-        "layout": "col-2",
-        "title": "What is QA?",
-        "col1": "<ul> <li>Quality assurance in project management involves implementing a set of actions aimed at ensuring that the project’s final outcomes align with the expected requirements. It focuses on the processes that teams utilize to maintain standards and deliver quality results.</li> <li>This can be regarded as an added layer to conduct Risk Monitoring in projects.</li> </ul>",
-        "col2": "<div><div class='mr-10><img src='src/assets/img/project_management/risk_management/PMFIDS_PM_PRM_order52.jpg'><div><h4>International Quality Standards</h4></div></div> <p>International Organization for Standardization (ISO)</p><br/><p>The International Organization for Standardization (ISO) is an independent, non-governmental international organization that develops guidelines for wide range of products, services, and systems to ensure quality, safety, and efficiency. These standards are globally recognized and adopted by businesses, governments, and organizations to establish uniformity and compliance across various sectors.</p><br/><p>ISO maintains a family of quality management standards collectively known as the ISO 9000.</p>"
-      },
-      {
-        "order": 27,
-        "layout": "col-2",
-        "title": "What is QA",
-        "subheader": "International Quality Standards",
-        "col1": "<h4>Quality of the Project</h4> <p>Pushing the team too hard to meet requirements can result in lower profits, higher risks, employee attrition, errors, and extra rework. Therefore, the process of creating the product is just as important as the product itself.</<p>",
-        "col2": "<h4>Quality of the Product</h4> <p>Upon the product’s availability, ask yourself:</p> <ul> <li>Does the deliverable fulfill the requirements agreed upon during scope definition?</li> <li>If there is variations, is it acceptable?</li> <li>Is it ready for use, and does it satisfy stakeholder expectations?</li> </ul> </ul>",
-        "image": "src/assets/img/project_management/risk_management/PMFIDS_PM_PRM_order53.jpg"
-      },
-      {
-        "order": 28,
-        "layout": "col-1",
-        "title": "What is QA",
-        "subheader": "Quality Strategies",
-        "col1": "<div><div class='mr-10'><img src='src/assets/img/project_management\risk_management/PMFIDS_PM_PRM_order56.jpg'></div></div><h4>Total Quality Management</h4></div></div> <ul> <li>A strategy focused on continuous improvement</li> <li>Every employee in the company is accountable for maintaining quality</li> <li>Defines ‘quality’ based on customer requirements</li> </ul>"
-      },
-      {
-        "order": 29,
-        "title": "What is QA",
-        "subheader": "Quality Strategies",
-        "body": "<h4>Sample Quality Initiatives for Continuous Improvement</h4> <ul> <li>Lean Manufacturing:Employs a method of eliminating waste and improving value.</li> <li>Six Sigma: The Six Sigma standard, introduced by Bill Smith of Motorola, allows only 3.4 defects per million units. This technique is well-suited for manufacturing environments with large-scale production.</li> </ul>"
-      },
-      {
-        "order": 30,
-        "title": "Benefits of QA in Project Management",
-        "body": "<ul> <li>Increase efficiency: When a project manager adopts QA standards throughout the project, the team will gain a clear understanding of the requirements for quality, leading to increased efficiency.</li> <li>Ensure customer satisfaction: Employing QA processes helps project teams focus on delivering high-quality, error-free outcomes, which can guarantee customer satisfaction upon the product or service's release.</li> <li>Boost team morale: Team members who understand the QA standards for each project stage feel motivated to reach the desired results, thereby boosting their confidence and team morale.</li> <li>Make continuous improvements: Through QA methods, project managers are able to direct their efforts towards the continuous enhancement of processes to ensure quality standards are maintained.</li> </ul>",
-        "image": "src/assets/img/project_management/risk_management/PMFIDS_PM_PRM_order58.JPG"
-      },
-      {
-        "order": 31,
-        "layout": "col-2",
-        "title": "Benefits of QA in Project Management",
-        "subheader": "Pitfalls that can be avoided with a proactive approach to QA",
-        "col1": "<h4>Lack of skilled QA resources</h4> <p>Assigning testing tasks to business resources who lack expertise can cause unproductive and inaccurate testing. QA staff must thoroughly evaluate new testing technology and gather all relevant quality and testing requirements before implementation.</p> <h4>Over-investing in Technology</h4> <p>The QA needs of small banks differ from those of large, global institutions. What is effective for one may be too costly for another. Do not fall into the trap of believing that automation can resolve every QA issue.</p> <h4>Lack of Readiness</h4> <p>This risk assumes that organizations can postpone adding QA resources and delay involving QA early in a project. Planning should include considerations for contractual negotiations and the timing of onboarding third-party vendors.</p> <h4>Underestimating the Effort</h4> <p>It's essential to incorporate all QA management activities in any significant endeavor. These include:</p> <ul> <li>Test planning and obtaining approvals</li> <li>Writing test cases</li> <li>Executing tests</li> <li>Fixing defects</li> </ul>",
-        "col2": "<h4>Inexperienced Leadership</h4> <p>QA executives should not assume that all testing resources share the same skill set. They must also understand the specific talents needed in frontline QA managers, such as whether the focus should be on process expertise or testing skills.</p> <h4>Risk Identification</h4> <p>This typically takes the form of a risk name or identification number, which is used to identify and track the risk within the risk register.</p><br/> <p>A risk identification field should include:</p> <ul> <li>Risk name</li> <li>Identification date</li> <li>Subtitle, if needed</li> </ul> <h4>Over-engineering the Effort</h4>  <p>Over-testing can lead to inflated costs and wasted time. The key criterion for testing is the value that the initiative delivers</p>",
-        "image": "src/assets/img/project_management/risk_management/PMFIDS_PM_PRM_order59.jpg"
-      },
-      {
-        "order": 32,
-        "title": "Importance of QA in Digital Transformation Projects",
-        "subheader": "Building a QA Practice",
-        "body": "<ul> <li>Form a trusted team comprising essential roles such as project management, technical leads, business leads, and business analysts.</li> <li>Hire a QA lead or manager, either from within the bank or externally, selecting the most suitable candidate for the role.</li> <li>Evaluate the qualifications required for your bank's QA team.</li> <li> Consider existing staffs (business analysts and technical experts), but refrain from depending on them to serve as QA-trained resources.</li> <li>Determine the size of effort that QA practice will address.</li> <li>Assess the tools required for your QA practice.</li> <li>Assess the tools required for your QA practice.</li> <li>Identify the training demands of the QA practice.</li> <li>Consider the QA process and methodology crucial for your organization’s success.</li> <li>Consider necessary communications for your organization.</li> </ul>"
-      },
-      {
-        "order": 33,
-        "layout": "col-2",
-        "title": "Importance of QA in Digital Transformation Projects",
-        "subheader": "Establishing an Ongoing QA Practice",
-        "col1": "<div><div class='ml-10'><img src='src/assets/img/project_management/risk_management/PMFIDS_PM_PRM_order68.jpg'></div><div><h4>Integration Efforts</h4></div></div> <p>The rapid advancement of API technology, which often involves real-time integration, requires strong QA management to conduct thorough end-to-end testing whenever changes occur in your bank’s technology ecosystem. A strong QA practice provides the necessary oversight and discipline to ensure that newly combined solutions are adequately tested.</p>",
-        "col2": "<h4>New Software Releases</h4> <p>All software releases carry the risk of downtime. Prior to these scheduled events, it is essential for you and your stakeholders to assess the potential impact of a given release on revenue and production stability. Your assessment should be based on accurate QA data.</p><br/> <p>Deploying new software and solutions must not become a high-risk endeavor within your financial institution. Customized products and solutions unique to your bank must be tested holistically prior to rolling the change to your production environment. In the case of FIS product releases and their changes, a strong QA practice needs to account for, and test, any third-party solutions integrated with this core solution.</p><br/> <p>One thing is true of all software releases: they introduce the risk of downtime. In advance of these scheduled events, you and your stakeholders must ask what the impact of a given release is going to be on revenue or production stability, and you should have an answer that is informed by real QA data.</p>"
-      },
-      {
-        "order": 34,
-        "layout": "col-2",
-        "title": "Importance of QA in Digital Transformation Projects",
-        "subheader": "Sustainable QA Practice",
-        "col1": "<p>To establish a quality methodology, one should leverage established quality industry standards such as ISO 9001 – Quality Management System Requirements. These standards are ideal for setting up a best-practice quality management methodology within a bank. They require the institution to establish quality controls throughout its business processes to ensure customer requirements are fulfilled before delivering products and services.</p><br/><p>In a proven QA methodology, management-level quality controls are commonly grouped into four phases: Plan, Do, Check, and Act.</p>",
-        "col2": "<h4>Plan</h4> <ul> <li>Determine the customer's expectations and requirements.</li> <li>Identify and document the processes and quality controls needed to satisfy customer’s expectations.</li> </ul> <h4>Do</h4> <p>Perform the established processes and quality controls—Prevent, Detect, and Correct—to ensure the customer's expectations are fulfilled:</p> <ul> <li>Prevent: The processes and quality controls are implemented to avert the occurrence of defects.</li> <li>Detect: The processes and quality controls are implemented to proactively identify possible defects.</li> <li>Correct: The processes and quality controls are implemented to fix and resolve identified defects.</li> </ul> <p>The product or service is handed over to the customer.</p> <h4>Check</h4> <ul> <li> Customer feedback is obtained.</li> <li>Assess the effectiveness of the processes and quality controls by asking the question, Are the customer's expectations being met?</li> </ul> <h4>Actions</h4> <p>Actions are taken to enhance the effectiveness and efficiency of the documented processes and quality controls to meet the customer’s expectations.</p>",
-        "image": "src/assets/img/project_management/risk_management/PMFIDS_PM_PRM_order70.jpg"
-      },
-      {
-        "order": 71,
-        "title": "Importance of QA in Digital Transformation Projects",
-        "subheader": "Sustainable QA Practice",
-        "body": "<h4>Plan</h4> <ul> <li>Determine the customer's expectations and requirements.</li> <li>Identify and document the processes and quality controls needed to satisfy customer’s expectations.</li> </ul> <h4>Do</h4> <p>Perform the established processes and quality controls—Prevent, Detect, and Correct—to ensure the customer's expectations are fulfilled:</p> <ul> <li>Prevent: The processes and quality controls are implemented to avert the occurrence of defects.</li> <li>Detect: The processes and quality controls are implemented to proactively identify possible defects.</li> <li>Correct: The processes and quality controls are implemented to fix and resolve identified defects.</li> </ul> <p>The product or service is handed over to the customer.</p> <h4>Check</h4> <ul> <li> Customer feedback is obtained.</li> <li>Assess the effectiveness of the processes and quality controls by asking the question, Are the customer's expectations being met?</li> </ul> <h4>Act ions</h4> <p>Actions are taken to enhance the effectiveness and efficiency of the documented processes and quality controls to meet the customer’s expectations.</p>"
-      },
-      {
-        "order": 72,
-        "title": "Knowledge Check",
-        "body": "Quality controls ensure customer requirements are met before the products and services are delivered. How is the quality controls at the management level commonly grouped? (Select all that apply).",
-        "image":"src/assets/img/general images/KnowledgeCheck.jpg", 
-        "q_field_type": "multi_select",
-        "q_selection": [
-          {
-            "A": "Prioritize",
-            "B": "Plan",
-            "C": "Act",
-            "D": "Check",
-            "E": "Brainstorm",
-            "F": "Do"
-          }
-        ],
-        "q_answer": "B, C, D, E"
-      },
-      {
-        "order": 36,
-        "title": "Learning Summary",
-        "subheader": "Congratulations on completing Lesson 3 of this module!",
-        "body": "<p>Now that you have completed this lesson, you should be able to:</p><ul><li>Gain a full understanding of Quality Assurance and its benefits and importance in managing digital transformation projects, specifically in the Risk Monitoring phase.</li></ul>",
-        "image":"src/assets/img/general images/LessonSummary.jpg"
-      },
-      {
-        "order": 37,
-        "title": "Regulations",
-        "subheader": "Module Overview",
-        "body": "<h4>Learning Objective</h4><p>At the end of this lesson, you will be able to:</p> <ul> <li>Obtain knowledge on the existing Philippine regulations in risk management systems to get ahead of identifying and monitoring possible risks in projects.</li> </ul>",
-        "image": "src/assets/img/project_management/risk_management/PMFIDS_PM_PRM_order75.jpg"
-      },
-      {
-        "order": 38,
-        "title": "Bangko Sentral framework for IT risk supervision",
-        "subheader": "Information Technology Risk Management (ITRM)",
-        "body": "<ul> <li>ITRM should be considered a component and integrated with the institutions’ risk management program.</li> <li>The guidelines likewise provide practical plans to address risks associated with emerging trends in technology and growing concerns on cyber security.</li> </ul>",
-        "image": "src/assets/img/project_management/risk_management/PMFIDS_PM_PRM_order76.jpg"
-      },
-      {
-        "order": 39,
-        "layout": "col-2",
-        "title": "Bangko Sentral framework for IT risk supervision",
-        "subheader": "Information Technology Risk Management (ITRM)",
-        "col1": "<h4>Policy Statement</h4> <ul> <li>BSFIs employ advances in technology to sharpen business insights, enhance operational efficiencies, and deliver innovative financial products and services in line with emerging market trends and evolving client needs.</li> <li>Technological developments also enable greater access to financial services that promote an inclusive and responsive digital financial ecosystem.</li> <li>Social media platforms may further complicate matters as news of disruptions as well as customer complaints can spread at unprecedented speeds.</li> <li>Cyber-threats and attacks confronting the financial services industry pose added risks that can undermine public trust and confidence in the financial system.</li> <li>BSFIs should establish robust and effective technology risk management processes, governance structures, and cybersecurity controls to ensure that the benefits derived from technological innovations can be fully optimized without compromising financial stability, operational resilience, and consumer protection.</li> </ul>",
-        "col2": "<h4>Purpose and Scope</h4> <ul> <li>The enhanced guidelines aim to provide guidance in managing risks associated with use of technology.</li> <li>The guidelines are based on international standards and recognized principles of international practice for ITRM and shall serve as Bangko Sentral’s baseline requirement for all BSFIs.</li> <li>The framework covers different facets of ITRM, some of which are supplemented with detailed guidelines in Appendices 74, 75, 76, 77, 78 and 79.</li> <li>Subject guidelines, including the Appendices 74, 75, 76, 77, 78 and 79, are not “one-size-fits-all” and implementation of these need to be risk-based and commensurate with size, nature and types of products and services and complexity of IT operations of the individual BSFIs.</li> <li>BSFIs shall exercise sound judgment in determining applicable provisions relevant to their risk profile.</li> </ul>"
-      },
-      {
-        "order": 40,
-        "title": "Bangko Sentral framework for IT risk supervision",
-        "subheader": "Information Technology Risk Management (ITRM)",
-        "body": "<p>Appendices: IT Risk Management Standards and Guidelines</p><ul> <li>IT Audit: “…audit program should address IT risk exposures throughout the organization, including the areas of IT management and strategic planning, IT operations, client/server architecture, local and wide-area networks, telecommunications, physical and information security, electronic products and services, systems development and acquisition, and business continuity planning”</li> <li>Information Security: “…enables BSFIs to remain competitive and relevant as the financial services industry moves towards digital innovation.”</li> <li>Project Management/Development Acquisition and Change Management: “…enterprise-wide and ongoing approach should be formalized in the IT strategic plan to help ensure that all major IT projects are consistent with its overall strategic goals.”</li> <li>IT Operations: “…necessitates the adoption of risk management processes that promote sound and controlled operation of IT environments to ensure that IT operations process and store information in a timely, reliable, secure, and resilient manner.”</li> <li>IT Outsourcing/Vendor Management: “…risks may be realized in a different manner than if the functions were inside resulting in the need for well-structured process to properly manage risks and ensure that the interest of customers will not be compromised.”</li> <li>Electronic Banking, Electronic Payment, Electronic Money and Other Electronic Products and Services: “…the rapid development of electronic capabilities carries risks as well as benefits and it is important that these risks are recognized and managed by BSFIs in a prudent manner to promote safe and secure e-services and operations.”</li> </ul>"
-      },
-      {
-        "order": 41,
-        "title": "Bangko Sentral framework for IT risk supervision",
-        "subheader": "IT Risk Management System (ITRMS)",
-        "body": "<p>BSFIs are required to establish a robust ITRM system covering four key components:</p><ul> <li>IT Governance</li> <ul> <li>Oversight and organization of IT functions</li> <li>IT policies, procedures and standards</li> <li>IT audit</li> <li>Staff competence and training</li> <li>Management Information Systems (MIS)</li> <li>IT risk management function</li> </ul> <li>Risk Identification and Assessment</li> <ul> <li>Begins with the identification of the current and prospective IT risk exposures arising from the institution’s IT environment and related processes.</li> <li>Once management understands the institution’s IT environment and analyzes the risk, it should rank the risks and prioritize its response.</li> <li>Periodic risk assessment process should be done at the enterprise-wide level and an effective monitoring program for the risk mitigation activities should be manifested through mitigation or corrective action plans, assignment of responsibilities and accountability and management reporting.</li> </ul> <li>IT Controls Implementation</li> <ul> <li>BSFI Management should implement satisfactory control practices that address the following as part of its overall IT risk mitigation strategy:</li> <li>Information security</li> <li>Project management/development and acquisition and change management</li> <li>IT operations</li> <li>IT outsourcing/Vendor management</li> <li>Electronic banking, Electronic payments, Electronic money and other Electronic products and services</li> </ul> <li>Risk Measurement and Monitoring</li> <ul> <li>Performance vis-à-vis approved IT strategic plan</li> <li>Performance benchmarks/service levels</li> <li>Quality assurance/quality control</li> <li>Policy Compliance</li> <li>External assessment program</li> </ul> </ul>",
-        "image": "src/assets/img/projectmanagement/projectriskmanagement/PMFIDS_PM_PRM_order44.JPG"
-      },
-      {
-        "order": 42,
-        "layout": "col-2",
-        "title": "AFASA on Risk Management Systems and Controls to Protect Financial Accounts",
-        "subheader": "Anti-Financial Scamming Act (AFASA) was signed on July 20, 2024, and took effect on August 13, 2024",
-        "co1": "<h2>Section 6. Responsibility to Protect Access to Client’s Financial Account</h2><ul> <li>Institutions shall ensure that access to clients’ financial accounts is protected by adequate risk management systems and controls</li> <li>Risk management systems and controls must be proportionate and commensurate to the nature, size and complexity of operations.</li> <li>Institutions determined by the BSP to be compliant with the requirements of adequate risk management systems and controls shall not be liable for any loss or damage arising from the offenses under Sections 4 (Prohibited Acts) and Section 5 (Other Offenses).</li> <li>Without prejudice to other liabilities under existing laws and consistent with BSP rules and regulations, institutions shall be liable for restitution of funds to the Account Owners for failure to employ adequate risk management systems and controls, or failure to exercise the highest degree of diligence in preventing loss or damage arising from the offenses under Section 4 and 5.</li> </ul>",
-        "col2": "<h4>Section 4. Prohibited Acts</h4> <p>The following acts shall constitute Financial Account scamming under this Act:</p><br/> <p>(a) Money Muling Activities. A person performing any of the followings acts for the purpose of obtaining, receiving, depositing, transferring, or withdrawing proceeds that are known to be derived from crimes, offenses, or social engineering schemes shall be considered as a money mule:</p> <ul> <li>Using, borrowing or allowing the use of a Financial Account;</li> <li>Opening a Financial Account under a fictitious name or using the identity or identification documents of another;</li> <li>Buying or renting a Financial Account;</li> <li>Selling or lending a Financial Account; or</li> <li>Recruiting, enlisting, contracting, hiring, utilizing, or inducing any person to perform the acts mentioned in items 1 to 4 of this subsection.</li> </ul> <p>(b) Social Engineering Schemes. A social engineering scheme is committed by a person who obtains sensitive identifying information of another person, through deception or fraud, resulting in unauthorized access and control over the person's Financial Account, by performing any of the following acts:</p> <ul> <li>Misrepresenting oneself as acting on behalf of an Institution, or making false representations to solicit another person's sensitive identifying information; or</li> <li>Using electronic communications to obtain another person's sensitive identifying information.</li> </ul> <p>(c) Economic Sabotage. The prohibited acts under Section 4(a) and (b) shall be considered as economic sabotage when committed under any of the following circumstances:</p> <ul> <li>By a group of three (3) or more persons conspiring or confederating with one another;</li> <li>Against three (3) or more persons individually or as a group;</li> <li>Using a mass mailer; or</li> <li>Through human trafficking.</li> </ul> <h4>Section 5. Other Offenses</h4> <p>The following shall also constitute as offenses under this Act:</p> <ul> <li>Willfully aiding or abetting in the commission of any of the offenses enumerated under Section 4;</li> <li>Willfully attempting to commit any of the offenses enumerated under Section 4;</li> <li>Opening a Financial Account under a fictitious name or using the identity or identification documents of another; or</li> <li>Buying or selling a Financial Account.</li> </ul>"
-      },
-      {
-        "order": 43,
-        "title": "AFASA on Risk Management Systems and Controls to Protect Financial Accounts",
-        "body": "<p>BSFIs which are determined compliant by the BSP shall not be liable for any loss or damage arising from the offenses under Section 4 and 5 of AFASA.</p><br/><p>However, BSFIs shall be liable for the restitution of funds to Account Owners for the failure to employ adequate risk management systems and controls for failure to exercise the highest degree of diligence in preventing loss or damage arising from the said offenses.</p><p>BSFIs should ensure adoption of the following key controls to protect financial accounts:</p><ul> <li>Fraud Management Systems (FMS)</li> <li>Infrastructure and security monitoring</li> <li>Multi-factor Authentication (MFA)</li> <li>Account owner enrollment and verification processes, and ongoing monitoring of customer account and transactions</li> <li>Audit Trail</li> <li>Cybersecurity tests and evaluations</li> </ul>"
-      },
-      {
-        "order": 44,
-        "title": "Financial Services Cyber Resilience Plan 2024-2029",
-        "body": "<h2>Goal 1</h2> <p>This covers strategies to sharpen the industry’s capabilities to proactively respond to and recover from major cyber incidents.</p><br/> <p>Priority actions under this goal are:</p> <ul> <li>D1: Establish baseline industry incident response plan</li> <li>D2: Develop scenario-based incident response playbooks</li> <li>D3: Conduct progressive industry-wide cyber testing exercise regime</li> <li>D4: Explore setting up of an industry Security Operations Center (SOC)</li> </ul> <h2>Goal 2</h2> <p>This encompasses strategies to institutionalize and expand sharing of timely and actionable cyberthreat intelligence across the financial community, including coordination and collaboration with other industry stakeholders and the National CERT (CERT-PH).</p><br/> <p>Priority actions under this goal are:</p> <ul> <li>A1: Expand and further enhance Bankers Association of the Philippines Cybersecurity Incident Database (BAPCID) as an industry sharing platform</li> <li>A2: Strengthen and forge strategic partnerships in domestic and international for a</li> <li>A3: Support the enactment of cyber-related legislative initiatives (e.g., Anti-Financial Account Scamming Act, Liberalization of Secrecy of Deposits, etc.)</li> </ul> <h2>Goal 3</h2> <p>This goal covers strategies to instill strong cybersecurity culture and enhance cybersecurity skills and capabilities in the financial services industry.</p><br/> <p>Key priority actions include:</p> <ul> <li>S1: Develop and implement cyber education program for BSFI Board and Senior Management</li> <li>S2: Regularly conduct Chief Information Security Officer (CISO)/cyber form and Annual Cybersecurity Summit</li> <li>S3: Conduct cybersecurity roadshows for small and medium-sized financial institutions (FIs)</li> <li>S4: Pursue holistic programs on cybersecurity skills and talent development</li> <li>S5: Mainstream cyber education and awareness programs for financial clients.</li> </ul> <h2>Goal 4</h2> <p>This goal contains strategies to promote cybersecurity best practices and standards across cybersecurity domains.</p><br/> <p>Priority actions under this goal are:</p> <ul> <li>H1: Complete policy reforms on digital security controls, Application Programming Interface (API) security, Cybersecurity Maturity Model (CMM) framework, and supply chain risk management</li> <li>H2: Explore establishment of an Industry Cyber Innovation/Research Hub</li> <li>H3: Conduct benchmarking exercises on cyber capabilities</li> </ul>",
-        "image": "src/assets/img/projectmanagement/projectriskmanagement/PMFIDS_PM_PRM_order46.JPG"
-      },
-      {
-        "order": 45,
-        "title": "Knowledge Check",
-        "body": "Which of the following are the key controls financial institutions must adopt to protect financial accounts? (Select all that apply.)",
-        "image":"src/assets/img/general images/KnowledgeCheck.jpg", 
-        "q_field_type": "multi_select",
-        "q_selection": [
-          {
-            "A": "Multi-factor authentication",
-            "B": "Audit trail",
-            "C": "IT functions",
-            "D": "Mass mailer",
-            "E": "Infrastructure and security monitoring",
-            "F": "Delivery channels"
-          }
-        ],
-        "q_answer": "A, B, E"
-      },
-      {
-        "order": 46,
-        "title": "Learning Summary",
-        "subheader": "Congratulations on completing Lesson 4 of this module!",
-        "body": "<p>Now that you have completed this lesson, you should be able to:</p><ul><li>Obtain knowledge on the existing Philippine regulations in risk management systems to get ahead of identifying and monitoring possible risks in projects.</li></ul>",
-        "image":"src/assets/img/general images/LessonSummary.jpg"
-      },
-      {
-        "order": 47,
-        "title": "Module Summary",
-        "body": "<p>Now that you have completed this course, you should be able to:</p><ul><li>Define project risk and identify various types of risks that may occur in a project.</li><li>Recognize the risk management process and explore tools and frameworks relevant to each step of the process.</li><li>Gain a full understanding of Quality Assurance and its benefits and importance in managing digital transformation projects, specifically in the Risk Monitoring phase.</li><li>Obtain knowledge on the existing Philippine regulations in risk management systems to get ahead of identifying and monitoring possible risks in projects.</li></ul>",
-        "image":"src/assets/img/general images/ModuleSummary.jpg"
-      },
-      {
-        "order": 48,
-        "title": "Module Completion",
-        "body": "<h4>Congratulations on completing the Project Risk Management module!</h4> <p>You've now developed a comprehensive understanding of the fundamental terms and concepts related to project risk management.</p><br/> <p>As you move forward, remember the various types of risks that may occur in a project as well as the importance of effectively utilizing the risk management process. Explore the various tools and frameworks that are relevant to each step of this process. In addition, keep in mind the significance of quality assurance and its advantages in managing digital transformation projects, as well as the regulations in the Philippines concerning risk management systems.</p><br/> <p>We hope this module has equipped you with the knowledge and confidence to tackle any project risks that may come your way.</p>",
-        "image":"src/assets/img/general images/ModuleCompletion.jpg"
-      }, 
-      {
-        "order": 49,
-        "title": "Module Post-Examination",
-        "exams": [
-          {
-            "exam_id": 1,
-            "title": "Module Post-Examination",
-            "body": "This assessment is designed to test your knowledge. Results of this assessment will be used to structure the workshop.",
-            "questions": [
-              {
-                "q_number": 1,
-                "q_statement": "Which of the following is the last step in Project Risk Management process?",
-                "q_field_type": "single_select",
-                "q_selection": [
-                  {
-                    "A": "Monitor Risk",
-                    "B": "Identify Risk",
-                    "C": "Plan response for risk",
-                    "D": "Analyze risk",
-                    "E": "Prioritize risk"
-                  }
-                ],
-                "q_answer": "A"
-              },
-              {
-                "q_number": 2,
-                "q_statement": "Which of the following is considered an internal risk? (Select all that apply)",
-                "q_field_type": "multi_select",
-                "q_selection": [
-                  {
-                    "A": "Schedule risks",
-                    "B": "Legal risks",
-                    "C": "Strategic risks",
-                    "D": "Scope risks",
-                    "E": "Operational risks"
-                  }
-                ],
-                "q_answer": "A, D"
-              },
-              {
-                "q_number": 3,
-                "q_statement": "Total quality management is a strategy to:",
-                "q_field_type": "single_select",
-                "q_selection": [
-                  {
-                    "A": "Avoid pitfalls",
-                    "B": "Boost team morale",
-                    "C": "Continuously improve",
-                    "D": "Receive customer feedback"
-                  }
-                ],
-                "q_answer": "C"
-              },
-              {
-                "q_number": 4,
-                "q_statement": "The use of a RAID log helps the PMO or Project Manager: (Select all that apply)",
-                "q_field_type": "multi_select",
-                "q_selection": [
-                  {
-                    "A": "capture, analyze, select and document the risks, assumptions, issues and dependencies encountered while planning for and executing the project",
-                    "B": "capture, organize, prioritize and document the risks, assumptions, issues and dependencies encountered while planning for and executing the project",
-                    "C": "capture, analyze, prioritize and document the risks, assumptions, issues and dependencies encountered while planning for and executing the project",
-                    "D": "capture, organize, select and mitigate the risks, assumptions, issues and dependencies encountered while planning for and executing the project"
-                  }
-                ],
-                "q_answer": "B"
-              },
-              {
-                "q_number": 5,
-                "q_statement": "The priorities under Goal 4 of the Financial Services Cyber Resilience Plan are the following, except? (Select all that apply)",
-                "q_field_type": "multi_select",
-                "q_selection": [
-                  {
-                    "A": "Complete policy reforms on digital security controls, Application Programming Interface (API) security, Cybersecurity Maturity Model (CMM) framework, and supply chain risk management",
-                    "B": "Conduct cybersecurity roadshows for small and medium-sized financial institutions (FIs)",
-                    "C": "Pursue holistic programs on cybersecurity skills and talent development",
-                    "D": "Explore establishment of an Industry Cyber Innovation/Research Hub",
-                    "E": "Conduct benchmarking exercises on cyber capabilities"
-                  }
-                ],
-                "q_answer": "B, C"
-              },
-              {
-                "q_number": 6,
-                "q_statement": "Which among following indicates impacted areas of quality on testing within API integration efforts?",
-                "q_field_type": "single_select",
-                "q_selection": [
-                  {
-                    "A": "Issue Testing, Encryption Testing, Exploratory Testing",
-                    "B": "API Gateway Testing, End-to-End Testing, Operationalization Testing",
-                    "C": "Documentation Testing, Prioritization Testing, Functionality Testing",
-                    "D": "Data Validation, Usability Testing, Security Testing"
-                  }
-                ],
-                "q_answer": "D"
-              },
-              {
-                "q_number": 7,
-                "q_statement": "BSFIs are required to establish a robust ITRM system covering key components, which are? (Select all that apply)",
-                "q_field_type": "multi_select",
-                "q_selection": [
-                  {
-                    "A": "IT Controls Implementation",
-                    "B": "Cyber Education Program",
-                    "C": "IT Governance",
-                    "D": "Risk Measurement and Monitoring",
-                    "E": "Risk Identification and Assessment"
-                  }
-                ],
-                "q_answer": "A, C, D, E"
+  "id": 3,
+  "moduleId": "PMFIDS_RM",
+  "moduleName": "Project Risk Management",
+  "type": "module",
+  "sections": [
+   {
+     "order": 1,
+     "title": "Module Introduction",
+     "subheader": "Welcome to the WBL (Web-Based Learning) module on Project Risk Management!",
+     "body": "<p>This module is designed to deliver an understanding of the types of risks and the process of identifying, analyzing, handling and monitoring risks in managing projects.</p>",
+     "image": "src/assets/img/general images/ModuleIntroduction.jpg"
+   },
+   {
+     "order": 2,
+     "title": "Module Pre-Examination",
+     "exams": [
+       {
+         "exam_id": 1,
+         "title": "Module Pre-examination",
+         "body": "This assessment is designed to test your knowledge. Results of this  assessment will be used to structure the workshop.",
+         "questions": [
+           {
+             "q_number": 1,
+             "q_statement": "Which risk strategy is used to reduce the probability and/or impact of a risk event?",
+             "q_field_type": "single_select",
+             "q_selection": [
+               {
+                 "A": "Risk Mitigation",
+                 "B": "Risk avoidance",
+                 "C": "Risk Acceptance",
+                 "D": "Risk Transfer"
+               }
+             ],
+             "q_answer": "A"
+           },
+           {
+             "q_number": 2,
+             "q_statement": "BSFIs are required to establish a robust ITRM system covering key components, which are? (Select all that apply)",
+             "q_field_type": "multi_select",
+             "q_selection": [
+               {
+                 "A": "IT Controls Implementation",
+                 "B": "Cyber Education Program",
+                 "C": "IT Governance",
+                 "D": "Risk Measurement and Monitoring",
+                 "E": "Risk Identification and Assessment"
+               }
+             ],
+             "q_answer": "A; C; D; E"
+           },
+           {
+             "q_number": 3,
+             "q_statement": "Which among the following accurately describes project risks?",
+             "q_field_type": "single_select",
+             "q_selection": [
+               {
+                 "A": "Project risks can be managed without any impact on the project's objectives.",
+                 "B": "Project risks can have positive outcomes, referred to as opportunities, or they can result in negative or unfavorable consequences, known as threats.",
+                 "C": "Project risks are unpredictable and may positively impacts a project's goals is referred to as a threat, while a negative impact is called an opportunity.",
+                 "D": "Project risks can only result in negative outcomes and do not have any potential positive impacts on project goals."
+               }
+             ],
+             "q_answer": "B"
+           },
+           {
+             "q_number": 4,
+             "q_statement": "Total quality management is a strategy to:",
+             "q_field_type": "single_select",
+             "q_selection": [
+               {
+                 "A": "Avoid pitfalls",
+                 "B": "Boost team morale",
+                 "C": "Continuously improve",
+                 "D": "Receive customer feedback"
+               }
+             ],
+             "q_answer": "C"
+           },
+           {
+             "q_number": 5,
+             "q_statement": "What is risk management?",
+             "q_field_type": "single_select",
+             "q_selection": [
+               {
+                 "A": "Risk management processes do not include monitoring and controlling risks once they have been identified and analyzed.",
+                 "B": "The focus of risk management is solely on minimizing the impact of adverse events, without any consideration for enhancing positive events.",
+                 "C": "This encompasses the processes involved in planning, identifying, analyzing, responding to, and monitoring and controlling risks within a project.",
+                 "D": "The primary objective of risk management in a project is to eliminate all risks, regardless of whether they are positive or negative."
+               }
+             ],
+             "q_answer": "C"
+           },
+           {
+             "q_number": 6,
+             "q_statement": "A risk mitigation plan must include:(Select all that apply)",
+             "q_field_type": "multi_select",
+             "q_selection": [
+               {
+                 "A": "How the plan will affect the impact",
+                 "B": "A brief description of the intended outcome",
+                 "C": "A step-by-step solution on how to lessen the risk",
+                 "D": "List of resources required to implement the mitigation strategies"
+               }
+             ],
+             "q_answer": "A; B; C"
+           },
+           {
+             "q_number": 7,
+             "q_statement": "Which of the following is considered an internal risk?(Select all that apply)",
+             "q_field_type": "multi_select",
+             "q_selection": [
+               {
+                 "A": "Schedule risks",
+                 "B": "Legal risks",
+                 "C": "Strategic risks",
+                 "D": "Scope risks",
+                 "E": "Operational risks"
+               }
+             ],
+             "q_answer": "A; D"
+           }
+         ]
+       }
+     ]
+    },
+    {
+      "order": 3,
+      "title": "Module Credit and Completion Requirements and Learning Objective",
+      "body": "<h2>Credit and Completion Requirements</h2> <p>To successfully earn credit and meet the learning objectives of this Web-Based Learning Application, it is essential to engage with every page, complete all knowledge checks, and complete the initial and final assessment independently. While you are encouraged to refer to the course content during the assessment, any form of cheating is discouraged. Please also note that this course will expire by April 25, 2025.</p> <h2>Module Learning Objectives</h2> <p>Upon successful completion of the course, you will be able to:</p> <ul> <li>Define project risk and identify various types of risks that may occur in a project.</li> <li>Recognize the risk management process and explore tools and frameworks relevant to each step of the process.</li> <li>Gain a full understanding of Quality Assurance and its benefits and importance in managing digital transformation projects, specifically in the Risk Monitoring phase.</li> <li>Obtain knowledge on the existing Philippine regulations in risk management systems to get ahead of identifying and monitoring possible risks in projects.</li> </ul>",
+      "image": "src/assets/img/general images/CreditCompletionLearningObjectives.jpg"
+    },
+    {
+      "order": 4, 
+      "title": "Project Risk Management Lessons",
+      "subheader": "Overview of Risks",
+      "body": "<h4>Learning Objective</h4> <b>At the end of this lesson, you will be able to:</b> <ul> <li>Define project risk and identify various types of risks that may occur in a project.</li> </ul>",
+      "image": "src/assets/img/project_management/risk_management/PMFIDS_PM_PRM_order4"
+    },
+    {
+      "order": 5,
+      "layout": "col-1",
+      "title": "Overview of Risk",
+      "subheader": "What is Project Risk",
+      "col1": "<ul> <li>An unpredictable event or situation that, if it happens, can positively or negatively impact the goals of a project.</li> <li>Project risks can have positive outcomes, referred to as opportunities, or they can result in negative or unfavorable consequences, known as threats.</li> </ul>"
+    },
+    {
+      "order": 6,
+      "layout": "col-3",
+      "title": "Overview of Risk",
+      "subheader": "Types of Project Risk",
+      "col1": "<h4>Internal Risk</h4> <p>Internal risks are those that may come from the organization. Project analysts must identify and prioritize these types of risks.</p> <h5>Types of Internal Risks</h5> <ul> <li> <b>Schedule Risk</b> - The risk of activities taking longer than expected can lead to schedule delays, increased costs, and the postponement of project benefits, potentially causing a loss of competitive advantage.</li> <li> <b>Resource Risk</b> - Outsourcing and personnel-related risks, such as high attrition rates, can slow down progress in large projects with many employees. Introducing new resources late in the project can further hinder progress and affect timelines.</li> <li> <b>Budget Risk</b> - Budget risks involve the escalation of project costs due to inaccurate cost estimations and scope creep.</li> <li> <b>Performance Risk</b> - The risk that a completed project may not perform as intended or fail to meet the business requirements that justified its initiation.</li> <li> <b>Scope Risk</b> - Scope risks encompass changes in scope, often resulting from scope creep.</li> <li> <b>Quality Risk</b> - Quality risks may arise if the product or project lacks clear acceptance criteria or fails to meet customer needs.</li> <li> <b>Technical Risk</b> - Technology failures, such as security incidents or service outages, can disrupt operations and impact business continuity, especially when new technology does not meet expectations. For instance, an e-commerce platform crash could result in lost revenue, while poor implementation or process issues in procurement, production, or distribution could further complicate operations.</li> </ul>",
+      "col2": "<h4>External Risk</h4> <p>External risks are beyond the control of the project team and the organization hosting the project. These risks are typically harder to foresee and manage.</p> <h5>Types of External Risks</h5> <ul> <li> <b>Strategic Risk</b> - Risks associated with failed business decisions or indecision that may impact a company. These risks can lead to potential losses from pursuing an unsuccessful business plan. For example, selecting a technology for a project that ultimately cannot be made to work.</li> <li> <b>Environmental Risk</b> - This risk arises from the potential for business activities to alter the status quo due to specific events. Examples include delays in obtaining legislative approvals from authorized agencies, projects located in coastal zones, negative community impacts, and natural disasters such as earthquakes, hurricanes, or volcanic eruptions.</li> <li> <b>Market Risk</b> - Market risks are the potential for an organization to incur losses due to factors that impact the overall performance of financial markets.</li> <li> <b>Legal Risk</b> - Potential losses stemming from the unpredictability of legal proceedings, such as bankruptcy or impending litigation.</li> </ul>",
+      "col3": "<h4>Other Type of Risks</h4> <p>Project managers must comprehend cybersecurity risks to safeguard their projects from cyberattacks. Below are some key cybersecurity risks to be mindful of.</p> <ul> <li> <b>Data breaches</b> - Data breaches are among the most prevalent cybersecurity threats. In 2022, over 6.5 billion data records were exposed due to data breaches.</li> <li> <b>Phishing</b> - Phishing remains a major threat, with cybercriminals using deceptive emails, text messages, or websites to trick customers or employees into disclosing sensitive information like passwords or account numbers. This stolen data can lead to financial theft, identity fraud, or unauthorized access to the organization’s internal systems.</li> <li> <b>Insider threats</b> - Insider threats, from disgruntled employees or third-party vendors, pose significant cybersecurity risks by intentionally or unintentionally leaking sensitive data or creating vulnerabilities for external hackers.</li> <li> <b>Distributed Denial of Service (DDoS) Attacks</b> - DDoS attacks overwhelm a bank’s online services with excessive traffic, causing slowdowns, crashes, and service unavailability, disrupting operations and potentially exposing systems to further exploitation.</li> <li> <b>Advanced Persistent Threats (APTs)</b> - APTs are advanced attacks where cybercriminals gain unauthorized access to a bank’s network, quietly monitoring systems and stealing data over time, often remaining undetected for months allowing hackers to extract valuable information.</li> <li> <b>Third-party risk</b> - Some companies rely on third-party vendors for services like cloud storage and payment processing, but these vendors can become weak links in a company’s cybersecurity, with cyberattacks on them creating backdoors for hackers to access sensitive data.</li> <li> <b>Compliance violations</b> - Compliance violations can result in fines and other penalties. It is crucial to ensure that your organization and digitalization projects adhere to all applicable regulations.</li> </ul>"
+    },
+    {
+      "order": 7,
+      "title": "Knowledge Check",
+      "body": "This is a type of risk where a completed project fails to perform as intended.",
+      "image": "src/assets/img/general images/KnowledgeCheck.jpg",
+      "q_field_type": "single_select",
+      "q_selection": [
+        {
+          "A": "Quality Risk",
+          "B": "Performance Risk",
+          "C": "Scope Risk",
+          "D": "Strategic Risk"
+        }
+      ],
+      "q_answer": "B"
+  },
+  {
+      "order": 8,
+      "title": "Lesson Summary",
+      "subheader": "Congratulations on completing Lesson 1 of this module!",
+      "body": "<p>Now that you have completed this lesson, you should be able to:</p><ul> <li>Define project risk and identify various types of risks that may occur in a project.</li> </ul>",
+      "image": "src/assets/img/general images/LessonSummary.jpg"
+  },
+  {
+      "order": 9, 
+      "title": "Project Risk Management Lessons",
+      "subheader": "Risk Management",
+      "body": "<h4>Learning Objective</h4> <b>At the end of this lesson, you will be able to:</b> <ul> <li>Recognize the risk management process and explore tools and frameworks relevant to each step of the process.</li> </ul>",
+      "image": "src/assets/img/project_management/risk_management/PMFIDS_PM_PRM_order9"
+    },
+    {
+      "order": 10,
+      "layout": "col-1",
+      "title": "Risk Management",
+      "subheader": "What is Risk Management?",
+      "col1": "<ul> <li>This encompasses the processes involved in planning, identifying, analyzing, responding to, and monitoring and controlling risks within a project.</li> <li>The objectives are to enhance the likelihood and impact of positive events while reducing the probability and impact of adverse events affecting the project.</li> </ul>"
+    },
+    {
+      "order": 11,
+      "layout": "image righthand portion",
+      "title": "Risk Management",
+      "subheader": "Four Phases of Risk Management Process",
+      "body": "<p>The risk management process is comprised of four phases, as depicted in the following diagram: Identification, Assessment, Handling, and Monitoring</p> <h5>Risk Identification</h5> <p>Risk identification involves analyzing project areas and key processes to pinpoint potential issues, hazards, and threats that could affect progress. Methods for identifying risks include reviewing the work breakdown structure, conducting expert interviews, analyzing past lessons, examining design specifications, and evaluating project strategies. Regular risk assessments and management reviews also help identify and address risks.</p> <h5>Risk Assessment</h5> <p>Risk assessment involves evaluating identified risks and prioritizing them based on their potential impact on project goals. The project team analyzes each risk to determine its cause and effects, then rates them according to the likelihood of occurrence and the severity of their impact on cost, schedule, and technical performance.</p> <h5>Risk Handling</h5> <p>Risk handling involves identifying, evaluating, and selecting strategies to manage risks within acceptable levels, while considering project constraints and objectives. This process defines specific actions, timelines, responsible parties, and associated costs. The chosen strategy is based on the overall risk assessment rating.</p> <h5>Risk Monitoring</h5> <p>Risk monitoring involves tracking and assessing the effectiveness of risk-handling actions throughout the project, while developing additional strategies as needed. The team regularly monitors both the risks and the outcomes of these actions. A Risk Register is used to track activities, and high-level risks are included in the Monthly Project Status Report and discussed during Steering Committee meetings.</p>",
+      "image": "src/assets/img/project_management/risk_management/PMFIDS_PM_PRM_order11"
+    },
+    {
+      "order": 12,
+      "layout": "col-2",
+      "title": "Risk Identification",
+      "subheader": "RAID Log",
+      "col1": "<h4>RAID</h4> <h5>Risks</h5> <p>A risk is defined as a potential future threat to the overall success of a project or any of its components. Each risk is associated with a likelihood and a corresponding severity rating. </p> <h5>Assumptions</h5> <p>Any factors that you assume will be in place and contribute to the successful outcome of your project.</p> <p>An assumption is a statement accepted as fact. Assumptions must be validated.</p> <h5>Issues</h5> <p>An issue is an immediate, formally defined concern that requires action. It hinders the progress of a Workstream or the Program and lacks an agreed-upon resolution.</p> <h5>Dependencies</h5> <p>Dependencies are relationships between products or tasks. For instance, one product may consist of several other “dependent” products, or a task may not commence until a “dependent” task is completed.</p>",
+      "col2": "<h4>RAID Log</h4> <p>Utilizing a RAID log, or a similar tool, assists the PMO or Project Manager in capturing, organizing, prioritizing, and documenting the risks, assumptions, issues, and dependencies encountered during project planning and execution.</p> <h5>Raid log entries should be:</h5> <p><b>Specific</b>, thoroughly identified, explained, and supported with references. They must be <b>reviewed</b> regularly to account for any changes in circumstances. Assumptions and dependencies should be <b>validated</b> throughout the project, as they may no longer hold true. Focus should be on <b>defined</b> high-impact, high-probability risks, each with clear ownership and next steps. When needed, items should be <b>escalated</b> using the appropriate escalation protocol, managed by the PMO and governance processes.</p>"
+    },
+    {
+      "order": 13,
+      "title": "Knowledge Check",
+      "body": "Which of the following statements are TRUE about RAID log? (Select all that apply)",
+      "image": "src/assets/img/general images/KnowledgeCheck.jpg",
+      "q_field_type": "multi_select",
+      "q_selection": [
+        {
+          "A": "Risk is an immediate, formally-defined concerns which require action",
+          "B": "Assumptions are statements accepted as fact",
+          "C": "Dependencies are relationships between products or tasks",
+          "D": "Issues are future threats to the overall success of a project or a contingent part"
+        }
+      ],
+      "q_answer": "B, C"
+    },
+    {
+      "order": 14,
+      "layout": "image righthand portion",
+      "title": "Risk Identification",
+      "subheader": "Risk Register",
+      "col1": "<p>A risk register is a key tool in risk management, used to identify, analyze, and address potential setbacks in a project before they become issues. As outlined in the PMBOK guide, it records the results of risk analysis and response plans, with the initial entries coming from the risk identification process. The register details each identified risk, including descriptions, categories, causes, probabilities, potential responses, and responsible parties, making it a crucial component of the project management plan.</p>",
+      "image": "rc/assets/img/project_management/risk_management/PMFIDS_PM_PRM_order14"
+    },
+    {
+      "order": 15,
+      "layout":"col-2",
+      "title": "Risk Identification",
+      "subheader": "Risk Register",
+      "col1": "<h4>Risk Register Components</h4> <h5>Risk Identification</h5> <p>A risk identification field should include the following details to track and manage the risk effectively:</p> <ul> <li>Risk name</li> <li>Identification date</li> <li>Subtitle (if needed)</li> </ul> <h5>Risk Description</h5> <p>After identifying the risk, add a brief description to the log. The description should include a short high-level overview of the risk, explain why it's a potential issue, and remain concise, typically 80 to 100 characters, providing enough detail for clear identification without overcomplicating it.</p> <h5>Risk Category</h5> <p>Quickly identifying the risk allows for prompt assignment to the appropriate team, especially in complex projects. Possible risk categories include Operations, Budget, Schedule, Technology, Information, Security, Quality, and Project Plan. To determine the category, evaluate the risk source and identify who can help resolve it. You may consult with department heads if the solution isn’t immediately clear.</p> <h5>Risk likelihood</h5> <p>The likelihood of a risk occurring is documented using simple categories: Not likely, Likely, and Very likely. Categorizing risks by likelihood helps prioritize which risks require immediate attention and which can be deferred.</p>",
+      "col2": "<h5>Risk analysis</h5> <p>Risk analysis evaluates the potential impact of a risk on a project, using a simple five-point scale (very low to very high) to assess severity. Prioritization, which considers both likelihood and impact, can be clarified by consulting with a department head if needed.</p> <h5>Risk Mitigation</h5> <p>A mitigation plan, or risk response plan, is essential in a risk register, aiming to identify and reduce potential risks. It should include a step-by-step solution to lessen the risk, a brief description of the intended outcome, and how the plan will affect the risk's impact.</p> <h5>Risk Priority</h5> <p>Risk priority should be based on both the likelihood and impact of the risk, helping to identify which risks may have the most harmful consequences. Priority can be documented using a simple number scale: 1 (Low), 2 (Medium), and 3 (High).</p> <h5>Risk ownership</h5> <p>The individual responsible for managing the risk and implementing the prevention or contingency plans. Risk owners can include stakeholders, members of the project team, the project manager, and the project sponsor.</p> <h5>Risk Status</h5> <p>The risk status field indicates whether a risk has been successfully mitigated or not. It can be filled out with the following options: Open, In progress, or Closed, or a more detailed list such as active, not started, on hold, ongoing, and complete.</p>"
+    },
+    {
+      "order": 16, 
+      "layout": "image righthand portion",
+      "title": "Risk Assessment",
+      "subheader": "Probability Impact Matrix",
+      "body": "<p>A Probability and Risk Matrix is a grid used to map the likelihood of each risk occurring and its impact on project objectives if it does occur. This matrix specifies combinations of probability and impact, allowing individual project risks to be categorized into priority groups. By using the probability and impact matrix, risks are classified as low, medium, or high based on two distinct factors: the overall probability of occurrence and the presumed impact if it occurs.</p> <h5>Impact</h5> <p>Impact is evaluated based on the extent of changes to the work plan (timing), cost, and quality if the risk materializes.</p> <h5>Probability</h5> <p>Probability measures the likelihood that the risk will materialize.</p>",
+      "image": "src/assets/img/project_management/risk_management/PMFIDS_PM_PRM_order16"
+    },
+    {
+      "order": 17,
+      "title": "Knowledge Check",
+      "body": "In assessing risks through the probability impact matrix, which of the following must be primarily prioritized?",
+      "image": "src/assets/img/general images/KnowledgeCheck.jpg",
+      "q_field_type": "single_select",
+      "q_selection": [
+        {
+          "A": "Likely Probability, Major Impact",
+          "B": "Likely Probability, Moderate Impact",
+          "C": "Rare Probability, Extreme Impact",
+          "D": "Moderate Probability, Trivial Impact"
+        }
+      ],
+      "q_answer": "A"
+    },
+    {
+      "order": 18,
+      "layout": "col-2",
+      "title": "Risk Handling",
+      "subheader": "Potential strategies to deal with risk",
+      "col1": "<h5>Avoid</h5> <p>Risk avoidance is a strategy where the project team takes action to eliminate a threat or shield the project from its impact, often by modifying the Project Management plan. The project manager may isolate objectives from the risk, altering objectives by extending the schedule, changing the strategy, or reducing the scope. In extreme cases, the project may be shut down, while early risks can be avoided through clarified requirements, better communication, or acquiring expertise.</p> <h5>Mitigate</h5> <p>Risk mitigation is a strategy to reduce the likelihood or impact of a risk by lowering its probability and/or impact to acceptable levels. Early actions, such as simplifying processes, conducting additional tests, or selecting reliable suppliers, are often more effective than addressing damage after the risk occurs. If reducing probability is not possible, mitigation may focus on addressing the risk's impact, such as designing redundancy to lessen the impact of a system failure.</p>",
+      "col2": "<h5>Transfer</h5> <p>Risk transfer is a strategy where the project team shifts the impact of a threat to a third party, along with the responsibility for managing it. While it doesn't eliminate the risk, it assigns the management responsibility to another party, typically through tools like insurance, performance bonds, or contracts. This strategy is particularly effective for managing financial risks and can involve agreements that transfer liability, such as cost-plus or fixed-price contracts.</p> <h5>Accept</h5> <p>Risk acceptance is a strategy where the project team acknowledges a risk and takes no action unless it materializes, typically when addressing the risk is not feasible or cost-effective. This approach can be passive, involving no action other than documentation, or active, such as creating a contingency reserve with allocated time, money, or resources to manage the risk if it occurs.</p>"
+    },
+    {
+      "order": 19,
+      "title": "Lesson Summary",
+      "subheader": "Congratulations on completing Lesson 2 of this module!",
+      "body": "<p>Now that you have completed this lesson, you should be able to:</p><ul> <li>Recognize the risk management process and explore tools and frameworks relevant to each step of the process.</li> </ul>",
+      "image": "src/assets/img/general images/LessonSummary.jpg"
+    },
+    {
+      "order": 20, 
+      "title": "Project Risk Management Lessons",
+      "subheader": "Quality Assurance",
+      "body": "<h4>Learning Objective</h4> <b>At the end of this lesson, you will be able to:</b> <ul> <li>Gain a full understanding of Quality Assurance and its benefits and importance in managing digital transformation projects, specifically in the Risk Monitoring phase.</li> </ul>",
+      "image": "src/assets/img/project_management/risk_management/PMFIDS_PM_PRM_order20"
+    },
+    {
+      "order": 21,
+      "layout": "col-1",
+      "title": "Quality Assurance",
+      "subheader": "What is QA?",
+      "col1": "<ul> <li>Quality assurance in project management involves implementing a set of actions aimed at ensuring that the project’s final outcomes align with the expected requirements. It focuses on the processes that teams utilize to maintain standards and deliver quality results.</li> <li>This can be regarded as an added layer to conduct Risk Monitoring in projects.</li> </ul>"
+    },
+    {
+      "order": 22,
+      "layout": "col-2",
+      "title": "Quality Assurance",
+      "subheader": "International Quality Standards",
+      "col1": "<h4>International Organization for Standardization (ISO)</h4> <p>The International Organization for Standardization (ISO) is an independent, non-governmental organization that develops guidelines for products, services, and systems to ensure quality, safety, and efficiency. Its globally recognized standards, including the ISO 9000 family, are adopted by businesses, governments, and organizations to establish uniformity and compliance across various sectors.</p> <p>ISO maintains a family of quality management standards collectively known as the ISO 9000.</p> <div><img src='src/assets/img/project_management/risk_management/PMFIDS_PM_PRM_order22'></div> <p>ISO defines quality as the degree to which an object's inherent characteristics fulfill the project requirements, which are linked to the project's scope. Effective quality management ensures deliverables meet the agreed-upon expectations, neither exceeding nor falling short of them.</p>",
+      "col2": "<h4>Good quality management must address:</h4> <h5>Quality of the Project</h5> <p>Pushing the team too hard to meet requirements can result in lower profits, higher risks, employee attrition, errors, and extra rework. Therefore, the process of creating the product is just as important as the product itself.</p> <h5>Quality of the Product</h5> <p>Upon the product’s availability, ask yourself:</p> <ul> <li>Does the deliverable fulfill the requirements agreed upon during scope definition?</li> <li>If there is variations, is it acceptable?</li> <li>Is it ready for use, and does it satisfy stakeholder expectations?</li> </ul>"
+    },
+    {
+      "order": 23,
+      "layout": "col-2",
+      "title": "Quality Assurance",
+      "subheader": "Quality Strategies",
+      "col1": "<h4>Total Quality Management</h4> <ul> <li>A strategy focused on continuous improvement</li> <li>Every employee in the company is accountable for maintaining quality</li> <li>Defines ‘quality’ based on customer requirements</li> </ul> <div><img src=''></div>",
+      "col2": "<h4>Sample Quality Initiatives for Continuous Improvement</h4> <h5>Lean Manufacturing</h5> <p>Employs a method of eliminating waste and improving value.</p> <h5>Six Sigma</h5> <p>The Six Sigma standard, introduced by Bill Smith of Motorola, allows only 3.4 defects per million units. This technique is well-suited for manufacturing environments with large-scale production.</p> <h5>Malcom Bridge Award</h5> <p>The Malcolm Baldrige National Quality Award recognizes US organizations for performance excellence.</p> <h5>Deming Prize</h5> <p>One of the highest awards for total quality management in the world. It recognizes businesses that have successfully implemented total quality management in their processes.</p>"
+    },
+    {
+      "order": 24,
+      "layout": "col-2",
+      "title": "Benefits of QA in Project Management",
+      "col1": "<ul> <li> <b>Increase efficiency</b> - Adopting QA standards throughout the project helps the team clearly understand quality requirements, resulting in improved efficiency.</li> <li> <b>Ensure customer satisfaction</b> - Implementing QA processes ensures project teams deliver high-quality, error-free outcomes, leading to guaranteed customer satisfaction upon release.</li> <li> <b>Boost team morale</b> - When team members understand QA standards at each project stage, it boosts their motivation, confidence, and overall morale.</li> <li> <b>Make continuous improvements</b> - QA methods allow project managers to focus on continuously improving processes to uphold quality standards.</li> </ul>",
+      "col2": "<h4>Pitfalls that can be avoided with a proactive approach to QA</h4> <ul> <li> <b>Lack of skilled QA resources</b> - Assigning testing tasks to inexperienced business resources can result in ineffective testing, so QA staff must evaluate new testing technologies and gather necessary requirements before implementation.</li> <li> <b>Over-investing in Technology</b> - The QA needs of small banks differ from large institutions, and while automation may be effective for some, it isn't a one-size-fits-all solution and can be costly for others.</li> <li> <b>Lack of Readiness</b> - This risk assumes organizations can delay adding QA resources and involvement early in a project, but planning should account for contractual negotiations and third-party vendor onboarding timing.</li> <li> <b>Underestimating the Effort</b> - All QA management activities, such as test planning, obtaining approvals, writing test cases, executing tests, and fixing defects, must be incorporated into any significant endeavor.</li> <li> <b>Inexperienced Leadership</b> - QA executives should recognize that not all testing resources have the same skill set and must understand the specific talents required for frontline QA managers, whether focusing on process expertise or testing skills.</li> <li> <b>Do-it-yourself syndrome</b> - QA teams should leverage the subject matter expertise of business users and avoid making decisions in isolation, instead seeking consensus and securing their support.</li> <li> <b>Over-engineering the Effort</b> - Over-testing can lead to inflated costs and wasted time. The key criterion for testing is the value that the initiative delivers.</li> </ul>" 
+    },
+    {
+      "order": 25,
+      "layout": "col-1",
+      "title": "Importance of QA in Digital Transformation Project",
+      "subheader": "Building a QA Practice",
+      "col1": "<ul> <li>To build an effective QA team, form a trusted group with key roles like project management, technical leads, business leads, and business analysts. Hire a skilled QA lead or manager, either internally or externally, who fits your bank’s specific needs. Evaluate the necessary qualifications for your QA team, ensuring that business analysts and technical experts are not solely relied upon for QA tasks.</li> <li>Next, determine the scope of the QA efforts and assess the tools and resources required to support the practice. Identify the training needs for the team and ensure the QA process and methodology align with your organization’s goals. Lastly, establish clear communication channels to maintain smooth coordination across all teams involved in the QA process.</li> </ul>"
+    },
+    {
+      "order": 26,
+      "layout": "image righthand portion",
+      "title": "Importance of QA in Digital Transformation Project",
+      "subheader": "Establishing an Ongoing QA Practice",
+      "col1": "<h4>Integration Efforts</h4> <p>The rapid advancement of API technology, which often involves real-time integration, requires strong QA management to conduct thorough end-to-end testing whenever changes occur in your bank’s technology ecosystem. A strong QA practice provides the necessary oversight and discipline to ensure that newly combined solutions are adequately tested.</p> <p>As APIs and open banking continue to gain momentum in financial institutions, the demand for high-quality solutions is more evident than ever. The rapid growth of API technology requires a comprehensive approach to ensure top-notch quality standards are maintained, especially in the fast-evolving open banking space. With real-time integrations and constant changes to your bank's technology ecosystem, strong QA management is essential for thorough end-to-end testing. A robust QA practice ensures that newly integrated solutions receive the necessary oversight and attention to meet the highest standards.</p>",
+      "image": "src/assets/img/project_management/risk_management/PMFIDS_PM_PRM_order26"
+    },
+    {
+      "order": 27,
+      "layout": "col-1",
+      "title": "Importance of QA in Digital Transformation Project",
+      "subheader": "Establishing an Ongoing QA Practice",
+      "col1": "<h4>New Software Releases</h4> <p>All software releases carry the risk of downtime. Prior to these scheduled events, it is essential for you and your stakeholders to assess the potential impact of a given release on revenue and production stability. Your assessment should be based on accurate QA data.</p> <p>Deploying new software and solutions should never be a high-risk activity for your financial institution. Customized products and solutions unique to your bank must be thoroughly tested before deployment into the production environment. For FIS product releases, a strong QA practice is crucial to test not only the core solution but also any integrated third-party solutions. Every software release carries the risk of downtime, so prior to these events, you and your stakeholders need to assess the potential impact on revenue and production stability, ensuring decisions are based on accurate QA data.</p>"
+    },
+    {
+      "order": 28,
+      "layout": "col-1",
+      "title": "Importance of QA in Digital Transformation Project",
+      "subheader": "Sustainable QA Practice",
+      "col1": "<p>To establish a quality methodology, adopting standards like ISO 9001 helps create a best-practice framework ensuring customer requirements are met before product delivery. This approach includes quality controls throughout business processes. A proven QA methodology follows four key phases: Plan, Do, Check, and Act.</p> <ul> <li> <b>Plan</b> - Determine the customer's expectations and requirements. Identify and document the processes and quality controls needed to satisfy customer’s expectations.</li> <li> <b>Do</b> - Implement the established processes and quality controls—Prevent, Detect, and Correct—to meet customer expectations: Prevent defects from occurring, Detect potential defects early, and Correct any identified defects. Once these steps are completed, the product or service is handed over to the customer.</li> <li> <b>Check</b> - Customer feedback is collected to evaluate whether the processes and quality controls are effectively meeting customer expectations. This helps assess the success of the product or service in fulfilling the customer's needs.</li> <li> <b>Act</b> - Actions are taken to enhance the effectiveness and efficiency of the documented processes and quality controls to meet the customer’s expectations.</li> </ul>"
+    },
+    {
+      "order": 29,
+      "title": "Knowledge Check",
+      "body": "Quality controls ensure customer requirements are met before the products and services are delivered. How is the quality controls at the management level commonly grouped? (Select all that apply).",
+      "image": "src/assets/img/general images/KnowledgeCheck.jpg",
+      "q_field_type": "multi_select",
+      "q_selection": [
+        {
+          "A": "Prioritize",
+          "B": "Plan",
+          "C": "Act",
+          "D": "Check",
+          "E": "Brainstorm",
+          "F": "Do"
+        }
+      ],
+      "q_answer": "B, C, D, E"
+    },
+    {
+      "order": 30,
+      "title": "Lesson Summary",
+      "subheader": "Congratulations on completing Lesson 3 of this module!",
+      "body": "<p>Now that you have completed this lesson, you should be able to:</p> <ul> <li>Gain a full understanding of Quality Assurance and its benefits and importance in managing digital transformation projects, specifically in the Risk Monitoring phase.</li> </ul>",
+      "image": "src/assets/img/general images/LessonSummary.jpg"
+    },
+    {
+      "order": 31, 
+      "title": "Project Risk Management Lessons",
+      "subheader": "Regulations",
+      "body": "<h4>Learning Objective</h4> <b>At the end of this lesson, you will be able to:</b> <ul> <li>Obtain knowledge on the existing Philippine regulations in risk management systems to get ahead of identifying and monitoring possible risks in projects.</li> </ul>",
+      "image": "src/assets/img/project_management/risk_management/PMFIDS_PM_PRM_order30"
+    },
+    {
+      "order": 32,
+      "layout": "col-2",
+      "title": "Bangko Sentral Framework for IT Risk Supervision",
+      "subheader": "Information Technology Risk Management (ITRM)",
+      "col1": "<p>ITRM should be considered a component and integrated with the institutions’ risk management program.</p> <p>The guidelines likewise provide practical plans to address risks associated with emerging trends in technology and growing concerns on cyber security.</p> <h4>Policy Statement</h4> <ul> <li>BSFIs employ advances in technology to sharpen business insights, enhance operational efficiencies, and deliver innovative financial products and services in line with emerging market trends and evolving client needs.</li> <li>Technological developments also enable greater access to financial services that promote an inclusive and responsive digital financial ecosystem.</li> <li>Social media platforms may further complicate matters as news of disruptions as well as customer complaints can spread at unprecedented speeds.</li> <li>Cyber-threats and attacks confronting the financial services industry pose added risks that can undermine public trust and confidence in the financial system.</li> <li>BSFIs should establish robust and effective technology risk management processes, governance structures, and cybersecurity controls to ensure that the benefits derived from technological innovations can be fully optimized without compromising financial stability, operational resilience, and consumer protection.</li> </ul>",
+      "col2": "<h4>Purpose and Scope</h4> <ul> <li>The enhanced guidelines aim to provide guidance in managing risks associated with use of technology.</li> <li>The guidelines are based on international standards and recognized principles of international practice for ITRM and shall serve as Bangko Sentral’s baseline requirement for all BSFIs.</li> <li>The framework covers different facets of ITRM, some of which are supplemented with detailed guidelines in Appendices 74, 75, 76, 77, 78 and 79.</li> <li>Subject guidelines, including the Appendices 74, 75, 76, 77, 78 and 79, are not “one-size-fits-all” and implementation of these need to be risk-based and commensurate with size, nature and types of products and services and complexity of IT operations of the individual BSFIs.</li> <li>BSFIs shall exercise sound judgment in determining applicable provisions relevant to their risk profile.</li> </ul>"
+    },
+    {
+      "order": 33,
+      "layout": "col-2",
+      "title": "Bangko Sentral Framework for IT Risk Supervision",
+      "subheader": "Information Technology Risk Management (ITRM)",
+      "col1": "<h4>Appendices: IT Risk Management Standards and Guidelines</h4> <p> 74 <b>IT Audit</b> “…audit program should address IT risk exposures throughout the organization, including the areas of IT management and strategic planning, IT operations, client/server architecture, local and wide-area networks, telecommunications, physical and information security, electronic products and services, systems development and acquisition, and business continuity planning”</p> <p> 75 <b>Information Security</b> “…enables BSFIs to remain competitive and relevant as the financial services industry moves towards digital innovation.”</p> <p> 76 <b>Project Management/Development, Acquisition and Change  Management</b> “…enterprise-wide and ongoing approach should be formalized in the IT strategic plan to help ensure that all major IT projects are consistent with its overall strategic goals.”</p>",
+      "col2": "<p> 77 <b>IT Operations</b> “…necessitates the adoption of risk management processes that promote sound and controlled operation of IT environments to ensure that IT operations process and store information in a timely, reliable, secure, and resilient manner.”</p> <p> 78 <b>IT Outsourcing/Vendor Management</b> “…risks may be realized in a different manner than if the functions were inside resulting in the need for well-structured process to properly manage risks and ensure that the interest of customers will not be compromised.”</p> <p> 79 <b>Electronic Banking, Electronic Payment, Electronic Money and Other Electronic Products and Services</b> “…the rapid development of electronic capabilities carries risks as well as benefits and it is important that these risks are recognized and managed by BSFIs in a prudent manner to promote safe and secure e-services and operations.”</p>"
+    },
+    {
+      "order": 34,
+      "layout": "col-2",
+      "title": "Bangko Sentral Framework for IT Risk Supervision",
+      "subheader": "IT Risk Management System (ITRMS)",
+      "col1": "<p>BSFIs are required to establish a robust ITRM system covering four key components:</p> <h4>IT Governance</h4> <ul> <li>Oversight and organization of IT functions</li> <li>IT policies, procedures and standards</li> <li>IT audit</li> <li>Staff competence and training</li> <li>Management Information Systems (MIS)</li> <li>IT risk management function</li> </ul> <h4>Risk Identification and Assessment</h4> <ul> <li>Begins with the identification of the current and prospective IT risk exposures arising from the institution’s IT environment and related processes.</li> <li>Once management understands the institution’s IT environment and analyzes the risk, it should rank the risks and prioritize its response.</li> <li>Periodic risk assessment process should be done at the enterprise-wide level and an effective monitoring program for the risk mitigation activities should be manifested through mitigation or corrective action plans, assignment of responsibilities and accountability and management reporting.</li> </ul>",
+      "col2": "<h4>IT Controls Implementation</h4> <ul> <li>BSFI Management should implement satisfactory control practices that address the following as part of its overall IT risk mitigation strategy:</li> <li>Information security</li> <li>Project management/development and acquisition and change management</li> <li>IT operations</li> <li>IT outsourcing/Vendor management</li> <li>Electronic banking, Electronic payments, Electronic money and other Electronic products and services</li> </ul> <h4>Risk Measurement and Monitoring</h4> <ul> <li>Performance vis-à-vis approved IT strategic plan</li> <li>Performance benchmarks/service levels</li> <li>Quality assurance/quality control</li> <li>Policy compliance</li> <li>External assessment program</li> </ul>"
+    },
+    {
+      "order": 35,
+      "layout": "col-1",
+      "title": "AFASA on Risk Management Systems and Controls to Protect Financial Accounts",
+      "subheader": "Anti-Financial Scamming Act (AFASA) was signed on July 20, 2024, and took effect on August 13, 2024",
+      "col1": "<h4>Section 6. Responsibility to Protect Access to Client’s Financial Account</h4> <ul> <li>Institutions shall ensure that access to clients’ financial accounts is protected by adequate risk management systems and controls</li> <li>Risk management systems and controls must be proportionate and commensurate to the nature, size and complexity of operations.</li> <li>Institutions determined by the BSP to be compliant with the requirements of adequate risk management systems and controls shall not be liable for any loss or damage arising from the offenses under Sections 4 (Prohibited Acts) and Section 5 (Other Offenses).</li> <li>Without prejudice to other liabilities under existing laws and consistent with BSP rules and regulations, institutions shall be liable for restitution of funds to the Account Owners for failure to employ adequate risk management systems and controls, or failure to exercise the highest degree of diligence in preventing loss or damage arising from the offenses under Section 4 and 5.</li> <li>Conviction shall not be a prerequisite to the restitution of funds.</li> </ul>"
+    },
+    {
+      "order": 36, 
+      "layout": "col-2",
+      "title": "AFASA on Risk Management Systems and Controls to Protect Financial Accounts",
+      "col1": "<h4>Section 4. Prohibited Acts</h4> <p>The following acts shall constitute Financial Account scamming under this Act:</p> <p><b>(a) Money Muling Activities.</b> A person performing any of the followings acts for the purpose of obtaining, receiving, depositing, transferring, or withdrawing proceeds that are known to be derived from crimes, offenses, or social engineering schemes shall be considered as a money mule:</p> <ul> <li>Using, borrowing or allowing the use of a Financial Account;</li> <li>Opening a Financial Account under a fictitious name or using the identity or identification documents of another;</li> <li>Buying or renting a Financial Account;</li> <li>Selling or lending a Financial Account; or</li> <li>Recruiting, enlisting, contracting, hiring, utilizing, or inducing any person to perform the acts mentioned in items 1 to 4 of this subsection.</li> </ul> <p><b>(b) Social Engineering Schemes.</b> A social engineering scheme is committed by a person who obtains sensitive identifying information of another person, through deception or fraud, resulting in unauthorized access and control over the person's Financial Account, by performing any of the following acts:</p> <ul> <li>Misrepresenting oneself as acting on behalf of an Institution, or making false representations to solicit another person's sensitive identifying information; or</li> <li>Using electronic communications to obtain another person's sensitive identifying information.</li> </ul> <p><b>c) Economic Sabotage.</b> The prohibited acts under Section 4(a) and (b) shall be considered as economic sabotage when committed under any of the following circumstances:</p> <ul> <li>By a group of three (3) or more persons conspiring or confederating with one another;</li> <li>Against three (3) or more persons individually or as a group;</li> <li>Using a mass mailer; or</li> <li>Through human trafficking.</li> </ul>",
+      "col2": "<h4>Section 5. Other Offenses</h4> <p>The following shall also constitute as offenses under this Act:</p> <ul> <li>Willfully aiding or abetting in the commission of any of the offenses enumerated under Section 4;</li> <li>Willfully attempting to commit any of the offenses enumerated under Section 4;</li> <li>Opening a Financial Account under a fictitious name or using the identity or identification documents of another; or</li> <li>Buying or selling a Financial Account.</li> </ul>"
+    },
+    {
+      "order": 37,
+      "layout": "col-1",
+      "title": "AFASA on Risk Management Systems and Controls to Protect Financial Accounts",
+      "col1": "<b>BSFIs should ensure adoption of the following key controls to protect financial accounts:</b> <p>BSFIs which are determined compliant by the BSP shall not be liable for any loss or damage arising from the offenses under Section 4 and 5 of AFASA.</p> <p>However, BSFIs shall be liable for the restitution of funds to Account Owners for the failure to employ adequate risk management systems and controls for failure to exercise the highest degree of diligence in preventing loss or damage arising from the said offenses.</p> <ul> <li>Fraud Management Systems (FMS)</li> <li>Infrastructure and security monitoring</li> <li>Multi-factor Authentication (MFA)</li> <li>Account owner enrollment and verification processes, and ongoing monitoring of customer account and transactions</li> <li>Audit Trail</li> <li>Cybersecurity tests and evaluations</li> </ul>"
+    },
+    {
+      "order": 38,
+      "layout": "image righthand portion",
+      "title": "Financial Services Cyber Resilience Plan 2024-2029",
+      "body": "<h4>Goal 1</h4> <p>This covers strategies to sharpen the industry’s capabilities to proactively respond to and recover from major cyber incidents.</p> <p>Priority actions under this goal are:</p> <p><b>D1:</b>Establish baseline industry incident response plan</p> <p><b>D2:</b> Develop scenario-based incident response playbooks</p> <p><b>D3:</b> Conduct progressive industry-wide cyber testing exercise regime</p> <p><b>D4:</b> Explore setting up of an industry Security Operations Center (SOC)</p> <h4>Goal 2</h4> <p>This encompasses strategies to institutionalize and expand sharing of timely and actionable cyberthreat intelligence across the financial community, including coordination and collaboration with other industry stakeholders and the National CERT (CERT-PH).</p> <p>Priority actions under this goal are:</p> <p><b>A1:</b>Expand and further enhance Bankers Association of the Philippines Cybersecurity Incident Database (BAPCID) as an industry sharing platform</p> <p><b>A2:</b> Strengthen and forge strategic partnerships in domestic and international for a</p> <p><b>A3:</b> Support the enactment of cyber-related legislative initiatives (e.g., Anti-Financial Account Scamming Act, Liberalization of Secrecy of Deposits, etc.)</p> <h4>Goal 3</h4> <p>This goal covers strategies to instill strong cybersecurity culture and enhance cybersecurity skills and capabilities in the financial services industry.</p> <p>Key priority actions include:</p> <p><b>S1:</b> Develop and implement cyber education program for BSFI Board and Senior Management</p> <p><b>S2:</b> Regularly conduct Chief Information Security Officer (CISO)/cyber form and Annual Cybersecurity Summit</p> <p><b>S3:</b> Conduct cybersecurity roadshows for small and medium-sized financial institutions (FIs)</p> <p><b>S4:</b> Pursue holistic programs on cybersecurity skills and talent development</p> <p><b>S5:</b>Mainstream cyber education and awareness programs for financial clients.</p> <h4>Goal 4</h4> <p>This goal contains strategies to promote cybersecurity best practices and standards across cybersecurity domains.</p> <p>Priority actions under this goal are:</p> <p><b>H1:</b> Complete policy reforms on digital security controls, Application Programming Interface (API) security, Cybersecurity Maturity Model (CMM) framework, and supply chain risk managemen</p> <p><b>H2:</b> Explore establishment of an Industry Cyber Innovation/Research Hub</p> <p><b>H3:</b> Conduct benchmarking exercises on cyber capabilities</p>",
+      "image": "src/assets/img/project_management/risk_management/PMFIDS_PM_PRM_order37"
+    },
+    {
+      "order": 39,
+      "title": "Knowledge Check",
+      "body": "Which of the following are the key controls financial institutions must adopt to protect financial accounts? (Select all that apply)",
+      "image": "src/assets/img/general images/KnowledgeCheck.jpg",
+      "q_field_type": "multi_select",
+      "q_selection": [
+        {
+          "A": "Multi-factor authentication",
+          "B": "Audit trail",
+          "C": "IT functions",
+          "D": "Mass mailer",
+          "E": "Infrastructure and security monitoring",
+          "F": "Delivery channels"
+        }
+      ],
+      "q_answer": "A, B, E"
+    },
+    {
+      "order": 40,
+      "title": "Lesson Summary",
+      "subheader": "Congratulations on completing Lesson 4 of this module!",
+      "body": "<p>Now that you have completed this lesson, you should be able to:</p><ul><li>Obtain knowledge on the existing Philippine regulations in risk management systems to get ahead of identifying and monitoring possible risks in projects.</li></ul>",
+      "image": "src/assets/img/general images/LessonSummary.jpg"
+    },
+    {
+      "order": 41,
+      "title": "Module Summary",
+      "body": "<p>Now that you have completed this course, you should be able to:</p><ul><li>Define project risk and identify various types of risks that may occur in a project.</li><li>Recognize the risk management process and explore tools and frameworks relevant to each step of the process.</li><li>Gain a full understanding of Quality Assurance and its benefits and importance in managing digital transformation projects, specifically in the Risk Monitoring phase.</li><li>Obtain knowledge on the existing Philippine regulations in risk management systems to get ahead of identifying and monitoring possible risks in projects.</li></ul>",
+      "image": "src/assets/img/general images/ModuleSummary.jpg"
+    },
+    {
+      "order": 42,
+      "title": "Module Completion",
+      "subheader": "Congratulations on completing the Project Risk Management module!",
+      "body": "<p>You've now developed a comprehensive understanding of the fundamental terms and concepts related to project risk management.</p> <p>As you move forward, remember the various types of risks that may occur in a project as well as the importance of effectively utilizing the risk management process. Explore the various tools and frameworks that are relevant to each step of this process. In addition, keep in mind the significance of quality assurance and its advantages in managing digital transformation projects, as well as the regulations in the Philippines concerning risk management systems.</p> <p>We hope this module has equipped you with the knowledge and confidence to tackle any project risks that may come your way.</p>",
+      "image": "src/assets/img/general images/ModuleCompletion.jpg"
+    },
+    {
+      "order": 43,
+      "title": "Exam",
+      "exams": [
+        {
+          "exam_id": 1,
+          "title": "Post-Module Examination",
+          "body": "This assessment is designed to test your knowledge. Results of this assessment will be used to structure the workshop.",
+          "questions": [
+            {
+              "q_number": 1,
+              "q_statement": "Which of the following is the last step in Project Risk Management process?",
+              "q_field_type": "single_select",
+              "q_selection": [
+                {
+                  "A": "Monitor Risk",
+                  "B": "Identify Risk",
+                  "C": "Plan response for risk",
+                  "D": "Analyze risk",
+                  "E": "Prioritize risk"
+                }
+              ],
+              "q_answer": "A"
+            },
+            {
+              "q_number": 2,
+              "q_statement": "Which of the following is considered an internal risk? (Select all that apply)",
+              "q_field_type": "multi_select",
+              "q_selection": [
+                {
+                  "A": "Schedule risks",
+                  "B": "Legal risks",
+                  "C": "Strategic risks",
+                  "D": "Scope risks",
+                  "E": "Operational risks"
+                }
+              ],
+              "q_answer": "A; D"
+            },
+            {
+              "q_number": 3,
+              "q_statement": "Total quality management is a strategy to:",
+              "q_field_type": "single_select",
+              "q_selection": [
+                {
+                  "A": "Avoid pitfalls",
+                  "B": "Boost team morale",
+                  "C": "Continuously improve",
+                  "D": "Receive customer feedback"
+                }
+              ],
+              "q_answer": "C"
+            },
+            {
+              "q_number": 4,
+              "q_statement": "The use of a RAID log helps the PMO or Project Manager:",
+              "q_field_type": "single_select",
+              "q_selection": [
+                {
+                  "A": "capture, analyze, select and document the risks, assumptions, issues and dependencies encountered while planning for and executing the project",
+                  "B": "capture, organize, prioritize and document the risks, assumptions, issues and dependencies encountered while planning for and executing the project",
+                  "C": "capture, analyze, prioritize and document the risks, assumptions, issues and dependencies encountered while planning for and executing the project",
+                  "D": "capture, organize, select and mitigate the risks, assumptions, issues and dependencies encountered while planning for and executing the project"
+                }
+              ],
+              "q_answer": "B"
+            },
+            {
+              "q_number": 5,
+              "q_statement": "The priorities under Goal 4 of the Financial Services Cyber Resilience Plan are the following, except? (Select all that apply)",
+              "q_field_type": "multi_select",
+              "q_selection": [
+                {
+                  "A": "Complete policy reforms on digital security controls, Application Programming Interface (API) security, Cybersecurity Maturity Model (CMM) framework, and supply chain risk management",
+                  "B": "Conduct cybersecurity roadshows for small and medium-sized financial institutions (FIs)",
+                  "C": "Pursue holistic programs on cybersecurity skills and talent development",
+                  "D": "Explore establishment of an Industry Cyber Innovation/Research Hub",
+                  "E": "Conduct benchmarking exercises on cyber capabilities"
+                }
+              ],
+              "q_answer": "B; C"
+            },
+            {
+              "q_number": 6,
+              "q_statement": "Which among following indicates impacted areas of quality on testing within API integration efforts?",
+              "q_field_type": "single_select",
+              "q_selection": [
+                {
+                  "A": "Issue Testing, Encryption Testing, Exploratory Testing",
+                  "B": "API Gateway Testing, End-to-End Testing, Operationalization Testing",
+                  "C": "Documentation Testing, Prioritization Testing, Functionality Testing",
+                  "D": "Data Validation, Usability Testing, Security Testing"
+                }
+              ],
+              "q_answer": "D"
+            },
+            {
+              "q_number": 7,
+              "q_statement": "BSFIs are required to establish a robust ITRM system covering key components, which are? (Select all that apply)",
+              "q_field_type": "multi_select",
+              "q_selection": [
+                {
+                  "A": "IT Controls Implementation",
+                  "B": "Cyber Education Program",
+                  "C": "IT Governance",
+                  "D": "Risk Measurement and Monitoring",
+                  "E": "Risk Identification and Assessment"
+                }
+              ],
+              "q_answer": "A; C; D; E"
               }
             ]
           }
@@ -640,4 +581,5 @@
       }
     ]
   }
-]
+]    
+   
