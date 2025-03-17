@@ -1,6 +1,6 @@
 [{
     "id": 8,
-    "moduleId": "PMFIDS_SUSTAIN",
+    "moduleId": "CM_SUSTAIN",
     "moduleName": "Sustain Change",
     "type": "module",
     "sections": [
@@ -12,7 +12,6 @@
           "image": "src/assets/img/general images/ModuleIntroduction.jpg"
       },
       {
-  
           "order": 2,
           "title": "Module Pre-Examination",
           "exams": [{
