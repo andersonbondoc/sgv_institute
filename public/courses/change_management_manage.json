@@ -1,6 +1,6 @@
 [{
     "id": 7,
-    "moduleId": "PMFIDS_MANAGE",
+    "moduleId": "CM_MANAGE",
     "moduleName": "Manage Change",
     "type": "module",
     "sections": [
@@ -12,47 +12,47 @@
         "image": "src/assets/img/general images/ModuleIntroduction.jpg"
     },
     {
-    "order": 2,
-    "title": "Module Pre-Examination",
-    "exams": [{
-    "exam_id": 1,
-        "title": "Module Pre-examination",
-        "body": "This assessment is designed to test your knowledge. Results of this  assessment will be used to structure the workshop.",
-        "questions": [{
-                "q_number": 1,
-                "q_statement": "What is change management plan?",
-                "q_field_type": "single_select" ,
-                "q_selection": [{
-                    "A": "To measure the effectiveness of change initiatives",
-                    "B": "To experience a state of instability",
-                    "C": "To undergo modification",
-                    "D": "A structured approach to managing organizational changes."
+        "order": 2,
+        "title": "Module Pre-Examination",
+        "exams": [{
+            "exam_id": 7,
+            "title": "Module Pre-examination",
+            "body": "This assessment is designed to test your knowledge. Results of this  assessment will be used to structure the workshop.",
+            "questions": [{
+                    "q_number": 1,
+                    "q_statement": "What is change management plan?",
+                    "q_field_type": "single_select" ,
+                    "q_selection": [{
+                        "A": "To measure the effectiveness of change initiatives",
+                        "B": "To experience a state of instability",
+                        "C": "To undergo modification",
+                        "D": "A structured approach to managing organizational changes."
+                        }],
+                    "q_answer": "D"
+            },
+            {
+                    "q_number": 2,
+                    "q_statement": "What is the purpose of communication plan?",
+                    "q_field_type": "single_select" ,
+                    "q_selection": [{
+                        "A": "To conduct training sessions or workshops to help employees understand and adapt to the changes.",
+                        "B": "To engage stakeholders to ensure their concerns and feedback are incorporated into the communication process.",
+                        "C": "To identify the best methods to deliver timely and useful information to different stakeholders who will be involved with and impacted by the change initiative.",
+                        "D": "To identify potential resistance to change and develop strategies to address concerns and foster acceptance."
+                    }], 
+                    "q_answer": "C"   
+            },
+            {
+                    "q_number": 3,
+                    "q_statement": "What do you call the structured sessions to equip employees with the skills needed to adapt to new processes or systems?",
+                    "q_field_type": "single_select",
+                    "q_selection": [{
+                        "A": "Delivering the change initiative",
+                        "B": "Communicating the Change",
+                        "C": "Training and Workshop",
+                        "D": "Creating a Stakeholder Map"
                     }],
-                "q_answer": "D"
-        },
-        {
-                "q_number": 2,
-                "q_statement": "What is the purpose of communication plan?",
-                "q_field_type": "single_select" ,
-                "q_selection": [{
-                    "A": "To conduct training sessions or workshops to help employees understand and adapt to the changes.",
-                    "B": "To engage stakeholders to ensure their concerns and feedback are incorporated into the communication process.",
-                    "C": "To identify the best methods to deliver timely and useful information to different stakeholders who will be involved with and impacted by the change initiative.",
-                    "D": "To identify potential resistance to change and develop strategies to address concerns and foster acceptance."
-                }], 
-                "q_answer": "C"   
-        },
-        {
-                "q_number": 3,
-                "q_statement": "What do you call the structured sessions to equip employees with the skills needed to adapt to new processes or systems?",
-                "q_field_type": "single_select",
-                "q_selection": [{
-                    "A": "Delivering the change initiative",
-                    "B": "Communicating the Change",
-                    "C": "Training and Workshop",
-                    "D": "Creating a Stakeholder Map"
-                }],
-                "q_answer": "C"
+                    "q_answer": "C"
             }]
         }]
     },
@@ -284,7 +284,7 @@
         "order": 37,
         "title": "Module Post-examination",
         "exams": [{
-            "exam_id": 1,
+            "exam_id": 7,
             "title": "Module Post-examination",
             "body": "This assessment is designed to test your knowledge. Results of this  assessment will be used to structure the workshop.",
             "questions": [{
