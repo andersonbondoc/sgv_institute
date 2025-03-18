@@ -39,6 +39,12 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
       PMFIDS_PM: "project_management.json",
       PMFIDS_BCM: "budget_cost_management.json",
       PMFIDS_RISK: "project_risk_management.json",
+      PMFIDS_ABS: "aligning_business_strat.json",
+      CM_INTRO: "change_management_intro.json",
+      CM_PREPARE: "change_management_prepare.json",
+      CM_MANAGE: "change_management_manage.json",
+      CM_SUSTAIN: "change_management_sustain.json",
+      DCO_SEAMLESS: "seamless_digital.json",
     };
 
     if (moduleId && fileMapping[moduleId]) {

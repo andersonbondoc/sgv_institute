@@ -9,8 +9,17 @@ import {
   IonCard,
 } from "@ionic/react";
 import { useHistory } from "react-router-dom";
-import { arrowForwardCircleOutline, enterOutline } from "ionicons/icons";
-import { getUserByEmail, supabaseSendEmail } from "../queries/userQueries";
+import {
+  arrowForwardCircleOutline,
+  checkmarkCircleOutline,
+  closeCircleOutline,
+  enterOutline,
+} from "ionicons/icons";
+import {
+  getUserByEmail,
+  getUserByEmailAndPassword,
+  supabaseSendEmail,
+} from "../queries/userQueries";
 import { ToastError, ToastSuccess } from "../components/Toast";
 import { supabase } from "../queries/supabaseClient";
 
@@ -19,12 +28,15 @@ const LandingPage: React.FC = () => {
   const [courses, setCourses] = useState<any[]>([]);
   const [loading, setLoading] = useState(true);
   const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
   const [successMessage, setSuccessMessage] = useState<string>("");
   const [showSuccessMessage, setShowSuccessMessage] = useState<boolean>(false);
   const [errorMessage, setErrorMessage] = useState<string>("");
   const [showErrorMessage, setShowErrorMessage] = useState<boolean>(false);
   const [isCardOpen, setIsCardOpen] = useState(false);
   const [isLogin, setIsLogin] = useState(!!localStorage.getItem("user"));
+
+  const [isEmailValid, setIsEmailValid] = useState(false);
   useEffect(() => {
     const queryParams = new URLSearchParams(location.search);
     const token = queryParams.get("token");
@@ -110,28 +122,14 @@ const LandingPage: React.FC = () => {
     }, timeout);
   };
   const validateEmail = async () => {
-    const { exists, error, user } = await getUserByEmail(email);
-
+    const { exists, error } = await getUserByEmail(email);
     if (!exists) {
+      setIsEmailValid(false);
+      setPassword("");
       errorToast(error || "Email validation failed.", 3000);
-      setSuccessMessage("");
     } else {
-      setIsCardOpen(false);
-      setIsLogin(true);
-
-      const sendEmail = await supabaseSendEmail(email);
-      if (!sendEmail.success) {
-        errorToast(sendEmail.error || "Failed to send magic link.", 3000);
-        setSuccessMessage("");
-      } else {
-        localStorage.setItem("user", JSON.stringify(user));
-        successToast(
-          "Email validated successfully. Please check your inbox to log in.",
-          3000
-        );
-        setIsCardOpen(false);
-        setIsLogin(true);
-      }
+      setIsEmailValid(true);
+      successToast("Email validated successfully.", 3000);
     }
   };
 
@@ -149,41 +147,96 @@ const LandingPage: React.FC = () => {
     setIsCardOpen(true);
   };
 
+  const handleUserLogin = async () => {
+    const { success, error, user } = await getUserByEmailAndPassword(
+      email,
+      password
+    );
+    if (success) {
+      successToast("Login successfully", 2000);
+      localStorage.setItem("user", JSON.stringify(user));
+      // Reload the page after 2 seconds to allow the toast to show
+      setTimeout(() => {
+        window.location.reload();
+      }, 1000);
+    } else {
+      errorToast("Error", 3000);
+    }
+  };
+
   return (
     <IonPage>
       <IonContent className="p-6 bg-gradient-to-b from-purple-50 via-pink-50 to-white relative">
         <ToastSuccess message={successMessage} show={showSuccessMessage} />
         <ToastError message={errorMessage} show={showErrorMessage} />
         {isCardOpen && (
-          <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-40 h-full">
-            {isCardOpen && (
-              <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-40 z-40">
-                <IonCard className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg w-96 text-center z-50 relative">
-                  <button
-                    className="absolute top-2 right-2 text-gray-600 dark:text-gray-300 hover:text-gray-800 dark:hover:text-gray-100"
-                    onClick={() => setIsCardOpen(false)}
-                  >
-                    ✕
-                  </button>
-                  <IonListHeader className="text-xl font-semibold mb-4 text-gray-900 dark:text-gray-100">
-                    Please enter your email:
-                  </IonListHeader>
-                  <IonInput
-                    type="email"
-                    placeholder="juandelacruz@bank.com.ph"
-                    className="w-full p-2 border rounded-lg mb-2 bg-gray-50 dark:bg-gray-700 text-gray-900 dark:text-gray-100"
-                    value={email}
-                    onIonChange={(e) => setEmail(e.detail.value!)}
-                  />
-                  <button
-                    className="mt-8 mb-8 w-full bg-gray-700 dark:bg-gray-600 text-white py-2 rounded-lg"
-                    onClick={validateEmail}
-                  >
-                    <IonIcon icon={enterOutline} size="small" /> Login
-                  </button>
-                </IonCard>
+          <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
+            <IonCard className="bg-white dark:bg-gray-800 p-8 rounded-xl shadow-2xl w-96 text-center relative">
+              {/* Close Button */}
+              <button
+                className="absolute top-3 right-3 text-gray-500 dark:text-gray-300 hover:text-gray-800 dark:hover:text-gray-100"
+                onClick={() => setIsCardOpen(false)}
+              >
+                ✕
+              </button>
+
+              {/* Card Header */}
+              <IonListHeader className="text-2xl font-semibold mb-6 text-gray-900 dark:text-gray-100">
+                Sign In
+              </IonListHeader>
+
+              {/* Email Input with Validation */}
+              <div className="relative">
+                <IonInput
+                  type="email"
+                  placeholder="Enter your email"
+                  className={`w-full p-3 border rounded-lg bg-gray-50 dark:bg-gray-700 text-gray-900 dark:text-gray-100 pr-10 
+            ${
+              isEmailValid === false
+                ? "border-red-500"
+                : isEmailValid
+                ? "border-green-500"
+                : ""
+            }`}
+                  value={email}
+                  onIonChange={(e) => setEmail(e.detail.value!)}
+                  onBlur={validateEmail} // Triggers when user leaves the field
+                />
+                {/* Icon inside input field */}
+                {isEmailValid !== null && (
+                  <span className="absolute right-3 top-3 text-lg">
+                    {isEmailValid ? (
+                      <IonIcon
+                        icon={checkmarkCircleOutline}
+                        className="text-green-500"
+                      />
+                    ) : (
+                      <IonIcon
+                        icon={closeCircleOutline}
+                        className="text-red-500"
+                      />
+                    )}
+                  </span>
+                )}
               </div>
-            )}
+
+              <IonInput
+                type="password"
+                placeholder="Enter your password"
+                className="w-full p-3 border rounded-lg mt-4 bg-gray-50 dark:bg-gray-700 text-gray-900 dark:text-gray-100"
+                value={password}
+                onIonChange={(e) => setPassword(e.detail.value!)}
+              />
+
+              {/* Login Button */}
+              <button
+                className="mt-6 w-full bg-gray-700 hover:bg-gray-900 text-white py-2 rounded-lg transition"
+                disabled={!isEmailValid}
+                onClick={handleUserLogin}
+              >
+                <IonIcon icon={enterOutline} size="small" /> Login
+              </button>
+            </IonCard>
           </div>
         )}
 
