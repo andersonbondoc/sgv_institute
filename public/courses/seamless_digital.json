@@ -1,6 +1,6 @@
 [{
     "id": 9,
-    "moduleId": "PMFIDS_SEAMLESS",
+    "moduleId": "DCO_SEAMLESS",
     "moduleName": "Seamless Digital Customer Onboarding",
     "type": "course",
     "sections": [
@@ -15,8 +15,8 @@
         "order": 2,
         "title": "Module Pre-Examination",
         "exams": [{
-        "exam_id": 1,
-            "title": "Module Pre-examination",
+        "exam_id": 9,
+            "title": "Module Pre-Examination",
             "body": "This assessment is designed to test your knowledge. Results of this  assessment will be used to structure the workshop.",
             "questions": [{
                   "q_number": 1,
@@ -59,76 +59,84 @@
       {
         "order": 3,
         "title": "Module Credit and Completion Requirements and Learning Objective",
-        "body": "<h2>Credit and Completion Requirements</h2><ul><li>To receive proper learning credit and achieve the learning objectives, you must not skip any screens</li><li>Complete all interactions</li><li>Complete all practice questions</li><li>Pass the final assessment with at least 70%</li><li>You must complete the assessment alone. Using answers received from others, including any form of artificial intelligence, to complete an assessment is cheating.</li></ul><p>Please note that this learning will expire by April 25, 2025. You must complete and pass all of the scored portions of this module within this period, or your related learning progress will be removed.</p><h2>Module Learning Objectives</h2><p>Upon successful completion of the module, you will be able to:</p> <ul> <li>Describe various customer onboarding approaches including the branch, digital, and omnichannel approach.</li> <li>Understand the significance of digital customer onboarding on customer experience.</li> <li>Identify different automation technologies to optimize onboarding processes and the proactive approaches to avoid the common mistakes in business process automation.</li> <li>Recognize various strategies to implement the omnichannel approach effectively and achieve a seamless customer experience.</li> </ul>", 
+        "body": "<h2>Credit and Completion Requirements</h2> <p>To successfully earn credit and meet the learning objectives of this Web-Based Learning Application, it is essential to engage with every page, complete all knowledge checks, and complete the initial and final assessment independently. The assessment will require a 70% passing rate and while you are encouraged to refer to your notes of the course content during the assessment, any form of cheating is discouraged. Please also note that this course will expire by April 25, 2025.</p> <h2>Module Learning Objectives</h2><p>Upon successful completion of the module, you will be able to:</p> <ul> <li>Describe various customer onboarding approaches including the branch, digital, and omnichannel approach.</li> <li>Understand the significance of digital customer onboarding on customer experience.</li> <li>Identify different automation technologies to optimize onboarding processes and the proactive approaches to avoid the common mistakes in business process automation.</li> <li>Recognize various strategies to implement the omnichannel approach effectively and achieve a seamless customer experience.</li> </ul>", 
         "image":"src/assets/img/general images/CreditCompletionLearningObjectives.jpg"
       },
       {
         "order": 4,
         "title": "Digital Customer Onboarding Lessons",
         "subheader": "Introduction to Digital Customer Onboarding", 
-        "body": "<h4>Module Overview</h4> <h5>Learning Objective</h5> <p>At the end of this lesson, you will be able to:</p> <ul> <li>Differentiate various customer onboarding approaches and explain the significance of each in enhancing customer interactions and experiences.</li> <li>Identify the key benefits of digital customer onboarding and articulate how these factors contribute to customer satisfaction, retention, and overall business success.</li> <li>Develop strategies for creating an engaging and personalized digital onboarding experience to ensure a smooth transition for new customers.</li></ul>",
-        "image": "src/assets/img/digital_customer_onboarding/seamless_digital/PMFIDS_DCO_SDC_order4_1.jpg"
+        "body": "<h4>Learning Objectives</h4> <p>At the end of this lesson, you will be able to:</p> <ul> <li>Differentiate various customer onboarding approaches and explain the significance of each in enhancing customer interactions and experiences.</li> <li>Identify the key benefits of digital customer onboarding and articulate how these factors contribute to customer satisfaction, retention, and overall business success.</li> <li>Develop strategies for creating an engaging and personalized digital onboarding experience to ensure a smooth transition for new customers.</li></ul>",
+        "image": "public/src/assets/img/digital_customer_onboarding/seamless_digital/order4.jpg"
       }, 
       {
         "order": 5,
+        "layout": "col-1",
         "title": "Introduction to Digital Customer Onboarding",
         "subheader": "What is Customer Onboarding?", 
-        "body": "<h4> CUSTOMER ONBOARDING</h4> <p>Customer onboarding is the process of guiding new customers through the initial stages of their relationship with a company or service. It involves a series of steps designed to help customers understand how to use a product or service effectively, ensuring they have a positive experience from the outset. </p>"
+        "col1": "<h4>CUSTOMER ONBOARDING</h4> <p>Customer onboarding is the process of guiding new customers through the initial stages of their relationship with a company or service. It involves a series of steps designed to help customers understand how to use a product or service effectively, ensuring they have a positive experience from the outset. </p>"
       },
       {
         "order": 6,
+        "layout": "image righthand portion",
         "title": "Introduction to Digital Customer Onboarding",
         "subheader": "Typical Onboarding Experiences", 
         "body": "<h4>Branch Approach</h4> <p>The current onboarding processes that prioritize directing customers to a physical branch do not fully capitalize on a digital-first strategy. Although emphasizing branch interactions maintains a personal touch, it relies heavily on customers visiting a brick-and-mortar location. While this traditional approach has been effective over the years, it often prioritizes institutional procedures over enhancing the overall customer experience.</p>", 
-        "image": "src/assets/img/digital_customer_onboarding/seamless_digital/PMFIDS_DCO_SDC_order6.jpg"    
+        "image": "public/src/assets/img/digital_customer_onboarding/seamless_digital/order6.jpg"    
       },
       {
         "order": 7,
+        "layout": "image righthand portion",
         "title": "Introduction to Digital Customer Onboarding",
         "subheader": "Typical Onboarding Experiences", 
         "body": "<h4>Branch with Pre-Work Approach</h4> <p>This approach alleviates the burden on customers by offering extensive context online, including tailored checklists for different business types. Although it is not possible to complete the forms in advance, these additional checklists help to reduce the need for multiple trips to a branch.</p>", 
-        "image": "src/assets/img/digital_customer_onboarding/seamless_digital/PMFIDS_DCO_SDC_order7.jpg"    
+        "image": "public/src/assets/img/digital_customer_onboarding/seamless_digital/order7.jpg"    
       },
       {
         "order": 8,
+        "layout": "image righthand portion",
         "title": "Introduction to Digital Customer Onboarding",
         "subheader": "Typical Onboarding Experiences", 
         "body": "<h4>Transitioned Channel Approach</h4> <p>The advancement of enhanced onboarding processes may be hindered by the complexities inherent in both internal and external procedures. Instead of postponing progress until these issues are addressed, it is advisable to develop experiences that closely resemble a fully digital approach. Enabling customers to submit information digitally prior to their visit to a branch helps maintain the momentum generated at the moment they decide to invest their time and energy in your services.</p>", 
-        "image": "src/assets/img/digital_customer_onboarding/seamless_digital/PMFIDS_DCO_SDC_order8.jpg"    
+        "image": "public/src/assets/img/digital_customer_onboarding/seamless_digital/order8.jpg"    
       },
       {
         "order": 9,
+        "layout": "image righthand portion",
         "title": "Introduction to Digital Customer Onboarding",
         "subheader": "Typical Onboarding Experiences", 
         "body": "<h4>Digital Approach</h4> <p>By developing a robust front-end interface accessible on any device, banks can enhance the overall customer experience without the need to overhaul all back-end systems It is crucial to recognize that effective digital experiences extend beyond desktop interfaces. Many customers utilize digital wallets on their mobile devices, which serve as collections of digital representations of their physical cards, along with applications that facilitate the management and access of their funds.</p>", 
-        "image": "src/assets/img/digital_customer_onboarding/seamless_digital/PMFIDS_DCO_SDC_order9.jpg"    
+        "image": "public/src/assets/img/digital_customer_onboarding/seamless_digital/order9.jpg"    
       },
       {
         "order": 10,
+        "layout": "image righthand portion",
         "title": "Introduction to Digital Customer Onboarding",
         "subheader": "Typical Onboarding Experiences", 
         "body": "<h4>Omnichannel Approach</h4> <p>When the various elements of different approaches are effectively combined, they form an omnichannel strategy that prioritizes the customer’s experience over the bank’s internal processes. No matter how a customer discovers your business, they can easily navigate the sign-up process. Customers can trust that their information is securely stored in a single, reliable location, allowing them to transition seamlessly between different mediums to achieve their objectives.</p>", 
-        "image": "src/assets/img/digital_customer_onboarding/seamless_digital/PMFIDS_DCO_SDC_order10.jpg"    
+        "image": "public/src/assets/img/digital_customer_onboarding/seamless_digital/order10.jpg"    
       },
       {
         "order": 11,
+        "layout": "col-1",
         "title": "Introduction to Digital Customer Onboarding",
         "subheader": "Going Digital", 
-        "body": "<h4>DIGITAL CUSTOMER ONBOARDING</h4> <p>Digital customer onboarding is the process of integrating new customers into a company's services or products via digital channels. This process generally involves guiding customers through the initial steps of utilizing a product or service, ensuring they comprehend its features, benefits, and how to begin. Digital onboarding can manifest in various formats, such as online tutorials, interactive guides, welcome emails, and self-service portals. The primary objective is to deliver a seamless and engaging experience that enables customers to quickly familiarize themselves with the offerings.</p>"
+        "col1": "<h4>DIGITAL CUSTOMER ONBOARDING</h4> <p>Digital customer onboarding is the process of integrating new customers into a company's services or products via digital channels. This process generally involves guiding customers through the initial steps of utilizing a product or service, ensuring they comprehend its features, benefits, and how to begin. Digital onboarding can manifest in various formats, such as online tutorials, interactive guides, welcome emails, and self-service portals. The primary objective is to deliver a seamless and engaging experience that enables customers to quickly familiarize themselves with the offerings.</p>"
       },
       {
         "order": 12,
         "layout": "col-2",
         "title": "Introduction to Digital Customer Onboarding",
         "subheader": "Going Digital", 
-        "col1": "<h4>Importance of Digital Customer Onboarding</h4> <p>Digital customer onboarding is a crucial aspect of the customer journey that significantly influences customer satisfaction, retention, and overall business success. Here are several key reasons highlighting the importance of digital customer onboarding:</p> <h4>Seamless User Experience</h4> <p>Digital onboarding allows for a streamlined and efficient user experience. Customers can access onboarding materials and resources anytime and anywhere, making it convenient for them to learn about the product or service at their own pace.</p> <h4>Reduced Time and Cost</h4> <p>Automating the onboarding process can significantly reduce the time and resources required for onboarding, making it more cost-effective for businesses.</p> <h4>Scalability</h4> <p>Digital onboarding solutions can easily scale to accommodate a growing customer base without the need for proportional increases in staff or resources. It can handle multiple customers simultaneously, ensuring that everyone receives the same level of support without overwhelming staff.</p>",  
-        "col2": "<h4>Data Collection and Insights</h4> <p>Digital onboarding processes often include mechanisms for collecting data on customer interactions and feedback. This information can provide valuable insights into customer needs, preferences, and pain points, enabling companies to improve their products and services.</p> <h4>Compliance and Security</h4> <p>Digital onboarding can incorporate automated compliance checks and secure data handling processes, ensuring that businesses meet regulatory requirements while protecting customer information.</p> <h4>Building Long-Term Relationships</h4> <p>Digital onboarding is an opportunity to establish a strong relationship with customers from the outset. By providing ongoing support and resources, companies can foster loyalty and encourage customers to become advocates for the brand.</p> <h4>Competitive Advantage</h4> <p>In a competitive marketplace, a strong digital onboarding process can set a company apart from its competitors. Companies that prioritize customer onboarding and provide exceptional digital experiences are more likely to attract and retain customers.</p>" 
+        "col1": "<h4>Importance of Digital Customer Onboarding</h4> <p>Digital customer onboarding is a crucial aspect of the customer journey that significantly influences customer satisfaction, retention, and overall business success. Here are several key reasons highlighting the importance of digital customer onboarding:</p> <h4>Seamless User Experience</h4> <p>Customers can access onboarding materials and resources anytime and anywhere, making it convenient for them to learn about the product or service at their own pace.</p> <h4>Reduced Time and Cost</h4> <p>Automating the onboarding process can significantly reduce the time and resources required for onboarding, making it more cost-effective for businesses.</p> <h4>Scalability</h4> <p>Digital onboarding solutions can handle multiple customers simultaneously, ensuring that everyone receives the same level of support without overwhelming staff.</p>",  
+        "col2": "<h4>Data Collection and Insights</h4> <p>Digital onboarding processes often include mechanisms for collecting data on customer interactions and feedback enabling companies to improve their products and services.</p> <h4>Compliance and Security</h4> <p>Digital onboarding can incorporate automated compliance checks and secure data handling processes, ensuring that businesses meet regulatory requirements while protecting customer information.</p> <h4>Building Long-Term Relationships</h4> <p>Digital onboarding is an opportunity to establish a strong relationship with customers from the outset. By providing ongoing support and resources, companies can foster loyalty and encourage customers to become advocates for the brand.</p> <h4>Competitive Advantage</h4> <p>Companies that prioritize customer onboarding and provide exceptional digital experiences are more likely to attract and retain customers.</p>" 
       },
       {
         "order": 13,
+        "layout": "col-1",
         "title": "Introduction to Digital Customer Onboarding",
         "subheader": "Going Digital", 
-        "body": "<h4>Key Objectives of Digital Customer Onboarding</h4> <p>An effective digital customer onboarding process should focus on several key objectives to ensure a smooth transition for new customers. Here are the main objectives:</p> <img src='src/assets/img/digital_customer_onboarding/seamless_digital/PMFIDS_DCO_SDC_order13_1.jpg'> <p>By focusing on these objectives, businesses can create a more effective digital onboarding process that enhances customer satisfaction and drives engagement.</p>" 
+        "col1": "<h4>Key Objectives of Digital Customer Onboarding</h4> <p>An effective digital customer onboarding process should focus on several key objectives to ensure a smooth transition for new customers. Here are the main objectives:</p> <img src='public/src/assets/img/digital_customer_onboarding/seamless_digital/order13.jpg'> <p>By focusing on these objectives, businesses can create a more effective digital onboarding process that enhances customer satisfaction and drives engagement.</p>" 
       }, 
       {
         "order": 14,
@@ -155,21 +163,22 @@
         "order": 16,
         "title": "Digital Customer Onboarding Lessons",
         "subheader": "Guide to a Seamless Customer Experience", 
-        "body": "<h4>Module Overview</h4> <h5>Learning Objective</h5> <p>At the end of this lesson, you will be able to:</p> <ul> <li>Explain the concept of a seamless customer experience to meet customer needs and enhance satisfaction and loyalty.</li> <li>Analyze the significance of providing a differentiated and consistent customer experience.</li> <li>Identify and describe effective strategies for optimizing business processes through omnichannel delivery.</li> <li>Develop techniques for building strong relationships with customers through personalization and the creation of a Single Customer View (SCV).</li> </ul>",
-        "image": "src/assets/img/digital_customer_onboarding/seamless_digital/PMFIDS_DCO_SDC_order16.jpg"
+        "body": "<h4>Learning Objectives</h4> <p>At the end of this lesson, you will be able to:</p> <ul> <li>Explain the concept of a seamless customer experience to meet customer needs and enhance satisfaction and loyalty.</li> <li>Analyze the significance of providing a differentiated and consistent customer experience.</li> <li>Identify and describe effective strategies for optimizing business processes through omnichannel delivery.</li> <li>Develop techniques for building strong relationships with customers through personalization and the creation of a Single Customer View (SCV).</li> </ul>",
+        "image": "public/src/assets/img/digital_customer_onboarding/seamless_digital/order16.jpg"
       },
       {
         "order": 17,
+        "layout": "col-1",
         "title": "Guide to a Seamless Customer Experience",
         "subheader": "What is a Seamless Customer Experience?", 
-        "body": "<h4> SEAMLESS CUSTOMER EXPERIENCE</h4> <p>A seamless customer experience is characterized by the harmonious integration of all channels, allowing customers to transition effortlessly from one to another. This integration ensures that the value, information, and quality provided across all channels are perfectly aligned and consistent, ultimately leading to higher levels of customer satisfaction and loyalty. Furthermore, it is essential that customers' needs are promptly met and addressed, regardless of the channel they choose to engage with, fostering a sense of reliability and trust in the brand. By prioritizing a seamless experience, businesses can enhance customer relationships and drive long-term success.</p>"
+        "col1": "<h4> SEAMLESS CUSTOMER EXPERIENCE</h4> <p>A seamless customer experience is characterized by the harmonious integration of all channels, allowing customers to transition effortlessly from one to another. This integration ensures that the value, information, and quality provided across all channels are perfectly aligned and consistent, ultimately leading to higher levels of customer satisfaction and loyalty. Furthermore, it is essential that customers' needs are promptly met and addressed, regardless of the channel they choose to engage with, fostering a sense of reliability and trust in the brand. By prioritizing a seamless experience, businesses can enhance customer relationships and drive long-term success.</p>"
       }, 
       {
         "order": 18,
         "layout": "col-2",
         "title": "Guide to a Seamless Customer Experience",
         "subheader": "Importance of a Seamless Customer Onboarding", 
-        "col1": "<p>Customer Experience (CX) is about providing a differentiated, consistent experience that adds value to both the customer and the organization.</p> <img src='src/assets/img/digital_customer_onboarding/seamless_digital/PMFIDS_DCO_SDC_order18.jpg'> <h4>CX for the Customer</h4> <ul> <li>For the customer, CX is the way they feel about your organization: the total of their perceptions based on every encounter they’ve had, over their lifetime, with your services, products and employees.</li> <li>You don’t control it: CX is also influenced by external opinions, press, media and even popular culture.</li> </ul> <h4>CX for the Organization</h4> <ul> <li>For the organization, CX is the consistent day-to-day delivery of your brand promise and values to customers and employees.</li> <li>It’s a constant feedback and decision-making loop based on your understanding of the customer, data, technology stack and actions.</li> </ul>", 
+        "col1": "<p>Customer Experience (CX) is about providing a differentiated, consistent experience that adds value to both the customer and the organization.</p> <img src='public/src/assets/img/digital_customer_onboarding/seamless_digital/order18.jpg'> <h4>CX for the Customer</h4> <ul> <li>For the customer, CX is the way they feel about your organization: the total of their perceptions based on every encounter they’ve had, over their lifetime, with your services, products and employees.</li> <li>You don’t control it: CX is also influenced by external opinions, press, media and even popular culture.</li> </ul> <h4>CX for the Organization</h4> <ul> <li>For the organization, CX is the consistent day-to-day delivery of your brand promise and values to customers and employees.</li> <li>It’s a constant feedback and decision-making loop based on your understanding of the customer, data, technology stack and actions.</li> </ul>", 
         "col2": "<p>In today's era of multi-channel selling and marketing, many customers encounter gaps, disruptions, and dissatisfaction in their overall experience. This dissatisfaction arises from the fact that the various channels established by businesses do not operate cohesively, lacking uniformity in quality and functionality. As a result, customers face a disjointed experience that leaves them unhappy and unsatisfied, ultimately leading to customer attrition for businesses. To meet the needs of multi-channel customers, delivering a seamless experience across all channels is essential.</p>" 
       },
       {
@@ -182,24 +191,27 @@
       }, 
       {
         "order": 20,
+        "layout": "image righthand portion",
         "title": "Guide to a Seamless Customer Onboarding",
         "subheader": "Journey to an Effective Omnichannel Implementation", 
         "body": "<h4>THE OMNI-CHANNEL SHOPPER PERSONA</h3> <h4>She’s a woman in her 40’s</h4> <p>Contrary to common assumptions, the average connected consumer is not a millennial.</p> <ul> <li>$80,000 - Mean Household income</li> <li>52% of connected consumers are women with a mean age of 40</li> </ul> <h4>She utilizes a MULTIPLE internet connected devices including a PC or laptop</h4> <ul> <li>73% own a smartphone</li> <li>26% own a tablet</li> </ul> <h4>She’s HIGHLY SOCIAL connected consumer who is enthusiastic about shopping</h4> <ul> <li>81% Are active Instagram users</li> <li>60% Shop via digital or print catalogs</li> <li>43% Say shopping makes them feel happy</li> </ul> <h4>“EXCITED”, “THRIFTY”, and “PRODUCTIVE” Top the list of the connected consumer’s shopping emotions</h4>", 
-        "image": "src/assets/img/digital_customer_onboarding/seamless_digital/PMFIDS_DCO_SDC_order20.jpg"
+        "image": "public/src/assets/img/digital_customer_onboarding/seamless_digital/order20.jpg"
       },
       {
         "order": 21,
+        "layout": "image righthand portion",
         "title": "Guide to a Seamless Customer Onboarding",
         "subheader": "Journey to an Effective Omnichannel Implementation", 
         "body": "<h4>Omnichannel Customer Experience Management (CXM) Strategy</h4> <h5>Strategy #1. Get to know your customer</h5> <p>Developing a customer experience management strategy aimed at delivering a seamless omnichannel experience begins with a comprehensive understanding of your customer.</p> <p>All aspects of the strategy should be tailored to align with the customer's preferences, dislikes, behaviors, specific patterns, and characteristics.</p> <p>Knowing your customer goes beyond demographics to explore deeper insights, such as:</p> <ul> <li>Why do they desire what they want?</li> <li>What frustrates them?</li> <li>What does their lifestyle entail?</li> <li>What concerns them?</li> <li>What would bring them joy?</li> <li>What are their dealbreakers?</li> </ul>", 
-        "image": "src/assets/img/digital_customer_onboarding/seamless_digital/PMFIDS_DCO_SDC_order21.jpg"
+        "image": "public/src/assets/img/digital_customer_onboarding/seamless_digital/order21.jpg"
       },    
       {
         "order": 22,
-        "layout": "col-1",
+        "layout": "image righthand portion",
         "title": "Guide to a Seamless Customer Onboarding",
         "subheader": "Journey to an Effective Omnichannel Implementation", 
-        "col1": "<h4>Surveys</h4> <p>What to consider in creating a survey</p> <img src='src/assets/img/digital_customer_onboarding/seamless_digital/PMFIDS_DCO_SDC_order22.jpg'> <h4>Remove your biases</h4> <p>Ways to reduce bias:</p> <ul> <li>Ask neutrally worded questions to avoid influencing responses</li> <li>Ensure that answer options are not leading or suggestive</li> <li>Make the survey anonymous to encourage honest feedback</li> <li>Remove your brand or logo to prevent bias towards your company</li> <li>Seek an outsider's perspective to identify potential biases.</li> </ul> <h4></h4> <ul> <li>Avoid using complex industry jargon or technical terms that customers may not understand</li> <li>Keep questions simple and clear to facilitate accurate responses</li> </ul> <h4>Stay Focused</h4> <ul> <li>According to Survey Gismo, your questions should target specific interactions within the customer experience and particular aspects of your business</li> <li>Since it's impossible to cover everything in one survey, each question should have a clear goal and lead to actionable insights. For instance, if the survey aims to improve the checkout process, all questions should be designed to identify issues with the current process, enabling customer responses to guide you toward specific solutions for enhancement.</li> </ul>" 
+        "body": "<h4>Surveys</h4> <p>What to consider in creating a survey</p> <h4>Remove your biases</h4> <p>Ways to reduce bias:</p> <ul> <li>Ask neutrally worded questions to avoid influencing responses</li> <li>Ensure that answer options are not leading or suggestive</li> <li>Make the survey anonymous to encourage honest feedback</li> <li>Remove your brand or logo to prevent bias towards your company</li> <li>Seek an outsider's perspective to identify potential biases.</li> </ul> <h4></h4> <ul> <li>Avoid using complex industry jargon or technical terms that customers may not understand</li> <li>Keep questions simple and clear to facilitate accurate responses</li> </ul> <h4>Stay Focused</h4> <ul> <li>According to Survey Gismo, your questions should target specific interactions within the customer experience and particular aspects of your business</li> <li>Since it's impossible to cover everything in one survey, each question should have a clear goal and lead to actionable insights. For instance, if the survey aims to improve the checkout process, all questions should be designed to identify issues with the current process, enabling customer responses to guide you toward specific solutions for enhancement.</li> </ul>",
+        "image": "public/src/assets/img/digital_customer_onboarding/seamless_digital/order22.jpg" 
       },
       {
         "order": 23,
@@ -211,10 +223,11 @@
       },
       {
         "order": 24,
+        "layout": "image righthand portion",
         "title": "Guide to a Seamless Customer Onboarding",
         "subheader": "Journey to an Effective Omnichannel Implementation", 
         "body": "<h4>Omnichannel Customer Experience Management (CXM) Strategy</h4> <h4>Strategy #2. Implement Consistency Across Channels</h4> <p>Once you have conducted a thorough analysis of your customers and gained a solid understanding of their behaviors, identities, and overall journey with your business, the next step in creating a seamless omnichannel experience is to implement consistency across your various channels. This strategy aims to establish harmony among different channels.</p> <h5>Types of Consistency</h5> <h5>Surface-level consistency</h5> <ul> <li>This type is generally easier to apply and manage, focusing on maintaining consistency in design, aesthetics, terminology, and other superficial elements across each channel.</li> <li>It does not require significant changes within your operations or systems</li> </ul> <h5>Advanced level of consistency</h5> <ul> <li>At this level, channels not only appear consistent but also function consistently from an operational standpoint. Online banking serves as an excellent example of this advanced consistency.</li> <li>Achieving this level necessitates deeper changes, primarily focused on operational aspects.</li> </ul>", 
-        "image": "src/assets/img/digital_customer_onboarding/seamless_digital/PMFIDS_DCO_SDC_order24.jpg"
+        "image": "public/src/assets/img/digital_customer_onboarding/seamless_digital/order24.jpg"
       },
       {
         "order": 25,
@@ -226,18 +239,19 @@
       },  
       {
         "order": 26,
-        "layout":"col-2",
+        "layout": "image righthand portion",
         "title": "Guide to a Seamless Customer Onboarding",
         "subheader": "Journey to an Effective Omnichannel Implementation", 
         "body":"<h4>Omnichannel Customer Experience Management (CXM) Strategy</h4> <h5>Strategy #4. Address your organization's structure</h5> <p>To deliver a seamless, cross-channel experience to your customers, true transformation must occur within the organization. It is only when internal processes become integrated and seamless that a corresponding seamless customer experience can be achieved.</p>", 
-        "image": "src/assets/img/digital_customer_onboarding/seamless_digital/PMFIDS_DCO_SDC_order26.jpg"
+        "image": "public/src/assets/img/digital_customer_onboarding/seamless_digital/order26.jpg"
       }, 
       {
         "order": 27,
+        "layout": "image righthand portion",
         "title": "Guide to a Seamless Customer Onboarding",
         "subheader": "Journey to an Effective Omnichannel Implementation", 
         "body":"<h4>Omnichannel Customer Experience Management (CXM) Strategy</h4> <h5>Strategy #5. Build strong relationships with your customers</h5> <p>By cultivating strong and positive relationships with your customers, you can enhance customer satisfaction, loyalty, and retention, which directly contributes to significant improvements in your bottom line. Establishing trust and open communication fosters a deeper connection, encouraging customers to engage more with your brand and ultimately leading to long-term success.</p>", 
-        "image": "src/assets/img/digital_customer_onboarding/seamless_digital/PMFIDS_DCO_SDC_order27.jpg"
+        "image": "public/src/assets/img/digital_customer_onboarding/seamless_digital/order27.jpg"
       }, 
       {
         "order": 28,
@@ -245,7 +259,7 @@
         "title": "Guide to a Seamless Customer Onboarding",
         "subheader": "Journey to an Effective Omnichannel Implementation", 
         "col1":"<h4>Single customer view (SCV) is…</h4> <ul> <li>the consolidation of all data related to each customer into one easy-to-read record within your database. This comprehensive view facilitates a more personalized experience, enabling you to build strong relationships with customers and foster loyalty, resulting in more returning customers.</li> <li>SCV enhances marketing targeting by allowing you to tailor your marketing communications based on cohesive and precise data for each individual customer or customer group.</li> <li>It also aids in making more accurate business decisions by eliminating duplicates and consolidating records, providing a clearer perspective that allows for data-driven decision-making.</li> </ul> <p>According to Experian, a global marketing services provider, 81% of marketers report having challenges achieving a single customer view.</p>", 
-        "col2": "<h4>Challenges in Achieving SCV</h4> <img src='src/assets/img/digital_customer_onboarding/seamless_digital/PMFIDS_DCO_SDC_order28.jpg'>"
+        "col2": "<h4>Challenges in Achieving SCV</h4> <img src='public/src/assets/img/digital_customer_onboarding/seamless_digital/order28.jpg'>"
       }, 
       {
         "order": 29,
@@ -271,24 +285,24 @@
         "order": 31,
         "title": "Digital Customer Onboarding Lessons",
         "subheader": "Techniques to Achieve a Seamless Onboarding Experience", 
-        "body": "<h2>Module Overview</h2> <h4>Learning Objective</h4> <p>At the end of this lesson, you will be able to:</p> <ul> <li>Explain the key benefits of business process automation (BPA) in onboarding.</li> <li>Identify and describe the different types of business process automation.</li> <li>Assess which onboarding processes are most suitable for automation.</li> <li>Analyze common pitfalls in business process automation.</li> <li>Apply design thinking principles to enhance the onboarding experience.</li></ul>",
-        "image": "src/assets/img/digital_customer_onboarding/seamless_digital/PMFIDS_DCO_SDC_order31.jpg"
+        "body": "<h4>Learning Objectives</h4> <p>At the end of this lesson, you will be able to:</p> <ul> <li>Explain the key benefits of business process automation (BPA) in onboarding.</li> <li>Identify and describe the different types of business process automation.</li> <li>Assess which onboarding processes are most suitable for automation.</li> <li>Analyze common pitfalls in business process automation.</li> <li>Apply design thinking principles to enhance the onboarding experience.</li></ul>",
+        "image": "public/src/assets/img/digital_customer_onboarding/seamless_digital/order31.jpg"
       }, 
       {
         "order": 32,
+        "layout": "image righthand portion",
         "title": "Techniques to Achieve a Seamless Onboarding Experience",
         "subheader": "Process Automation in Onboarding", 
         "body": "<h4>What is Process Automation?</h4><p>Process automation refers to the use of software and technologies to streamline business processes and functions, aiming to achieve specific organizational goals. These goals can include tasks such as producing a product, hiring and onboarding employees, or delivering customer service.</p>",
-        "image": "src/assets/img/digital_customer_onboarding/seamless_digital/PMFIDS_DCO_SDC_order32.jpg"
+        "image": "public/src/assets/img/digital_customer_onboarding/seamless_digital/order32.jpg"
       }, 
       {
         "order": 33,
         "layout": "col-2",
         "title": "Techniques to Achieve a Seamless Onboarding Experience",
         "subheader": "Process Automation in Onboarding", 
-        "col1": "<h4>Types of Business Process Automation</h4> <h5>Robotic Process Automation</h5> <p>Robotic Process Automation (RPA) is designed to automate high-volume, routine administrative tasks, enhancing accuracy and reducing costs. Unlike a basic Excel macro that repetitively executes the same set of instructions, RPA can perform various actions across multiple systems. It processes information and transmits that information to other digital systems, allowing for a broad range of applications. For instance, an insurance company can utilize RPA to streamline the payment process for its insurance brokers in relation to each policy sold.</p> <p>Software can retrieve insurance premium data online and verify the sales data for errors. In a call center setting, RPA can automatically track packages and request customer information for representatives. However, RPA does not replace call center agents entirely; instead, it simplifies their tasks, allowing them to focus on more pressing issues, such as providing better service to their customers. </p>",  
-        "col2": "<h5>Cognitive Automation</h5> <p>Cognitive automation, also referred to as machine learning, involves teaching computers to identify patterns within large volumes of data. This form of recognition automation can detect various patterns, whether it's recognizing a face in a photo or analyzing common shopping habits. These applications utilize algorithms to make predictions based on the identified patterns. For example, on Amazon.com, customers can view recommendations based on their previous searches or purchases, effectively creating a new potential shopping list for them.</p> <h5>Workflow Automation</h5> <p>Workflow automation employs a series of actions to streamline steps within a business process. By adopting workflow software, managers gain a high-level overview of task delegation. Presented as a task map, this software illustrates who is responsible for each task, when tasks are due, and where they should be directed afterward. With this tool, teams can easily identify their responsibilities and know whom to report to, allowing them to spend more time on productive work and less on administrative tasks and paperwork.</p>", 
-        "image": "src/assets/img/digital_customer_onboarding/seamless_digital/PMFIDS_DCO_SDC_order33.jpg"
+        "col1": "<h4>Types of Business Process Automation</h4> <h5>Robotic Process Automation</h5> <p>Robotic Process Automation (RPA) is designed to automate high-volume, routine administrative tasks, enhancing accuracy and reducing costs. Unlike a basic Excel macro that repetitively executes the same set of instructions, RPA can perform various actions across multiple systems. It processes information and transmits that information to other digital systems, allowing for a broad range of applications.</p>",  
+        "col2": "<h5>Cognitive Automation</h5> <p>Cognitive automation, also referred to as machine learning, involves teaching computers to identify patterns within large volumes of data. This form of recognition automation can detect various patterns, whether it's recognizing a face in a photo or analyzing common shopping habits. These applications utilize algorithms to make predictions based on the identified patterns.</p> <h5>Workflow Automation</h5> <p>Workflow automation employs a series of actions to streamline steps within a business process. By adopting workflow software, managers gain a high-level overview of task delegation. Presented as a task map, this software illustrates who is responsible for each task, when tasks are due, and where they should be directed afterward. With this tool, teams can easily identify their responsibilities and know whom to report to, allowing them to spend more time on productive work and less on administrative tasks and paperwork.</p>"
       },
       {
         "order": 34,
@@ -310,8 +324,8 @@
         "layout": "col-2",
         "title": "Techniques to Achieve a Seamless Onboarding Experience",
         "subheader": "Process Automation in Onboarding", 
-        "col1": "<h4>Common Mistakes in Business Process Automation</h4> <p>While automating business processes offers significant advantages, it can also present serious challenges. Many issues tend to arise later in the process, so taking a proactive approach during the initial stages can help the organization prevent common pitfalls.</p> <img src='src/assets/img/digital_customer_onboarding/seamless_digital/PMFIDS_DCO_SDC_order36.jpg'> <p>Proactive approaches to avoid common mistakes in BPA:</p> <h4>1. Clearly communicate the benefits of business process automation to employees</h4> <ul> <li>Although BPA has been demonstrated to enhance many existing roles, there may be concerns about job displacement. Such fears can lead to anxiety among employees and potentially result in resistance to the company's automation initiatives. To address these concerns, organizations should engage in open communication with their staff, providing detailed information on how their roles will be impacted. By fostering transparency and keeping employees informed from the outset, the organization can encourage buy-in and alleviate fears regarding automation.</li> </ul>", 
-        "col2": "<h4>2. Focus on au tomating specific tasks rather than entire job roles</h4> <ul> <li>Attempting to automate an entire position is not advisable; instead, organizations should concentrate on how automation can enhance particular aspects of an employee's work. The goal of automation should be to provide tools that simplify tasks, rather than to replace the individual with a machine. Adopting a mindset that emphasizes automating specific functions rather than the entire job will lead to more successful implementations.</li> <li>After all, human oversight and judgment are irreplaceable. Before proceeding with automation, the company must ensure that all processes are thoroughly documented. This requires a team to interview employees to identify and record the full scope of their responsibilities. If the organization fails to accurately map out each step in a process, the outcome of the automation initiative may be disorganized and ineffective. Engaging the right expertise is essential to define all tasks involved in a process, establish the correct sequence of tasks, and determine the desired output. Taking these steps can help prevent unsuccessful attempts at process automation and contribute to a smoother implementation.</li> </ul> <h4>3. Fix the flaws before automation</h4> <ul> <li>Avoid automating flawed processes. Instead, focus on improving inefficient business processes prior to automation. Automating a problematic process may only worsen existing issues. To optimize the process, a team of experts should identify and eliminate any bottlenecks that hinder efficiency, such as redundant operations or unnecessary tasks. The organization can achieve this by establishing process standards and procedures for evaluation.</li> </ul>" 
+        "col1": "<h4>Common Mistakes in Business Process Automation</h4> <p>While automating business processes offers significant advantages, it can also present serious challenges. Many issues tend to arise later in the process, so taking a proactive approach during the initial stages can help the organization prevent common pitfalls.</p> <img src='public/src/assets/img/digital_customer_onboarding/seamless_digital/order36.jpg'> <p>Proactive approaches to avoid common mistakes in BPA:</p> <h4>1. Clearly communicate the benefits of business process automation to employees</h4> <p>Organizations should engage in open communication with their staff, providing detailed information on how their roles will be impacted. By fostering transparency and keeping employees informed from the outset, the organization can encourage buy-in and alleviate fears regarding automation.</p>", 
+        "col2": "<h4>2. Focus on automating specific tasks rather than entire job roles</h4> <p>The goal of automation should be to provide tools that simplify tasks, rather than to replace the individual with a machine. Adopting a mindset that emphasizes automating specific functions rather than the entire job will lead to more successful implementations.</p> <p>After all, human oversight and judgment are irreplaceable. Before proceeding with automation, the company must ensure that all processes are thoroughly documented. This requires a team to interview employees to identify and record the full scope of their responsibilities. Engaging the right expertise is essential to define all tasks involved in a process, establish the correct sequence of tasks, and determine the desired output. Taking these steps can help prevent unsuccessful attempts at process automation and contribute to a smoother implementation.</p> <h4>3. Fix the flaws before automation</h4> <p>Focus on improving inefficient business processes prior to automation. To optimize the process, a team of experts should identify and eliminate any bottlenecks that hinder efficiency, such as redundant operations or unnecessary tasks. The organization can achieve this by establishing process standards and procedures for evaluation.</p>" 
       }, 
       {
         "order": 37,
@@ -319,7 +333,7 @@
         "title": "Techniques to Achieve a Seamless Onboarding Experience",
         "subheader": "Design Thinking Approach to Better Understand Customer Needs", 
         "col1": "<h4>What is Design Thinking?</h4> <p>Tim Brown, the CEO of IDEO, defines design thinking as a discipline that uses the designer's sensibility and methods to match people's needs with what is technologically feasible and what a viable business strategy can convert into customer value and market opportunity </p>", 
-        "col2": "<p>Design Thinking Guiding Principles</p> <img src='src/assets/img/digital_customer_onboarding/seamless_digital/PMFIDS_DCO_SDC_order37.jpg'>"         
+        "col2": "<p>Design Thinking Guiding Principles</p> <img src='public/src/assets/img/digital_customer_onboarding/seamless_digital/order37.jpg'>"         
       }, 
       {
         "order": 38,
@@ -335,20 +349,42 @@
         "layout": "col-2",
         "title": "Techniques to Achieve a Seamless Onboarding Experience",
         "subheader": "Design Thinking Approach to Better Understand Customer Needs", 
-        "col1": "<h4>Design Thinking Process</h4> <img src='src/assets/img/digital_customer_onboarding/seamless_digital/PMFIDS_DCO_SDC_order39.jpg'> <p>Design Thinking is a human-centered approach to innovation aimed at optimizing and transforming businesses. It relies on an iterative process known as the micro cycle. Depending on the maturity of a project, we utilize various tools that correspond to specific phases: Empathize, Define, Ideate, Prototype, and Test. The Empathize and Define phases are crucial steps in the overall Design Thinking process, as the development of ideas and prototypes is grounded in understanding customers' needs and desires. If prototypes are already created, we can move directly to testing them with potential customers.</p>",  
+        "col1": "<h4>Design Thinking Process</h4> <img src='public/src/assets/img/digital_customer_onboarding/seamless_digital/order39.jpg'> <p>Design Thinking is a human-centered approach to innovation aimed at optimizing and transforming businesses. It relies on an iterative process known as the micro cycle. Depending on the maturity of a project, we utilize various tools that correspond to specific phases: Empathize, Define, Ideate, Prototype, and Test. The Empathize and Define phases are crucial steps in the overall Design Thinking process, as the development of ideas and prototypes is grounded in understanding customers' needs and desires. If prototypes are already created, we can move directly to testing them with potential customers.</p>",  
         "col2": "<h4>First Phase of Design Thinking Process</h4> <h5>Empathize</h5> <p>Before generating ideas for new or improved products or services, teams must thoroughly understand the needs and desires of their target customers. This requires us to empathize with them. Why is this important? To create a human-centered design, to gain insight into the customers' experiences, and to demonstrate that we care about their lives. Engage in open conversations, explore what captures their interest, seek out stories to uncover their needs, and draw meaningful insights from these interactions.</p>"
       },
       {
         "order": 40,
-        "layout": "col-3",
+        "layout": "col-1",
         "title": "Techniques to Achieve a Seamless Onboarding Experience",
         "subheader": "Design Thinking Approach to Better Understand Customer Needs", 
-        "col1": "<h4>Methods to Empathize with Customers</h4> <h5>Interviews</h5> <p>Through qualitative design exploration, teams can develop empathy for their customers. Techniques such as interviews, observations, or immersions—where team members step into the customers' shoes—enable a deeper understanding of customer needs and realities. During qualitative interviews, it is essential to grasp the specific circumstances of the interviewee and to gather original quotes that reflect their experiences.</p> <p>Tips when conducting interviews:</p> <ul> <li>Observe the body language</li> <li>Use open ended questions</li> <li>Ask one question at a time</li> <li>Allow time and space for stories to unfold </li> <li>Stay neutral to avoid influencing the user</li> </ul> <img src='src/assets/img/digital_customer_onboarding/seamless_digital/PMFIDS_DCO_SDC_order40_0.jpg'><h5>Empathy Map</h5> <p>An empathy map is a valuable tool for gaining a deeper understanding of customers. This framework helps uncover insights into their experiences by exploring all senses. Key questions to consider include: What does the customer think and feel? What do they see and hear? What actions do they take and what do they say? What are their pains and gains? </p>", 
-        "col2": "<img src='src/assets/img/digital_customer_onboarding/seamless_digital/PMFIDS_DCO_SDC_order40_1.jpg'><h5>User Journey Map</h5> <p>The user journey illustrates a customer's interactions with a specific problem, product, business, or process over time. It captures both direct and indirect touchpoints, assessing them as positive or negative experiences. If multiple users or personas are involved, it is beneficial to create separate user journeys for each persona. The user journey can later be utilized to inform the Service Prototyping method that will be discussed.</p>", 
-        "col3": "<img src='src/assets/img/digital_customer_onboarding/seamless_digital/PMFIDS_DCO_SDC_order40_2.jpg'><h5>Stakeholder Map</h5> <p>The stakeholder map is a method used to illustrate the various groups of individuals connected to a specific problem. It also explores the relationships among these groups. The Do the Pig method exemplifies how different stakeholders perceive the same issue differently; for instance, a vegetarian may view the pig as an abused animal, while a farmer sees it as livestock, and a butcher views it in terms of its meat. After identifying all stakeholders related to the problem, draw lines between them to represent their connections, as well as their relationship to the issue at hand. Label these connecting lines to describe the nature of the relationships between stakeholders. It is essential to document both the positive and negative perceptions held by stakeholders.</p>"
+        "col1": "<h4>Methods to Empathize with Customers</h4> <h5>Interviews</h5> <p>Through qualitative design exploration, teams can develop empathy for their customers. Techniques such as interviews, observations, or immersions—where team members step into the customers' shoes—enable a deeper understanding of customer needs and realities. During qualitative interviews, it is essential to grasp the specific circumstances of the interviewee and to gather original quotes that reflect their experiences.</p> <p>Tips when conducting interviews:</p> <ul> <li>Observe the body language</li> <li>Use open ended questions</li> <li>Ask one question at a time</li> <li>Allow time and space for stories to unfold </li> <li>Stay neutral to avoid influencing the user</li> </ul>"
       }, 
       {
         "order": 41,
+        "layout": "image righthand portion",
+        "title": "Techniques to Achieve a Seamless Onboarding Experience",
+        "subheader": "Design Thinking Approach to Better Understand Customer Needs",
+        "body": "<h4>Methods to Emphatize with Customers</h4> <h5>Empathy Map</h5> <p>An empathy map is a valuable tool for gaining a deeper understanding of customers. This framework helps uncover insights into their experiences by exploring all senses. Key questions to consider include: What does the customer think and feel? What do they see and hear? What actions do they take and what do they say? What are their pains and gains? </p>",
+        "image": "public/src/assets/img/digital_customer_onboarding/seamless_digital/order41.jpg"
+      },
+      {
+        "order": 42,
+        "layout": "image righthand portion",
+        "title": "Techniques to Achieve a Seamless Onboarding Experience",
+        "subheader": "Design Thinking Approach to Better Understand Customer Needs",
+        "body": "<h4>Methods to Emphatize with Customers</h4> <h5>User Journey Map</h5> <p>The user journey illustrates a customer's interactions with a specific problem, product, business, or process over time. It captures both direct and indirect touchpoints, assessing them as positive or negative experiences. If multiple users or personas are involved, it is beneficial to create separate user journeys for each persona. The user journey can later be utilized to inform the Service Prototyping method that will be discussed.</p>",
+        "image": "public/src/assets/img/digital_customer_onboarding/seamless_digital/order40_1.jpg"
+      },
+      {
+        "order": 43,
+        "layout": "image righthand portion",
+        "title": "Techniques to Achieve a Seamless Onboarding Experience",
+        "subheader": "Design Thinking Approach to Better Understand Customer Needs",
+        "body": "<h5>Stakeholder Map</h5> <p>The stakeholder map is a method used to illustrate the various groups of individuals connected to a specific problem. It also explores the relationships among these groups. The Do the Pig method exemplifies how different stakeholders perceive the same issue differently; for instance, a vegetarian may view the pig as an abused animal, while a farmer sees it as livestock, and a butcher views it in terms of its meat. After identifying all stakeholders related to the problem, draw lines between them to represent their connections, as well as their relationship to the issue at hand. Label these connecting lines to describe the nature of the relationships between stakeholders. It is essential to document both the positive and negative perceptions held by stakeholders.</p>",
+        "image": "public/src/assets/img/digital_customer_onboarding/seamless_digital/order43.jpg"
+      },
+      {
+        "order": 44,
         "layout": "col-2",
         "title": "Techniques to Achieve a Seamless Onboarding Experience",
         "subheader": "Design Thinking Approach to Better Understand Customer Needs", 
@@ -356,25 +392,55 @@
         "col2": "<h4>Methods to Use on Define Phase</h4> <h5>Nugget Framing</h5> <p>When dealing with a large number of post-it notes, Nugget Framing is a useful technique for capturing team members' initial gut feelings. It also aids the team in filtering through the extensive information collected and honing in on the most intriguing insights. Utilize a frame to emphasize the information you consider to be the most interesting, concerning, promising, or otherwise noteworthy.</p>"
       }, 
       {
-        "order": 42,
-        "layout": "col-3",
+        "order": 45,
+        "layout": "image righthand portion",
         "title": "Techniques to Achieve a Seamless Onboarding Experience",
         "subheader": "Design Thinking Approach to Better Understand Customer Needs", 
-        "col1": "<h4>Methods to Use on Define Phase</h4> <img src='src/assets/img/digital_customer_onboarding/seamless_digital/PMFIDS_DCO_SDC_order42_0.jpg'> <h5>Persona</h5> <p>A persona is a fictional character developed by the team that combines various traits from real customers the team has interacted with, such as those encountered during interviews. This persona serves as a representation of the customer and personifies the customer group for which you are designing. It aids in recognizing patterns and synthesizing the characteristics of the individuals you aim to design for. To iteratively refine the persona, you can utilize the Empathy Map that you may have created during the Empathize phase.</p>", 
-        "col2": "<img src='src/assets/img/digital_customer_onboarding/seamless_digital/PMFIDS_DCO_SDC_order42_1.jpg'><h5>User Profile Canvas</h5> <p>The user profile canvas is a tool used to assess whether a particular product meets the needs of the personas. On one side, it includes a brief description of the persona, while on the other side, it outlines the tasks the persona needs to accomplish and how using your product or service affects their pains and gains. This canvas can also be integrated into the user journey that was discussed during the Empathize phase.</p>", 
-        "col3": "<img src='src/assets/img/digital_customer_onboarding/seamless_digital/PMFIDS_DCO_SDC_order42_2.jpg'><h5>Point of View</h5> <p>The user profile canvas is a tool used to assess whether a particular product meets the needs of the personas. On one side, it includes a brief description of the persona, while on the other side, it outlines the tasks the persona needs to accomplish and how using your product or service affects their pains and gains. This canvas can also be integrated into the user journey that was discussed during the Empathize phase.</p>"
+        "body": "<h4>Methods to Use on Define Phase</h4> <h5>Persona</h5> <p>A persona is a fictional character developed by the team that combines various traits from real customers the team has interacted with, such as those encountered during interviews. This persona serves as a representation of the customer and personifies the customer group for which you are designing. It aids in recognizing patterns and synthesizing the characteristics of the individuals you aim to design for. To iteratively refine the persona, you can utilize the Empathy Map that you may have created during the Empathize phase.</p>", 
+        "image": "public/src/assets/img/digital_customer_onboarding/seamless_digital/order45.jpg"
       },
       {
-        "order": 43,
-        "layout": "col-3",
+        "order": 46,
+        "layout": "image righthand portion",
+        "title": "Techniques to Achieve a Seamless Onboarding Experience",
+        "subheader": "Design Thinking Approach to Better Understand Customer Needs", 
+        "body": "<h4>Methods to Use on Define Phase</h4> <h5>User Profile Canvas</h5> <p>The user profile canvas is a tool used to assess whether a particular product meets the needs of the personas. On one side, it includes a brief description of the persona, while on the other side, it outlines the tasks the persona needs to accomplish and how using your product or service affects their pains and gains. This canvas can also be integrated into the user journey that was discussed during the Empathize phase.</p>",
+        "image": "public/src/assets/img/digital_customer_onboarding/seamless_digital/order46.jpg"
+      },
+      {
+        "order": 47,
+        "layout": "image righthand portion",
+        "title": "Techniques to Achieve a Seamless Onboarding Experience",
+        "subheader": "Design Thinking Approach to Better Understand Customer Needs", 
+        "body": "<h4>Methods to Use on Define Phase</h4> <h5>Point of View</h5> <p>The user profile canvas is a tool used to assess whether a particular product meets the needs of the personas. On one side, it includes a brief description of the persona, while on the other side, it outlines the tasks the persona needs to accomplish and how using your product or service affects their pains and gains. This canvas can also be integrated into the user journey that was discussed during the Empathize phase.</p>",
+        "image": "public/src/assets/img/digital_customer_onboarding/seamless_digital/order47.jpg"
+      },
+      {
+        "order": 48,
+        "layout": "image righthand portion",
+        "title": "Techniques to Achieve a Seamless Onboarding Experience",
+        "subheader": "Design Thinking Approach to Better Understand Customer Needs", 
+        "col1": "<h4>Methods to Use on Define Phase</h4> <h5>Point of View</h5> <p>The user profile canvas is a tool used to assess whether a particular product meets the needs of the personas. On one side, it includes a brief description of the persona, while on the other side, it outlines the tasks the persona needs to accomplish and how using your product or service affects their pains and gains. This canvas can also be integrated into the user journey that was discussed during the Empathize phase.</p>",
+        "image": "public/src/assets/img/digital_customer_onboarding/seamless_digital/order48.jpg"
+      },
+      {
+        "order": 49,
+        "layout": "col-2",
         "title": "Techniques to Achieve a Seamless Onboarding Experience",
         "subheader": "Design Thinking Approach to Better Understand Customer Needs", 
         "col1": "<h4>Methods to Use on Define Phase</h4> <h5>Problem Definition</h5> <p>Once you have developed your Point of View, you can begin to formulate questions that start with How might we.... These questions should serve as a foundation for brainstorming sessions. They should be broad enough to encourage a variety of solutions but not so broad that they lack focus for specific solutions. Ensure that the How might we... questions are grounded in the observations you gathered during the Empathize phase. Generate as many HMW questions as possible and choose one to pursue before entering the Ideate phase. You can do this by having team members vote on the problem they want to address or by selecting a few questions and working on each one in groups during the subsequent phases.</p><ul> <li>Too narrow: “How might we create a cone to eat ice cream without dripping?”</li> <li>Too broad: “How might we redesign dessert?”</li> <li>Better scoping of the question: “How might we redesign ice cream to be more portable?”</li> </ul>", 
-        "col2": "<h4>Third Phase of Design Thinking Process</h4> <h5>Ideate</h5> <p>In the ideation phase, the team transitions from the problem space to the solution space, where insights are transformed into ideas. However, customer insights should not constrain the creativity of the ideas generated. Ideas emerge when teams have developed a profound understanding of their customers and their needs and desires. Each idea, as well as combinations of ideas, has the potential to become a solution in the future. Within Design Thinking, it is essential to differentiate between the generation of ideas and the evaluation of those ideas. At the outset of the Ideate phase, the focus is solely on generating ideas.</p>", 
-        "col3": "<h5>There are several golden rules that have been shown to enhance the effectiveness of brainstorming sessions, where quality is prioritized over quantity.</h5><img src='src/assets/img/digital_customer_onboarding/seamless_digital/PMFIDS_DCO_SDC_order43_1.jpg.jpg'>"
+        "col2": "<h4>Third Phase of Design Thinking Process</h4> <h5>Ideate</h5> <p>In the ideation phase, the team transitions from the problem space to the solution space, where insights are transformed into ideas. However, customer insights should not constrain the creativity of the ideas generated. Ideas emerge when teams have developed a profound understanding of their customers and their needs and desires. Each idea, as well as combinations of ideas, has the potential to become a solution in the future. Within Design Thinking, it is essential to differentiate between the generation of ideas and the evaluation of those ideas. At the outset of the Ideate phase, the focus is solely on generating ideas.</p>"
+      },
+      {
+        "order": 50,
+        "layout": "image righthand portion",
+        "title": "Techniques to Achieve a Seamless Onboarding Experience",
+        "subheader": "Design Thinking Approach to Better Understand Customer Needs",
+        "body": "<h5>There are several golden rules that have been shown to enhance the effectiveness of brainstorming sessions, where quality is prioritized over quantity.</h5>",
+        "image": "public/src/assets/img/digital_customer_onboarding/seamless_digital/order50.jpg"
       }, 
       {
-        "order": 44,
+        "order": 51,
         "layout": "col-3",
         "title": "Techniques to Achieve a Seamless Onboarding Experience",
         "subheader": "Design Thinking Approach to Better Understand Customer Needs", 
@@ -383,70 +449,127 @@
         "col3": "<h4>Brainstorming</h4><p>Brainstorming is perhaps the most recognized technique for generating ideas and serves as an effective method for teams to develop new concepts. As previously mentioned, questions that begin with How might we... provide an excellent starting point for this process.</p><p>Some of the brainstorming methods include:</p> <ul> <li>Via Negative Brainstorming - Team members brainstorm ideas that would not solve the problem but rather exacerbate it. This technique helps to deepen the understanding of the problem and is sometimes followed by a positive brainstorming session.</li> <li>Moonshot Brainstorming - Participants are encouraged to think 50 years into the future, envisioning ideas that are ten times bigger while disregarding current limitations. Wild and imaginative ideas are welcomed. Everyone notes their ideas and shares them aloud, posting them on the whiteboard.</li> <li>Building on the Idea of Others - This is an important principle in the Design Thinking. Team members should aim to expand upon each other's ideas. Each person takes turns presenting one idea, and then every team member adds something to it on the whiteboard.</li> </ul>"
       }, 
       {
-        "order": 45,
-        "layout": "col-3",
+        "order": 52,
+        "layout": "image righthand portion",
         "title": "Techniques to Achieve a Seamless Onboarding Experience",
         "subheader": "Design Thinking Approach to Better Understand Customer Needs", 
-        "col1": "<h4>Walt Disney Method</h4><img src='src/assets/img/digital_customer_onboarding/seamless_digital/PMFIDS_DCO_SDC_order45_0.jpg'> <p>The Walt Disney method is a role-playing technique that allows for examining a problem from multiple perspectives:</p> <ul> <li>A dreamer's</li> <li>A realist's</li> <li>A critic's perspective</li> </ul> <p>Each role is associated with a uniquely designed room that enhances the thinking and emotions relevant to that role. With the central problem in focus, the dreamer generates visions and ideas. Following this, the realist evaluates these ideas to assess their feasibility. Finally, the critic scrutinizes the realist's approaches to identify any potential mistakes.</p>", 
-        "col2": "<h4>Power of Ten</h4> <img src='src/assets/img/digital_customer_onboarding/seamless_digital/PMFIDS_DCO_SDC_order45_1.jpg'> <p>The Stretching Ideas of Power of Ten exercise involves examining a problem at different levels of expansion and contraction. If a team finds itself stuck during brainstorming, this technique can help stimulate creative thinking. For example, one might ask, What would the solution look like with a budget of one million euros? or How might the solution change if only fifty euros were available?</p> <p>Choose one idea per person AND..</p> <ul> <li>Combine it with another one</li> <li>Turn it into its opposite</li> <li>Enlarge it</li> <li>Diminish it</li> </ul>", 
-        "col3": "<h4>The Six Thinking Hats</h4> <img src='src/assets/img/digital_customer_onboarding/seamless_digital/PMFIDS_DCO_SDC_order45_2.jpg'> <p>The Six Thinking Hats, also known as Lateral Thinking, is a technique designed to examine problems and questions from various perspectives in a structured and systematic manner. Each of the six hats represents a different perspective to consider when addressing a problem. Team members are assigned a specific hat, which corresponds to a type of thinking and perspective they must adopt during the discussion. Remember to capture your ideas on post-its. Instead of using the Walt Disney characters, you can also choose famous individuals or people you know personally. For instance, consider how Mark Zuckerberg might approach a particular problem or how your mom would tackle the issue.</p>"       
+        "body": "<h4>Walt Disney Method</h4> <p>The Walt Disney method is a role-playing technique that allows for examining a problem from multiple perspectives:</p> <ul> <li>A dreamer's</li> <li>A realist's</li> <li>A critic's perspective</li> </ul> <p>Each role is associated with a uniquely designed room that enhances the thinking and emotions relevant to that role. With the central problem in focus, the dreamer generates visions and ideas. Following this, the realist evaluates these ideas to assess their feasibility. Finally, the critic scrutinizes the realist's approaches to identify any potential mistakes.</p>", 
+        "image": "public/src/assets/img/digital_customer_onboarding/seamless_digital/order52.jpg"     
       }, 
       {
-        "order": 46,
-        "layout": "col-3",
+        "order": 53,
+        "layout": "image righthand portion",
+        "title": "Techniques to Achieve a Seamless Onboarding Experience",
+        "subheader": "Design Thinking Approach to Better Understand Customer Needs",
+        "body": "<h4>Power of Ten</h4> <p>The Stretching Ideas of Power of Ten exercise involves examining a problem at different levels of expansion and contraction. If a team finds itself stuck during brainstorming, this technique can help stimulate creative thinking. For example, one might ask, What would the solution look like with a budget of one million euros? or How might the solution change if only fifty euros were available?</p> <p>Choose one idea per person AND..</p> <ul> <li>Combine it with another one</li> <li>Turn it into its opposite</li> <li>Enlarge it</li> <li>Diminish it</li> </ul>",
+        "image": "public/src/assets/img/digital_customer_onboarding/seamless_digital/order53.jpg"
+      },
+      {
+        "order": 54,
+        "layout": "image righthand portion",
+        "title": "Techniques to Achieve a Seamless Onboarding Experience",
+        "subheader": "Design Thinking Approach to Better Understand Customer Needs",
+        "body": "<h4>The Six Thinking Hats</h4> <p>The Six Thinking Hats, also known as Lateral Thinking, is a technique designed to examine problems and questions from various perspectives in a structured and systematic manner. Each of the six hats represents a different perspective to consider when addressing a problem. Team members are assigned a specific hat, which corresponds to a type of thinking and perspective they must adopt during the discussion. Remember to capture your ideas on post-its. Instead of using the Walt Disney characters, you can also choose famous individuals or people you know personally. For instance, consider how Mark Zuckerberg might approach a particular problem or how your mom would tackle the issue.</p>",
+        "image": "public/src/assets/img/digital_customer_onboarding/seamless_digital/order54.jpg"
+      },
+      {
+        "order": 55,
+        "layout": "image righthand portion",
         "title": "Techniques to Achieve a Seamless Onboarding Experience",
         "subheader": "Design Thinking Approach to Better Understand Customer Needs", 
-        "col1": "<h4>Selecting Ideas</h4><img src='src/assets/img/digital_customer_onboarding/seamless_digital/PMFIDS_DCO_SDC_order46.jpg'> <p>It is only during the selection of ideas for prototyping that we begin to evaluate them. At this stage, you can set aside the ground rule of deferring judgment. Consider the following criteria: How technically feasible is the idea? What would be the production costs? Would customers be enthusiastic about the idea?</p>", 
-        "col2": "<h4>Sketching Ideas</h4><p>Sketching the chosen idea is a valuable step for the team to further develop the concept selected for prototyping. This involves sitting down with paper and pen to visually represent the ideas. Don't hesitate to be creative and get visual. Establishing a common understanding of the details of any idea is crucial. Thus, sketching ideas serves as a bridge to the next phase, which focuses on realizing the critical functions of the idea in a prototype.</p>",  
-        "col3": "<h4>Fourth Phase of Design Thinking Process</h4><h5>Prototype</h5><p>Prototypes are tangible representations of ideas and assumptions that enable others to experience these concepts firsthand. They serve as an effective means of communicating understanding and intent in a cost-efficient manner. Additionally, the prototyping process allows for the playful and creative combination of ideas through multiple iterations, facilitating continuous feedback.</p>"
+        "body": "<h4>Selecting Ideas</h4> <p>It is only during the selection of ideas for prototyping that we begin to evaluate them. At this stage, you can set aside the ground rule of deferring judgment. Consider the following criteria: How technically feasible is the idea? What would be the production costs? Would customers be enthusiastic about the idea?</p>", 
+        "image": "public/src/assets/img/digital_customer_onboarding/seamless_digital/order55.jpg"
+      },
+      {
+        "order": 56,
+        "layout": "col-2",
+        "title": "Techniques to Achieve a Seamless Onboarding Experience",
+        "subheader": "Design Thinking Approach to Better Understand Customer Needs",
+        "col1": "<h4>Sketching Ideas</h4><p>Sketching the chosen idea is a valuable step for the team to further develop the concept selected for prototyping. This involves sitting down with paper and pen to visually represent the ideas. Don't hesitate to be creative and get visual. Establishing a common understanding of the details of any idea is crucial. Thus, sketching ideas serves as a bridge to the next phase, which focuses on realizing the critical functions of the idea in a prototype.</p>",
+        "col2": "<h4>Fourth Phase of Design Thinking Process</h4><h5>Prototype</h5><p>Prototypes are tangible representations of ideas and assumptions that enable others to experience these concepts firsthand. They serve as an effective means of communicating understanding and intent in a cost-efficient manner. Additionally, the prototyping process allows for the playful and creative combination of ideas through multiple iterations, facilitating continuous feedback.</p>"
       }, 
       {
-        "order": 47,
-        "layout": "col-3",
+        "order": 57,
+        "layout": "col-2",
         "title": "Techniques to Achieve a Seamless Onboarding Experience",
         "subheader": "Design Thinking Approach to Better Understand Customer Needs", 
         "col1": "<h4>Different Ways to Prototype</h4><h5>Roleplay</h5> <ul> <li>Present the solution through the user’s perspective</li> <li>Focus on conveying the essence of the idea rather than striving for perfection; Feeling the idea is key, not flawless execution.</li> <li>Utilize role play to illustrate the impact of your idea, such as depicting a day in the life of your persona.</li> </ul> <h5>Storytelling</h5> <ul> <li>Designate one storyteller instead of having a group of actors.</li> <li>The speaker interacts with the audience during the performance, allowing for a personalized flow of the story.</li> </ul> <p>Scenarios and stories can be presented in multiple ways. Alongside oral storytelling, these narratives can be communicated through written text or visual formats like pictures, animations, or videos. Written stories are advantageous for testing prototypes across various locations. Visual stories, which may include images and text, help improve understanding. However, the creation of animations and videos tends to be intricate and is typically utilized only for high-resolution prototypes.</p>", 
-        "col2": "<h4>Storyboards</h4><img src='src/assets/img/digital_customer_onboarding/seamless_digital/PMFIDS_DCO_SDC_order47_0.jpg'><p>Storyboards help bring your solution to life by visualizing it through sketches, enabling viewers to understand the complete experience a user may have with a product or service. You can use storyboards in their original form or as a foundation for role play or storytelling. Identify key messages in written form for each role or for the storyteller and rehearse the presentation or narrative multiple times to enhance delivery.</p>",  
-        "col3": "<h4>Paper wireframes</h4><img src='src/assets/img/digital customer onboarding/Seamless DCO/PMFIDS_DCO_SDC_order47_1.jpg'><p>Paper wireframes are useful for showcasing functionality and can be easily created with traditional tools such as pen and paper. They serve as a basic outline of your solution or product. Remember, the emphasis should be on essential functionalities and screen flow rather than achieving perfect screenshots.</p>"
+        "col2": "<h5>Storytelling</h5> <ul> <li>Designate one storyteller instead of having a group of actors.</li> <li>The speaker interacts with the audience during the performance, allowing for a personalized flow of the story.</li> </ul> <p>Scenarios and stories can be presented in multiple ways. Alongside oral storytelling, these narratives can be communicated through written text or visual formats like pictures, animations, or videos. Written stories are advantageous for testing prototypes across various locations. Visual stories, which may include images and text, help improve understanding. However, the creation of animations and videos tends to be intricate and is typically utilized only for high-resolution prototypes.</p>"
       },
       {
-        "order": 48,
-        "layout": "col-3",
+        "order": 58,
+        "layout": "image righthand portion",
         "title": "Techniques to Achieve a Seamless Onboarding Experience",
         "subheader": "Design Thinking Approach to Better Understand Customer Needs", 
-        "col1": "<h5>Service Prototype</h5> <p>Service blueprinting provides a structured and uniform way to describe service prototypes. A service blueprint comprises several components: </p><ul> <li>Physical indications: for an activity as evidence for a service action (e.g., website)</li> <li>Customer activities:describe all actions that a customer conducts during a process or service</li> <li>Frontstage activities: stand opposite of the customer activities and are conducted by the service provider</li> <li>Backstage activities: activities in direct causal relation to the single customer that the service provider conducts for the customer but are invisible to the customer</li> <li>Supporting activities and systems:contain all relevant steps but are not connected to the case under investigation </li> </ul> ", 
-        "col2": "<h5>Business Model Visualization</h5><img src='src/assets/img/digital_customer_onboarding/seamless_digital/PMFIDS_DCO_SDC_order48.jpg'><p>Business Model Prototypes illustrate the relationships between customers, producers, deliverers, and other stakeholders. The goal is to systematically present the business connections and motivations among those involved. One of the most recognized frameworks is the Business Model Canvas created by Osterwalder, Pigneur, and Clark. This model effectively promotes transparency and aids in analyzing complex business models. However, it can sometimes be perceived as too technocratic for testing ideas, making it difficult for testers and customers to fully understand the implications of the nine dimensions. As a result, more context-specific business model prototypes are developed during Design Thinking projects. These prototypes visualize connections using sketches, scribbles, or other materials, allowing the canvas to be tailored to the specific business or customer context.</p>",  
-        "col3": "<h4>Fifth Phase of Design Thinking Process</h4><h5>Test</h5><p>Testing prototype is an essential part of the Design Thinking process. Each prototype serves as a representation of the team's current knowledge and assumptions. To gather more insights, the team must regularly challenge these assumptions and use the feedback to inform future iterations.</p>"
+        "body": "<h4>Storyboards</h4><img src='src/assets/img/digital_customer_onboarding/seamless_digital/PMFIDS_DCO_SDC_order47_0.jpg'><p>Storyboards help bring your solution to life by visualizing it through sketches, enabling viewers to understand the complete experience a user may have with a product or service. You can use storyboards in their original form or as a foundation for role play or storytelling. Identify key messages in written form for each role or for the storyteller and rehearse the presentation or narrative multiple times to enhance delivery.</p>",
+        "image": "public/src/assets/img/digital_customer_onboarding/seamless_digital/order58.jpg"
+      },
+      {
+        "order": 59,
+        "layout": "image righthand portion",
+        "title": "Techniques to Achieve a Seamless Onboarding Experience",
+        "subheader": "Design Thinking Approach to Better Understand Customer Needs",
+        "body": "<h4>Paper wireframes</h4><p>Paper wireframes are useful for showcasing functionality and can be easily created with traditional tools such as pen and paper. They serve as a basic outline of your solution or product. Remember, the emphasis should be on essential functionalities and screen flow rather than achieving perfect screenshots.</p>",
+        "image": "public/src/assets/img/digital_customer_onboarding/seamless_digital/order59.jpg"
+      },
+      {
+        "order": 60,
+        "layout": "col-1",
+        "title": "Techniques to Achieve a Seamless Onboarding Experience",
+        "subheader": "Design Thinking Approach to Better Understand Customer Needs", 
+        "col1": "<h5>Service Prototype</h5> <p>Service blueprinting provides a structured and uniform way to describe service prototypes. A service blueprint comprises several components: </p><ul> <li>Physical indications: for an activity as evidence for a service action (e.g., website)</li> <li>Customer activities:describe all actions that a customer conducts during a process or service</li> <li>Frontstage activities: stand opposite of the customer activities and are conducted by the service provider</li> <li>Backstage activities: activities in direct causal relation to the single customer that the service provider conducts for the customer but are invisible to the customer</li> <li>Supporting activities and systems:contain all relevant steps but are not connected to the case under investigation </li> </ul>"
       }, 
       {
-        "order": 49,
+        "order": 61,
+        "layout": "image righthand portion",
+        "title": "Techniques to Achieve a Seamless Onboarding Experience",
+        "subheader": "Design Thinking Approach to Better Understand Customer Needs",
+        "body": "<h5>Business Model Visualization</h5><img src='src/assets/img/digital_customer_onboarding/seamless_digital/PMFIDS_DCO_SDC_order48.jpg'><p>Business Model Prototypes illustrate the relationships between customers, producers, deliverers, and other stakeholders. The goal is to systematically present the business connections and motivations among those involved. One of the most recognized frameworks is the Business Model Canvas created by Osterwalder, Pigneur, and Clark. This model effectively promotes transparency and aids in analyzing complex business models. However, it can sometimes be perceived as too technocratic for testing ideas, making it difficult for testers and customers to fully understand the implications of the nine dimensions. As a result, more context-specific business model prototypes are developed during Design Thinking projects. These prototypes visualize connections using sketches, scribbles, or other materials, allowing the canvas to be tailored to the specific business or customer context.</p>",
+        "image": "public/src/assets/img/digital_customer_onboarding/seamless_digital/order61.jpg"
+      },
+      {
+        "order": 62,
         "layout": "col-3",
         "title": "Techniques to Achieve a Seamless Onboarding Experience",
         "subheader": "Design Thinking Approach to Better Understand Customer Needs", 
-        "col1": "<h5>Digital Analytics</h5> <p>Both quantitative and qualitative data inputs offer valuable insights and assist in validating products or services on a larger scale, while also providing information on emerging trends.</p>", 
+        "col1": "<h4>Fifth Phase of Design Thinking Process</h4><h5>Test</h5><p>Testing prototype is an essential part of the Design Thinking process. Each prototype serves as a representation of the team's current knowledge and assumptions. To gather more insights, the team must regularly challenge these assumptions and use the feedback to inform future iterations.</p> <h5>Digital Analytics</h5> <p>Both quantitative and qualitative data inputs offer valuable insights and assist in validating products or services on a larger scale, while also providing information on emerging trends.</p>", 
         "col2": "<h5>Consumer Clinics</h5><p>In consumer clinics, products and services are presented to customers who represent the future target demographic. Both new and established products can be showcased during these sessions. The process is generally divided into three stages: preparation, execution, and evaluation. Throughout these phases, testers complete surveys to express their opinions on the products and services. This feedback is then used for a detailed analysis. The number of participants can range from 10 to 100. Unlike focus groups, where products are still being developed, consumer clinics feature fully functional offerings. These clinics not only capture testers' opinions but also demonstrate how they utilize and engage with the products or services.</p>",  
         "col3": "<h5>A/B Testing</h5><p>A/B tests are a quantitative approach used to assess the impact of minor design modifications. They involve comparing the live performance of one or more design variations against an existing design and statistically identifying the most effective option. This method is a powerful tool for informing design decisions. Through A/B testing, you can effectively communicate and illustrate the impact of design changes to stakeholders.</p>"
       }, 
       {
-        "order": 50,
-        "layout": "col-3",
+        "order": 63,
+        "layout": "col-2",
         "title": "Techniques to Achieve a Seamless Onboarding Experience",
         "subheader": "Design Thinking Approach to Better Understand Customer Needs", 
         "col1": "<h5>Usability Testing</h5> <p>Usability Testing encompasses techniques in which testers interact with a product or service under specific, predetermined conditions. In this method, testers are required to complete a designated task using the product or service. Throughout the testing process, all movements, steps, and actions are monitored and documented using cameras or specialized software.</p><h6>Cognitive Flow</h6> <p>Emphasizes the cognitive processing that testers experience while interacting with the product or service. Particularly in software, decisions made in seconds can determine whether a product is perceived as valuable.</p> <h6>Activity Analysis</h6> <p>This approach examines the overall user behavior of testers when using the product or service. In formal analysis, technical tools are employed to record and document the entire activity flow, while informal analysis involves a straightforward observation followed by an evaluation of strengths and weaknesses.</p> <h6>Loud Thinking</h6> <p>Testers verbalize their thoughts as they navigate the system, expressing what they intend to do next. This allows an observer present during the testing to gain insights into the tester's thought process and document their cognitive experience.</p> <h6>Questioning</h6> <p>This is an indirect usability testing technique that does not involve the product or service being evaluated. It utilizes both qualitative and quantitative questions to gather insights.</p>", 
-        "col2": "<h5>Diary Studies</h5><p>In diary studies, participants are requested to document their natural behaviors related to a specific subject, service, or product over a designated period. The findings from these diaries are usually examined in follow-up interviews to confirm conclusions. This approach helps you gain insights into your customers' needs and requirements, assess how well your concept fits into their lives, and identify opportunities for new or enhanced services or products.</p>",  
-        "col3": "<h5>Feedback Grid</h5><p>The feedback grid enables you to systematically collect feedback from testers, organizing it in a way that makes it ready for use in the next iteration.</p><img src='src/assets/img/digital_customer_onboarding/seamless_digital/PMFIDS_DCO_SDC_order50.jpg'>"
+        "col2": "<h5>Diary Studies</h5><p>In diary studies, participants are requested to document their natural behaviors related to a specific subject, service, or product over a designated period. The findings from these diaries are usually examined in follow-up interviews to confirm conclusions. This approach helps you gain insights into your customers' needs and requirements, assess how well your concept fits into their lives, and identify opportunities for new or enhanced services or products.</p>"
+      },
+      {
+        "order": 64,
+        "layout": "image righthand portion",
+        "title": "Techniques to Achieve a Seamless Onboarding Experience",
+        "subheader": "Design Thinking Approach to Better Understand Customer Needs",
+        "body": "<h5>Feedback Grid</h5><p>The feedback grid enables you to systematically collect feedback from testers, organizing it in a way that makes it ready for use in the next iteration.</p>",
+        "image": "public/src/assets/img/digital_customer_onboarding/seamless_digital/order64.jpg"
       }, 
       {
-        "order": 51,
-        "layout": "col-3",
+        "order": 65,
+        "layout": "image righthand portion",
         "title": "Techniques to Achieve a Seamless Onboarding Experience",
         "subheader": "Analytical Methods for an Effective Analysis of Customer Insights", 
-        "col1": "<h4>What is Data Analytics?</h4> <img src='src/assets/img/digital_customer_onboarding/seamless_digital/PMFIDS_DCO_SDC_order51_0.jpg'><p>The practice of data analytics involves scrutinizing data to answer pertinent questions, identify emerging trends, and derive valuable insights. When applied in a business context, this discipline is often termed business analytics. Analysts can utilize a range of tools, frameworks, and software—including Microsoft Excel, Power BI, Google Charts, Data Wrapper, Infogram, Tableau, and Zoho Analytics—to facilitate their data analysis efforts. These tools enable the examination of data from various angles and the creation of visualizations that clarify the narrative being presented.</p><p>Additionally, algorithms and machine learning are essential components of data analytics, allowing for the rapid collection, sorting, and analysis of data beyond human capacity. While proficiency in writing algorithms is a more advanced aspect of data analytics, it is not necessary to possess deep coding or statistical modeling knowledge to benefit from data-driven decision-making.</p>", 
-        "col2": "<h5>Types of Data Analytics</h5><img src='src/assets/img/digital_customer_onboarding/seamless_digital/PMFIDS_DCO_SDC_order51_1.jpg'><h6>Descriptive Analytics</h6><p>Descriptive analytics refers to an analytical approach that summarizes and outlines the principal features of a data set. It facilitates a general understanding of the data while also revealing patterns and trends, such as the correlations among variables and changes that occur over time. By establishing a clear comprehension of the data and its significant attributes, descriptive analytics lays the groundwork for more complex analyses, including predictive analytics and machine learning. This approach is commonly applied in business intelligence, market research, and other domains where data is plentiful and necessitates thorough investigation and understanding.</p><p>Answers questions like:</p> <ul> <li>What was our sales performance for the previous year?</li> <li>What products generated the highest sales?</li> <li>Who are our most valuable customers?</li> <li>In which region of the country did we achieve the highest sales?</li> <li>How many hours did each employee work last month?</li> <li>What is our quarterly, yearly, monthly, or weekly marketing expenditure?</li> </ul>",  
-        "col3": "<h6>Descriptive Analytics</h6><p>Some common techniques used in descriptive analytics include:</p><ul> <li>Summarization - This technique involves calculating summary statistics, such as means, medians, and standard deviations, to outline the key characteristics of the data.</li> <li>Visualization - This method employs charts, graphs, and plots to represent the data visually, aiding in the identification of patterns and trends.</li> <li>Filtering - This approach selectively removes or includes data points based on specific criteria to derive insights into particular subgroups within the broader data set.</li> <li>Aggregation - This technique combines data from various sources or aggregates data at different levels of granularity to achieve a more comprehensive view of the data.</li> <li>Outlier detection - This process focuses on identifying unusual or extreme values within the data that may need further examination.</li> </ul>"
+        "body": "<h4>What is Data Analytics?</h4> <p>The practice of data analytics involves scrutinizing data to answer pertinent questions, identify emerging trends, and derive valuable insights. When applied in a business context, this discipline is often termed business analytics. Analysts can utilize a range of tools, frameworks, and software—including Microsoft Excel, Power BI, Google Charts, Data Wrapper, Infogram, Tableau, and Zoho Analytics—to facilitate their data analysis efforts. These tools enable the examination of data from various angles and the creation of visualizations that clarify the narrative being presented.</p><p>Additionally, algorithms and machine learning are essential components of data analytics, allowing for the rapid collection, sorting, and analysis of data beyond human capacity. While proficiency in writing algorithms is a more advanced aspect of data analytics, it is not necessary to possess deep coding or statistical modeling knowledge to benefit from data-driven decision-making.</p>", 
+        "image": "public/src/assets/img/digital_customer_onboarding/seamless_digital/order65.jpg"
+      },
+      {
+        "order": 66,
+        "layout": "image righthand portion",
+        "title": "Techniques to Achieve a Seamless Onboarding Experience",
+        "subheader": "Analytical Methods for an Effective Analysis of Customer Insights",
+        "body": "<h5>Types of Data Analytics</h5> <p>Descriptive analytics refers to an analytical approach that summarizes and outlines the principal features of a data set. It facilitates a general understanding of the data while also revealing patterns and trends, such as the correlations among variables and changes that occur over time. By establishing a clear comprehension of the data and its significant attributes, descriptive analytics lays the groundwork for more complex analyses, including predictive analytics and machine learning. This approach is commonly applied in business intelligence, market research, and other domains where data is plentiful and necessitates thorough investigation and understanding.</p><p>Answers questions like:</p> <ul> <li>What was our sales performance for the previous year?</li> <li>What products generated the highest sales?</li> <li>Who are our most valuable customers?</li> <li>In which region of the country did we achieve the highest sales?</li> <li>How many hours did each employee work last month?</li> <li>What is our quarterly, yearly, monthly, or weekly marketing expenditure?</li> </ul>",
+        "image": "public/src/assets/img/digital_customer_onboarding/seamless_digital/order66.jpg"
       }, 
       {
-        "order": 52,
+        "order": 67,
         "layout": "col-3",
         "title": "Techniques to Achieve a Seamless Onboarding Experience",
         "subheader": "Analytical Methods for an Effective Analysis of Customer Insights", 
@@ -455,16 +578,16 @@
         "col3": "<p>Predictive Analytics can be used in:</p><ul> <li>Fraud Detection - Predictive analytics can be utilized to uncover fraudulent activities in financial transactions, including credit card purchases and insurance claims, by analyzing transaction data for patterns and anomalies. Predictive algorithms can flag suspicious activities for further examination by analysts.</li> <li>Demand Forecasting - Predictive analytics can forecast the demand for products or services by leveraging historical data and considering external factors such as seasonality, weather conditions, and economic indicators. Accurate demand forecasts assist companies in managing inventory, supply chain logistics, and pricing strategies.</li> <li>Risk Modeling - Predictive analytics is useful for quantifying and managing risks associated with investments, loans, or business decisions by analyzing comprehensive data on previous losses and related factors while utilizing statistical models. It can estimate the probability of future losses and inform risk management strategies.</li> <li>Marketing Campaign Optimization - Predictive analytics can optimize marketing efforts determining which customer segments are most likely to respond to specific messages and offers through analyzing data from past campaigns and customer interactions. It can suggest the most effective channels, messaging, and frequency for future campaigns.</li>  </ul>"
       },
       {
-        "order": 53,
+        "order": 68,
         "layout": "col-3",
         "title": "Techniques to Achieve a Seamless Onboarding Experience",
         "subheader": "Analytical Methods for an Effective Analysis of Customer Insights", 
         "col1": "<h6>Prescriptive Analytics</h6><p>Prescriptive analytics is a type of advanced analytics that surpasses descriptive and predictive analytics by delivering recommendations or solutions to problems or opportunities derived from data analysis. It utilizes optimization algorithms and mathematical modeling techniques to determine the optimal solution while adhering to specific constraints and objectives. I The aim of prescriptive analytics is to optimize key metrics, such as profit, by forecasting not only future outcomes but also the timing of these outcomes and the underlying factors contributing to them.</p><p>Prescriptive Analytics Use Cases:</p> <ul> <li>Portfolio optimization - A financial institution may utilize prescriptive analytics to enhance its investment portfolio by identifying the ideal asset mix to maximize returns while reducing risk.</li> <li>Production planning - A manufacturer might apply prescriptive analytics to plan its production processes to maximize profitability by determining the most effective sequence of production orders, factoring in constraints such as material availability, machinery capacity, and delivery deadlines.</li> <li>Network optimization - A telecom operator could utilize prescriptive analytics to optimize its network infrastructure by identifying the best locations for cell site switches and routers to ensure maximum coverage and capacity while minimizing expenses.</li> <li>Resource allocation - A hospital might employ prescriptive analytics to strategically allocate limited resources, including beds, ventilators, and staff, in order to provide the best possible patient care while minimizing expenses and reducing wait time </li> </ul>", 
         "col2": "<h6>Social Media Analytics</h6><p>Social media analytics is the ability to gather and find meaning in data gathered from social channels to support business decisions—and measure the performance of actions based on those decisions through social media.</p><p>Social media analytics involves analyzing from various data sources such as:</p> <ul> <li>Social media platforms - Data is gathered directly from various social media platforms, including Facebook, Twitter, LinkedIn, Instagram, and YouTube.</li> <li>Listening tools - These tools help in monitoring discussions on social media related to a brand, specific hashtags, keywords, or competitors.</li> <li>Web analytics - Web analytics tools offer insights into website traffic, user behavior, and conversion rates.</li> <li>CRM systems - Customer relationship management (CRM) systems store information about customer interactions, including those that take place on social media.</li> </ul>",  
-        "col3": "<h6>Social Media Analytics</h6><p>Why social media analytics important?</p><p>With the prevalence of social media: News of a great product can spread like wildfire. And news about a bad product — or a bad experience with a customer service rep — can spread just as quickly. Consumers are now holding organizations to account for their brand promises and sharing their experiences with friends, co-workers and the public at large. </p><p>Social media analytics helps companies address these experiences and use them to: </p><ul> <li>Spot trends related to offerings and brands</li> <li>Understand conversations — what is being said and how it is being received</li> <li>Derive customer sentiment towards products and services</li> <li>Gauge response to social media and other communications</li> <li>Identify high-value features for a product or service</li> <li>Uncover what competitors are saying and its effectiveness</li> <li>Map how third-party partners and channels may affect performance</li>   </ul>"
+        "col3": "<h6>Social Media Analytics</h6><p>Why social media analytics important?</p><p>With the prevalence of social media: News of a great product can spread like wildfire. And news about a bad product — or a bad experience with a customer service rep — can spread just as quickly. Consumers are now holding organizations to account for their brand promises and sharing their experiences with friends, co-workers and the public at large. </p><p>Social media analytics helps companies address these experiences and use them to: </p><ul> <li>Spot trends related to offerings and brands</li> <li>Understand conversations — what is being said and how it is being received</li> <li>Derive customer sentiment towards products and services</li> <li>Gauge response to social media and other communications</li> <li>Identify high-value features for a product or service</li> <li>Uncover what competitors are saying and its effectiveness</li> <li>Map how third-party partners and channels may affect performance</li> </ul>"
       },  
       {
-        "order": 54,
+        "order": 69,
         "layout": "col-3",
         "title": "Techniques to Achieve a Seamless Onboarding Experience",
         "subheader": "Analytical Methods for an Effective Analysis of Customer Insights", 
@@ -473,16 +596,23 @@
         "col3": "<h5>Audience Demographics</h5><p>This involves analyzing the age, gender, location, and other attributes of a social media audience to gain insights into their characteristics.</p><h5>Sentiment Analysis</h5><p>This involves examining the emotions conveyed in social media posts, categorizing them as positive, negative, or neutral. Additionally, it includes monitoring specific hashtags to assess their popularity and relevance within the online discourse.</p><h5>Follower Growth Rate</h5><p>Tracking the quantity of new followers gained within a specific timeframe.</p><h5>Sentiment Analysis</h5><ul> <li>Also known as opinion mining or sentiment mining, this branch of natural language processing (NLP) focuses on the computational analysis of sentiments, opinions, and subjective elements expressed in written content.</li> <li>Its primary purpose is to automatically identify and quantify the emotions, attitudes, and opinions articulated in text, categorizing them as positive, negative, neutral, or mixed.</li> <li>Sentiment analysis has many applications in different fields, including market research, customer feedback analysis, social media monitoring, and product review analysis.</li> <li>It helps organizations to gain insights into customers preferences, needs, and concerns, which can be instrumental in enhancing their products, services, and overall customer experience.</li> </ul>"
       },  
       {
-        "order": 55,
-        "layout": "col-2",
+        "order": 70,
+        "layout": "image righthand portion",
         "title": "Techniques to Achieve a Seamless Onboarding Experience",
         "subheader": "Analytical Methods for an Effective Analysis of Customer Insights", 
-        "col1": "<h4>Use of Social Media Analytics at Toyota</h4><p>In 2011, Toyota began exploring social media monitoring and sentiment analysis tools. After several years of research, they found that by filtering for keywords such as Lexus, decide, buy, and BMW, they could swiftly identify active shoppers who were weighing their options between Toyota and competing brands.</p><p>Now, Toyota employs social media data analysis across various departments, including sales, service, quality, marketing, and product development. For instance, when a customer shows interest in a vehicle, Toyota assesses engagement by analyzing the frequency of dealership visits through platforms like Facebook, WhatsApp, Foursquare, or WeChat check-ins. They also evaluate the customer’s dealership experience via these applications and identify features that may have attracted the customer to a competitor's product.</p>", 
-        "col2": "<h4>Use of Social Media Analytics at Toyota</h4><p>With this data, Toyota segments its leads according to their readiness to purchase, promoting stronger leads up the sales funnel while pushing weaker ones down. By examining free-form text, Toyota can understand customer perceptions of specific vehicles. For quality concerns, they can seek information on whether new car owners are experiencing issues like a slight rattle, which can be relayed to quality control engineers.</p><p>Toyota utilizes sentiment analysis to enhance the precision of its sales forecasts. Additionally, the company seeks to gain a deeper insight into its customers' other interests, such as the favorite television shows of Camry owners and the brands they may prefer. This understanding can assist in future product placements and brand collaborations.</p>", 
-        "image": "src/assets/img/digital_customer_onboarding/seamless_digital/PMFIDS_DCO_SDC_order55.jpg"
+        "body": "<h4>Use of Social Media Analytics at Toyota</h4><p>In 2011, Toyota began exploring social media monitoring and sentiment analysis tools. After several years of research, they found that by filtering for keywords such as Lexus, decide, buy, and BMW, they could swiftly identify active shoppers who were weighing their options between Toyota and competing brands.</p><p>Now, Toyota employs social media data analysis across various departments, including sales, service, quality, marketing, and product development. For instance, when a customer shows interest in a vehicle, Toyota assesses engagement by analyzing the frequency of dealership visits through platforms like Facebook, WhatsApp, Foursquare, or WeChat check-ins. They also evaluate the customer’s dealership experience via these applications and identify features that may have attracted the customer to a competitor's product.</p>", 
+        "image": "public/src/assets/img/digital_customer_onboarding/seamless_digital/order70.jpg"
       },  
       {
-        "order": 56,
+        "order": 71,
+        "layout": "image righthand portion",
+        "title": "Techniques to Achieve a Seamless Onboarding Experience",
+        "subheader": "Analytical Methods for an Effective Analysis of Customer Insights",
+        "body": "<h4>Use of Social Media Analytics at Toyota</h4><p>With this data, Toyota segments its leads according to their readiness to purchase, promoting stronger leads up the sales funnel while pushing weaker ones down. By examining free-form text, Toyota can understand customer perceptions of specific vehicles. For quality concerns, they can seek information on whether new car owners are experiencing issues like a slight rattle, which can be relayed to quality control engineers.</p><p>Toyota utilizes sentiment analysis to enhance the precision of its sales forecasts. Additionally, the company seeks to gain a deeper insight into its customers' other interests, such as the favorite television shows of Camry owners and the brands they may prefer. This understanding can assist in future product placements and brand collaborations.</p>",
+        "image": "public/src/assets/img/digital_customer_onboarding/seamless_digital/order70.jpg"
+      },
+      {
+        "order": 72,
         "layout": "col-3",
         "title": "Techniques to Achieve a Seamless Onboarding Experience",
         "subheader": "Staff Training on Onboarding Customers", 
@@ -491,7 +621,7 @@
         "col3": "<h4>6. Continuous Learning and Improvement</h4> <ul> <li>Ongoing Training: Offer refresher courses and advanced training sessions to keep staff updated on new products and onboarding techniques.</li> <li>Knowledge Sharing: Create a platform for staff to share experiences, challenges, and solutions related to customer onboarding.</li> <li>Mentorship Programs: Establish mentorship opportunities for continuous support and development.</li> </ul> <h4>7. Recognition and Incentives</h4> <ul> <li>Incentive Programs: Implement recognition programs to reward staff who excel in customer onboarding, encouraging a culture of excellence.</li> <li>Career Development: Provide opportunities for career advancement for staff who demonstrate strong onboarding skills.</li> </ul> <h4>8. Monitoring and Reporting</h4> <ul> <li>Track Progress: Use performance metrics to monitor the effectiveness of the training program and make necessary adjustments.</li> <li>Regular Reviews: Conduct regular reviews of the training program to ensure it remains relevant and effective.</li> </ul>"
       },  
       {
-        "order": 57,
+        "order": 73,
         "layout": "col-3",
         "title": "Techniques to Achieve a Seamless Onboarding Experience",
         "subheader": "Reaching the Unbanked Through Customer Education on Digital Financial Literacy", 
@@ -500,7 +630,7 @@
         "col3": "<h4>6. Measuring Success</h4> <ul> <li>Feedback Mechanisms: Implement surveys and feedback loops to assess the effectiveness of educational programs.</li> <li>Tracking Engagement: Monitor the increase in digital banking usage among participants to evaluate the impact of education.</li> </ul> <h4>7. Collaboration with Financial Institutions</h4> <ul> <li>Partnerships: Collaborate with banks and fintech companies to create products that are accessible and beneficial for the unbanked.</li> <li>Incentives: Encourage financial institutions to offer incentives for unbanked individuals to participate in educational programs and open accounts.</li> </ul>"
       },  
       {
-        "order": 58,
+        "order": 74,
         "layout": "col-3",
         "title": "Techniques to Achieve a Seamless Onboarding Experience",
         "subheader": "Setting up the Onboarding Timeline and Customer Expectations", 
@@ -509,7 +639,7 @@
         "col3": "<p>Ongoing (Month 1 and beyond):</p> <ul> <li>Conduct regular check-ins via phone or email to ensure customer satisfaction.</li> <li>Offer personalized financial advice based on customer needs and goals.</li> <li>Gather feedback on the onboarding experience and make improvements.</li> </ul> <p>Access and Setup</p> <ul> <li>Guide customers through setting up online banking and mobile app access.</li> <li>Offer tutorials on using digital banking features (e.g., fund transfers, bill payments).</li> <li>Introduce security features and best practices for online banking.</li> </ul> <p>Product Education</p> <ul> <li>Schedule a one-on-one consultation to discuss additional banking products (e.g., loans, credit cards).</li> <li>Provide educational resources, such as brochures or webinars, on financial literacy.</li> <li>Encourage customers to ask questions and clarify any doubts.</li> </ul>"
       },  
       {
-        "order": 59,
+        "order": 75,
         "layout": "col-2",
         "title": "Techniques to Achieve a Seamless Onboarding Experience",
         "subheader": "Setting up the Onboarding Timeline and Customer Expectations", 
@@ -517,7 +647,7 @@
         "col2": "<h4>6. Gather Feedback</h4> <p>Incorporate feedback mechanisms at various stages of the onboarding process. This can include:</p> <ul> <li>Surveys after account opening and product education sessions.</li> <li>One-on-one interviews to understand customer experiences and pain points.</li> <li>Continuous improvement based on feedback to enhance the onboarding process.</li> </ul> <h4>7. Measure Success</h4> <p>Define key performance indicators (KPIs) to measure the success of the onboarding process. Common KPIs for banks include:</p> <ul> <li>Customer satisfaction scores (CSAT).</li> <li>Time taken to complete account opening and setup.</li> <li>Usage metrics for online banking services.</li> <li>Retention rates after the onboarding period.</li> </ul>"
       },  
       {
-        "order": 60,
+        "order": 76,
         "title": "Knowledge Check",
         "body": "This involves teaching computers to identify patterns within large volumes of data and utilizes algorithms to make predictions based on the identified patterns.",
         "image":"src/assets/img/general images/KnowledgeCheck.jpg", 
@@ -531,29 +661,30 @@
         "q_answer": "B"
       },
       {
-        "order": 61,
+        "order": 77,
         "title": "Lesson Summary",
-        "body": "<h2>Congratulations on completing Lesson 2 of this module!</h2> <p>Now that you have completed this lesson, you should be able to:</p> <ul> <li>The key benefits of business process automation (BPA) in onboarding, including cost reduction, error minimization, enhanced process visibility, and the ability to handle large data volumes efficiently.</li> <li>Identify and describe the different types of business process automation, including Robotic Process Automation (RPA), cognitive automation, and workflow automation, and their respective applications in streamlining onboarding processes.</li> <li>Assess which onboarding processes are most suitable for automation by identifying predictable and repetitive tasks, while understanding the limitations of automation in customer-facing roles.</li> <li>Analyze common pitfalls in business process automation, such as automating flawed processes or failing to communicate the benefits to employees and develop strategies to mitigate these risks.</li> <li>Apply design thinking principles to enhance the onboarding experience through process automation, focusing on empathy, iterative prototyping, and user feedback to ensure that automated solutions meet customer needs effectively.</li>  </ul>", 
+        "body": "<h2>Congratulations on completing Lesson 3 of this module!</h2> <p>Now that you have completed this lesson, you should be able to:</p> <ul> <li>The key benefits of business process automation (BPA) in onboarding, including cost reduction, error minimization, enhanced process visibility, and the ability to handle large data volumes efficiently.</li> <li>Identify and describe the different types of business process automation, including Robotic Process Automation (RPA), cognitive automation, and workflow automation, and their respective applications in streamlining onboarding processes.</li> <li>Assess which onboarding processes are most suitable for automation by identifying predictable and repetitive tasks, while understanding the limitations of automation in customer-facing roles.</li> <li>Analyze common pitfalls in business process automation, such as automating flawed processes or failing to communicate the benefits to employees and develop strategies to mitigate these risks.</li> <li>Apply design thinking principles to enhance the onboarding experience through process automation, focusing on empathy, iterative prototyping, and user feedback to ensure that automated solutions meet customer needs effectively.</li>  </ul>", 
         "image":"src/assets/img/general images/LessonSummary.jpg"
       }, 
       {
-        "order": 62,
+        "order": 78,
         "title": "Module Summary",
         "body": "<p>Now that you have completed this module, you should be able to</p><ul> <li>Describe various customer onboarding approaches including the branch, digital, and omnichannel approach.</li> <li>Understand the significance of digital customer onboarding on customer experience.</li> <li>Identify different automation technologies to optimize onboarding processes and the proactive approaches to avoid the common mistakes in business process automation.</li> <li>Recognize various strategies to implement the omnichannel approach effectively and achieve a seamless customer experience.</li> </ul>", 
         "image":"src/assets/img/general images/ModuleSummary.jpg"
       },
       {
-        "order": 63,
+        "order": 79,
         "title": "Module Completion",
-        "body": "<h4>Congratulations on completing the Change Management Lessons module!</h4><p>You have now gained valuable insights in onboarding customers. As you move forward, remember the importance of digital customer onboarding in enhancing customer experience and the role of automation technologies in streamlining your processes. By applying the proactive strategies discussed, you can avoid common pitfalls in business process automation and ensure a smoother onboarding journey for your customers. We encourage you to implement the effective omnichannel strategies learned in this module to create a seamless and cohesive experience across all customer touchpoints. Thank you for your engagement, and we wish you success in your onboarding endeavors!</p><p>We hope that this module has equipped you with the knowledge in innovating your digital customer onboarding process.</p>", 
+        "subheader": "Congratulations on completing the Seamless Digital Customer Onboarding module!",
+        "body": "<p>You have now gained valuable insights in onboarding customers. As you move forward, remember the importance of digital customer onboarding in enhancing customer experience and the role of automation technologies in streamlining your processes. By applying the proactive strategies discussed, you can avoid common pitfalls in business process automation and ensure a smoother onboarding journey for your customers. We encourage you to implement the effective omnichannel strategies learned in this module to create a seamless and cohesive experience across all customer touchpoints. Thank you for your engagement, and we wish you success in your onboarding endeavors!</p><p>We hope this module has equipped you with the knowledge in innovating your digital customer onboarding process.</p>", 
         "image":"src/assets/img/general images/ModuleCompletion.jpg"
       },
       {
-        "order": 64,
+        "order": 80,
         "title": "Module Post-Examination",
         "exams": [{
-        "exam_id": 1,
-            "title": "Module Post-examination",
+        "exam_id": 9,
+            "title": "Module Post-Examination",
             "body": "This assessment is designed to test your knowledge. Results of this  assessment will be used to structure the workshop.",
             "questions": [{
                     "q_number": 1,
