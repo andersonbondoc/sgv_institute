@@ -1,6 +1,6 @@
 [{
   "id": 6,
-  "moduleId": "PMFIDS_PREPARE",
+  "moduleId": "CM_PREPARE",
   "moduleName": "Change Management: Prepare Approach",
   "type": "course",
   "sections": [
@@ -15,7 +15,7 @@
       "order": 2,
       "title": "Module Pre-Examination",
       "exams": [{
-      "exam_id": 1,
+          "exam_id": 6,
           "title": "Module Pre-examination",
           "body": "This assessment is designed to test your knowledge. Results of this  assessment will be used to structure the workshop.",
           "questions": [{
@@ -59,7 +59,7 @@
     {
       "order": 3,
       "title": "Module Credit and Completion Requirements and Learning Objective",
-      "body": "<h2>Credit and Completion Requirements</h2><ul><li>To receive proper learning credit and achieve the learning objectives, you must not skip any screens</li><li>Complete all interactions</li><li>Complete all practice questions</li><li>Pass the final assessment with at least 70%</li><li>You must complete the assessment alone. Using answers received from others, including any form of artificial intelligence, to complete an assessment is cheating.</li></ul><br /><p>Please note that this learning will expire by April 25, 2025. You must complete and pass all of the scored portions of this module within this period, or your related learning progress will be removed.</p><h2>Module Learning Objectives</h2><p>Upon successful completion of the module, you will be able to:</p> <ul> <li>Demonstrate the essential skills and knowledge required to effectively serve as Change Managers on projects.</li> <li>Understand key change management concepts, theories, and frameworks, with a focus on the human side of change.</li> <li>Create a powerful purpose, vision, and case for change to effectively communicate the rationale behind the initiative.</li> <li>Define key change management metrics for success to measure the effectiveness of the change initiative.</li> <li>Evaluate stakeholder insights for impactful change, ensuring that their needs and concerns are addressed.</li> <li>Perform change impact assessment to identify potential challenges and opportunities for the change to be successful.</li> <li>Convert resistance into opportunity by understanding and addressing the concerns of stakeholders</li> </ul>", 
+      "body": "<h4>Credit and Completion Requirements</h4><p>To successfully earn credit and meet the learning objectives of this Web-Based Learning Application, it is essential to engage with every page, complete all knowledge checks, and complete the initial and final assessment independently. The assessment will require a 70% passing rate and while you are encouraged to refer to your notes of the course content during the assessment, any form of cheating is discouraged. Please also note that this course will expire by April 25, 2025.</p><h4>Module Learning Objectives</h4><p>Upon successful completion of the module, you will be able to:</p> <ul> <li>Demonstrate the essential skills and knowledge required to effectively serve as Change Managers on projects.</li> <li>Understand key change management concepts, theories, and frameworks, with a focus on the human side of change.</li> <li>Create a powerful purpose, vision, and case for change to effectively communicate the rationale behind the initiative.</li> <li>Define key change management metrics for success to measure the effectiveness of the change initiative.</li> <li>Evaluate stakeholder insights for impactful change, ensuring that their needs and concerns are addressed.</li> <li>Perform change impact assessment to identify potential challenges and opportunities for the change to be successful.</li> <li>Convert resistance into opportunity by understanding and addressing the concerns of stakeholders</li> </ul>", 
       "image":"src/assets/img/general images/CreditCompletionLearningObjectives.jpg"
     },
     {
@@ -67,20 +67,20 @@
       "title": "Change Management Lessons",
       "subheader": "Crafting a Powerful Purpose, Vision and Case for Change", 
       "body": "<h4>Module Overview</h4><h5>Learning Objective</h5> <p>At the end of this lesson, you will be able to:</p> <ul> <li>Understand the nature of change</li> <li>Asses the change initiative of the organization</li> </ul>",
-      "image": "src/assets/img/change management/Prepare/PMFIDS_CM_order4.jpg"
+      "image": "src/assets/img/change management/Prepare/order4.jpg"
     }, 
     {
       "order": 5,
       "title": "Change Management Lessons",
       "subheader": "On a Page", 
-      "image": "src/assets/img/change management/Prepare/PMFIDS_CM_order5.jpg"
+      "image": "src/assets/img/change management/Prepare/order5.jpg"
     },
     {
       "order": 6,
       "title": "Crafting a Powerful Purpose, Vision and Case for Change",
       "subheader": "Defining Changes | Understanding the Nature of Change",
       "body": "<p>Crafting a powerful purpose, vision, and case for change is a critical stage in change management that involves clearly articulating the reasons for the change and the desired future state. This stage helps to align stakeholders, inspire commitment, and create a shared understanding of the change initiative's significance and benefits.</p> <p>In an organizational context, change refers to the process of making alterations to the structure, operations, strategies, or culture of an organization. These three are the common types of organizational change:</p> <h4>Strategic Change</h4> <p>Changes that affect the overall direction of the organization, such as shifts in mission, vision, or business strategy.</p> <h4>Structural Change</h4> <p>Changes in the organizational structure, including modifications to reporting relationships, departmental reorganizations, or changes in job roles and responsibilities.</p> <h4>People Change</h4> <p>Changes related to the workforce, such as changes in leadership, workforce reductions, or shifts in roles and responsibilities. This may also include changes in recruitment and training practices.</p>", 
-      "image": "src/assets/img/change management/Prepare/PMFIDS_CM_order6.jpg"
+      "image": "src/assets/img/change management/Prepare/order6.jpg"
     },
     {
       "order": 7,
@@ -117,7 +117,7 @@
       "layout": "col-2",
       "title": "Crafting a Powerful Purpose, Vision and Case for Change",
       "subheader": "Defining Changes | Identifying the Need for Change", 
-      "col1": "<h4>Conducting a Needs Assessment to Determine the Necessity of Change </h4> <p>A needs assessment is a systematic process that identifies gaps between current conditions and desired outcomes, helping organizations evaluate the necessity for change. Key factors to observe during this assessment include: </p> <img src='src/assets/img/change management/Prepare/PMFIDS_CM_order10.jpg'>", 
+      "col1": "<h4>Conducting a Needs Assessment to Determine the Necessity of Change </h4> <p>A needs assessment is a systematic process that identifies gaps between current conditions and desired outcomes, helping organizations evaluate the necessity for change. Key factors to observe during this assessment include: </p> <img src='src/assets/img/change management/Prepare/order10.jpg'>", 
       "col2": "<h4>SWOT Analysis and its Importance to Change Initiative</h4> <p>A change initiative is essential for Change Managers as it offers a structured framework for managing organizational transitions. It enables effective communication of the change vision and benefits to stakeholders, mitigates resistance, fosters engagement, and allows for the measurement of progress and success, ensuring the change is sustainable and integrated into the organizational culture. </p>"  
     },
     {
@@ -125,8 +125,8 @@
       "layout": "col-2",
       "title": "Crafting a Powerful Purpose, Vision and Case for Change",
       "subheader": "Defining Changes | Identifying the Need for Change", 
-      "col1": "<h4>SWOT Analysis and its Importance to Change Initiative</h4> <p>SWOT Analysis plays a crucial role in change initiatives by providing a structured approach to understanding the factors that can influence the success or failure of the change. </p> <img src='src/assets/img/change management/Prepare/PMFIDS_CM_order11_0.jpg'>", 
-      "col2": "<h4>SWOT Analysis and its Importance to Change Initiative</h4> <img src='src/assets/img/change management/Prepare/PMFIDS_CM_order11_1.jpg'>"
+      "col1": "<h4>SWOT Analysis and its Importance to Change Initiative</h4> <p>SWOT Analysis plays a crucial role in change initiatives by providing a structured approach to understanding the factors that can influence the success or failure of the change. </p> <img src='src/assets/img/change management/Prepare/order11_0.jpg'>", 
+      "col2": "<h4>SWOT Analysis and its Importance to Change Initiative</h4> <img src='src/assets/img/change management/Prepare/order11_1.jpg'>"
     },
     {
       "order": 12, 
@@ -141,7 +141,7 @@
       "title": "Crafting a Powerful Purpose, Vision and Case for Change",
       "subheader": "Assessment of the Change | Scoping the Change", 
       "body": "<h4>Determining the Scope and Boundaries of the Change Initiative</h4><p>Defining the scope and boundaries of a change initiative is a vital step toward ensuring its success. The following key steps are recommended to define them: </p>", 
-      "image": "src/assets/img/change management/Prepare/PMFIDS_CM_order13.jpg"
+      "image": "src/assets/img/change management/Prepare/order13.jpg"
     },
     {
       "order": 14,
@@ -156,7 +156,7 @@
       "title": "Crafting a Powerful Purpose, Vision and Case for Change",
       "subheader": "Assessment of the Change | Developing a Case for Change", 
       "body": "Sample Template: Case for Change", 
-      "image":"src/assets/img/change management/Prepare/PMFIDS_CM_order15.jpg"
+      "image":"src/assets/img/change management/Prepare/order15.jpg"
     },
     {
       "order": 16,
@@ -183,28 +183,28 @@
       "title": "Change Management Lessons",
       "subheader": "Unlocking Key Change Management Metrics for Success", 
       "body": "<h4>Module Overview</h4> <h5>Learning Objective</h5> <p>At the end of this lesson, you will be able to:</p> <ul> <li>Define change management KPIs</li> <li>Understand the difference of metrics, KPIs, and performance indicators</li> </ul>",
-      "image": "src/assets/img/change management/Prepare/PMFIDS_CM_order18.jpg"
+      "image": "src/assets/img/change management/Prepare/order18.jpg"
     },
     {
       "order": 19,
       "title": "Crafting a Powerful Purpose, Vision and Case for Change",
       "subheader": "Defining Changes | Understanding the Nature of Change",
       "body": "<p>Crafting a powerful purpose, vision, and case for change is a critical stage in change management that involves clearly articulating the reasons for the change and the desired future state. This stage helps to align stakeholders, inspire commitment, and create a shared understanding of the change initiative's significance and benefits.</p> <p>In an organizational context, change refers to the process of making alterations to the structure, operations, strategies, or culture of an organization. These three are the common types of organizational change:</p> <h4>Strategic Change</h4> <p>Changes that affect the overall direction of the organization, such as shifts in mission, vision, or business strategy.</p> <h4>Structural Change</h4> <p>Changes in the organizational structure, including modifications to reporting relationships, departmental reorganizations, or changes in job roles and responsibilities.</p> <h4>People Change</h4> <p>Changes related to the workforce, such as changes in leadership, workforce reductions, or shifts in roles and responsibilities. This may also include changes in recruitment and training practices.</p>", 
-      "image": "src/assets/img/change management/Prepare/PMFIDS_CM_order19.jpg"
+      "image": "src/assets/img/change management/Prepare/order19.jpg"
     },
     {
       "order": 20,
       "title": "Defining Change Management KPIs",
       "subheader": "Overview of Key Performance Indicators (KPIs)", 
       "body": "<h4>Differences between KPIs, Metrics and Performance Indicators:</h4>", 
-      "image":"src/assets/img/change management/Prepare/PMFIDS_CM_order20.jpg"
+      "image":"src/assets/img/change management/Prepare/order20.jpg"
     },  
     {
       "order": 21,
       "title": "Defining Change Management KPIs",
       "subheader": "Overview of Key Performance Indicators (KPIs)", 
       "body": "<h4>KPIs in Change Management</h4><p>Change management KPIs are essential metrics that enable organizations to assess the effectiveness of their change initiatives. By measuring these indicators, businesses can evaluate the performance of their change processes and identify areas where employees may struggle to adapt to new methods. Addressing these challenges early helps prevent costly delays and disruptions in the future.</p>", 
-      "image":"src/assets/img/change management/Prepare/PMFIDS_CM_order21.jpg"    
+      "image":"src/assets/img/change management/Prepare/order21.jpg"    
     },
     {
       "order": 22,
@@ -225,7 +225,7 @@
       "title": "Defining Change Management KPIs",
       "subheader": "Overview of Key Performance Indicators (KPIs)", 
       "body": "<p>Sample KPIs</p> <h4>Data Accuracy Rate</h4> <ul> <li>KPI: Percentage of accurate customer data entries in the new CRM system.</li> <li>Target: Achieve a data accuracy rate of 95% within the first quarter after implementation.</li> </ul> <h4>User Adoption Rate</h4> <ul> <li>KPI: Percentage of employees actively using the new CRM system.</li> <li>Target: Reach an adoption rate of 90% among sales and customer service teams within two months of launch.</li> </ul> <h4>Time to Resolution</h4> <ul> <li>KPI: Average time taken to resolve customer inquiries or issues.</li> <li>Target: Reduce the average time to resolution by 30% within six months of implementing the new system.</li> </ul>", 
-      "image":"src/assets/img/change management/Prepare/PMFIDS_CM_order23.jpg"  
+      "image":"src/assets/img/change management/Prepare/order23.jpg"  
     },
     {
       "order": 24,
@@ -269,7 +269,7 @@
       "title": "Defining Change Management KPIs",
       "subheader": "Overview of Key Performance Indicators (KPIs)", 
       "body": "<h4>Common Types of Change Management KPIs</h4>", 
-      "image": "src/assets/img/change management/Prepare/PMFIDS_CM_order28.jpg"
+      "image": "src/assets/img/change management/Prepare/order28.jpg"
     },
     {
       "order": 29,
@@ -277,7 +277,7 @@
       "title": "Defining Change Management KPIs",
       "subheader": "Overview of Key Performance Indicators (KPIs)", 
       "col1": "<h4>Importance of a Benefits Realization Plan</h4> <p>Benefits Realization Plan</p> <ul> <li>A Benefits Realization Plan (BRP) is a structured approach in change management that ensures the anticipated benefits of a project or initiative are clearly defined, tracked, and achieved. It outlines how these benefits will be realized, measured, and sustained over time.</li> <li>By offering clarity, accountability, and a systematic method for measuring success, a BRP significantly increases the likelihood of successful change implementation and the long-term sustainability of benefits.</li> </ul>", 
-      "col2": "<img src='src/assets/img/change management/Prepare/PMFIDS_CM_order29.jpg'>"
+      "col2": "<img src='src/assets/img/change management/Prepare/order29.jpg'>"
     },
     {
       "order": 30,
@@ -290,13 +290,13 @@
       "title": "Change Management Lessons",
       "subheader": "Analyzing Stakeholders Insight for Impactful Change", 
       "body": "<h2>Module Overview</h2> <h4>Learning Objective</h4> <p>At the end of this lesson, you will be able to:</p> <ul> <li>Understand what is organizational assessment</li> <li>Identify and understand the concept of stakeholders</li> </ul>",
-      "image": "src/assets/img/change management/Prepare/PMFIDS_CM_order31.jpg"
+      "image": "src/assets/img/change management/Prepare/order31.jpg"
     },
     {
       "order": 32,
       "title": "Analyzing Stakeholders Insight for Impactful Change",
       "body": "Analyzing stakeholder insights is essential in change management, as it helps organizations understand the diverse perspectives, needs, and concerns of those affected by the change. This understanding allows for tailored strategies that foster buy-in and minimize resistance, leading to a more effective transformation.",
-      "image": "src/assets/img/change management/Prepare/PMFIDS_CM_order32.jpg"
+      "image": "src/assets/img/change management/Prepare/order32.jpg"
     },
     {
       "order": 33,
@@ -312,7 +312,7 @@
       "title": "Analyzing Stakeholders Insight for Impactful Change",
       "subheader": "Assessment of the Organization | Introduction to Organizational Assessment", 
       "body": "<h4>Key Components of an Organizational Assessment </h4>", 
-      "image": "src/assets/img/change management/Prepare/PMFIDS_CM_order34.jpg"
+      "image": "src/assets/img/change management/Prepare/order34.jpg"
     },
     {
       "order": 35,
@@ -328,7 +328,7 @@
       "title": "Analyzing Stakeholders Insight for Impactful Change",
       "subheader": "Assessment of the Organization | Organizational Culture Assessment", 
       "col1": "<h4>Identifying Cultural Strengths</h4> <h4>Employee Engagement</h4> <p>High employee engagement typically reflects a strong culture. Look for positive feedback in surveys and interviews regarding job satisfaction, commitment, and motivation.</p> <h4>Alignment with Values</h4> <p>Evaluate whether employees feel aligned with the organization's core values, noting strengths such as a shared sense of purpose and commitment to the mission.</p> <h4>Innovation and Adaptability</h4> <p>Identify areas where employees feel empowered to innovate and adapt. A culture that fosters creativity and risk-taking is a valuable asset.</p> <h4>Identifying Areas for Change</h4> <h4>Resistance to Change</h4> <p>Identify patterns of resistance among employees concerning new initiatives. Surveys and interviews can uncover concerns or skepticism about the changes.</p> <h4>Communication Gaps</h4> <p>Evaluate barriers to effective communication. Areas lacking transparency or where feedback is not encouraged may need improvement.</p> <h4>Inequality and Exclusion</h4> <p>Assess whether certain groups feel marginalized or excluded within the organization. Identifying gaps in diversity and inclusion efforts is essential for cultural enhancement.</p>", 
-      "col2":"<h4>Sample of Organizational Culture Assessment Questionnaire</h4> <img src='src/assets/img/change management/PMFIDS_CM_order36.jpg'>"
+      "col2":"<h4>Sample of Organizational Culture Assessment Questionnaire</h4> <img src='src/assets/img/change management/order36.jpg'>"
     },
     {
       "order": 37,
@@ -352,7 +352,7 @@
       "title": "Analyzing Stakeholders Insight for Impactful Change",
       "subheader": "Identifying Stakeholders | Stakeholder Identification Process", 
       "col1": "<h4>Steps to Identify Stakeholders</h4> <h4>Step 1. Identifying Stakeholders</h4> <ul> <li>Note: When identifying stakeholders, it's essential to look beyond the obvious, such as beneficiaries and policymakers. Indirect effects and secondary stakeholders can be more challenging to recognize but are equally important. </li></ul>", 
-      "col2": "<h4>Step 2. Discovering and Understanding Stakeholder Interests and Influence</h4> <p>Techniques for Stakeholder identification </p> <img src='src/assets/img/change management/Prepare/PMFIDS_CM_order39.jpg'>"
+      "col2": "<h4>Step 2. Discovering and Understanding Stakeholder Interests and Influence</h4> <p>Techniques for Stakeholder identification </p> <img src='src/assets/img/change management/Prepare/order39.jpg'>"
     }, 
     {
       "order": 40,
@@ -375,8 +375,8 @@
       "layout": "col-2",
       "title": "Analyzing Stakeholders Insight for Impactful Change",
       "subheader": "Identifying Stakeholders | Stakeholder Analysis and Mapping", 
-      "col1": "<p>For successful change, it's crucial to identify those involved, particularly in a change project. Members of the change management team play vital roles and responsibilities in executing the initiative. Here are the members of a Change Management team and their respective roles: </p> <img src='src/assets/img/change management/Prepare/PMFIDS_CM_order42_0.jpg'>", 
-      "col2": "<h4>Conducting a Stakeholder Analysis to Understand Stakeholder Interests, Influence, and Impact </h4> <p>Stakeholder analysis involves assessing two key factors: influence and support. Using the table below as a guide, evaluate the degree of influence and support associated with each stakeholder. </p> <img src='src/assets/img/change management/Prepare/PMFIDS_CM_order42_1.jpg'>"
+      "col1": "<p>For successful change, it's crucial to identify those involved, particularly in a change project. Members of the change management team play vital roles and responsibilities in executing the initiative. Here are the members of a Change Management team and their respective roles: </p> <img src='src/assets/img/change management/Prepare/order42_0.jpg'>", 
+      "col2": "<h4>Conducting a Stakeholder Analysis to Understand Stakeholder Interests, Influence, and Impact </h4> <p>Stakeholder analysis involves assessing two key factors: influence and support. Using the table below as a guide, evaluate the degree of influence and support associated with each stakeholder. </p> <img src='src/assets/img/change management/Prepare/order42_1.jpg'>"
     }, 
     {
       "order": 43,
@@ -385,21 +385,21 @@
       "subheader": "Identifying Stakeholders | Stakeholder Analysis and Mapping", 
       "col1": "<h4>Creating a Stakeholder Map to Visualize the Relationships and Influence of Stakeholders </h4> <p>A Stakeholder Map visually represents the data entered in the Stakeholder Analysis sheet.</p> <h4>Adversary (High Degree of Influence, Low Degree of Support)</h4> <h5>Action Steps:</h5> <ul> <li>Understand rationale for being undecided/not supporting change</li> <li>Manage uncertainties</li> </ul> <h5>Communication and Engagement activities:</h5> <ul> <li>Engage in 1:1 coaching (especially for those with high influence)</li> </ul> <h4>Champion (High Degree of Influence, High Degree of Support)</h4> <h5>Action Steps:</h5> <ul> <li>Capitalize on their power to inspire</li> <li>Use them as change champions</li> </ul> <h5>Communication and Engagement activities:</h5> <ul> <li>Possible members of communication team </li> <li>Participate in pilot runs</li> </ul>", 
       "col2": "<h4>Enthusiast (Low Degree of Influence, High Degree of Support)</h4> <h5>Action Steps:</h5> <ul> <li>Could be used as change champions in limited capacity</li> <li>Manage uncertainties</li> </ul> <h5>Communication and Engagement activities:</h5> <ul> <li>Involve through active participation</li> <li>Raise their awareness levels with fact-based information</li> </ul> <h4>Resistor (Low Degree of Influence, Low Degree of Support)</h4> <h5>Action Steps:</h5> <ul> <li>Understand rationale for opposition and resolve through awareness if possible </li> <li>Isolate “implacable opponents”</li> </ul> <h5>Communication and Engagement activities:</h5> <ul> <li>Coaching, brainstorming, negotiating</li> </ul> <h5>Replace, as a last resort</h5>", 
-      "image": "src/assets/img/change management/Prepare/PMFIDS_CM_order43.jpg" 
+      "image": "src/assets/img/change management/Prepare/order43.jpg" 
     },
     {
       "order": 44,
       "title": "Analyzing Stakeholders Insight for Impactful Change",
       "subheader": "Identifying Stakeholders | Stakeholder Analysis and Mapping", 
       "body": "<h4>Sample of Stakeholder Analysis and Map</h4><h5>Stakeholder Analysis</h5>", 
-      "image": "src/assets/img/change management/Prepare/PMFIDS_CM_order44.jpg"
+      "image": "src/assets/img/change management/Prepare/order44.jpg"
     }, 
     {
       "order": 45,
       "title": "Analyzing Stakeholders Insight for Impactful Change",
       "subheader": "Identifying Stakeholders | Stakeholder Analysis and Mapping", 
       "body": "<h4>Sample of Stakeholder Analysis and Map</h4><h5>Stakeholder Analysis</h5>", 
-      "image": "src/assets/img/change management/Prepare/PMFIDS_CM_order45.jpg"
+      "image": "src/assets/img/change management/Prepare/order45.jpg"
     }, 
     {
       "order": 46,
@@ -412,14 +412,14 @@
       "title": "Change Management Lessons",
       "subheader": "Executing Change Impact Assessment for Change to be Successful", 
       "body": "<h4>Module Overview</h4> <h54>Learning Objective</h5> <p>At the end of this lesson, you will be able to:</p> <ul> <li>Understand what is gap assessment</li> <li>Recognize and know how to do change impact assessment</li> </ul>",
-      "image": "src/assets/img/change management/Prepare/PMFIDS_CM_order47.jpg"
+      "image": "src/assets/img/change management/Prepare/order47.jpg"
     },
     {
       "order": 48,
       "title": "Prepare Approach",
       "subheader": "Executing Change Impact Assessment for Change to be Successful", 
       "body": "Conducting a change impact assessment is crucial for successful change management, as it systematically evaluates the potential effects of a change initiative on the organization. This process helps identify risks, informs decision-making, and ensures that appropriate support measures are in place for a smooth transition.",
-      "image": "src/assets/img/change management/Prepare/PMFIDS_CM_order48.jpg"
+      "image": "src/assets/img/change management/Prepare/order48.jpg"
     }, 
     {
       "order": 49,
@@ -442,14 +442,14 @@
       "title": "Executing Change Impact Assessment for Change to be Successful",
       "subheader": "Gap Assessment | Overview of Gap Analysis", 
       "body": "<h4>Key Components of a Gap Analysis</h4>", 
-      "image": "src/assets/img/change management/Prepare/PMFIDS_CM_order51.jpg"
+      "image": "src/assets/img/change management/Prepare/order51.jpg"
     },
     {
       "order": 52,
       "title": "Executing Change Impact Assessment for Change to be Successful",
       "subheader": "Gap Assessment | Understanding your Current State", 
       "body": "<h4>Assessing the current state of the organization</h4><p>Assessing the organization's current performance, operations, strengths, weaknesses, and overall condition across areas such as financial stability, market position, employee engagement, internal processes, and external influences is essential for understanding its status and identifying opportunities for improvement. Here are key steps and considerations for effectively evaluating your organization's current state:</p>", 
-      "image": "src/assets/img/change management/Prepare/PMFIDS_CM_order52.jpg"
+      "image": "src/assets/img/change management/Prepare/order52.jpg"
     },
     {
       "order": 53,
@@ -464,25 +464,25 @@
       "title": "Executing Change Impact Assessment for Change to be Successful",
       "subheader": "Gap Assessment | Understanding your Current State", 
       "body": "<h4>Collecting data and information to understand the current organization</h4><p>There are various data collection methods you can leverage to attain these data and information, some of them are:</p>", 
-      "image": "src/assets/img/change management/Prepare/PMFIDS_CM_order54.jpg"
+      "image": "src/assets/img/change management/Prepare/order54.jpg"
     },
     {
       "order": 55,
       "title": "Executing Change Impact Assessment for Change to be Successful",
       "subheader": "Gap Assessment | Defining the Desired Future State", 
-      "image": "src/assets/img/change management/Prepare/PMFIDS_CM_order55.jpg"
+      "image": "src/assets/img/change management/Prepare/order55.jpg"
     },
     {
       "order": 56,
       "title": "Executing Change Impact Assessment for Change to be Successful",
       "subheader": "Gap Assessment | Defining the Desired Future State", 
-     "image": "src/assets/img/change management/Prepare/PMFIDS_CM_order56.jpg"
+     "image": "src/assets/img/change management/Prepare/order56.jpg"
     },
     {
       "order": 57,
       "title": "Executing Change Impact Assessment for Change to be Successful",
       "subheader": "Gap Assessment | Defining the Desired Future State",
-      "image": "src/assets/img/change management/Prepare/PMFIDS_CM_order57.jpg"
+      "image": "src/assets/img/change management/Prepare/order57.jpg"
     },
     {
       "order": 58,
@@ -506,7 +506,7 @@
       "title": "Executing Change Impact Assessment for Change to be Successful",
       "subheader": "Change Impact Assessment | Introduction to Change Impact Analysis",
       "col1": "<p>Tim Creasey, Chief Innovation Officer at Prosci, highlights the importance of translating organizational change to the individual level for a thorough change impact assessment. In a constantly evolving environment, change practitioners can utilize Prosci's 10 aspects of change impact to focus on the individual's journey. These aspects include processes, systems, tools, job roles, critical behaviors, mindsets, reporting structures, performance reviews, compensation, and location. Assessing change impact helps identify overlooked areas, engage employees, personalize interactions, leverage stories and personas, and scale interventions effectively. </p>",  
-      "col2": "<h4>Key Points</h4> <ul> <li>Change happens at the individual level - Change practitioners need to translate enterprise-level transformation to individual change impacts. </li> <li>Prosci's 10 aspects of change impact - This framework helps dissect and document the individual’s journey during change, ensuring a comprehensive understanding of how change affects individuals. </li> </ul> <img src='src/assets/img/change management/Prepare/PMFIDS_CM_order60.jpg'>"
+      "col2": "<h4>Key Points</h4> <ul> <li>Change happens at the individual level - Change practitioners need to translate enterprise-level transformation to individual change impacts. </li> <li>Prosci's 10 aspects of change impact - This framework helps dissect and document the individual’s journey during change, ensuring a comprehensive understanding of how change affects individuals. </li> </ul> <img src='src/assets/img/change management/Prepare/order60.jpg'>"
     },
     {
       "order": 60,
@@ -521,31 +521,31 @@
       "layout": "col-2",
       "title": "Executing Change Impact Assessment for Change to be Successful",
       "subheader": "Change Impact Assessment | Introduction to Change Impact Analysis",
-      "col1": "<h4>Objectives and Benefits of Conducting a Change Impact Analysis </h4><img src='src/assets/img/change management/Prepare/PMFIDS_CM_order61_0.jpg'>", 
-      "col2": "<h4>Key Components of a Change Impact Analysis </h4><img src='src/assets/img/change management/Prepare/PMFIDS_CM_order61_1.jpg'>"
+      "col1": "<h4>Objectives and Benefits of Conducting a Change Impact Analysis </h4><img src='src/assets/img/change management/Prepare/order61_0.jpg'>", 
+      "col2": "<h4>Key Components of a Change Impact Analysis </h4><img src='src/assets/img/change management/Prepare/order61_1.jpg'>"
     },
     {
       "order": 62,
       "title": "Executing Change Impact Assessment for Change to be Successful",
       "subheader": "Change Impact Assessment | Identifying Areas of Impact",
       "body": "<h4>Determining the Areas of the Organization that will be Affected by the Change </h4><p>Identifying the areas of the organization affected by a change is a crucial step in change impact analysis. This assessment pinpoints specific elements influenced by the change, enabling targeted strategies for effective transition management. Key areas typically include:</p>", 
-      "image": "src/assets/img/change management/Prepare/PMFIDS_CM_order62.jpg"
+      "image": "src/assets/img/change management/Prepare/order62.jpg"
     },
     {
       "order": 63,
       "layout": "col-2",
       "title": "Executing Change Impact Assessment for Change to be Successful",
       "subheader": "Change Impact Assessment | Identifying Areas of Impact",
-      "col1": "<h4>Categorizing Impacts into Different Types</h4><p>Categorizing impacts is essential for a comprehensive change impact analysis, enabling organizations to understand the various dimensions of change and tailor their strategies accordingly. The primary categories of impacts are as follows: </p><img src='src/assets/img/change management/Prepare/PMFIDS_CM_order63_0.jpg'>", 
-      "col2": "<img src='src/assets/img/change management/Prepare/PMFIDS_CM_order63_1.jpg'>"
+      "col1": "<h4>Categorizing Impacts into Different Types</h4><p>Categorizing impacts is essential for a comprehensive change impact analysis, enabling organizations to understand the various dimensions of change and tailor their strategies accordingly. The primary categories of impacts are as follows: </p><img src='src/assets/img/change management/Prepare/order63_0.jpg'>", 
+      "col2": "<img src='src/assets/img/change management/Prepare/order63_1.jpg'>"
     },
     {
       "order": 64,
       "layout": "col-2",
       "title": "Executing Change Impact Assessment for Change to be Successful",
       "subheader": "Change Impact Assessment | Identifying Areas of Impact",
-      "col1": "<h4>Using Tools to Identify Impacted Areas</h4><p>Tools like process mapping and organizational charts effectively identify impacted areas during a change impact analysis. These visual representations help stakeholders understand current processes and structures, making it easier to pinpoint where changes will have an effect.</p><img src='src/assets/img/change management/Prepare/PMFIDS_CM_order64_0.jpg'>", 
-      "col2": "<img src='src/assets/img/change management/Prepare/PMFIDS_CM_order64_1.jpg'>"
+      "col1": "<h4>Using Tools to Identify Impacted Areas</h4><p>Tools like process mapping and organizational charts effectively identify impacted areas during a change impact analysis. These visual representations help stakeholders understand current processes and structures, making it easier to pinpoint where changes will have an effect.</p><img src='src/assets/img/change management/Prepare/order64_0.jpg'>", 
+      "col2": "<img src='src/assets/img/change management/Prepare/order64_1.jpg'>"
     },
     {
       "order": 65,
@@ -562,7 +562,7 @@
       "subheader": "Change Impact Assessment | Assessing the Scope and Scale of Impact",
       "col1": "<h4>Identifying Depth and Breadth of the Impact Across the Organization</h4> <p>Depth of Impact refers to the intensity or severity of the change within specific areas of the organization. It considers how deeply the change will affect processes, systems, roles, and culture. To assess the depth:</p> <ul> <li>Analyze the Process Changes - Evaluate how significantly existing workflows will be altered. Will the change require complete overhauls, or will it involve minor adjustments?</li> <li>Assess Role Model Modifications - Determine how deeply individual roles and responsibilities will change. Will employees need to adopt new skills, or will their tasks remain largely the same?</li> <li>Evaluate Cultural Shifts - Consider whether the change will lead to fundamental shifts in organizational values, behaviors, or communication styles. A deep impact may require a cultural transformation.</li> </ul>", 
       "col2": "<p>Breadth of Impact refers to the range or scope of the change across the organization. It assesses how many areas, departments, or functions will be affected. To evaluate the breadth:</p> <ul> <li>Identify Affected Departments - Map out which departments or teams will be impacted by the change. Is it limited to one area, or does it span multiple functions?</li> <li>Consider Cross-Functional Impacts - Evaluate whether the change will affect interdepartmental processes or require collaboration between different teams.</li> <li>Assess Customer and External Stakeholder Impact - Determine if the change will have implications for customers, suppliers, or other external stakeholders, broadening the scope of the impact.</li> </ul> <p>Create an impact matrix that categorizes the depth and breadth of the change. This matrix can include:</p> <ul> <li>Depth Levels - Define levels such as low, medium, and high depth of impact for various areas.</li> <li>Breadth Levels - Define levels such as localized, departmental, or organization-wide breadth of impact.</li></ul>", 
-      "image": "src/assets/img/change management/Prepare/PMFIDS_CM_order66.jpg"
+      "image": "src/assets/img/change management/Prepare/order66.jpg"
     },
     {
       "order": 67,
@@ -583,7 +583,7 @@
       "title": "Executing Change Impact Assessment for Change to be Successful", 
       "subheader": "Change Impact Assessment | Assessing the Scope and Scale of Impact",
       "body": "<h4>Presenting Impact Reports to Stakeholders and Decision-makers</h4><ul> <li>Presenting impact reports to stakeholders and decision-makers is a crucial step in the change management process, ensuring that key individuals are informed about the findings and implications of the assessment. </li> <li>By effectively sharing these reports, organizations can engage stakeholders and align them on the change's implications, fostering a supportive environment for successful implementation. </li> </ul>", 
-      "image": "src/assets/img/change management/Prepare/PMFIDS_CM_order69.jpg"
+      "image": "src/assets/img/change management/Prepare/order69.jpg"
     },
     {
       "order": 70,
@@ -596,21 +596,21 @@
       "title": "Change Management Lessons",
       "subheader": "Transforming Resistance into Opportunity", 
       "body": "<h2>Module Overview</h2> <h4>Learning Objective</h4> <p>At the end of this lesson, you will be able to:</p> <ul> <li>Understand the concept of ADKAR Model</li> <li>Realize its importance to change management</li> </ul>",
-      "image": "src/assets/img/change management/Prepare/PMFIDS_CM_order71.jpg"
+      "image": "src/assets/img/change management/Prepare/order71.jpg"
     }, 
     {
       "order": 72,
       "title": "Prepare Approach:",
       "subheader": "Transforming Resistance into Opportunity", 
       "body": "Transforming Resistance into Opportunity is a change management strategy that views resistance as a valuable source of insight rather than a barrier. This approach encourages organizations to engage with resistant employees, understanding their concerns and perspectives. By doing so, it reduces resistance and empowers employees, turning apprehensions into opportunities for innovation and improvement.",
-      "image": "src/assets/img/change management/Prepare/PMFIDS_CM_order72.jpg"
+      "image": "src/assets/img/change management/Prepare/order72.jpg"
     }, 
     {
       "order": 73,
       "layout": "col-2",
       "title": "ADKAR Model",
       "subheader": "The Human Side of Change", 
-      "col1": "<p>Recognizing the human aspects of change management involves understanding how individuals and teams react to change and how to support them through the transition.</p><img src='src/assets/img/change management/Prepare/PMFIDS_CM_order73.jpg'><p>By focusing on these human aspects, organizations can enhance their change management efforts, leading to smoother transitions and more successful outcomes.</p>",
+      "col1": "<p>Recognizing the human aspects of change management involves understanding how individuals and teams react to change and how to support them through the transition.</p><img src='src/assets/img/change management/Prepare/order73.jpg'><p>By focusing on these human aspects, organizations can enhance their change management efforts, leading to smoother transitions and more successful outcomes.</p>",
       "col2": "<p>The emotional and psychological impact of change on individuals can be profound and multifaceted. Change, whether in a personal or organizational context, often triggers a range of emotional responses and psychological effects.</p><h4>Anxiety & Uncertainty</h4> <p>Change often brings uncertainty, leading to feelings of anxiety. Individuals may worry about their future roles, job security, or the ability to adapt to new situations.</p> <h4>Hope & Excitement</h4> <p>Conversely, change can also evoke positive emotions. Individuals may feel hopeful and excited about new opportunities, growth, and the potential for improvement.</p> <h4>Identity Crisis</h4> <p>Significant changes can challenge an individual's sense of identity, especially if their role or responsibilities are altered. This can lead to questioning one's purpose and self-worth.</p> <h4>Resistance & Frustration</h4> <p>Some individuals may resist change due to discomfort or a belief that the change is unnecessary. This resistance can manifest as frustration, leading to conflict or disengagement.</p> <h4>Stress & Burnout</h4> <p>Prolonged exposure to change without adequate support can lead to stress and burnout. Individuals may feel overwhelmed, leading to decreased productivity and well-being.</p>"
     }, 
     {
@@ -625,7 +625,7 @@
       "order": 75,
       "layout": "col-2",
       "title": "ADKAR Model",
-      "col1": "<h2>Overview of ADKAR Model</h2><img src='src/assets/img/change management/Prepare/PMFIDS_CM_order75.jpg'>", 
+      "col1": "<h2>Overview of ADKAR Model</h2><img src='src/assets/img/change management/Prepare/order75.jpg'>", 
       "col2": "<h4>Steps for applying the ADKAR model to a change initiative</h4> <p>Awareness</p> <ul> <li>Communicate the strategic goals alongside the need for change. Help employees understand how the change will help achieve these goals.</li> <li>Communicate early and often</li> <li>Highlight its benefits</li> <li>Address fears</li> <li>Engage key stakeholders</li> </ul> <p>Desire</p> <ul> <li>Foster a desire among employees to support the change by highlighting how it aligns with their personal and professional goals, as well as the organization’s objectives.</li> <li>Connect to personal interests</li> <li>Involve employees early</li> <li>Identify change champions</li> <li>Communicate the risk of inaction</li> </ul> <p>Knowledge</p> <ul> <li>Provide training and resources that not only equip employees with the skills needed for the change but also emphasize how these skills contribute to achieving strategic goals.</li> <li>Provide contextual and comprehensive training</li> <li>Clear user documentation</li> <li>Use multiple learning formats</li> <li>Communicate expectations clearly</li> </ul> <p>Ability</p> <ul> <li>Ensure that employees have the necessary tools and support to implement the change effectively. This includes aligning their roles and responsibilities with the strategic objectives.</li> <li>Provide hands-on experience</li> <li>Address skill gaps</li> <li>Remove barriers</li> <li>Provide ongoing feedback</li> <li>Offer mentorship and coaching</li> </ul> <p>Reinforcement</p> <ul> <li>Recognize and reward behaviors that support both the change initiative and the organization’s strategic goals. This reinforces the connection between individual actions and organizational success.</li> <li>Recognize and reward employees who adapt quickly</li> <li>Monitor and evaluate change adoption and impact</li> <li>Support employee’s post-implementation with on-demand help resources</li> <li>Address relapses quickly</li> <li>Foster a culture change in your organization</li> </ul>"
     },
     {
@@ -633,14 +633,14 @@
       "title": "ADKAR Model",
       "subheader": "Integrating ADKAR with Organizational Change",
       "body": "<p>To ensure the ADKAR Model supports overall organizational change efforts, its principles must be integrated into the broader change management strategy. Here are several strategies for effectively implementing the ADKAR Model to enhance these efforts:</p>", 
-      "image": "src/assets/img/change management/Prepare/PMFIDS_CM_order76.jpg"
+      "image": "src/assets/img/change management/Prepare/order76.jpg"
     },
     {
       "order": 77,
       "layout": "col-2",
       "title": "ADKAR Model",
       "subheader": "Integrating ADKAR with Organizational Change",
-      "col1": "<p>Fostering a culture of change readiness and adaptability is essential for organizations to thrive in today's fast-paced business environment. Here are several strategies to cultivate this culture:</p><img src='src/assets/img/change management/Prepare/PMFIDS_CM_order77.jpg'>", 
+      "col1": "<p>Fostering a culture of change readiness and adaptability is essential for organizations to thrive in today's fast-paced business environment. Here are several strategies to cultivate this culture:</p><img src='src/assets/img/change management/Prepare/order77.jpg'>", 
       "col2": "<h4>Integrating the ADKAR model with Prosci’s Change Management Methodology</h4> <h4>Comprehensive Approach:</h4> <p>Since ADKAR is part of Prosci’s methodology, integrate it with other elements of the Prosci framework, such as the change management process (preparation, managing change, reinforcing change) and the role of change management in project management. </p> <h4>Change Management Plans:</h4> <p>Develop change management plans that incorporate both ADKAR and other Prosci tools, ensuring a comprehensive approach to managing change.</p>"
     },
     {
@@ -648,15 +648,15 @@
       "layout": "col-2",
       "title": "ADKAR Model",
       "subheader": "Integrating ADKAR with Organizational Change",
-      "col1": "<p>Fostering a culture of change readiness and adaptability is essential for organizations to thrive in today's fast-paced business environment. Here are several strategies to cultivate this culture:</p><img src='src/assets/img/change management/Prepare/PMFIDS_CM_order77.jpg'>", 
+      "col1": "<p>Fostering a culture of change readiness and adaptability is essential for organizations to thrive in today's fast-paced business environment. Here are several strategies to cultivate this culture:</p><img src='src/assets/img/change management/Prepare/order77.jpg'>", 
       "col2": "<h4>Integrating the ADKAR model with Prosci’s Change Management Methodology</h4> <h5>Comprehensive Approach:</h5> <p>Since ADKAR is part of Prosci’s methodology, integrate it with other elements of the Prosci framework, such as the change management process (preparation, managing change, reinforcing change) and the role of change management in project management. </p> <h4>Change Management Plans:</h4> <p>Develop change management plans that incorporate both ADKAR and other Prosci tools, ensuring a comprehensive approach to managing change.</p>"
     },
     {
       "order": 78,
       "layout": "col-2",
       "title": "ADKAR Model",
-      "col1": "<h2>Challenges and Solutions</h2><p>Applying the ADKAR Model can be highly effective for managing change, but organizations may encounter several common challenges during its implementation. Here are some of these challenges along with potential strategies to address them:</p><img src='src/assets/img/change management/Prepare/PMFIDS_CM_order78_0.jpg'>", 
-      "col2": "<h2>Measuring Success with ADKAR</h2> <p>Tracking progress and outcomes at each stage of the ADKAR Model is essential for ensuring the effectiveness of change initiatives and for making necessary adjustments along the way.</p><img src='src/assets/img/change management/Prepare/PMFIDS_CM_order78_1.jpg'>"
+      "col1": "<h2>Challenges and Solutions</h2><p>Applying the ADKAR Model can be highly effective for managing change, but organizations may encounter several common challenges during its implementation. Here are some of these challenges along with potential strategies to address them:</p><img src='src/assets/img/change management/Prepare/order78_0.jpg'>", 
+      "col2": "<h2>Measuring Success with ADKAR</h2> <p>Tracking progress and outcomes at each stage of the ADKAR Model is essential for ensuring the effectiveness of change initiatives and for making necessary adjustments along the way.</p><img src='src/assets/img/change management/Prepare/order78_1.jpg'>"
     },
     {
       "order": 79,
@@ -686,13 +686,13 @@
       "order": 83, 
       "title": "Change Management: Prepare Approach Lessons",
       "subheader": "Assessment", 
-      "image": "src/assets/img/change management/Prepare/PMFIDS_CM_order83.jpg"
+      "image": "src/assets/img/change management/Prepare/order83.jpg"
     },
     {
       "order": 84,
       "title": "Module Post-Examination",
       "exams": [{
-      "exam_id": 1,
+          "exam_id": 6,
           "title": "Module Post-examination",
           "body": "This assessment is designed to test your knowledge. Results of this  assessment will be used to structure the workshop.",
           "questions": [{

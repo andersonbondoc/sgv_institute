@@ -125,7 +125,7 @@
       {
         "order": 3,
         "title": "Module Credit and Completion Requirements and Learning Objective",
-        "body": "<h4>Credit and Completion Requirements</h4><ul><li><p>To successfully earn credit and meet the learning objectives of this Web-Based Learning Application, it is essential to engage with every page, complete all knowledge checks, and complete the final assessment independently. While you are encouraged to refer to the course content during the assessment, any form of cheating is discouraged.</p>",
+        "body": "<h4>Credit and Completion Requirements</h4><p>To successfully earn credit and meet the learning objectives of this Web-Based Learning Application, it is essential to engage with every page, complete all knowledge checks, and complete the initial and final assessment independently. The assessment will require a 70% passing rate and while you are encouraged to refer to your notes of the course content during the assessment, any form of cheating is discouraged. Please also note that this course will expire by April 25, 2025.</p>h4>Module Learning Objectives</h4><p>Upon successful completion of the module, you will be able to:</p> <ul>  <li>Familiarize with common project management terms and methodologies including fundamentals, tools, skills, techniques, roles, and responsibilities.</li> <li>Understand the different phases of a project: initiation, planning, execution, monitoring and controlling, and closing</li> <li>Recognize the key activities, deliverables, and goals for each phase</li> <li>To be equipped with the foundational knowledge needed to initiate, plan, execute, and close projects successfully</li></ul>",
         "image":"src/assets/img/general images/CreditCompletionLearningObjectives.jpg"
       },
       {
@@ -732,7 +732,7 @@
         "title": "Module Post-Examination",
         "exams": [
           {
-            "exam_id": 1,
+            "exam_id": 2,
             "title": "Module Post-examination",
             "body": "This assessment is designed to test your knowledge. Results of this  assessment will be used to structure the workshop.",
             "questions": [
