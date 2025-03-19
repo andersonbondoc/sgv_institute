@@ -55,14 +55,11 @@ const CoursePage: React.FC = () => {
 
   const handleBackButton = () => {
     setModalOpen(false);
-    localStorage.removeItem("sectionlength-PMFIDS_RISK");
-    localStorage.removeItem("sectionlength-PMFIDS_BCM");
-    localStorage.removeItem("sectionlength-PMFIDS_PM");
-    localStorage.removeItem("examScore");
-    localStorage.removeItem("currentPage-PMFIDS_RISK");
-    localStorage.removeItem("currentPage-PMFIDS_PM");
-    localStorage.removeItem("currentPage-PMFIDS_BCM");
-    localStorage.removeItem("courses");
+    // Object.keys(localStorage).forEach((key) => {
+    //   if (key !== "user") {
+    //     localStorage.removeItem(key);
+    //   }
+    // });
     history.goBack();
   };
 

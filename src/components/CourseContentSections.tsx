@@ -45,6 +45,9 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
       CM_MANAGE: "change_management_manage.json",
       CM_SUSTAIN: "change_management_sustain.json",
       DCO_SEAMLESS: "seamless_digital.json",
+      DCO_NEW_APPLICATION: "new_application.json",
+      DCO_APPLICATION_APPROVAL: "application_approval.json",
+      DATAGOV_MAPPING: "data_gov.json",
     };
 
     if (moduleId && fileMapping[moduleId]) {

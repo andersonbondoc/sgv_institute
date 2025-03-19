@@ -22,6 +22,7 @@ import {
 } from "../queries/userQueries";
 import { ToastError, ToastSuccess } from "../components/Toast";
 import { supabase } from "../queries/supabaseClient";
+import SignInModal from "../components/SignIn";
 
 const LandingPage: React.FC = () => {
   const history = useHistory();
@@ -37,35 +38,11 @@ const LandingPage: React.FC = () => {
   const [isLogin, setIsLogin] = useState(!!localStorage.getItem("user"));
 
   const [isEmailValid, setIsEmailValid] = useState(false);
-  useEffect(() => {
-    const queryParams = new URLSearchParams(location.search);
-    const token = queryParams.get("token");
 
-    if (token) {
-      supabase.auth
-        .signInWithOtp({ email: token })
-        .then(({ data, error }) => {
-          if (error) {
-            console.error("Login failed:", error);
-            errorToast("Login failed. Please try again.", 3000);
-          } else {
-            console.log("User Data:", data.user);
-            if (data.user) {
-              localStorage.setItem("user", JSON.stringify(data.user));
-              setLoading(false);
-            }
-          }
-        })
-        .catch((error) => {
-          console.error("Error during login:", error);
-          errorToast("An error occurred during login.", 3000);
-        });
-    }
-    // else {
-    //   errorToast("Invalid or expired link.", 3000);
-    //   setLoading(false);
-    // }
-  }, [location.search, history]);
+  useEffect(() => {
+    setEmail("");
+    setPassword("");
+  }, []);
 
   const handleTakeCourse = (courseId: string) => {
     const isLogin = localStorage.getItem("user");
@@ -106,13 +83,13 @@ const LandingPage: React.FC = () => {
   const successToast = (message: string, timeout: number) => {
     setSuccessMessage(message);
     setShowSuccessMessage(true);
-
     setTimeout(() => {
       setShowSuccessMessage(false);
       setSuccessMessage("");
     }, timeout);
   };
 
+  // Toast error function
   const errorToast = (message: string, timeout: number) => {
     setErrorMessage(message);
     setShowErrorMessage(true);
@@ -120,17 +97,6 @@ const LandingPage: React.FC = () => {
       setShowErrorMessage(false);
       setErrorMessage("");
     }, timeout);
-  };
-  const validateEmail = async () => {
-    const { exists, error } = await getUserByEmail(email);
-    if (!exists) {
-      setIsEmailValid(false);
-      setPassword("");
-      errorToast(error || "Email validation failed.", 3000);
-    } else {
-      setIsEmailValid(true);
-      successToast("Email validated successfully.", 3000);
-    }
   };
 
   if (loading) {
@@ -147,99 +113,18 @@ const LandingPage: React.FC = () => {
     setIsCardOpen(true);
   };
 
-  const handleUserLogin = async () => {
-    const { success, error, user } = await getUserByEmailAndPassword(
-      email,
-      password
-    );
-    if (success) {
-      successToast("Login successfully", 2000);
-      localStorage.setItem("user", JSON.stringify(user));
-      // Reload the page after 2 seconds to allow the toast to show
-      setTimeout(() => {
-        window.location.reload();
-      }, 1000);
-    } else {
-      errorToast("Error", 3000);
-    }
-  };
-
   return (
     <IonPage>
       <IonContent className="p-6 bg-gradient-to-b from-purple-50 via-pink-50 to-white relative">
         <ToastSuccess message={successMessage} show={showSuccessMessage} />
         <ToastError message={errorMessage} show={showErrorMessage} />
         {isCardOpen && (
-          <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
-            <IonCard className="bg-white dark:bg-gray-800 p-8 rounded-xl shadow-2xl w-96 text-center relative">
-              {/* Close Button */}
-              <button
-                className="absolute top-3 right-3 text-gray-500 dark:text-gray-300 hover:text-gray-800 dark:hover:text-gray-100"
-                onClick={() => setIsCardOpen(false)}
-              >
-                ✕
-              </button>
-
-              {/* Card Header */}
-              <IonListHeader className="text-2xl font-semibold mb-6 text-gray-900 dark:text-gray-100">
-                Sign In
-              </IonListHeader>
-
-              {/* Email Input with Validation */}
-              <div className="relative">
-                <IonInput
-                  type="email"
-                  placeholder="Enter your email"
-                  className={`w-full p-3 border rounded-lg bg-gray-50 dark:bg-gray-700 text-gray-900 dark:text-gray-100 pr-10 
-            ${
-              isEmailValid === false
-                ? "border-red-500"
-                : isEmailValid
-                ? "border-green-500"
-                : ""
-            }`}
-                  value={email}
-                  onIonChange={(e) => setEmail(e.detail.value!)}
-                  onBlur={validateEmail} // Triggers when user leaves the field
-                />
-                {/* Icon inside input field */}
-                {isEmailValid !== null && (
-                  <span className="absolute right-3 top-3 text-lg">
-                    {isEmailValid ? (
-                      <IonIcon
-                        icon={checkmarkCircleOutline}
-                        className="text-green-500"
-                      />
-                    ) : (
-                      <IonIcon
-                        icon={closeCircleOutline}
-                        className="text-red-500"
-                      />
-                    )}
-                  </span>
-                )}
-              </div>
-
-              <IonInput
-                type="password"
-                placeholder="Enter your password"
-                className="w-full p-3 border rounded-lg mt-4 bg-gray-50 dark:bg-gray-700 text-gray-900 dark:text-gray-100"
-                value={password}
-                onIonChange={(e) => setPassword(e.detail.value!)}
-              />
-
-              {/* Login Button */}
-              <button
-                className="mt-6 w-full bg-gray-700 hover:bg-gray-900 text-white py-2 rounded-lg transition"
-                disabled={!isEmailValid}
-                onClick={handleUserLogin}
-              >
-                <IonIcon icon={enterOutline} size="small" /> Login
-              </button>
-            </IonCard>
-          </div>
+          <SignInModal
+            onClose={() => setIsCardOpen(false)}
+            successToast={successToast}
+            errorToast={errorToast}
+          />
         )}
-
         <div className="flex flex-col items-center space-y-8 pt-8 p-4">
           <div className="text-center space-y-2">
             <div className="w-12 mx-auto">
