@@ -5,10 +5,12 @@ import {
   IonPage,
   IonToolbar,
   IonButton,
+  IonIcon,
 } from "@ionic/react";
 import { useHistory } from "react-router-dom";
 import SignInModal from "../components/SignIn";
 import { ToastError, ToastSuccess } from "../components/Toast";
+import { logInOutline, logOutOutline } from "ionicons/icons";
 
 interface UserProfile {
   name: string;
@@ -89,15 +91,6 @@ const ProfilePage: React.FC = () => {
         <IonHeader>
           <IonToolbar className="bg-indigo-500 text-white">
             <h2 className="text-center text-lg font-bold">My Profile</h2>
-            {isUserLoggedIn ? (
-              <IonButton slot="end" onClick={handleLogout}>
-                Logout
-              </IonButton>
-            ) : (
-              <IonButton slot="end" onClick={() => setIsCardOpen(true)}>
-                Sign In
-              </IonButton>
-            )}
           </IonToolbar>
         </IonHeader>
         <IonContent className="p-6">
@@ -137,6 +130,26 @@ const ProfilePage: React.FC = () => {
                   <span className="text-gray-600 font-medium">Address:</span>
                   <span className="text-gray-800">{profile.address}</span>
                 </div>
+              </div>
+              {/* Button at the bottom */}
+              <div className="w-full flex justify-center mb-8">
+                {isUserLoggedIn ? (
+                  <button
+                    className="text-center px-6 py-2 bg-indigo-700 text-white rounded-lg flex items-center gap-2"
+                    onClick={handleLogout}
+                  >
+                    <IonIcon icon={logOutOutline} className="text-xl" />
+                    Logout
+                  </button>
+                ) : (
+                  <button
+                    className="text-center px-6 py-2 bg-indigo-700 text-white rounded-lg flex items-center gap-2"
+                    onClick={() => setIsCardOpen(true)}
+                  >
+                    <IonIcon icon={logInOutline} className="text-xl" />
+                    Sign In
+                  </button>
+                )}
               </div>
             </div>
           </div>
