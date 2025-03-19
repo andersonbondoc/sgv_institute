@@ -130,13 +130,13 @@ const LandingPage: React.FC = () => {
             <div className="w-12 mx-auto">
               <img
                 src="/src/assets/sgv_logo.png"
-                alt="SGV Institute Logo"
+                alt="SGV FSO Academy Logo"
                 className="w-full logo"
               />
             </div>
-            <h2 className="text-3xl font-bold">SGV FSO Institute</h2>
+            <h2 className="text-3xl font-bold">SGV FSO Academy</h2>
             <p>
-              SGV FSO Institute offers a variety of courses to elevate your
+              SGV FSO Academy offers a variety of courses to elevate your
               skills and knowledge.{" "}
             </p>
           </div>
@@ -182,12 +182,12 @@ const LandingPage: React.FC = () => {
                 >
                   <div className="flex items-center space-x-4">
                     <div
-                      className={`w-12 h-12 ${course.bgColor} rounded-full flex items-center justify-center`}
+                      className={`w-24 h-24 ${course.bgColor} rounded-full flex items-center justify-center`}
                     >
                       <img
                         src={course.icon}
                         alt={`${course.title} Icon`}
-                        className="w-6 h-6"
+                        // className="w-10 h-10"
                       />
                     </div>
                     <div>

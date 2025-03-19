@@ -16,7 +16,7 @@
      "title": "Module Pre-Examination",
      "exams": [
        {
-         "exam_id": 1,
+         "exam_id": 3,
          "title": "Module Pre-examination",
          "body": "This assessment is designed to test your knowledge. Results of this  assessment will be used to structure the workshop.",
          "questions": [
@@ -127,7 +127,7 @@
     {
       "order": 3,
       "title": "Module Credit and Completion Requirements and Learning Objective",
-      "body": "<h2>Credit and Completion Requirements</h2> <p>To successfully earn credit and meet the learning objectives of this Web-Based Learning Application, it is essential to engage with every page, complete all knowledge checks, and complete the initial and final assessment independently. While you are encouraged to refer to the course content during the assessment, any form of cheating is discouraged. Please also note that this course will expire by April 25, 2025.</p> <h2>Module Learning Objectives</h2> <p>Upon successful completion of the course, you will be able to:</p> <ul> <li>Define project risk and identify various types of risks that may occur in a project.</li> <li>Recognize the risk management process and explore tools and frameworks relevant to each step of the process.</li> <li>Gain a full understanding of Quality Assurance and its benefits and importance in managing digital transformation projects, specifically in the Risk Monitoring phase.</li> <li>Obtain knowledge on the existing Philippine regulations in risk management systems to get ahead of identifying and monitoring possible risks in projects.</li> </ul>",
+      "body": "<h2>Credit and Completion Requirements</h2> <p>To successfully earn credit and meet the learning objectives of this Web-Based Learning Application, it is essential to engage with every page, complete all knowledge checks, and complete the initial and final assessment independently. The assessment will require a 70% passing rate and while you are encouraged to refer to your notes of the course content during the assessment, any form of cheating is discouraged. Please also note that this course will expire by April 25, 2025.</p> <h2>Module Learning Objectives</h2> <p>Upon successful completion of the course, you will be able to:</p> <ul> <li>Define project risk and identify various types of risks that may occur in a project.</li> <li>Recognize the risk management process and explore tools and frameworks relevant to each step of the process.</li> <li>Gain a full understanding of Quality Assurance and its benefits and importance in managing digital transformation projects, specifically in the Risk Monitoring phase.</li> <li>Obtain knowledge on the existing Philippine regulations in risk management systems to get ahead of identifying and monitoring possible risks in projects.</li> </ul>",
       "image": "src/assets/img/general images/CreditCompletionLearningObjectives.jpg"
     },
     {
@@ -469,7 +469,7 @@
       "title": "Exam",
       "exams": [
         {
-          "exam_id": 1,
+          "exam_id": 3,
           "title": "Post-Module Examination",
           "body": "This assessment is designed to test your knowledge. Results of this assessment will be used to structure the workshop.",
           "questions": [
