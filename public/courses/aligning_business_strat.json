@@ -1,4 +1,5 @@
-[{
+[
+  {
     "id": 4,
     "moduleId": "ABSTIT_ABS",
     "moduleName": "Aligning Business Strategy to Technology Innovations and Trends",
@@ -8,523 +9,546 @@
         "order": 1,
         "title": "Module Introduction",
         "subheader": "Welcome to the WBL (Web-Based Learning) module on Aligning Business Strategy with Technology Innovations and Trends!",
-        "body": "This module is designed to provide you with a comprehensive understanding of how to effectively integrate business strategies with emerging technological advancements while also addressing the critical aspect of crisis management.", 
+        "body": "This module is designed to provide you with a comprehensive understanding of how to effectively integrate business strategies with emerging technological advancements while also addressing the critical aspect of crisis management.",
         "image": "src/assets/img/general images/CourseIntroduction.jpg"
       },
       {
         "order": 2,
         "title": "Course Pre-Examination",
-        "exams": [{
+        "exams": [
+          {
             "exam_id": 4,
             "title": "Course Pre-examination",
             "body": "This assessment is designed to test your knowledge. Results of this  assessment will be used to structure the workshop.",
-            "questions": [{
-                  "q_number": 1,
-                  "q_statement": "<p>A financial institution, TrustBank, is preparing for potential crises by conducting risk assessments and developing a crisis management plan.</p><p>Question: What is a critical component of TrustBank's crisis management plan?</p>",
-                  "q_field_type": "single_select" ,
-                  "q_selection": [{
-                        "A": "Crisis Definition and Scope",
-                        "B": "Reducing the number of employees.",
-                        "C": "Ignoring external factors.",
-                        "D": "Limiting customer communication"
-                      }],
-                  "q_answer": "A"
-            },
-            {
-                  "q_number": 2,
-                  "q_statement": "<p>A bank, FutureBank, is developing a technology roadmap to implement a new digital banking platform</p><p>Question: What is a critical factor FutureBank should consider when assessing the current state of its technology landscape?.</p>",
-                  "q_field_type": "single_select" ,
-                  "q_selection": [{
-                      "A": "The number of employees in the IT department.",
-                      "B": "The effectiveness of existing systems and their integration capabilities with new technologies.",
-                      "C": "The historical performance of the bank's marketing campaigns.",
-                      "D": "The bank's physical branch locations"
-                  }], 
-                  "q_answer": "B"   
-            },
-            {
-                  "q_number": 3,
-                  "q_statement": "Which of the following are key components of a business strategy? (Select all that apply)",
-                  "q_field_type": "multi_select" ,
-                  "q_selection": [{
-                      "A": "Vision and Mission",
-                      "B": "Market Analysis",
-                      "C": "Employee Satisfaction",
-                      "D": "Performance Metrics"
-                  }],
-                  "q_answer": "A,B,D"
-            },
-            {
-                  "q_number": 4,
-                  "q_statement": "<p>A rural bank, Community Trust, is planning to use data analytics tools to gain insights into customer behavior and improve its marketing strategies.</p><p>Question: What is a critical first step Community Trust should take to ensure the successful implementation of data analytics tools?</p>",
-                  "q_field_type": "single_select" ,
-                  "q_selection": [{
-                      "A": "Ignore customer feedback and focus solely on data collection.",
-                      "B": "Train staff on how to interpret and utilize data analytics effectively.",
-                      "C": "Limit the use of data analytics to only the marketing department.",
-                      "D": "Implement the tools without any testing or validation."
-                  }], 
-                  "q_answer": "B"  
-            },
-            {
-                  "q_number": 5,
-                  "q_statement": "<p>A rural bank, LocalBank, is exploring the use of cloud computing services to enhance its IT infrastructure. The management team is assessing the potential benefits of this transition.</p><p>Question: What is a significant advantage of adopting cloud computing for LocalBank?</p>",
-                  "q_field_type": "single_select" ,
-                  "q_selection": [{
-                      "A": "Increased costs associated with on-premises infrastructure.",
-                      "B": "Improved accessibility and scalability of IT resources.",
-                      "C": "Limited flexibility in accessing applications remotely.",
-                      "D": "Decreased security for customer data"
-                  }], 
-                  "q_answer": "B"
-            },
-            {
-                  "q_number": 6,
-                  "q_statement": "What is a key principle of the Lean Startup methodology that RuralTrust should follow.",
-                  "q_field_type": "single_select" ,
-                  "q_selection": [{
-                      "A": "Build the app without any customer input.",
-                      "B": "Avoid testing the app until it is fully developed.",
-                      "C": "Limit customer engagement to only the marketing team.",
-                      "D": "Focus on creating a minimum viable product (MVP) and gather feedback from users"
-                  }], 
-                  "q_answer": "D"
-            },
-            {
-                  "q_number": 7,
-                  "q_statement": "When conducting a SWOT analysis, why is it important to gather a diverse team of stakeholders?",
-                  "q_field_type": "single_select" ,
-                  "q_selection": [{
-                      "A": "To ensure that the analysis is biased towards management's perspective.",
-                      "B": "To gather a comprehensive perspective that includes various insights and expertise.",
-                      "C": "To limit the number of opinions and streamline the decision-making process.",
-                      "D": "To avoid conflicts and disagreements among team members."
-                  }], 
-                  "q_answer": "B"
-            }]
-        }]
+            "questions": [
+              {
+                "q_number": 1,
+                "q_statement": "<p>A financial institution, TrustBank, is preparing for potential crises by conducting risk assessments and developing a crisis management plan.</p><p>Question: What is a critical component of TrustBank's crisis management plan?</p>",
+                "q_field_type": "single_select",
+                "q_selection": [
+                  {
+                    "A": "Crisis Definition and Scope",
+                    "B": "Reducing the number of employees.",
+                    "C": "Ignoring external factors.",
+                    "D": "Limiting customer communication"
+                  }
+                ],
+                "q_answer": "A"
+              },
+              {
+                "q_number": 2,
+                "q_statement": "<p>A bank, FutureBank, is developing a technology roadmap to implement a new digital banking platform</p><p>Question: What is a critical factor FutureBank should consider when assessing the current state of its technology landscape?.</p>",
+                "q_field_type": "single_select",
+                "q_selection": [
+                  {
+                    "A": "The number of employees in the IT department.",
+                    "B": "The effectiveness of existing systems and their integration capabilities with new technologies.",
+                    "C": "The historical performance of the bank's marketing campaigns.",
+                    "D": "The bank's physical branch locations"
+                  }
+                ],
+                "q_answer": "B"
+              },
+              {
+                "q_number": 3,
+                "q_statement": "Which of the following are key components of a business strategy? (Select all that apply)",
+                "q_field_type": "multi_select",
+                "q_selection": [
+                  {
+                    "A": "Vision and Mission",
+                    "B": "Market Analysis",
+                    "C": "Employee Satisfaction",
+                    "D": "Performance Metrics"
+                  }
+                ],
+                "q_answer": "A,B,D"
+              },
+              {
+                "q_number": 4,
+                "q_statement": "<p>A rural bank, Community Trust, is planning to use data analytics tools to gain insights into customer behavior and improve its marketing strategies.</p><p>Question: What is a critical first step Community Trust should take to ensure the successful implementation of data analytics tools?</p>",
+                "q_field_type": "single_select",
+                "q_selection": [
+                  {
+                    "A": "Ignore customer feedback and focus solely on data collection.",
+                    "B": "Train staff on how to interpret and utilize data analytics effectively.",
+                    "C": "Limit the use of data analytics to only the marketing department.",
+                    "D": "Implement the tools without any testing or validation."
+                  }
+                ],
+                "q_answer": "B"
+              },
+              {
+                "q_number": 5,
+                "q_statement": "<p>A rural bank, LocalBank, is exploring the use of cloud computing services to enhance its IT infrastructure. The management team is assessing the potential benefits of this transition.</p><p>Question: What is a significant advantage of adopting cloud computing for LocalBank?</p>",
+                "q_field_type": "single_select",
+                "q_selection": [
+                  {
+                    "A": "Increased costs associated with on-premises infrastructure.",
+                    "B": "Improved accessibility and scalability of IT resources.",
+                    "C": "Limited flexibility in accessing applications remotely.",
+                    "D": "Decreased security for customer data"
+                  }
+                ],
+                "q_answer": "B"
+              },
+              {
+                "q_number": 6,
+                "q_statement": "What is a key principle of the Lean Startup methodology that RuralTrust should follow.",
+                "q_field_type": "single_select",
+                "q_selection": [
+                  {
+                    "A": "Build the app without any customer input.",
+                    "B": "Avoid testing the app until it is fully developed.",
+                    "C": "Limit customer engagement to only the marketing team.",
+                    "D": "Focus on creating a minimum viable product (MVP) and gather feedback from users"
+                  }
+                ],
+                "q_answer": "D"
+              },
+              {
+                "q_number": 7,
+                "q_statement": "When conducting a SWOT analysis, why is it important to gather a diverse team of stakeholders?",
+                "q_field_type": "single_select",
+                "q_selection": [
+                  {
+                    "A": "To ensure that the analysis is biased towards management's perspective.",
+                    "B": "To gather a comprehensive perspective that includes various insights and expertise.",
+                    "C": "To limit the number of opinions and streamline the decision-making process.",
+                    "D": "To avoid conflicts and disagreements among team members."
+                  }
+                ],
+                "q_answer": "B"
+              }
+            ]
+          }
+        ]
       },
       {
         "order": 3,
         "title": "Course Credit and Completion Requirements and Learning Objective",
-        "body": "<h4>Credit and Completion Requirements</h4><p>To successfully earn credit and meet the learning objectives of this Web-Based Learning Application, it is essential to engage with every page, complete all knowledge checks, and complete the initial and final assessment independently. The assessment will require a 70% passing rate and while you are encouraged to refer to your notes of the course content during the assessment, any form of cheating is discouraged. Please also note that this course will expire by April 25, 2025.</p><h4>Module Learning Objectives</h4><p>Upon successful completion of the module, you will be able to:</p> <ul> <li>Familiarize with common project management terms and methodologies including fundamentals, tools, skills, techniques, roles, and responsibilities</li> <li>Understand the different phases of a project: initiation, planning, execution, monitoring and controlling, and closing</li> <li>Recognize the key activities, deliverables, and goals for each phase</li> <li>To be equipped with the foundational knowledge needed to initiate, plan, execute, and close projects successfully</li></ul>", 
-        "image":"src/assets/img/general images/CreditCompletionLearningObjectives.jpg"
+        "body": "<h4>Credit and Completion Requirements</h4><p>To successfully earn credit and meet the learning objectives of this Web-Based Learning Application, it is essential to engage with every page, complete all knowledge checks, and complete the initial and final assessment independently. The assessment will require a 70% passing rate and while you are encouraged to refer to your notes of the course content during the assessment, any form of cheating is discouraged. Please also note that this course will expire by April 25, 2025.</p><h4>Module Learning Objectives</h4><p>Upon successful completion of the module, you will be able to:</p> <ul> <li>Familiarize with common project management terms and methodologies including fundamentals, tools, skills, techniques, roles, and responsibilities</li> <li>Understand the different phases of a project: initiation, planning, execution, monitoring and controlling, and closing</li> <li>Recognize the key activities, deliverables, and goals for each phase</li> <li>To be equipped with the foundational knowledge needed to initiate, plan, execute, and close projects successfully</li></ul>",
+        "image": "src/assets/img/general images/CreditCompletionLearningObjectives.jpg"
       },
       {
         "order": 4,
         "title": "Aligning Business Strategy to Technology Innovations and Trends Lessons",
-        "subheader": "Business Strategy Alignment", 
+        "subheader": "Business Strategy Alignment",
         "body": "<h4>Learning Objective</h4> <p>At the end of this lesson, you will be able to:</p> <ul> <li>Define and explain the key components of business strategy</li> <li>Recognize the importance of aligning business strategies with technology innovations and trends</li> <li>Apply various methodologies and tools to assess organizational strategies and external environments effectively.</li> </ul>",
         "image": "src/assets/img/aligning business strat/order4.jpg"
-      }, 
+      },
       {
         "order": 5,
         "layout": "col-2",
-        "title":"Business Strategies",
-        "subheader":"Importance of a Business Strategy",
-        "col1": "<p>A business strategy…</p> <ul> <li>According to Harvard Business School it is a strategic initiative a company pursues to create value for the organization and its stakeholders and gain a competitive advantage in the market.</li> <li>According to The Strategy Institute it is a course of action or set of decisions that support entrepreneurs in achieving certain business goals.</li> <li>It encompasses the decisions and actions that guide the organization in allocating resources, entering markets, competing effectively, and responding to changes in the business environment.</li> </ul>", 
+        "title": "Business Strategies",
+        "subheader": "Importance of a Business Strategy",
+        "col1": "<p>A business strategy…</p> <ul> <li>According to Harvard Business School it is a strategic initiative a company pursues to create value for the organization and its stakeholders and gain a competitive advantage in the market.</li> <li>According to The Strategy Institute it is a course of action or set of decisions that support entrepreneurs in achieving certain business goals.</li> <li>It encompasses the decisions and actions that guide the organization in allocating resources, entering markets, competing effectively, and responding to changes in the business environment.</li> </ul>",
         "col2": "<p>Why do you need a business strategy?</p> <ul> <li>It provides a clear roadmap for achieving organizational goals, guiding decision-making, improving stakeholder engagement, and allocating resources. </li> <li>It enables organizations to track progress, foster innovation, and mitigate risks, ultimately driving long-term success and value creation for all stakeholders. </li> </ul>"
       },
       {
         "order": 6,
         "layout": "col-2",
-        "title":"Business Strategies",
-        "subheader":"Key Components of a Business Strategy",
-        "col1": "<h4>Vision and Mission</h4> <ul> <li>A clear statement of the organization’s purpose and long-term aspirations, guiding its direction and decision-making.</li> </ul> <h4>Goals and Objectives</h4> <ul> <li>Specific, measurable,achievable, relevant, and time-bound (SMART) targets the organization aims to achieve.</li> </ul> <h4>Market Analysis</h4> <ul> <li>An assessment of the industry landscape, including market trends, customer needs, and competitive dynamics, to identify opportunities and threats.</li> </ul> <h4>Resource Allocation</h4> <ul> <li>A plan for how resources (financial, human, technological, etc.) will be allocated to support strategic initiatives and achieve goals.</li> </ul> <h4>Target Audience</h4> <ul> <li>Identification of the specific customer segments the organization aims to serve, including their preferences and behaviors.</li> </ul>", 
+        "title": "Business Strategies",
+        "subheader": "Key Components of a Business Strategy",
+        "col1": "<h4>Vision and Mission</h4> <ul> <li>A clear statement of the organization’s purpose and long-term aspirations, guiding its direction and decision-making.</li> </ul> <h4>Goals and Objectives</h4> <ul> <li>Specific, measurable,achievable, relevant, and time-bound (SMART) targets the organization aims to achieve.</li> </ul> <h4>Market Analysis</h4> <ul> <li>An assessment of the industry landscape, including market trends, customer needs, and competitive dynamics, to identify opportunities and threats.</li> </ul> <h4>Resource Allocation</h4> <ul> <li>A plan for how resources (financial, human, technological, etc.) will be allocated to support strategic initiatives and achieve goals.</li> </ul> <h4>Target Audience</h4> <ul> <li>Identification of the specific customer segments the organization aims to serve, including their preferences and behaviors.</li> </ul>",
         "col2": "<h4>Implementation Plan</h4> <ul> <li>A detailed outline of the actions, timelines, and responsibilities required to execute the strategy effectively.</li> </ul> <h4>Performance Metrics</h4> <ul> <li>Key performance indicators (KPIs) that will be used to measure progress and success, allowing for ongoing evaluation and adjustment of the strategy.</li> </ul> <h4>Risk Management</h4> <ul> <li>An assessment of potential risks and challenges, along with strategies to mitigate them, ensuring the organization is prepared for uncertainties. </li> </ul> <h4>Continuous Improvement</h4> <ul> <li>A commitment to regularly review and refine the strategy based on performance data, market changes, and stakeholder feedback to ensure ongoing relevance and effectiveness.</li> </ul> <h4>Value Proposition</h4> <ul> <li>The unique benefits and value that the organization offers to its customers, differentiating it from competitors.</li> </ul>"
-      },   
+      },
       {
         "order": 7,
         "title": "Knowledge Check",
         "body": "What is the primary purpose of a business strategy?",
-        "image":"src/assets/img/general images/KnowledgeCheck.jpg", 
-        "q_field_type": "single_select" ,
-        "q_selection": [{
-          "A": "To increase the number of employees in an organization.",
-          "B": "To provide a clear roadmap for achieving organizational goals and guiding decision-making.",
-          "C": "To create a product that is the most expensive in the market.",
-          "D": "To ensure that all employees are working in isolation without collaboration."
-        }],
+        "image": "src/assets/img/general images/KnowledgeCheck.jpg",
+        "q_field_type": "single_select",
+        "q_selection": [
+          {
+            "A": "To increase the number of employees in an organization.",
+            "B": "To provide a clear roadmap for achieving organizational goals and guiding decision-making.",
+            "C": "To create a product that is the most expensive in the market.",
+            "D": "To ensure that all employees are working in isolation without collaboration."
+          }
+        ],
         "q_answer": "B"
-      }, 
+      },
       {
         "order": 8,
         "layout": "image righthand portion",
         "title": "The Importance of Alignment",
-        "subheader":"Impacts of Technology on a Business",
-        "body":"<h4>Global Reach and Market Expansion</h4> <ul> <li>Technology facilitates online presence, allowing business to reach a global audience.</li> <li>This opens up new markets, potential clients, and opportunities for growth, enabling companies to compete on a larger scale.</li> </ul> <h4>Technology Infrastructure and Capabilities</h4> <ul> <li>Organizations are rethinking their products, strategies, and general capacity for embracing digitization and advancement.</li> <li></li> </ul> <h4>Culture of Innovation</h4> <ul> <li>Technology’s presence in businesses has helped encourage creative thinking, improve access to resources, experiment with various tools, foster collaboration, and practice iteration.</li> </ul> <h4>Change Navigation</h4> <ul> <li>In other perspectives, technology can be viewed as a disruption to operations but data-driven insights for change management assist in the decision-making of executives and team leads.</li> </ul>", 
+        "subheader": "Impacts of Technology on a Business",
+        "body": "<h4>Global Reach and Market Expansion</h4> <ul> <li>Technology facilitates online presence, allowing business to reach a global audience.</li> <li>This opens up new markets, potential clients, and opportunities for growth, enabling companies to compete on a larger scale.</li> </ul> <h4>Technology Infrastructure and Capabilities</h4> <ul> <li>Organizations are rethinking their products, strategies, and general capacity for embracing digitization and advancement.</li> <li></li> </ul> <h4>Culture of Innovation</h4> <ul> <li>Technology’s presence in businesses has helped encourage creative thinking, improve access to resources, experiment with various tools, foster collaboration, and practice iteration.</li> </ul> <h4>Change Navigation</h4> <ul> <li>In other perspectives, technology can be viewed as a disruption to operations but data-driven insights for change management assist in the decision-making of executives and team leads.</li> </ul>",
         "image": "src/assets/img/aligning business strat/order8.jpg"
       },
       {
         "order": 9,
-        "layout":"col-2",
+        "layout": "col-2",
         "title": "The Importance of Alignment",
-        "subheader":"Benefits of Aligning Business Strategy with Technology",
-        "col1":"<p>In an era where digital transformation is essential for survival, integrating technological advancements into the strategic framework can significantly enhance an organization’s performance and competitiveness. This alignment not only fosters a culture of agility and adaptability but also enhances customer experiences and drives sustainable growth.</p> <h4>Increased Efficiency</h4> <ul> <li>Streamlined processes through automation and digital tools reduce operational costs and enhance productivity.</li> </ul> <h4>Enhanced Customer Experience</h4> <ul> <li>Technology enables personalized interactions and improved service delivery, leading to higher customer satisfaction and loyalty. </li> </ul> <h4>Data-Driven Insights</h4> <ul> <li>Access to real-timedata analytics empowers informed decision-making, allowing organizations to respond swiftly to market trends and customer needs. </li> </ul> <h4>Agility and Flexibility</h4> <ul> <li>Aligning strategy with technology fosters a culture of adaptability, enabling businesses to pivot quickly in response to changing conditions.</li> </ul> <h4>Competitive Advantage</h4> <ul> <li>Companies that effectively integrate technology into their strategy can differentiate themselves in the market, offering innovative products and services.</li> </ul>", 
+        "subheader": "Benefits of Aligning Business Strategy with Technology",
+        "col1": "<p>In an era where digital transformation is essential for survival, integrating technological advancements into the strategic framework can significantly enhance an organization’s performance and competitiveness. This alignment not only fosters a culture of agility and adaptability but also enhances customer experiences and drives sustainable growth.</p> <h4>Increased Efficiency</h4> <ul> <li>Streamlined processes through automation and digital tools reduce operational costs and enhance productivity.</li> </ul> <h4>Enhanced Customer Experience</h4> <ul> <li>Technology enables personalized interactions and improved service delivery, leading to higher customer satisfaction and loyalty. </li> </ul> <h4>Data-Driven Insights</h4> <ul> <li>Access to real-timedata analytics empowers informed decision-making, allowing organizations to respond swiftly to market trends and customer needs. </li> </ul> <h4>Agility and Flexibility</h4> <ul> <li>Aligning strategy with technology fosters a culture of adaptability, enabling businesses to pivot quickly in response to changing conditions.</li> </ul> <h4>Competitive Advantage</h4> <ul> <li>Companies that effectively integrate technology into their strategy can differentiate themselves in the market, offering innovative products and services.</li> </ul>",
         "col2": "<h4>Improved Collaboration</h4> <ul> <li>Digital tools enhance communication and teamwork across departments, leading to better project outcomes and innovation.</li> </ul> <h4>Scalability</h4> <ul> <li>Technology solutions provide the infrastructure necessary for growth, allowing businesses to scale operations efficiently as demand increases.</li> </ul> <h4>Risk Mitigation</h4> <ul> <li>Advanced technologies improve security measures and help organizations manage risks associated with digital operations.</li> </ul> <h4>Sustainability</h4> <ul> <li>Technology can support environmentally friendly practices, optimizing resource use and reducing waste.</li> </ul> <h4>Long-Term Sustainability</h4> <ul> <li>Aligning business strategy with technology positions organizations for long-term success by fostering continuous improvement and innovation.</li> </ul>"
       },
       {
         "order": 10,
         "layout": "col-1",
         "title": "The Importance of Alignment",
-        "subheader":"Risks of Misalignment",
-        "body":"<p>Strategic alignment between business and IT strategies is a critical aspect of organizational success. However, misalignment can occur for various reasons, leading to significant risks for organizations.</p> <h4>Operational Inefficiencies</h4> <ul> <li>When business and IT strategies are not aligned, it can result in operational inefficiencies. IT systems may fail to support essential business processes, leading to wasted resources and time as employees navigate workarounds.</li> </ul> <h4>Increased Costs</h4> <ul> <li>Organizations may need to invest in rework, system modifications, or even new technologies to address the gaps between business and IT strategies, straining budgets and resources.</li> </ul> <h4>Decreased Agility</h4> <ul> <li>In a rapidly changing market, organizations must be agile to respond to new opportunities and challenges. Misalignment can hinder this agility, making it difficult for businesses to adapt quickly to customer needs or market shifts.</li> </ul> <h4>Employee Frustration</h4> <ul> <li>Employees are directly affected by misalignment. When business objectives and IT capabilities do not match, employees may face challenges in executing their tasks, leading to frustration, decreased morale, and potential turnover.</li> </ul> <h4>Loss of Competitive Advantage</h4> <ul> <li>Organizations that struggle with alignment may find it difficult to innovate and differentiate themselves from competitors. This loss of competitive advantage can have long-term implications for market positioning and profitability.</li> </ul> <h4>Strategic Drift</h4> <ul> <li>Continuous misalignment can lead to strategic drift, where an organization gradually moves away from its original goals and objectives. This drift can make it increasingly challenging to realign strategies in the future.</li> </ul> <h4>Stakeholder Discontent</h4> <ul> <li>Misalignment can create dissatisfaction among various stakeholders, including customers, employees, and investors. Perceptions of disorganization or lack of focus can damage relationships and trust.</li> </ul> <h4>Risk of Project Failures</h4> <ul> <li>IT projects that are not aligned with business objectives are at a higher risk of failure. This can result in wasted investments and missed opportunities, further compounding the challenges faced by the organization.</li> </ul>"
+        "subheader": "Risks of Misalignment",
+        "body": "<p>Strategic alignment between business and IT strategies is a critical aspect of organizational success. However, misalignment can occur for various reasons, leading to significant risks for organizations.</p> <h4>Operational Inefficiencies</h4> <ul> <li>When business and IT strategies are not aligned, it can result in operational inefficiencies. IT systems may fail to support essential business processes, leading to wasted resources and time as employees navigate workarounds.</li> </ul> <h4>Increased Costs</h4> <ul> <li>Organizations may need to invest in rework, system modifications, or even new technologies to address the gaps between business and IT strategies, straining budgets and resources.</li> </ul> <h4>Decreased Agility</h4> <ul> <li>In a rapidly changing market, organizations must be agile to respond to new opportunities and challenges. Misalignment can hinder this agility, making it difficult for businesses to adapt quickly to customer needs or market shifts.</li> </ul> <h4>Employee Frustration</h4> <ul> <li>Employees are directly affected by misalignment. When business objectives and IT capabilities do not match, employees may face challenges in executing their tasks, leading to frustration, decreased morale, and potential turnover.</li> </ul> <h4>Loss of Competitive Advantage</h4> <ul> <li>Organizations that struggle with alignment may find it difficult to innovate and differentiate themselves from competitors. This loss of competitive advantage can have long-term implications for market positioning and profitability.</li> </ul> <h4>Strategic Drift</h4> <ul> <li>Continuous misalignment can lead to strategic drift, where an organization gradually moves away from its original goals and objectives. This drift can make it increasingly challenging to realign strategies in the future.</li> </ul> <h4>Stakeholder Discontent</h4> <ul> <li>Misalignment can create dissatisfaction among various stakeholders, including customers, employees, and investors. Perceptions of disorganization or lack of focus can damage relationships and trust.</li> </ul> <h4>Risk of Project Failures</h4> <ul> <li>IT projects that are not aligned with business objectives are at a higher risk of failure. This can result in wasted investments and missed opportunities, further compounding the challenges faced by the organization.</li> </ul>"
       },
       {
         "order": 11,
-        "layout":"col-2",
+        "layout": "col-2",
         "title": "The Importance of Alignment",
-        "subheader":"Addressing the Risks of Misalignment",
-        "col1":"<p>Mitigating the risks associated with misalignment between business and IT strategies requires a proactive and strategic approach.</p> <h4>Enhance Communication and Collaboration</h4> <ul> <li>Foster open lines of communication between business and IT teams. Regular meetings, joint planning sessions, and collaborative projects can help ensure that both sides understand each other's goals, challenges, and capabilities.</li> </ul> <h4>Involve Stakeholders Early</h4> <ul> <li>Engage key stakeholders from both business and IT during the strategy formulation process. By involving them early, organizations can gather diverse perspectives and ensure that strategies are aligned with the needs and expectations of all parties.</li> </ul> <h4>Establish Clear Goals and Objectives</h4> <ul> <li>Define clear, measurable goals and objectives for both business and IT strategies. This clarity helps ensure that both sides are working towards the same outcomes and can facilitate alignment.</li> </ul> <h4>Implement a Governance Framework</h4> <ul> <li>Develop a governance framework that outlines roles, responsibilities, and decision-making processes related to strategic alignment. This framework can help ensure accountability and provide a structured approach to managing alignment efforts.</li> </ul> <h4>Regularly Review and Adjust Strategies</h4> <ul> <li>Conduct regular reviews of both business and IT strategies to assess alignment. This includes evaluating performance metrics, market changes, and emerging technologies. Adjust strategies as needed to maintain alignment over time.</li> </ul>", 
+        "subheader": "Addressing the Risks of Misalignment",
+        "col1": "<p>Mitigating the risks associated with misalignment between business and IT strategies requires a proactive and strategic approach.</p> <h4>Enhance Communication and Collaboration</h4> <ul> <li>Foster open lines of communication between business and IT teams. Regular meetings, joint planning sessions, and collaborative projects can help ensure that both sides understand each other's goals, challenges, and capabilities.</li> </ul> <h4>Involve Stakeholders Early</h4> <ul> <li>Engage key stakeholders from both business and IT during the strategy formulation process. By involving them early, organizations can gather diverse perspectives and ensure that strategies are aligned with the needs and expectations of all parties.</li> </ul> <h4>Establish Clear Goals and Objectives</h4> <ul> <li>Define clear, measurable goals and objectives for both business and IT strategies. This clarity helps ensure that both sides are working towards the same outcomes and can facilitate alignment.</li> </ul> <h4>Implement a Governance Framework</h4> <ul> <li>Develop a governance framework that outlines roles, responsibilities, and decision-making processes related to strategic alignment. This framework can help ensure accountability and provide a structured approach to managing alignment efforts.</li> </ul> <h4>Regularly Review and Adjust Strategies</h4> <ul> <li>Conduct regular reviews of both business and IT strategies to assess alignment. This includes evaluating performance metrics, market changes, and emerging technologies. Adjust strategies as needed to maintain alignment over time.</li> </ul>",
         "col2": "<h4>Invest in Training and Development</h4> <ul> <li>Provide training and development opportunities for employees to enhance their understanding of both business and IT perspectives. This can help bridge knowledge gaps and foster a culture of collaboration.</li> </ul> <h4>Utilize Technology for Integration</h4> <ul> <li>Leverage technology solutions that facilitate integration between business and IT processes. Tools such as enterprise resource planning (ERP) systems, project management software, and collaboration platforms can enhance coordination and alignment.</li> </ul> <h4>Encourage a Culture of Agility</h4> <ul> <li>Promote a culture that values agility and adaptability. Encourage teams to be open to change and willing to adjust their strategies in response to new information or shifting market conditions.</li> </ul> <h4>Monitor External Trends</h4> <ul> <li>Stay informed about industry trends, technological advancements, and competitive dynamics. Understanding the external environment can help organizations anticipate changes that may impact alignment and adjust strategies accordingly.</li> </ul> <h4>Conduct Post-Implementation Reviews</h4> <ul> <li>After implementing new IT solutions or business initiatives, conduct post-implementation reviews to assess alignment and effectiveness. Gather feedback from stakeholders to identify areas for improvement and lessons learned.</li> </ul>"
       },
       {
         "order": 12,
-        "layout":"image righthand portion",
+        "layout": "image righthand portion",
         "title": "Digital Transformation",
-        "body":"<ul> <li>The comprehensive integration of digital technologies into all aspects of an organization, fundamentally changing how it operates and delivers value to customers.</li> <li>It encompasses not only the adoption of new technologies but also a cultural shift that encourages organizations to continually challenge the status quo, experiment, and embrace change.</li> <li>Opens doors for connection over digital platforms and challenges existing mindset, goals, and KPIs within an organization.</li> </ul> <p>Digital transformation can involve various elements, including:</p> <ul> <li>Technology Integration: Implementing advanced technologies such as cloud computing, artificial intelligence (AI), big data analytics, the Internet of Things (IoT), and automation to enhance operational efficiency and customer engagement.</li> <li>Process Reengineering: Rethinking and redesigning business processes to leverage digital tools, improve efficiency, and enhance customer experiences.</li> <li>Cultural Change: Fostering a culture that embraces innovation, agility, and collaboration across all levels of the organization.</li> <li>Customer-Centric Approach: Redefining customer experiences by utilizing data and technology to understand customer needs better and deliver personalized services.</li> <li>Data-Driven Decision-Making: Leveraging data analytics to inform strategic decisions, identify trends, and optimize business operations.</li> </ul>",
-        "image": "src/assets/img/aligning business strat/order12.jpg" 
+        "body": "<ul> <li>The comprehensive integration of digital technologies into all aspects of an organization, fundamentally changing how it operates and delivers value to customers.</li> <li>It encompasses not only the adoption of new technologies but also a cultural shift that encourages organizations to continually challenge the status quo, experiment, and embrace change.</li> <li>Opens doors for connection over digital platforms and challenges existing mindset, goals, and KPIs within an organization.</li> </ul> <p>Digital transformation can involve various elements, including:</p> <ul> <li>Technology Integration: Implementing advanced technologies such as cloud computing, artificial intelligence (AI), big data analytics, the Internet of Things (IoT), and automation to enhance operational efficiency and customer engagement.</li> <li>Process Reengineering: Rethinking and redesigning business processes to leverage digital tools, improve efficiency, and enhance customer experiences.</li> <li>Cultural Change: Fostering a culture that embraces innovation, agility, and collaboration across all levels of the organization.</li> <li>Customer-Centric Approach: Redefining customer experiences by utilizing data and technology to understand customer needs better and deliver personalized services.</li> <li>Data-Driven Decision-Making: Leveraging data analytics to inform strategic decisions, identify trends, and optimize business operations.</li> </ul>",
+        "image": "src/assets/img/aligning business strat/order12.jpg"
       },
       {
         "order": 13,
         "layout": "col-1",
         "title": "Digital Transformation",
-        "subheader": "Business Strategy and Technology in Driving Successful Digital Transformation", 
+        "subheader": "Business Strategy and Technology in Driving Successful Digital Transformation",
         "body": "<p>Successful digital transformation is a journey that requires a deep understanding of both technology and people. It is not just about investing in the latest tech tools, but about finding the right technology for your business and then using it to transform your people, processes, and culture.</p> <ul> <li>Creates a cohesive framework that guides organizations in leveraging technology to achieve their strategic objectives.</li> <li>Enables organizations to adapt their operations and offerings in real-time with the appropriate technology, fostering a culture of responsiveness and innovation.</li> <li>Ensures that the focus is not only on short-term gains but also on building a sustainable future, positioning the organization for success in an increasingly digital world. </li> </ul>"
       },
       {
         "order": 14,
         "layout": "col-1",
         "title": "Digital Transformation",
-        "subheader": "Drivers of Digital Transformation Success", 
+        "subheader": "Drivers of Digital Transformation Success",
         "body": "<h4>Leadership Skills</h4> <ul> <li>Effective leadership is crucial, with leaders needing to possess emotional intelligence (EQ) alongside technical skills (IQ). Maintaining morale is essential especially during challenging phases of transformation.</li> </ul> <h4>Clear Vision (Pole Star)</h4> <ul> <li>A compelling and inspiring vision is important for guiding the organization through transformation. Ensure that the vision resonates with all stakeholders to motivate all towards a common goal. </li> </ul> <h4>Culture Shift</h4> <ul> <li>Transformations require a shift in organizational culture, emphasizing engagement, feedback, and psychological safety for all employees.</li> </ul> <h4>Collaborative and Co-Creative Culture</h4> <ul> <li>Change should be driven from the bottom-up rather than imposed from the top-down. Involving employees in the change process empowers them to take ownership and contribute meaningfully to the transformation.</li> </ul> <h4>Purposeful Use of Technology</h4> <ul> <li>Technology should be leveraged in a way that engages employees and makes change tangible. This includes involving employees in testing new tools and using interactive methods, such as simulations, to enhance their experience with the technology.</li> </ul> <h4>Empowerment</h4> <ul> <li>Organizations can empower employees by encouraging experimentation and recognizing that change is a cyclical process. This driver emphasizes the importance of supporting individuals throughout the transformation journey.</li> </ul>"
       },
       {
         "order": 15,
         "title": "Knowledge Check",
         "body": "<p>A large bank, GlobalBank, is undergoing a digital transformation to enhance its online banking services. The leadership team recognizes the importance of aligning their business strategy with this transformation.</p><p>What is one of the primary reasons for GlobalBank to align its business strategy with its digital transformation efforts?</p>",
-        "image":"src/assets/img/general images/KnowledgeCheck.jpg", 
-        "q_field_type": "single_select" ,
-        "q_selection": [{
-          "A": "To increase the number of physical branches.",
-          "B": "To reduce the number of employees in the customer service department.",
-          "C": "To ensure that the new online services meet customer expectations and improve satisfaction.",
-          "D": "To limit the use of technology in customer interactions."
-        }],
+        "image": "src/assets/img/general images/KnowledgeCheck.jpg",
+        "q_field_type": "single_select",
+        "q_selection": [
+          {
+            "A": "To increase the number of physical branches.",
+            "B": "To reduce the number of employees in the customer service department.",
+            "C": "To ensure that the new online services meet customer expectations and improve satisfaction.",
+            "D": "To limit the use of technology in customer interactions."
+          }
+        ],
         "q_answer": "C"
-      }, 
+      },
       {
         "order": 16,
-        "layout":"col-1",
+        "layout": "col-1",
         "title": "Methodologies and Tools",
-        "subheader": "Common Analysis Methods", 
+        "subheader": "Common Analysis Methods",
         "body": "<p>In the rapidly evolving technology landscape, organizations must navigate a complex array of challenges and opportunities to remain competitive and relevant.To effectively assess their strategic position and make informed decisions, businesses often turn to established analysis methodologies. </p> <h4>SWOT ANALYSIS</h4> <p>A strategic planning tool that helps teams align their business strategy with technology by providing a structured approach to assess internal and external factors that can impact project success.</p> <h4>Define the Objective</h4> <ul> <li>Clearly articulate the purpose of the SWOT analysis. This could be for a specific project, a new technology implementation, or aligning business strategy with technological advancements.</li> </ul> <h4>Gather a Team</h4> <ul> <li>Assemble a diverse group of stakeholders, including project managers, team members, and relevant business leaders, to ensure a comprehensive perspective.</li> </ul> <h4>Identify Strengths</h4> <ul> <li>List the internal attributes and resources that give the project or organization an advantage over others. Consider factors such as skilled personnel, strong brand reputation, or advanced technology.</li> </ul> <h4>Identify Weaknesses</h4> <ul> <li>Assess internal limitations or challenges that may hinder project success. This could include resource constraints, lack of expertise, or outdated technology.</li> </ul> <h4>Identify Opportunities</h4> <ul> <li>Explore external factors that could be leveraged for project success. This might include market trends, technological advancements, or changes in regulations that could benefit the project.</li> </ul> <h4>Identify Threats</h4> <ul> <li>Evaluate external challenges that could pose risks to the project. This could involve competition, economic downturns, or changes in customer preferences.</li> </ul> <h4>Analyze and Prioritize</h4> <ul> <li>Review the identified factors and prioritize them based on their potential impact on the project. This will help in formulating actionable strategies.</li> </ul> <h4>Develop Strategies</h4> <ul> <li>Create strategies that leverage strengths and opportunities while addressing weaknesses and threats. This may involve resource allocation, risk management plans, or technology investments.</li> </ul> <h4>Implement and Monitor</h4> <ul> <li>Execute the strategies and continuously monitor their effectiveness. Adjust plans as necessary based on feedback and changing circumstances.</li> </ul>"
       },
       {
         "order": 17,
-        "layout":"image righthand portion",
+        "layout": "image righthand portion",
         "title": "Methodologies and Tools",
-        "subheader": "Common Analysis Methods", 
-        "col1": "<p>In the rapidly evolving technology landscape, organizations must navigate a complex array of challenges and opportunities to remain competitive and relevant.To effectively assess their strategic position and make informed decisions, businesses often turn to established analysis methodologies.</p> <h4>SWOT ANALYSIS</h4> <ul> <li>Project Objective: To implement a new Digital Banking Platform to enhance customer engagement, streamline operations, and improve access to financial services for rural communities.</li> <li>Business Strategy: The rural bank aims to expand its customer base by offering innovative digital banking solutions that cater to the unique needs of rural populations. The strategy focuses on increasing financial inclusion, improving customer service, and leveraging technology to enhance operational efficiency. </li> </ul>>", 
+        "subheader": "Common Analysis Methods",
+        "col1": "<p>In the rapidly evolving technology landscape, organizations must navigate a complex array of challenges and opportunities to remain competitive and relevant.To effectively assess their strategic position and make informed decisions, businesses often turn to established analysis methodologies.</p> <h4>SWOT ANALYSIS</h4> <ul> <li>Project Objective: To implement a new Digital Banking Platform to enhance customer engagement, streamline operations, and improve access to financial services for rural communities.</li> <li>Business Strategy: The rural bank aims to expand its customer base by offering innovative digital banking solutions that cater to the unique needs of rural populations. The strategy focuses on increasing financial inclusion, improving customer service, and leveraging technology to enhance operational efficiency. </li> </ul>>",
         "image": "src/assets/img/aligning business strat/order17.jpg"
-      }, 
+      },
       {
         "order": 18,
-        "layout":"image righthand portion",
+        "layout": "image righthand portion",
         "title": "Methodologies and Tools",
-        "subheader": "Common Analysis Methods", 
-        "col2":"<p>In the rapidly evolving technology landscape, organizations must navigate a complex array of challenges and opportunities to remain competitive and relevant.To effectively assess their strategic position and make informed decisions, businesses often turn to established analysis methodologies.</p> <h4>SWOT ANALYSIS</h4> <p>Strategic Action</p>",
+        "subheader": "Common Analysis Methods",
+        "col2": "<p>In the rapidly evolving technology landscape, organizations must navigate a complex array of challenges and opportunities to remain competitive and relevant.To effectively assess their strategic position and make informed decisions, businesses often turn to established analysis methodologies.</p> <h4>SWOT ANALYSIS</h4> <p>Strategic Action</p>",
         "image": "src/assets/img/aligning business strat/order18.jpg"
-
-      }, 
+      },
       {
         "order": 19,
-        "layout":"image righthand portion",
+        "layout": "image righthand portion",
         "title": "Methodologies and Tools",
-        "subheader": "Common Analysis Methods", 
-        "col1": "<p>In the rapidly evolving technology landscape, organizations must navigate a complex array of challenges and opportunities to remain competitive and relevant.To effectively assess their strategic position and make informed decisions, businesses often turn to established analysis methodologies.</p> <h4>PORTER’S FIVE FORCES</h4> <p>A framework developed by Michael E. Porter for organizations to analyze and understand the dynamics of their competitive environment.</p>", 
+        "subheader": "Common Analysis Methods",
+        "col1": "<p>In the rapidly evolving technology landscape, organizations must navigate a complex array of challenges and opportunities to remain competitive and relevant.To effectively assess their strategic position and make informed decisions, businesses often turn to established analysis methodologies.</p> <h4>PORTER’S FIVE FORCES</h4> <p>A framework developed by Michael E. Porter for organizations to analyze and understand the dynamics of their competitive environment.</p>",
         "image": "src/assets/img/aligning business strat/order19.jpg"
       },
       {
         "order": 20,
-        "layout":"image righthand portion",
+        "layout": "image righthand portion",
         "title": "Methodologies and Tools",
-        "subheader": "Common Analysis Methods", 
-        "col2":"<h4>PORTER’S FIVE FORCES</h4><ul> <li>Project Objective: To implement a new Digital Banking Platform to enhance customer engagement, streamline operations, and improve access to financial services for rural communities.</li> <li>Business Strategy: The rural bank aims to expand its customer base by offering innovative digital banking solutions that cater to the unique needs of rural populations. The strategy focuses on increasing financial inclusion, improving customer service, and leveraging technology to enhance operational efficiency.</li> </ul> ", 
-        "image": "src/assets/img/aligning business strat/order20.jpg" 
-      }, 
+        "subheader": "Common Analysis Methods",
+        "col2": "<h4>PORTER’S FIVE FORCES</h4><ul> <li>Project Objective: To implement a new Digital Banking Platform to enhance customer engagement, streamline operations, and improve access to financial services for rural communities.</li> <li>Business Strategy: The rural bank aims to expand its customer base by offering innovative digital banking solutions that cater to the unique needs of rural populations. The strategy focuses on increasing financial inclusion, improving customer service, and leveraging technology to enhance operational efficiency.</li> </ul> ",
+        "image": "src/assets/img/aligning business strat/order20.jpg"
+      },
       {
         "order": 21,
-        "layout":"image righthand portion",
+        "layout": "image righthand portion",
         "title": "Methodologies and Tools",
-        "subheader": "Common Analysis Methods", 
-        "col1": "<p>In the rapidly evolving technology landscape, organizations must navigate a complex array of challenges and opportunities to remain competitive and relevant.To effectively assess their strategic position and make informed decisions, businesses often turn to established analysis methodologies.</p> <h4>PESTLE ANALYSIS</h4> <p>A framework used to evaluate external factors to better understand the broader environment in which an organization operates.</p>", 
+        "subheader": "Common Analysis Methods",
+        "col1": "<p>In the rapidly evolving technology landscape, organizations must navigate a complex array of challenges and opportunities to remain competitive and relevant.To effectively assess their strategic position and make informed decisions, businesses often turn to established analysis methodologies.</p> <h4>PESTLE ANALYSIS</h4> <p>A framework used to evaluate external factors to better understand the broader environment in which an organization operates.</p>",
         "image": "src/assets/img/aligning business strat/order21.jpg"
-      },    
+      },
       {
         "order": 22,
-        "layout":"image righthand portion",
+        "layout": "image righthand portion",
         "title": "Methodologies and Tools",
-        "subheader": "Common Analysis Methods", 
-        "col1": "<ul> <li>Project Objective: To implement a new Digital Banking Platform to enhance customer engagement, streamline operations, and improve access to financial services for rural communities.</li> <li>Business Strategy: The rural bank aims to expand its customer base by offering innovative digital banking solutions that cater to the unique needs of rural populations. The strategy focuses on increasing financial inclusion, improving customer service, and leveraging technology to enhance operational efficiency.</li> </ul>", 
+        "subheader": "Common Analysis Methods",
+        "col1": "<ul> <li>Project Objective: To implement a new Digital Banking Platform to enhance customer engagement, streamline operations, and improve access to financial services for rural communities.</li> <li>Business Strategy: The rural bank aims to expand its customer base by offering innovative digital banking solutions that cater to the unique needs of rural populations. The strategy focuses on increasing financial inclusion, improving customer service, and leveraging technology to enhance operational efficiency.</li> </ul>",
         "image": "src/assets/img/aligning business strat/order22.jpg"
-      }, 
+      },
       {
         "order": 23,
-        "layout":"image righthand portion",
+        "layout": "image righthand portion",
         "title": "Methodologies and Tools",
-        "subheader": "Design-Thinking", 
-        "body":"<p>A human-centered approach to innovation and problem-solving that emphasizes understanding the needs and experiences of users. It encourages collaboration, creativity, and iterative development to create solutions that are not only functional but also meaningful and user-friendly. The process is typically non-linear and involves continuous feedback and refinement.</p> <h4>Empathize</h4> <ul> <li>Understand the users and their needs through observation, interviews, and engagement. This stage focuses on gaining insights into the users' experiences and challenges.</li> </ul> <h4>Define</h4> <ul> <li>Clearly articulate the problem statement based on the insights gathered during the empathize stage. This helps to frame the challenge in a way that guides the design process.</li> </ul> <h4>Ideate</h4> <ul> <li>Generate a wide range of ideas and potential solutions through brainstorming sessions. This stage encourages creativity and open-mindedness, allowing for innovative thinking.</li> </ul> <h4>Prototype</h4> <ul> <li>Create low-fidelity representations of the ideas generated in the ideation phase. Prototypes can be sketches, models, or digital mockups that allow for testing and feedback.</li> </ul> <h4>Test</h4> <ul> <li>Gather feedback on the prototypes from users and stakeholders. This stage involves observing how users interact with the prototypes and refining the solutions based on their input.</li> </ul> <h4>Implement</h4> <ul> <li>Once a solution has been validated through testing, it can be developed and implemented. This stage may involve further iterations based on real-world usage and feedback</li> </ul> <p>A human-centered approach to innovation and problem-solving that emphasizes understanding the needs and experiences of users. It encourages collaboration, creativity, and iterative development to create solutions that are not only functional but also meaningful and user-friendly. The process is typically non-linear and involves continuous feedback and refinement.</p> <ul> <li>Promotes thinking outside of the box</li> <li>Promotes cross-disciplinary collaboration and teamwork</li> <li>Ensures alignment with organizational objectives</li> <li>Prioritizes user needs, desires, and challenges</li> <li>Increases stakeholder engagement and involvement</li> <li>Accounts for cultural and mindset shifts</li> <li>Improves problem-solving processes</li> <li>Reduces risk through early identification</li> <li>Develops long-term impact</li> </ul>", 
-        "image":"src/assets/img/aligning business strat/order23.jpg"
+        "subheader": "Design-Thinking",
+        "body": "<p>A human-centered approach to innovation and problem-solving that emphasizes understanding the needs and experiences of users. It encourages collaboration, creativity, and iterative development to create solutions that are not only functional but also meaningful and user-friendly. The process is typically non-linear and involves continuous feedback and refinement.</p> <h4>Empathize</h4> <ul> <li>Understand the users and their needs through observation, interviews, and engagement. This stage focuses on gaining insights into the users' experiences and challenges.</li> </ul> <h4>Define</h4> <ul> <li>Clearly articulate the problem statement based on the insights gathered during the empathize stage. This helps to frame the challenge in a way that guides the design process.</li> </ul> <h4>Ideate</h4> <ul> <li>Generate a wide range of ideas and potential solutions through brainstorming sessions. This stage encourages creativity and open-mindedness, allowing for innovative thinking.</li> </ul> <h4>Prototype</h4> <ul> <li>Create low-fidelity representations of the ideas generated in the ideation phase. Prototypes can be sketches, models, or digital mockups that allow for testing and feedback.</li> </ul> <h4>Test</h4> <ul> <li>Gather feedback on the prototypes from users and stakeholders. This stage involves observing how users interact with the prototypes and refining the solutions based on their input.</li> </ul> <h4>Implement</h4> <ul> <li>Once a solution has been validated through testing, it can be developed and implemented. This stage may involve further iterations based on real-world usage and feedback</li> </ul> <p>A human-centered approach to innovation and problem-solving that emphasizes understanding the needs and experiences of users. It encourages collaboration, creativity, and iterative development to create solutions that are not only functional but also meaningful and user-friendly. The process is typically non-linear and involves continuous feedback and refinement.</p> <ul> <li>Promotes thinking outside of the box</li> <li>Promotes cross-disciplinary collaboration and teamwork</li> <li>Ensures alignment with organizational objectives</li> <li>Prioritizes user needs, desires, and challenges</li> <li>Increases stakeholder engagement and involvement</li> <li>Accounts for cultural and mindset shifts</li> <li>Improves problem-solving processes</li> <li>Reduces risk through early identification</li> <li>Develops long-term impact</li> </ul>",
+        "image": "src/assets/img/aligning business strat/order23.jpg"
       },
       {
         "order": 24,
         "layout": "col-1",
         "title": "Methodologies and Tools",
-        "subheader": "Design-Thinking", 
+        "subheader": "Design-Thinking",
         "body": "<p>Design-thinking and project management methodologies are interconnected in ways complementing the other to enhance the overall effectiveness of projects: user-centric focus, iterative process, collaboration and teamwork, problem-solving framework, risk management, outcome orientation, and feedback loops.</p> <img src='src/assets/img/aligning business strat/order24.jpg'> <p>Integrating design-thinking into project management methodologies can lead to more innovative, user-centered solutions while maintaining the structure and discipline required for successful project execution. This synergy can enhance creativity, adaptability, and overall project outcomes.</p>"
       },
       {
         "order": 25,
         "layout": "col-1",
         "title": "Methodologies and Tools",
-        "subheader": "Design-Thinking: Applicability", 
+        "subheader": "Design-Thinking: Applicability",
         "body": "<p>Design-Thinking plays a crucial role in aligning business strategy with technology by ensuring that technological solutions are developed with a deep understanding of user needs and business objectives. In the rural banking sector, this alignment is particularly important as banks aim to enhance financial inclusion and provide tailored services to underserved communities.</p> <p>Business Strategy: A rural bank aims to implement a digital banking platform to improve customer engagement, streamline operations, and enhance access to financial services for rural communities.</p> <img src='src/assets/img/aligning business strat/order25.jpg'> <p>Design-Thinking is a powerful approach that fosters innovation and user-centered solutions, particularly in the rural banking sector. By integrating design-thinking with project management methodologies like Waterfall and Agile, rural banks can enhance their ability to align business strategy with technology. This alignment ensures that technological solutions are not only effective but also resonate with users, ultimately driving financial inclusion and improving service delivery in underserved communities. </p>"
       },
       {
         "order": 26,
-        "layout":"col-2",
+        "layout": "col-2",
         "title": "Methodologies and Tools",
-        "subheader": "Technology Roadmapping", 
-        "col1":"<p>Technology Roadmapping…</p> <ul> <li>is a strategic planning process that helps organizations visualize and plan the development and deployment of technology over time.</li> <li>serves as a tool to align technology initiatives with business goals, identify gaps in technology capabilities, and prioritize investments in technology</li> <li>outlines the current state of technology, future technology needs, and the steps required to bridge the gap between the two.</li> </ul>", 
-        "col2":"<p>Importance of Technology Roadmapping</p> <ul> <li>Alignment with Business Goals: Technology roadmapping ensures that technology initiatives are aligned with the overall business strategy, enabling organizations to leverage technology for competitive advantage.</li> <li>Risk Management: By identifying potential technology gaps and future needs, organizations can mitigate risks associated with technology obsolescence and market changes.</li> <li>Resource Allocation: Roadmapping helps organizations prioritize technology investments, ensuring that resources are allocated effectively to initiatives that drive the most value.</li> <li>Innovation Facilitation: A clear technology roadmap encourages innovation by providing a structured approach to exploring new technologies and their potential applications.</li> </ul>"
+        "subheader": "Technology Roadmapping",
+        "col1": "<p>Technology Roadmapping…</p> <ul> <li>is a strategic planning process that helps organizations visualize and plan the development and deployment of technology over time.</li> <li>serves as a tool to align technology initiatives with business goals, identify gaps in technology capabilities, and prioritize investments in technology</li> <li>outlines the current state of technology, future technology needs, and the steps required to bridge the gap between the two.</li> </ul>",
+        "col2": "<p>Importance of Technology Roadmapping</p> <ul> <li>Alignment with Business Goals: Technology roadmapping ensures that technology initiatives are aligned with the overall business strategy, enabling organizations to leverage technology for competitive advantage.</li> <li>Risk Management: By identifying potential technology gaps and future needs, organizations can mitigate risks associated with technology obsolescence and market changes.</li> <li>Resource Allocation: Roadmapping helps organizations prioritize technology investments, ensuring that resources are allocated effectively to initiatives that drive the most value.</li> <li>Innovation Facilitation: A clear technology roadmap encourages innovation by providing a structured approach to exploring new technologies and their potential applications.</li> </ul>"
       },
       {
-        "order":27,  
-        "layout":"image righthand portion",
-        "title":"Methodologies and Tools",
-        "subheader":"Technology Roadmapping",
-        "body":"<h4>Steps in Creating a Technology Roadmap</h4>",       
-        "image":"src/assets/img/aligning business strat/order27.jpg"
-      },    
-      {
-        "order": 28, 
-        "layout":"image righthand portion",
-        "title":"Methodologies and Tools",
-        "subheader":"Technology Roadmapping",
-        "body":"<h4>Steps in Creating a Technology Roadmap</h4>",       
-        "image":"src/assets/img/aligning business strat/order28.jpg"
-      },    
-      {
-        "order": 29, 
-        "layout":"image righthand portion",
-        "title":"Methodologies and Tools",
-        "subheader":"Technology Roadmapping",
-        "body":"<h4>Linear Roadmapping</h4><p>This method presents a straightforward timeline of technology initiatives and milestones, outlining a sequence of events or projects over a specified period.</p>",       
-        "image":"src/assets/img/aligning business strat/order29.jpg"
+        "order": 27,
+        "layout": "image righthand portion",
+        "title": "Methodologies and Tools",
+        "subheader": "Technology Roadmapping",
+        "body": "<h4>Steps in Creating a Technology Roadmap</h4>",
+        "image": "src/assets/img/aligning business strat/order27.jpg"
       },
       {
-        "order": 30, 
-        "layout":"image righthand portion",
-        "title":"Methodologies and Tools",
-        "subheader":"Technology Roadmapping",
-        "body":"<h4>Layered Roadmapping</h4><p>This method organizes technology initiatives into layers or categories, such as product features, technology components, and market needs.</p>",      
-        "image":"src/assets/img/aligning business strat/order30.jpg"
+        "order": 28,
+        "layout": "image righthand portion",
+        "title": "Methodologies and Tools",
+        "subheader": "Technology Roadmapping",
+        "body": "<h4>Steps in Creating a Technology Roadmap</h4>",
+        "image": "src/assets/img/aligning business strat/order28.jpg"
       },
       {
-        "order": 31, 
-        "layout":"image righthand portion",
-        "title":"Methodologies and Tools",
-        "subheader":"Technology Roadmapping",
-        "body":"<h4>Portfolio Roadmapping</h4><p>This approach focuses on managing a portfolio of technology initiatives, assessing their alignment with business strategy, and prioritizing investments based on strategic objectives.</p>",       
-        "image":"src/assets/img/aligning business strat/order31.jpg"
+        "order": 29,
+        "layout": "image righthand portion",
+        "title": "Methodologies and Tools",
+        "subheader": "Technology Roadmapping",
+        "body": "<h4>Linear Roadmapping</h4><p>This method presents a straightforward timeline of technology initiatives and milestones, outlining a sequence of events or projects over a specified period.</p>",
+        "image": "src/assets/img/aligning business strat/order29.jpg"
+      },
+      {
+        "order": 30,
+        "layout": "image righthand portion",
+        "title": "Methodologies and Tools",
+        "subheader": "Technology Roadmapping",
+        "body": "<h4>Layered Roadmapping</h4><p>This method organizes technology initiatives into layers or categories, such as product features, technology components, and market needs.</p>",
+        "image": "src/assets/img/aligning business strat/order30.jpg"
+      },
+      {
+        "order": 31,
+        "layout": "image righthand portion",
+        "title": "Methodologies and Tools",
+        "subheader": "Technology Roadmapping",
+        "body": "<h4>Portfolio Roadmapping</h4><p>This approach focuses on managing a portfolio of technology initiatives, assessing their alignment with business strategy, and prioritizing investments based on strategic objectives.</p>",
+        "image": "src/assets/img/aligning business strat/order31.jpg"
       },
       {
         "order": 32,
-        "layout":"image righthand portion", 
-        "title":"Methodologies and Tools",
-        "subheader":"Technology Roadmapping",
-        "body":"<h4>Scenario-Based Roadmapping</h4><p>This method involves developing multiple scenarios based on different assumptions about the future, outlining potential technology developments and their implications.</p>",       
-        "image":"src/assets/img/aligning business strat/order32.jpg"
+        "layout": "image righthand portion",
+        "title": "Methodologies and Tools",
+        "subheader": "Technology Roadmapping",
+        "body": "<h4>Scenario-Based Roadmapping</h4><p>This method involves developing multiple scenarios based on different assumptions about the future, outlining potential technology developments and their implications.</p>",
+        "image": "src/assets/img/aligning business strat/order32.jpg"
       },
       {
-        "order": 33, 
-        "layout":"image righthand portion",
-        "title":"Methodologies and Tools",
-        "subheader":"Technology Roadmapping",
-        "body":"<h4>Market-Driven Roadmapping</h4><p>This approach emphasizes understanding market trends, customer needs, and competitive dynamics, developing the roadmap based on insights from market research and customer feedback.</p>",       
-        "image":"src/assets/img/aligning business strat/order33.jpg"
+        "order": 33,
+        "layout": "image righthand portion",
+        "title": "Methodologies and Tools",
+        "subheader": "Technology Roadmapping",
+        "body": "<h4>Market-Driven Roadmapping</h4><p>This approach emphasizes understanding market trends, customer needs, and competitive dynamics, developing the roadmap based on insights from market research and customer feedback.</p>",
+        "image": "src/assets/img/aligning business strat/order33.jpg"
       },
       {
-        "order": 34, 
-        "layout":"image righthand portion",
-        "title":"Methodologies and Tools",
-        "subheader":"Technology Roadmapping",
-        "body":"<h4>Technology-Driven Roadmapping</h4><p>This method focuses on the technological capabilities and advancements that the organization aims to achieve, outlining the development of specific technologies and their applications.</p>",       
-        "image":"src/assets/img/aligning business strat/order34.jpg"
+        "order": 34,
+        "layout": "image righthand portion",
+        "title": "Methodologies and Tools",
+        "subheader": "Technology Roadmapping",
+        "body": "<h4>Technology-Driven Roadmapping</h4><p>This method focuses on the technological capabilities and advancements that the organization aims to achieve, outlining the development of specific technologies and their applications.</p>",
+        "image": "src/assets/img/aligning business strat/order34.jpg"
       },
       {
-        "order": 35, 
-        "layout":"image righthand portion",
-        "title":"Methodologies and Tools",
-        "subheader":"Technology Roadmapping",
-        "body":"<h4>Integrated Roadmapping</h4><p>This method focuses on the technological capabilities and advancements that the organization aims to achieve, outlining the development of specific technologies and their applications.</p>",       
-        "image":"src/assets/img/aligning business strat/order35.jpg"
+        "order": 35,
+        "layout": "image righthand portion",
+        "title": "Methodologies and Tools",
+        "subheader": "Technology Roadmapping",
+        "body": "<h4>Integrated Roadmapping</h4><p>This method focuses on the technological capabilities and advancements that the organization aims to achieve, outlining the development of specific technologies and their applications.</p>",
+        "image": "src/assets/img/aligning business strat/order35.jpg"
       },
       {
         "order": 36,
-        "layout":"image righthand portion", 
-        "title":"Methodologies and Tools",
-        "subheader":"Technology Roadmapping",
-        "body":"<h4>Agile Roadmapping</h4><p>This method aligns with agile project management principles, focusing on iterative development and flexibility. The roadmap is continuously updated based on feedback and changing priorities.</p>",       
-        "image":"src/assets/img/aligning business strat/order36.jpg"
+        "layout": "image righthand portion",
+        "title": "Methodologies and Tools",
+        "subheader": "Technology Roadmapping",
+        "body": "<h4>Agile Roadmapping</h4><p>This method aligns with agile project management principles, focusing on iterative development and flexibility. The roadmap is continuously updated based on feedback and changing priorities.</p>",
+        "image": "src/assets/img/aligning business strat/order36.jpg"
       },
       {
         "order": 37,
-        "layout":"image righthand portion", 
-        "title":"Case Study: G Bank",
-        "body":"<p>G Bank is a mid-sized financial institution focused on enhancing customer experience, increasing operational efficiency, and expanding its market presence.</p><p>To support its business strategy, ABC Bank has developed a technology roadmap that aligns with its objectives. The roadmap focuses on leveraging technology to enhance customer experience, improve operational efficiency, and strengthen risk management.</p>",       
-        "image":"src/assets/img/aligning business strat/order37.jpg"
+        "layout": "image righthand portion",
+        "title": "Case Study: G Bank",
+        "body": "<p>G Bank is a mid-sized financial institution focused on enhancing customer experience, increasing operational efficiency, and expanding its market presence.</p><p>To support its business strategy, ABC Bank has developed a technology roadmap that aligns with its objectives. The roadmap focuses on leveraging technology to enhance customer experience, improve operational efficiency, and strengthen risk management.</p>",
+        "image": "src/assets/img/aligning business strat/order37.jpg"
       },
       {
         "order": 38,
-        "layout":"image righthand portion", 
-        "title":"Case Study: G Bank",
-        "subheader":"Thought Process",
-        "image":"src/assets/img/aligning business strat/order38.jpg"
+        "layout": "image righthand portion",
+        "title": "Case Study: G Bank",
+        "subheader": "Thought Process",
+        "image": "src/assets/img/aligning business strat/order38.jpg"
       },
       {
         "order": 39,
-        "layout":"image righthand portion", 
-        "title":"Case Study: G Bank",
-        "subheader":"Roadmap Table",
-        "image":"src/assets/img/aligning business strat/order39.jpg"
+        "layout": "image righthand portion",
+        "title": "Case Study: G Bank",
+        "subheader": "Roadmap Table",
+        "image": "src/assets/img/aligning business strat/order39.jpg"
       },
       {
         "order": 40,
-        "layout":"image righthand portion", 
-        "title":"Case Study: G Bank",
-        "subheader":"Roadmap Table",
-        "image":"src/assets/img/aligning business strat/order40.jpg"
+        "layout": "image righthand portion",
+        "title": "Case Study: G Bank",
+        "subheader": "Roadmap Table",
+        "image": "src/assets/img/aligning business strat/order40.jpg"
       },
       {
-        "order": 41, 
-        "layout":"col-1",
-        "title":"Case Study: G Bank",
-        "subheader":"Roadmap Visualization",
-        "body":"<img src='src/assets/img/aligning business strat/order41.jpg'> <p>A Gantt chart is useful for creating roadmaps for several reasons:</p> <ul> <li>Provides a clear visual representation of the project timeline, making it easy to see durations of tasks and how they overlap</li> <li>Allows project managers to track progress against the planned timeline.</li> <li>Serves as an excellent communication tool among stakeholders</li> <li>Highlights key milestones in the project, helping teams focus on important deadlines and deliverables.</li> </ul>"    
-      },
-      {
-        "order": 42, 
+        "order": 41,
         "layout": "col-1",
-        "title":"Case Study: G Bank",
-        "subheader":"Roadmap Rationale",
-        "body":" <p>The technology roadmap for G Bank can be classified as a layered roadmapping approach, with elements of integrated roadmapping. Here’s why:</p> <img src='src/assets/img/aligning business strat/order42.jpg'> <p>Overall, the G Bank technology roadmap exemplifies a structured and strategic approach to technology planning, integrating both layered and integrated road mapping methods. This allows the bank to effectively prioritize initiatives, allocate resources, and align technology efforts with its business goals, ultimately driving growth and success in the competitive financial services landscape. </p>"      
+        "title": "Case Study: G Bank",
+        "subheader": "Roadmap Visualization",
+        "body": "<img src='src/assets/img/aligning business strat/order41.jpg'> <p>A Gantt chart is useful for creating roadmaps for several reasons:</p> <ul> <li>Provides a clear visual representation of the project timeline, making it easy to see durations of tasks and how they overlap</li> <li>Allows project managers to track progress against the planned timeline.</li> <li>Serves as an excellent communication tool among stakeholders</li> <li>Highlights key milestones in the project, helping teams focus on important deadlines and deliverables.</li> </ul>"
       },
       {
-        "order": 43, 
-        "layout":"col-2",
-        "title":"Methodologies and Tools",
-        "subheader":"Emerging Methods",
-        "col1":"<p>MoSCoW Technique…</p> <ul> <li>is a prioritization technique used to reach a common understanding with stakeholders on the relative importance they place on the delivery of each requirement</li> <li>is used to prioritize requirements and deliver the most essential and urgent business needs early</li> <li>is usually used in business analysis, project management, and software development.</li> </ul>",       
-        "col2":"<ul> <li>Must Have: Critical requirements that are non-negotiable for the project or strategy to succeed.</li> <li>Should Have: Important requirements that are not critical but add significant value.</li> <li>Could Have: Desirable requirements that can enhance the project but are not essential.</li> <li>Won’t Have: Requirements that are agreed upon as not necessary for the current phase or project.</li> </ul>"   
+        "order": 42,
+        "layout": "col-1",
+        "title": "Case Study: G Bank",
+        "subheader": "Roadmap Rationale",
+        "body": " <p>The technology roadmap for G Bank can be classified as a layered roadmapping approach, with elements of integrated roadmapping. Here’s why:</p> <img src='src/assets/img/aligning business strat/order42.jpg'> <p>Overall, the G Bank technology roadmap exemplifies a structured and strategic approach to technology planning, integrating both layered and integrated road mapping methods. This allows the bank to effectively prioritize initiatives, allocate resources, and align technology efforts with its business goals, ultimately driving growth and success in the competitive financial services landscape. </p>"
       },
       {
-        "order": 44, 
-        "layout":"col-1",
-        "title":"Methodologies and Tools",
-        "subheader":"Emerging Methods",
-        "col1":"<p>Steps in Conducting MoSCoW Prioritization</p> <h4>Identify Requirements</h4> <ul> <li>Gather all potential requirements, tasks, or features related to the business strategy.</li> </ul> <h4>Categorize Requirements</h4> <ul> <li>Sort each requirement into one of the four MoSCoW categories (Must have, Should have, Could have, Won't have).</li> </ul> <h4>Review and Validate</h4> <ul> <li>Engage stakeholders to review the categorization and ensure alignment with business goals.</li> </ul> <h4>Prioritize</h4> <ul> <li>Focus on the Must Have requirements first, followed by Should Have and so on.</li> </ul> <h4>Develop Action Plan</h4> <ul> <li>Create a plan to implement the prioritized requirements, ensuring resources are allocated effectively.</li> </ul> <h4>Monitor and Adjust</h4> <ul> <li>Continuously monitor progress and adjust priorities as needed based on changing circumstances or feedback. </li> </ul>"     
+        "order": 43,
+        "layout": "col-2",
+        "title": "Methodologies and Tools",
+        "subheader": "Emerging Methods",
+        "col1": "<p>MoSCoW Technique…</p> <ul> <li>is a prioritization technique used to reach a common understanding with stakeholders on the relative importance they place on the delivery of each requirement</li> <li>is used to prioritize requirements and deliver the most essential and urgent business needs early</li> <li>is usually used in business analysis, project management, and software development.</li> </ul>",
+        "col2": "<ul> <li>Must Have: Critical requirements that are non-negotiable for the project or strategy to succeed.</li> <li>Should Have: Important requirements that are not critical but add significant value.</li> <li>Could Have: Desirable requirements that can enhance the project but are not essential.</li> <li>Won’t Have: Requirements that are agreed upon as not necessary for the current phase or project.</li> </ul>"
       },
       {
-        "order": 45, 
-        "layout":"col-2",
-        "title":"Methodologies and Tools",
-        "subheader":"Emerging Methods",
-        "col1":"<h4>MOSCOW TECHNIQUE</h4> <p>A rural bank is looking to enhance its services and align its business strategy to better serve its community</p>",       
-        "image":"src/assets/img/aligning business strat/order45.jpg"
+        "order": 44,
+        "layout": "col-1",
+        "title": "Methodologies and Tools",
+        "subheader": "Emerging Methods",
+        "col1": "<p>Steps in Conducting MoSCoW Prioritization</p> <h4>Identify Requirements</h4> <ul> <li>Gather all potential requirements, tasks, or features related to the business strategy.</li> </ul> <h4>Categorize Requirements</h4> <ul> <li>Sort each requirement into one of the four MoSCoW categories (Must have, Should have, Could have, Won't have).</li> </ul> <h4>Review and Validate</h4> <ul> <li>Engage stakeholders to review the categorization and ensure alignment with business goals.</li> </ul> <h4>Prioritize</h4> <ul> <li>Focus on the Must Have requirements first, followed by Should Have and so on.</li> </ul> <h4>Develop Action Plan</h4> <ul> <li>Create a plan to implement the prioritized requirements, ensuring resources are allocated effectively.</li> </ul> <h4>Monitor and Adjust</h4> <ul> <li>Continuously monitor progress and adjust priorities as needed based on changing circumstances or feedback. </li> </ul>"
       },
       {
-        "order": 46, 
-        "layout":"image righthand portion",
-        "title":"Methodologies and Tools",
-        "subheader":"Emerging Methods",
-        "col2":"<p>By using MoSCoW prioritization, the rural bank can align its business strategy with the needs of its community. This structured approach allows organizations to allocate resources effectively, make informed decisions, and ultimately enhance its service offerings in a way that aligns with its strategic goals. </p>", 
+        "order": 45,
+        "layout": "col-2",
+        "title": "Methodologies and Tools",
+        "subheader": "Emerging Methods",
+        "col1": "<h4>MOSCOW TECHNIQUE</h4> <p>A rural bank is looking to enhance its services and align its business strategy to better serve its community</p>",
+        "image": "src/assets/img/aligning business strat/order45.jpg"
+      },
+      {
+        "order": 46,
+        "layout": "image righthand portion",
+        "title": "Methodologies and Tools",
+        "subheader": "Emerging Methods",
+        "col2": "<p>By using MoSCoW prioritization, the rural bank can align its business strategy with the needs of its community. This structured approach allows organizations to allocate resources effectively, make informed decisions, and ultimately enhance its service offerings in a way that aligns with its strategic goals. </p>",
         "image": "src/assets/img/aligning business strat/order46.jpg"
-      },  
+      },
       {
-        "order": 47, 
-        "layout":"image righthand portion",
-        "title":"Methodologies and Tools",
-        "subheader":"Emerging Methods",
+        "order": 47,
+        "layout": "image righthand portion",
+        "title": "Methodologies and Tools",
+        "subheader": "Emerging Methods",
         "image": "src/assets/img/aligning business strat/order47.jpg"
       },
       {
-        "order": 48, 
-        "layout":"col-2",
-        "title":"Methodologies and Tools",
-        "subheader":"Emerging Methods",
-        "col1":"<h4>Lean Startup Methodology…</h4> <ul> <li>is an approach to developing businesses and products that emphasizes rapid iteration, customer feedback, and validated learning.</li> <li>aims to reduce the risks associated with launching new products or services by focusing on building a minimum viable product (MVP), testing it in the market, and learning from the results to make informed decisions.</li> </ul>",       
-        "col2":"<ul> <li>Build-Measure-Learn: The core cycle of Lean Startup involves building an MVP, measuring its performance in the market, and learning from the feedback to iterate on the product or service.</li> <li>Validated Learning: Focus on learning what customers really want through experiments and data rather than assumptions.</li> <li>Pivot or Persevere: Based on the feedback and data collected, decide whether to pivot (change direction) or persevere (continue on the current path).</li> <li>Customer Development: Engage with customers early and often to understand their needs and pain points.</li> </ul>"
+        "order": 48,
+        "layout": "col-2",
+        "title": "Methodologies and Tools",
+        "subheader": "Emerging Methods",
+        "col1": "<h4>Lean Startup Methodology…</h4> <ul> <li>is an approach to developing businesses and products that emphasizes rapid iteration, customer feedback, and validated learning.</li> <li>aims to reduce the risks associated with launching new products or services by focusing on building a minimum viable product (MVP), testing it in the market, and learning from the results to make informed decisions.</li> </ul>",
+        "col2": "<ul> <li>Build-Measure-Learn: The core cycle of Lean Startup involves building an MVP, measuring its performance in the market, and learning from the feedback to iterate on the product or service.</li> <li>Validated Learning: Focus on learning what customers really want through experiments and data rather than assumptions.</li> <li>Pivot or Persevere: Based on the feedback and data collected, decide whether to pivot (change direction) or persevere (continue on the current path).</li> <li>Customer Development: Engage with customers early and often to understand their needs and pain points.</li> </ul>"
       },
       {
-        "order": 49, 
-        "layout":"col-1",
-        "title":"Methodologies and Tools",
-        "subheader":"Emerging Methods",
-        "col1":"<p>Procedures of Lean Startup Methodology</p> <h4>Identify a Problem</h4> <ul> <li>Understand the problem you want to solve for your target customers.</li> </ul> <h4>Develop a Hypothesis</h4> <ul> <li>Formulate a hypothesis about what customers want and how your solution will address their needs.</li> </ul> <h4>Build a Minimum Viable Product (MVP)</h4> <ul> <li>Create a simplified version of your product or service that includes only the essential features needed to test your hypothesis.</li> </ul> <h4>Test the MVP</h4> <ul> <li>Launch the MVP to a small segment of your target market to gather feedback and data.</li> </ul> <h4>Measure Results</h4> <ul> <li>Analyze the data collected from the MVP testing to assess its performance and customer reactions.</li> </ul> <h4>Learn and Iterate</h4> <ul> <li>Use the insights gained to refine your product, pivot if necessary, or scale up if the MVP is successful.</li> </ul> <h4>Repeat the Cycle</h4> <ul> <li>Continue the Build-Measure-Learn cycle until you achieve a product-market fit.</li> </ul>"   
+        "order": 49,
+        "layout": "col-1",
+        "title": "Methodologies and Tools",
+        "subheader": "Emerging Methods",
+        "col1": "<p>Procedures of Lean Startup Methodology</p> <h4>Identify a Problem</h4> <ul> <li>Understand the problem you want to solve for your target customers.</li> </ul> <h4>Develop a Hypothesis</h4> <ul> <li>Formulate a hypothesis about what customers want and how your solution will address their needs.</li> </ul> <h4>Build a Minimum Viable Product (MVP)</h4> <ul> <li>Create a simplified version of your product or service that includes only the essential features needed to test your hypothesis.</li> </ul> <h4>Test the MVP</h4> <ul> <li>Launch the MVP to a small segment of your target market to gather feedback and data.</li> </ul> <h4>Measure Results</h4> <ul> <li>Analyze the data collected from the MVP testing to assess its performance and customer reactions.</li> </ul> <h4>Learn and Iterate</h4> <ul> <li>Use the insights gained to refine your product, pivot if necessary, or scale up if the MVP is successful.</li> </ul> <h4>Repeat the Cycle</h4> <ul> <li>Continue the Build-Measure-Learn cycle until you achieve a product-market fit.</li> </ul>"
       },
       {
-        "order": 50, 
-        "layout":"image righthand portion",
-        "title":"Methodologies and Tools",
-        "subheader":"Emerging Methods",
-        "body":"<h4>LEAN STARTUP METHODOLOGY</h4> <p>Scenario: A rural bank wants to develop a new digital banking service to better serve its customers, particularly farmers and small business owners in the community.</p> <p>Objective: To create a digital banking solution that meets the specific needs of the rural community.</p>",
+        "order": 50,
+        "layout": "image righthand portion",
+        "title": "Methodologies and Tools",
+        "subheader": "Emerging Methods",
+        "body": "<h4>LEAN STARTUP METHODOLOGY</h4> <p>Scenario: A rural bank wants to develop a new digital banking service to better serve its customers, particularly farmers and small business owners in the community.</p> <p>Objective: To create a digital banking solution that meets the specific needs of the rural community.</p>",
         "image": "src/assets/img/aligning business strat/order50.jpg"
       },
       {
-        "order": 51, 
-        "layout":"col-1",
-        "title":"Methodologies and Tools",
-        "subheader":"Emerging Methods",
-        "body":"<p>By applying the Lean Startup methodology, the rural bank can align its digital banking service with its overall business strategy of enhancing customer service and increasing engagement. The iterative process allows the bank to:</p> <img src='src/assets/img/aligning business strat/order46_1.jpg'> <p>The methodology emphasizes rapid iteration and customer feedback, enabling businesses to develop products that truly meet market demands, further fostering a culture of continuous improvement and responsiveness to needs.</p>"
-      }, 
+        "order": 51,
+        "layout": "col-1",
+        "title": "Methodologies and Tools",
+        "subheader": "Emerging Methods",
+        "body": "<p>By applying the Lean Startup methodology, the rural bank can align its digital banking service with its overall business strategy of enhancing customer service and increasing engagement. The iterative process allows the bank to:</p> <img src='src/assets/img/aligning business strat/order46_1.jpg'> <p>The methodology emphasizes rapid iteration and customer feedback, enabling businesses to develop products that truly meet market demands, further fostering a culture of continuous improvement and responsiveness to needs.</p>"
+      },
       {
         "order": 52,
         "title": "Knowledge Check",
         "body": "<p>A bank, SecureBank, is using PESTLE analysis to evaluate external factors that may impact its new digital banking initiative. The management team is particularly focused on understanding the regulatory environment.</p><p>Question: Which of the following PESTLE factors should SecureBank prioritize in its analysis?</p>",
-        "image":"src/assets/img/general images/KnowledgeCheck.jpg", 
-        "q_field_type": "single_select" ,
-        "q_selection": [{
-          "A": "Political factors, such as government regulations on digital banking.",
-          "B": "Social factors, such as employee satisfaction.",
-          "C": "Technological factors, such as the latest software updates.",
-          "D": "Environmental factors, such as the bank's carbon footprint."
-        }],
+        "image": "src/assets/img/general images/KnowledgeCheck.jpg",
+        "q_field_type": "single_select",
+        "q_selection": [
+          {
+            "A": "Political factors, such as government regulations on digital banking.",
+            "B": "Social factors, such as employee satisfaction.",
+            "C": "Technological factors, such as the latest software updates.",
+            "D": "Environmental factors, such as the bank's carbon footprint."
+          }
+        ],
         "q_answer": "A"
       },
       {
         "order": 53,
         "title": "Lesson Summary",
-        "body": "<h4>Congratulations on completing Lesson 1 of this module!</h4> <p>Now that you have completed this lesson, you should be able to:</p> <ul> <li>Understand effective business strategies that include vision and mission statements, market analysis, resource allocation, implementation plans, performance metrics, risk management, and continuous improvement, ensuring comprehensive alignment with organizational goals.</li> <li>Apply various methodologies, including SWOT analysis, Porter's Five Forces, and PESTLE analysis, which help organizations assess their strategic position and external environment.</li> <li>Create a technology road map, vital for visualizing and planning technology initiatives in alignment with business goals, ensuring effective resource allocation and risk management.</li> </ul>", 
-        "image":"src/assets/img/general images/LessonSummary.jpg"
+        "body": "<h4>Congratulations on completing Lesson 1 of this module!</h4> <p>Now that you have completed this lesson, you should be able to:</p> <ul> <li>Understand effective business strategies that include vision and mission statements, market analysis, resource allocation, implementation plans, performance metrics, risk management, and continuous improvement, ensuring comprehensive alignment with organizational goals.</li> <li>Apply various methodologies, including SWOT analysis, Porter's Five Forces, and PESTLE analysis, which help organizations assess their strategic position and external environment.</li> <li>Create a technology road map, vital for visualizing and planning technology initiatives in alignment with business goals, ensuring effective resource allocation and risk management.</li> </ul>",
+        "image": "src/assets/img/general images/LessonSummary.jpg"
       },
       {
         "order": 54,
-        "layout":"image righthand portion",
+        "layout": "image righthand portion",
         "title": "Aligning Business Strategy to Technology Innovations and Trends Lessons",
-        "subheader": "Technology Innovations and Trends", 
+        "subheader": "Technology Innovations and Trends",
         "body": "<h4>Learning Objective</h4> <p>At the end of this lesson, you will be able to:</p> <ul> <li>Gain a foundational understanding of Information Systems</li> <li>Gauge the importance of Artificial Intelligence and Machine Learning in revolutionizing the banking sector</li> <li>Determine the use of Geographic Information System (GIS) tools across various applications and fields</li> <li>Discover other tools and technology relevant in amplifying business operations</li> </ul>",
         "image": "src/assets/img/aligning business strat/order54.jpg"
       },
       {
         "order": 55,
-        "layout":"image righthand portion",
+        "layout": "image righthand portion",
         "title": "Information Systems",
-        "body": "<p>An information system is an integrated set of components for collecting, storing, and processing data and for providing information, knowledge, and digital products. </p><p>Information systems are organized systems for collecting, storing, managing, and processing data and information. These systems play a crucial role in supporting decision-making, coordination, control, analysis, and visualization within an organization. Its key components are hardware, software, data, procedures, people, and networks. </p> ", 
-        "image":"src/assets/img/aligning business strat/order55.jpg"
+        "body": "<p>An information system is an integrated set of components for collecting, storing, and processing data and for providing information, knowledge, and digital products. </p><p>Information systems are organized systems for collecting, storing, managing, and processing data and information. These systems play a crucial role in supporting decision-making, coordination, control, analysis, and visualization within an organization. Its key components are hardware, software, data, procedures, people, and networks. </p> ",
+        "image": "src/assets/img/aligning business strat/order55.jpg"
       },
-      { 
+      {
         "order": 56,
         "layout": "col-2",
         "title": "Information Systems",
@@ -535,84 +559,86 @@
         "order": 57,
         "layout": "col-2",
         "title": "AI and Machine Learning",
-        "col1":"<p>Artificial Intelligence (AI) is transforming the institutions by enhancing operational efficiency, improving customer experiences, and enabling better decision-making. The samples below show how AI is applied in banking through the following:</p> <h4>Fraud Detection and Prevention</h4> <h5>Real-Time Analytics</h5> <ul> <li>RCBC employs AI algorithms to monitor transactions in real-time, helping to detect and prevent fraudulent activities. The bank’s DiskarTech app benefits from around 50 artificial intelligence models developed in-house for credit checks and fraud detection. </li> </ul> <h5>Behavioral Biometrics</h5> <ul> <li>Banks can benefit from behavioral biometrics to analyze user interactions, further helping them in identifying legitimate users and detect potential fraud</li> </ul> <h5>Multi-Factor Authentication</h5> <ul> <li>Majority of Philippine banks utilize MFA through email authentication, OTP through SMS, biometrics (fingerprint, faceID), and even authentication applications.</li> </ul>", 
-        "col2":"<h4>Customer Service and Chatbots</h4> <h5>Conversational AI</h5> <ul> <li>UnionBank has implemented AI-powered chatbots to assist with customers with inquiries and transactions through their mobile app and website.</li> </ul> <h5>Omnichannel Support</h5> <ul> <li>HSBC has integrated AI across its mobile app, website, and social media platforms to provide consistent customer support. </li> </ul>"
+        "col1": "<p>Artificial Intelligence (AI) is transforming the institutions by enhancing operational efficiency, improving customer experiences, and enabling better decision-making. The samples below show how AI is applied in banking through the following:</p> <h4>Fraud Detection and Prevention</h4> <h5>Real-Time Analytics</h5> <ul> <li>RCBC employs AI algorithms to monitor transactions in real-time, helping to detect and prevent fraudulent activities. The bank’s DiskarTech app benefits from around 50 artificial intelligence models developed in-house for credit checks and fraud detection. </li> </ul> <h5>Behavioral Biometrics</h5> <ul> <li>Banks can benefit from behavioral biometrics to analyze user interactions, further helping them in identifying legitimate users and detect potential fraud</li> </ul> <h5>Multi-Factor Authentication</h5> <ul> <li>Majority of Philippine banks utilize MFA through email authentication, OTP through SMS, biometrics (fingerprint, faceID), and even authentication applications.</li> </ul>",
+        "col2": "<h4>Customer Service and Chatbots</h4> <h5>Conversational AI</h5> <ul> <li>UnionBank has implemented AI-powered chatbots to assist with customers with inquiries and transactions through their mobile app and website.</li> </ul> <h5>Omnichannel Support</h5> <ul> <li>HSBC has integrated AI across its mobile app, website, and social media platforms to provide consistent customer support. </li> </ul>"
       },
       {
         "order": 58,
         "layout": "col-2",
         "title": "AI and Machine Learning",
-        "col1":"<h4>Personalized Banking Experience</h4> <h5>Hyper-Personalization</54> <ul> <li>Banks can leverage AI to analyze customer data and provide personalized product offerings and financial advice tailored to a client’s needs.</li> </ul> <h5>Predictive Customer Insights</h5> <ul> <li>Banks can use predictive analytics to anticipate customer needs and suggest relevant banking products and services.</li> </ul> <h4>Risk Management</h4> <h5>Alternative Data Sources</h5> <ul> <li>BSP has asked financial firms to look into clients’ non-traditional or alternative data such as social media or online transactions for credit scoring. Source: PIDS - Philippine Institute for Development Studies </li> <li>Maya created an AI-driven credit scoring model that uses payments and other alternative data, allowing it to lend profitably with speed and at scale. Source: Global Finance names Maya best digital bank </li> </ul> <h4>Dynamic Risk Assessment</h4> <ul> <li>Banks are adopting AI to continuously evaluate the credit risk of borrowers based on real-time data and changing market conditions.</li> </ul>", 
-        "col2":"<h4>Regulatory Compliance</h4> <h5>RegTech Solutions</h5> <ul> <li>The adoption of RegTech solutions can assist in the streamlining of compliance process and monitoring of transactions for adherence to regulations by utilizing AI. </li> </ul> <h5>Automated Reporting</h5> <ul> <li>AI can help assist banks in compliance reporting, making it easier to adhere to regulatory requirements.</li> </ul> <h4>Process Automation</h4> <h5>Robotic Process Automation</h5> <ul> <li>RPA is adopted to automate routine tasks, such as data entry and compliance checks, improving operational efficiency. </li> </ul> <h5>AI-Driven Workflow Optimization</h5> <ul> <li>JPMorgan Chase uses AI to analyze workflows and identify areas for improvement, streamlining operations.</li> </ul>"
+        "col1": "<h4>Personalized Banking Experience</h4> <h5>Hyper-Personalization</54> <ul> <li>Banks can leverage AI to analyze customer data and provide personalized product offerings and financial advice tailored to a client’s needs.</li> </ul> <h5>Predictive Customer Insights</h5> <ul> <li>Banks can use predictive analytics to anticipate customer needs and suggest relevant banking products and services.</li> </ul> <h4>Risk Management</h4> <h5>Alternative Data Sources</h5> <ul> <li>BSP has asked financial firms to look into clients’ non-traditional or alternative data such as social media or online transactions for credit scoring. Source: PIDS - Philippine Institute for Development Studies </li> <li>Maya created an AI-driven credit scoring model that uses payments and other alternative data, allowing it to lend profitably with speed and at scale. Source: Global Finance names Maya best digital bank </li> </ul> <h4>Dynamic Risk Assessment</h4> <ul> <li>Banks are adopting AI to continuously evaluate the credit risk of borrowers based on real-time data and changing market conditions.</li> </ul>",
+        "col2": "<h4>Regulatory Compliance</h4> <h5>RegTech Solutions</h5> <ul> <li>The adoption of RegTech solutions can assist in the streamlining of compliance process and monitoring of transactions for adherence to regulations by utilizing AI. </li> </ul> <h5>Automated Reporting</h5> <ul> <li>AI can help assist banks in compliance reporting, making it easier to adhere to regulatory requirements.</li> </ul> <h4>Process Automation</h4> <h5>Robotic Process Automation</h5> <ul> <li>RPA is adopted to automate routine tasks, such as data entry and compliance checks, improving operational efficiency. </li> </ul> <h5>AI-Driven Workflow Optimization</h5> <ul> <li>JPMorgan Chase uses AI to analyze workflows and identify areas for improvement, streamlining operations.</li> </ul>"
       },
       {
         "order": 59,
-        "layout":"image righthand portion",
+        "layout": "image righthand portion",
         "title": "Geographic Information System (GIS) Tools",
-        "body":"<h4>Key Roles of GIS Tools in Banking</h4> <ul> <li>Site Selection and Branch Location</li> <li>Market Analysis and Customer Segmentation</li> <li>Branch Performance Analysis</li> <li>Risk Management and Fraud Detection</li> <li>Customer Relationship Management</li> <li>Community Engagement and Corporate Social Responsibility (CSR)</li> <li>Disaster Recovery and Business Continuity Planning</li> </ul>", 
-        "image":"src/assets/img/aligning business strat/order59.jpg"
+        "body": "<h4>Key Roles of GIS Tools in Banking</h4> <ul> <li>Site Selection and Branch Location</li> <li>Market Analysis and Customer Segmentation</li> <li>Branch Performance Analysis</li> <li>Risk Management and Fraud Detection</li> <li>Customer Relationship Management</li> <li>Community Engagement and Corporate Social Responsibility (CSR)</li> <li>Disaster Recovery and Business Continuity Planning</li> </ul>",
+        "image": "src/assets/img/aligning business strat/order59.jpg"
       },
       {
         "order": 60,
-        "layout":"col-2",
+        "layout": "col-2",
         "title": "Geographic Information System (GIS) Tools",
-        "subheader": "Key Roles of GIS Tools in Banking", 
-        "col1":"<h4>Site Selection and Branch Location</h4> <p>GIS tools help banks analyze geographic data to determine optimal locations for new branches or ATMs. By assessing factors such as population density, demographics, competition, and accessibility, banks can make informed decisions about where to expand their physical presence.</p> <h4>Market Analysis and Customer Segmentation</h4> <p>Banks can use GIS to analyze customer data and identify market trends. By visualizing customer demographics, spending habits, and preferences, banks can segment their customer base and tailor products and services to meet specific needs.</p> <h4>Branch Performance Analysis</h4> <p>GIS can be used to evaluate the performance of existing branches by analyzing factors such as foot traffic, transaction volumes, and customer demographics. This information can help banks optimize branch operations and marketing strategies.</p> <h4>Risk Management and Fraud Detection </h4> <p>GIS tools can assist in identifying and mitigating risks by analyzing spatial patterns related to fraud. For example, banks can map fraudulent activities and identify hotspots, allowing them to implement targeted security measures.</p>", 
-        "col2":"<h4>Customer Relationship Management</h4> <p>GIS tools enhance CRM efforts by providing a spatial context for customer interactions. Banks can visualize customer locations, preferences, and behaviors, enabling them to deliver personalized services and targeted marketing campaigns.</p> <h4>Community Engagement and Corporate Social Responsibility (CSR)</h4> <p>Banks can use GIS to identify community needs and opportunities for CSR initiatives. By mapping socioeconomic data, banks can target their philanthropic efforts to areas that would benefit the most.</p> <h4>Disaster Recovery and Business Continuity Planning</h4> <p>GIS tools are valuable for banks in planning for disaster recovery and business continuity. By mapping potential risks such as floods, earthquakes, or other natural disasters, banks can develop strategies to protect their assets and ensure service continuity.</p>" 
+        "subheader": "Key Roles of GIS Tools in Banking",
+        "col1": "<h4>Site Selection and Branch Location</h4> <p>GIS tools help banks analyze geographic data to determine optimal locations for new branches or ATMs. By assessing factors such as population density, demographics, competition, and accessibility, banks can make informed decisions about where to expand their physical presence.</p> <h4>Market Analysis and Customer Segmentation</h4> <p>Banks can use GIS to analyze customer data and identify market trends. By visualizing customer demographics, spending habits, and preferences, banks can segment their customer base and tailor products and services to meet specific needs.</p> <h4>Branch Performance Analysis</h4> <p>GIS can be used to evaluate the performance of existing branches by analyzing factors such as foot traffic, transaction volumes, and customer demographics. This information can help banks optimize branch operations and marketing strategies.</p> <h4>Risk Management and Fraud Detection </h4> <p>GIS tools can assist in identifying and mitigating risks by analyzing spatial patterns related to fraud. For example, banks can map fraudulent activities and identify hotspots, allowing them to implement targeted security measures.</p>",
+        "col2": "<h4>Customer Relationship Management</h4> <p>GIS tools enhance CRM efforts by providing a spatial context for customer interactions. Banks can visualize customer locations, preferences, and behaviors, enabling them to deliver personalized services and targeted marketing campaigns.</p> <h4>Community Engagement and Corporate Social Responsibility (CSR)</h4> <p>Banks can use GIS to identify community needs and opportunities for CSR initiatives. By mapping socioeconomic data, banks can target their philanthropic efforts to areas that would benefit the most.</p> <h4>Disaster Recovery and Business Continuity Planning</h4> <p>GIS tools are valuable for banks in planning for disaster recovery and business continuity. By mapping potential risks such as floods, earthquakes, or other natural disasters, banks can develop strategies to protect their assets and ensure service continuity.</p>"
       },
       {
         "order": 61,
-        "layout":"image righthand portion",
+        "layout": "image righthand portion",
         "title": "Geographic Information System (GIS) Tools",
-        "subheader": "Sample Use of GIS", 
-        "body":"<p>Objectives</p> <ul> <li>Give users a visualization of assets juxtaposed with historical hazard occurrences on an interactive map, with ability to return an assessment of risk based on history of hazard occurrences.</li> </ul> <p></p> <ul> <li>Interactive map of natural hazard occurrences over time</li> <li>Pinned locations of assets, showing property details</li> <li>One-click hazard assessment where a simple algorithm is applied to determine hazard risk as low, medium, or high</li> </ul> <p>Future Work</p> <ul> <li>Embed more complex formulas or models to give a quantified hazard risk</li> </ul>", 
+        "subheader": "Sample Use of GIS",
+        "body": "<p>Objectives</p> <ul> <li>Give users a visualization of assets juxtaposed with historical hazard occurrences on an interactive map, with ability to return an assessment of risk based on history of hazard occurrences.</li> </ul> <p></p> <ul> <li>Interactive map of natural hazard occurrences over time</li> <li>Pinned locations of assets, showing property details</li> <li>One-click hazard assessment where a simple algorithm is applied to determine hazard risk as low, medium, or high</li> </ul> <p>Future Work</p> <ul> <li>Embed more complex formulas or models to give a quantified hazard risk</li> </ul>",
         "image": "src/assets/img/aligning business strat/order61.jpg"
       },
       {
         "order": 62,
-        "layout":"col-2",
+        "layout": "col-2",
         "title": "Other Tools and Technology",
-        "col1": "<h4>Cloud Computing Services</h4> <p>Cloud computing services provide scalable and flexible IT resources over the internet. Providers like Amazon Web Services (AWS), Microsoft Azure, and Google Cloud offer various services, including storage, computing power, and software applications.</p> <h4>Implementation</h4> <p>Organizations can adopt cloud computing to reduce IT infrastructure costs and improve accessibility. By migrating to the cloud, banks can store customer data securely, access applications remotely, and scale their operations as needed. For example, a bank could use cloud-based accounting software to manage finances more efficiently without the need for extensive on-premises infrastructure.</p>", 
-        "col2":"<h4>Automation Tools</h4> <p>Automation tools streamline repetitive tasks and processes, improving efficiency and reducing human error. Tools like Zapier, UiPath, and Automation Anywhere are popular in this space.</p> <h4>Implementation</h4> <p>Organizations can implement automation tools to enhance operational efficiency. For instance, they can automate routine tasks such as data entry, report generation, and customer follow-ups. By using tools like UiPath, banks can create automated workflows that save time and allow employees to focus on more strategic activities.</p>"
-      }, 
+        "col1": "<h4>Cloud Computing Services</h4> <p>Cloud computing services provide scalable and flexible IT resources over the internet. Providers like Amazon Web Services (AWS), Microsoft Azure, and Google Cloud offer various services, including storage, computing power, and software applications.</p> <h4>Implementation</h4> <p>Organizations can adopt cloud computing to reduce IT infrastructure costs and improve accessibility. By migrating to the cloud, banks can store customer data securely, access applications remotely, and scale their operations as needed. For example, a bank could use cloud-based accounting software to manage finances more efficiently without the need for extensive on-premises infrastructure.</p>",
+        "col2": "<h4>Automation Tools</h4> <p>Automation tools streamline repetitive tasks and processes, improving efficiency and reducing human error. Tools like Zapier, UiPath, and Automation Anywhere are popular in this space.</p> <h4>Implementation</h4> <p>Organizations can implement automation tools to enhance operational efficiency. For instance, they can automate routine tasks such as data entry, report generation, and customer follow-ups. By using tools like UiPath, banks can create automated workflows that save time and allow employees to focus on more strategic activities.</p>"
+      },
       {
         "order": 63,
-        "layout":"col-2",
+        "layout": "col-2",
         "title": "Other Tools and Technology",
-        "col1": "<h4>E-Commerce Platforms</h4> <p>E-commerce platforms enable businesses to sell products and services online. Platforms like Shopify, WooCommerce, and Magento facilitate online transactions and customer engagement.</p> <h4>Implementation</h4> <p>Organizations can leverage e-commerce platforms to offer financial products and services online, such as loan applications, account openings, and investment products. By creating an online presence, banks can reach a broader audience and provide convenient services to customers who may not be able to visit a physical branch.</p>", 
-        "col2":"<h4>HR Management Systems</h4> <p>HR management systems streamline human resource processes, including recruitment, payroll, performance management, and employee engagement. Tools like BambooHR, Gusto, and Workday are commonly used.</p> <h4>Implementation</h4> <p>Organizations can implement HR management systems to manage their workforce more effectively. These systems can automate payroll processing, track employee performance, and facilitate recruitment efforts. For instance, a bank could use BambooHR to streamline onboarding processes, ensuring that new hires are integrated smoothly into the organization.</p> "
-      },  
+        "col1": "<h4>E-Commerce Platforms</h4> <p>E-commerce platforms enable businesses to sell products and services online. Platforms like Shopify, WooCommerce, and Magento facilitate online transactions and customer engagement.</p> <h4>Implementation</h4> <p>Organizations can leverage e-commerce platforms to offer financial products and services online, such as loan applications, account openings, and investment products. By creating an online presence, banks can reach a broader audience and provide convenient services to customers who may not be able to visit a physical branch.</p>",
+        "col2": "<h4>HR Management Systems</h4> <p>HR management systems streamline human resource processes, including recruitment, payroll, performance management, and employee engagement. Tools like BambooHR, Gusto, and Workday are commonly used.</p> <h4>Implementation</h4> <p>Organizations can implement HR management systems to manage their workforce more effectively. These systems can automate payroll processing, track employee performance, and facilitate recruitment efforts. For instance, a bank could use BambooHR to streamline onboarding processes, ensuring that new hires are integrated smoothly into the organization.</p> "
+      },
       {
         "order": 64,
-        "layout":"col-3",
+        "layout": "col-3",
         "title": "Other Tools and Technology",
-        "col1": "<h4>Cybersecurity</h4> <p>Cybersecurity tools protect organizations from cyber threats and data breaches. Solutions include firewalls, antivirus software, and intrusion detection systems.</p><h4>Implementation</h4> <p>Organizations must prioritize cybersecurity to protect sensitive customer data and maintain trust. Implementing robust cybersecurity measures, such as firewalls and encryption, can safeguard against cyber threats. Additionally, providing employee training on cybersecurity best practices can help mitigate risks associated with human error.</p> ", 
-        "col2":"<h4>Artificial Intelligence (AI) Tools</h4> <p>AI technologies, including AI-driven assistants like Microsoft Copilot and machine learning algorithms, can automate tasks, enhance decision-making, and improve customer interactions. </p> <h4>Implementation</h4> <p>Organizations can utilize AI tools in various back-office functions. For example, AI-driven chatbots can handle customer inquiries, providing instant responses and freeing up staff for more complex issues. Additionally, AI can analyze large datasets to identify trends and anomalies, aiding in risk assessment and fraud detection. By implementing AI solutions, rural banks can enhance operational efficiency, improve customer service, and make data-driven decisions.</p>", 
-        "col3":"<h4>Enterprise Risk Management Tools</h4> <p>ERM tools help organizations identify, assess, and manage risks across the enterprise. These tools provide frameworks for risk analysis, reporting, and compliance management. </p> <h4>Implementation</h4> <p>Organizations can implement ERM tools to enhance their risk management practices. By using ERM software, banks can systematically identify potential risks, such as credit risk, operational risk, and regulatory compliance issues. For instance, a bank could use an ERM tool to create risk profiles for different products and services, enabling them to make informed decisions about risk exposure and mitigation strategies. </p>"
-      },       
+        "col1": "<h4>Cybersecurity</h4> <p>Cybersecurity tools protect organizations from cyber threats and data breaches. Solutions include firewalls, antivirus software, and intrusion detection systems.</p><h4>Implementation</h4> <p>Organizations must prioritize cybersecurity to protect sensitive customer data and maintain trust. Implementing robust cybersecurity measures, such as firewalls and encryption, can safeguard against cyber threats. Additionally, providing employee training on cybersecurity best practices can help mitigate risks associated with human error.</p> ",
+        "col2": "<h4>Artificial Intelligence (AI) Tools</h4> <p>AI technologies, including AI-driven assistants like Microsoft Copilot and machine learning algorithms, can automate tasks, enhance decision-making, and improve customer interactions. </p> <h4>Implementation</h4> <p>Organizations can utilize AI tools in various back-office functions. For example, AI-driven chatbots can handle customer inquiries, providing instant responses and freeing up staff for more complex issues. Additionally, AI can analyze large datasets to identify trends and anomalies, aiding in risk assessment and fraud detection. By implementing AI solutions, rural banks can enhance operational efficiency, improve customer service, and make data-driven decisions.</p>",
+        "col3": "<h4>Enterprise Risk Management Tools</h4> <p>ERM tools help organizations identify, assess, and manage risks across the enterprise. These tools provide frameworks for risk analysis, reporting, and compliance management. </p> <h4>Implementation</h4> <p>Organizations can implement ERM tools to enhance their risk management practices. By using ERM software, banks can systematically identify potential risks, such as credit risk, operational risk, and regulatory compliance issues. For instance, a bank could use an ERM tool to create risk profiles for different products and services, enabling them to make informed decisions about risk exposure and mitigation strategies. </p>"
+      },
       {
         "order": 65,
         "title": "Lesson Summary",
-        "body": "<h4>Congratulations on completing Lesson 2 of this module!</h4> <p>Now that you have completed this lesson, you should be able to:</p> <ul> <li>Learn how to improve operational efficiency, customer engagement, and effectiveness through the adoption of emerging tools.</li> <li>Apply various methodologies, including SWOT analysis, Porter's Five Forces, and PESTLE analysis, which help organizations assess their strategic position and external environment.</li> <li>Utilize information systems as organized frameworks for collecting, storing, managing, and processing data.</li> <li>Leverage AI and machine learning in banking to transform operations and improve customer experiences.</li></ul>", 
-        "image":"src/assets/img/general images/LessonSummary.jpg"
-      },    
+        "body": "<h4>Congratulations on completing Lesson 2 of this module!</h4> <p>Now that you have completed this lesson, you should be able to:</p> <ul> <li>Learn how to improve operational efficiency, customer engagement, and effectiveness through the adoption of emerging tools.</li> <li>Apply various methodologies, including SWOT analysis, Porter's Five Forces, and PESTLE analysis, which help organizations assess their strategic position and external environment.</li> <li>Utilize information systems as organized frameworks for collecting, storing, managing, and processing data.</li> <li>Leverage AI and machine learning in banking to transform operations and improve customer experiences.</li></ul>",
+        "image": "src/assets/img/general images/LessonSummary.jpg"
+      },
       {
         "order": 66,
         "title": "Knowledge Check",
         "body": "Which of the following is a key role of Geographic Information Systems (GIS) in banking",
-        "image":"src/assets/img/general images/KnowledgeCheck.jpg", 
-        "q_field_type": "single_select" ,
-        "q_selection": [{
-          "A": "Automating routine tasks such as data entry.",
-          "B": "Analyzing geographic data to determine optimal locations for new branches or ATMs.",
-          "C": "Managing customer interactions and enhancing relationships.",
-          "D": "Providing high-level summaries of the company’s performance."
-        }],
+        "image": "src/assets/img/general images/KnowledgeCheck.jpg",
+        "q_field_type": "single_select",
+        "q_selection": [
+          {
+            "A": "Automating routine tasks such as data entry.",
+            "B": "Analyzing geographic data to determine optimal locations for new branches or ATMs.",
+            "C": "Managing customer interactions and enhancing relationships.",
+            "D": "Providing high-level summaries of the company’s performance."
+          }
+        ],
         "q_answer": "B"
       },
       {
         "order": 67,
-        "layout":"image righthand portion",
+        "layout": "image righthand portion",
         "title": "Aligning Business Strategy to Technology Innovations/Trends Lessons",
         "subheader": "Crisis Management for Business Continuity",
         "body": "<h4>Learning Objective</h4> <p>At the end of this lesson, you will be able to:</p> <ul> <li>Understand what crisis management is</li><li>Define what is crisis management plan and know how to create one</li><li>Realize the relevant BSP Regulations</li></ul>",
@@ -665,9 +691,9 @@
         "subheader": "Crisis Management Phases",
         "body": "<h4>During Crisis</h4> <p>During a crisis, leaders are expected to make quick and informed decisions to coordinate action plans, mitigate impact, and manage the overall situation. Providing timely and accurate information during a crisis essential given its evolving nature.</p>",
         "image": "src/assets/img/aligning business strat/order73.jpg"
-      }, 
+      },
       {
-        "order": 74, 
+        "order": 74,
         "layout": "col-2",
         "title": "Controls, Measures, and Frameworks",
         "subheader": "Crisis Management Phases",
@@ -676,7 +702,7 @@
       },
       {
         "order": 75,
-        "layout":"image righthand portion",
+        "layout": "image righthand portion",
         "title": "Controls, Measures, and Frameworks",
         "subheader": "Crisis Management Phases",
         "body": "<h4>Post-Crisis</h4> <p>The post-crisis phase of crisis management refers to the period following a crisis event, during which organizations assess the impact of the crisis, implement recovery strategies, and engage in reflection and learning to improve future crisis response.</p>",
@@ -692,7 +718,7 @@
       },
       {
         "order": 77,
-        "layout":"col-1",
+        "layout": "col-1",
         "title": "Relevant BSP Guidelines",
         "subheader": "BSP’s Guidelines on Operational Resilience",
         "body": "<p>Operational resilience refers to an organization’s ability to anticipate, prepare for, respond to, and recover from disruptive events while maintaining essential functions and services. This needs to be integrated with an organization’s governance structures and other related risk management processes such as:</p> <ul> <li>Operational Risk Management</li> <li>Business Continuity Management</li> <li>Cybersecurity</li> <li>Third Party Risk Management</li> </ul>"
@@ -710,7 +736,7 @@
         "title": "Relevant BSP Guidelines",
         "subheader": "BSP’s Guidelines on Business Continuity Management",
         "body": "<p>The Philippines is highly vulnerable to natural disasters like typhoons, earthquakes, and floods, which can disrupt banking operations and affect community livelihoods. This highlights the importance of disaster recovery and business continuity planning for rural banks, emphasizing the need for a comprehensive business continuity management (BCM) process within their operational risk management system.</p> <ul> <li>1. Physical Emergency Response Plan: a comprehensive strategy designed to prepare for, respond to, and recover from physical emergencies or disasters that may impact an organization</li> <li>2. Cybersecurity Incident Response Plan: structured approach that can help in the preparation, detection, response, and recovery from data breaches, malware infections, denial-of-service attacks, insider threats, and other security breaches that can compromise the confidentiality, integrity, or availability of information systems and data</li> <li>3. Crisis Management Plan: a documented plan detailing the actions to be taken when a crisis strikes, designed to maintain order amidst the confusion surrounding such situations</li> <li>4. Business Continuity Plan: a detailed plan on the orderly and expeditious process of recovery, resumption, and restoration of business functions in the event of disruptions; it should cover and establish linkages among its multiple components, such as communication plan, crisis management plan, contingency funding plan, and technology recovery plan</li> <li>5. IT Disaster Recovery Plan:  a plan detailing the technology strategy and requirements during recovery for business and support functions; appropriate and alternative personnel should be assigned with the responsibility technology recovery</li> <ul> <h4>Alternate and Recovery Sites</h4> <p>Recovery sites are preferably geographically separate from the primary site to facilitate the restoration of  essential systems and the resumption of operations following a disruption. Ideally, recovery sites should  operate on separate electrical power and telecommunication systems to ensure resilience against the same disaster.</p>",
-        "image":"src/assets/img/aligning business strat/order79.jpg"
+        "image": "src/assets/img/aligning business strat/order79.jpg"
       },
       {
         "order": 80,
@@ -721,7 +747,7 @@
         "image": "src/assets/img/aligning business strat/order80.jpg"
       },
       {
-        "order": 81, 
+        "order": 81,
         "layout": "image righthand portion",
         "title": "Relevant BSP Guidelines",
         "subheader": "BSP’s Guidelines on Business Continuity Management",
@@ -740,125 +766,143 @@
         "title": "Lesson Summary",
         "subheader": "Congratulations on completing Lesson 3 of this module!",
         "body": "<p>Now that you have completed this lesson, you should be able to:</p><ul> <li>Recognize that crisis management is a critical function for organizations across all sectors, as it directly impacts their ability to navigate and recover from disruptive events. </li> <li>Identify a crisis as an abnormal and unstable situation that threatens an organization or community.</li> <li>Understand that the phases of crisis management include pre-crisis, during crisis, and post-crisis.</li> <li>Develop a crisis management plan as a strategic framework designed to prepare an organization for potential crises and guide its response when a crisis occurs.</li> </ul>",
-        "image":"src/assets/img/general images/LessonSummary.jpg"
+        "image": "src/assets/img/general images/LessonSummary.jpg"
       },
       {
         "order": 84,
         "title": "Knowledge Check",
         "body": "<p>A bank, SecureFunds, is facing a crisis due to a data breach that has compromised customer information. The management team is developing a crisis management plan.</p><p>What is one of the first steps SecureFunds should take in their crisis management plan?</p>",
-        "image":"src/assets/img/general images/KnowledgeCheck.jpg", 
-        "q_field_type": "single_select" ,
-            "q_selection": [{
-              "A": "Ignore the breach and hope it resolves itself",
-              "B": "Limit communication to only upper management",
-              "C": "Focus solely on public relations to manage customer perception",
-              "D": "Establish a Crisis Management Team (CMT) to oversee the response"
-            }],
+        "image": "src/assets/img/general images/KnowledgeCheck.jpg",
+        "q_field_type": "single_select",
+        "q_selection": [
+          {
+            "A": "Ignore the breach and hope it resolves itself",
+            "B": "Limit communication to only upper management",
+            "C": "Focus solely on public relations to manage customer perception",
+            "D": "Establish a Crisis Management Team (CMT) to oversee the response"
+          }
+        ],
         "q_answer": "D"
       },
       {
         "order": 85,
         "title": "Course Summary",
-        "body": "<p>Now that you have completed this course, you should be able to:</p><ul> <li>Recognize that crisis management is a critical function for organizations across all sectors, as it directly impacts their ability to navigate and recover from disruptive events. </li> <li>Identify a crisis as an abnormal and unstable situation that threatens an organization or community.</li> <li>Understand that the phases of crisis management include pre-crisis, during crisis, and post-crisis. </li> <li></li> <li>Develop a crisis management plan as a strategic framework designed to prepare an organization for potential crises and guide its response when a crisis occurs.</li> </ul>", 
-        "image":"src/assets/img/general images/CourseSummary.jpg"
+        "body": "<p>Now that you have completed this course, you should be able to:</p><ul> <li>Recognize that crisis management is a critical function for organizations across all sectors, as it directly impacts their ability to navigate and recover from disruptive events. </li> <li>Identify a crisis as an abnormal and unstable situation that threatens an organization or community.</li> <li>Understand that the phases of crisis management include pre-crisis, during crisis, and post-crisis. </li> <li></li> <li>Develop a crisis management plan as a strategic framework designed to prepare an organization for potential crises and guide its response when a crisis occurs.</li> </ul>",
+        "image": "src/assets/img/general images/CourseSummary.jpg"
       },
       {
         "order": 86,
         "title": "Course Completion",
-        "body": "<h4>Congratulations on completing the Aligning Business Strategy to Technology Innovations and Trends course!</h4><p>Now that you have completed this course, you should be able to:</p><ul> <li>Define the key components of a business strategy, including vision, mission, goals, and resource allocation, to establish a solid foundation for strategic alignment.</li> <li>Recognize the importance of aligning business strategies with technology innovations and evaluate the benefits of this alignment in enhancing operational efficiency and customer experience.</li> <li>Leverage emerging business enabling tools, such as information systems, AI, and GIS, to improve decision-making and enhance overall organizational effectiveness.</li> <li>Identify the critical role of crisis management in organizations and understand the phases of crisis management, including pre-crisis planning, crisis response, and post-crisis evaluation.</li> </ul>", 
-        "image":"src/assets/img/general images/CourseCompletion.jpg"
+        "body": "<h4>Congratulations on completing the Aligning Business Strategy to Technology Innovations and Trends course!</h4><p>Now that you have completed this course, you should be able to:</p><ul> <li>Define the key components of a business strategy, including vision, mission, goals, and resource allocation, to establish a solid foundation for strategic alignment.</li> <li>Recognize the importance of aligning business strategies with technology innovations and evaluate the benefits of this alignment in enhancing operational efficiency and customer experience.</li> <li>Leverage emerging business enabling tools, such as information systems, AI, and GIS, to improve decision-making and enhance overall organizational effectiveness.</li> <li>Identify the critical role of crisis management in organizations and understand the phases of crisis management, including pre-crisis planning, crisis response, and post-crisis evaluation.</li> </ul>",
+        "image": "src/assets/img/general images/CourseCompletion.jpg"
       },
       {
         "order": 87,
-        "title": "Course Post-Examination",
-        "exams": [{
+        "title": "Module Post-Examination",
+        "exams": [
+          {
             "exam_id": 4,
-            "title": "Course Post-examination",
+            "title": "Module Post-Examination",
             "body": "This assessment is designed to test your knowledge. Results of this  assessment will be used to structure the workshop.",
-            "questions": [{
-                    "q_number": 1,
-                    "q_statement": "<p>What is the FORDEC model used for in crisis management?</p>",
-                    "q_field_type": "single_select" ,
-                    "q_selection": [{
-                        "A": "To assess employee performance during a crisis.",
-                        "B": "To analyze financial reports during a crisis.",
-                        "C": "To guide decision-making during a crisis situation.",
-                        "D": "To develop marketing strategies post-crisis."
-                    }],
-                    "q_answer": "C"
-            },
-            {  
-                    "q_number": 2,
-                    "q_statement": "<p>A bank, SecureBank, is using Porter’s Five Forces to analyze its competitive environment before launching a new digital banking service.</p><p>Question: Which of the following factors would be most relevant when assessing the 'Bargaining Power of Buyers'?</p>",
-                    "q_field_type": "single_select" ,
-                    "q_selection": [{
-                        "A": "The number of suppliers available to the bank.",
-                        "B": "The regulatory environment affecting banking operations.",
-                        "C": "The availability of alternative banking services and the ease of switching banks for customers.",
-                        "D": "The technological advancements available to the bank."
-                    }],
-                    "q_answer": "C"
-            },
-            {
-                   "q_number": 3,
-                   "q_statement": "<p>What types of crises can organizations face? (Select all that apply)</p>",
-                    "q_field_type": "multi_select" ,
-                    "q_selection": [{
-                        "A": "Natural crises",
-                        "B": "Technological crises",
-                        "C": "Financial crises",
-                        "D": "Employee satisfaction crises"
-                    }],
-                    "q_answer": "A, B, C"
-            },
-            {
-                    "q_number": 4,
-                    "q_statement": "<p>A financial institution, TrustBank, is preparing for potential crises by conducting risk assessments and developing a crisis management plan.</p> <p>Question: What is a critical component of TrustBank's crisis management plan?</p>",
-                    "q_field_type": "single_select" ,
-                        "q_selection": [{
-                            "A": "Crisis Definition and Scope",
-                            "B": "Reducing the number of employees.",
-                            "C": "Ignoring external factors.",
-                            "D": "Limiting customer communication"
-                        }],
-                        "q_answer": "A"
-            },
-            {
-                    "q_number": 5,
-                    "q_statement": "<p>A bank, FutureBank, is developing a technology roadmap to implement a new digital banking platform</p> <p>Question: What is a critical factor FutureBank should consider when assessing the current state of its technology landscape?</p>",
-                    "q_field_type": "single_select" ,
-                    "q_selection": [{
-                        "A": "The number of employees in the IT department.",
-                        "B": "The effectiveness of existing systems and their integration capabilities with new technologies.",
-                        "C": "The historical performance of the bank's marketing campaigns.",
-                        "D": "The bank's physical branch locations."
-                    }],
-                    "q_answer": "B"
-            },
-            {
+            "questions": [
+              {
+                "q_number": 1,
+                "q_statement": "<p>What is the FORDEC model used for in crisis management?</p>",
+                "q_field_type": "single_select",
+                "q_selection": [
+                  {
+                    "A": "To assess employee performance during a crisis.",
+                    "B": "To analyze financial reports during a crisis.",
+                    "C": "To guide decision-making during a crisis situation.",
+                    "D": "To develop marketing strategies post-crisis."
+                  }
+                ],
+                "q_answer": "C"
+              },
+              {
+                "q_number": 2,
+                "q_statement": "<p>A bank, SecureBank, is using Porter’s Five Forces to analyze its competitive environment before launching a new digital banking service.</p><p>Question: Which of the following factors would be most relevant when assessing the 'Bargaining Power of Buyers'?</p>",
+                "q_field_type": "single_select",
+                "q_selection": [
+                  {
+                    "A": "The number of suppliers available to the bank.",
+                    "B": "The regulatory environment affecting banking operations.",
+                    "C": "The availability of alternative banking services and the ease of switching banks for customers.",
+                    "D": "The technological advancements available to the bank."
+                  }
+                ],
+                "q_answer": "C"
+              },
+              {
+                "q_number": 3,
+                "q_statement": "<p>What types of crises can organizations face? (Select all that apply)</p>",
+                "q_field_type": "multi_select",
+                "q_selection": [
+                  {
+                    "A": "Natural crises",
+                    "B": "Technological crises",
+                    "C": "Financial crises",
+                    "D": "Employee satisfaction crises"
+                  }
+                ],
+                "q_answer": "A, B, C"
+              },
+              {
+                "q_number": 4,
+                "q_statement": "<p>A financial institution, TrustBank, is preparing for potential crises by conducting risk assessments and developing a crisis management plan.</p> <p>Question: What is a critical component of TrustBank's crisis management plan?</p>",
+                "q_field_type": "single_select",
+                "q_selection": [
+                  {
+                    "A": "Crisis Definition and Scope",
+                    "B": "Reducing the number of employees.",
+                    "C": "Ignoring external factors.",
+                    "D": "Limiting customer communication"
+                  }
+                ],
+                "q_answer": "A"
+              },
+              {
+                "q_number": 5,
+                "q_statement": "<p>A bank, FutureBank, is developing a technology roadmap to implement a new digital banking platform</p> <p>Question: What is a critical factor FutureBank should consider when assessing the current state of its technology landscape?</p>",
+                "q_field_type": "single_select",
+                "q_selection": [
+                  {
+                    "A": "The number of employees in the IT department.",
+                    "B": "The effectiveness of existing systems and their integration capabilities with new technologies.",
+                    "C": "The historical performance of the bank's marketing campaigns.",
+                    "D": "The bank's physical branch locations."
+                  }
+                ],
+                "q_answer": "B"
+              },
+              {
                 "q_number": 6,
                 "q_statement": "<p>Which of the following are key components of a business strategy? (Select all that apply)</p>",
-                "q_field_type": "multi_select" ,
-                "q_selection": [{
+                "q_field_type": "multi_select",
+                "q_selection": [
+                  {
                     "A": "Vision and Mission",
                     "B": "Market Analysis",
                     "C": "Employee Satisfaction",
                     "D": "Performance Metrics"
-                }],
+                  }
+                ],
                 "q_answer": "A, B, D"
-            },
-            {
+              },
+              {
                 "q_number": 7,
                 "q_statement": "<p>A mid-sized retail company, RetailCo, has recently invested in new technology to enhance its online shopping platform. The management team believes that aligning their business strategy with this technology will improve customer satisfaction and drive sales. They have implemented a customer relationship management (CRM) system to better understand customer preferences and behaviors.</p> <p>Question:What is one of the key benefits RetailCo is likely to experience by aligning its business strategy with the new technology?</p>",
-                "q_field_type": "single_select" ,
-                "q_selection": [{
+                "q_field_type": "single_select",
+                "q_selection": [
+                  {
                     "A": "Enhanced customer experience through personalized interactions and improved service delivery.",
                     "B": "Increased operational costs due to the implementation of new tools.",
                     "C": "Decreased efficiency in business processes and operations.",
                     "D": "Higher employee turnover due to technology adoption."
-                    }],
-                    "q_answer": "A"
-             }
+                  }
+                ],
+                "q_answer": "A"
+              }
             ]
           }
         ]

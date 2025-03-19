@@ -52,7 +52,9 @@ const ProfilePage: React.FC = () => {
   }, []);
 
   const handleLogout = () => {
-    localStorage.removeItem("user");
+    Object.keys(localStorage).forEach((key) => {
+      localStorage.removeItem(key);
+    });
     history.push("/welcome");
     setTimeout(() => {
       window.location.reload();
@@ -135,7 +137,7 @@ const ProfilePage: React.FC = () => {
               <div className="w-full flex justify-center mb-8">
                 {isUserLoggedIn ? (
                   <button
-                    className="text-center px-6 py-2 bg-indigo-700 text-white rounded-lg flex items-center gap-2"
+                    className="text-center px-6 py-2 bg-gray-700 text-white rounded-lg flex items-center gap-2"
                     onClick={handleLogout}
                   >
                     <IonIcon icon={logOutOutline} className="text-xl" />
@@ -143,11 +145,11 @@ const ProfilePage: React.FC = () => {
                   </button>
                 ) : (
                   <button
-                    className="text-center px-6 py-2 bg-indigo-700 text-white rounded-lg flex items-center gap-2"
+                    className="text-center px-6 py-2 bg-gray-700 text-white rounded-lg flex items-center gap-2"
                     onClick={() => setIsCardOpen(true)}
                   >
                     <IonIcon icon={logInOutline} className="text-xl" />
-                    Sign In
+                    Login
                   </button>
                 )}
               </div>

@@ -54,13 +54,13 @@ export const getUserByEmailAndPassword = async (
   if (data.password !== password) {
     return {
       success: false,
-      error: "Incorrect password. Please try again.",
+      loginError: "Incorrect password. Please try again.",
       user: null,
     };
   }
 
   // If everything matches, return the user data.
-  return { success: true, error: null, user: data };
+  return { success: true, loginError: null, user: data };
 };
 
 export const supabaseSendEmail = async (email: string) => {

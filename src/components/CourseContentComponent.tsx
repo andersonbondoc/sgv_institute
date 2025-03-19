@@ -3,7 +3,6 @@ import { useHistory, useParams } from "react-router-dom";
 import { IonButton, IonCard, IonCardContent } from "@ionic/react";
 import CourseContentSection from "./CourseContentSections";
 import CertificateEditor from "./CertificateEditor";
-
 const CourseContentComponent: React.FC = () => {
   const [selectedModule, setSelectedModule] = useState<string | null>(null);
   const [modules, setModules] = useState<any[]>([]);
@@ -16,7 +15,7 @@ const CourseContentComponent: React.FC = () => {
   const [getCourse, setCourse] = useState<string>("");
   const [getModule, setModuleLessons] = useState<string[]>([]);
   const [getBanks, setBanks] = useState<string[]>([]);
-
+  const [getModuleId, setModulesId] = useState<string[]>([]);
   useEffect(() => {
     const storedUser = localStorage.getItem("user");
     if (!storedUser) {
@@ -40,21 +39,12 @@ const CourseContentComponent: React.FC = () => {
         const course = data[courseId];
         setCourse(course.title);
         if (course && course.modules) {
-          if (
-            course.title ===
-            "Project Management Fundamentals for Implementation of Digital Solutions"
-          ) {
-            setBanks([
-              "Rural Bank of Porac (Pamp) (RBPP)",
-              "Rural Bank of Montalban (RBMI)",
-              "Banco San Vicente (BSV)",
-              "Camalig Bank (CB)",
-              "Rural Bank of Guinobatan (RBGI)",
-              "Rural Bank of Silay (RBS)",
-              "Rural Bank of Tandag, Inc. (RBT)",
-            ]);
-          }
           setModules(course.modules);
+          const moduleIds = course.modules.map(
+            (module: any) => module.moduleId
+          );
+          setModulesId(moduleIds);
+
           setModuleLessons(course.modules.map((row: any) => row.title));
         } else {
           console.warn(`No modules found for course ${courseId}`);
@@ -80,38 +70,65 @@ const CourseContentComponent: React.FC = () => {
     }
   };
 
-  // Calculate completion percentages outside the map function
-  const savedPMFIDS_BCM = parseInt(
-    localStorage.getItem("currentPage-PMFIDS_BCM") || "0"
-  );
-  const savedPMFIDS_RISK = parseInt(
-    localStorage.getItem("currentPage-PMFIDS_RISK") || "0"
-  );
-  const savedPMFIDS_PM = parseInt(
-    localStorage.getItem("currentPage-PMFIDS_PM") || "0"
-  );
+  //   // Calculate completion percentages outside the map function
+  //   const savedPMFIDS_BCM = parseInt(
+  //     localStorage.getItem("currentPage-PMFIDS_BCM") || "0"
+  //   );
+  //   const savedPMFIDS_RISK = parseInt(
+  //     localStorage.getItem("currentPage-PMFIDS_RISK") || "0"
+  //   );
+  //   const savedPMFIDS_PM = parseInt(
+  //     localStorage.getItem("currentPage-PMFIDS_PM") || "0"
+  //   );
+  //   const savedABSTIT_ABS = parseInt(
+  //     localStorage.getItem("currentPage-ABSTIT_ABS") || "0"
+  //   );
 
-  const countPMFIDS_BCM = parseInt(
-    localStorage.getItem("sectionlength-PMFIDS_BCM") || "0"
-  );
-  const countPMFIDS_RISK = parseInt(
-    localStorage.getItem("sectionlength-PMFIDS_RISK") || "0"
-  );
-  const countPMFIDS_PM = parseInt(
-    localStorage.getItem("sectionlength-PMFIDS_PM") || "0"
-  );
+  //   const countPMFIDS_BCM = parseInt(
+  //     localStorage.getItem("sectionlength-PMFIDS_BCM") || "0"
+  //   );
+  //   const countPMFIDS_RISK = parseInt(
+  //     localStorage.getItem("sectionlength-PMFIDS_RISK") || "0"
+  //   );
+  //   const countPMFIDS_PM = parseInt(
+  //     localStorage.getItem("sectionlength-PMFIDS_PM") || "0"
+  //   );
+  // //sectionlength-ABSTIT_ABS
+  //   const countABSTIT_ABS = parseInt(
+  //     localStorage.getItem("sectionlength-ABSTIT_ABS") || "0"
+  //   );
+  //   const completionPercentage_PMFIDS_PM =
+  //     countPMFIDS_PM !== 0 ? (savedPMFIDS_PM / countPMFIDS_PM) * 100 : 0;
+  //   const completionPercentage_PMFIDS_RISK =
+  //     countPMFIDS_RISK !== 0 ? (savedPMFIDS_RISK / countPMFIDS_RISK) * 100 : 0;
+  //   const completionPercentage_PMFIDS_BCM =
+  //     countPMFIDS_BCM !== 0 ? (savedPMFIDS_BCM / countPMFIDS_BCM) * 100 : 0;
 
-  const completionPercentage_PMFIDS_PM =
-    countPMFIDS_PM !== 0 ? (savedPMFIDS_PM / countPMFIDS_PM) * 100 : 0;
-  const completionPercentage_PMFIDS_RISK =
-    countPMFIDS_RISK !== 0 ? (savedPMFIDS_RISK / countPMFIDS_RISK) * 100 : 0;
-  const completionPercentage_PMFIDS_BCM =
-    countPMFIDS_BCM !== 0 ? (savedPMFIDS_BCM / countPMFIDS_BCM) * 100 : 0;
-
-  const isCertificateEnabled =
-    completionPercentage_PMFIDS_PM === 100 &&
-    completionPercentage_PMFIDS_RISK === 100 &&
-    completionPercentage_PMFIDS_BCM === 100;
+  //   const completionPercentage_ABSTIT_ABS =
+  //     countPMFIDS_BCM !== 0 ? (savedABSTIT_ABS / countABSTIT_ABS) * 100 : 0;
+  // Retrieve saved progress and total sections dynamically
+  const savedProgress = getModuleId.reduce((acc, id) => {
+    acc[id] = parseInt(localStorage.getItem(`currentPage-${id}`) || "0");
+    return acc;
+  }, {} as Record<string, number>);
+  const totalSections = getModuleId.reduce((acc, id) => {
+    acc[id] = parseInt(localStorage.getItem(`sectionlength-${id}`) || "0");
+    return acc;
+  }, {} as Record<string, number>);
+  const completionPercentages = getModuleId.reduce((acc, id) => {
+    acc[id] =
+      totalSections[id] !== 0
+        ? (savedProgress[id] / totalSections[id]) * 100
+        : 0;
+    return acc;
+  }, {} as Record<string, number>);
+  const isCertificateEnabled = modules.every(
+    (module) =>
+      totalSections[module.moduleId] !== 0 &&
+      (savedProgress[module.moduleId] / totalSections[module.moduleId]) *
+        100 ===
+        100
+  );
 
   if (loading) {
     return (
@@ -135,13 +152,17 @@ const CourseContentComponent: React.FC = () => {
         <div className="space-y-6 p-4">
           {modules.map((module) => {
             const moduleCompletion =
-              module.moduleId === "PMFIDS_BCM"
-                ? completionPercentage_PMFIDS_BCM
-                : module.moduleId === "PMFIDS_RISK"
-                ? completionPercentage_PMFIDS_RISK
-                : module.moduleId === "PMFIDS_PM"
-                ? completionPercentage_PMFIDS_PM
-                : 0;
+              completionPercentages[module.moduleId] || 0;
+            // const moduleCompletion =
+            //   module.moduleId === "PMFIDS_BCM"
+            //     ? completionPercentage_PMFIDS_BCM
+            //     : module.moduleId === "PMFIDS_RISK"
+            //     ? completionPercentage_PMFIDS_RISK
+            //     : module.moduleId === "PMFIDS_PM"
+            //     ? completionPercentage_PMFIDS_PM
+            //     : module.moduleId === "ABSTIT_ABS" ?
+            //     completionPercentage_ABSTIT_ABS
+            //     : 0;
             return (
               <IonCard
                 key={module.moduleId}
