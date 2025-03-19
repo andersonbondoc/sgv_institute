@@ -297,12 +297,12 @@ const LandingPage: React.FC = () => {
                 >
                   <div className="flex items-center space-x-4">
                     <div
-                      className={`w-12 h-12 ${course.bgColor} rounded-full flex items-center justify-center`}
+                      className={`w-24 h-24 ${course.bgColor} rounded-full flex items-center justify-center`}
                     >
                       <img
                         src={course.icon}
                         alt={`${course.title} Icon`}
-                        className="w-6 h-6"
+                        // className="w-10 h-10"
                       />
                     </div>
                     <div>
