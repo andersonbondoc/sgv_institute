@@ -16,7 +16,7 @@
           "title": "Module Pre-Examination",
           "exams": [{
               "exam_id": 8,
-              "title": "Mo8dule Pre-examination",
+              "title": "Module Pre-Examination",
               "body": "This assessment is designed to test your knowledge. Results of this  assessment will be used to structure the workshop.",
               "questions": [{
                       "q_number": 1,
@@ -601,10 +601,10 @@
     }, 
     {
         "order": 76,
-        "title": "Module Post-examination",
+        "title": "Module Post-Examination",
         "exams": [{
             "exam_id": 8,
-            "title": "Module Post-examination",
+            "title": "Module Post-Examination",
             "body": "This assessment is designed to test your knowledge. Results of this  assessment will be used to structure the workshop.",
             "questions": [{
                 "q_number": 1,

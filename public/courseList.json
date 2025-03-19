@@ -131,7 +131,7 @@
           "id": 11,
           "courseId": "DCO",
           "moduleId": "DCO_APPLICATION_APPROVAL",
-          "title": "Manage Change",
+          "title": "Application Approval, Product Issuance, and Feedbacking in Onboarding",
           "description" : "Gain comprehensive understanding of the fundamentals for digital customer onboarding.",
           "icon" : "src/assets/img/icons/dco.jpg",
           "bgColor": "bg-yellow-100"

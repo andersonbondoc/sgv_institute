@@ -1,6 +1,6 @@
 [{
   "id": 3,
-  "moduleId": "PMFIDS_RM",
+  "moduleId": "PMFIDS_RISK",
   "moduleName": "Project Risk Management",
   "type": "module",
   "sections": [
@@ -9,7 +9,7 @@
      "title": "Module Introduction",
      "subheader": "Welcome to the WBL (Web-Based Learning) module on Project Risk Management!",
      "body": "<p>This module is designed to deliver an understanding of the types of risks and the process of identifying, analyzing, handling and monitoring risks in managing projects.</p>",
-     "image": "src/assets/img/general images/ModuleIntroduction.jpg"
+     "image": "public/src/assets/img/general images/ModuleIntroduction.jpg"
    },
    {
      "order": 2,
@@ -127,15 +127,15 @@
     {
       "order": 3,
       "title": "Module Credit and Completion Requirements and Learning Objective",
-      "body": "<h2>Credit and Completion Requirements</h2> <p>To successfully earn credit and meet the learning objectives of this Web-Based Learning Application, it is essential to engage with every page, complete all knowledge checks, and complete the initial and final assessment independently. The assessment will require a 70% passing rate and while you are encouraged to refer to your notes of the course content during the assessment, any form of cheating is discouraged. Please also note that this course will expire by April 25, 2025.</p> <h2>Module Learning Objectives</h2> <p>Upon successful completion of the course, you will be able to:</p> <ul> <li>Define project risk and identify various types of risks that may occur in a project.</li> <li>Recognize the risk management process and explore tools and frameworks relevant to each step of the process.</li> <li>Gain a full understanding of Quality Assurance and its benefits and importance in managing digital transformation projects, specifically in the Risk Monitoring phase.</li> <li>Obtain knowledge on the existing Philippine regulations in risk management systems to get ahead of identifying and monitoring possible risks in projects.</li> </ul>",
-      "image": "src/assets/img/general images/CreditCompletionLearningObjectives.jpg"
+      "body": "<h4>Credit and Completion Requirements</h4> <p>To successfully earn credit and meet the learning objectives of this Web-Based Learning Application, it is essential to engage with every page, complete all knowledge checks, and complete the initial and final assessment independently. The assessment will require a 70% passing rate and while you are encouraged to refer to your notes of the course content during the assessment, any form of cheating is discouraged. Please also note that this course will expire by April 25, 2025.</p> <h4>Module Learning Objectives</h4> <p>Upon successful completion of the course, you will be able to:</p> <ul> <li>Define project risk and identify various types of risks that may occur in a project.</li> <li>Recognize the risk management process and explore tools and frameworks relevant to each step of the process.</li> <li>Gain a full understanding of Quality Assurance and its benefits and importance in managing digital transformation projects, specifically in the Risk Monitoring phase.</li> <li>Obtain knowledge on the existing Philippine regulations in risk management systems to get ahead of identifying and monitoring possible risks in projects.</li> </ul>",
+      "image": "public/src/assets/img/general images/CreditCompletionLearningObjectives.jpg"
     },
     {
       "order": 4, 
       "title": "Project Risk Management Lessons",
       "subheader": "Overview of Risks",
       "body": "<h4>Learning Objective</h4> <b>At the end of this lesson, you will be able to:</b> <ul> <li>Define project risk and identify various types of risks that may occur in a project.</li> </ul>",
-      "image": "src/assets/img/project_management/risk_management/PMFIDS_PM_PRM_order4"
+      "image": "public/src/assets/img/project_management/Project Fundamentals/order4.jpg"
     },
     {
       "order": 5,
@@ -157,7 +157,7 @@
       "order": 7,
       "title": "Knowledge Check",
       "body": "This is a type of risk where a completed project fails to perform as intended.",
-      "image": "src/assets/img/general images/KnowledgeCheck.jpg",
+      "image": "public/src/assets/img/general images/KnowledgeCheck.jpg",
       "q_field_type": "single_select",
       "q_selection": [
         {
@@ -174,14 +174,14 @@
       "title": "Lesson Summary",
       "subheader": "Congratulations on completing Lesson 1 of this module!",
       "body": "<p>Now that you have completed this lesson, you should be able to:</p><ul> <li>Define project risk and identify various types of risks that may occur in a project.</li> </ul>",
-      "image": "src/assets/img/general images/LessonSummary.jpg"
+      "image": "public/src/assets/img/general images/LessonSummary.jpg"
   },
   {
       "order": 9, 
       "title": "Project Risk Management Lessons",
       "subheader": "Risk Management",
       "body": "<h4>Learning Objective</h4> <b>At the end of this lesson, you will be able to:</b> <ul> <li>Recognize the risk management process and explore tools and frameworks relevant to each step of the process.</li> </ul>",
-      "image": "src/assets/img/project_management/risk_management/PMFIDS_PM_PRM_order9"
+      "image": "public/src/assets/img/project_management/risk_management/order9.jpg"
     },
     {
       "order": 10,
@@ -196,7 +196,7 @@
       "title": "Risk Management",
       "subheader": "Four Phases of Risk Management Process",
       "body": "<p>The risk management process is comprised of four phases, as depicted in the following diagram: Identification, Assessment, Handling, and Monitoring</p> <h5>Risk Identification</h5> <p>Risk identification involves analyzing project areas and key processes to pinpoint potential issues, hazards, and threats that could affect progress. Methods for identifying risks include reviewing the work breakdown structure, conducting expert interviews, analyzing past lessons, examining design specifications, and evaluating project strategies. Regular risk assessments and management reviews also help identify and address risks.</p> <h5>Risk Assessment</h5> <p>Risk assessment involves evaluating identified risks and prioritizing them based on their potential impact on project goals. The project team analyzes each risk to determine its cause and effects, then rates them according to the likelihood of occurrence and the severity of their impact on cost, schedule, and technical performance.</p> <h5>Risk Handling</h5> <p>Risk handling involves identifying, evaluating, and selecting strategies to manage risks within acceptable levels, while considering project constraints and objectives. This process defines specific actions, timelines, responsible parties, and associated costs. The chosen strategy is based on the overall risk assessment rating.</p> <h5>Risk Monitoring</h5> <p>Risk monitoring involves tracking and assessing the effectiveness of risk-handling actions throughout the project, while developing additional strategies as needed. The team regularly monitors both the risks and the outcomes of these actions. A Risk Register is used to track activities, and high-level risks are included in the Monthly Project Status Report and discussed during Steering Committee meetings.</p>",
-      "image": "src/assets/img/project_management/risk_management/PMFIDS_PM_PRM_order11"
+      "image": "public/src/assets/img/project_management/risk_management/order11.jpg"
     },
     {
       "order": 12,
@@ -210,7 +210,7 @@
       "order": 13,
       "title": "Knowledge Check",
       "body": "Which of the following statements are TRUE about RAID log? (Select all that apply)",
-      "image": "src/assets/img/general images/KnowledgeCheck.jpg",
+      "image": "public/src/assets/img/general images/KnowledgeCheck.jpg",
       "q_field_type": "multi_select",
       "q_selection": [
         {
@@ -228,7 +228,7 @@
       "title": "Risk Identification",
       "subheader": "Risk Register",
       "col1": "<p>A risk register is a key tool in risk management, used to identify, analyze, and address potential setbacks in a project before they become issues. As outlined in the PMBOK guide, it records the results of risk analysis and response plans, with the initial entries coming from the risk identification process. The register details each identified risk, including descriptions, categories, causes, probabilities, potential responses, and responsible parties, making it a crucial component of the project management plan.</p>",
-      "image": "rc/assets/img/project_management/risk_management/PMFIDS_PM_PRM_order14"
+      "image": "public/src/assets/img/project_management/risk_management/order14.jpg"
     },
     {
       "order": 15,
@@ -244,13 +244,13 @@
       "title": "Risk Assessment",
       "subheader": "Probability Impact Matrix",
       "body": "<p>A Probability and Risk Matrix is a grid used to map the likelihood of each risk occurring and its impact on project objectives if it does occur. This matrix specifies combinations of probability and impact, allowing individual project risks to be categorized into priority groups. By using the probability and impact matrix, risks are classified as low, medium, or high based on two distinct factors: the overall probability of occurrence and the presumed impact if it occurs.</p> <h5>Impact</h5> <p>Impact is evaluated based on the extent of changes to the work plan (timing), cost, and quality if the risk materializes.</p> <h5>Probability</h5> <p>Probability measures the likelihood that the risk will materialize.</p>",
-      "image": "src/assets/img/project_management/risk_management/PMFIDS_PM_PRM_order16"
+      "image": "public/src/assets/img/project_management/risk_management/order16.jpg"
     },
     {
       "order": 17,
       "title": "Knowledge Check",
       "body": "In assessing risks through the probability impact matrix, which of the following must be primarily prioritized?",
-      "image": "src/assets/img/general images/KnowledgeCheck.jpg",
+      "image": "public/src/assets/img/general images/KnowledgeCheck.jpg",
       "q_field_type": "single_select",
       "q_selection": [
         {
@@ -275,14 +275,14 @@
       "title": "Lesson Summary",
       "subheader": "Congratulations on completing Lesson 2 of this module!",
       "body": "<p>Now that you have completed this lesson, you should be able to:</p><ul> <li>Recognize the risk management process and explore tools and frameworks relevant to each step of the process.</li> </ul>",
-      "image": "src/assets/img/general images/LessonSummary.jpg"
+      "image": "public/src/assets/img/general images/LessonSummary.jpg"
     },
     {
       "order": 20, 
       "title": "Project Risk Management Lessons",
       "subheader": "Quality Assurance",
       "body": "<h4>Learning Objective</h4> <b>At the end of this lesson, you will be able to:</b> <ul> <li>Gain a full understanding of Quality Assurance and its benefits and importance in managing digital transformation projects, specifically in the Risk Monitoring phase.</li> </ul>",
-      "image": "src/assets/img/project_management/risk_management/PMFIDS_PM_PRM_order20"
+      "image": "public/src/assets/img/project_management/risk_management/order20.jpg"
     },
     {
       "order": 21,
@@ -296,7 +296,7 @@
       "layout": "col-2",
       "title": "Quality Assurance",
       "subheader": "International Quality Standards",
-      "col1": "<h4>International Organization for Standardization (ISO)</h4> <p>The International Organization for Standardization (ISO) is an independent, non-governmental organization that develops guidelines for products, services, and systems to ensure quality, safety, and efficiency. Its globally recognized standards, including the ISO 9000 family, are adopted by businesses, governments, and organizations to establish uniformity and compliance across various sectors.</p> <p>ISO maintains a family of quality management standards collectively known as the ISO 9000.</p> <div><img src='src/assets/img/project_management/risk_management/PMFIDS_PM_PRM_order22'></div> <p>ISO defines quality as the degree to which an object's inherent characteristics fulfill the project requirements, which are linked to the project's scope. Effective quality management ensures deliverables meet the agreed-upon expectations, neither exceeding nor falling short of them.</p>",
+      "col1": "<h4>International Organization for Standardization (ISO)</h4> <p>The International Organization for Standardization (ISO) is an independent, non-governmental organization that develops guidelines for products, services, and systems to ensure quality, safety, and efficiency. Its globally recognized standards, including the ISO 9000 family, are adopted by businesses, governments, and organizations to establish uniformity and compliance across various sectors.</p> <p>ISO maintains a family of quality management standards collectively known as the ISO 9000.</p> <div><img src='public/src/assets/img/project_management/risk_management/order22.jpg'></div> <p>ISO defines quality as the degree to which an object's inherent characteristics fulfill the project requirements, which are linked to the project's scope. Effective quality management ensures deliverables meet the agreed-upon expectations, neither exceeding nor falling short of them.</p>",
       "col2": "<h4>Good quality management must address:</h4> <h5>Quality of the Project</h5> <p>Pushing the team too hard to meet requirements can result in lower profits, higher risks, employee attrition, errors, and extra rework. Therefore, the process of creating the product is just as important as the product itself.</p> <h5>Quality of the Product</h5> <p>Upon the product’s availability, ask yourself:</p> <ul> <li>Does the deliverable fulfill the requirements agreed upon during scope definition?</li> <li>If there is variations, is it acceptable?</li> <li>Is it ready for use, and does it satisfy stakeholder expectations?</li> </ul>"
     },
     {
@@ -327,7 +327,7 @@
       "title": "Importance of QA in Digital Transformation Project",
       "subheader": "Establishing an Ongoing QA Practice",
       "col1": "<h4>Integration Efforts</h4> <p>The rapid advancement of API technology, which often involves real-time integration, requires strong QA management to conduct thorough end-to-end testing whenever changes occur in your bank’s technology ecosystem. A strong QA practice provides the necessary oversight and discipline to ensure that newly combined solutions are adequately tested.</p> <p>As APIs and open banking continue to gain momentum in financial institutions, the demand for high-quality solutions is more evident than ever. The rapid growth of API technology requires a comprehensive approach to ensure top-notch quality standards are maintained, especially in the fast-evolving open banking space. With real-time integrations and constant changes to your bank's technology ecosystem, strong QA management is essential for thorough end-to-end testing. A robust QA practice ensures that newly integrated solutions receive the necessary oversight and attention to meet the highest standards.</p>",
-      "image": "src/assets/img/project_management/risk_management/PMFIDS_PM_PRM_order26"
+      "image": "public/src/assets/img/project_management/risk_management/order26.jpg"
     },
     {
       "order": 27,
@@ -347,7 +347,7 @@
       "order": 29,
       "title": "Knowledge Check",
       "body": "Quality controls ensure customer requirements are met before the products and services are delivered. How is the quality controls at the management level commonly grouped? (Select all that apply).",
-      "image": "src/assets/img/general images/KnowledgeCheck.jpg",
+      "image": "public/src/assets/img/general images/KnowledgeCheck.jpg",
       "q_field_type": "multi_select",
       "q_selection": [
         {
@@ -366,14 +366,14 @@
       "title": "Lesson Summary",
       "subheader": "Congratulations on completing Lesson 3 of this module!",
       "body": "<p>Now that you have completed this lesson, you should be able to:</p> <ul> <li>Gain a full understanding of Quality Assurance and its benefits and importance in managing digital transformation projects, specifically in the Risk Monitoring phase.</li> </ul>",
-      "image": "src/assets/img/general images/LessonSummary.jpg"
+      "image": "public/src/assets/img/general images/LessonSummary.jpg"
     },
     {
       "order": 31, 
       "title": "Project Risk Management Lessons",
       "subheader": "Regulations",
       "body": "<h4>Learning Objective</h4> <b>At the end of this lesson, you will be able to:</b> <ul> <li>Obtain knowledge on the existing Philippine regulations in risk management systems to get ahead of identifying and monitoring possible risks in projects.</li> </ul>",
-      "image": "src/assets/img/project_management/risk_management/PMFIDS_PM_PRM_order30"
+      "image": "public/src/assets/img/project_management/risk_management/order30.jpg"
     },
     {
       "order": 32,
@@ -424,13 +424,13 @@
       "layout": "image righthand portion",
       "title": "Financial Services Cyber Resilience Plan 2024-2029",
       "body": "<h4>Goal 1</h4> <p>This covers strategies to sharpen the industry’s capabilities to proactively respond to and recover from major cyber incidents.</p> <p>Priority actions under this goal are:</p> <p><b>D1:</b>Establish baseline industry incident response plan</p> <p><b>D2:</b> Develop scenario-based incident response playbooks</p> <p><b>D3:</b> Conduct progressive industry-wide cyber testing exercise regime</p> <p><b>D4:</b> Explore setting up of an industry Security Operations Center (SOC)</p> <h4>Goal 2</h4> <p>This encompasses strategies to institutionalize and expand sharing of timely and actionable cyberthreat intelligence across the financial community, including coordination and collaboration with other industry stakeholders and the National CERT (CERT-PH).</p> <p>Priority actions under this goal are:</p> <p><b>A1:</b>Expand and further enhance Bankers Association of the Philippines Cybersecurity Incident Database (BAPCID) as an industry sharing platform</p> <p><b>A2:</b> Strengthen and forge strategic partnerships in domestic and international for a</p> <p><b>A3:</b> Support the enactment of cyber-related legislative initiatives (e.g., Anti-Financial Account Scamming Act, Liberalization of Secrecy of Deposits, etc.)</p> <h4>Goal 3</h4> <p>This goal covers strategies to instill strong cybersecurity culture and enhance cybersecurity skills and capabilities in the financial services industry.</p> <p>Key priority actions include:</p> <p><b>S1:</b> Develop and implement cyber education program for BSFI Board and Senior Management</p> <p><b>S2:</b> Regularly conduct Chief Information Security Officer (CISO)/cyber form and Annual Cybersecurity Summit</p> <p><b>S3:</b> Conduct cybersecurity roadshows for small and medium-sized financial institutions (FIs)</p> <p><b>S4:</b> Pursue holistic programs on cybersecurity skills and talent development</p> <p><b>S5:</b>Mainstream cyber education and awareness programs for financial clients.</p> <h4>Goal 4</h4> <p>This goal contains strategies to promote cybersecurity best practices and standards across cybersecurity domains.</p> <p>Priority actions under this goal are:</p> <p><b>H1:</b> Complete policy reforms on digital security controls, Application Programming Interface (API) security, Cybersecurity Maturity Model (CMM) framework, and supply chain risk managemen</p> <p><b>H2:</b> Explore establishment of an Industry Cyber Innovation/Research Hub</p> <p><b>H3:</b> Conduct benchmarking exercises on cyber capabilities</p>",
-      "image": "src/assets/img/project_management/risk_management/PMFIDS_PM_PRM_order37"
+      "image": "public/src/assets/img/project_management/risk_management/order37.jpg"
     },
     {
       "order": 39,
       "title": "Knowledge Check",
       "body": "Which of the following are the key controls financial institutions must adopt to protect financial accounts? (Select all that apply)",
-      "image": "src/assets/img/general images/KnowledgeCheck.jpg",
+      "image": "public/src/assets/img/general images/KnowledgeCheck.jpg",
       "q_field_type": "multi_select",
       "q_selection": [
         {
@@ -449,28 +449,28 @@
       "title": "Lesson Summary",
       "subheader": "Congratulations on completing Lesson 4 of this module!",
       "body": "<p>Now that you have completed this lesson, you should be able to:</p><ul><li>Obtain knowledge on the existing Philippine regulations in risk management systems to get ahead of identifying and monitoring possible risks in projects.</li></ul>",
-      "image": "src/assets/img/general images/LessonSummary.jpg"
+      "image": "public/src/assets/img/general images/LessonSummary.jpg"
     },
     {
       "order": 41,
       "title": "Module Summary",
       "body": "<p>Now that you have completed this course, you should be able to:</p><ul><li>Define project risk and identify various types of risks that may occur in a project.</li><li>Recognize the risk management process and explore tools and frameworks relevant to each step of the process.</li><li>Gain a full understanding of Quality Assurance and its benefits and importance in managing digital transformation projects, specifically in the Risk Monitoring phase.</li><li>Obtain knowledge on the existing Philippine regulations in risk management systems to get ahead of identifying and monitoring possible risks in projects.</li></ul>",
-      "image": "src/assets/img/general images/ModuleSummary.jpg"
+      "image": "public/src/assets/img/general images/ModuleSummary.jpg"
     },
     {
       "order": 42,
       "title": "Module Completion",
       "subheader": "Congratulations on completing the Project Risk Management module!",
       "body": "<p>You've now developed a comprehensive understanding of the fundamental terms and concepts related to project risk management.</p> <p>As you move forward, remember the various types of risks that may occur in a project as well as the importance of effectively utilizing the risk management process. Explore the various tools and frameworks that are relevant to each step of this process. In addition, keep in mind the significance of quality assurance and its advantages in managing digital transformation projects, as well as the regulations in the Philippines concerning risk management systems.</p> <p>We hope this module has equipped you with the knowledge and confidence to tackle any project risks that may come your way.</p>",
-      "image": "src/assets/img/general images/ModuleCompletion.jpg"
+      "image": "public/src/assets/img/general images/ModuleCompletion.jpg"
     },
     {
       "order": 43,
-      "title": "Exam",
+      "title": "Module Post-Examination",
       "exams": [
         {
           "exam_id": 3,
-          "title": "Post-Module Examination",
+          "title": "Module Post-Examination",
           "body": "This assessment is designed to test your knowledge. Results of this assessment will be used to structure the workshop.",
           "questions": [
             {

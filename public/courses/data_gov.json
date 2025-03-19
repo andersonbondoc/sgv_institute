@@ -807,11 +807,11 @@
       },
       {
         "order": 88,
-        "title": "Post-Module Examination",
+        "title": "Module Post-Examination",
         "exams": [
               {
               "exam_id": 12,
-              "title": "Post-Module Examination",
+              "title": "Module Post-Examination",
               "body": "This assessment is designed to test your knowledge. Results of this assessment will be used to structure the workshop.",
               "questions": [
                   {
