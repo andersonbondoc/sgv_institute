@@ -178,13 +178,15 @@ const CourseContentComponent: React.FC = () => {
               </IonCard>
             );
           })}
-          <CertificateEditor
-            name={getFullName}
-            ruralBankName={getOrganization}
-            wblTitle={getCourse}
-            lessons={getModule}
-            isCertificateEnabled={isCertificateEnabled}
-          />
+          {isCertificateEnabled && (
+            <CertificateEditor
+              name={getFullName}
+              ruralBankName={getOrganization}
+              wblTitle={getCourse}
+              lessons={getModule}
+              isCertificateEnabled={isCertificateEnabled}
+            />
+          )}
         </div>
       ) : (
         <CourseContentSection

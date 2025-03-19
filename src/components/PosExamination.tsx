@@ -130,11 +130,13 @@ const PreExamPage: React.FC<PreExamPageProps> = ({
   return (
     <div className="items-center justify-items-center">
       <div className="p-4">
-        <h2 className="text-2xl font-bold mb-4">
+        <h2 className="text-2xl font-bold mb-4  text-[#111827]">
           Question {currentQuestionIndex + 1} of {preExamQuestions.length}
         </h2>
         <div className="mb-6">
-          <p className="text-xl font-medium">{currentQuestion.text}</p>
+          <p className="text-xl font-medium text-[#111827]">
+            {currentQuestion.text}
+          </p>
         </div>
         {currentQuestion.options && (
           <div className="mt-6">
@@ -167,7 +169,9 @@ const PreExamPage: React.FC<PreExamPageProps> = ({
                       className="text-indigo-600 border-gray-300 focus:ring-indigo-500"
                     />
                   )}
-                  <span className="text-lg text-gray-800">{String(value)}</span>
+                  <span className="text-lg text-[#111827]">
+                    {String(value)}
+                  </span>
                 </label>
               ))}
             </div>
