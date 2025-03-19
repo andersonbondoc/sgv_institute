@@ -215,6 +215,16 @@ const LandingPage: React.FC = () => {
               ))}
             </div>
           </div>
+          <div className="footer">
+            <div className="flex">
+                <div>
+                  © 2025 SGV FSO All rights reserved.
+                </div>
+                <div className="ml-2">
+                   <a href="#"><u>Privacy Policy</u></a>
+                </div>
+            </div>
+          </div>
         </div>
       </IonContent>
     </IonPage>
