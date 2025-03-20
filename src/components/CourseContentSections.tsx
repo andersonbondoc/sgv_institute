@@ -128,14 +128,13 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
   useEffect(() => {
     console.log("current module", moduleId);
     const savedPage = localStorage.getItem(`currentPage-${moduleId}`);
-
-    if (savedPage) {
-      setCurrentSectionIndex(parseInt(savedPage));
-    }
+    // If there's a saved page, use it; otherwise, reset to default (e.g., 0)
+    setCurrentSectionIndex(savedPage ? parseInt(savedPage) : 0);
   }, [moduleId]);
+
   useEffect(() => {
     if (currentSectionIndex !== null) {
-      const page = currentSectionIndex?.toString() || "0";
+      const page = currentSectionIndex.toString();
       localStorage.setItem(`currentPage-${moduleId}`, page);
     }
   }, [currentSectionIndex, moduleId]);
