@@ -125,7 +125,7 @@ const LandingPage: React.FC = () => {
             errorToast={errorToast}
           />
         )}
-        <div className="flex flex-col items-center space-y-8 pt-8 p-4">
+        <div className="flex flex-col items-center space-y-4 pt-8 p-4">
           <div className="text-center space-y-2">
             <div className="w-12 mx-auto">
               <img
