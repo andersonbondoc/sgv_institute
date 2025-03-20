@@ -831,113 +831,113 @@
         "order": 88,
         "title": "Module Post-Examination",
         "exams": [
-          {
-            "exam_id": 12,
-            "title": "Module Post-Examination",
-            "body": "This assessment is designed to test your knowledge. Results of this assessment will be used to structure the workshop.",
-            "questions": [
               {
-                "q_number": 1,
-                "q_statement": "What is the primary purpose of establishing a data governance framework within an organization?",
-                "q_field_type": "single_select",
-                "q_selection": [
+              "exam_id": 12,
+              "title": "Module Post-Examination",
+              "body": "This assessment is designed to test your knowledge. Results of this assessment will be used to structure the workshop.",
+              "questions": [
                   {
-                    "A": "To centralize all data-related requests within a single department.",
-                    "B": "To ensure that data is collected in a uniform manner across all departments",
-                    "C": "To manage data availability, usability, integrity, and security effectively.",
-                    "D": "To eliminate the need for data analysis and reporting."
-                  }
-                ],
-                "q_answer": "C"
-              },
-              {
-                "q_number": 2,
-                "q_statement": "In the context of the data lifecycle, which stage involves converting collected data into a meaningful format or extracting useful information?",
-                "q_field_type": "single_select",
-                "q_selection": [
+                    "q_number": 1,
+                    "q_statement": "What is the primary purpose of establishing a data governance framework within an organization?",
+                    "q_field_type": "single_select",
+                    "q_selection": [
+                        {
+                        "A": "To centralize all data-related requests within a single department.",
+                        "B": "To ensure that data is collected in a uniform manner across all departments",
+                        "C": "To manage data availability, usability, integrity, and security effectively.",
+                        "D": "To eliminate the need for data analysis and reporting."
+                        }
+                        ],
+                        "q_answer": "C"
+                  },
                   {
-                    "A": "Data Collection",
-                    "B": "Data Processing",
-                    "C": "Data Storage",
-                    "D": "Data Visualization"
-                  }
-                ],
-                "q_answer": "C"
-              },
-              {
-                "q_number": 3,
-                "q_statement": "Which of the following are key responsibilities of the Data Governance Office (DGO)? (Select all that apply)",
-                "q_field_type": "multi_select",
-                "q_selection": [
+                    "q_number": 2,
+                    "q_statement": "In the context of the data lifecycle, which stage involves converting collected data into a meaningful format or extracting useful information?",
+                    "q_field_type": "single_select",
+                    "q_selection": [
+                        {
+                        "A": "Data Collection",
+                        "B": "Data Processing",
+                        "C": "Data Storage",
+                        "D": "Data Visualization"
+                        }
+                        ],
+                        "q_answer": "C"
+                  },
                   {
-                    "A": "Defining policies and standards",
-                    "B": "Empowering data leaders in various domains with tools and training",
-                    "C": "Managing all data-related requests within a single department",
-                    "D": "Ensuring coordination and consistency across domains"
-                  }
-                ],
-                "q_answer": "A; B; D"
-              },
-              {
-                "q_number": 4,
-                "q_statement": "<p>FinTech Solutions Inc. is a growing financial technology company undergoing digital transformation to enhance its services and improve operational efficiency. The leadership team recognizes the need for a robust data governance framework to manage customer data, ensure compliance with the Philippine Data Privacy Act of 2012, and enhance decision-making.</p> <p>Question: Which strategies should FinTech Solutions Inc. prioritize to effectively implement its data governance framework? (Select all that apply)</p>",
-                "q_field_type": "multi_select",
-                "q_selection": [
+                    "q_number": 3,
+                    "q_statement": "Which of the following are key responsibilities of the Data Governance Office (DGO)? (Select all that apply)",
+                    "q_field_type": "multi_select",
+                    "q_selection": [
+                        {
+                        "A": "Defining policies and standards",
+                        "B": "Empowering data leaders in various domains with tools and training",
+                        "C": "Managing all data-related requests within a single department",
+                        "D": "Ensuring coordination and consistency across domains"
+                        }
+                        ],
+                        "q_answer": "A; B; D"
+                  },
                   {
-                    "A": "Establishing a Data Governance Office (DGO) to define data management policies.",
-                    "B": "Implementing advanced data analytics tools without addressing data quality.",
-                    "C": "Conducting training programs to enhance data literacy among employees.",
-                    "D": "Developing clear data policies that align with regulatory requirements."
-                  }
-                ],
-                "q_answer": "A; C; D"
-              },
-              {
-                "q_number": 5,
-                "q_statement": "Which of the following are critical elements of a data governance framework that contribute to risk management? (Select all that apply)",
-                "q_field_type": "multi_select",
-                "q_selection": [
+                    "q_number": 4,
+                    "q_statement": "<p>FinTech Solutions Inc. is a growing financial technology company undergoing digital transformation to enhance its services and improve operational efficiency. The leadership team recognizes the need for a robust data governance framework to manage customer data, ensure compliance with the Philippine Data Privacy Act of 2012, and enhance decision-making.</p> <p>Question: Which strategies should FinTech Solutions Inc. prioritize to effectively implement its data governance framework? (Select all that apply)</p>",
+                    "q_field_type": "multi_select",
+                    "q_selection": [
+                        {
+                        "A": "Establishing a Data Governance Office (DGO) to define data management policies.",
+                        "B": "Implementing advanced data analytics tools without addressing data quality.",
+                        "C": "Conducting training programs to enhance data literacy among employees.",
+                        "D": "Developing clear data policies that align with regulatory requirements."
+                        }
+                        ],
+                        "q_answer": "A; C; D"
+                  },
                   {
-                    "A": "Establishing data policies that define data usage and sharing.",
-                    "B": "Implementing access controls to restrict data access.",
-                    "C": "Allowing departments to operate independently without oversight.",
-                    "D": "Conducting regular audits to monitor compliance and data integrity."
-                  }
-                ],
-                "q_answer": "A; B; D"
-              },
-              {
-                "q_number": 6,
-                "q_statement": "<p>Rural Bank ABC has been providing financial services to its community for over 15 years. As the bank adopts new digital tools, it recognizes the need for better data governance to manage customer information and transaction data effectively. The bank currently faces challenges with data accuracy and compliance with the Data Privacy Act.</p <p>Question: What strategies should Rural Bank ABC implement to enhance its data governance? (Select all that apply)</p>",
-                "q_field_type": "multi_select",
-                "q_selection": [
+                    "q_number": 5,
+                    "q_statement": "Which of the following are critical elements of a data governance framework that contribute to risk management? (Select all that apply)",
+                    "q_field_type": "multi_select",
+                    "q_selection": [
+                        {
+                        "A": "Establishing data policies that define data usage and sharing.",
+                        "B": "Implementing access controls to restrict data access.",
+                        "C": "Allowing departments to operate independently without oversight.",
+                        "D": "Conducting regular audits to monitor compliance and data integrity."
+                        }
+                        ],
+                        "q_answer": "A; B; D"
+                  },
                   {
-                    "A": "Appointing data stewards to oversee data quality and compliance.",
-                    "B": "Allowing unrestricted access to all customer data for all employees.",
-                    "C": "Developing clear data policies and standards for data management.",
-                    "D": "Conducting regular audits to assess data governance practices."
-                  }
-                ],
-                "q_answer": "A; C; D"
-              },
-              {
-                "q_number": 7,
-                "q_statement": "<p>Case Study: Rural Bank DEF has recently implemented an online banking platform. However, the bank struggles with collecting accurate customer data through its digital channels. Inconsistent data collection methods lead to incomplete customer profiles, affecting service delivery and customer satisfaction.</p <p>QQuestion: Which strategies should Rural Bank DEF prioritize to improve its data collection processes? (Select all that apply)</p>",
-                "q_field_type": "multi_select",
-                "q_selection": [
+                    "q_number": 6,
+                    "q_statement": "<p>Rural Bank ABC has been providing financial services to its community for over 15 years. As the bank adopts new digital tools, it recognizes the need for better data governance to manage customer information and transaction data effectively. The bank currently faces challenges with data accuracy and compliance with the Data Privacy Act.</p <p>Question: What strategies should Rural Bank ABC implement to enhance its data governance? (Select all that apply)</p>",
+                    "q_field_type": "multi_select",
+                    "q_selection": [
+                        {
+                        "A": "Appointing data stewards to oversee data quality and compliance.",
+                        "B": "Allowing unrestricted access to all customer data for all employees.",
+                        "C": "Developing clear data policies and standards for data management.",
+                        "D": "Conducting regular audits to assess data governance practices."
+                        }
+                        ],
+                        "q_answer": "A; C; D"
+                  },
                   {
-                    "A": "Standardizing data collection methods across all digital platforms.",
-                    "B": "Allowing each branch to create its own data collection forms.",
-                    "C": "Training staff on effective data collection techniques.",
-                    "D": "Implementing automated data validation checks during collection."
+                    "q_number": 7,
+                    "q_statement": "<p>Case Study: Rural Bank DEF has recently implemented an online banking platform. However, the bank struggles with collecting accurate customer data through its digital channels. Inconsistent data collection methods lead to incomplete customer profiles, affecting service delivery and customer satisfaction.</p <p>QQuestion: Which strategies should Rural Bank DEF prioritize to improve its data collection processes? (Select all that apply)</p>",
+                    "q_field_type": "multi_select",
+                    "q_selection": [
+                        {
+                        "A": "Standardizing data collection methods across all digital platforms.",
+                        "B": "Allowing each branch to create its own data collection forms.",
+                        "C": "Training staff on effective data collection techniques.",
+                        "D": "Implementing automated data validation checks during collection."
+                        }
+                        ],
+                        "q_answer": "A; C; D"
                   }
-                ],
-                "q_answer": "A; C; D"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  }
+                ]   
+             }
+          ]    
+       }
+     ]
+   }
 ]

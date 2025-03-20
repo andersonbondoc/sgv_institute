@@ -13,27 +13,23 @@
         "image": "src/assets/img/general images/ModuleIntroduction.jpg"
       },
       {
-        "order": 2,
-        "title": "Module Pre-Examination",
-        "exams": [
-          {
-            "exam_id": 8,
-            "title": "Mo8dule Pre-examination",
-            "body": "This assessment is designed to test your knowledge. Results of this  assessment will be used to structure the workshop.",
-            "questions": [
-              {
-                "q_number": 1,
-                "q_statement": "What is change experience?",
-                "q_field_type": "single_select",
-                "q_selection": [
-                  {
-                    "A": "Refers to employees' subjective experiences during organizational change, encompassing their awareness, understanding, acceptance, and adaptation.",
-                    "B": "Provides a structured framework for guiding an organization through the transition process.",
-                    "C": "Measures the level of commitment and connection an employee has with their organization.",
-                    "D": "A structured approach to managing organizational changes.."
-                  }
-                ],
-                "q_answer": "A"
+          "order": 2,
+          "title": "Module Pre-Examination",
+          "exams": [{
+              "exam_id": 8,
+              "title": "Module Pre-Examination",
+              "body": "This assessment is designed to test your knowledge. Results of this  assessment will be used to structure the workshop.",
+              "questions": [{
+                      "q_number": 1,
+                      "q_statement": "What is change experience?",
+                      "q_field_type": "single_select" ,
+                      "q_selection": [{
+                          "A": "Refers to employees' subjective experiences during organizational change, encompassing their awareness, understanding, acceptance, and adaptation.",
+                          "B": "Provides a structured framework for guiding an organization through the transition process.",
+                          "C": "Measures the level of commitment and connection an employee has with their organization.",
+                          "D": "A structured approach to managing organizational changes.."
+                          }],
+                      "q_answer": "A"
               },
               {
                 "q_number": 2,
@@ -619,8 +615,7 @@
       {
         "order": 76,
         "title": "Module Post-Examination",
-        "exams": [
-          {
+        "exams": [{
             "exam_id": 8,
             "title": "Module Post-Examination",
             "body": "This assessment is designed to test your knowledge. Results of this  assessment will be used to structure the workshop.",
