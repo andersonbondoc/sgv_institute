@@ -67,7 +67,7 @@
     "title": "New Application and Screening in Onboarding Lessons",
     "subheader": "New Application Stage",
     "body": "<h4>Learning Objectives</h4> <p>At the end of this lesson, you will be able to:</p> <ul> <li>Understand the essential components of setting up an application form;</li> <li>Identify and establish the appropriate eligibility criteria for customer onboarding; and</li> <li>Explore various tools available for automating the new application stage</li> </ul>",
-    "image": "public/src/assets/img/digital_customer_onboarding/new_application/order4.jpg"
+    "image": "/src/assets/img/digital_customer_onboarding/new_application/order4.jpg"
   },
   {
     "order": 5,
@@ -174,9 +174,9 @@
     "layout": "col-3",
     "title": "New Application Stage",
     "subheader": "Automating the New Application Stage",
-    "col1": "<h4>Paper to Digital Application</h4> <p>Transitioning from paper-based applications to digital applications in banks in the Philippines involves the adoption of various tools and technologies that facilitate this shift.</p> <h5>Tools in Transforming from Paper to Digital Application</h5> <img src='public/src/assets/img/digital_customer_onboarding/new_application/order17.jpg'> <h6>Digital Form Builders</h6> <p>These allow banks to create customizable online forms for customer applications and bring user-friendly interfaces, easy data collection, and integration with other systems.</p> <p><b>Examples</b></p> <p>Google Forms, JotForm, Typeform</p> ",
-    "col2": "<img src='public/src/assets/img/digital_customer_onboarding/new_application/order17_1.jpg'> <h6>Electronic Signature Solutions</h6> <p>These are platforms that enable customers to sign documents electronically, eliminating the need for physical signatures and enable faster processing times, improved security, and enhanced customer convenience.</p> <p><b>Examples</b></p> <p>DocuSign, Adobe Sign, SignNow</p>",
-    "col3": "<img src='public/src/assets/img/digital_customer_onboarding/new_application/order17_2.jpg'> <h6>Optical Character Recognition (OCR) Software</h6> <p>This technology converts different types of documents, such as scanned paper documents, into editable and searchable data to reduce manual data entry, minimize errors, and speed up the onboarding process.</p> <p><b>Examples</b></p> <p>ABBYY FineReader, Tesseract, Adobe Acrobat</p>"
+    "col1": "<h4>Paper to Digital Application</h4> <p>Transitioning from paper-based applications to digital applications in banks in the Philippines involves the adoption of various tools and technologies that facilitate this shift.</p> <h5>Tools in Transforming from Paper to Digital Application</h5> <img src='/src/assets/img/digital_customer_onboarding/new_application/order17.jpg'> <h6>Digital Form Builders</h6> <p>These allow banks to create customizable online forms for customer applications and bring user-friendly interfaces, easy data collection, and integration with other systems.</p> <p><b>Examples</b></p> <p>Google Forms, JotForm, Typeform</p> ",
+    "col2": "<img src='/src/assets/img/digital_customer_onboarding/new_application/order17_1.jpg'> <h6>Electronic Signature Solutions</h6> <p>These are platforms that enable customers to sign documents electronically, eliminating the need for physical signatures and enable faster processing times, improved security, and enhanced customer convenience.</p> <p><b>Examples</b></p> <p>DocuSign, Adobe Sign, SignNow</p>",
+    "col3": "<img src='/src/assets/img/digital_customer_onboarding/new_application/order17_2.jpg'> <h6>Optical Character Recognition (OCR) Software</h6> <p>This technology converts different types of documents, such as scanned paper documents, into editable and searchable data to reduce manual data entry, minimize errors, and speed up the onboarding process.</p> <p><b>Examples</b></p> <p>ABBYY FineReader, Tesseract, Adobe Acrobat</p>"
   },
   {
     "order": 18,
@@ -184,7 +184,7 @@
     "title": "New Application Stage",
     "subheader": "Automating the New Application Stage",
     "body": "<h4>Intelligent Document Processing</h4> <p>IDP leverages the power of optical character recognition (OCR) to automate high volume of repetitive document processing tasks, incorporating artificial intelligence (AI) and machine learning (ML) capabilities to train the model and become more accurate over time.</p> <p>80% of the business data is trapped in documents where significant time, effort, and manual work is needed to extract structured, unstructured, and semi-structured data.</p>",
-    "image": "public/src/assets/img/digital_customer_onboarding/new application/order18.jpg"
+    "image": "/src/assets/img/digital_customer_onboarding/new application/order18.jpg"
   },
   {
     "order": 19,
@@ -224,7 +224,7 @@
     "title": "New Application Stage",
     "subheader": "Automating the New Application Stage",
     "body": "<h4>Smart Contracts</h4> <p>A contract is a meeting of the minds between two parties that takes place when an offer by one party is accepted by the other party. In terms of smart contracts, the following key steps are applied:</p>",
-    "image": "public/src/assets/img/digital_customer_onboarding/new_application/order23.jpg"
+    "image": "/src/assets/img/digital_customer_onboarding/new_application/order23.jpg"
   },
   {
     "order": 24, 
@@ -232,7 +232,7 @@
     "title": "New Application Stage",
     "subheader": "Automating the New Application Stage",
     "body": "<h4>Smart Contracts</h4> <p>A contract is a meeting of the minds between two parties that takes place when an offer by one party is accepted by the other party. In terms of smart contracts, the following key steps are applied:</p> <h5>Tools in Enabling Smart Contracts</h5> <h6>Blockchain Platforms</h6>",
-    "image": "public/src/assets/img/digital_customer_onboarding/new_application/order24.jpg"
+    "image": "/src/assets/img/digital_customer_onboarding/new_application/order24.jpg"
   },
   {
     "order": 25, 
@@ -240,7 +240,7 @@
     "title": "New Application Stage",
     "subheader": "Automating the New Application Stage",
     "body": "<h4>Smart Contracts</h4> <p>A contract is a meeting of the minds between two parties that takes place when an offer by one party is accepted by the other party. In terms of smart contracts, the following key steps are applied:</p> <h5>Tools in Enabling Smart Contracts</h5> <h6>Smart Contract Development Tools</h6>",
-    "image": "public/src/assets/img/digital_customer_onboarding/new_application/order25.jpg"
+    "image": "/src/assets/img/digital_customer_onboarding/new_application/order25.jpg"
   },
   {
     "order": 26, 
@@ -248,7 +248,7 @@
     "title": "New Application Stage",
     "subheader": "Automating the New Application Stage",
     "body": "<h4>Smart Contracts</h4> <p>A contract is a meeting of the minds between two parties that takes place when an offer by one party is accepted by the other party. In terms of smart contracts, the following key steps are applied:</p> <h5>Tools in Enabling Smart Contracts</h5> <h6>Data Oracles</h6>",
-    "image": "public/src/assets/img/digital_customer_onboarding/new_application/order26.jpg"
+    "image": "/src/assets/img/digital_customer_onboarding/new_application/order26.jpg"
   },
   {
     "order": 27,
@@ -292,7 +292,7 @@
     "title": "New Application and Screening in Onboarding Lessons",
     "subheader": "Application Screening",
     "body": "<h4>Learning Objectives</h4> <p>At the end of this lesson, you will be able to:</p> <ul> <li>Gain a comprehensive understanding of the Know Your Customer (KYC) process, including its importance, key components, and regulatory requirements</li> <li>Understand the risks posed by financial crimes</li> <li>Explore the application of artificial intelligence (AI) and machine learning in detecting and preventing financial crimes</li> <li>Develop a full understanding of securing customer data from the onset by exploring the principles and underlying concepts of data security</li> <liRecognize the importance of valuing customer privacy by exploring the best practices for data protection</li> </ul>",
-    "image": "public/src/assets/img/digital_customer_onboarding/new_application/order31.jpg"
+    "image": "/src/assets/img/digital_customer_onboarding/new_application/order31.jpg"
   },
   {
     "order": 32, 
@@ -315,7 +315,7 @@
     "title": "Application Screening",
     "subheader": "Financial Crimes and Fraud Detection Measures",
     "body": "<h4>Financial Crimes</h4> <h5>Money Laundering</h5> <p>Stage 1 Placement: The physical disposal of cash or other assets obtained from criminal activities occurs during this phase, where the money launderer integrates the illicit proceeds into the financial system. This is typically achieved by circulating the funds through formal financial institutions, casinos, and other legitimate businesses, both domestically and internationally.</p> <p>Examples of Placement: Blending of funds, foreign exchange, breaking up amounts and currency smuggling</p>",
-    "image": "public/src/assets/img/digital_customer_onboarding/new_application/order34.jpg"
+    "image": "/src/assets/img/digital_customer_onboarding/new_application/order34.jpg"
   },
   {
     "order": 35,
@@ -323,7 +323,7 @@
     "title": "Application Screening",
     "subheader": "Financial Crimes and Fraud Detection Measures",
     "body": "<h4>Financial Crimes</h4> <h5>Money Laundering</h5> <p>Stage 2 Layering: The second stage involves distancing illicit proceeds from their source through multiple layers of financial transactions designed to obscure the origin of the funds. During this phase, the proceeds of the crime are transformed into different forms, creating intricate layers of transactions that conceal the source and ownership of the money.</p> <p>Examples of Layering: Electronically moving funds from one country, or moving funds from one financial institution to another or within accounts at the same institution</p>",
-    "image": "public/src/assets/img/digital_customer_onboarding/new_application/order35.jpg"
+    "image": "/src/assets/img/digital_customer_onboarding/new_application/order35.jpg"
   },
   {
     "order": 36,
@@ -331,7 +331,7 @@
     "title": "Application Screening",
     "subheader": "Financial Crimes and Fraud Detection Measures",
     "body": "<h4>Financial Crimes</h4> <h5>Money Laundering</h5> <p>Stage 3 Integration: This stage involves providing a façade of legitimacy to illicit wealth by reintegrating the funds into the economy through transactions that appear to be normal business or personal activities. During this phase, laundered proceeds are utilized in seemingly legitimate transactions to foster the illusion of authenticity.</p> <p>Examples of Integration: Purchasing luxury assets, such as property, artwork, jewelry or high-end automobiles or getting into financial arrangements or other ventures where investments can be made in business enterprises</p>",
-    "image": "public/src/assets/img/digital_customer_onboarding/new_application/order36.jpg"
+    "image": "/src/assets/img/digital_customer_onboarding/new_application/order36.jpg"
   },
   {
     "order": 37,
@@ -392,7 +392,7 @@
     "title": "Application Screening",
     "subheader": "Customer Screening",
     "body": "<h4>Sanctions Screening</h4> <p>The generation of an alert from the screening process does not, on its own, signify a sanctions risk. Instead, it serves as the initial step in identifying potential sanctions exposure, which can be validated or dismissed with further information to assess whether the similarities in the text indicate a genuine sanctions match.</p><br/> <p>Although this concept may seem straightforward, it can become intricate when defining what constitutes a “true match”  across various factors, including alphabets, languages, cultures, spelling variations, abbreviations, acronyms, and aliases. When screening is automated, additional complexities arise, such as the use of “fuzzy matching”  algorithms, workflows, and matching rules.</p>",
-    "image": "public/src/assets/img/DCO/module 2_new application/order44.jpg"
+    "image": "/src/assets/img/DCO/module 2_new application/order44.jpg"
   },
   {
     "order": 45,
@@ -445,50 +445,50 @@
     "title": "Application Screening",
     "subheader": "Securing Customer Data at the Onset",
     "body": "<h4>Consent Mechanisms, Authentication, and Authorization</h4> <p>The onboarding process should seamlessly incorporate consent, authentication, and authorization to create a cohesive experience for the user. For instance, after users give their consent, they can be prompted to verify their identity before gaining access to services. These mechanisms work together to ensure that organizations adhere to data protection regulations while safeguarding customer data and preventing unauthorized access. A transparent and secure onboarding process builds trust between customers and organizations, encouraging users to interact with services with confidence.</p>",
-    "image": "public/src/assets/img/digital_customer_onboarding/new_application/order51.jpg"
+    "image": "/src/assets/img/digital_customer_onboarding/new_application/order51.jpg"
   },
   {
     "order": 52,
     "layout": "col-3",
     "title": "Application Screening",
     "subheader": "Securing Customer Data at the Onset",
-    "col1": "<h4>Consent Mechanisms, Authentication, and Authorization</h4> <p><b>Authentication</b></p> <p>Identifies the user/device, is the first step, and is on the client and server side.</p> <h5>Tools and Techniques</h5> <div><div class='ml-10'><img src='public/src/assets/img/digital_customer_onboarding/new_application/order52.jpg'></div><div><h6>Password-Based Authentication</h6></div></div> <p>The most basic form of authentication where users provide a username and password. Password managers (e.g., LastPass, 1Password) can help users create and store complex passwords securely.</p>",
-    "col2": "<div><div class='ml-10'><img src='public/src/assets/img/digital_customer_onboarding/new_application/order52_1.jpg'></div><div><h6>Two-Factor Authentication (2FA)</h6></div></div> <p>Adds an extra layer of security by requiring a second form of verification in addition to the password. SMS/Email Codes can send a one-time code to the user's phone or email, or apps like Google Authenticator, Authy, or Microsoft Authenticator generate time-based one-time passwords (TOTPs).</p>",
-    "col3": "<div><div class='ml-10'><img src='public/src/assets/img/digital_customer_onboarding/new_application/order52_2.jpg'></div><div><h6>Multi-Factor Authentication</h6></div></div> <p>Extends 2FA by requiring multiple forms of verification (e.g., something you know, something you have, something you are). Similar to 2FA tools, but may include biometric options and hardware tokens.</p>"
+    "col1": "<h4>Consent Mechanisms, Authentication, and Authorization</h4> <p><b>Authentication</b></p> <p>Identifies the user/device, is the first step, and is on the client and server side.</p> <h5>Tools and Techniques</h5> <div><div class='ml-10'><img src='/src/assets/img/digital_customer_onboarding/new_application/order52.jpg'></div><div><h6>Password-Based Authentication</h6></div></div> <p>The most basic form of authentication where users provide a username and password. Password managers (e.g., LastPass, 1Password) can help users create and store complex passwords securely.</p>",
+    "col2": "<div><div class='ml-10'><img src='/src/assets/img/digital_customer_onboarding/new_application/order52_1.jpg'></div><div><h6>Two-Factor Authentication (2FA)</h6></div></div> <p>Adds an extra layer of security by requiring a second form of verification in addition to the password. SMS/Email Codes can send a one-time code to the user's phone or email, or apps like Google Authenticator, Authy, or Microsoft Authenticator generate time-based one-time passwords (TOTPs).</p>",
+    "col3": "<div><div class='ml-10'><img src='/src/assets/img/digital_customer_onboarding/new_application/order52_2.jpg'></div><div><h6>Multi-Factor Authentication</h6></div></div> <p>Extends 2FA by requiring multiple forms of verification (e.g., something you know, something you have, something you are). Similar to 2FA tools, but may include biometric options and hardware tokens.</p>"
   },
   {
     "order": 53,
     "layout": "col-3",
     "title": "Application Screening",
     "subheader": "Securing Customer Data at the Onset",
-    "col1": "<h4>Consent Mechanisms, Authentication, and Authorization</h4> <p><b>Authentication</b></p> <p>Identifies the user/device, is the first step, and is on the client and server side.</p> <h5>Tools and Techniques</h5> <div><div class='ml-10'><img src='public/src/assets/img/digital_customer_onboarding/new_application/order53.jpg'></div><div><h6>Hardware Tokens</h6></div></div> <p>Physical devices that generate one-time passwords or provide secure access. A popular hardware token is YubiKey which supports multiple authentication protocols (e.g., U2F, FIDO2), and RSA SecurID, a hardware token that generates time-based one-time passwords.</p>",
-    "col2": "<div><div class='ml-10'><img src='public/src/assets/img/digital_customer_onboarding/new_application/order53_1.jpg'></div><div><h6>Biometric Authentication</h6></div></div> <p>Uses unique biological traits for verification. This can be through fingerprint scanning integrated into devices (e.g., smartphones, laptops), facial recognition used in devices like smartphones and security systems (e.g., Apple's Face ID), and iris scanners which are less common but used in high-security environments.</p>",
-    "col3": "<div><div class='ml-10'><img src='public/src/assets/img/digital_customer_onboarding/new_application/order53_2.jpg'></div><div><h6>Single Sign-On (SSO)</h6></div></div> <p>Allows users to authenticate once and gain access to multiple applications without re-entering credentials. Examples of SSOs are Okta, A cloud-based identity management service that provides SSO capabilities and Microsoft Azure Active Directory which offers SSO for Microsoft and third-party applications.</p>"
+    "col1": "<h4>Consent Mechanisms, Authentication, and Authorization</h4> <p><b>Authentication</b></p> <p>Identifies the user/device, is the first step, and is on the client and server side.</p> <h5>Tools and Techniques</h5> <div><div class='ml-10'><img src='/src/assets/img/digital_customer_onboarding/new_application/order53.jpg'></div><div><h6>Hardware Tokens</h6></div></div> <p>Physical devices that generate one-time passwords or provide secure access. A popular hardware token is YubiKey which supports multiple authentication protocols (e.g., U2F, FIDO2), and RSA SecurID, a hardware token that generates time-based one-time passwords.</p>",
+    "col2": "<div><div class='ml-10'><img src='/src/assets/img/digital_customer_onboarding/new_application/order53_1.jpg'></div><div><h6>Biometric Authentication</h6></div></div> <p>Uses unique biological traits for verification. This can be through fingerprint scanning integrated into devices (e.g., smartphones, laptops), facial recognition used in devices like smartphones and security systems (e.g., Apple's Face ID), and iris scanners which are less common but used in high-security environments.</p>",
+    "col3": "<div><div class='ml-10'><img src='/src/assets/img/digital_customer_onboarding/new_application/order53_2.jpg'></div><div><h6>Single Sign-On (SSO)</h6></div></div> <p>Allows users to authenticate once and gain access to multiple applications without re-entering credentials. Examples of SSOs are Okta, A cloud-based identity management service that provides SSO capabilities and Microsoft Azure Active Directory which offers SSO for Microsoft and third-party applications.</p>"
   },
   {
     "order": 54,
     "layout": "col-3",
     "title": "Application Screening",
     "subheader": "Securing Customer Data at the Onset",
-    "col1": "<h2>Consent Mechanisms, Authentication, and Authorization</h2> <p><b>Authentication</b></p> <p>Identifies the user/device, is the first step, and is on the client and server side.</p> <h5>Tools and Techniques</h5> <div><div class='ml-10'><img src='public/src/assets/img/digital_customer_onboarding/new_application/order54.jpg'></div><div><h6>OAuth and OpenID Connect</h6></div></div> <p>Protocols for authorization and authentication that allow users to log in using their existing accounts from other services (e.g., Google, Facebook). Auth0 is a platform that provides authentication and authorization services, including support for OAuth and OpenID Connect. Another example is Firebase Authentication, a service that provides backend services for authentication, including social login options.</p>",
-    "col2": "<div><div class='ml-10'><img src='public/src/assets/img/digital_customer_onboarding/new_application/order54_1.jpg'></div><div><h6>Identity and Access Management (IAM)</h6></div></div> <p>Comprehensive systems that manage user identities and access rights across an organization. Primary example is AWS Identity and Access Management (IAM) which manages access to AWS services and resources securely and Azure Active Directory which provides identity management and access control for applications and services.</p>",
-    "col3": "<div><div class='ml-10'><img src='public/src/assets/img/digital_customer_onboarding/new_application/orde54_2.jpg'></div><div><h6>Behavioral Biometrics</h6></div></div> <p>An emerging method that analyzes user behavior patterns (e.g., typing speed, mouse movements) to authenticate users. BioCatch is a behavioral biometrics solution that assesses user behavior for fraud detection and authentication.</p>"
+    "col1": "<h2>Consent Mechanisms, Authentication, and Authorization</h2> <p><b>Authentication</b></p> <p>Identifies the user/device, is the first step, and is on the client and server side.</p> <h5>Tools and Techniques</h5> <div><div class='ml-10'><img src='/src/assets/img/digital_customer_onboarding/new_application/order54.jpg'></div><div><h6>OAuth and OpenID Connect</h6></div></div> <p>Protocols for authorization and authentication that allow users to log in using their existing accounts from other services (e.g., Google, Facebook). Auth0 is a platform that provides authentication and authorization services, including support for OAuth and OpenID Connect. Another example is Firebase Authentication, a service that provides backend services for authentication, including social login options.</p>",
+    "col2": "<div><div class='ml-10'><img src='/src/assets/img/digital_customer_onboarding/new_application/order54_1.jpg'></div><div><h6>Identity and Access Management (IAM)</h6></div></div> <p>Comprehensive systems that manage user identities and access rights across an organization. Primary example is AWS Identity and Access Management (IAM) which manages access to AWS services and resources securely and Azure Active Directory which provides identity management and access control for applications and services.</p>",
+    "col3": "<div><div class='ml-10'><img src='/src/assets/img/digital_customer_onboarding/new_application/orde54_2.jpg'></div><div><h6>Behavioral Biometrics</h6></div></div> <p>An emerging method that analyzes user behavior patterns (e.g., typing speed, mouse movements) to authenticate users. BioCatch is a behavioral biometrics solution that assesses user behavior for fraud detection and authentication.</p>"
   },
   {
     "order": 55,
     "layout": "col-2",
     "title": "Application Screening",
     "subheader": "Securing Customer Data at the Onset",
-    "col1": "<h4>Consent Mechanisms, Authentication, and Authorization</h4> <p><b>Authentication</b></p> <p>Identifies the user/device, is the first step, and is on the client and server side.</p> <h5>Tools and Techniques</h5> <div><div class='ml-10'><img src='public/src/assets/img/digital_customer_onboarding/new_application/order55.jpg'></div><div><h6>Risk-Based Authentication</h6></div></div> <p>Adjusts authentication requirements based on the risk level of the access attempt (e.g., location, device, behavior). IBM Security Verify is a popular risk-based authentication with capabilities to enhance security.</p>",
-    "col2": "<div><div class='ml-10'><img src='public/src/assets/img/digital_customer_onboarding/new_application/order55_1.jpg'></div><div><h6>Adaptive Authentication</h6></div></div> <p>Appropriately granting users (employees, partners, customers) the right access. This adds an additional layer of security to SSO and 2FA based on factual contextual information related to the user.</p>"
+    "col1": "<h4>Consent Mechanisms, Authentication, and Authorization</h4> <p><b>Authentication</b></p> <p>Identifies the user/device, is the first step, and is on the client and server side.</p> <h5>Tools and Techniques</h5> <div><div class='ml-10'><img src='/src/assets/img/digital_customer_onboarding/new_application/order55.jpg'></div><div><h6>Risk-Based Authentication</h6></div></div> <p>Adjusts authentication requirements based on the risk level of the access attempt (e.g., location, device, behavior). IBM Security Verify is a popular risk-based authentication with capabilities to enhance security.</p>",
+    "col2": "<div><div class='ml-10'><img src='/src/assets/img/digital_customer_onboarding/new_application/order55_1.jpg'></div><div><h6>Adaptive Authentication</h6></div></div> <p>Appropriately granting users (employees, partners, customers) the right access. This adds an additional layer of security to SSO and 2FA based on factual contextual information related to the user.</p>"
   },
   {
     "order": 56,
     "layout": "col-2",
     "title": "Application Screening",
     "subheader": "Securing Customer Data at the Onset",
-    "col1": "<h4>Consent Mechanisms, Authentication, and Authorization</h4> <h5>Authorization</h5> <p>Checks if authenticated entity is allowed to perform an action, enables granularity of control, enables protected actions, and is on the server side.</p> <h5>Tools and Techniques</h5> <div><div class='ml-10'><img src='public/src/assets/img/digital_customer_onboarding/new application/order56_0.jpg'></div><div><h6>Role-Based Access Control (RBAC)</h6></div></div> <p>Assigns permissions to users based on their roles within an organization. Users inherit permissions associated with their roles. Examples would be AWS Identity and Access Management (IAM)which allows you to create roles and assign permissions to manage access to AWS resources and Azure Role-Based Access Control which provides a way to manage access to Azure resources based on user roles.</p> <div><div class='ml-10'><img src='public/src/assets/img/digital_customer_onboarding/new application/order56_1.jpg'></div><div><h6>Attribute-Based Access Control (ABAC)</div></div> <p>Grants access based on attributes (e.g., user attributes, resource attributes, environmental conditions) rather than predefined roles. Axiomatics provides solutions for implementing ABAC policies in various environments. Moreover, Open Policy Agent (OPA) is a policy engine that enables fine-grained access control based on attributes.</p> div><div class='ml-10'><img src='public/src/assets/img/DCO/module 2_new application/order56_2.jpg'></div><div><h6>Policy-Based Access Control</div></div> <p>Uses policies to define access rules and permissions based on various conditions. Institutions may check out Auth0 which offers policy-based access control features to manage user permissions and roles and Keycloak, an open-source identity and access management solution that supports policy-based access control.</p>",
-    "col2": "<div><div class='ml-10'><img src='public/src/assets/img/digital_customer_onboarding/new application/order56_3.jpg'></div><div><h6>Access Control Lists (ACLs)</h6></div></div> <p>A list that specifies which users or groups have access to specific resources and what actions they can perform. Examples are Linux File Permissions which uses ACLs to manage file and directory permissions in Unix/Linux systems and Windows ACLs which provides a way to manage permissions for files, folders, and other resources in Windows environments.</p> <div><div class='ml-10'><img src='public/src/assets/img/digital_customer_onboarding/new application/order56_4.jpg'></div><div><h6>API Gateway with Authorization</h6></div></div> <p>Manages access to APIs and enforces authorization policies for API requests. Kong is an open-source API gateway that supports authentication and authorization plugins. AWS API Gateway also provides a way to create, publish, and manage APIs with built-in authorization features.</p> <div><div class='ml-10'><img src='public/src/assets/img/digital_customer_onboarding/new application/order56_5.jpg'></div><div><h6>Security Assertion Markup Language (SAML)</h6></div></div> <p>An XML-based protocol used for exchanging authentication and authorization data between parties, particularly for SSO. Examples would be Shibboleth, an open-source SAML implementation for federated identity management and SimpleSAMLphp, a PHP-based application that provides SAML authentication and authorization features.</p> <div><div class='ml-10'><img src='public/src/assets/img/digital_customer_onboarding/new application/order56_6.jpg'></div><div><h6>Governance, Risk, and Compliance (GRC) Tools</h6></div></div> <p>Tools that help organizations manage compliance and risk related to access control and authorization. Tools like SailPoint provide identity governance solutions that include access management and compliance features and RSA Archer, a GRC platform that helps organizations manage risk and compliance, including access control.</p>"
+    "col1": "<h4>Consent Mechanisms, Authentication, and Authorization</h4> <h5>Authorization</h5> <p>Checks if authenticated entity is allowed to perform an action, enables granularity of control, enables protected actions, and is on the server side.</p> <h5>Tools and Techniques</h5> <div><div class='ml-10'><img src='/src/assets/img/digital_customer_onboarding/new application/order56_0.jpg'></div><div><h6>Role-Based Access Control (RBAC)</h6></div></div> <p>Assigns permissions to users based on their roles within an organization. Users inherit permissions associated with their roles. Examples would be AWS Identity and Access Management (IAM)which allows you to create roles and assign permissions to manage access to AWS resources and Azure Role-Based Access Control which provides a way to manage access to Azure resources based on user roles.</p> <div><div class='ml-10'><img src='/src/assets/img/digital_customer_onboarding/new application/order56_1.jpg'></div><div><h6>Attribute-Based Access Control (ABAC)</div></div> <p>Grants access based on attributes (e.g., user attributes, resource attributes, environmental conditions) rather than predefined roles. Axiomatics provides solutions for implementing ABAC policies in various environments. Moreover, Open Policy Agent (OPA) is a policy engine that enables fine-grained access control based on attributes.</p> div><div class='ml-10'><img src='/src/assets/img/DCO/module 2_new application/order56_2.jpg'></div><div><h6>Policy-Based Access Control</div></div> <p>Uses policies to define access rules and permissions based on various conditions. Institutions may check out Auth0 which offers policy-based access control features to manage user permissions and roles and Keycloak, an open-source identity and access management solution that supports policy-based access control.</p>",
+    "col2": "<div><div class='ml-10'><img src='/src/assets/img/digital_customer_onboarding/new application/order56_3.jpg'></div><div><h6>Access Control Lists (ACLs)</h6></div></div> <p>A list that specifies which users or groups have access to specific resources and what actions they can perform. Examples are Linux File Permissions which uses ACLs to manage file and directory permissions in Unix/Linux systems and Windows ACLs which provides a way to manage permissions for files, folders, and other resources in Windows environments.</p> <div><div class='ml-10'><img src='/src/assets/img/digital_customer_onboarding/new application/order56_4.jpg'></div><div><h6>API Gateway with Authorization</h6></div></div> <p>Manages access to APIs and enforces authorization policies for API requests. Kong is an open-source API gateway that supports authentication and authorization plugins. AWS API Gateway also provides a way to create, publish, and manage APIs with built-in authorization features.</p> <div><div class='ml-10'><img src='/src/assets/img/digital_customer_onboarding/new application/order56_5.jpg'></div><div><h6>Security Assertion Markup Language (SAML)</h6></div></div> <p>An XML-based protocol used for exchanging authentication and authorization data between parties, particularly for SSO. Examples would be Shibboleth, an open-source SAML implementation for federated identity management and SimpleSAMLphp, a PHP-based application that provides SAML authentication and authorization features.</p> <div><div class='ml-10'><img src='/src/assets/img/digital_customer_onboarding/new application/order56_6.jpg'></div><div><h6>Governance, Risk, and Compliance (GRC) Tools</h6></div></div> <p>Tools that help organizations manage compliance and risk related to access control and authorization. Tools like SailPoint provide identity governance solutions that include access management and compliance features and RSA Archer, a GRC platform that helps organizations manage risk and compliance, including access control.</p>"
   },
   {
     "order": 57,
@@ -503,7 +503,7 @@
     "title": "Application Screening",
     "subheader": "Securing Customer Data at the Onset",
     "body": "<h4>Understanding Threats in Cybersecurity</h4> <h5>Types of Threat Actors</h5> <ul> <li>Black Hat: A person who unlawfully infiltrates computer networks or systems with harmful intentions, such as stealing corporate or personal data or causing a service disruption.</li> <li>Gray Hat: Gray hat hackers typically do not aim to compromise systems with malicious intent; rather, they act as part of their ongoing efforts to enhance the safety of the internet and computer systems. However, they usually lack the permission of the organizations they target, which renders their activities illegal.</li> <li>White Hat: A white hat hacker employs the same techniques as a black hat hacker; however, they typically operate with the consent of the system owner. Their objective is to gain access in order to assess the cybersecurity of a system or network. Following their assessment, they report their findings to the organization, enabling it to take necessary actions to address and remediate any identified vulnerabilities.</li> </ul>",
-    "image": "public/src/assets/img/digital_customer_onboarding/new_application/order58.jpg"
+    "image": "/src/assets/img/digital_customer_onboarding/new_application/order58.jpg"
   },
   {
     "order": 59,
@@ -528,7 +528,7 @@
     "title": "Application Screening",
     "subheader": "Securing Customer Data at the Onset",
     "body": "<h4>Managing Data Security Risks</h4> <h5>Types of Security Controls</h5> <p>Security controls can be categorized into different types, which influence how risks are managed:</p>",
-    "image": "public/src/assets/img/digital_customer_onboarding/new_application/order61.jpg"
+    "image": "/src/assets/img/digital_customer_onboarding/new_application/order61.jpg"
   },
   {
     "order": 62,
@@ -543,7 +543,7 @@
     "title": "Application Screening",
     "subheader": "Securing Customer Data at the Onset",
     "body": "<h4>Cyber-crisis Response Planning and Identification</h4> <h5>Incident Response Planning</h5> <p>Plan of action to implement in the event of a security incident, including response steps, roles and responsibilities, and corrective measures. <b>Moreover, response plans should be:</b></p>",
-    "image": "public/src/assets/img/digital_customer_onboarding/new_application/order63.jpg"
+    "image": "/src/assets/img/digital_customer_onboarding/new_application/order63.jpg"
   },
   {
     "order": 64,
@@ -551,7 +551,7 @@
     "title": "Application Screening",
     "subheader": "Securing Customer Data at the Onset",
     "col1": "<h4>Cyber-crisis Response Planning and Identification</h4> <h5>Incident Response Identification</h5> <p>This phase involves the identification of the security incident or security breach. Early detection is crucial to containing the threat and possible preventing it from getting worse.</p> <h5>Threat Severity</h5> <p>Confirm if the threat is real</p> <p>Are we actually dealing with an incident or a breach, or is this a false positive, and there's nothing actually going on?</p><br/> <p>Filter out false positives</p> <p>Automated threat detection systems frequently generate false positives, indicating that an incident is occurring when, in fact, it is not a genuine threat. Once it is confirmed that a detected threat is a false positive, it can be marked as resolved, allowing the team to proceed without any issues to address. Conversely, if the threat is determined to be legitimate, it is crucial to promptly assess the severity of the situation and discuss the appropriate response.</p>",
-    "col2": "<h4>Threat Classification</h4> <img src='public/src/assets/img/digital_customer_onboarding/new_application/order64.jpg'>"
+    "col2": "<h4>Threat Classification</h4> <img src='/src/assets/img/digital_customer_onboarding/new_application/order64.jpg'>"
   },
   {
     "order": 65,
