@@ -182,21 +182,17 @@ const LandingPage: React.FC = () => {
                 >
                   <div className="flex items-center space-x-4">
                     <div
-                      className={`w-24 h-24 ${course.bgColor} rounded-full flex items-center justify-center`}
+                      className={`w-24 h-24 ${course.bgColor} rounded-full flex items-center justify-center shrink-0`}
                     >
                       <img
                         src={course.icon}
                         alt={`${course.title} Icon`}
-                        // className="w-10 h-10"
+                        className="w-20 h-24 object-contain"
                       />
                     </div>
-                    <div>
-                      <h4 className="text-lg font-medium text-yellow-600">
-                        {course.title}
-                      </h4>
-                      <p className="text-sm text-gray-600">
-                        {course.description}
-                      </p>
+                    <div className="flex-1">
+                      <h4 className="text-lg font-medium text-yellow-600">{course.title}</h4>
+                      <p className="text-sm text-gray-600">{course.description}</p>
                     </div>
                   </div>
                   <div className="mt-8 mb-2 flex justify-between items-center">
