@@ -6,7 +6,7 @@ interface PreExamPageProps {
   handleFinishQuestionButton: () => void;
 }
 
-const PreExamPage: React.FC<PreExamPageProps> = ({
+const PostExamPage: React.FC<PreExamPageProps> = ({
   sections,
   handleFinishQuestionButton,
 }) => {
@@ -23,6 +23,7 @@ const PreExamPage: React.FC<PreExamPageProps> = ({
       const postExamSection = sectionsArray.find(
         (section) => section.title === "Module Post-Examination"
       );
+      console.log("postExamSection: ", postExamSection);
       const totalQuestion = postExamSection.exams.flatMap(
         (exam: any) => exam.questions
       ).length;
@@ -215,4 +216,4 @@ const PreExamPage: React.FC<PreExamPageProps> = ({
   );
 };
 
-export default PreExamPage;
+export default PostExamPage;

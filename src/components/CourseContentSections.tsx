@@ -39,7 +39,7 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
       PMFIDS_PM: "project_management.json",
       PMFIDS_BCM: "budget_cost_management.json",
       PMFIDS_RISK: "project_risk_management.json",
-      PMFIDS_ABS: "aligning_business_strat.json",
+      ABSTIT_ABS: "aligning_business_strat.json",
       CM_INTRO: "change_management_intro.json",
       CM_PREPARE: "change_management_prepare.json",
       CM_MANAGE: "change_management_manage.json",
@@ -51,6 +51,7 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
     };
 
     if (moduleId && fileMapping[moduleId]) {
+      console.log("moduleId: ", moduleId);
       const filePath = `/courses/${fileMapping[moduleId]}`;
       fetch(filePath)
         .then((response) => {
@@ -125,8 +126,9 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
     );
   };
   useEffect(() => {
+    console.log("current module", moduleId);
     const savedPage = localStorage.getItem(`currentPage-${moduleId}`);
-    console.log("savedPage", savedPage);
+
     if (savedPage) {
       setCurrentSectionIndex(parseInt(savedPage));
     }
@@ -244,10 +246,6 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
     const examScoreStr = localStorage.getItem("examScore") || "0";
     const examScore = parseInt(examScoreStr, 10);
     const percentage = ((examScore / totalQuestion) * 100).toFixed(2);
-    console.log(
-      `currentPage-${moduleId}`,
-      currentSectionIndex === sections.length - 1
-    );
     if (currentSectionIndex === sections.length - 1) {
       localStorage.setItem(
         `currentPage-${moduleId}`,
@@ -270,7 +268,6 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
     }
     handleNext();
   };
-
   return (
     <div>
       <div className="flex justify-end">

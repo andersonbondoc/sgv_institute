@@ -28,6 +28,7 @@ const SignInModal: React.FC<SignInModalProps> = ({
 
   const validateEmail = async () => {
     const { exists, error } = await getUserByEmail(email);
+    console.log("exists: ", exists);
     if (!exists) {
       setIsEmailValid(false);
       setPassword("");
@@ -39,18 +40,28 @@ const SignInModal: React.FC<SignInModalProps> = ({
   };
 
   const handleUserLogin = async () => {
-    const { success, error, user } = await getUserByEmailAndPassword(
-      email,
-      password
-    );
-    if (success) {
-      successToast("Login successfully", 2000);
-      localStorage.setItem("user", JSON.stringify(user));
-      setTimeout(() => {
-        window.location.reload();
-      }, 1000);
+    const { exists, error } = await getUserByEmail(email);
+
+    if (!exists) {
+      setIsEmailValid(false);
+      setPassword("");
+      errorToast(error || "Email validation failed.", 3000);
     } else {
-      errorToast("Error", 3000);
+      setIsEmailValid(true);
+      successToast("Email validated successfully.", 3000);
+      const { success, loginError, user } = await getUserByEmailAndPassword(
+        email,
+        password
+      );
+      if (success) {
+        successToast("Login successfully", 2000);
+        localStorage.setItem("user", JSON.stringify(user));
+        setTimeout(() => {
+          window.location.reload();
+        }, 1000);
+      } else {
+        errorToast("Error", 3000);
+      }
     }
   };
 
@@ -67,7 +78,7 @@ const SignInModal: React.FC<SignInModalProps> = ({
 
         {/* Card Header */}
         <IonListHeader className="text-2xl font-semibold mb-6 text-gray-900 dark:text-gray-100">
-          Sign In
+          Login
         </IonListHeader>
 
         {/* Email Input with Validation */}
@@ -85,7 +96,6 @@ const SignInModal: React.FC<SignInModalProps> = ({
               }`}
             value={email}
             onIonChange={(e) => setEmail(e.detail.value!)}
-            onBlur={validateEmail}
           />
           {isEmailValid !== null && (
             <span className="absolute right-3 top-3 text-lg">
@@ -109,14 +119,12 @@ const SignInModal: React.FC<SignInModalProps> = ({
           value={password}
           onIonChange={(e) => setPassword(e.detail.value!)}
         />
-
-        {/* Login Button */}
         <button
-          className="mt-6 w-full bg-gray-700 hover:bg-gray-900 text-white py-2 rounded-lg transition"
-          disabled={!isEmailValid}
+          className="mt-6 w-full bg-gray-700 hover:bg-gray-900 text-white py-2 rounded-lg transition flex items-center justify-center gap-2"
           onClick={handleUserLogin}
         >
-          <IonIcon icon={enterOutline} size="small" /> Login
+          <IonIcon icon={enterOutline} size="small" />
+          <span>Login</span>
         </button>
       </IonCard>
     </div>
