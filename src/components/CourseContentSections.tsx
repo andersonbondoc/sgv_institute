@@ -1,12 +1,12 @@
 import { useEffect, useState, useRef } from "react";
-import { IonCard, IonIcon } from "@ionic/react";
+import { IonCard, IonIcon, IonProgressBar } from "@ionic/react";
 import { arrowBack, arrowForward, closeCircle } from "ionicons/icons";
 import { motion } from "framer-motion";
-import { IonProgressBar } from "@ionic/react";
 import PreExamPage from "./PreExamination";
 import PosExamination from "./PosExamination";
 import { saveExamResult } from "../queries/examResults";
 import ExamResultCard from "./ExamResultCard";
+import { supabase } from "../queries/supabaseClient"; // Adjust the import path as needed
 
 interface CourseContentSectionProps {
   moduleId: string;
@@ -29,11 +29,12 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
   const cardRef = useRef<HTMLIonCardElement>(null);
   const [showCurrentQuestionResult, setCurrentQuestionResult] =
     useState<boolean>(false);
-  const [retryCount, setRetryCount] = useState(0); // Track retry count
+  const [retryCount, setRetryCount] = useState(0);
   const [isAnswerShown, setIsAnswerShown] = useState(false);
   const [isHidePrevNextButton, setHidePrevNextButton] = useState(false);
   const [isExamFinished, setExamFinished] = useState(false);
 
+  // Fetch course sections based on moduleId (unchanged)
   useEffect(() => {
     const fileMapping: Record<string, string> = {
       PMFIDS_PM: "project_management.json",
@@ -80,68 +81,79 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
     }
   }, [moduleId]);
 
-  const isAnswerSelected = selectedAnswer.length > 0;
-  const renderPageColtwoContent = () => {
-    return (
-      <>
-        <div className="text-2xl text-yellow-500 font-bold mb-6">
-          {currentSection.title}
-        </div>
-        <div className="grid grid-cols-2 gap-2 ">
-          <div
-            className="prose"
-            dangerouslySetInnerHTML={{ __html: currentSection.col1 }}
-          />
-
-          <div
-            className="prose"
-            dangerouslySetInnerHTML={{ __html: currentSection.col2 }}
-          />
-        </div>
-      </>
-    );
-  };
-
-  const renderPageColthreeContent = () => {
-    return (
-      <>
-        <div className="text-2xl text-yellow-500 font-bold mb-6">
-          {currentSection.title}
-        </div>
-        <div className="grid grid-cols-3 gap-3 ">
-          <div
-            className="prose"
-            dangerouslySetInnerHTML={{ __html: currentSection.col1 }}
-          />
-          <div
-            className="prose"
-            dangerouslySetInnerHTML={{ __html: currentSection.col2 }}
-          />
-          <div
-            className="prose"
-            dangerouslySetInnerHTML={{ __html: currentSection.col3 }}
-          />
-        </div>
-      </>
-    );
-  };
+  // Fetch progress from Supabase instead of localStorage
   useEffect(() => {
-    console.log("current module", moduleId);
-    const savedPage = localStorage.getItem(`currentPage-${moduleId}`);
-    // If there's a saved page, use it; otherwise, reset to default (e.g., 0)
-    setCurrentSectionIndex(savedPage ? parseInt(savedPage) : 0);
+    const fetchProgress = async () => {
+      const storedUser = localStorage.getItem("user");
+      if (!storedUser) {
+        console.error("User not found");
+        setCurrentSectionIndex(0);
+        return;
+      }
+      const user = JSON.parse(storedUser);
+      const { data, error } = await supabase
+        .from("user_progress")
+        .select("current_page")
+        .eq("user_id", user.userid)
+        .eq("module_id", moduleId)
+        .single();
+      if (error) {
+        console.error("Error fetching progress:", error);
+        setCurrentSectionIndex(0);
+      } else if (data) {
+        console.log("data: ", data.current_page);
+        setCurrentSectionIndex(data.current_page);
+      }
+    };
+    fetchProgress();
   }, [moduleId]);
 
+  // Update progress in Supabase when currentSectionIndex changes
   useEffect(() => {
-    if (currentSectionIndex !== null) {
-      const page = currentSectionIndex.toString();
-      localStorage.setItem(`currentPage-${moduleId}`, page);
-    }
+    const updateProgress = async () => {
+      const storedUser = localStorage.getItem("user");
+      if (!storedUser) return;
+      const user = JSON.parse(storedUser);
+      // Try to update the row if it exists
+      let { error } = await supabase
+        .from("user_progress")
+        .update({ current_page: currentSectionIndex })
+        .eq("user_id", user.userid)
+        .eq("module_id", moduleId);
+      // If no row exists (or error indicates that), insert a new one
+      if (error) {
+        const { error: insertError } = await supabase
+          .from("user_progress")
+          .insert({
+            user_id: user.userid,
+            module_id: moduleId,
+            current_page: currentSectionIndex,
+          });
+        if (insertError) {
+          console.error("Error inserting progress:", insertError);
+        }
+      }
+    };
+    updateProgress();
   }, [currentSectionIndex, moduleId]);
 
+  // Update total pages in Supabase when sections load
   useEffect(() => {
     if (sections.length > 0) {
-      localStorage.setItem(`sectionlength-${moduleId}`, `${sections.length}`);
+      const updateTotalPages = async () => {
+        const storedUser = localStorage.getItem("user");
+        if (!storedUser) return;
+        const user = JSON.parse(storedUser);
+        const { error } = await supabase
+          .from("user_progress")
+          .update({ total_pages: sections.length })
+          .eq("user_id", user.userid)
+          .eq("module_id", moduleId);
+        if (error) {
+          console.error("Error updating total_pages:", error);
+        }
+      };
+      updateTotalPages();
     }
   }, [sections, moduleId]);
 
@@ -217,6 +229,7 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
     setSelectedAnswer([]);
     setFeedback(null);
   };
+
   const isExam =
     currentSection?.title === "Module Pre-Examination" ||
     currentSection?.title === "Module Post-Examination";
@@ -236,7 +249,7 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
 
     const storedUser = localStorage.getItem("user");
     if (!storedUser) {
-      console.error("User not found in localStorage");
+      console.error("User not found");
       return;
     }
     const user = JSON.parse(storedUser);
@@ -246,10 +259,8 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
     const examScore = parseInt(examScoreStr, 10);
     const percentage = ((examScore / totalQuestion) * 100).toFixed(2);
     if (currentSectionIndex === sections.length - 1) {
-      localStorage.setItem(
-        `currentPage-${moduleId}`,
-        sections.length.toString()
-      );
+      // Update progress when finishing
+      setCurrentSectionIndex(sections.length);
     }
 
     const { data, error } = await saveExamResult(
@@ -267,6 +278,51 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
     }
     handleNext();
   };
+
+  const renderPageColtwoContent = () => {
+    return (
+      <>
+        <div className="text-2xl text-yellow-500 font-bold mb-6">
+          {currentSection.title}
+        </div>
+        <div className="grid grid-cols-2 gap-2 ">
+          <div
+            className="prose"
+            dangerouslySetInnerHTML={{ __html: currentSection.col1 }}
+          />
+          <div
+            className="prose"
+            dangerouslySetInnerHTML={{ __html: currentSection.col2 }}
+          />
+        </div>
+      </>
+    );
+  };
+
+  const renderPageColthreeContent = () => {
+    return (
+      <>
+        <div className="text-2xl text-yellow-500 font-bold mb-6">
+          {currentSection.title}
+        </div>
+        <div className="grid grid-cols-3 gap-3 ">
+          <div
+            className="prose"
+            dangerouslySetInnerHTML={{ __html: currentSection.col1 }}
+          />
+          <div
+            className="prose"
+            dangerouslySetInnerHTML={{ __html: currentSection.col2 }}
+          />
+          <div
+            className="prose"
+            dangerouslySetInnerHTML={{ __html: currentSection.col3 }}
+          />
+        </div>
+      </>
+    );
+  };
+
   return (
     <div>
       <div className="flex justify-end">
@@ -303,161 +359,137 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
               <div
                 className={
                   currentSection.layout === "col-1"
-                    ? "grid grid-cols-1 gap-6 items-center items-center justify-items-center"
+                    ? "grid grid-cols-1 gap-6 items-center justify-items-center"
                     : "grid grid-cols-1 md:grid-cols-2 gap-6 items-center"
                 }
               >
-                {currentSection.layout === "col-2" ? (
-                  renderPageColtwoContent()
-                ) : currentSection.layout === "col-3" ? (
-                  renderPageColthreeContent()
-                ) : (
-                  <>
-                    {currentSection.image && (
-                      <div className="flex justify-center">
-                        <img
-                          src={currentSection.image}
-                          alt={currentSection.title}
-                          className="rounded-lg"
-                        />
+                {currentSection.image && (
+                  <div className="flex justify-center">
+                    <img
+                      src={currentSection.image}
+                      alt={currentSection.title}
+                      className="rounded-lg"
+                    />
+                  </div>
+                )}
+                <div>
+                  <div className="text-2xl text-yellow-500 font-bold mb-6">
+                    {currentSection.title}
+                  </div>
+                  <div className="text-2xl text-yellow-500 font-bold mb-6">
+                    {currentSection.subheader}
+                  </div>
+                  <div
+                    className="prose mt-4"
+                    dangerouslySetInnerHTML={{ __html: currentSection.body }}
+                  />
+                  {currentSection.list1 && (
+                    <ul className="list-disc list-inside mt-4">
+                      {currentSection.list1
+                        .split(";")
+                        .map((item: string, index: number) => (
+                          <li className="text-base/8" key={`list1-${index}`}>
+                            {item.trim()}
+                          </li>
+                        ))}
+                    </ul>
+                  )}
+                  {currentSection.numberedlist && (
+                    <ol className="list-disc list-inside text-2xl mt-4">
+                      {currentSection.numberedlist
+                        .split(";")
+                        .map((item: string, index: number) => (
+                          <li
+                            className="text-base/8"
+                            key={`numberedlist-${index}`}
+                          >
+                            {item.trim()}
+                          </li>
+                        ))}
+                    </ol>
+                  )}
+                  {currentSection.title === "Knowledge Check" &&
+                    currentSection.q_selection && (
+                      <div className="mt-6">
+                        <div className="space-y-4">
+                          {Object.entries(currentSection.q_selection[0]).map(
+                            ([key, value]) => (
+                              <label
+                                key={key}
+                                className="flex items-center space-x-3 p-3 border rounded-lg cursor-pointer hover:bg-gray-100"
+                              >
+                                {currentSection.q_field_type ===
+                                "single_select" ? (
+                                  <input
+                                    type="radio"
+                                    name="knowledge-check"
+                                    value={key}
+                                    checked={selectedAnswer.includes(key)}
+                                    onChange={(e) =>
+                                      !isAnswerShown &&
+                                      handleAnswerChange(
+                                        e.target.value,
+                                        e.target.checked
+                                      )
+                                    }
+                                    disabled={isAnswerShown}
+                                    className="text-indigo-600 border-gray-300 focus:ring-indigo-500"
+                                  />
+                                ) : (
+                                  <input
+                                    type="checkbox"
+                                    name="knowledge-check"
+                                    value={key}
+                                    checked={selectedAnswer.includes(key)}
+                                    onChange={(e) =>
+                                      !isAnswerShown &&
+                                      handleAnswerChange(
+                                        e.target.value,
+                                        e.target.checked
+                                      )
+                                    }
+                                    disabled={isAnswerShown}
+                                    className="text-indigo-600 border-gray-300 focus:ring-indigo-500"
+                                  />
+                                )}
+                                <span className="text-lg text-gray-800">
+                                  {String(value)}
+                                </span>
+                              </label>
+                            )
+                          )}
+                        </div>
+                        <div className="mt-8">
+                          {!feedback && selectedAnswer.length > 0 && (
+                            <button
+                              onClick={handleShowAnswer}
+                              className="w-full py-3 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold rounded-lg shadow-md transition-colors duration-300"
+                            >
+                              Show Answer
+                            </button>
+                          )}
+                          {feedback &&
+                            feedback.includes("❌") &&
+                            selectedAnswer.length > 0 &&
+                            retryCount < 3 && (
+                              <button
+                                onClick={handleRetry}
+                                className="w-full py-3 bg-yellow-500 hover:bg-yellow-600 text-white font-semibold rounded-lg shadow-md transition-colors duration-300"
+                              >
+                                Retry
+                              </button>
+                            )}
+                          {feedback && (
+                            <p className="text-3xl font-semibold mt-10">
+                              {feedback}
+                            </p>
+                          )}
+                        </div>
                       </div>
                     )}
-
-                    <div>
-                      <div className="text-2xl text-yellow-500 font-bold mb-6">
-                        {currentSection.title}
-                      </div>
-                      <div className="text-2xl text-yellow-500 font-bold mb-6">
-                        {currentSection.subheader}
-                      </div>
-
-                      <div
-                        className="prose mt-4"
-                        dangerouslySetInnerHTML={{
-                          __html: currentSection.body,
-                        }}
-                      />
-
-                      {currentSection.list1 && (
-                        <ul className="list-disc list-inside mt-4">
-                          {currentSection.list1
-                            .split(";")
-                            .map((item: string, index: number) => (
-                              <li
-                                className="text-base/8"
-                                key={`list1-${index}`}
-                              >
-                                {item.trim()}
-                              </li>
-                            ))}
-                        </ul>
-                      )}
-
-                      {currentSection.numberedlist && (
-                        <ol className="list-disc list-inside text-2xl mt-4">
-                          {currentSection.numberedlist
-                            .split(";")
-                            .map((item: string, index: number) => (
-                              <li
-                                className="text-base/8"
-                                key={`numberedlist-${index}`}
-                              >
-                                {item.trim()}
-                              </li>
-                            ))}
-                        </ol>
-                      )}
-
-                      {currentSection.title === "Knowledge Check" &&
-                        currentSection.q_selection && (
-                          <div className="mt-6">
-                            <div className="space-y-4">
-                              {Object.entries(
-                                currentSection.q_selection[0]
-                              ).map(([key, value]) => (
-                                <label
-                                  key={key}
-                                  className="flex items-center space-x-3 p-3 border rounded-lg cursor-pointer hover:bg-gray-100"
-                                >
-                                  {currentSection.q_field_type ===
-                                  "single_select" ? (
-                                    <input
-                                      type="radio"
-                                      name="knowledge-check"
-                                      value={key}
-                                      checked={selectedAnswer.includes(key)}
-                                      onChange={(e) =>
-                                        !isAnswerShown &&
-                                        handleAnswerChange(
-                                          e.target.value,
-                                          e.target.checked
-                                        )
-                                      }
-                                      disabled={isAnswerShown} // Disable if answer is shown
-                                      className="text-indigo-600 border-gray-300 focus:ring-indigo-500"
-                                    />
-                                  ) : (
-                                    <input
-                                      type="checkbox"
-                                      name="knowledge-check"
-                                      value={key}
-                                      checked={selectedAnswer.includes(key)}
-                                      onChange={(e) =>
-                                        !isAnswerShown &&
-                                        handleAnswerChange(
-                                          e.target.value,
-                                          e.target.checked
-                                        )
-                                      }
-                                      disabled={isAnswerShown} // Disable if answer is shown
-                                      className="text-indigo-600 border-gray-300 focus:ring-indigo-500"
-                                    />
-                                  )}
-                                  <span className="text-lg text-gray-800">
-                                    {String(value)}
-                                  </span>
-                                </label>
-                              ))}
-                            </div>
-                            <div className="mt-8">
-                              {/* Show "Show Answer" button when an answer is selected but feedback is not available */}
-                              {!feedback && isAnswerSelected && (
-                                <button
-                                  onClick={handleShowAnswer}
-                                  className="w-full py-3 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold rounded-lg shadow-md transition-colors duration-300"
-                                >
-                                  Show Answer
-                                </button>
-                              )}
-
-                              {/* Show "Retry" button only if the answer is wrong and retries left */}
-                              {feedback &&
-                                feedback.includes("❌") &&
-                                isAnswerSelected &&
-                                retryCount < 3 && (
-                                  <button
-                                    onClick={handleRetry}
-                                    className="w-full py-3 bg-yellow-500 hover:bg-yellow-600 text-white font-semibold rounded-lg shadow-md transition-colors duration-300"
-                                  >
-                                    Retry
-                                  </button>
-                                )}
-
-                              {/* Display feedback message */}
-                              {feedback && (
-                                <p className="text-3xl font-semibold mt-10">
-                                  {feedback}
-                                </p>
-                              )}
-                            </div>
-                          </div>
-                        )}
-                    </div>
-                  </>
-                )}
+                </div>
               </div>
             )}
-
             {currentSection.title === "Module Pre-Examination" &&
               currentSection.exams && (
                 <PreExamPage
@@ -473,23 +505,21 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
                 />
               )}
             {!isExam && (
-              <>
-                <div className="flex justify-between mt-6 px-4 pb-4">
-                  <button
-                    onClick={handleBack}
-                    disabled={currentSectionIndex === 0}
-                    className="w-12 h-12 bg-gray-300 rounded-full flex items-center justify-center"
-                  >
-                    <IonIcon icon={arrowBack} />
-                  </button>
-                  <button
-                    onClick={handleNext}
-                    className="w-12 h-12 bg-indigo-700 text-white rounded-full flex items-center justify-center"
-                  >
-                    <IonIcon icon={arrowForward} />
-                  </button>
-                </div>
-              </>
+              <div className="flex justify-between mt-6 px-4 pb-4">
+                <button
+                  onClick={handleBack}
+                  disabled={currentSectionIndex === 0}
+                  className="w-12 h-12 bg-gray-300 rounded-full flex items-center justify-center"
+                >
+                  <IonIcon icon={arrowBack} />
+                </button>
+                <button
+                  onClick={handleNext}
+                  className="w-12 h-12 bg-indigo-700 text-white rounded-full flex items-center justify-center"
+                >
+                  <IonIcon icon={arrowForward} />
+                </button>
+              </div>
             )}
           </IonCard>
         </motion.div>

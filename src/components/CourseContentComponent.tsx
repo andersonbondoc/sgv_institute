@@ -3,6 +3,8 @@ import { useHistory, useParams } from "react-router-dom";
 import { IonButton, IonCard, IonCardContent } from "@ionic/react";
 import CourseContentSection from "./CourseContentSections";
 import CertificateEditor from "./CertificateEditor";
+import { supabase } from "../queries/supabaseClient"; // Adjust the import path as needed
+
 const CourseContentComponent: React.FC = () => {
   const [selectedModule, setSelectedModule] = useState<string | null>(null);
   const [modules, setModules] = useState<any[]>([]);
@@ -16,10 +18,17 @@ const CourseContentComponent: React.FC = () => {
   const [getModule, setModuleLessons] = useState<string[]>([]);
   const [getBanks, setBanks] = useState<string[]>([]);
   const [getModuleId, setModulesId] = useState<string[]>([]);
+  const [savedProgress, setSavedProgress] = useState<Record<string, number>>(
+    {}
+  );
+  const [totalSections, setTotalSections] = useState<Record<string, number>>(
+    {}
+  );
+
   useEffect(() => {
     const storedUser = localStorage.getItem("user");
     if (!storedUser) {
-      console.error("User not found in localStorage");
+      console.error("User not found");
       return;
     }
     const user = JSON.parse(storedUser);
@@ -44,7 +53,6 @@ const CourseContentComponent: React.FC = () => {
             (module: any) => module.moduleId
           );
           setModulesId(moduleIds);
-
           setModuleLessons(course.modules.map((row: any) => row.title));
         } else {
           console.warn(`No modules found for course ${courseId}`);
@@ -57,64 +65,84 @@ const CourseContentComponent: React.FC = () => {
       });
   }, [courseId]);
 
+  useEffect(() => {
+    const fetchProgressData = async () => {
+      console.log("initiate");
+      const storedUser = localStorage.getItem("user");
+      if (!storedUser) {
+        console.error("User not found");
+        return;
+      }
+      const user = JSON.parse(storedUser);
+
+      const { data, error } = await supabase
+        .from("user_progress")
+        .select("module_id, current_page, total_pages")
+        .eq("user_id", user.userid)
+        .in("module_id", getModuleId);
+
+      if (error) {
+        console.error("Error fetching progress data:", error);
+        return;
+      }
+
+      const progressMap: Record<string, number> = {};
+      const sectionsMap: Record<string, number> = {};
+      getModuleId.forEach((id) => {
+        progressMap[id] = 0;
+        sectionsMap[id] = 0;
+      });
+
+      data.forEach((item) => {
+        progressMap[item.module_id] = item.current_page || 0;
+        sectionsMap[item.module_id] = item.total_pages || 0;
+      });
+
+      setSavedProgress(progressMap);
+      setTotalSections(sectionsMap);
+    };
+
+    if (getModuleId.length > 0) {
+      fetchProgressData();
+    }
+  }, [getModuleId, courseId, selectedModule]);
+
   const handleTakeExam = () => {
     history.push(`/course/${courseId}/exam`);
     window.location.reload();
   };
 
-  const handleSelectedModule = (module: any, moduleId: any) => {
-    setSelectedModule(module.moduleId);
-    const savedPage = localStorage.getItem(`currentPage-${moduleId}`);
-    if (savedPage) {
-      setCurrentPage(parseInt(savedPage));
+  // When a module is selected, fetch its progress and set up a realtime subscription
+  const handleSelectedModule = async (module: any, moduleId: any) => {
+    const storedUser = localStorage.getItem("user");
+    if (!storedUser) return;
+    const user = JSON.parse(storedUser);
+
+    // Fetch progress from Supabase
+    const { data, error } = await supabase
+      .from("user_progress")
+      .select("current_page")
+      .eq("user_id", user.userid)
+      .eq("module_id", moduleId)
+      .single();
+
+    let progress = 0;
+    if (error || !data) {
+      // Optionally, insert a new row if not found
+      const { error: insertError } = await supabase
+        .from("user_progress")
+        .insert({ user_id: user.userid, module_id: moduleId, current_page: 0 });
+      if (insertError) {
+        console.error("Error inserting progress:", insertError);
+      }
+    } else {
+      progress = data.current_page;
     }
+
+    setCurrentPage(progress);
+    setSelectedModule(module.moduleId);
   };
 
-  //   // Calculate completion percentages outside the map function
-  //   const savedPMFIDS_BCM = parseInt(
-  //     localStorage.getItem("currentPage-PMFIDS_BCM") || "0"
-  //   );
-  //   const savedPMFIDS_RISK = parseInt(
-  //     localStorage.getItem("currentPage-PMFIDS_RISK") || "0"
-  //   );
-  //   const savedPMFIDS_PM = parseInt(
-  //     localStorage.getItem("currentPage-PMFIDS_PM") || "0"
-  //   );
-  //   const savedABSTIT_ABS = parseInt(
-  //     localStorage.getItem("currentPage-ABSTIT_ABS") || "0"
-  //   );
-
-  //   const countPMFIDS_BCM = parseInt(
-  //     localStorage.getItem("sectionlength-PMFIDS_BCM") || "0"
-  //   );
-  //   const countPMFIDS_RISK = parseInt(
-  //     localStorage.getItem("sectionlength-PMFIDS_RISK") || "0"
-  //   );
-  //   const countPMFIDS_PM = parseInt(
-  //     localStorage.getItem("sectionlength-PMFIDS_PM") || "0"
-  //   );
-  // //sectionlength-ABSTIT_ABS
-  //   const countABSTIT_ABS = parseInt(
-  //     localStorage.getItem("sectionlength-ABSTIT_ABS") || "0"
-  //   );
-  //   const completionPercentage_PMFIDS_PM =
-  //     countPMFIDS_PM !== 0 ? (savedPMFIDS_PM / countPMFIDS_PM) * 100 : 0;
-  //   const completionPercentage_PMFIDS_RISK =
-  //     countPMFIDS_RISK !== 0 ? (savedPMFIDS_RISK / countPMFIDS_RISK) * 100 : 0;
-  //   const completionPercentage_PMFIDS_BCM =
-  //     countPMFIDS_BCM !== 0 ? (savedPMFIDS_BCM / countPMFIDS_BCM) * 100 : 0;
-
-  //   const completionPercentage_ABSTIT_ABS =
-  //     countPMFIDS_BCM !== 0 ? (savedABSTIT_ABS / countABSTIT_ABS) * 100 : 0;
-  // Retrieve saved progress and total sections dynamically
-  const savedProgress = getModuleId.reduce((acc, id) => {
-    acc[id] = parseInt(localStorage.getItem(`currentPage-${id}`) || "0");
-    return acc;
-  }, {} as Record<string, number>);
-  const totalSections = getModuleId.reduce((acc, id) => {
-    acc[id] = parseInt(localStorage.getItem(`sectionlength-${id}`) || "0");
-    return acc;
-  }, {} as Record<string, number>);
   const completionPercentages = getModuleId.reduce((acc, id) => {
     acc[id] =
       totalSections[id] !== 0
@@ -122,6 +150,7 @@ const CourseContentComponent: React.FC = () => {
         : 0;
     return acc;
   }, {} as Record<string, number>);
+
   const isCertificateEnabled = modules.every(
     (module) =>
       totalSections[module.moduleId] !== 0 &&
@@ -153,16 +182,6 @@ const CourseContentComponent: React.FC = () => {
           {modules.map((module) => {
             const moduleCompletion =
               completionPercentages[module.moduleId] || 0;
-            // const moduleCompletion =
-            //   module.moduleId === "PMFIDS_BCM"
-            //     ? completionPercentage_PMFIDS_BCM
-            //     : module.moduleId === "PMFIDS_RISK"
-            //     ? completionPercentage_PMFIDS_RISK
-            //     : module.moduleId === "PMFIDS_PM"
-            //     ? completionPercentage_PMFIDS_PM
-            //     : module.moduleId === "ABSTIT_ABS" ?
-            //     completionPercentage_ABSTIT_ABS
-            //     : 0;
             return (
               <IonCard
                 key={module.moduleId}
