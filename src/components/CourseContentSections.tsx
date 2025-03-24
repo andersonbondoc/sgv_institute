@@ -220,7 +220,7 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
   };
 
   const handleRetry = () => {
-    if (retryCount < 3) {
+    if (retryCount < 5) {
       setIsAnswerShown(false);
       setRetryCount((prevCount) => prevCount + 1);
     } else {
@@ -285,6 +285,10 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
         <div className="text-2xl text-yellow-500 font-bold mb-6">
           {currentSection.title}
         </div>
+        <div className="text-[15px] text-yellow-500 font-bold mb-6">
+          {currentSection.subheader}
+        </div>
+
         <div className="grid grid-cols-2 gap-2 ">
           <div
             className="prose"
@@ -304,6 +308,9 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
       <>
         <div className="text-2xl text-yellow-500 font-bold mb-6">
           {currentSection.title}
+        </div>
+        <div className="text-[15px] text-yellow-500 font-bold mb-6">
+          {currentSection.subheader}
         </div>
         <div className="grid grid-cols-3 gap-3 ">
           <div
@@ -342,7 +349,10 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
           exit={{ opacity: 0, x: 50 }}
           transition={{ duration: 0.5 }}
         >
-          <IonCard ref={cardRef} className="p-6 bg-white shadow-lg rounded-xl">
+          <IonCard
+            ref={cardRef}
+            className="p-6 bg-white shadow-lg rounded-xl  mb-50"
+          >
             <div className="mb-2 text-lg font-semibold text-gray-700 text-right">
               Page {currentStep} / {totalSections}
             </div>
@@ -376,7 +386,7 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
                   <div className="text-2xl text-yellow-500 font-bold mb-6">
                     {currentSection.title}
                   </div>
-                  <div className="text-2xl text-yellow-500 font-bold mb-6">
+                  <div className="text-[15px] text-yellow-500 font-bold mb-6">
                     {currentSection.subheader}
                   </div>
                   <div

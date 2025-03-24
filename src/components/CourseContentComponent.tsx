@@ -113,7 +113,22 @@ const CourseContentComponent: React.FC = () => {
   };
 
   // When a module is selected, fetch its progress and set up a realtime subscription
-  const handleSelectedModule = async (module: any, moduleId: any) => {
+  const handleSelectedModule = async (
+    module: any,
+    moduleId: any,
+    index: number
+  ) => {
+    if (index > 0) {
+      const prevModuleId = getModuleId[index - 1];
+      const prevModuleCompletion =
+        totalSections[prevModuleId] !== 0
+          ? (savedProgress[prevModuleId] / totalSections[prevModuleId]) * 100
+          : 0;
+      if (prevModuleCompletion < 100) {
+        alert("Complete the previous module first!");
+        return;
+      }
+    }
     const storedUser = localStorage.getItem("user");
     if (!storedUser) return;
     const user = JSON.parse(storedUser);
@@ -179,14 +194,31 @@ const CourseContentComponent: React.FC = () => {
     <div>
       {!selectedModule ? (
         <div className="space-y-6 p-4">
-          {modules.map((module) => {
+          {modules.map((module, index) => {
             const moduleCompletion =
-              completionPercentages[module.moduleId] || 0;
+              totalSections[module.moduleId] !== 0
+                ? (savedProgress[module.moduleId] /
+                    totalSections[module.moduleId]) *
+                  100
+                : 0;
             return (
               <IonCard
                 key={module.moduleId}
-                onClick={() => handleSelectedModule(module, module.moduleId)}
-                className="bg-slate-100 cursor-pointer hover:shadow-xl transition duration-300 rounded-lg relative"
+                onClick={() => {
+                  // Always enable the first module
+                  if (
+                    index === 0 ||
+                    completionPercentages[getModuleId[index - 1]] === 100
+                  ) {
+                    handleSelectedModule(module, module.moduleId, index);
+                  }
+                }}
+                className={`bg-slate-100 transition duration-300 rounded-lg relative ${
+                  index === 0 ||
+                  completionPercentages[getModuleId[index - 1]] === 100
+                    ? "cursor-pointer hover:shadow-xl"
+                    : "cursor-not-allowed opacity-50"
+                }`}
               >
                 <IonCardContent className="flex items-center space-x-4">
                   <img
