@@ -127,16 +127,30 @@ const App: React.FC = () => {
         </IonReactRouter>
       </IonApp>
       <div
-        className={`fixed bottom-0 left-0 right-0 shadow-md flex justify-around items-center py-2 ${
+        className={`fixed bottom-0 left-0 right-0 shadow-md flex justify-center items-center  py-2 ${
           paletteToggle ? "bg-[#1f1f1f] text-white" : "bg-white text-black"
         }`}
       >
-        <a href="/welcome" className="flex flex-col items-center">
+        <a
+          href="/welcome"
+          className={`flex flex-col items-center mr-[100px] ${
+            window.location.pathname === "/welcome"
+              ? "text-blue-500 font-bold"
+              : ""
+          }`}
+        >
           <BookOpenIcon className="h-6 w-6" />
           <span>Courses</span>
         </a>
 
-        <a href="/profile" className="flex flex-col items-center">
+        <a
+          href="/profile"
+          className={`flex flex-col items-center mr-[100px] ${
+            window.location.pathname === "/profile"
+              ? "text-blue-500 font-bold"
+              : ""
+          }`}
+        >
           <UserIcon className="h-6 w-6" />
           <span>Profile</span>
         </a>

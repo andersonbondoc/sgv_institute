@@ -1,5 +1,7 @@
 import React from "react";
 import { PDFDocument, rgb, StandardFonts } from "pdf-lib";
+import { IonIcon } from "@ionic/react";
+import { cloudDownloadOutline } from "ionicons/icons";
 
 interface CertificateEditorProps {
   name: string;
@@ -89,31 +91,47 @@ const CertificateEditor: React.FC<CertificateEditorProps> = ({
         startY
       );
       startY -= fontRegular.heightAtSize(18) + 10;
-
       drawTextCentered(
         "has successfully completed the Web-Based Learning (WBL) on",
         fontRegular,
         14,
         startY
       );
-      startY -= fontRegular.heightAtSize(14) + 10;
+      startY -= fontRegular.heightAtSize(14) + 15;
 
-      drawTextCentered(wblTitle, fontBold, 14, startY);
-      startY -= fontBold.heightAtSize(14) + 20;
+      // ✅ WBL Title
+      drawTextCentered(`${wblTitle}`, fontBold, 16, startY);
+      startY -= fontBold.heightAtSize(16) + 25;
 
-      let lessonY = startY - 10;
+      // ✅ Topics Covered
+      drawTextInline(
+        [
+          {
+            text: "This WBL covered essential topics on ",
+            font: fontRegular,
+            size: 14,
+          },
+          { text: `${wblTitle}`, font: fontBold, size: 14 },
+          { text: " specifically: ", font: fontRegular, size: 14 },
+        ],
+        startY
+      );
+      startY -= fontRegular.heightAtSize(12) + 15;
+
+      let lessonY = startY;
       const lessonX = pageWidth * 0.15;
       lessons.forEach((lesson, index) => {
         page.drawText(`${index + 1}. ${lesson}`, {
           x: lessonX,
           y: lessonY,
-          size: 14,
+          size: 12,
           font: fontRegular,
           color: rgb(0, 0, 0),
         });
-        lessonY -= fontRegular.heightAtSize(14) + 10;
+        lessonY -= fontRegular.heightAtSize(12) + 10;
       });
 
+      // Save and trigger download
       const pdfBytes = await pdfDoc.save();
       const blob = new Blob([pdfBytes], { type: "application/pdf" });
       const link = document.createElement("a");
@@ -129,14 +147,15 @@ const CertificateEditor: React.FC<CertificateEditorProps> = ({
     <div className="flex flex-col items-center gap-4 p-4">
       <button
         onClick={generatePDF}
-        className={`py-2 px-6 rounded transition duration-200 ease-in-out 
+        className={`flex items-center justify-center gap-2 py-3 px-8 rounded-lg font-semibold text-lg shadow-md transition duration-300 ease-in-out 
       ${
         isCertificateEnabled
-          ? "bg-blue-500 text-white hover:bg-blue-600"
-          : "bg-gray-200 text-black cursor-not-allowed"
+          ? "bg-blue-500 text-white hover:bg-blue-600 hover:shadow-lg"
+          : "bg-gray-300 text-gray-500 cursor-not-allowed"
       }`}
         disabled={!isCertificateEnabled}
       >
+        <IonIcon icon={cloudDownloadOutline} className="w-6 h-6" />
         Download Certificate
       </button>
     </div>
