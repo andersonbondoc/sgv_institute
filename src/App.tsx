@@ -95,67 +95,67 @@ const App: React.FC = () => {
   }, []);
 
   return (
-    <IonApp>
-      <IonReactRouter>
-        <IonTabs>
-          <IonRouterOutlet>
-            <Route exact path="/welcome">
-              <LandingPage />
-            </Route>
-            <Route exact path="/profile">
-              <ProfilePage />
-            </Route>
-            <Route exact path="/home">
-              <HomePage />
-            </Route>
-            <Route exact path="/tab1">
-              <Tab1 />
-            </Route>
+    <div>
+      <IonApp className="mb-20">
+        <IonReactRouter>
+          <IonTabs>
+            <IonRouterOutlet>
+              <Route exact path="/welcome">
+                <LandingPage />
+              </Route>
+              <Route exact path="/profile">
+                <ProfilePage />
+              </Route>
+              <Route exact path="/home">
+                <HomePage />
+              </Route>
+              <Route exact path="/tab1">
+                <Tab1 />
+              </Route>
 
-            <Route path="/course/:courseId" component={CoursePage} />
-            <Route
-              path="/course/:courseId/exam"
-              component={CourseExamination}
-            />
+              <Route path="/course/:courseId" component={CoursePage} />
+              <Route
+                path="/course/:courseId/exam"
+                component={CourseExamination}
+              />
 
-            <Route exact path="/">
-              <Redirect to="/welcome" />
-            </Route>
-          </IonRouterOutlet>
+              <Route exact path="/">
+                <Redirect to="/welcome" />
+              </Route>
+            </IonRouterOutlet>
+          </IonTabs>
+        </IonReactRouter>
+      </IonApp>
+      <div
+        className={`fixed bottom-0 left-0 right-0 shadow-md flex justify-around items-center py-2 ${
+          paletteToggle ? "bg-[#1f1f1f] text-white" : "bg-white text-black"
+        }`}
+      >
+        <a href="/welcome" className="flex flex-col items-center">
+          <BookOpenIcon className="h-6 w-6" />
+          <span>Courses</span>
+        </a>
 
-          <IonTabBar slot="bottom">
-            <IonTabButton tab="welcome" href="/welcome">
-              <BookOpenIcon className="h-6 w-6" />
-              <span>Courses</span>
-            </IonTabButton>
+        <a href="/profile" className="flex flex-col items-center">
+          <UserIcon className="h-6 w-6" />
+          <span>Profile</span>
+        </a>
 
-            <IonTabButton tab="profile" href="/profile">
-              <UserIcon className="h-6 w-6" />
-              <span>Profile</span>
-            </IonTabButton>
-
-            <IonTabButton>
-              <button
-                onClick={toggleChange}
-                className="flex flex-col items-center"
-              >
-                {paletteToggle ? (
-                  <>
-                    <MoonIcon className="h-6 w-6" />
-                    <span>Dark Mode</span>
-                  </>
-                ) : (
-                  <>
-                    <SunIcon className="h-6 w-6" />
-                    <span>Light Mode</span>
-                  </>
-                )}
-              </button>
-            </IonTabButton>
-          </IonTabBar>
-        </IonTabs>
-      </IonReactRouter>
-    </IonApp>
+        <button onClick={toggleChange} className="flex flex-col items-center">
+          {paletteToggle ? (
+            <>
+              <SunIcon className="h-6 w-6" />
+              <span>Light Mode</span>
+            </>
+          ) : (
+            <>
+              <MoonIcon className="h-6 w-6" />
+              <span>Dark Mode</span>
+            </>
+          )}
+        </button>
+      </div>
+    </div>
   );
 };
 
