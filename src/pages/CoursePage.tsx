@@ -107,7 +107,8 @@ const CoursePage: React.FC = () => {
       <IonHeader>
         <IonToolbar>
           <IonButtons slot="start">
-            <IonButton onClick={() => setModalOpen(true)}>
+            {/* <IonButton onClick={() => setModalOpen(true)}> */}
+            <IonButton onClick={() => history.goBack()}>
               <IonIcon icon={arrowBackOutline} slot="start" />
               Back
             </IonButton>

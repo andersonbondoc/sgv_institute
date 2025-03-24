@@ -33,7 +33,7 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
   const [isAnswerShown, setIsAnswerShown] = useState(false);
   const [isHidePrevNextButton, setHidePrevNextButton] = useState(false);
   const [isExamFinished, setExamFinished] = useState(false);
-
+  const [finishedModule, setFinishedModule] = useState(false);
   // Fetch course sections based on moduleId (unchanged)
   useEffect(() => {
     const fileMapping: Record<string, string> = {
@@ -52,7 +52,6 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
     };
 
     if (moduleId && fileMapping[moduleId]) {
-      console.log("moduleId: ", moduleId);
       const filePath = `/courses/${fileMapping[moduleId]}`;
       fetch(filePath)
         .then((response) => {
@@ -101,7 +100,6 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
         console.error("Error fetching progress:", error);
         setCurrentSectionIndex(0);
       } else if (data) {
-        console.log("data: ", data.current_page);
         setCurrentSectionIndex(data.current_page);
       }
     };
@@ -157,11 +155,40 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
     }
   }, [sections, moduleId]);
 
+  const currentStep = currentSectionIndex + 1;
+  useEffect(() => {
+    const handleCheckModule = async () => {
+      const storedUser = localStorage.getItem("user");
+      if (storedUser) {
+        const user = JSON.parse(storedUser);
+
+        // Fetch user progress for the specific module
+        let { data, error } = await supabase
+          .from("user_progress")
+          .select("*")
+          .eq("user_id", user.userid)
+          .eq("module_id", moduleId)
+          .single(); // Assuming the query returns a single row
+
+        if (error) {
+          console.error("Error fetching user progress:", error);
+          return;
+        }
+        if (data) {
+          const { current_page, total_pages } = data;
+          if (current_page === total_pages) {
+            setFinishedModule(true);
+          }
+        }
+      }
+    };
+    handleCheckModule();
+  }, [currentSectionIndex, moduleId]);
+
   const currentSection = sections[currentSectionIndex];
   const totalSections = sections.length;
   const progress =
     totalSections > 0 ? (currentSectionIndex / (totalSections - 1)) * 100 : 0;
-  const currentStep = currentSectionIndex + 1;
 
   const handleNext = () => {
     if (currentSectionIndex < sections.length - 1) {
@@ -274,7 +301,8 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
     if (error) {
       console.error("Failed to save exam result:", error);
     } else {
-      console.log("Exam result saved successfully:", data);
+      setFinishedModule(true);
+      onBackToModules();
     }
     handleNext();
   };
@@ -378,7 +406,7 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
                     <img
                       src={currentSection.image}
                       alt={currentSection.title}
-                      className="rounded-lg"
+                      className="rounded-lg max-w-[500px] h-auto"
                     />
                   </div>
                 )}
@@ -534,15 +562,38 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
           </IonCard>
         </motion.div>
       ) : (
-        <div>
-          <h2 className="text-2xl font-bold">No content available</h2>
-          <button
-            onClick={onBackToModules}
-            className="mt-4 px-4 py-2 bg-indigo-700 text-white rounded-lg"
-          >
-            Back to Modules
-          </button>
-        </div>
+        <>
+          {finishedModule ? (
+            <div className="flex flex-col items-center justify-center p-8 bg-green-200 rounded-lg shadow-md">
+              <h2 className="text-2xl font-bold text-green-800 mb-4">
+                Congratulations!
+              </h2>
+              <p className="text-lg text-gray-700 mb-4">
+                You've successfully completed this module. 🎉
+              </p>
+              <p className="text-sm text-gray-500 mb-6">
+                Great job! You are one step closer to mastering the topic. Keep
+                it up!
+              </p>
+              <button
+                onClick={onBackToModules}
+                className="py-2 px-6 bg-green-600 hover:bg-green-700 text-white font-semibold rounded-lg transition duration-200"
+              >
+                Finish Module
+              </button>
+            </div>
+          ) : (
+            <div>
+              <h2 className="text-2xl font-bold">No content available</h2>
+              <button
+                onClick={onBackToModules}
+                className="mt-4 px-4 py-2 bg-indigo-700 text-white rounded-lg"
+              >
+                Back to Modules
+              </button>
+            </div>
+          )}
+        </>
       )}
     </div>
   );

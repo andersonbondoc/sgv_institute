@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import ExamResultCard from "./ExamResultCard";
-
+import { chevronBack, chevronForward, trophyOutline } from "ionicons/icons";
+import { IonIcon } from "@ionic/react";
 interface PreExamPageProps {
   sections: any;
   handleFinishQuestionButton: () => void;
@@ -118,7 +119,7 @@ const PostExamPage: React.FC<PreExamPageProps> = ({
     }
     localStorage.setItem("examScore", score.toString());
     setShowResult(true);
-    handleFinishQuestionButton();
+    // handleFinishQuestionButton();
   };
 
   const handleRetryExam = () => {
@@ -128,6 +129,10 @@ const PostExamPage: React.FC<PreExamPageProps> = ({
     setShowResult(false);
   };
 
+  const handleClose = () => {
+    handleFinishQuestionButton();
+    setShowResult(false);
+  };
   return (
     <div className="items-center justify-items-center">
       <div className="p-4">
@@ -176,27 +181,41 @@ const PostExamPage: React.FC<PreExamPageProps> = ({
                 </label>
               ))}
             </div>
+
             <div className="mt-8 flex justify-between">
-              {currentQuestionIndex !== 0 && (
-                <button
-                  onClick={handlePreviousQuestion}
-                  disabled={currentQuestionIndex === 0}
-                  className="py-3 px-6 bg-gray-500 hover:bg-gray-600 text-white font-semibold rounded-lg shadow-md transition-colors duration-300 disabled:opacity-50"
-                >
-                  Previous
-                </button>
-              )}
+              {/* Placeholder for consistent positioning */}
+              <div className="w-36">
+                {currentQuestionIndex !== 0 && (
+                  <button
+                    onClick={handlePreviousQuestion}
+                    disabled={currentQuestionIndex === 0}
+                    className="flex items-center gap-2 py-3 px-6 bg-gray-500 hover:bg-gray-600 text-white font-semibold rounded-lg shadow-md transition-colors duration-300 disabled:opacity-50"
+                  >
+                    <IonIcon icon={chevronBack} className="w-5 h-5" />
+                    Previous
+                  </button>
+                )}
+              </div>
+
               <button
                 onClick={
                   currentQuestionIndex < preExamQuestions.length - 1
                     ? handleNextQuestion
                     : finishExam
                 }
-                className="py-3 px-6 bg-green-600 hover:bg-green-700 text-white font-semibold rounded-lg shadow-md transition-colors duration-300"
+                className="flex items-center gap-2 py-3 px-6 bg-green-600 hover:bg-green-700 text-white font-semibold rounded-lg shadow-md transition-colors duration-300"
               >
-                {currentQuestionIndex < preExamQuestions.length - 1
-                  ? "Next Question"
-                  : "Finished"}
+                {currentQuestionIndex < preExamQuestions.length - 1 ? (
+                  <>
+                    Next Question
+                    <IonIcon icon={chevronForward} className="w-5 h-5" />
+                  </>
+                ) : (
+                  <>
+                    Finished
+                    <IonIcon icon={trophyOutline} className="w-5 h-5" />
+                  </>
+                )}
               </button>
             </div>
           </div>
@@ -205,7 +224,7 @@ const PostExamPage: React.FC<PreExamPageProps> = ({
       {showResult && (
         <ExamResultCard
           show={showResult}
-          onClose={() => setShowResult(false)}
+          onClose={() => handleClose()}
           score={score}
           totalQuestion={totalQuestion}
           title="Post-Examination"
