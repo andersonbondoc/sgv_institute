@@ -2,7 +2,7 @@
     "PMFIDS": {
       "courseId": "PMFIDS",
       "title": "Project Management Fundamentals for Implementation of Digital Solutions",
-      "description": "Master the art of managing complex projects efficiently.",
+      "description": "To introduce the fundamental tools and techniques of project management for learners' navigation of their current and future business transformation initiatives, equip learners with the knowledge and skills necessary to manage project budgets and costs effectively, and understand the function, importance, and purpose of risk management, quality assurance, and existing Philippine regulations during a project.",
       "price": "Free",  
       "icon": "src/assets/img/icons/pm.jpg",
       "bgColor": "bg-indigo-100",
@@ -12,7 +12,7 @@
           "courseId": "PMFIDS",
           "moduleId": "PMFIDS_PM",
           "title": "Project Management Fundamentals, Tools, and Techniques",
-          "description": "Learn the fundamentals of managing projects efficiently.",
+          "description": "This module is designed to provide you with a comprehensive understanding of project management, project management functions, tools, techniques, and frameworks, and project lifecycle",
           "icon": "src/assets/img/icons/pm.jpg",
           "bgColor": "bg-indigo-100"
         },
@@ -21,7 +21,7 @@
           "courseId": "PMFIDS",
           "moduleId": "PMFIDS_BCM",
           "title": "Budget and Cost Management",
-          "description": "Master the art of budgeting and managing project costs.",
+          "description": "This module is designed to provide you with a comprehensive understanding of cost management functions, forecasting models, and effective techniques for optimizing project expenses.",
           "icon": "src/assets/img/icons/pm.jpg",
           "bgColor": "bg-green-100"
         },
@@ -30,7 +30,7 @@
           "courseId": "PMFIDS",
           "moduleId": "PMFIDS_RISK",
           "title": "Project Risk Management",
-          "description" : "Understand how to identify and mitigate project risks.",
+          "description" : "This module is designed to deliver an understanding of the types of risks and the process of identifying, analyzing, handling and monitoring risks in managing projects.",
           "icon" : "src/assets/img/icons/pm.jpg",
           "bgColor": "bg-yellow-100"
         }
@@ -39,7 +39,7 @@
     "ABSTIT": {
       "courseId": "ABSTIT",
       "title": "Aligning Business Strategy to Technology Innovations and Trends",
-      "description": "Guiding you to a comprehensive understanding of how to effectively integrate business strategies with emerging technological advancements while also addressing the critical aspect of crisis management",
+      "description": "To help understand the importance of aligning a business strategy to technology innovations and trends through various methodologies and assessments, gain a foundational understanding of what are the available business enabling tools in the market that can amplify business operations, and define how crisis management will be integrated in their strategic planning.",
       "price": "Free",  
       "icon": "src/assets/img/icons/abs.jpg",
       "bgColor": "bg-indigo-100",
@@ -49,7 +49,7 @@
           "courseId": "ABSTIT",
           "moduleId": "ABSTIT_ABS",
           "title": "Aligning Business Strategy to Technology Innovations and Trends",
-          "description": "Learn the business strategies with emerging technological advancements.",
+          "description": "This module is designed to provide you with a comprehensive understanding of how to effectively integrate business strategies with emerging technological advancements while also addressing the critical aspect of crisis management.",
           "icon": "src/assets/img/icons/abs.jpg",
           "bgColor": "bg-indigo-100"
         }
@@ -58,7 +58,7 @@
     "CM": {
       "courseId": "CM",
       "title": "Change Management",
-      "description": "Gain comprehensive understanding of the principles and practices vital for effectively managing change within organizations.",
+      "description": "To provide a comprehensive understanding of the principles and practices vital for effectively managing change within organizations, examine the crucial role of change management in ensuring smooth transitions, boosting employee engagement, and achieving organizational objectives, explore change management frameworks and methodologies, and acquire practical strategies for assessing the impact of change, engaging stakeholders, and implementing successful change initiatives.",
       "price": "Free",  
       "icon": "src/assets/img/icons/cm.jpg",
       "bgColor": "bg-indigo-100",
@@ -67,8 +67,8 @@
           "id": 5,
           "courseId": "CM",
           "moduleId": "CM_INTRO",
-          "title": "Change Management: Change Management Fundamentals",
-          "description": "Gain comprehensive understanding of the principles and practices vital for effectively managing change within organizations.",
+          "title": "Change Management Fundamentals",
+          "description": " This module aims to provide you with a comprehensive understanding of the principles and practices vital for effectively managing change within organizations.",
           "icon": "src/assets/img/icons/cm.jpg",
           "bgColor": "bg-indigo-100"
         },
@@ -76,8 +76,8 @@
           "id": 6,
           "courseId": "CM",
           "moduleId": "CM_PREPARE",
-          "title": "Change Management: Prepare Approach",
-          "description": "Gain comprehensive understanding of the principles and practices vital for effectively managing change within organizations.",
+          "title": "Prepare Approach",
+          "description": "This module aims to provide you with a comprehensive understanding of the principles and practices vital for effectively managing change within organizations.",
           "icon": "src/assets/img/icons/cm.jpg",
           "bgColor": "bg-green-100"
         },
@@ -86,7 +86,7 @@
           "courseId": "CM",
           "moduleId": "CM_MANAGE",
           "title": "Manage Change",
-          "description" : "ain comprehensive understanding of the principles and practices vital for effectively managing change within organizations.",
+          "description" : "This module aims to provide you with a comprehensive understanding of the principles and practices vital for effectively managing change within organizations.",
           "icon" : "src/assets/img/icons/cm.jpg",
           "bgColor": "bg-yellow-100"
         }, 
@@ -95,7 +95,7 @@
           "courseId": "CM",
           "moduleId": "CM_SUSTAIN",
           "title": "Sustain Change",
-          "description" : "Gain comprehensive understanding of the principles and practices vital for effectively managing change within organizations.",
+          "description" : "This module aims to provide you with a comprehensive understanding of the principles and practices vital for effectively managing change within organizations.",
           "icon" : "src/assets/img/icons/cm.jpg",
           "bgColor": "bg-yellow-100"
         }
@@ -104,7 +104,7 @@
     "DCO": {
       "courseId": "DCO",
       "title": "Digital Customer Onboarding",
-      "description": "Gain comprehensive understanding of the fundamentals for digital customer onboarding.",
+      "description": "To understand the significance of digital customer onboarding on customer experience, identify the information and documentary requirements necessary for customer due diligence in accordance with the BSP MORB, develop systematic procedures for verifying the identity of new individual customers and juridical entities, gain insights into the significance of robust fraud detection strategies, explore key components of automating the recording and monitoring of approvals and claimed financial products, and gain insights on the importance of understanding the customer success lifecycle.",
       "price": "Free",  
       "icon": "src/assets/img/icons/dco.jpg",
       "bgColor": "bg-indigo-100",
@@ -114,7 +114,7 @@
           "courseId": "DCO",
           "moduleId": "DCO_SEAMLESS",
           "title": "Seamless Digital Customer Onboarding",
-          "description": "Gain comprehensive understanding of the fundamentals for digital customer onboarding.",
+          "description": "This module is designed to explore the diverse approaches to onboarding customers, including traditional branch methods, digital solutions, and the increasingly popular omnichannel approach.",
           "icon": "src/assets/img/icons/dco.jpg",
           "bgColor": "bg-indigo-100"
         },
@@ -123,7 +123,7 @@
           "courseId": "DCO",
           "moduleId": "DCO_NEW_APPLICATION",
           "title": "New Application and Screening in Onboarding",
-          "description": "Gain comprehensive understanding of the fundamentals for digital customer onboarding.",
+          "description": "This module is designed to equip you with the essential knowledge and skills needed to navigate the complexities of customer onboarding in compliance with Philippine laws and regulations.",
           "icon": "src/assets/img/icons/dco.jpg",
           "bgColor": "bg-green-100"
         },
@@ -132,7 +132,7 @@
           "courseId": "DCO",
           "moduleId": "DCO_APPLICATION_APPROVAL",
           "title": "Application Approval, Product Issuance, and Feedbacking in Onboarding",
-          "description" : "Gain comprehensive understanding of the fundamentals for digital customer onboarding.",
+          "description" : "This course is designed to provide you with a comprehensive understanding of the benefits of automation and self-service solutions, including the key components of automating the recording and monitoring of claimed financial products and the advantages of self-service kiosks in streamlining the product issuance process.",
           "icon" : "src/assets/img/icons/dco.jpg",
           "bgColor": "bg-yellow-100"
         }
@@ -141,7 +141,7 @@
     "DATAGOV": {
     "courseId": "DATAGOV",
       "title": "Data Governance of Digital Solutions – From Mapping to Managing the Project",
-      "description": "Gain a comprehensive understanding of data governance.",
+      "description": "To introduce how data as an asset and how data governance is important for organizations now that we are in the digital era and its three main aspects: process, people, and technology, provide a comprehensive discussion on data governance frameworks, understand how data governance is applied during digital transformation, and explore various data governance trends and best practices.",
       "price": "Free",  
       "icon": "src/assets/img/icons/datagov.jpg",
       "bgColor": "bg-indigo-100",
@@ -151,7 +151,7 @@
           "courseId": "DATAGOV",
           "moduleId": "DATAGOV_MAPPING",
           "title": "Data Governance of Digital Solutions – From Mapping to Managing the Project",
-          "description": "Gain a comprehensive understanding of data governance.",
+          "description": "This module is designed to provide you with a comprehensive understanding of data governance, including its frameworks, applicability, and trends, as well as how data governance plays a key role in digital transformation.",
           "icon": "src/assets/img/icons/datagov.jpg",
           "bgColor": "bg-indigo-100"
         }

@@ -70,7 +70,7 @@
       {
         "order": 3,
         "title": "Module Credit and Completion Requirements and Learning Objective",
-        "body": "<h2>Credit and Completion Requirements</h2> <p>To successfully earn credit and meet the learning objectives of this Web-Based Learning Application, it is essential to engage with every page, complete all knowledge checks, and complete the initial and final assessment independently. The assessment will require a <b>70% passing rate</b> and while you are encouraged to refer to your notes of the course content during the assessment, any form of cheating is discouraged. Please also note that this course will expire by <b>April 25, 2025.</b></p> <h2>Module Learning Objectives</h2> <p>Upon successful completion of the course, you will be able to:</p> <ul> <li>Demonstrate the essential skills and knowledge required to effectively serve as Change Managers on projects.</li> <li>Understand key change management concepts, theories, and frameworks, with a focus on the human side of change.</li> <li>Understand the process of managing change.</li> <li>Gain knowledge on how to manage a change management plan.</li> <li>Learn how to implement effective strategies and communication to ensure smoother transitions, enhance employee engagement, and achieve desired outcomes.</li> </ul>",
+        "body": "<h4>Credit and Completion Requirements</h4> <p>To successfully earn credit and meet the learning objectives of this Web-Based Learning Application, it is essential to engage with every page, complete all knowledge checks, and complete the initial and final assessment independently. The assessment will require a <b>70% passing rate</b> and while you are encouraged to refer to your notes of the course content during the assessment, any form of cheating is discouraged. Please also note that this course will expire by <b>April 25, 2025.</b></p> <h4>Module Learning Objectives</h2> <p>Upon successful completion of the course, you will be able to:</p> <ul> <li>Demonstrate the essential skills and knowledge required to effectively serve as Change Managers on projects.</li> <li>Understand key change management concepts, theories, and frameworks, with a focus on the human side of change.</li> <li>Understand the process of managing change.</li> <li>Gain knowledge on how to manage a change management plan.</li> <li>Learn how to implement effective strategies and communication to ensure smoother transitions, enhance employee engagement, and achieve desired outcomes.</li> </ul>",
         "image": "src/assets/img/general images/CreditCompletionLearningObjectives.jpg"
       },
       {
@@ -136,7 +136,7 @@
       {
         "order": 11,
         "title": "Lesson Summary",
-        "body": "<h3>Congratulations on completing Lesson 1 of this module!</h3> <p>Now that you have completed this lesson, you should be able to:</p> <ul> <li>Define what is change management plan;</li> <li>How to create change management plan;and</li> <li>Know the important of CM plan in change initiative</li> </ul>",
+        "body": "<h4>Congratulations on completing Lesson 1 of this module!</h3> <p>Now that you have completed this lesson, you should be able to:</p> <ul> <li>Define what is change management plan;</li> <li>How to create change management plan;and</li> <li>Know the important of CM plan in change initiative</li> </ul>",
         "image": "src/assets/img/general images/LessonSummary.jpg"
       },
       {
@@ -151,7 +151,7 @@
         "layout": "col-1",
         "title": "Communication and Engagement",
         "subheader": "Importance of Communication through Change",
-        "body": "<p>During resistance to change, effective communication and engagement are crucial for gaining commitment and actively involving people in the change initiative.</p> <h3>What is Employee Engagement?</h3> <p>Employee engagement measures the level of commitment and connection an employee has with their organization, reflecting their emotional investment in the company's objectives and motivation to contribute to its success.</p>"
+        "body": "<p>During resistance to change, effective communication and engagement are crucial for gaining commitment and actively involving people in the change initiative.</p> <h4>What is Employee Engagement?</h4> <p>Employee engagement measures the level of commitment and connection an employee has with their organization, reflecting their emotional investment in the company's objectives and motivation to contribute to its success.</p>"
       },
       {
         "order": 14,
@@ -179,9 +179,10 @@
       },
       {
         "order": 16,
-        "layout": "col-1",
+        "layout": "image righthand portion",
         "title": "Communication and Engagement",
-        "subheader": "Overview of communications plan",
+        "subheader": "Consequences of Poor Employee Engagement During Change",
+        "body": "Poorly managed change can negatively impact employee engagement, resulting in broader implications for the organization. Common challenges include:", 
         "image": "src/assets/img/change management/Manage/order16.jpg"
       },
       {
@@ -201,7 +202,7 @@
       },
       {
         "order": 19,
-        "layout": "col-1",
+        "layout": "image righthand portion",
         "title": "Communication and Engagement",
         "subheader": "How to make change stick?",
         "body": "Responsibilities of a Change Management Communications Expert",
@@ -250,7 +251,7 @@
         "layout": "image righthand portion",
         "title": "Communication and Engagement",
         "subheader": "Implementation of communications approach",
-        "col1": "<ul> <li><b>Implementation of communications approach</b> - After the development of the communications approach, the next step is to outline steps for implementation.</li> <li>The following diagram outlines each step that contributes to the overall structure of the communications approach.</li> <li>No single step, by itself, constitutes the communications program, but as part of a unified effort, each step plays a vital role in the implementation of the overall communications approach.</li> </ul>",
+        "body": "<ul> <li><b>Implementation of communications approach</b> - After the development of the communications approach, the next step is to outline steps for implementation.</li> <li>The following diagram outlines each step that contributes to the overall structure of the communications approach.</li> <li>No single step, by itself, constitutes the communications program, but as part of a unified effort, each step plays a vital role in the implementation of the overall communications approach.</li> </ul>",
         "image": "src/assets/img/change management/Manage/order24.jpg"
       },
       {
@@ -281,10 +282,10 @@
       },
       {
         "order": 29,
-        "layout": "col-1",
+        "layout": "image righthand portion",
         "title": "Training and Workshop",
         "subheader": "Designing Change Management Workshops",
-        "col1": "<p>Conducting workshops is essential to change management, offering a structured environment for stakeholders to engage with the change process, share insights, and collaboratively develop solutions. In the implementation plan, workshops promote hands-on learning and skill development, equipping participants to adapt to new processes and technologies while aligning their perspectives with the overall change management plan. This fosters a sense of ownership and commitment to the change initiative.</p>",
+        "body": "<p>Conducting workshops is essential to change management, offering a structured environment for stakeholders to engage with the change process, share insights, and collaboratively develop solutions. In the implementation plan, workshops promote hands-on learning and skill development, equipping participants to adapt to new processes and technologies while aligning their perspectives with the overall change management plan. This fosters a sense of ownership and commitment to the change initiative.</p>",
         "image": "src/assets/img/change management/Manage/order29.jpg"
       },
       {
@@ -322,7 +323,7 @@
       {
         "order": 33,
         "title": "Lesson Summary",
-        "body": "<h2>Congratulations on completing Lesson 3 of this module!</h2> <p>Now that you have completed this lesson, you should be able to:</p> <ul> <li>Understand the change management facilitation; and</li> <li>How to design change management workshops</li> </ul>",
+        "body": "<h4>Congratulations on completing Lesson 3 of this module!</h4> <p>Now that you have completed this lesson, you should be able to:</p> <ul> <li>Understand the change management facilitation; and</li> <li>How to design change management workshops</li> </ul>",
         "image": "src/assets/img/general images/LessonSummary.jpg"
       },
       {
@@ -335,7 +336,7 @@
       {
         "order": 35,
         "title": "Module Completion",
-        "body": "<h2>Congratulations on completing the Manage Change module!</h2> <p>You've now gained a solid understanding of the essential terms and concepts for change management fundamentals.</p><p>As you move forward, remember that the principles and strategies you've learned here are vital tools for ensuring the  health and success of any project or organization. By applying these techniques, you'll be better equipped to make informed decisions</p><p>We hope this module has empowered you with the knowledge and confidence to tackle any challenge that comes your way. Keep honing your skills, stay diligent in your planning, and continue to strive for excellence in managing change.</p>",
+        "body": "<h4>Congratulations on completing the Manage Change module!</h4> <p>You've now gained a solid understanding of the essential terms and concepts for change management fundamentals.</p><p>As you move forward, remember that the principles and strategies you've learned here are vital tools for ensuring the  health and success of any project or organization. By applying these techniques, you'll be better equipped to make informed decisions</p><p>We hope this module has empowered you with the knowledge and confidence to tackle any challenge that comes your way. Keep honing your skills, stay diligent in your planning, and continue to strive for excellence in managing change.</p>",
         "image": "src/assets/img/general images/ModuleCompletion.jpg"
       },
       {

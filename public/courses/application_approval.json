@@ -15,7 +15,7 @@
       "order": 2,
       "title": "Module Pre-Examination",
       "exams": [{
-      "exam_id": 11,
+          "exam_id": 11,
           "title": "Module Pre-Examination",
           "body": "This assessment is designed to test your knowledge. Results of this  assessment will be used to structure the workshop.",
           "questions": [{
@@ -59,7 +59,7 @@
     {
       "order": 3,
       "title": "Module Credit and Completion Requirements and Learning Objective",
-      "body": "<h2>Credit and Completion Requirements</h2> <p>To successfully earn credit and meet the learning objectives of this Web-Based Learning Application, it is essential to engage with every page, complete all knowledge checks, and complete the initial and final assessment independently. The assessment will require a <b>70% passing rate</b> and while you are encouraged to refer to your notes of the course content during the assessment, any form of cheating is discouraged. Please also note that this course will expire by <b>April 25, 2025.</b></p><h2>Module Learning Objectives</h2><p>Upon successful completion of the module, you will be able to:</p> <ul> <li>Differentiate customer service and customer relationship, understanding how each plays a distinct role in enhancing customer interactions and experiences.</li> <li>Recognize the significant impact that strong customer relationships have on customer loyalty and satisfaction, highlighting the importance of fostering these connections.</li> <li>Describe the customer success lifecycle and identify the essential technology and tools that support it, ensuring a comprehensive approach to managing customer journeys. </li> <li>Identify common Key Performance Indicators (KPIs) used to measure customer onboarding success, along with the tools necessary for analyzing and reporting these metrics effectively.</li> <li>Explore the key components of automating the recording and monitoring of claimed financial products, including data integration and workflow automation, and understand the benefits of self-service kiosks in improving the product issuance process.</li> </ul>", 
+      "body": "<h4>Credit and Completion Requirements</h4> <p>To successfully earn credit and meet the learning objectives of this Web-Based Learning Application, it is essential to engage with every page, complete all knowledge checks, and complete the initial and final assessment independently. The assessment will require a <b>70% passing rate</b> and while you are encouraged to refer to your notes of the course content during the assessment, any form of cheating is discouraged. Please also note that this course will expire by <b>April 25, 2025.</b></p><h4>Module Learning Objectives</h4><p>Upon successful completion of the module, you will be able to:</p> <ul> <li>Differentiate customer service and customer relationship, understanding how each plays a distinct role in enhancing customer interactions and experiences.</li> <li>Recognize the significant impact that strong customer relationships have on customer loyalty and satisfaction, highlighting the importance of fostering these connections.</li> <li>Describe the customer success lifecycle and identify the essential technology and tools that support it, ensuring a comprehensive approach to managing customer journeys. </li> <li>Identify common Key Performance Indicators (KPIs) used to measure customer onboarding success, along with the tools necessary for analyzing and reporting these metrics effectively.</li> <li>Explore the key components of automating the recording and monitoring of claimed financial products, including data integration and workflow automation, and understand the benefits of self-service kiosks in improving the product issuance process.</li> </ul>", 
       "image":"src/assets/img/general images/CreditCompletionLearningObjectives.jpg"
     },
     {
@@ -67,7 +67,7 @@
       "title": "Application Approval, Product Issuance, and Feedbacking in Onboarding Lessons",
       "subheader": "Introduction to Digital Customer Onboarding", 
       "body": "<h4>Learning Objectives</h4> <p>At the end of this lesson, you will be able to:</p> <ul> <li>Gain an understanding of an enhanced and efficient the approval process</li> <li>Develop insights on effectively handling approvals and denials in digital customer onboarding</li> </ul>",
-      "image": "/src/assets/img/digital_customer_onboarding/application_approval/order4.jpg"
+      "image": "src/assets/img/digital_customer_onboarding/application_approval/order4.jpg"
     }, 
     {
       "order": 5,
@@ -134,7 +134,7 @@
       "subheader": "Handling Approvals and Denials", 
       "col1": "<h4>Communicating Denial Reasons</h4> <h5><b>Clear Notification</b></h5><p>Use clear and concise language in the denial notification to explain the reasons. Avoid jargon and ensure that the message is easy to understand.</p><h5><b>Personalization</b></h5><p>Address the applicant by name and reference their specific application to create a more personal connection.</p>",   
       "col2": "<h4>Options for Appeal</h4><h5><b>Appeal Process Overview</b></h5><p>Clearly outline the steps applicants can take to appeal a denial decision. This should include: (1) How to submit an appeal (e.g., online form, email), (2) Required documentation or information needed for the appeal, and (3) Any deadlines for submitting appeals.</p><h5><b>Timeline for Review</b></h5><p>Provide information on how long the appeal process typically takes and what applicants can expect during this period.</p><h5><b>Contact Information</b></h5><p>Include contact details for a dedicated support team or representative who can assist applicants with the appeal process.</p>", 
-      "col3":"<h4>Options for Reapplication</h4><h5><b>Reapplication Guidelines</b></h5><p>Offer clear guidelines on how and when applicants can reapply after a denial. This may include: (1) Waiting periods or timeframes for reapplication, and (2) Changes they should consider making before reapplying (e.g., improving credit score, gathering additional documentation).</p><h6>Improvement Tips</h6><p>Provide actionable tips on how applicants can enhance their chances of approval in future applications, such as: (1) Reviewing and correcting any inaccuracies in their application, and (2) Seeking financial counseling or advice if credit issues are a concern.</p><h6>Encouragement</h6><p>Encourage applicants to reapply if they believe they can meet the necessary criteria in the future.</p>"
+      "col3":"<h4>Options for Reapplication</h4><h5><b>Reapplication Guidelines</b></h5><p>Offer clear guidelines on how and when applicants can reapply after a denial. This may include: (1) Waiting periods or timeframes for reapplication, and (2) Changes they should consider making before reapplying (e.g., improving credit score, gathering additional documentation).</p><h6><b>Improvement Tips</b></h6><p>Provide actionable tips on how applicants can enhance their chances of approval in future applications, such as: (1) Reviewing and correcting any inaccuracies in their application, and (2) Seeking financial counseling or advice if credit issues are a concern.</p><h6><b>Encouragement</b></h6><p>Encourage applicants to reapply if they believe they can meet the necessary criteria in the future.</p>"
     },
     {
       "order": 13,
@@ -153,7 +153,7 @@
     {
       "order": 14,
       "title": "Lesson Summary",
-      "body": "<h2>Congratulations on completing Lesson 1 of this module!</h2> <p>Now that you have completed this lesson, you should be able to:</p> <ul> <li>Discover techniques in establishing efficient approval criteria that streamline the digital customer onboarding process, enhancing customer satisfaction and reducing drop-off rates.</li> <li>Learn to implement techniques such as risk-based assessments, data-driven decision-making, and automated decision systems to expedite the approval process while maintaining compliance and accuracy.</li> <li>Gain a full understanding of the effective governance structures for application approvals, transforming progress tracking systems, and communicating approval or denial decisions to applicants, ensuring a seamless and transparent onboarding experience.</li> </ul>", 
+      "body": "<h4>Congratulations on completing Lesson 1 of this module!</h4> <p>Now that you have completed this lesson, you should be able to:</p> <ul> <li>Discover techniques in establishing efficient approval criteria that streamline the digital customer onboarding process, enhancing customer satisfaction and reducing drop-off rates.</li> <li>Learn to implement techniques such as risk-based assessments, data-driven decision-making, and automated decision systems to expedite the approval process while maintaining compliance and accuracy.</li> <li>Gain a full understanding of the effective governance structures for application approvals, transforming progress tracking systems, and communicating approval or denial decisions to applicants, ensuring a seamless and transparent onboarding experience.</li> </ul>", 
       "image":"src/assets/img/general images/LessonSummary.jpg"
     },
   {
@@ -169,7 +169,7 @@
       "layout": "col-1", 
       "title": "Product Issuance",
       "subheader": "Fast-tracking the Issuance Workflow",
-      "body": "<h2>Automated Recording and Monitoring of Claimed Financial Products</h2> <p>Automated recording and monitoring of claimed financial products typically involves the use of technology and software systems to track, analyze, and manage financial products claimed by customers or clients. This process can enhance efficiency, accuracy, and compliance in financial operations.</p>"
+      "body": "<h4>Automated Recording and Monitoring of Claimed Financial Products</h4> <p>Automated recording and monitoring of claimed financial products typically involves the use of technology and software systems to track, analyze, and manage financial products claimed by customers or clients. This process can enhance efficiency, accuracy, and compliance in financial operations.</p>"
   },
   {
       "order": 17, 
@@ -207,7 +207,7 @@
       "title": "Product Issuance",
       "subheader": "User Guides and Resources",
       "col1": "<h4>Product Activation Procedures</h4> <h5><b>What are Product Activation Procedures?</h5> <p>A product activation guide should be comprehensive and user-friendly, ensuring that customers can easily understand and follow the steps necessary to activate and start using the product. Here are the key components that a product activation guide should contain:</p> <h6><b>Introduction</b></h6> <ul> <li>Brief overview of the product and its benefits.</li> <li>Purpose of the activation guide.</li> </ul> <h6><b>Prerequisites</b></h6> <ul> <li>List of items or information needed before activation (e.g., activation code, internet connection, account details).</li> <li>Any necessary hardware or software requirements.</li> </ul> <h6><b>Step-by-Step Activation Instructions</b></h6> <ul> <li>Detailed Steps: Clear, numbered steps outlining the activation process.</li> <li>Visual Aids: Screenshots, diagrams, or infographics to illustrate each step.</li> <li>Tips and Warnings: Helpful tips for avoiding common pitfalls and warnings about potential issues</li> <h6><b>Account Creation (if applicable)</b></h6> <li>Instructions for creating an account, if required.</li> <li>Details on the verification process (e.g., email verification)</li> </ul> ",
-      "col2": "<h6><b>Frequently Asked Questions (FAQs)</b></h6> <ul> <li>A section addressing common questions and concerns related to product activation.</li> <li>Clear answers to help customers quickly find the information they need.</li> </ul> <h6><b>Customer Support Information</b></h6> <ul> <li>Contact details for customer support (phone number, email, live chat).</li> <li>Links to online resources, such as help centers or community forums.</li> </ul> <h6>Conclusion</h6> <ul> <li>A summary of the activation process.</li> <li>Encouragement to explore the product and its features after activation.</li> </ul> <h6><b>Appendices (if necessary)</b></h6> <ul> <li>Additional resources, such as links to user manuals, product specifications, or related documentation.</li> <li>Glossary of terms used in the guide for clarification.</li> </ul> "
+      "col2": "<h6><b>Frequently Asked Questions (FAQs)</b></h6> <ul> <li>A section addressing common questions and concerns related to product activation.</li> <li>Clear answers to help customers quickly find the information they need.</li> </ul> <h6><b>Customer Support Information</b></h6> <ul> <li>Contact details for customer support (phone number, email, live chat).</li> <li>Links to online resources, such as help centers or community forums.</li> </ul> <h6><b>Conclusion</b></h6> <ul> <li>A summary of the activation process.</li> <li>Encouragement to explore the product and its features after activation.</li> </ul> <h6><b>Appendices (if necessary)</b></h6> <ul> <li>Additional resources, such as links to user manuals, product specifications, or related documentation.</li> <li>Glossary of terms used in the guide for clarification.</li> </ul> "
   },
   {
       "order": 22,
@@ -242,7 +242,7 @@
   {
       "order": 25,
       "title": "Lesson Summary",
-      "body": "<h2>Congratulations on completing Lesson 2 of this module!</h2> <p>Now that you have completed this lesson, you should be able to:</p> <ul> <li>Identify the key components of automating the recording and monitoring of claimed financial products including data integration and workflow automation.</li> <li>Understand the benefits of self-service kiosks in improving the process of product issuance.</li> <li>Describe product activation procedures and the use of QR codes in public information guides.</li> </ul>",
+      "body": "<h4>Congratulations on completing Lesson 2 of this module!</h4> <p>Now that you have completed this lesson, you should be able to:</p> <ul> <li>Identify the key components of automating the recording and monitoring of claimed financial products including data integration and workflow automation.</li> <li>Understand the benefits of self-service kiosks in improving the process of product issuance.</li> <li>Describe product activation procedures and the use of QR codes in public information guides.</li> </ul>",
       "image":"src/assets/img/general images/LessonSummary.jpg"
   },
   {
@@ -250,7 +250,7 @@
       "title": "Application Approval, Product Issuance and Managing Customer Relationships Lessons",
       "subheader": "Managing Customer Relationships and Customer Success",
       "body": "<h4>Learning Objectives</h4> <p>At the end of this lesson, you will be able to:</p> <ul> <li>Identify the difference between customer service and customer relationship</li><li>Recognize the benefits of building strong customer relationships</li> <li>Define customer success and understand its lifecycle</li> <li>Explore various metrics to measure the success of customer onboarding</li> </ul>",
-      "image": "/src/assets/img/digital_customer_onboarding/application_approval/order26.jpg"
+      "image": "src/assets/img/digital_customer_onboarding/application_approval/order26.jpg"
   },
   {
       "order": 27,
@@ -331,7 +331,7 @@
       "title": "Managing Customer Relationships and Customer Success",
       "subheader": "Measuring Onboarding Success",
       "body": "<h4>Tools in Tracking and Reporting Digital Onboarding Metrics</h4> <h6><b>Google Analytics</b></h6> <p>Google Analytics is a web analytics service that tracks and reports website traffic. It provides insights into how users interact with a website or application, helping businesses understand user behavior and make data-driven decisions.</p> <p>Key Features</p> <ul> <li><b>Real-Time Data</b> - Google Analytics offers real-time reporting, allowing businesses to see current user activity on their site.</li> <li><b>Funnel exploration</b> - Visualize the steps users take to complete tasks on your site or app and see how you can optimize user experience and identify over- or under-performing audiences — with both open and closed funnel options.</li> <li><b>Built-in Automation</b> - By applying Google’s machine learning models, it can analyze your data and predict future actions people may take, like making a purchase or churning. </li> <li><b>Integration with Other Tools</b> - Google Analytics can be integrated with other Google services (like Google Ads) and third-party tools for enhanced reporting and marketing capabilities.</li> <li><b>Custom Reporting</b> - Users can create custom reports and dashboards to focus on specific metrics that matter to their business.</li> </ul>",
-      "image": "/src/assets/img/digital_customer_onboarding/application_approval/order36.jpg"
+      "image": "src/assets/img/digital_customer_onboarding/application_approval/order36.jpg"
   },
   {
       "order": 37,
@@ -374,7 +374,7 @@
   {
       "order": 41,
       "title": "Lesson Summary",
-      "body": "<h2>Congratulations on completing Lesson 3 of this module!</h2> <p>Now that you have completed this lesson, you should be able to:</p> <ul> <li>Differentiate customer service from customer relationship.</li> <li>Recognize the impact of strong customer relationships on customer loyalty and satisfaction.</li> <li>Describe the customer success lifecycle and the essential technologies and tools for it.</li> <li>Identify common KPIs to measure customer onboarding success and the tools to analyze and report those metrics.</li> </ul>",
+      "body": "<h4>Congratulations on completing Lesson 3 of this module!</h4> <p>Now that you have completed this lesson, you should be able to:</p> <ul> <li>Differentiate customer service from customer relationship.</li> <li>Recognize the impact of strong customer relationships on customer loyalty and satisfaction.</li> <li>Describe the customer success lifecycle and the essential technologies and tools for it.</li> <li>Identify common KPIs to measure customer onboarding success and the tools to analyze and report those metrics.</li> </ul>",
       "image":"src/assets/img/general images/LessonSummary.jpg"
   },
   {
@@ -394,12 +394,12 @@
       "order": 44,
       "title": "Module Post-examination",
       "exams": [{
-      "exam_id": 11,
+          "exam_id": 11,
           "title": "Module Post-Examination",
           "body": "This assessment is designed to test your knowledge. Results of this  assessment will be used to structure the workshop.",
           "questions": [{
                   "q_number": 1,
-                  "q_statement": "<p>This is a business analytics tool developed by Microsoft that enables users to visualize data and share insights across their organization or embed them in an app or website.</p>",
+                  "q_statement": "This is a business analytics tool developed by Microsoft that enables users to visualize data and share insights across their organization or embed them in an app or website.",
                   "q_field_type": "single_select" ,
                   "q_selection": [{
                       "A": "PowerBI",
@@ -411,7 +411,7 @@
           },
           {
                   "q_number": 2,
-                  "q_statement": "<p>The following are strategies in transforming the progress tracking system. (Select all that apply)</p>",
+                  "q_statement": "The following are strategies in transforming the progress tracking system. (Select all that apply)",
                   "q_field_type": "multi_select" ,
                   "q_selection": [{
                       "A": "Real-Time Progress Tracking",
@@ -425,7 +425,7 @@
           },
           {
                   "q_number": 3,
-                  "q_statement": "<p>What are the positive indicators of identifying customer success?(Select all that apply)</p>",
+                  "q_statement": "What are the positive indicators of identifying customer success? (Select all that apply)",
                   "q_field_type": "multi_select",
                   "q_selection": [{
                       "A": "Churn",
