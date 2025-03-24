@@ -3,69 +3,158 @@
       "courseId": "PMFIDS",
       "title": "Project Management Fundamentals for Implementation of Digital Solutions",
       "description": "Master the art of managing complex projects efficiently.",
-      "price": "Free",
-      "icon": "/src/assets/abstract.png",
+      "price": "Free",  
+      "icon": "src/assets/img/icons/pm.jpg",
       "bgColor": "bg-indigo-100",
       "modules": [
         {
-          "id": 0,
+          "id": 1,
           "courseId": "PMFIDS",
           "moduleId": "PMFIDS_PM",
           "title": "Project Management Fundamentals, Tools, and Techniques",
           "description": "Learn the fundamentals of managing projects efficiently.",
-          "icon": "/src/assets/abstract.png",
+          "icon": "src/assets/img/icons/pm.jpg",
           "bgColor": "bg-indigo-100"
-        },
-        {
-          "id": 1,
-          "courseId": "PMFIDS",
-          "moduleId": "PMFIDS_BCM",
-          "title": "Budget and Cost Management",
-          "description": "Master the art of budgeting and managing project costs.",
-          "icon": "/src/assets/abstract.png",
-          "bgColor": "bg-green-100"
         },
         {
           "id": 2,
           "courseId": "PMFIDS",
+          "moduleId": "PMFIDS_BCM",
+          "title": "Budget and Cost Management",
+          "description": "Master the art of budgeting and managing project costs.",
+          "icon": "src/assets/img/icons/pm.jpg",
+          "bgColor": "bg-green-100"
+        },
+        {
+          "id": 3,
+          "courseId": "PMFIDS",
           "moduleId": "PMFIDS_RISK",
           "title": "Project Risk Management",
           "description" : "Understand how to identify and mitigate project risks.",
-          "icon" : "/src/assets/abstract.png",
+          "icon" : "src/assets/img/icons/pm.jpg",
           "bgColor": "bg-yellow-100"
         }
       ]
     },
-    "DS100": {
-      "courseId": "DS100",
-      "title": "Data Security",
-      "description": "Learn techniques to secure sensitive data in modern systems.",
-      "price": "Free",
-      "icon": "/src/assets/abstract.png",
-      "bgColor": "bg-indigo-100"
+    "ABSTIT": {
+      "courseId": "ABSTIT",
+      "title": "Aligning Business Strategy to Technology Innovations and Trends",
+      "description": "Guiding you to a comprehensive understanding of how to effectively integrate business strategies with emerging technological advancements while also addressing the critical aspect of crisis management",
+      "price": "Free",  
+      "icon": "src/assets/img/icons/abs.jpg",
+      "bgColor": "bg-indigo-100",
+      "modules": [
+        {
+          "id": 4,
+          "courseId": "ABSTIT",
+          "moduleId": "ABSTIT_ABS",
+          "title": "Aligning Business Strategy to Technology Innovations and Trends",
+          "description": "Learn the business strategies with emerging technological advancements.",
+          "icon": "src/assets/img/icons/abs.jpg",
+          "bgColor": "bg-indigo-100"
+        }
+      ]
     },
-    "DP100": {
-      "courseId": "DP100",
-      "title": "Data Privacy",
-      "description": "Understand the principles of data privacy and compliance.",
-      "price": "Free",
-      "icon": "/src/assets/abstract.png",
-      "bgColor": "bg-indigo-100"
-    },
-    "CM100": {
-      "courseId": "CM100",
+    "CM": {
+      "courseId": "CM",
       "title": "Change Management",
-      "description": "Develop skills to manage and lead organizational changes.",
-      "price": "Free",
-      "icon": "/src/assets/abstract.png",
-      "bgColor": "bg-indigo-100"
+      "description": "Gain comprehensive understanding of the principles and practices vital for effectively managing change within organizations.",
+      "price": "Free",  
+      "icon": "src/assets/img/icons/cm.jpg",
+      "bgColor": "bg-indigo-100",
+      "modules": [
+        {
+          "id": 5,
+          "courseId": "CM",
+          "moduleId": "CM_INTRO",
+          "title": "Change Management: Change Management Fundamentals",
+          "description": "Gain comprehensive understanding of the principles and practices vital for effectively managing change within organizations.",
+          "icon": "src/assets/img/icons/cm.jpg",
+          "bgColor": "bg-indigo-100"
+        },
+        {
+          "id": 6,
+          "courseId": "CM",
+          "moduleId": "CM_PREPARE",
+          "title": "Change Management: Prepare Approach",
+          "description": "Gain comprehensive understanding of the principles and practices vital for effectively managing change within organizations.",
+          "icon": "src/assets/img/icons/cm.jpg",
+          "bgColor": "bg-green-100"
+        },
+        {
+          "id": 7,
+          "courseId": "CM",
+          "moduleId": "CM_MANAGE",
+          "title": "Manage Change",
+          "description" : "ain comprehensive understanding of the principles and practices vital for effectively managing change within organizations.",
+          "icon" : "src/assets/img/icons/cm.jpg",
+          "bgColor": "bg-yellow-100"
+        }, 
+        {
+          "id": 8,
+          "courseId": "CM",
+          "moduleId": "CM_SUSTAIN",
+          "title": "Sustain Change",
+          "description" : "Gain comprehensive understanding of the principles and practices vital for effectively managing change within organizations.",
+          "icon" : "src/assets/img/icons/cm.jpg",
+          "bgColor": "bg-yellow-100"
+        }
+      ]
     },
-    "DG100": {
-      "courseId": "DG100",
-      "title": "Data Governance",
-      "description": "Discover how to establish effective data governance policies.",
-      "price": "Free",
-      "icon": "/src/assets/abstract.png",
-      "bgColor": "bg-indigo-100"
+    "DCO": {
+      "courseId": "DCO",
+      "title": "Digital Customer Onboarding",
+      "description": "Gain comprehensive understanding of the fundamentals for digital customer onboarding.",
+      "price": "Free",  
+      "icon": "src/assets/img/icons/dco.jpg",
+      "bgColor": "bg-indigo-100",
+      "modules": [
+        {
+          "id": 9,
+          "courseId": "DCO",
+          "moduleId": "DCO_SEAMLESS",
+          "title": "Seamless Digital Customer Onboarding",
+          "description": "Gain comprehensive understanding of the fundamentals for digital customer onboarding.",
+          "icon": "src/assets/img/icons/dco.jpg",
+          "bgColor": "bg-indigo-100"
+        },
+        {
+          "id": 10,
+          "courseId": "DCO",
+          "moduleId": "DCO_NEW_APPLICATION",
+          "title": "New Application and Screening in Onboarding",
+          "description": "Gain comprehensive understanding of the fundamentals for digital customer onboarding.",
+          "icon": "src/assets/img/icons/dco.jpg",
+          "bgColor": "bg-green-100"
+        },
+        {
+          "id": 11,
+          "courseId": "DCO",
+          "moduleId": "DCO_APPLICATION_APPROVAL",
+          "title": "Application Approval, Product Issuance, and Feedbacking in Onboarding",
+          "description" : "Gain comprehensive understanding of the fundamentals for digital customer onboarding.",
+          "icon" : "src/assets/img/icons/dco.jpg",
+          "bgColor": "bg-yellow-100"
+        }
+      ]
+    },
+    "DATAGOV": {
+    "courseId": "DATAGOV",
+      "title": "Data Governance of Digital Solutions – From Mapping to Managing the Project",
+      "description": "Gain a comprehensive understanding of data governance.",
+      "price": "Free",  
+      "icon": "src/assets/img/icons/datagov.jpg",
+      "bgColor": "bg-indigo-100",
+      "modules": [
+        {
+          "id": 12,
+          "courseId": "DATAGOV",
+          "moduleId": "DATAGOV_MAPPING",
+          "title": "Data Governance of Digital Solutions – From Mapping to Managing the Project",
+          "description": "Gain a comprehensive understanding of data governance.",
+          "icon": "src/assets/img/icons/datagov.jpg",
+          "bgColor": "bg-indigo-100"
+        }
+      ]
     }
 }  

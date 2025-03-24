@@ -1,11 +1,59 @@
-/* For information on how to create your own theme, please see:
-http://ionicframework.com/docs/theming/ */
+/* Ionic Variables and Theming
+ * ---------------------------------------------------------------
+ * Any overrides to theme variables should be placed in this file.
+ * For more information, please see:
+ * http://ionicframework.com/docs/theming/
+ */
+:root {
+  --ion-background-color: #ffffff;
+  --ion-text-color: #000000;
+  --heading-text-color: #1a1a1a;
+}
+
+.ion-palette-dark {
+  --ion-background-color: #1e1e1e;
+  --ion-text-color: #ffffff;
+  --heading-text-color: #ffffff;
+}
+
+:root.ios {
+  --ion-background-color: var(--ion-background-color-step-50, #f2f2f6);
+  --ion-toolbar-background: var(--ion-background-color);
+  --ion-item-background: #fff;
+}
+
+:root.md {
+  --ion-background-color: var(--ion-background-color-step-100, #f9f9f9);
+  --ion-toolbar-background: var(--ion-background-color);
+  --ion-item-background: #fff;
+}
+
+.ion-palette-dark.ios,
+.ion-palette-dark.md {
+  --ion-item-background: #1c1c1d;
+}
 
 .prose ul li::marker,
 .prose ol li::marker {
   color: #ffb142;
 }
 
+.prose img {
+  margin: 0;
+}
+
+.prose .mr-10 {
+  margin-right: 10px;
+}
+
+.prose .ml-10 {
+  margin-right: 10px;
+}
+
 .logo {
-    border-radius: 10px;
+  border-radius: 10px;
+}
+
+.prose div {
+  display: flex;
 }

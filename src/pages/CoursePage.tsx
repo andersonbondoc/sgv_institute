@@ -1,34 +1,49 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { useParams, useHistory } from "react-router-dom";
-import { 
-  IonContent, 
-  IonPage, 
-  IonHeader, 
-  IonToolbar, 
-  IonButtons, 
-  IonButton, 
-  IonTitle, 
-  IonIcon 
+import {
+  IonContent,
+  IonPage,
+  IonHeader,
+  IonToolbar,
+  IonButtons,
+  IonButton,
+  IonTitle,
+  IonIcon,
+  IonAlert,
+  IonInput,
+  IonItem,
+  IonLabel,
+  IonText,
 } from "@ionic/react";
 import { arrowBackOutline } from "ionicons/icons";
 import CourseContentComponent from "../components/CourseContentComponent";
+import ConfirmExitModal from "../components/ConfirmExitModal";
+import VoucherCard from "../components/VoucherCard";
 
 const CoursePage: React.FC = () => {
   const { courseId } = useParams<{ courseId: string }>();
   const history = useHistory();
   const [courses, setCourses] = useState<any>(null);
   const [loading, setLoading] = useState(true);
-    
+  const [modalOpen, setModalOpen] = useState(false);
+  const [showVoucherCard, setShowVoucherCard] = useState(true);
+
   useEffect(() => {
     fetch("/courseList.json")
       .then((response) => {
         if (!response.ok) {
           throw new Error("Failed to fetch course list");
         }
-        
+
         return response.json();
       })
       .then((data) => {
+        const checkVoucher = localStorage.getItem("isCorrectVoucher");
+        if (checkVoucher === "true") {
+          setShowVoucherCard(false);
+        } else {
+          setShowVoucherCard(true);
+        }
         setCourses(data);
         setLoading(false);
       })
@@ -37,6 +52,16 @@ const CoursePage: React.FC = () => {
         setLoading(false);
       });
   }, []);
+
+  const handleBackButton = () => {
+    setModalOpen(false);
+    // Object.keys(localStorage).forEach((key) => {
+    //   if (key !== "user") {
+    //     localStorage.removeItem(key);
+    //   }
+    // });
+    history.goBack();
+  };
 
   if (loading) {
     return (
@@ -59,7 +84,7 @@ const CoursePage: React.FC = () => {
         <IonHeader>
           <IonToolbar>
             <IonButtons slot="start">
-              <IonButton onClick={() => history.goBack()}>
+              <IonButton onClick={handleBackButton}>
                 <IonIcon icon={arrowBackOutline} slot="start" />
                 Back
               </IonButton>
@@ -74,29 +99,7 @@ const CoursePage: React.FC = () => {
     );
   }
 
-  // Get the specific course based on courseId from the URL
   const course = courses[courseId];
-
-  if (!course) {
-    return (
-      <IonPage>
-        <IonHeader>
-          <IonToolbar>
-            <IonButtons slot="start">
-              <IonButton onClick={() => history.goBack()}>
-                <IonIcon icon={arrowBackOutline} slot="start" />
-                Back
-              </IonButton>
-            </IonButtons>
-            <IonTitle>Not Found</IonTitle>
-          </IonToolbar>
-        </IonHeader>
-        <IonContent className="p-6">
-          <h2 className="text-xl text-red-500">Course not found!</h2>
-        </IonContent>
-      </IonPage>
-    );
-  }
 
   return (
     <IonPage>
@@ -104,7 +107,7 @@ const CoursePage: React.FC = () => {
       <IonHeader>
         <IonToolbar>
           <IonButtons slot="start">
-            <IonButton onClick={() => history.goBack()}>
+            <IonButton onClick={() => setModalOpen(true)}>
               <IonIcon icon={arrowBackOutline} slot="start" />
               Back
             </IonButton>
@@ -115,16 +118,24 @@ const CoursePage: React.FC = () => {
 
       {/* Course Content */}
       <IonContent className="p-6">
-        <div className="p-4">
+        <div className="max-w-6xl mx-auto p-4">
           <div className="text-center space-y-4 mt-4 hidden md:block lg:hidden">
             <h1 className="text-2xl font-bold">{course.title}</h1>
             <p>{course.description}</p>
             <p className="text-indigo-500 font-medium">{course.price}</p>
           </div>
-          
+
           <CourseContentComponent />
+          <ConfirmExitModal
+            isOpen={modalOpen}
+            onClose={() => setModalOpen(false)}
+            onConfirm={handleBackButton}
+          />
         </div>
       </IonContent>
+      {showVoucherCard && (
+        <VoucherCard onClose={() => setShowVoucherCard(false)} />
+      )}
     </IonPage>
   );
 };
