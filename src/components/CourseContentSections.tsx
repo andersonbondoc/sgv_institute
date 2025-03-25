@@ -316,7 +316,7 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
         <div className="text-2xl text-yellow-500 font-bold mb-6">
           {currentSection.title}
         </div>
-        <div className="text-[15px] text-yellow-500 font-bold mb-6">
+        <div className="text-[18px] text-yellow-500 font-bold mb-6">
           {currentSection.subheader}
         </div>
 
@@ -340,7 +340,7 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
         <div className="text-2xl text-yellow-500 font-bold mb-6">
           {currentSection.title}
         </div>
-        <div className="text-[15px] text-yellow-500 font-bold mb-6">
+        <div className="text-[18px] text-yellow-500 font-bold mb-6">
           {currentSection.subheader}
         </div>
         <div className="grid grid-cols-3 gap-3 ">
@@ -417,7 +417,7 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
                   <div className="text-2xl text-yellow-500 font-bold mb-6">
                     {currentSection.title}
                   </div>
-                  <div className="text-[15px] text-yellow-500 font-bold mb-6">
+                  <div className="text-[18px] text-yellow-500 font-bold mb-6">
                     {currentSection.subheader}
                   </div>
                   <div
