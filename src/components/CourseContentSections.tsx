@@ -302,7 +302,10 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
       console.error("Failed to save exam result:", error);
     } else {
       setFinishedModule(true);
-      onBackToModules();
+      if (currentSection?.title === "Module Post-Examination") {
+        onBackToModules();
+      }
+      // onBackToModules();
     }
     handleNext();
   };
