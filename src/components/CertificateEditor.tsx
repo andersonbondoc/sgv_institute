@@ -111,8 +111,8 @@ const CertificateEditor: React.FC<CertificateEditorProps> = ({
             font: fontRegular,
             size: 14,
           },
-          { text: `${wblTitle}`, font: fontBold, size: 14 },
-          { text: " specifically: ", font: fontRegular, size: 14 },
+          { text: `${wblTitle} `, font: fontBold, size: 14 },
+          { text: "  specifically: ", font: fontRegular, size: 14 },
         ],
         startY
       );
