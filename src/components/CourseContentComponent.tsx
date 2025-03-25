@@ -4,6 +4,7 @@ import { IonButton, IonCard, IonCardContent } from "@ionic/react";
 import CourseContentSection from "./CourseContentSections";
 import CertificateEditor from "./CertificateEditor";
 import { supabase } from "../queries/supabaseClient"; // Adjust the import path as needed
+import LoaderSection from "./Loader";
 
 const CourseContentComponent: React.FC = () => {
   const [selectedModule, setSelectedModule] = useState<string | null>(null);
@@ -24,7 +25,7 @@ const CourseContentComponent: React.FC = () => {
   const [totalSections, setTotalSections] = useState<Record<string, number>>(
     {}
   );
-
+  const [isLoading, setIsLoading] = useState(false);
   useEffect(() => {
     const storedUser = localStorage.getItem("user");
     if (!storedUser) {
@@ -37,6 +38,7 @@ const CourseContentComponent: React.FC = () => {
   }, []);
 
   useEffect(() => {
+    setLoading(true);
     fetch("/courseList.json")
       .then((response) => {
         if (!response.ok) {
@@ -68,6 +70,7 @@ const CourseContentComponent: React.FC = () => {
   useEffect(() => {
     const fetchProgressData = async () => {
       console.log("initiate");
+      setLoading(true);
       const storedUser = localStorage.getItem("user");
       if (!storedUser) {
         console.error("User not found");
@@ -100,6 +103,8 @@ const CourseContentComponent: React.FC = () => {
 
       setSavedProgress(progressMap);
       setTotalSections(sectionsMap);
+
+      setLoading(false);
     };
 
     if (getModuleId.length > 0) {
@@ -174,13 +179,13 @@ const CourseContentComponent: React.FC = () => {
         100
   );
 
-  if (loading) {
-    return (
-      <div className="min-h-screen p-4">
-        <p>Loading modules...</p>
-      </div>
-    );
-  }
+  // if (loading) {
+  //   return (
+  //     <div className="min-h-screen p-4">
+  //       <p>Loading modules...</p>
+  //     </div>
+  //   );
+  // }
 
   if (!loading && modules.length === 0) {
     return (
@@ -192,6 +197,10 @@ const CourseContentComponent: React.FC = () => {
 
   return (
     <div>
+      <LoaderSection
+        isOpen={loading || isLoading}
+        message="Loading, please wait..."
+      />
       {!selectedModule ? (
         <div className="space-y-6 p-4">
           {modules.map((module, index) => {
@@ -213,30 +222,32 @@ const CourseContentComponent: React.FC = () => {
                     handleSelectedModule(module, module.moduleId, index);
                   }
                 }}
-                className={`bg-slate-100 transition duration-300 rounded-lg relative ${
+                className={`bg-slate-100 transition duration-300 rounded-lg ${
                   index === 0 ||
                   completionPercentages[getModuleId[index - 1]] === 100
                     ? "cursor-pointer hover:shadow-xl"
                     : "cursor-not-allowed opacity-50"
                 }`}
               >
-                <IonCardContent className="flex items-center space-x-4">
-                  <img
-                    src={module.icon}
-                    alt={module.title}
-                    className="w-12 h-12 rounded-full"
-                  />
-                  <div>
-                    <div className="text-2xl font-bold text-yellow-600">
-                      {module.title}
-                    </div>
-                    <div className="text-xl mt-4 text-stone-700">
-                      {module.description}
+                <IonCardContent className="flex flex-col sm:flex-row items-center justify-between space-y-4 sm:space-y-0">
+                  <div className="flex items-center space-x-4">
+                    <img
+                      src={module.icon}
+                      alt={module.title}
+                      className="w-12 h-12 rounded-full"
+                    />
+                    <div>
+                      <div className="text-2xl font-bold text-yellow-600">
+                        {module.title}
+                      </div>
+                      <div className="text-xl text-stone-700">
+                        {module.description}
+                      </div>
                     </div>
                   </div>
-                  <div className="absolute top-4 right-4 w-32 h-8 bg-gray-200 rounded-lg flex items-center justify-center">
+                  <div className="w-24 h-6 sm:w-32 top-4 right-4 sm:h-8 rounded-lg flex items-center justify-center">
                     <span
-                      className={`text-sm font-semibold ${
+                      className={`text-xs sm:text-xs font-semibold ${
                         moduleCompletion === 100
                           ? "text-green-600"
                           : "text-red-600"
