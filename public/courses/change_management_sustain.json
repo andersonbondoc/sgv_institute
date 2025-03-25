@@ -66,7 +66,7 @@
       {
         "order": 3,
         "title": "Module Credit and Completion Requirements and Learning Objective",
-        "body": "<h2>Credit and Completion Requirements</h2> <ul> <li>To receive proper learning credit and achieve the learning objectives, you must not skip any screens.</li> <li>Complete all interactions.</li> <li>Complete all practice questions.</li> <li>Pass the final assessment with at least 70%</li> <li>While completing the assessment, you are welcome to refer to the content of this course as much as you need, but you must complete the assessment alone. Using answers received from others, including any form of artificial intelligence, to complete an assessment is cheating.</li> </ul><p>Please note that this learning will expire in April 25,2025. You must complete and pass all of the scored portions of this course within this period, or your related learning progress will be removed.</p> <h2>Module Learning Objectives</h2> <p>Upon successful completion of the course, you will be able to:</p> <ul> <li>Demonstrate the essential skills and knowledge required to effectively serve as Change Managers on projects.</li> <li>Understand key change management concepts, theories, and frameworks, with a focus on the human side of change.</li> <li>Understand the importance of the sustaining change phase in change management.</li> <li>Learn how to reinforce changes.</li> <li>Gain knowledge on strategies for sustaining change.</li> </ul>",
+        "body": "<h4>Credit and Completion Requirements</h4> <p>To successfully earn credit and meet the learning objectives of this Web-Based Learning Application, it is essential to engage with every page, complete all knowledge checks, and complete the initial and final assessment independently. The assessment will require a <b>70% passing rate</b> and while you are encouraged to refer to your notes of the course content during the assessment, any form of cheating is discouraged. Please also note that this course will expire by <b>April 25, 2025.</b></p> <h4>Module Learning Objectives</h4> <p>Upon successful completion of the course, you will be able to:</p> <ul> <li>Demonstrate the essential skills and knowledge required to effectively serve as Change Managers on projects.</li> <li>Understand key change management concepts, theories, and frameworks, with a focus on the human side of change.</li> <li>Understand the importance of the sustaining change phase in change management.</li> <li>Learn how to reinforce changes.</li> <li>Gain knowledge on strategies for sustaining change.</li> </ul>",
         "image": "src/assets/img/general images/CreditCompletionLearningObjectives.jpg"
       },
       {
@@ -74,27 +74,28 @@
         "title": "Sustain Change Lessons",
         "subheader": "Monitoring Change Management KPIs: Your Roadmap to Success",
         "body": "<h4>Learning Objectives</h4> <p>At the end of this lesson, you will be able to:</p> <ul> <li>Understand the change experience concept</li> <li>Learn how to reinforce changes.</li> <li>Realize the importance of stakeholder proficiency</li> <li>Understand the role of adoption and compliance in change management</li> </ul>",
-        "image": "src/assets/img/change management/Sustain/PMFIDS_CM_order4.jpg"
+        "image": "src/assets/img/change management/Sustain/order4.jpg"
       },
       {
         "order": 5,
+        "layout": "image righthand portion",
         "title": "Sustain Change",
         "subheader": "Monitoring Change Management KPIs: Your Roadmap to Success",
-        "body": "Monitoring change management KPIs provides organizations with measurable indicators of progress and effectiveness, serving as a roadmap to success. This enables them to track the impact of change initiatives, make informed adjustments, and ensure alignment with strategic goals throughout the transformation process.",
-        "image": "src/assets/img/change management/Sustain/PMFIDS_CM_order5.jpg"
+        "body": "<p>Monitoring change management KPIs provides organizations with measurable indicators of progress and effectiveness, serving as a roadmap to success. This enables them to track the impact of change initiatives, make informed adjustments, and ensure alignment with strategic goals throughout the transformation process.<p>",
+        "image": "src/assets/img/change management/Sustain/order5.jpg"
       },
       {
         "order": 6,
+        "layout": "col-1",
         "title": "Recap of Change Management KPIs",
-        "body": "<ul> <li>KPIs play a critical role in change management by providing specific, measurable values that assess an organization's progress toward strategic goals.</li> <li>Unlike broader metrics, KPIs are directly tied to key business objectives and evaluate the success of change initiatives.</li> <li>Effective KPIs are specific, measurable, achievable, relevant, time-bound, actionable, and consistent, offering valuable insights for decision-making.</li> <li>Aligning KPIs with change objectives involves defining clear goals, engaging stakeholders, and regularly reviewing progress to foster accountability. A Benefits Realization Plan (BRP) is also essential for tracking and sustaining the anticipated benefits of change initiatives, enhancing the likelihood of successful implementation and long-term success.</li> </ul>",
-        "image": "src/assets/img/change management/Sustain/PMFIDS_CM_order6.jpg"
+        "body": "<ul> <li>KPIs play a critical role in change management by providing specific, measurable values that assess an organization's progress toward strategic goals.</li> <li>Unlike broader metrics, KPIs are directly tied to key business objectives and evaluate the success of change initiatives.</li> <li>Effective KPIs are specific, measurable, achievable, relevant, time-bound, actionable, and consistent, offering valuable insights for decision-making.</li> <li>Aligning KPIs with change objectives involves defining clear goals, engaging stakeholders, and regularly reviewing progress to foster accountability. A Benefits Realization Plan (BRP) is also essential for tracking and sustaining the anticipated benefits of change initiatives, enhancing the likelihood of successful implementation and long-term success.</li> </ul>"
       },
       {
         "order": 7,
         "layout": "col-2",
         "title": "Change Experience",
         "subheader": "Change Experience Concept",
-        "col1": "<h4>Definition and Importance of Change Experience</h4> <h5>Change Experience</h5> <ul> <li>refers to employees’ subjective experiences during organizational change, encompassing their awareness, understanding, acceptance, and adaptation.</li> <li>includes how individuals perceive the change, the support they receive, and its impact on their roles and responsibilities.</li> <li>ultimately influences the long-term success of change initiatives.</li> </ul>",
+        "col1": "<h4>Definition and Importance of Change Experience</h4> <h5><b>Change Experience</b></h5> <ul> <li>refers to employees’ subjective experiences during organizational change, encompassing their awareness, understanding, acceptance, and adaptation.</li> <li>includes how individuals perceive the change, the support they receive, and its impact on their roles and responsibilities.</li> <li>ultimately influences the long-term success of change initiatives.</li> </ul>",
         "col2": "<h4>Importance of Change Experience</h4> <ul> <li>A positive change experience enhances employee engagement; when individuals feel supported and involved, they are more likely to commit to the new direction.</li> <li>Organizations that prioritize the human side of change are more likely to achieve their objectives and sustain improvements over time.</li><li>Examples include participation, satisfaction, and communication effectiveness.</li> </ul>"
       },
       {
@@ -102,7 +103,7 @@
         "layout": "col-1",
         "title": "Change Experience",
         "subheader": "Change Experience Concept",
-        "col1": "<h4>The Stages of Change Experience</h4> <p>The change experience unfolds through several stages, resembling a journey as individuals and organizations adapt to new circumstances. Based on the ADKAR Model by Prosci, the stages of the change experience are as follows:</p> <div><img src=''></div> <p>Understanding the stages of the change experience is crucial for leaders and change managers. By recognizing individuals' positions in their journey, organizations can tailor support, communication, and resources to facilitate a smoother transition.</p>"
+        "body": "<h4>The Stages of Change Experience</h4> <p>The change experience unfolds through several stages, resembling a journey as individuals and organizations adapt to new circumstances. Based on the ADKAR Model by Prosci, the stages of the change experience are as follows:</p> <img src='src/assets/img/change management/Sustain/order8.jpg'> <p>Understanding the stages of the change experience is crucial for leaders and change managers. By recognizing individuals' positions in their journey, organizations can tailor support, communication, and resources to facilitate a smoother transition.</p>"
       },
       {
         "order": 9,
@@ -122,21 +123,23 @@
       },
       {
         "order": 10,
+        "layout": "image righthand portion",
         "title": "Change Experience",
         "subheader": "Supporting Employees Through Change",
         "body": "<h4>Providing Emotional and Psychological Support to Employees during Change</h4> <p>Offering emotional and psychological support to employees during times of change is vital for promoting resilience, engagement, and overall well-being.</p>",
-        "image": "src/assets/img/change management/Sustain/PMFIDS_CM_order10.jpg"
+        "image": "src/assets/img/change management/Sustain/order10.jpg"
       },
       {
         "order": 11,
         "layout": "col-2",
         "title": "Stakeholder Proficiency",
         "subheader": "Overview of the Stakeholder Proficiency",
-        "col1": "<h4>Stakeholder Proficiency in Change Management</h4> <ul> <li>refers to the ability of individuals or groups affected by a change initiative to understand, engage with, and contribute effectively to the change process.</li> <li>includes their knowledge of the change, skills in navigating it, and capacity to influence and support others during the transition.</li> </ul> <p>Proficient stakeholders are not only aware of the change but also equipped to advocate for it, address concerns, and facilitate smooth implementation.</p>",
-        "col2": "<h4>Why is stakeholder proficiency important?</h4> <ul> <li>When stakeholders understand the change and its implications, they are more likely to support it, resulting in greater buy-in and commitment across the organization.</li> <li>Proficient stakeholders facilitate a smoother transition to new processes, systems, or structures by guiding others and proactively addressing concerns.</li> <li>They can identify potential challenges and collaboratively develop solutions, minimizing disruptions during the change process.</li> </ul>"
+        "col1": "<h4>Stakeholder Proficiency in Change Management</h4> <ul> <li>refers to the ability of individuals or groups affected by a change initiative to understand, engage with, and contribute effectively to the change process</li> <li>includes their knowledge of the change, skills in navigating it, and capacity to influence and support others during the transition</li> </ul> <p>Proficient stakeholders are not only aware of the change but also equipped to advocate for it, address concerns, and facilitate smooth implementation</p>",
+        "col2": "<h4>Why is stakeholder proficiency important?</h4> <ul> <li>When stakeholders understand the change and its implications, they are more likely to support it, resulting in greater buy-in and commitment across the organization</li> <li>Proficient stakeholders facilitate a smoother transition to new processes, systems, or structures by guiding others and proactively addressing concerns</li> <li>They can identify potential challenges and collaboratively develop solutions, minimizing disruptions during the change process</li> </ul>"
       },
       {
         "order": 12,
+        "layout": "image righthand portion",
         "title": "Stakeholder Proficiency",
         "subheader": "Assessing Stakeholder Proficiency",
         "body": "<h4>Techniques for Assessing the Current Proficiency Levels of Stakeholders</h4> <p>Assessing stakeholders' current proficiency levels is crucial for effective change management. This evaluation identifies gaps in knowledge, skills, and engagement, enabling organizations to tailor their change strategies accordingly.</p>",
@@ -144,10 +147,11 @@
       },
       {
         "order": 13,
+        "layout": "image righthand portion",
         "title": "Stakeholder Proficiency",
         "subheader": "Assessing Stakeholder Proficiency",
         "body": "<h4>Using Tools to Evaluate Proficiency</h4> <p>Utilizing tools like surveys, interviews, and competency assessments effectively evaluates stakeholder proficiency in change management. Each tool offers distinct advantages and provides valuable insights into stakeholders' skills, knowledge, and capabilities.</p>",
-        "image": "src/assets/img/change management/Sustain/PMFIDS_CM_order13.jpg"
+        "image": "src/assets/img/change management/Sustain/order13.jpg"
       },
       {
         "order": 14,
@@ -170,153 +174,159 @@
         "layout": "col-2",
         "title": "Adoption and Compliance",
         "subheader": "Understanding Adoption and Compliance",
-        "col1": "<h4>Definition and Importance of Adoption and Compliance in Change Management</h4> <h5>Adoption</h5> <p>In change management, adoption refers to the process by which individuals or groups accept and integrate new changes, practices, or technologies into their daily routines. It involves not only understanding the change but also actively using and supporting it. Successful adoption indicates that stakeholders have embraced the change and are utilizing it as intended.</p> <h5>Compliance</h5> <p>Compliance refers to adherence to established policies, procedures, regulations, or standards associated with the change initiative. It ensures that individuals and organizations follow the guidelines set during the change process. Compliance is often linked to legal, regulatory, or organizational requirements that must be met to avoid risks or penalties.</p>",
-        "col2": "<h4>Importance of Adoption and Compliance</h4> <ul><li>Enhances Effectiveness: Successful adoption facilitates the effective implementation of new processes or technologies. When employees understand and embrace changes, they are more likely to use them effectively, leading to improved performance and productivity.</li><li>Supports Continuous Improvement: Adoption and compliance establish a foundation for continuous improvement. Organizations can build on successful changes and implement further enhancements, ensuring they remain competitive and responsive to market demands.</li><li>Drives Organizational Culture: A culture that values adoption and compliance fosters accountability and responsibility. It encourages employees to embrace change and adhere to standards, resulting in a more agile and resilient organization.</li></ul>"
+        "col1": "<h4>Definition and Importance of Adoption and Compliance in Change Management</h4> <h5><b>Adoption</b></h5> <p>In change management, adoption refers to the process by which individuals or groups accept and integrate new changes, practices, or technologies into their daily routines. It involves not only understanding the change but also actively using and supporting it. Successful adoption indicates that stakeholders have embraced the change and are utilizing it as intended.</p> <h5><b>Compliance</b></h5> <p>Compliance refers to adherence to established policies, procedures, regulations, or standards associated with the change initiative. It ensures that individuals and organizations follow the guidelines set during the change process. Compliance is often linked to legal, regulatory, or organizational requirements that must be met to avoid risks or penalties.</p>",
+        "col2": "<h4>Importance of Adoption and Compliance</h4> <ul><li><b>Enhances Effectiveness</b> - Successful adoption facilitates the effective implementation of new processes or technologies. When employees understand and embrace changes, they are more likely to use them effectively, leading to improved performance and productivity.</li><li><b>Supports Continuous Improvement</b> - Adoption and compliance establish a foundation for continuous improvement. Organizations can build on successful changes and implement further enhancements, ensuring they remain competitive and responsive to market demands.</li><li><b>Drives Organizational Culture</b> - A culture that values adoption and compliance fosters accountability and responsibility. It encourages employees to embrace change and adhere to standards, resulting in a more agile and resilient organization.</li></ul>"
       },
       {
         "order": 16,
-        "layout": "col-1",
+        "layout": "image righthand portion",
         "title": "Adoption and Compliance",
         "subheader": "Understanding Adoption and Compliance",
-        "col1": "<h4>Differences between Adoption and Compliance</h4> <p>The differences between adoption and compliance in the context of change management can be summarized as follows:</p>",
-        "image": "src/assets/img/change management/Sustain/PMFIDS_CM_order16.jpg"
+        "body": "<h4>Differences between Adoption and Compliance</h4> <p>The differences between adoption and compliance in the context of change management can be summarized as follows:</p>",
+        "image": "src/assets/img/change management/Sustain/order16.jpg"
       },
       {
         "order": 17,
         "layout": "col-2",
         "title": "Adoption and Compliance",
         "subheader": "Understanding Adoption and Compliance",
-        "col1": "<h4>The Roles of Adoption and Compliance in Achieving Successful Change Outcomes</h4> <p>The roles of adoption and compliance are crucial in achieving successful change outcomes within an organization. Here's how each contributes to the overall success of change initiatives:</p> <div><img src='src/assets/img/change management/Sustain/PMFIDS_CM_order17.jpg'></div>",
-        "col2": "<p>For successful change outcomes, organizations must integrate both adoption and compliance:</p> <div><img src='src/assets/img/change management/Sustain/PMFIDS_CM_order17_1.jpg'></div> <p>Fostering a culture that values both engagement and adherence to standards, organizations can achieve their change objectives and drive long-term success.</p>"
+        "col1": "<h4>The Roles of Adoption and Compliance in Achieving Successful Change Outcomes</h4> <p>The roles of adoption and compliance are crucial in achieving successful change outcomes within an organization. Here's how each contributes to the overall success of change initiatives:</p> <img src='src/assets/img/change management/Sustain/order17.jpg'>",
+        "col2": "<p>For successful change outcomes, organizations must integrate both adoption and compliance:</p> <img src='src/assets/img/change management/Sustain/order17_1.jpg'> <p>Fostering a culture that values both engagement and adherence to standards, organizations can achieve their change objectives and drive long-term success.</p>"
       },
       {
         "order": 18,
         "layout": "col-2",
         "title": "Adoption and Compliance",
         "subheader": "Factors Influencing Adoption",
-        "col1": "<h4>Identifying Factors that Influence the Adoption of Change</h4> <p>Several factors influence the adoption of change within an organization. By understanding these factors, leaders and change managers can facilitate a smoother transition and increase the likelihood of successful change implementation. Here are some key factors:</p>",
-        "col2": "<ul> <li>Values and Beliefs: The underlying values and beliefs of an organization shape employees' perceptions and responses to change. A culture that prioritizes innovation, flexibility, and continuous improvement is more likely to embrace change.</li> <li>Visible Commitment: Strong support from leadership is essential for driving change. Leaders who actively endorse and participate in the change process inspire confidence and motivate employees to adopt new practices.</li> <li>Participation in Decision-Making: Involving employees in the change process by soliciting their input and feedback increases their sense of ownership and commitment to the change.</li> <li>Recognition and Rewards: Implementing incentive programs that recognize and reward employees for adopting new practices can motivate individuals to embrace change.</li> <li>Market Dynamics: Changes in the external environment, such as market trends, competitive pressures, or regulatory requirements, can influence the urgency and necessity of adopting change.</li> </ul>"
+        "col1": "<h4>Identifying Factors that Influence the Adoption of Change</h4> <p>Several factors influence the adoption of change within an organization. By understanding these factors, leaders and change managers can facilitate a smoother transition and increase the likelihood of successful change implementation. Here are some key factors:</p><ul> <li><b>Values and Beliefs</b> - The underlying values and beliefs of an organization shape employees' perceptions and responses to change. A culture that prioritizes innovation, flexibility, and continuous improvement is more likely to embrace change.</li> <li><b>Visible Commitment</b> - Strong support from leadership is essential for driving change. Leaders who actively endorse and participate in the change process inspire confidence and motivate employees to adopt new practices.</li> <li><b>Participation in Decision-Making</b> - Involving employees in the change process by soliciting their input and feedback increases their sense of ownership and commitment to the change.</li> </ul>",
+        "col2": "<ul><li><b>Recognition and Rewards</b> - Implementing incentive programs that recognize and reward employees for adopting new practices can motivate individuals to embrace change.</li> <li><b>Market Dynamics</b> - Changes in the external environment, such as market trends, competitive pressures, or regulatory requirements, can influence the urgency and necessity of adopting change.</li> </ul>"
       },
       {
         "order": 19,
         "layout": "col-2",
         "title": "Adoption and Compliance",
         "subheader": "Factors Influencing Adoption",
-        "col1": "<h4>Understanding Individual and Group Motivation for Adopting Change</h4> <p>Understanding the motivations of individuals and groups for adopting change is crucial for successful change management, as these motivations can vary significantly based on personal, social, and organizational factors.</p> <h4>Individual Motivations</h4> <div><img src='src/assets/img/change management/Sustain/PMFIDS_CM_order19.jpg'></div>",
-        "col2": "<h5>Group Motivations</h5> <div><img src='src/assets/img/change management/Sustain/PMFIDS_CM_order19_1.jpg'></div>"
+        "col1": "<h4>Understanding Individual and Group Motivation for Adopting Change</h4> <p>Understanding the motivations of individuals and groups for adopting change is crucial for successful change management, as these motivations can vary significantly based on personal, social, and organizational factors.</p> <h4>Individual Motivations</h4> <img src='src/assets/img/change management/Sustain/order19.jpg'>",
+        "col2": "<h5><b>Group Motivations</b></h5> <img src='src/assets/img/change management/Sustain/order19_1.jpg'>"
       },
       {
         "order": 20,
         "layout": "col-1",
         "title": "Adoption and Compliance",
         "subheader": "Factors Influencing Adoption",
-        "col1": "<h4>Addressing Barriers to Adoption</h4> <p>Addressing barriers to adoption is crucial for successful change management. Common barriers include resistance, lack of understanding, and fear of the unknown.</p> <div><img src=''></div> <p>By understanding the root causes of resistance, lack of understanding, and fear of the unknown, organizations can implement targeted strategies for a smoother transition. Fostering an environment of open communication, support, and involvement will enhance employee engagement and commitment to the change initiative, ultimately leading to successful adoption. a culture that values both engagement and adherence to standards, organizations can achieve their change objectives and drive long-term success.</p>"
+        "body": "<h4>Addressing Barriers to Adoption</h4> <p>Addressing barriers to adoption is crucial for successful change management. Common barriers include resistance, lack of understanding, and fear of the unknown.</p> <img src='src/assets/img/change management/Sustain/order20.jpg'> <p>By understanding the root causes of resistance, lack of understanding, and fear of the unknown, organizations can implement targeted strategies for a smoother transition. Fostering an environment of open communication, support, and involvement will enhance employee engagement and commitment to the change initiative, ultimately leading to successful adoption. a culture that values both engagement and adherence to standards, organizations can achieve their change objectives and drive long-term success.</p>"
       },
       {
         "order": 21,
+        "layout": "image righthand portion",
         "title": "Adoption and Compliance",
         "subheader": "Ensuring Compliance",
         "body": "<h4>Developing Policies, Procedures, and Guidelines to Ensure Compliance with the Change</h4> <p>Developing policies, procedures, and guidelines is crucial for ensuring compliance with organizational changes. These elements create a structured framework that helps employees understand their roles, responsibilities, and expectations related to the change.</p>",
-        "image": "src/assets/img/change management/Sustain/PMFIDS_CM_order21.jpg"
+        "image": "src/assets/img/change management/Sustain/order21.jpg"
       },
       {
         "order": 22,
         "layout": "col-3",
         "title": "Adoption and Compliance",
         "subheader": "Compliance Monitoring and Reporting",
-        "col1": "<h4>Techniques for Monitoring Compliance</h4> <p>Various techniques can effectively monitor compliance, each with its own strengths and applications. Here are some key methods for monitoring compliance:</p> <h5>Compliance Audits</h5> <div><img src='src/assets/img/change management/Sustain/PMFIDS_CM_order22.jpg'></div> <p>Focus specifically on compliance with regulatory requirements, industry standards, and organizational policies. These audits help ensure that the organization meets legal and regulatory obligations.</p>",
-        "col2": "<h4>Process Inspections</h4> <div><img src='src/assets/img/change management/Sustain/PMFIDS_CM_order22_1.jpg'></div> <p>Review specific processes or activities to ensure they align with established procedures. This can include checking for proper documentation, equipment usage, and adherence to protocols.</p>",
-        "col3": "<h5>Team Performance Reviews</h5> <div><img src='src/assets/img/change management/Sustain/PMFIDS_CM_order22_2.jpg'></div> <p>Evaluate team performance based on compliance with organizational standards. Recognize teams that demonstrate exemplary adherence and address areas for improvement.</p>"
+        "col1": "<h4>Techniques for Monitoring Compliance</h4> <p>Various techniques can effectively monitor compliance, each with its own strengths and applications. Here are some key methods for monitoring compliance:</p> <h5><b>Compliance Audits</b></h4> <p>Focus specifically on compliance with regulatory requirements, industry standards, and organizational policies. These audits help ensure that the organization meets legal and regulatory obligations.</p>",
+        "col2": "<h5><b>Process Inspections</b></h5> <p>Review specific processes or activities to ensure they align with established procedures. This can include checking for proper documentation, equipment usage, and adherence to protocols.</p>",
+        "col3": "<h5><b>Team Performance Reviews</b></h5> <p>Evaluate team performance based on compliance with organizational standards. Recognize teams that demonstrate exemplary adherence and address areas for improvement.</p>"
       },
       {
         "order": 23,
         "layout": "col-1",
         "title": "Adoption and Compliance",
         "subheader": "Compliance Monitoring and Reporting",
-        "col1": "<h4>Using Technology and Tools to Track Compliance</h4> <p>Utilizing technology and tools to track compliance is essential for organizations to efficiently monitor adoption and compliance. These solutions streamline the compliance process, enhance visibility, and improve overall effectiveness. Here are some key technologies and tools for tracking compliance:</p> <div><img src='src/assets/img/change management/Sustain/PMFIDS_CM_order23.jpg'></div> <p>By implementing these technologies, organizations can enhance visibility, streamline processes, and cultivate a culture of compliance, ultimately supporting successful change initiatives and mitigating risks.</p>"
+        "body": "<h4>Using Technology and Tools to Track Compliance</h4> <p>Utilizing technology and tools to track compliance is essential for organizations to efficiently monitor adoption and compliance. These solutions streamline the compliance process, enhance visibility, and improve overall effectiveness. Here are some key technologies and tools for tracking compliance:</p> <img src='src/assets/img/change management/Sustain/order23.jpg'> <p>By implementing these technologies, organizations can enhance visibility, streamline processes, and cultivate a culture of compliance, ultimately supporting successful change initiatives and mitigating risks.</p>"
       },
       {
         "order": 24,
         "layout": "col-1",
         "title": "Adoption and Compliance",
         "subheader": "Compliance Monitoring and Reporting",
-        "col1": "<h4>Reporting Compliance Status to Stakeholders and Decision-Makers</h4> <p>Reporting compliance status to stakeholders and decision-makers is crucial for effective compliance management. Clear and transparent reporting ensures that all relevant parties are informed about compliance levels, potential risks, and areas for improvement.</p> <div><img src='src/assets/img/change management/Sustain/PMFIDS_CM_order24.jpg'></div> <p>Reporting compliance status to stakeholders and decision-makers is vital for maintaining transparency, accountability, and informed decision-making within an organization. By developing a clear format, providing context and analysis, and including actionable recommendations, organizations can effectively communicate compliance status and foster a culture of compliance. This proactive approach enhances compliance management and supports overall organizational success.</p>"
+        "body": "<h4>Reporting Compliance Status to Stakeholders and Decision-Makers</h4> <p>Reporting compliance status to stakeholders and decision-makers is crucial for effective compliance management. Clear and transparent reporting ensures that all relevant parties are informed about compliance levels, potential risks, and areas for improvement.</p> <img src='src/assets/img/change management/Sustain/order24.jpg'> <p>Reporting compliance status to stakeholders and decision-makers is vital for maintaining transparency, accountability, and informed decision-making within an organization. By developing a clear format, providing context and analysis, and including actionable recommendations, organizations can effectively communicate compliance status and foster a culture of compliance. This proactive approach enhances compliance management and supports overall organizational success.</p>"
       },
       {
         "order": 25,
+        "layout": "col-1",
         "title": "Adoption and Compliance",
         "subheader": "Addressing Non-Compliance",
-        "body": "<h4>Identifying Reasons for Non-Compliance</h4> <p>Identifying reasons for non-compliance can be crucial for organizations to address issues effectively. Here are some common reasons for non-compliance:</p> <ul> <li>Lack of Awareness: Employees may not have easy access to compliance-related documents, policies, or resources, making it difficult for them to stay informed.</li> <li>Resistance to Change: Employees may resist compliance due to fear of the unknown or anxiety about how changes will impact their roles and responsibilities.</li> <li>Complexity of Regulations: Complex or ambiguous regulations can lead to misunderstandings and misinterpretations, resulting in non-compliance.</li> <li>Lack of Accountability: If compliance is not consistently enforced across the organization, employees may perceive it as unimportant and choose not to adhere to policies.</li> <li>Lack of Support from Leadership: If leadership does not demonstrate a strong commitment to compliance, employees may not take it seriously or prioritize it in their work.</li> </ul>"
+        "body": "<h4>Identifying Reasons for Non-Compliance</h4> <p>Identifying reasons for non-compliance can be crucial for organizations to address issues effectively. Here are some common reasons for non-compliance:</p> <ul> <li><b>Lack of Awareness</b> - Employees may not have easy access to compliance-related documents, policies, or resources, making it difficult for them to stay informed.</li> <li><b>Resistance to Change</b> - Employees may resist compliance due to fear of the unknown or anxiety about how changes will impact their roles and responsibilities.</li> <li><b>Complexity of Regulations</b> - Complex or ambiguous regulations can lead to misunderstandings and misinterpretations, resulting in non-compliance.</li> <li><b>Lack of Accountability</b> - If compliance is not consistently enforced across the organization, employees may perceive it as unimportant and choose not to adhere to policies.</li> <li><b>Lack of Support from Leadership</b> - If leadership does not demonstrate a strong commitment to compliance, employees may not take it seriously or prioritize it in their work.</li> </ul>"
       },
       {
         "order": 26,
-        "layout": "col-1",
+        "layout": "image righthand portion",
         "title": "Adoption and Compliance",
         "subheader": "Addressing Non-Compliance",
-        "col1": "<h4>Developing Strategies to Address and Rectify Non-Compliance</h4> <p>Addressing and rectifying non-compliance is crucial for maintaining organizational integrity, mitigating risks, and ensuring adherence to policies, procedures, and regulations. Here are some effective strategies to tackle non-compliance:</p>",
-        "image": "src/assets/img/change management/Sustain/PMFIDS_CM_order26.jpg"
+        "body": "<h4>Developing Strategies to Address and Rectify Non-Compliance</h4> <p>Addressing and rectifying non-compliance is crucial for maintaining organizational integrity, mitigating risks, and ensuring adherence to policies, procedures, and regulations. Here are some effective strategies to tackle non-compliance:</p>",
+        "image": "src/assets/img/change management/Sustain/order26.jpg"
       },
       {
         "order": 27,
+        "layout": "image righthand portion",
         "title": "Adoption and Compliance",
         "subheader": "Addressing Non-Compliance",
         "body": "<h4>Implementing Corrective Actions and Providing Support to Achieve Compliance</h4> <p>Implementing corrective actions and providing support are vital steps in achieving compliance within an organization. These measures address non-compliance issues, reinforce adherence to policies and procedures, and promote a culture of accountability.</p>",
-        "image": "src/assets/img/change management/Sustain/PMFIDS_CM_order27.jpg"
+        "image": "src/assets/img/change management/Sustain/order27.jpg"
       },
       {
         "order": 28,
+        "layout": "image righthand portion",
         "title": "Adoption and Compliance",
         "subheader": "Reinforcement and Sustainability",
         "body": "<h4>Reinforcing Adoption and Compliance through Recognition and Rewards</h4> <p>Reinforcing adoption and compliance through recognition and rewards is an effective strategy for fostering a culture of accountability and encouraging employees to embrace change.</p>",
-        "image": "src/assets/img/change management/Sustain/PMFIDS_CM_order28.jpg"
+        "image": "src/assets/img/change management/Sustain/order28.jpg"
       },
       {
         "order": 29,
+        "layout": "col-3",
         "title": "Adoption and Compliance",
         "subheader": "Reinforcement and Sustainability",
-        "col1": "<h4>Ensuring that the Change is Sustained Over Time through Continuous Monitoring and Support</h4> <p>Ensuring that change is sustained over time requires a proactive approach that includes continuous monitoring, support, and reinforcement of the new behaviors and practices.</p> <h5>Establish Continuous Monitoring Mechanisms</h5> <p>Conduct periodic audits and assessments to evaluate adherence to new policies and procedures. This helps identify areas where additional support may be needed.</p>",
-        "col2": "<h5>Adapt and Evolve</h5> <p>Be open to adapting the change as needed based on feedback and changing circumstances. Continuous improvement should be a core principle of the change initiative.</p>",
-        "col3": "<h5>Measure Long-Term Impact</h5> <p>Periodically evaluate the long-term impact of the change on organizational performance, employee satisfaction, and other relevant metrics. This helps assess whether the change has achieved its intended goals.</p>"
+        "col1": "<h4>Ensuring that the Change is Sustained Over Time through Continuous Monitoring and Support</h4> <p>Ensuring that change is sustained over time requires a proactive approach that includes continuous monitoring, support, and reinforcement of the new behaviors and practices.</p> <h5><b>Establish Continuous Monitoring Mechanisms</b></h4> <p>Conduct periodic audits and assessments to evaluate adherence to new policies and procedures. This helps identify areas where additional support may be needed.</p>",
+        "col2": "<h5><b>Adapt and Evolve</b></h5> <p>Be open to adapting the change as needed based on feedback and changing circumstances. Continuous improvement should be a core principle of the change initiative.</p>",
+        "col3": "<h5><b>Measure Long-Term Impact<b></h5> <p>Periodically evaluate the long-term impact of the change on organizational performance, employee satisfaction, and other relevant metrics. This helps assess whether the change has achieved its intended goals.</p>"
       },
       {
         "order": 30,
+        "layout": "image righthand portion",
         "title": "Adoption and Compliance",
         "subheader": "Continuous Improvement",
         "body": "<h4>Regularly Reassessing Adoption and Compliance Levels and Addressing New Gaps</h4> <p>Regularly reassessing adoption and compliance levels is essential for ensuring that organizations remain aligned with their goals, regulatory requirements, and best practices. This ongoing evaluation helps identify new gaps, adapt to changes, and reinforce a culture of continuous improvement.</p>",
-        "image": "src/assets/img/change management/Sustain/PMFIDS_CM_order30.jpg"
+        "image": "src/assets/img/change management/Sustain/order30.jpg"
       },
       {
         "order": 31,
-        "layout": "col-1",
+        "layout": "image righthand portion",
         "title": "Tracking KPIs",
         "subheader": "How to effectively track identified KPIs",
-        "col1": "src/assets/img/change management/Sustain/PMFIDS_CM_order31.jpg"
+        "image": "src/assets/img/change management/Sustain/order31.jpg"
       },
       {
         "order": 32,
-        "layout": "col-1",
+        "layout": "image righthand portion",
         "title": "Tracking KPIs",
         "subheader": "Setting Up your KPI Trackers",
-        "col1": "src/assets/img/change management/Sustain/PMFIDS_CM_order32.jpg"
+        "image": "src/assets/img/change management/Sustain/order32.jpg"
       },
       {
         "order": 33,
-        "layout": "col-1",
+        "layout": "image righthand portion",
         "title": "Tracking KPIs",
         "subheader": "KPI Tracker Sample",
-        "col1": "src/assets/img/change management/Sustain/PMFIDS_CM_order33.jpg"
+        "image": "src/assets/img/change management/Sustain/order33.jpg"
       },
       {
         "order": 34,
         "layout": "col-1",
         "title": "Tracking KPIs",
         "subheader": "Adjusting KPIs and Targets",
-        "col1": "<h4>Continuously Reviewing and Adjusting KPIs and Targets based on Feedback and Changing Circumstances</h4> <div><img src='src/assets/img/change management/Sustain/PMFIDS_CM_order34.jpg'></div>"
+        "body": "<h4>Continuously Reviewing and Adjusting KPIs and Targets based on Feedback and Changing Circumstances</h4> <img src='src/assets/img/change management/Sustain/order34.jpg'>"
       },
       {
         "order": 35,
         "title": "Lesson Summary",
-        "body": "<h2>Congratulations on completing Lesson 1 of this module!</h2> <p>Now that you have completed this lesson, you should be able to:</p> <ul> <li>Understand the change experience concept;</li> <li>Realize the importance of stakeholder proficiency;and</li> <li>Understand the role of adoption and compliance in change management</li> </ul>",
+        "body": "<h4>Congratulations on completing Lesson 1 of this module!</h4> <p>Now that you have completed this lesson, you should be able to:</p> <ul> <li>Understand the change experience concept;</li> <li>Realize the importance of stakeholder proficiency;and</li> <li>Understand the role of adoption and compliance in change management</li> </ul>",
         "image": "src/assets/img/general images/LessonSummary.jpg"
       },
       {
@@ -324,48 +334,57 @@
         "title": "Sustain Change Lessons",
         "subheader": "Navigating Challenges: Proactive Monitoring of Issues and Risks",
         "body": "<p>At the end of this lesson, you will be able to:</p> <ul> <li>Know what are issues and risks</li> <li>Understand the IT risk management and its aligned regulatory</li> <li>Realize the importance of crisis management</li> </ul>",
-        "image": "src/assets/img/change management/Sustain/PMFIDS_CM_order36.jpg"
+        "image": "src/assets/img/change management/Sustain/order36.jpg"
       },
       {
         "order": 37,
+        "layout": "image righthand portion",
         "title": "Sustain Change",
         "subheader": "Navigating Challenges: Proactive Monitoring of Issues and Risks",
-        "body": "Proactively monitoring issues and risks in change management is essential for identifying potential obstacles early. This enables organizations to implement timely interventions and strategies that mitigate negative impacts, ensuring a smoother transition and increasing the likelihood of successful change outcomes.",
-        "image": "src/assets/img/change management/Sustain/PMFIDS_CM_order37.jpg"
+        "body": "<p>Proactively monitoring issues and risks in change management is essential for identifying potential obstacles early. This enables organizations to implement timely interventions and strategies that mitigate negative impacts, ensuring a smoother transition and increasing the likelihood of successful change outcomes.</p>",
+        "image": "src/assets/img/change management/Sustain/order37.jpg"
       },
       {
         "order": 38,
         "layout": "col-2",
         "title": "Navigating Challenges: Proactive Monitoring of Issues and Risks",
         "subheader": "Monitoring Issues and Risks",
-        "col1": "<h4>Definition and Differences Between Issues and Risks</h4> <h5>Issues</h5> <p>Issues are problems or challenges that have already occurred and need to be addressed. They are current situations that require immediate attention and resolution. Issues can arise from various sources, including project execution, stakeholder concerns, or external factors.</p> <h5>Risks</h5> <p>Risks are potential events or situations that may occur in the future and could have a negative impact on a project or objective. Risks are uncertain and can be identified and assessed before they happen. They require proactive management to mitigate their potential effects.</p>",
-        "col2": "<h5>Differences</h5> <ul> <li>Issues are present and require immediate action, while Risks are future-oriented and may or may not occur.</li> <li>Issues are problems that have already manifested, while Risks are uncertainties that could lead to problems if they materialize.</li> <li>Risks are managed through risk assessment, mitigation strategies, and contingency planning, while Issues are managed through problem-solving and corrective actions.</li> <li>Issues can disrupt ongoing activities and require quick resolution. Risks can affect future plans and require monitoring and analysis to prevent them from becoming issues.</li> </ul>"
+        "col1": "<h4>Definition and Differences Between Issues and Risks</h4> <h5><b>Issues</b></h5> <p>Issues are problems or challenges that have already occurred and need to be addressed. They are current situations that require immediate attention and resolution. Issues can arise from various sources, including project execution, stakeholder concerns, or external factors.</p> <h5><b>Risks</b></h5> <p>Risks are potential events or situations that may occur in the future and could have a negative impact on a project or objective. Risks are uncertain and can be identified and assessed before they happen. They require proactive management to mitigate their potential effects.</p>",
+        "col2": "<h5><b>Differences of Issues and Risks</b></h5> <ul> <li>Issues are present and require immediate action, while Risks are future-oriented and may or may not occur.</li> <li>Issues are problems that have already manifested, while Risks are uncertainties that could lead to problems if they materialize.</li> <li>Risks are managed through risk assessment, mitigation strategies, and contingency planning, while Issues are managed through problem-solving and corrective actions.</li> <li>Issues can disrupt ongoing activities and require quick resolution. Risks can affect future plans and require monitoring and analysis to prevent them from becoming issues.</li> </ul>"
       },
       {
         "order": 39,
         "layout": "col-2",
         "title": "Navigating Challenges: Proactive Monitoring of Issues and Risks",
         "subheader": "Monitoring Issues and Risks",
-        "col1": "<h4>The Importance of Monitoring Issues and Risks in Change Management</h4> <p>Monitoring issues and risks in change management is crucial for several reasons:</p> <ul> <li>Valuable Data and Insights: Regular monitoring provides valuable data and insights that inform decision-making.</li> <li>Identify and Address Issues: By identifying and addressing issues and risks early, organizations can optimize resource utilization. This includes reallocating resources to areas that need attention and avoiding waste on initiatives that may be derailed by unaddressed risks.</li> </ul>",
-        "col2": "<ul> <li>Mitigation Strategies: Monitoring risks enables organizations to develop and implement mitigation strategies.</li> <li>Compliance: In many industries, monitoring issues and risks is essential for compliance with regulations and governance standards. Proper oversight ensures that organizations adhere to legal and ethical requirements during the change process.</li> </ul>"
+        "col1": "<h4>The Importance of Monitoring Issues and Risks in Change Management</h4> <p>Monitoring issues and risks in change management is crucial for several reasons:</p> <ul> <li><b>Valuable Data and Insights</b> - Regular monitoring provides valuable data and insights that inform decision-making.</li> <li><b>Identify and Address Issues</b> - By identifying and addressing issues and risks early, organizations can optimize resource utilization. This includes reallocating resources to areas that need attention and avoiding waste on initiatives that may be derailed by unaddressed risks.</li> </ul>",
+        "col2": "<ul> <li><b>Mitigation Strategies</b> - Monitoring risks enables organizations to develop and implement mitigation strategies.</li> <li><b>Compliance</b> - In many industries, monitoring issues and risks is essential for compliance with regulations and governance standards. Proper oversight ensures that organizations adhere to legal and ethical requirements during the change process.</li> </ul>"
       },
       {
         "order": 40,
+        "layout": "col-1",
         "title": "Navigating Challenges: Proactive Monitoring of Issues and Risks",
         "subheader": "Monitoring Issues and Risks",
-        "body": "<h4>Types of Risks Commonly Encountered in Change Management</h4> <ul> <li>Resistance to Change: Employees may resist changes due to fear of the unknown, loss of control, or discomfort with new processes. This can lead to decreased morale and productivity.</li> <li>Training and Skills Gaps: Employees may lack the necessary skills or knowledge to adapt to new systems or processes. Inadequate training can hinder the successful implementation of change.</li> <li>Scope Creep: Changes in project scope can lead to increased complexity, resource strain, and potential failure to meet objectives. This often occurs when additional changes are introduced without proper assessment.</li> <li>Change Fatigue: Organizations that undergo frequent changes may experience change fatigue, leading to disengagement and decreased productivity among employees.</li> <li>Timeline Risks: Delays in the change process can occur due to unforeseen challenges, leading to missed deadlines and increased costs.</li>",
-        "image": "src/assets/img/change management/Sustain/PMFIDS_CM_order40.jpg"
+        "body": "<h4>Types of Risks Commonly Encountered in Change Management</h4> <ul> <li><b>Resistance to Change</b> - Employees may resist changes due to fear of the unknown, loss of control, or discomfort with new processes. This can lead to decreased morale and productivity.</li> <li><b>Training and Skills Gaps</b> - Employees may lack the necessary skills or knowledge to adapt to new systems or processes. Inadequate training can hinder the successful implementation of change.</li> <li><b>Scope Creep</b> - Changes in project scope can lead to increased complexity, resource strain, and potential failure to meet objectives. This often occurs when additional changes are introduced without proper assessment.</li> <li><b>Change Fatigue</b> - Organizations that undergo frequent changes may experience change fatigue, leading to disengagement and decreased productivity among employees.</li> <li><b>Timeline Risks</b> - Delays in the change process can occur due to unforeseen challenges, leading to missed deadlines and increased costs.</li>"
       },
       {
         "order": 41,
-        "layout": "col-2",
+        "layout": "image righthand portion",
         "title": "IT Risk Management Standards and Guidelines",
         "subheader": "Introduction to IT Risk Management",
-        "col1": "<h4>Key Components and Terminology in IT Risk Management</h4> <div><img src='src/assets/img/change management/Sustain/PMFIDS_CM_order41.jpg'></div>",
-        "col2": "<h4>Common Risks in Consideration of Digitalization</h4> <p>Digitalization offers numerous benefits to organizations, including increased efficiency, improved customer experiences, and enhanced data analytics capabilities. However, it also introduces various risks that organizations must manage. Here are some common risks associated with digitalization:</p> <div><img src='src/assets/img/change management/Sustain/PMFIDS_CM_order41_1.jpg'></div>"
+        "body": "<h4>Key Components and Terminology in IT Risk Management</h4> ",
+        "image": "src/assets/img/change management/Sustain/PMFIDS_CM_order41.jpg"
       },
       {
-        "order": 42,
+        "order": 42, 
+        "layout": "image righthand portion",
+        "title": "IT Risk Management Standards and Guidelines",
+        "subheader": "Introduction to IT Risk Management",
+        "body": "<h4>Common Risks in Consideration of Digitalization</h4> <p>Digitalization offers numerous benefits to organizations, including increased efficiency, improved customer experiences, and enhanced data analytics capabilities. However, it also introduces various risks that organizations must manage. Here are some common risks associated with digitalization:</p>",
+        "image": "src/assets/img/change management/Sustain/order42.jpg"
+      },
+      {
+        "order": 43,
         "title": "Knowledge Check",
         "body": "What are the key components in IT Risk Management? (Select all that apply)",
         "image": "src/assets/img/general images/KnowledgeCheck.jpg",
@@ -378,242 +397,284 @@
             "D": "None of the above"
           }
         ],
-        "q_answer": "A, B, C"
-      },
-      {
-        "order": 43,
-        "title": "IT Risk Management Standards and Guidelines",
-        "subheader": "Introduction to IT Risk Management",
-        "body": "<h4>IT Risk Management Frameworks</h4> <h5>Overview of widely recognized IT risk management frameworks</h5> <ul> <li>ISO/IEC 27001: ISO/IEC 27001 is an international standard for information security management systems (ISMS). It provides a systematic approach to managing sensitive company information, ensuring its confidentiality, integrity, and availability.</li> <li>COBIT (Control Objectives for Information and Related Technologies): COBIT is a framework developed by ISACA for the governance and management of enterprise IT. It provides a comprehensive set of best practices, tools, and models to help organizations achieve their IT goals while managing risks.</li> <li>OCTAVE (Operationally Critical Threat, Asset, and Vulnerability Evaluation): OCTAVE is a risk management framework developed by Carnegie Mellon University that focuses on identifying and managing information security risks. It emphasizes the importance of organizational context and stakeholder involvement.</li> </ul>"
+        "q_answer": "A; B; C"
       },
       {
         "order": 44,
-        "layout": "col-3",
+        "layout": "col-1",
         "title": "IT Risk Management Standards and Guidelines",
         "subheader": "Introduction to IT Risk Management",
-        "col1": "<h4>BSP’s MORB Risk Management Compliance and Regulatory Requirements</h4> <p>The Bangko Sentral ng Pilipinas (BSP) has developed detailed guidelines for Information Technology (IT) Risk Management as outlined in Section 148 of the Manual of Regulations for Banks (MORB) and its related appendices. These regulations are designed to strengthen the resilience and security of banking institutions against the changing landscape of technological risks. Recent amendments to Section 148 were made to implement the Anti-Financial Account Scamming Act (AFASA), aiming to strengthen compliance frameworks for electronic products and services.</p> <div><img src='src/assets/img/change management/Sustain/PMFIDS_CM_order44.jpg'></div>",
-        "col2": "<p>Appendix 76 of the Bangko Sentral ng Pilipinas (BSP) Manual of Regulations for Banks (MORB) outlines essential guidelines for managing IT projects, acquisitions, and changes within banking institutions. This appendix emphasizes the need for structured processes to mitigate risks associated with IT developments.</p> <div><img src='src/assets/img/change management/Sustain/PMFIDS_CM_order44_1.jpg'></div>",
-        "col3": "<p>Appendix 77 focuses on the operational aspects of IT within banking institutions, highlighting standards and guidelines essential for effective IT operations management.</p>  <div><img src='src/assets/img/change management/Sustain/PMFIDS_CM_order44_2.jpg'></div>"
+        "body": "<h4>IT Risk Management Frameworks</h4> <h5><b>Overview of widely recognized IT risk management frameworks</b></h5> <ul> <li><b>ISO/IEC 27001></b> - ISO/IEC 27001 is an international standard for information security management systems (ISMS). It provides a systematic approach to managing sensitive company information, ensuring its confidentiality, integrity, and availability.</li> <li><b>COBIT (Control Objectives for Information and Related Technologies)</b> - COBIT is a framework developed by ISACA for the governance and management of enterprise IT. It provides a comprehensive set of best practices, tools, and models to help organizations achieve their IT goals while managing risks.</li> <li><b>OCTAVE (Operationally Critical Threat, Asset, and Vulnerability Evaluation)</b> - OCTAVE is a risk management framework developed by Carnegie Mellon University that focuses on identifying and managing information security risks. It emphasizes the importance of organizational context and stakeholder involvement.</li> </ul>"
       },
       {
         "order": 45,
+        "layout": "image righthand portion",
         "title": "IT Risk Management Standards and Guidelines",
         "subheader": "Introduction to IT Risk Management",
-        "body": "<h4>Monitoring Progress and Making Adjustments</h4> <p>Continuously tracking the progress of action plans is crucial for ensuring that initiatives based on evaluation results are effectively implemented and achieve desired outcomes. This ongoing monitoring process helps organizations stay aligned with their objectives, make timely adjustments, and foster a culture of accountability and improvement.</p>",
-        "image": "src/assets/img/change management/Sustain/PMFIDS_CM_order45.jpg"
+        "body": "<h4>BSP’s MORB Risk Management Compliance and Regulatory Requirements</h4> <p>The Bangko Sentral ng Pilipinas (BSP) has developed detailed guidelines for Information Technology (IT) Risk Management as outlined in Section 148 of the Manual of Regulations for Banks (MORB) and its related appendices. These regulations are designed to strengthen the resilience and security of banking institutions against the changing landscape of technological risks. Recent amendments to Section 148 were made to implement the Anti-Financial Account Scamming Act (AFASA), aiming to strengthen compliance frameworks for electronic products and services.</p>",
+        "image": "src/assets/img/change management/Sustain/order45.jpg"
       },
       {
         "order": 46,
+        "layout": "image righthand portion",
         "title": "IT Risk Management Standards and Guidelines",
         "subheader": "Introduction to IT Risk Management",
-        "body": "<h4>Documenting or Risks (RAID Log)</h4> <p>• Documenting risks in a RAID log is essential in project and change management, helping organizations identify, assess, and manage potential risks throughout a project's lifecycle.</p>",
-        "image": "src/assets/img/change management/Sustain/PMFIDS_CM_order46.jpg"
+        "body": "<h4>BSP’s MORB Risk Management Compliance and Regulatory Requirements</h4> <p>Appendix 76 of the Bangko Sentral ng Pilipinas (BSP) Manual of Regulations for Banks (MORB) outlines essential guidelines for managing IT projects, acquisitions, and changes within banking institutions. This appendix emphasizes the need for structured processes to mitigate risks associated with IT developments.</p>",
+        "image": "src/assets/img/change management/Sustain/order46.jpg"
       },
       {
         "order": 47,
+        "layout": "image righthand portion",
         "title": "IT Risk Management Standards and Guidelines",
         "subheader": "Introduction to IT Risk Management",
-        "body": "<h4>Importance of Maintaining RAID Log</h4> <h5>The RAID Log…</h5> <ul> <li>provides a structured approach to identifying and managing risks, enabling organizations to take proactive measures to mitigate potential issues before they escalate.</li> <li>serves as a centralized document that can be easily shared with stakeholders, fostering transparency and facilitating discussions about risks, assumptions, issues, and dependencies.</li> <li>assigns ownership for managing risks and issues, ensuring that team members are accountable for monitoring and addressing specific items.</li> </ul>"
+        "body": "<h4>BSP’s MORB Risk Management Compliance and Regulatory Requirements</h4> <p>Appendix 77 focuses on the operational aspects of IT within banking institutions, highlighting standards and guidelines essential for effective IT operations management.</p>",
+        "image": "src/assets/img/change management/Sustain/order47.jpg"
       },
       {
         "order": 48,
+        "layout": "image righthand portion",
+        "title": "IT Risk Management Standards and Guidelines",
+        "subheader": "Introduction to IT Risk Management",
+        "body": "<h4>Monitoring Progress and Making Adjustments</h4> <p>Continuously tracking the progress of action plans is crucial for ensuring that initiatives based on evaluation results are effectively implemented and achieve desired outcomes. This ongoing monitoring process helps organizations stay aligned with their objectives, make timely adjustments, and foster a culture of accountability and improvement.</p>",
+        "image": "src/assets/img/change management/Sustain/order48.jpg"
+      },
+      {
+        "order": 49,
+        "layout": "image righthand portion",
+        "title": "IT Risk Management Standards and Guidelines",
+        "subheader": "Introduction to IT Risk Management",
+        "body": "<h4>Documenting or Risks (RAID Log)</h4> <p>Documenting risks in a RAID log is essential in project and change management, helping organizations identify, assess, and manage potential risks throughout a project's lifecycle.</p>",
+        "image": "src/assets/img/change management/Sustain/order49.jpg"
+      },
+      {
+        "order": 50,
+        "layout": "col-1",
+        "title": "IT Risk Management Standards and Guidelines",
+        "subheader": "Introduction to IT Risk Management",
+        "body": "<h4>Importance of Maintaining RAID Log</h4> <h5><b>The RAID Log…</b></h5> <ul> <li>provides a structured approach to identifying and managing risks, enabling organizations to take proactive measures to mitigate potential issues before they escalate.</li> <li>serves as a centralized document that can be easily shared with stakeholders, fostering transparency and facilitating discussions about risks, assumptions, issues, and dependencies.</li> <li>assigns ownership for managing risks and issues, ensuring that team members are accountable for monitoring and addressing specific items.</li> </ul>"
+      },
+      {
+        "order": 51,
+        "layout": "image righthand portion",
         "title": "IT Risk Management Standards and Guidelines",
         "subheader": "Introduction to IT Risk Management",
         "body": "<h4>Sample RAID Log</h4>",
         "image": "src/assets/img/change management/Sustain/PMFIDS_CM_order48.jpg"
       },
       {
-        "order": 49,
-        "layout": "col-2",
-        "title": "Effective Crisis Management to Achieve Change Initiatives",
-        "subheader": "Overview of Crisis Management",
-        "col1": "<h4>Definition and Importance of Crisis Management</h4> <h5>Definition of Crisis Management</h5> <p>Crisis Management…</p> <ul> <li>involves identifying potential crises, developing response plans, and executing those plans effectively when a crisis arises.</li> <li>encompasses communication strategies, resource allocation, and stakeholder engagement to mitigate the crisis's impact.</li> </ul>",
-        "col2": "<h5>Importance of Crisis Management</h5> <ul> <li>Risk Mitigation: Effective crisis management helps organizations anticipate potential risks and develop strategies to minimize their impact.</li> <li>Maintaining Stability: During periods of change, crises can destabilize operations. A robust crisis management plan ensures continuity and stability.</li> <li>Reputation Protection: Quick and effective responses can protect an organization's reputation and maintain stakeholder trust.</li> </ul>"
-      },
-      {
-        "order": 50,
-        "layout": "col-2",
-        "title": "Effective Crisis Management to Achieve Change Initiatives",
-        "subheader": "Overview of Crisis Management",
-        "col1": "<h4>Types of Crises</h4> <ul> <li> Natural Disasters: Events such as earthquakes, hurricanes, floods, and wildfires that can disrupt operations, damage infrastructure, and pose risks to employee safety.</li> <li>Financial Crisis: Situations involving significant financial instability, such as economic recessions, stock market crashes, or liquidity issues that can threaten an organization's viability.</li> <li>Reputational Crisis: Incidents that damage an organization's reputation, often due to scandals, unethical behavior, or negative publicity. This can include social media backlash or public relations disasters.</li> </ul>",
-        "col2": "<ul> <li>Technological Crisis: Failures or breaches related to technology, such as data breaches, cyberattacks, or system outages that can compromise sensitive information and disrupt operations.</li> <li>Operational Crisis: Issues that arise from internal processes, such as supply chain disruptions, production failures, or quality control problems that can affect service delivery.</li> </ul>"
-      },
-      {
-        "order": 51,
-        "layout": "col-2",
-        "title": "Effective Crisis Management to Achieve Change Initiatives",
-        "subheader": "The Role of Change Management in Crisis Situations",
-        "col1": "<h4>How Change Management Principles Apply during a Crisis</h4> <p>Change management principles are essential during a crisis, offering a structured approach to navigating the complexities and uncertainties that arise. Here’s a brief overview of how these principles apply:</p> <div><img src='src/assets/img/change management/Sustain/PMFIDS_CM_order51.jpg'></div>",
-        "col2": "<h4>The Importance of Being Prepared for Unexpected Changes</h4> <p>Being prepared for unexpected changes is essential for organizations to maintain resilience and adaptability in an ever-evolving environment.</p> <div><img src='src/assets/img/change management/Sustain/PMFIDS_CM_order51_1.jpg'></div>"
-      },
-      {
         "order": 52,
+        "layout": "col-2",
         "title": "Effective Crisis Management to Achieve Change Initiatives",
-        "subheader": "The Role of Change Management in Crisis Situations",
-        "body": "<h4>Integrating Crisis Management into the Overall Change Management Strategy</h4> <p>Integrating crisis management into the overall change management strategy is vital for organizations to enhance resilience and adaptability in the face of challenges.</p> <ul> <li>Holistic Approach</li> <ul> <li>By incorporating crisis management into change management, organizations adopt a holistic approach that considers both planned changes and potential disruptions.</li> <li>This ensures that all aspects of organizational change are aligned and prepared for unexpected events.</li> </ul> <li>Proactive Planning: Integrating crisis management encourages organizations to proactively identify potential crises during the change process.</li> <li>Training and Preparedness: Organizations can implement training programs that encompass both change management and crisis management</li> </ul>"
+        "subheader": "Overview of Crisis Management",
+        "col1": "<h4>Definition and Importance of Crisis Management</h4> <h5><b>Definition of Crisis Management</b></h5> <p>Crisis Management…</p> <ul> <li>involves identifying potential crises, developing response plans, and executing those plans effectively when a crisis arises.</li> <li>encompasses communication strategies, resource allocation, and stakeholder engagement to mitigate the crisis's impact.</li> </ul>",
+        "col2": "<h5><b>Importance of Crisis Management<b></h5> <ul> <li><b>Risk Mitigation</b> - Effective crisis management helps organizations anticipate potential risks and develop strategies to minimize their impact.</li> <li><b>Maintaining Stability</b> - During periods of change, crises can destabilize operations. A robust crisis management plan ensures continuity and stability.</li> <li><b>Reputation Protection</b> - Quick and effective responses can protect an organization's reputation and maintain stakeholder trust.</li> </ul>"
       },
       {
         "order": 53,
         "layout": "col-2",
         "title": "Effective Crisis Management to Achieve Change Initiatives",
-        "subheader": "Sample Case Study",
-        "col1": "<div><div class='ml-10'><img src='src/assets/img/change management/Sustain/PMFIDS_CM_order53.jpg'> </div> <h4>Financial and IT Crisis Management of RCBC</h4> <p>In February 2016, a big financial and IT crisis happened when hackers attempted to steal nearly $1 billion from the Bangladesh Bank’s account at the Federal Reserve bank of New York. Part of the larger Bangladesh Bank cyber heist, resulted in the successful laundering of $81 million through the Philippines, primarily deposited into four fictitious accounts at Rizal Commercial Banking Corporation (RCBC).</p>In response to the crisis, Bangladesh Bank initially filed lawsuits against RCBC, alleging complicity in the heist. RCBC denied these claims but faced regulatory repercussions, including a nearly $53 million fine from the Banko Sentral ng Pilipinas in relation to the cyber heist and for failing to comply with banking regulations.</p> <p>Considering this issue and to make sure that the Bank would not experience the same crisis, they have officially created and implemented a comprehensive crisis management and business continuity plan:</p>",
-        "col2": "<ul> <li>1. RCBC recognized the urgent need to strengthen its operational resilience. To safeguard its stakeholders and restore trust, the bank has developed its business continuity initiative using the BS25999:2007 model, which emphasizes comprehensive risk management and recovery strategies.</li> <div><div class='mr-10'><img src='src/assets/img/change management/Sustain/PMFIDS_CM_order53_1.jpg'></div> <li>2. In response to the fallout from the RCBC money laundering issue, the bank’s executive management took the decisive action by leading the development of a new crisis management plan. This initiative was crucial for addressing the vulnerabilities exposed during the cyber heist and aimed to enhance the bank's ability to respond swiftly to similar threats in the future.</li> <div><div class='mr-10'><img src='src/assets/img/change management/Sustain/PMFIDS_CM_order53_2.jpg'></div> <li>3. RCBC established its Contingency Management Office as part of their new operational model. This office is tasked with overseeing the implementation of robust contingency plans and ensuring that the bank is prepared to respond effectively to any future crises, including cyber threats and regulatory compliance issues.</li> <div><div class='mr-10'><img src='src/assets/img/change management/Sustain/PMFIDS_CM_order53_3.jpg'></div> <li>A new set up for Crisis Management Team Business Continuity Plan (BCP) were also established and embedded to the Bank’s day-to-day operations. This integration ensures that all employees are aware of their roles in crisis situations and that there are clear protocols in place for maintaining essential functions during disruptions.</li> <div><div class='mr-10'><img src=''></div>"
+        "subheader": "Overview of Crisis Management",
+        "col1": "<h4>Types of Crises</h4> <ul> <li><b>Natural Disasters</b> - Events such as earthquakes, hurricanes, floods, and wildfires that can disrupt operations, damage infrastructure, and pose risks to employee safety.</li> <li><b>Financial Crisis</b> - Situations involving significant financial instability, such as economic recessions, stock market crashes, or liquidity issues that can threaten an organization's viability.</li> <li><b>Reputational Crisis</b> - Incidents that damage an organization's reputation, often due to scandals, unethical behavior, or negative publicity. This can include social media backlash or public relations disasters.</li> </ul>",
+        "col2": "<ul> <li><b>Technological Crisis</b> - Failures or breaches related to technology, such as data breaches, cyberattacks, or system outages that can compromise sensitive information and disrupt operations.</li> <li><b>Operational Crisis</b> - Issues that arise from internal processes, such as supply chain disruptions, production failures, or quality control problems that can affect service delivery.</li> </ul>"
       },
       {
         "order": 54,
-        "title": "Lesson Summary",
-        "body": "<h2>Congratulations on completing Lesson 2 of this module!</h2> <p>Now that you have completed this lesson, you should be able to:</p> <ul> <li>UKnow what are issues and risks;</li> <li>Understand the IT risk management and its aligned regulatory;and</li> <li>Realize the importance of crisis management</li> </ul>",
-        "image": "src/assets/img/general images/LessonSummary.jpg"
+        "layout": "col-2",
+        "title": "Effective Crisis Management to Achieve Change Initiatives",
+        "subheader": "The Role of Change Management in Crisis Situations",
+        "col1": "<h4>How Change Management Principles Apply during a Crisis</h4> <p>Change management principles are essential during a crisis, offering a structured approach to navigating the complexities and uncertainties that arise. Here’s a brief overview of how these principles apply:</p> <img src='src/assets/img/change management/Sustain/order54.jpg'>",
+        "col2": "<h4>The Importance of Being Prepared for Unexpected Changes</h4> <p>Being prepared for unexpected changes is essential for organizations to maintain resilience and adaptability in an ever-evolving environment.</p> <img src='src/assets/img/change management/Sustain/order54_1.jpg'>"
       },
       {
         "order": 55,
-        "title": "Sustain Change Lessons",
-        "subheader": "Ensuring Lasting Transformation: Strategies for Sustaining Change",
-        "body": "<p>At the end of this lesson, you will be able to:</p> <ul> <li>Understand Performance Review</li> <li>Know on how to conduct handover sessions</li> <li>Realize on how to transition to business as usual (BAU)</li> </ul>",
-        "image": "src/assets/img/change management/Sustain/PMFIDS_CM_order55.jpg"
+        "layout": "col-1",
+        "title": "Effective Crisis Management to Achieve Change Initiatives",
+        "subheader": "The Role of Change Management in Crisis Situations",
+        "body": "<h4>Integrating Crisis Management into the Overall Change Management Strategy</h4> <p>Integrating crisis management into the overall change management strategy is vital for organizations to enhance resilience and adaptability in the face of challenges.</p> <ul> <li><b>Holistic Approach</b></li> <ul> <li>By incorporating crisis management into change management, organizations adopt a holistic approach that considers both planned changes and potential disruptions.</li> <li>This ensures that all aspects of organizational change are aligned and prepared for unexpected events.</li> </ul> <li><b>Proactive Planning</b> - Integrating crisis management encourages organizations to proactively identify potential crises during the change process.</li> <li><b>Training and Preparedness</b> - Organizations can implement training programs that encompass both change management and crisis management</li> </ul>"
       },
       {
         "order": 56,
-        "title": "Sustain Change",
-        "subheader": "Ensuring Lasting Transformation: Strategies for Sustaining Change",
-        "body": "Ensuring lasting transformation requires implementing strategies that sustain change by reinforcing new behaviors, providing continuous support, and maintaining ongoing communication. This approach embeds change into the organization's culture and operations for long-term success.",
-        "image": "src/assets/img/change management/Sustain/PMFIDS_CM_order56.jpg"
+        "layout": "image righthand portion",
+        "title": "Effective Crisis Management to Achieve Change Initiatives",
+        "subheader": "Sample Case Study",
+        "body": "<h4>Financial and IT Crisis Management of RCBC</h4> <p>In February 2016, a big financial and IT crisis happened when hackers attempted to steal nearly $1 billion from the Bangladesh Bank’s account at the Federal Reserve bank of New York. Part of the larger Bangladesh Bank cyber heist, resulted in the successful laundering of $81 million through the Philippines, primarily deposited into four fictitious accounts at Rizal Commercial Banking Corporation (RCBC).</p>In response to the crisis, Bangladesh Bank initially filed lawsuits against RCBC, alleging complicity in the heist. RCBC denied these claims but faced regulatory repercussions, including a nearly $53 million fine from the Banko Sentral ng Pilipinas in relation to the cyber heist and for failing to comply with banking regulations.</p> <p>Considering this issue and to make sure that the Bank would not experience the same crisis, they have officially created and implemented a comprehensive crisis management and business continuity plan:</p>",
+        "image": "src/assets/img/change management/Sustain/PMFIDS_CM_order53.jpg"
       },
       {
         "order": 57,
         "layout": "col-2",
-        "title": "Ensuring Lasting Transformation:",
-        "subheader": "Strategies for Sustaining Change",
-        "col1": "<h4>Review Performance | Understanding Performance Review</h4> <h5>Definition and Importance of Performance Reviews</h5> <ul> <li>Performance reviews in change management are systematic evaluations of an employee's performance, behavior, and contributions, particularly during periods of change. These reviews assess how well employees adapt to new processes, technologies, or organizational structures introduced during change initiatives.</li> <li>They serve as a vital feedback mechanism, helping employees understand how their performance is perceived in the context of change. Constructive feedback guides employees in adjusting their behaviors and strategies to meet new expectations.</li> <li>Performance reviews also establish accountability for individual and team performance during change initiatives, clarifying expectations and holding employees responsible for their contributions to the change process.</li>",
-        "col2": "<h5>Objectives of Performance Reviews</h5> <ul> <li>Assessing Achievements</li> <ul> <li>Evaluate the accomplishments of employees over a specific period.</li> <li>Measure performance against established goals and key performance indicators (KPIs).</li> </ul> <li>Identifying Areas for Improvement</li> <ul> <li>Pinpoint specific skills or competencies that need enhancement.</li> <li>Identify obstacles that may hinder performance and suggest solutions.</li> </ul> <li>Setting Future Goals</li> <ul> <li>Align individual goals with organizational objectives to ensure everyone is working towards common aims.</li> <li>Encourage employees to take ownership of their development by setting personal career aspirations.</li> </ul> </ul>"
+        "title": "Effective Crisis Management to Achieve Change Initiatives",
+        "subheader": "Sample Case Study",
+        "col1": "<h4>Financial and IT Crisis Management of RCBC</h4> <p>1. RCBC recognized the urgent need to strengthen its operational resilience. To safeguard its stakeholders and restore trust, the bank has developed its business continuity initiative using the BS25999:2007 model, which emphasizes comprehensive risk management and recovery strategies.</p><img src='src/assets/img/change management/Sustain/PMFIDS_CM_order53_1.jpg'>",
+        "col2": "<p>2. In response to the fallout from the RCBC money laundering issue, the bank’s executive management took the decisive action by leading the development of a new crisis management plan. This initiative was crucial for addressing the vulnerabilities exposed during the cyber heist and aimed to enhance the bank's ability to respond swiftly to similar threats in the future.</p> <img src='src/assets/img/change management/Sustain/PMFIDS_CM_order53_2.jpg'>"
       },
       {
         "order": 58,
-        "title": "Ensuring Lasting Transformation:",
-        "subheader": "Strategies for Sustaining Change",
-        "body": "<h4>Review Performance | Conducting the Performance Review</h4> <h5>Using a Structured Approach to Discuss Performance</h5> <p>Using a structured approach to discuss performance is essential for creating clear, constructive, and productive conversations between employees and managers.</p> <ul> <li>Strengths: Beginning the performance discussion by acknowledging an employee's strengths sets a positive tone. Recognizing what the employee does well not only boosts morale but also reinforces behaviors that contribute to success. By highlighting strengths, managers can encourage employees to leverage these attributes in their future work.</li> <li>Areas for Improvement: After discussing strengths, it’s important to address areas for improvement. Providing specific, actionable feedback helps employees understand where they can enhance their performance. Managers should also invite employees to share their perspectives on areas they feel need improvement, fostering a collaborative environment.</li> <li>Future Goals: The final component of the structured approach involves setting future goals. This is a crucial step that aligns individual objectives with organizational priorities. By collaboratively establishing clear, measurable, and achievable goals, both the employee and manager can ensure that expectations are understood and agreed upon.</li> </ul>"
+        "layout": "col-2",
+        "title": "Effective Crisis Management to Achieve Change Initiatives",
+        "subheader": "Sample Case Study",
+        "col1": "<h4>Financial and IT Crisis Management of RCBC</h4> <p>3. RCBC established its Contingency Management Office as part of their new operational model. This office is tasked with overseeing the implementation of robust contingency plans and ensuring that the bank is prepared to respond effectively to any future crises, including cyber threats and regulatory compliance issues.</p> <img src='src/assets/img/change management/Sustain/PMFIDS_CM_order53_3.jpg'>",
+        "col2":"<p>4.A new set up for Crisis Management Team Business Continuity Plan (BCP) were also established and embedded to the Bank’s day-to-day operations. This integration ensures that all employees are aware of their roles in crisis situations and that there are clear protocols in place for maintaining essential functions during disruptions.</li> <img src='src/assets/img/change management/Sustain/order57_4.jpg'>"
       },
       {
         "order": 59,
-        "layout": "col-2",
-        "title": "Ensuring Lasting Transformation:",
-        "subheader": "Strategies for Sustaining Change",
-        "col1": "<h4>Review Performance | Documenting the Performance Review</h4> <h5>Recording the Key Points and Outcomes of the Performance Review Meeting</h5> <p>Maintaining a record of discussions provides formal documentation of an employee's performance over time. This record serves as a reference for future reviews, tracking progress, achievements, and areas for improvement. It ensures that both the employee and manager have a clear understanding of what was discussed and agreed upon.</p>",
-        "col2": "<h5>Best Practices for Recording Performance Review Outcomes</h5> <ul> <li>Summarize Key Points: Changes in the organizational structure, including modifications to reporting relationships, departmental reorganizations, or changes in job roles and responsibilities.</li> <li>Use a Standard Template: Implement a consistent format for recording reviews to ensure that all relevant information is captured systematically.</li> <li>Share with Employees: Provide a copy of the recorded outcomes to the employee, allowing them to review and confirm the accuracy of the notes.</li> <li>Store Securely: Keep the records in a secure and accessible location, ensuring that they are easily retrievable for future reference.</li> </ul>"
+        "title": "Lesson Summary",
+        "body": "<h4>Congratulations on completing Lesson 2 of this module!</h4> <p>Now that you have completed this lesson, you should be able to:</p> <ul> <li>UKnow what are issues and risks;</li> <li>Understand the IT risk management and its aligned regulatory;and</li> <li>Realize the importance of crisis management</li> </ul>",
+        "image": "src/assets/img/general images/LessonSummary.jpg"
       },
       {
         "order": 60,
-        "layout": "col-2",
-        "title": "Ensuring Lasting Transformation:",
-        "subheader": "Strategies for Sustaining Change",
-        "col1": "<h4>Review Performance | Addressing Performance Issues</h4> <h5>Identifying and Addressing Performance Issues Promptly and Effectively</h5> <p>Identifying and addressing performance issues promptly and effectively is crucial for maintaining a productive and engaged workforce.</p>",
-        "col2": "<h5>Strategies for Addressing Performance Issues</h5> <div><div class='mr-10'><img src='src/assets/img/change management/Sustain/PMFIDS_CM_order60.jpg'></div> <ul> <li>Regular Check-ins: Conduct frequent one-on-one meetings to discuss performance, provide feedback, and identify any emerging issues early on.</li> <li>Set Clear Expectations: Ensure that employees understand their roles, responsibilities, and performance standards. Clear expectations help prevent misunderstandings and misalignment.</li> <li>Provide Constructive Feedback: When addressing performance issues, focus on specific behaviors and outcomes rather than personal attributes. Use a constructive approach that emphasizes improvement and development.</li> <li>Collaborate on Solutions: Involve employees in the problem-solving process. Encourage them to share their perspectives and suggest solutions, fostering a sense of ownership and commitment to improvement.</li> <li>Offer Support and Resources: Provide the necessary training, resources, or mentorship to help employees overcome challenges. Demonstrating support can significantly impact their ability to improve.</li> </ul>"
+        "title": "Sustain Change Lessons",
+        "subheader": "Ensuring Lasting Transformation: Strategies for Sustaining Change",
+        "body": "<p>At the end of this lesson, you will be able to:</p> <ul> <li>Understand Performance Review</li> <li>Know on how to conduct handover sessions</li> <li>Realize on how to transition to business as usual (BAU)</li> </ul>",
+        "image": "src/assets/img/change management/Sustain/order60.jpg"
       },
       {
         "order": 61,
-        "layout": "col-2",
-        "title": "Ensuring Lasting Transformation:",
-        "subheader": "Strategies for Sustaining Change",
-        "col1": "<h4>Handover Sessions | The Importance of Handover Sessions</h4> <h5>Definition of Handover Sessions</h5> <p>Handover sessions are structured meetings where responsibilities, tasks, and information are transferred from one individual or team to another. Typically occurring during transitions, the goal of these sessions is to ensure that the incoming individual or team has all the necessary information, resources, and context to continue work seamlessly.</p>",
-        "col2": "<h5>Significance of Handover Sessions</h5> <div><img src='src/assets/img/change management/Sustain/PMFIDS_CM_order61.jpg'></div>"
+        "layout": "image righthand portion",
+        "title": "Sustain Change",
+        "subheader": "Ensuring Lasting Transformation: Strategies for Sustaining Change",
+        "body": "Ensuring lasting transformation requires implementing strategies that sustain change by reinforcing new behaviors, providing continuous support, and maintaining ongoing communication. This approach embeds change into the organization's culture and operations for long-term success.",
+        "image": "src/assets/img/change management/Sustain/order61.jpg"
       },
       {
         "order": 62,
         "layout": "col-2",
         "title": "Ensuring Lasting Transformation:",
         "subheader": "Strategies for Sustaining Change",
-        "col1": "<h4>Handover Sessions | Conducting the Handover Session</h4> <h5>Setting a Clear Agenda for the Handover Session</h5> <p>A well-defined agenda helps guide the discussion, ensuring that all necessary topics are covered and that both the outgoing and incoming individuals are aligned on expectations.</p>",
-        "col2": "<div><div class='mr-10'><img src='src/assets/img/change management/Sustain/PMFIDS_CM_order62.jpg'><h5></div>Components of a Clear Agenda</h5> <ul> <li>Introduction: Start with a brief overview of the purpose of the handover session and the key objectives to be achieved.</li> <li>Roles and Responsibilities: Clearly outline the roles and responsibilities of both the outgoing and incoming individuals during the handover process.</li> <li>Key Topics: List the specific topics to be covered, such as ongoing projects, critical tasks, deadlines, key contacts, and any challenges faced. This ensures that all relevant information is shared.</li> <li>Documentation Review: Include a review of any important documents, reports, or resources that the incoming individual will need to reference.</li> <li>Q&A Sessions: Allocate time for questions and discussions, allowing the incoming individual to seek clarification on any points and ensuring they feel confident in their new responsibilities.</li> <li>Next Steps: Conclude with a summary of the next steps, including any follow-up actions, deadlines, or additional meetings that may be necessary.</li> </ul>"
+        "col1": "<h4>Review Performance | Understanding Performance Review</h4> <h5><b>Definition and Importance of Performance Reviews</b></h5> <ul> <li>Performance reviews in change management are systematic evaluations of an employee's performance, behavior, and contributions, particularly during periods of change. These reviews assess how well employees adapt to new processes, technologies, or organizational structures introduced during change initiatives.</li> <li>They serve as a vital feedback mechanism, helping employees understand how their performance is perceived in the context of change. Constructive feedback guides employees in adjusting their behaviors and strategies to meet new expectations.</li> <li>Performance reviews also establish accountability for individual and team performance during change initiatives, clarifying expectations and holding employees responsible for their contributions to the change process.</li>",
+        "col2": "<h5><b>Objectives of Performance Reviews<b></h5> <ul> <li><b>Assessing Achievements</b></li> <ul> <li>Evaluate the accomplishments of employees over a specific period.</li> <li>Measure performance against established goals and key performance indicators (KPIs).</li> </ul> <li><b>Identifying Areas for Improvement</b></li> <ul> <li>Pinpoint specific skills or competencies that need enhancement.</li> <li>Identify obstacles that may hinder performance and suggest solutions.</li> </ul> <li><b>Setting Future Goals</b></li> <ul> <li>Align individual goals with organizational objectives to ensure everyone is working towards common aims.</li> <li>Encourage employees to take ownership of their development by setting personal career aspirations.</li> </ul> </ul>"
       },
       {
         "order": 63,
+        "layout": "col-1",
         "title": "Ensuring Lasting Transformation:",
         "subheader": "Strategies for Sustaining Change",
-        "body": "<h4>Handover Sessions | Conducting the Handover Session</h4> <ul> <li>Role Description: Begin with a clear description of the role being handed over, including its primary responsibilities, objectives, and how it contributes to the team or organization.</li> <li>Project or Task Details: Provide specific information about ongoing projects or tasks, including their current status, timelines, and any challenges faced. Highlight important milestones and deliverables that the incoming individual should be aware of.</li> <li>Key Contacts: Identify key stakeholders, team members, and any external contacts relevant to the role or project.</li> <li>Resources and Documentation: Mention any relevant resources, tools, or documentation that the incoming individual will need to reference. This could include project plans, reports, or standard operating procedures.</li> <li>Critical Insights: Share any lessons learned, best practices, or insights gained during the tenure in the role. This information can help the incoming individual avoid potential pitfalls and enhance their effectiveness.</li> </ul>",
-        "image": "src/assets/img/change management/Sustain/PMFIDS_CM_order63.jpg"
+        "body": "<h4>Review Performance | Conducting the Performance Review</h4> <h5><b>Using a Structured Approach to Discuss Performance</b></h5> <p>Using a structured approach to discuss performance is essential for creating clear, constructive, and productive conversations between employees and managers.</p> <ul> <li><b>Strengths</b> - Beginning the performance discussion by acknowledging an employee's strengths sets a positive tone. Recognizing what the employee does well not only boosts morale but also reinforces behaviors that contribute to success. By highlighting strengths, managers can encourage employees to leverage these attributes in their future work.</li> <li><b>Areas for Improvement</b> - After discussing strengths, it’s important to address areas for improvement. Providing specific, actionable feedback helps employees understand where they can enhance their performance. Managers should also invite employees to share their perspectives on areas they feel need improvement, fostering a collaborative environment.</li> <li><b>Future Goals</b> - The final component of the structured approach involves setting future goals. This is a crucial step that aligns individual objectives with organizational priorities. By collaboratively establishing clear, measurable, and achievable goals, both the employee and manager can ensure that expectations are understood and agreed upon.</li> </ul>"
       },
       {
         "order": 64,
         "layout": "col-2",
         "title": "Ensuring Lasting Transformation:",
         "subheader": "Strategies for Sustaining Change",
-        "col1": "<h4>Handover Sessions | Transferring Knowledge and Responsibilities</h4> <h5>Sharing Important Contacts, Stakeholders, and Communication Channels</h5> <p>Sharing important contacts, stakeholders, and communication channels during a handover session is vital for ensuring a smooth transition and continued success in the role or project.</p>",
-        "col2": "<h5>Key Considerations for Sharing Contacts and Communication</h5> <div><img src='src/assets/img/change management/Sustain/PMFIDS_CM_order64.jpg'></div>"
+        "col1": "<h4>Review Performance | Documenting the Performance Review</h4> <h5><b>Recording the Key Points and Outcomes of the Performance Review Meeting</b></h5> <p>Maintaining a record of discussions provides formal documentation of an employee's performance over time. This record serves as a reference for future reviews, tracking progress, achievements, and areas for improvement. It ensures that both the employee and manager have a clear understanding of what was discussed and agreed upon.</p>",
+        "col2": "<h5><b>Best Practices for Recording Performance Review Outcomes</b></h5> <ul> <li><b>Summarize Key Points</b> - Changes in the organizational structure, including modifications to reporting relationships, departmental reorganizations, or changes in job roles and responsibilities.</li> <li><b>Use a Standard Template</b> - Implement a consistent format for recording reviews to ensure that all relevant information is captured systematically.</li> <li><b>Share with Employees</b> - Provide a copy of the recorded outcomes to the employee, allowing them to review and confirm the accuracy of the notes.</li> <li><b>Store Securely</b> - Keep the records in a secure and accessible location, ensuring that they are easily retrievable for future reference.</li> </ul>"
       },
       {
         "order": 65,
+        "layout": "col-2",
         "title": "Ensuring Lasting Transformation:",
         "subheader": "Strategies for Sustaining Change",
-        "body": "<h4>Handover Sessions | Documenting the Handover</h4> <h5>Key Components of a Handover Document</h5> <ul> <li>Role Overview: Include a brief description of the role, its primary responsibilities, and how it fits into the larger organizational context.</li> <li>Current Projects and Tasks: Provide details about ongoing projects, including their status, key milestones, deadlines, and any challenges faced. This section should outline specific tasks that need attention.</li> <li>Key Contacts and Stakeholders: List important contacts, including team members, managers, clients, and other stakeholders. Include their roles, responsibilities, and preferred communication methods.</li> <li>Processes and Procedures: Document any standard operating procedures, workflows, or best practices relevant to the role. This information helps the incoming individual understand how to navigate their responsibilities effectively.</li> <li>Access Information: Include details about access to relevant systems, tools, and resources, along with any necessary login credentials or permissions.</li> <li>Important Documents and Resources: Reference key documents, reports, and resources that the incoming individual should review. This may include project plans, meeting notes, and training materials.</li> <li>Additional Insights: Share any lessons learned, tips, or insights gained during the tenure in the role. This information can help the incoming individual avoid potential pitfalls and enhance their effectiveness.</li> </ul>",
-        "image": "src/assets/img/change management/Sustain/PMFIDS_CM_order65.jpg"
+        "col1": "<h4>Review Performance | Addressing Performance Issues</h4> <h5><b>Identifying and Addressing Performance Issues Promptly and Effectively</b></h5> <p>Identifying and addressing performance issues promptly and effectively is crucial for maintaining a productive and engaged workforce.</p>",
+        "col2": "<h5><b>Strategies for Addressing Performance Issues</b></h5> <ul> <li><b>Regular Check-ins</b> - Conduct frequent one-on-one meetings to discuss performance, provide feedback, and identify any emerging issues early on.</li> <li><b>Set Clear Expectations</b> - Ensure that employees understand their roles, responsibilities, and performance standards. Clear expectations help prevent misunderstandings and misalignment.</li> <li><b>Provide Constructive Feedback</b> - When addressing performance issues, focus on specific behaviors and outcomes rather than personal attributes. Use a constructive approach that emphasizes improvement and development.</li> <li><b>Collaborate on Solutions</b> - Involve employees in the problem-solving process. Encourage them to share their perspectives and suggest solutions, fostering a sense of ownership and commitment to improvement.</li> <li><b>Offer Support and Resources</b> - Provide the necessary training, resources, or mentorship to help employees overcome challenges. Demonstrating support can significantly impact their ability to improve.</li> </ul>"
       },
       {
         "order": 66,
         "layout": "col-2",
         "title": "Ensuring Lasting Transformation:",
         "subheader": "Strategies for Sustaining Change",
-        "col1": "<h4>Smooth Transition to BAU | Transition to Business As Usual (BAU)</h4> <h5>Definition and Importance of Transitioning to BAU</h5> <p>Transitioning to Business as Usual (BAU) involves returning an organization to its standard operational state after a period of change, disruption, or project implementation. BAU signifies a return to routine activities, shifting the focus back to regular operations, performance monitoring, and continuous improvement. The following are its importance:</p> <div><img src='src/assets/img/change management/Sustain/PMFIDS_CM_order66.jpg'></div>",
-        "col2": "<h5>Key Objectives of the Transition Phase</h5> <div><img src='src/assets/img/change management/Sustain/PMFIDS_CM_order66_1.jpg'></div><ul> <li>Sustainability: One of the primary objectives is to ensure that the changes implemented are sustainable over the long term.</li> <li>Efficiency: The transition phase aims to enhance operational efficiency by streamlining processes and eliminating redundancies.</li> <li>Minimal Disruption: A key goal during the transition is to minimize disruption to ongoing operations.</li> </ul>"
+        "col1": "<h4>Handover Sessions | The Importance of Handover Sessions</h4> <h5><b>Definition of Handover Sessions</b></h5> <p>Handover sessions are structured meetings where responsibilities, tasks, and information are transferred from one individual or team to another. Typically occurring during transitions, the goal of these sessions is to ensure that the incoming individual or team has all the necessary information, resources, and context to continue work seamlessly.</p>",
+        "col2": "<h5><b>Significance of Handover Sessions</b></h5> <img src='src/assets/img/change management/Sustain/order66.jpg'>"
       },
       {
         "order": 67,
-        "title": "Ensuring Lasting Transformation:",
-        "subheader": "Strategies for Sustaining Change",
-        "body": "<h4>Smooth Transition to BAU | Transition to Business As Usual (BAU)</h4> <h5>The Role of Change Management in Facilitating a Smooth Transition</h5> <p>Change management is essential for ensuring a smooth transition from a period of change or disruption back to BAU. It involves a structured approach to managing the people, processes, and technology in the transition, aiming to minimize resistance and maximize engagement.</p>",
-        "image": "src/assets/img/change management/Sustain/PMFIDS_CM_order67.jpg"
-      },
-      {
-        "order": 68,
         "layout": "col-2",
         "title": "Ensuring Lasting Transformation:",
         "subheader": "Strategies for Sustaining Change",
-        "col1": "<h4>Smooth Transition to BAU | Planning for the Transition</h4> <h5>Developing a Detailed Transition Plan that Outlines Key Activities, Timelines, and Responsibilities</h5> <p>A detailed transition plan is a critical component of successfully moving from a change initiative back to Business as Usual (BAU). This plan serves as a roadmap, outlining the key activities, timelines, and responsibilities necessary to ensure a smooth transition.</p> <ul> <li>Key Activities: The transition plan should identify all the key activities required for the transition. Each activity should be clearly defined to ensure that all team members understand their roles and contributions.</li> <li>Timelines: Establishing a timeline is crucial for maintaining momentum and accountability throughout the transition. Timelines help ensure that the transition stays on schedule and allows for timely adjustments if any delays occur.</li> <li>Responsibilities: Clearly defining responsibilities is essential for effective execution of the transition plan. This clarity helps prevent overlaps, ensures accountability, and fosters collaboration among team members.</li> </ul>",
-        "col2": "<h5>Identifying Critical Success Factors for a Smooth Transition</h5> <p>CSFs are the key areas that must be effectively managed to achieve desired outcomes and ensure a successful transition. Here are some critical success factors to consider:</p> <div><div class='ml-10'><img src='src/assets/img/change management/Sustain/PMFIDS_CM_order68.jpg'></div> <ul> <li>Leadership Support: Strong and visible support from leadership is crucial for a successful transition. Their commitment helps to create a positive environment and encourages buy-in from all levels of the organization.</li> <li>Stakeholder Engagement: Actively involving stakeholders throughout the transition is essential. This involvement can lead to greater acceptance of changes and smoother implementation.</li> <li>Training and Development: Providing adequate training and development opportunities is critical for equipping employees with the skills and knowledge needed to adapt to new processes or technologies. A well-planned training program enhances employee confidence and competence, facilitating a smoother transition.</li> <li>Resource Allocation: Ensuring that sufficient resources—such as time, budget, and personnel—are allocated to the transition is vital. Proper resource allocation helps prevent bottlenecks and ensures that all necessary activities can be completed effectively and on schedule.</li> </ul>"
+        "col1": "<h4>Handover Sessions | Conducting the Handover Session</h4> <h5><b>Setting a Clear Agenda for the Handover Session</b></h5> <p>A well-defined agenda helps guide the discussion, ensuring that all necessary topics are covered and that both the outgoing and incoming individuals are aligned on expectations.</p><h5><b>Components of a Clear Agenda</b></h5> <ul> <li><b>Introduction</b> - Start with a brief overview of the purpose of the handover session and the key objectives to be achieved.</li> <li><b>Roles and Responsibilities</b> - Clearly outline the roles and responsibilities of both the outgoing and incoming individuals during the handover process.</li> <li><b>Key Topics</b> - List the specific topics to be covered, such as ongoing projects, critical tasks, deadlines, key contacts, and any challenges faced. This ensures that all relevant information is shared.</li> </ul> ",
+        "col2": "<ul><li><b>Documentation Review</b> - Include a review of any important documents, reports, or resources that the incoming individual will need to reference.</li> <li><b>Q&A Sessions</b> - Allocate time for questions and discussions, allowing the incoming individual to seek clarification on any points and ensuring they feel confident in their new responsibilities.</li> <li><b>Next Steps</b> - Conclude with a summary of the next steps, including any follow-up actions, deadlines, or additional meetings that may be necessary.</li> </ul>"
       },
       {
-        "order": 69,
+        "order": 68,
         "layout": "col-1",
         "title": "Ensuring Lasting Transformation:",
         "subheader": "Strategies for Sustaining Change",
-        "col1": "<h4>Smooth Transition to BAU | Ensuring Readiness for BAU</h4> <p>This assessment determines whether the organization is ready to resume standard operations after a period of change or disruption. Here are key aspects to consider when evaluating readiness:</p>",
-        "image": "src/assets/img/change management/Sustain/PMFIDS_CM_order69.jpg"
+        "body": "<h4>Handover Sessions | Conducting the Handover Session</h4> <ul> <li><b>Role Description</b> - Begin with a clear description of the role being handed over, including its primary responsibilities, objectives, and how it contributes to the team or organization.</li> <li><b>Project or Task Details</b> - Provide specific information about ongoing projects or tasks, including their current status, timelines, and any challenges faced. Highlight important milestones and deliverables that the incoming individual should be aware of.</li> <li><b>Key Contacts</b> - Identify key stakeholders, team members, and any external contacts relevant to the role or project.</li> <li><b>Resources and Documentation</b> Mention any relevant resources, tools, or documentation that the incoming individual will need to reference. This could include project plans, reports, or standard operating procedures.</li> <li><b>Critical Insights</b> - Share any lessons learned, best practices, or insights gained during the tenure in the role. This information can help the incoming individual avoid potential pitfalls and enhance their effectiveness.</li> </ul>" 
+      },
+      {
+        "order": 69,
+        "layout": "col-2",
+        "title": "Ensuring Lasting Transformation:",
+        "subheader": "Strategies for Sustaining Change",
+        "col1": "<h4>Handover Sessions | Transferring Knowledge and Responsibilities</h4> <p>Sharing important contacts, stakeholders, and communication channels during a handover session is vital for ensuring a smooth transition and continued success in the role or project.</p>",
+        "col2": "<h5<b>>Key Considerations for Sharing Contacts and Communication</b></h5> <img src='src/assets/img/change management/Sustain/order69.jpg'>"
       },
       {
         "order": 70,
         "layout": "col-2",
         "title": "Ensuring Lasting Transformation:",
         "subheader": "Strategies for Sustaining Change",
-        "col1": "<h4>Smooth Transition to BAU | Documentation and Standard Operating Procedures (SOPs)</h4> <h5>Creating Detailed Documentation and SOPs for New Processes and Systems</h5> <p>Creating detailed documentation and SOPs is crucial for the effective implementation and long-term sustainability of new processes and systems. Well-documented procedures offer clarity, consistency, and guidance for employees, facilitating a smoother transition to BAU.</p> <ul> <li>Purpose and Scope: Clearly define the documentation's purpose and the specific processes or systems it covers, outlining the objectives of the SOPs and the intended audience to ensure relevance and applicability.</li> <li>Process Mapping: Develop process maps or flowcharts to visually represent the steps involved in the new processes.</li> <li>Step-by-Step Instructions: Provide detailed, step-by-step instructions for each task to minimize confusion and ensure accurate adherence to procedures.</li> </ul>",
-        "col2": "<ul> <li>Roles and Responsibilities: Clearly outline the roles and responsibilities of individuals involved in the processes to establish accountability and streamline communication.</li> <li>Templates and Forms: Include relevant templates, forms, or checklists that employees may need to complete as part of the new processes.</li> <li> Compliance and Standards: Ensure the documentation aligns with industry standards, regulations, and organizational policies, particularly for processes requiring legal or regulatory compliance to mitigate risks and maintain accountability.</li> <li>Review and Approval Process: Establish a review and approval process to ensure accuracy and completeness, involving key stakeholders to gather feedback and make necessary revisions before finalizing the SOPs.</li> <li>Training and Communication: Develop a training plan to educate employees on the new processes and SOPs, ensuring effective communication so all staff members are aware of the changes and understand how to implement the new procedures.</li> <li>Version and Control Updates: Implement a version control system to track changes over time, regularly reviewing and updating the SOPs to reflect changes in processes, technology, or organizational needs, ensuring the documentation remains relevant and accurate."
+        "col1": "<h4>Handover Sessions | Documenting the Handover</h4> <h5><b>Key Components of a Handover Document</b></h5> <ul> <li><b>Role Overview</b> - Include a brief description of the role, its primary responsibilities, and how it fits into the larger organizational context.</li> <li><b>Current Projects and Tasks</b> - Provide details about ongoing projects, including their status, key milestones, deadlines, and any challenges faced. This section should outline specific tasks that need attention.</li> <li><b>Key Contacts and Stakeholders</b> List important contacts, including team members, managers, clients, and other stakeholders. Include their roles, responsibilities, and preferred communication methods.</li> </ul>",
+        "col2": "<ul><li><b>Processes and Procedures</b> - Document any standard operating procedures, workflows, or best practices relevant to the role. This information helps the incoming individual understand how to navigate their responsibilities effectively.</li> <li><b>Access Information</b> - Include details about access to relevant systems, tools, and resources, along with any necessary login credentials or permissions.</li> <li><b>Important Documents and Resources</b> - Reference key documents, reports, and resources that the incoming individual should review. This may include project plans, meeting notes, and training materials.</li> <li><b>Additional Insights</b> - Share any lessons learned, tips, or insights gained during the tenure in the role. This information can help the incoming individual avoid potential pitfalls and enhance their effectiveness.</li> </ul>"
       },
       {
         "order": 71,
-        "title": "Sustain Change",
-        "subheader": "Success Change",
-        "body": "“Change is a chance to capitalize on opportunity. Success is the flag on the horizon, what you’re setting out to achieve. Building change competency in your people is key to staying ready to respond to or seize opportunities” – Tim Creasey, Chief Innovation Officer, Prosci",
-        "image": "src/assets/img/change management/Sustain/PMFIDS_CM_order71.jpg"
+        "layout": "col-2",
+        "title": "Ensuring Lasting Transformation:",
+        "subheader": "Strategies for Sustaining Change",
+        "col1": "<h4>Smooth Transition to BAU | Transition to Business As Usual (BAU)</h4> <h5><b>Definition and Importance of Transitioning to BAU<b></h5> <p>Transitioning to Business as Usual (BAU) involves returning an organization to its standard operational state after a period of change, disruption, or project implementation. BAU signifies a return to routine activities, shifting the focus back to regular operations, performance monitoring, and continuous improvement. The following are its importance:</p> <img src='src/assets/img/change management/Sustain/order71.jpg'>",
+        "col2": "<h5><b>Key Objectives of the Transition Phase<b></h5> <ul> <li><b>Sustainability</b> - One of the primary objectives is to ensure that the changes implemented are sustainable over the long term.</li> <li><b>Efficiency</b> - The transition phase aims to enhance operational efficiency by streamlining processes and eliminating redundancies.</li> <li><b>Minimal Disruption</b> - A key goal during the transition is to minimize disruption to ongoing operations.</li> </ul>"
       },
       {
         "order": 72,
-        "title": "Lesson Summary",
-        "body": "<h2>Congratulations on completing Lesson 3 of this module!</h2> <p>Now that you have completed this lesson, you should be able to:</p> <ul> <li>Understand Performance Review;</li> <li>Know on how to conduct handover sessions;and</li> <li>Realize on how to transition to business as usual (BAU)</li> </ul>",
-        "image": "src/assets/img/general images/LessonSummary.jpg"
+        "layout": "image righthand portion",
+        "title": "Ensuring Lasting Transformation:",
+        "subheader": "Strategies for Sustaining Change",
+        "body": "<h4>Smooth Transition to BAU | Transition to Business As Usual (BAU)</h4> <h5><b>The Role of Change Management in Facilitating a Smooth Transition</b></h5> <p>Change management is essential for ensuring a smooth transition from a period of change or disruption back to BAU. It involves a structured approach to managing the people, processes, and technology in the transition, aiming to minimize resistance and maximize engagement.</p>",
+        "image": "src/assets/img/change management/Sustain/order72.jpg"
       },
       {
         "order": 73,
+        "layout": "col-2",
+        "title": "Ensuring Lasting Transformation:",
+        "subheader": "Strategies for Sustaining Change",
+        "col1": "<h4>Smooth Transition to BAU | Planning for the Transition</h4> <h5><b>Developing a Detailed Transition Plan that Outlines Key Activities, Timelines, and Responsibilities<b></h5> <p>A detailed transition plan is a critical component of successfully moving from a change initiative back to Business as Usual (BAU). This plan serves as a roadmap, outlining the key activities, timelines, and responsibilities necessary to ensure a smooth transition.</p> <ul> <li><b>Key Activities</b> - The transition plan should identify all the key activities required for the transition. Each activity should be clearly defined to ensure that all team members understand their roles and contributions.</li> <li><b>Timelines</b> - Establishing a timeline is crucial for maintaining momentum and accountability throughout the transition. Timelines help ensure that the transition stays on schedule and allows for timely adjustments if any delays occur.</li> <li><b>Responsibilities</b> - Clearly defining responsibilities is essential for effective execution of the transition plan. This clarity helps prevent overlaps, ensures accountability, and fosters collaboration among team members.</li> </ul>",
+        "col2": "<h5><b>Identifying Critical Success Factors for a Smooth Transition</b></h5> <p>CSFs are the key areas that must be effectively managed to achieve desired outcomes and ensure a successful transition. Here are some critical success factors to consider:</p> <ul> <li><b>Leadership Support</b> - Strong and visible support from leadership is crucial for a successful transition. Their commitment helps to create a positive environment and encourages buy-in from all levels of the organization.</li> <li><b>Stakeholder Engagement</b> Actively involving stakeholders throughout the transition is essential. This involvement can lead to greater acceptance of changes and smoother implementation.</li> <li><b>Training and Development</b> - Providing adequate training and development opportunities is critical for equipping employees with the skills and knowledge needed to adapt to new processes or technologies. A well-planned training program enhances employee confidence and competence, facilitating a smoother transition.</li> <li><b>Resource Allocation</b> - Ensuring that sufficient resources—such as time, budget, and personnel—are allocated to the transition is vital. Proper resource allocation helps prevent bottlenecks and ensures that all necessary activities can be completed effectively and on schedule.</li> </ul>"
+      },
+      {
+        "order": 74,
+        "layout": "image righthand portion",
+        "title": "Ensuring Lasting Transformation:",
+        "subheader": "Strategies for Sustaining Change",
+        "body": "<h4>Smooth Transition to BAU | Ensuring Readiness for BAU</h4> <p>This assessment determines whether the organization is ready to resume standard operations after a period of change or disruption. Here are key aspects to consider when evaluating readiness:</p>",
+        "image": "src/assets/img/change management/Sustain/order74.jpg"
+      },
+      {
+        "order": 75,
+        "layout": "col-2",
+        "title": "Ensuring Lasting Transformation:",
+        "subheader": "Strategies for Sustaining Change",
+        "col1": "<h4>Smooth Transition to BAU | Documentation and Standard Operating Procedures (SOPs)</h4> <h5><b>Creating Detailed Documentation and SOPs for New Processes and Systems</b></h5> <p>Creating detailed documentation and SOPs is crucial for the effective implementation and long-term sustainability of new processes and systems. Well-documented procedures offer clarity, consistency, and guidance for employees, facilitating a smoother transition to BAU.</p> <ul> <li><b>Purpose and Scope</b> - Clearly define the documentation's purpose and the specific processes or systems it covers, outlining the objectives of the SOPs and the intended audience to ensure relevance and applicability.</li> <li><b>Process Mapping</b> - Develop process maps or flowcharts to visually represent the steps involved in the new processes.</li> <li><b>Step-by-Step Instructions</b> - Provide detailed, step-by-step instructions for each task to minimize confusion and ensure accurate adherence to procedures.</li> </ul>",
+        "col2": "<ul> <li><b>Roles and Responsibilities</b> - Clearly outline the roles and responsibilities of individuals involved in the processes to establish accountability and streamline communication.</li> <li><b>Templates and Forms</b> - Include relevant templates, forms, or checklists that employees may need to complete as part of the new processes.</li> <li> Compliance and Standards: Ensure the documentation aligns with industry standards, regulations, and organizational policies, particularly for processes requiring legal or regulatory compliance to mitigate risks and maintain accountability.</li> <li><b>Review and Approval Process</b> - Establish a review and approval process to ensure accuracy and completeness, involving key stakeholders to gather feedback and make necessary revisions before finalizing the SOPs.</li> <li><b>Training and Communication</b> - Develop a training plan to educate employees on the new processes and SOPs, ensuring effective communication so all staff members are aware of the changes and understand how to implement the new procedures.</li> <li><b>Version and Control Updates</b> - Implement a version control system to track changes over time, regularly reviewing and updating the SOPs to reflect changes in processes, technology, or organizational needs, ensuring the documentation remains relevant and accurate.</li> </ul>"
+      },
+      {
+        "order": 76,
+        "layout": "image righthand portion",
+        "title": "Sustain Change",
+        "subheader": "Success Change",
+        "body": "“Change is a chance to capitalize on opportunity. Success is the flag on the horizon, what you’re setting out to achieve. Building change competency in your people is key to staying ready to respond to or seize opportunities” – Tim Creasey, Chief Innovation Officer, Prosci",
+        "image": "src/assets/img/change management/Sustain/order76.jpg"
+      },
+      {
+        "order": 77,
+        "title": "Lesson Summary",
+        "body": "<h4>Congratulations on completing Lesson 3 of this module!</h4> <p>Now that you have completed this lesson, you should be able to:</p> <ul> <li>Understand Performance Review;</li> <li>Know on how to conduct handover sessions;and</li> <li>Realize on how to transition to business as usual (BAU)</li> </ul>",
+        "image": "src/assets/img/general images/LessonSummary.jpg"
+      },
+      {
+        "order": 78,
         "title": "Module Summary",
         "body": "<p>Now that you have completed this module, you should be able to</p> <ul> <li>Understand that Sustain Change focuses on the critical importance of maintaining new behaviors, processes, and practices over the long term within an organization. This phase of change management is essential for ensuring that the changes implemented are not merely temporary but become ingrained in the organization's culture and operations.</li> <li>Realize that performance reviews play a vital role in this phase, serving as systematic evaluations of employee performance, behavior, and contributions during periods of change. These reviews help assess how well employees adapt to new processes and establish accountability for individual and team performance.</li> <li>Recognize that continuous monitoring mechanisms are crucial for evaluating adherence to new policies and procedures, allowing organizations to adapt and evolve based on feedback and changing circumstances. </li> </ul>",
         "image": "src/assets/img/general images/ModuleSummary.jpg"
       },
       {
-        "order": 74,
+        "order": 79,
         "title": "Module Completion",
         "body": "<h4>Congratulations on completing the Sustain Change module!</h4> <p>You've now gained a solid understanding of the essential terms and concepts for change management fundamentals.</p><p>As you move forward, remember that the principles and strategies you've learned here are vital tools for ensuring the  health and success of any project or organization. By applying these techniques, you'll be better equipped to make informed decisions</p><p>We hope this module has empowered you with the knowledge and confidence to tackle any challenge that comes your way. Keep honing your skills, stay diligent in your planning, and continue to strive for excellence in managing change.</p>",
         "image": "src/assets/img/general images/ModuleCompletion.jpg"
       },
       {
-        "order": 76,
+        "order": 80,
         "title": "Module Post-Examination",
         "exams": [{
             "exam_id": 8,
