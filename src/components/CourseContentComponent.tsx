@@ -5,7 +5,8 @@ import CourseContentSection from "./CourseContentSections";
 import CertificateEditor from "./CertificateEditor";
 import { supabase } from "../queries/supabaseClient"; // Adjust the import path as needed
 import LoaderSection from "./Loader";
-
+import { getModuleForUser, insertModuleForUser } from "../queries/module";
+import { getUserProgress, insertUserProgress } from "../queries/userProgress";
 const CourseContentComponent: React.FC = () => {
   const [selectedModule, setSelectedModule] = useState<string | null>(null);
   const [modules, setModules] = useState<any[]>([]);
@@ -117,7 +118,6 @@ const CourseContentComponent: React.FC = () => {
     window.location.reload();
   };
 
-  // When a module is selected, fetch its progress and set up a realtime subscription
   const handleSelectedModule = async (
     module: any,
     moduleId: any,
@@ -134,33 +134,56 @@ const CourseContentComponent: React.FC = () => {
         return;
       }
     }
+
     const storedUser = localStorage.getItem("user");
     if (!storedUser) return;
     const user = JSON.parse(storedUser);
 
-    // Fetch progress from Supabase
-    const { data, error } = await supabase
-      .from("user_progress")
-      .select("current_page")
-      .eq("user_id", user.userid)
-      .eq("module_id", moduleId)
-      .single();
+    const { data: existingModule, error: checkError } = await getModuleForUser(
+      user.userid,
+      moduleId
+    );
 
-    let progress = 0;
-    if (error || !data) {
-      // Optionally, insert a new row if not found
-      const { error: insertError } = await supabase
-        .from("user_progress")
-        .insert({ user_id: user.userid, module_id: moduleId, current_page: 0 });
-      if (insertError) {
-        console.error("Error inserting progress:", insertError);
-      }
-    } else {
-      progress = data.current_page;
+    if (checkError) {
+      console.error("Error checking existing module:", checkError);
+      return;
     }
 
-    setCurrentPage(progress);
-    setSelectedModule(module.moduleId);
+    let saveData = existingModule;
+
+    // If no record exists, insert a new one.
+    if (!existingModule) {
+      const { data, error: insertError } = await insertModuleForUser(
+        user.userid,
+        moduleId
+      );
+      if (insertError) {
+        console.error("Error inserting module:", insertError);
+        return;
+      }
+      saveData = data;
+    }
+
+    if (saveData) {
+      const { data, error } = await getUserProgress(user.userid, moduleId);
+      let progress = 0;
+      if (error || !data) {
+        const { error: insertError } = await insertUserProgress(
+          user.userid,
+          moduleId,
+          0
+        );
+        if (insertError) {
+          console.error("Error inserting progress:", insertError);
+        }
+      } else {
+        progress = data.current_page;
+      }
+      setCurrentPage(progress);
+      setSelectedModule(module.moduleId);
+    } else {
+      console.error("Something went wrong");
+    }
   };
 
   const completionPercentages = getModuleId.reduce((acc, id) => {

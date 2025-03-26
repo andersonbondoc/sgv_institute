@@ -289,20 +289,41 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
       // Update progress when finishing
       setCurrentSectionIndex(sections.length);
     }
-
+    console.log(
+      "examScore: ",
+      examScore,
+      " totalQuestion: ",
+      totalQuestion,
+      " ",
+      "percentage: ",
+      percentage
+    );
     const { data, error } = await saveExamResult(
       examTitle,
       userId,
       examId,
       totalQuestion,
-      parseFloat(percentage)
+      parseFloat(percentage),
+      moduleId
     );
-
+    console.log("data: ", data);
     if (error) {
       console.error("Failed to save exam result:", error);
     } else {
       setFinishedModule(true);
       if (currentSection?.title === "Module Post-Examination") {
+        const storedUser = localStorage.getItem("user");
+        if (storedUser) {
+          const user = JSON.parse(storedUser);
+          const { data, error } = await supabase
+            .from("modules")
+            .update({ end_module: new Date().toISOString() })
+            .eq("user_id", user.userid)
+            .eq("module_id", moduleId);
+          if (error) {
+            console.error("Error updating module end_module timestamp:", error);
+          }
+        }
         onBackToModules();
       }
       // onBackToModules();

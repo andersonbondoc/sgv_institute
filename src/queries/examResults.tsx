@@ -5,7 +5,8 @@ export const saveExamResult = async (
   userId: string,
   examId: number,
   totalQuestion: number,
-  results: number
+  results: number,
+  moduleId: string
 ) => {
   const { data, error } = await supabase.from("examResults").insert([
     {
@@ -14,6 +15,8 @@ export const saveExamResult = async (
       exam_id: examId,
       total_question: totalQuestion,
       results: results,
+      end_exam: new Date().toISOString(),
+      module_id: moduleId,
     },
   ]);
 

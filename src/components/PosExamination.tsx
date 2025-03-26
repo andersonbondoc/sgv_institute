@@ -117,7 +117,7 @@ const PostExamPage: React.FC<PreExamPageProps> = ({
         setScore((prev) => prev + 1);
       }
     }
-    localStorage.setItem("examScore", score.toString());
+
     setShowResult(true);
     // handleFinishQuestionButton();
   };
