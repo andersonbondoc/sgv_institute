@@ -35,9 +35,11 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
   const [isExamFinished, setExamFinished] = useState(false);
   const [finishedModule, setFinishedModule] = useState(false);
   const [nextButtonEnabled, setNextButtonEnabled] = useState(false);
-  const [countdown, setCountdown] = useState(60);
+  const [countdown, setCountdown] = useState(10);
+  const [canNext, setCanNext] = useState(false);
   const [zoomedImage, setZoomedImage] = useState<string | null>(null);
-
+  const [inPreviousPage, setInPreviousPage] = useState(false);
+  const [visitedPages, setVisitedPages] = useState<number[]>([]);
   useEffect(() => {
     const fileMapping: Record<string, string> = {
       PMFIDS_PM: "project_management.json",
@@ -190,7 +192,26 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
 
   useEffect(() => {
     setNextButtonEnabled(false);
-    setCountdown(60);
+
+    // Stop the timer if the user is on a previous page
+    if (inPreviousPage) {
+      setCountdown(0);
+      setNextButtonEnabled(true);
+      return;
+    }
+
+    const highestVisitedPage = Math.max(...visitedPages, 0);
+    let nextpage = currentSectionIndex + 1;
+    if (nextpage < highestVisitedPage) {
+      setCountdown(0);
+      setNextButtonEnabled(true);
+      return;
+    }
+    // Set countdown duration based on the title
+    const countdownDuration =
+      currentSection?.title === "Knowledge Check" ? 300 : 10;
+    setCountdown(countdownDuration);
+
     const timer = setInterval(() => {
       setCountdown((prev) => {
         if (prev <= 1) {
@@ -201,8 +222,9 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
         return prev - 1;
       });
     }, 1000);
+
     return () => clearInterval(timer);
-  }, [currentSectionIndex]);
+  }, [currentSectionIndex, inPreviousPage, visitedPages]);
 
   const currentSection = sections[currentSectionIndex];
   const totalSections = sections.length;
@@ -211,11 +233,15 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
 
   const handleNext = () => {
     if (currentSectionIndex < sections.length - 1) {
+      setInPreviousPage(false); // Reset inPreviousPage when moving forward
       setSelectedAnswer([]);
       setFeedback(null);
       setAnimationKey((prev) => prev + 1);
       setCurrentSectionIndex((prev) => prev + 1);
-
+      const nextIndex = currentSectionIndex + 1;
+      setVisitedPages((prev) =>
+        prev.includes(nextIndex) ? prev : [...prev, nextIndex]
+      );
       if (cardRef.current) {
         cardRef.current.scrollIntoView({ behavior: "smooth", block: "start" });
       }
@@ -226,6 +252,9 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
 
   const handleBack = () => {
     if (currentSectionIndex > 0) {
+      setInPreviousPage(true); // Set inPreviousPage to true when going back
+      setCanNext(true);
+      setCountdown(0); // Stop countdown when moving back
       setSelectedAnswer([]);
       setFeedback(null);
       setAnimationKey((prev) => prev + 1);
@@ -234,6 +263,7 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
       if (cardRef.current) {
         cardRef.current.scrollIntoView({ behavior: "smooth", block: "start" });
       }
+      setCountdown(0);
     }
     setRetryCount(0);
     setIsAnswerShown(false);
@@ -262,6 +292,10 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
     setFeedback(
       isCorrect ? "✅ Correct answer!" : "❌ Wrong answer. Try again."
     );
+    if (isCorrect) {
+      setCanNext(true);
+      setCountdown(0);
+    }
     setIsAnswerShown(true);
   };
 
@@ -308,15 +342,6 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
       // Update progress when finishing
       setCurrentSectionIndex(sections.length);
     }
-    console.log(
-      "examScore: ",
-      examScore,
-      " totalQuestion: ",
-      totalQuestion,
-      " ",
-      "percentage: ",
-      percentage
-    );
     const { data, error } = await saveExamResult(
       examTitle,
       userId,
@@ -325,7 +350,6 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
       parseFloat(percentage),
       moduleId
     );
-    console.log("data: ", data);
     if (error) {
       console.error("Failed to save exam result:", error);
     } else {
@@ -361,7 +385,6 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
   };
 
   const renderPageColtwoContent = () => {
-    console.log("test col2");
     return (
       <>
         <div className="text-2xl text-yellow-500 font-bold mb-6">
@@ -389,7 +412,6 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
   };
 
   const renderPageColthreeContent = () => {
-    console.log("test col3");
     return (
       <>
         <div className="text-2xl text-yellow-500 font-bold mb-6">
@@ -622,7 +644,7 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
                       {countdown !== 1 && "s"}
                     </p>
                     <IonProgressBar
-                      value={(60 - countdown) / 60}
+                      value={(10 - countdown) / 10}
                       color="medium"
                       className="mt-1"
                     />
