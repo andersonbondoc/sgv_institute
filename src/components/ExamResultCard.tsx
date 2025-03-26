@@ -28,7 +28,7 @@ const ExamResultCard: React.FC<ExamResultCardProps> = ({
   const numericPercentage = (score / totalQuestion) * 100;
   const percentage = numericPercentage.toFixed(2);
   const passed = numericPercentage >= 75;
-
+  localStorage.setItem("examScore", score.toString());
   const resultMessage = passed
     ? "Congratulations for passing this course examination! 🥳🥳🥳"
     : "Unfortunately, you did not pass the course examination.";
@@ -73,9 +73,11 @@ const ExamResultCard: React.FC<ExamResultCardProps> = ({
           </div>
           <div className="flex justify-center items-center">
             {passed ? (
-              <button className="mb-4 px-6 py-2 bg-indigo-700 rounded-lg flex items-center gap-2 text-white">
-                <IonIcon icon={readerOutline} />
-                Download Certificate
+              <button
+                className="mb-4 px-6 py-2 bg-indigo-700 rounded-lg flex items-center gap-2 text-white"
+                onClick={onClose}
+              >
+                Go Back
               </button>
             ) : (
               <button
