@@ -34,7 +34,10 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
   const [isHidePrevNextButton, setHidePrevNextButton] = useState(false);
   const [isExamFinished, setExamFinished] = useState(false);
   const [finishedModule, setFinishedModule] = useState(false);
-  // Fetch course sections based on moduleId (unchanged)
+  const [nextButtonEnabled, setNextButtonEnabled] = useState(false);
+  const [countdown, setCountdown] = useState(60);
+  const [zoomedImage, setZoomedImage] = useState<string | null>(null);
+
   useEffect(() => {
     const fileMapping: Record<string, string> = {
       PMFIDS_PM: "project_management.json",
@@ -185,6 +188,22 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
     handleCheckModule();
   }, [currentSectionIndex, moduleId]);
 
+  useEffect(() => {
+    setNextButtonEnabled(false);
+    setCountdown(60);
+    const timer = setInterval(() => {
+      setCountdown((prev) => {
+        if (prev <= 1) {
+          clearInterval(timer);
+          setNextButtonEnabled(true);
+          return 0;
+        }
+        return prev - 1;
+      });
+    }, 1000);
+    return () => clearInterval(timer);
+  }, [currentSectionIndex]);
+
   const currentSection = sections[currentSectionIndex];
   const totalSections = sections.length;
   const progress =
@@ -331,7 +350,18 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
     handleNext();
   };
 
+  const handleHtmlContentClick = (
+    e: React.MouseEvent<HTMLDivElement, MouseEvent>
+  ) => {
+    const target = e.target as HTMLElement;
+    if (target.tagName.toLowerCase() === "img") {
+      // Cast to HTMLImageElement to get the src
+      setZoomedImage((target as HTMLImageElement).src);
+    }
+  };
+
   const renderPageColtwoContent = () => {
+    console.log("test col2");
     return (
       <>
         <div className="text-2xl text-yellow-500 font-bold mb-6">
@@ -345,10 +375,13 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
           <div
             className="prose"
             dangerouslySetInnerHTML={{ __html: currentSection.col1 }}
+            onClick={handleHtmlContentClick}
           />
+
           <div
             className="prose"
             dangerouslySetInnerHTML={{ __html: currentSection.col2 }}
+            onClick={handleHtmlContentClick}
           />
         </div>
       </>
@@ -356,6 +389,7 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
   };
 
   const renderPageColthreeContent = () => {
+    console.log("test col3");
     return (
       <>
         <div className="text-2xl text-yellow-500 font-bold mb-6">
@@ -368,14 +402,17 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
           <div
             className="prose"
             dangerouslySetInnerHTML={{ __html: currentSection.col1 }}
+            onClick={handleHtmlContentClick}
           />
           <div
             className="prose"
             dangerouslySetInnerHTML={{ __html: currentSection.col2 }}
+            onClick={handleHtmlContentClick}
           />
           <div
             className="prose"
             dangerouslySetInnerHTML={{ __html: currentSection.col3 }}
+            onClick={handleHtmlContentClick}
           />
         </div>
       </>
@@ -430,7 +467,9 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
                     <img
                       src={currentSection.image}
                       alt={currentSection.title}
-                      className="rounded-lg max-w-[500px] h-auto"
+                      className="rounded-lg max-w-[500px] h-auto transition-transform duration-200 hover:scale-105"
+                      style={{ cursor: "zoom-in" }}
+                      onClick={() => setZoomedImage(currentSection.image)}
                     />
                   </div>
                 )}
@@ -442,8 +481,9 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
                     {currentSection.subheader}
                   </div>
                   <div
-                    className="prose mt-4"
+                    className={`prose mt-4`}
                     dangerouslySetInnerHTML={{ __html: currentSection.body }}
+                    onClick={handleHtmlContentClick}
                   />
                   {currentSection.list1 && (
                     <ul className="list-disc list-inside mt-4">
@@ -575,15 +615,52 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
                 >
                   <IonIcon icon={arrowBack} />
                 </button>
+                {!nextButtonEnabled && (
+                  <div className="mt-2 w-full text-center">
+                    <p className="text-sm text-gray-500">
+                      The next page is available in {countdown} second
+                      {countdown !== 1 && "s"}
+                    </p>
+                    <IonProgressBar
+                      value={(60 - countdown) / 60}
+                      color="medium"
+                      className="mt-1"
+                    />
+                  </div>
+                )}
                 <button
                   onClick={handleNext}
-                  className="w-12 h-12 bg-indigo-700 text-white rounded-full flex items-center justify-center"
+                  disabled={!nextButtonEnabled}
+                  className={`w-12 h-12 rounded-full flex items-center justify-center ${
+                    !nextButtonEnabled
+                      ? "bg-gray-300 opacity-50 cursor-not-allowed"
+                      : "bg-indigo-700 text-white hover:shadow-md cursor-pointer"
+                  }`}
                 >
                   <IonIcon icon={arrowForward} />
                 </button>
               </div>
             )}
           </IonCard>
+          {zoomedImage && (
+            <div
+              className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-80 z-50 "
+              onClick={() => setZoomedImage(null)}
+            >
+              <div className="relative " onClick={(e) => e.stopPropagation()}>
+                <IonIcon
+                  icon={closeCircle}
+                  className="absolute top-2 right-2 text-white text-4xl cursor-pointer"
+                  onClick={() => setZoomedImage(null)}
+                />
+                <img
+                  src={zoomedImage}
+                  alt="Zoomed"
+                  className="rounded-lg max-w-[100vh] max-h-[70vh]  w-full height-full object-contain"
+                />
+              </div>
+            </div>
+          )}
         </motion.div>
       ) : (
         <>
