@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 import ExamResultCard from "./ExamResultCard";
+import { IonIcon } from "@ionic/react";
+import { chevronBack, chevronForward } from "ionicons/icons";
 
 interface PreExamPageProps {
   sections: any;
@@ -173,26 +175,36 @@ const PreExamPage: React.FC<PreExamPageProps> = ({
               ))}
             </div>
             <div className="mt-8 flex justify-between">
-              {currentQuestionIndex !== 0 && (
-                <button
-                  onClick={handlePreviousQuestion}
-                  disabled={currentQuestionIndex === 0}
-                  className="py-3 px-6 bg-gray-500 hover:bg-gray-600 text-white font-semibold rounded-lg shadow-md transition-colors duration-300 disabled:opacity-50"
-                >
-                  Previous
-                </button>
-              )}
+              {/* Placeholder for consistent positioning */}
+              <div className="w-36">
+                {currentQuestionIndex !== 0 && (
+                  <button
+                    onClick={handlePreviousQuestion}
+                    disabled={currentQuestionIndex === 0}
+                    className="flex items-center gap-2 py-3 px-6 bg-gray-500 hover:bg-gray-600 text-white font-semibold rounded-lg shadow-md transition-colors duration-300 disabled:opacity-50"
+                  >
+                    <IonIcon icon={chevronBack} className="w-5 h-5" />
+                    Previous
+                  </button>
+                )}
+              </div>
+
               <button
                 onClick={
                   currentQuestionIndex < preExamQuestions.length - 1
                     ? handleNextQuestion
                     : finishExam
                 }
-                className="py-3 px-6 bg-green-600 hover:bg-green-700 text-white font-semibold rounded-lg shadow-md transition-colors duration-300"
+                className="flex items-center gap-2 py-3 px-6 bg-green-600 hover:bg-green-700 text-white font-semibold rounded-lg shadow-md transition-colors duration-300"
               >
-                {currentQuestionIndex < preExamQuestions.length - 1
-                  ? "Next Question"
-                  : "Finished"}
+                {currentQuestionIndex < preExamQuestions.length - 1 ? (
+                  <>
+                    Next Question
+                    <IonIcon icon={chevronForward} className="w-5 h-5" />
+                  </>
+                ) : (
+                  <>Finished</>
+                )}
               </button>
             </div>
           </div>
