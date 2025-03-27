@@ -81,7 +81,7 @@
         "layout": "col-1", 
         "title": "Introduction to Change Management",
         "subheader": "What is Change Management?", 
-        "body": "<p>In this section, we will introduce key change management frameworks that provide structured approaches to navigating and implementing change effectively within organizations.</p> <img src='src/assets/img/change management/Intro/order6.jpg'> <h4>Lewin’s Change Management Model:</h4> <ul> <li>Kurt Lewin's Change Management Model presents a simple approach to organizational change, structured into three phases: Unfreeze, Change and Refreeze. This high-level model emphasizes the planning and preparation stages of change and supporting employees through each stage.</li> </ul>"    
+        "body": "<p>In this section, we will introduce key change management frameworks that provide structured approaches to navigating and implementing change effectively within organizations.</p> <img src='src/assets/img/change management/Intro/order6.jpg'/> <h4>Lewin’s Change Management Model:</h4> <ul> <li>Kurt Lewin's Change Management Model presents a simple approach to organizational change, structured into three phases: Unfreeze, Change and Refreeze. This high-level model emphasizes the planning and preparation stages of change and supporting employees through each stage.</li> </ul>"    
       },
       {
         "order": 7,
@@ -104,7 +104,7 @@
         "layout": "image righthand portion", 
         "title": "Introduction to Change Management",
         "subheader": "What is Change Management?", 
-        "body": "<h4>TKubler-Ross Change Curve:</h4> <ul> <li>The Kubler-Ross Change Curve by Elisabeth Kübler-Ross, adapted from the stages of grief, helps change teams understand emotional responses during organizational change. It’s most useful when managing changes with deep or negative employee impacts, such as significant layoffs or extensive organizational restructurings.</li> </ul>",
+        "body": "<h4>Kubler-Ross Change Curve:</h4> <ul> <li>The Kubler-Ross Change Curve by Elisabeth Kübler-Ross, adapted from the stages of grief, helps change teams understand emotional responses during organizational change. It’s most useful when managing changes with deep or negative employee impacts, such as significant layoffs or extensive organizational restructurings.</li> </ul>",
         "image": "src/assets/img/change management/Intro/order9.jpg"   
       }, 
       {
@@ -186,7 +186,7 @@
         "layout":"col-1",
         "title": "Introduction to Change Management",
         "subheader": "Change Management on a Page",
-        "body":"<p>The Change Management Framework presented here is a synthesis of Prosci's methodologies and EY's extensive experiences and best practices. Like the Prosci Methodology, EY's Framework of Change Experience is structured around three key stages, outlining the essential steps and phases necessary for successfully implementing change.</p> <img src='src/assets/img/change management/Intro/order18.jpg'> <p>Prosci’s Methodology is structured around three key phases:</p> <ul> <li><b>Preparing for Change</b>: This phase focuses on establishing a solid foundation for the change initiative by aligning the organization and ensuring readiness.</li> <li><b>Managing Change</b>: The aim here is to engage employees, ensuring they understand the change and possess the skills and resources needed to adapt.</li> <li><b>Sustaining Change</b>: This phase seeks to maintain the change over the long term, ensuring lasting benefits for the organization.</li> </ul>"
+        "body":"<p>The Change Management Framework presented here is a synthesis of Prosci's methodologies and EY's extensive experiences and best practices. Like the Prosci Methodology, EY's Framework of Change Experience is structured around three key stages, outlining the essential steps and phases necessary for successfully implementing change.</p> <img src='src/assets/img/change management/Intro/order18.jpg'/> <p>Prosci’s Methodology is structured around three key phases:</p> <ul> <li><b>Preparing for Change</b>: This phase focuses on establishing a solid foundation for the change initiative by aligning the organization and ensuring readiness.</li> <li><b>Managing Change</b>: The aim here is to engage employees, ensuring they understand the change and possess the skills and resources needed to adapt.</li> <li><b>Sustaining Change</b>: This phase seeks to maintain the change over the long term, ensuring lasting benefits for the organization.</li> </ul>"
       },
       { 
         "order": 19,

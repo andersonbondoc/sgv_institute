@@ -111,7 +111,7 @@
         "C": "Regulatory Change",
         "D": "None of the above"
       }],
-      "q_answer": "A,B,C"
+      "q_answer": "A, B, C"
     },  
     {
       "order": 10,
@@ -194,7 +194,7 @@
       "order": 19,
       "title": "Lesson Summary",
       "body": "<h4>Congratulations on completing Lesson 1 of this module!</h4> <p>Now that you have completed this lesson, you should be able to:</p> <ul> <li>Understand the nature of change</li> <li>Asses the change initiative of the organization</li> </ul>", 
-      "image":"/rc/assets/img/general images/LessonSummary.jpg"
+      "image":"src/assets/img/general images/LessonSummary.jpg"
     },
     {
       "order": 20,
@@ -268,7 +268,7 @@
         "C": "Baselines",
         "D": "Cost of change"
       }],
-      "q_answer": "A,B,D"
+      "q_answer": "A, B, D"
     },
     {
       "order": 28,
@@ -364,7 +364,7 @@
       "layout": "col-2",
       "title": "Analyzing Stakeholders Insight for Impactful Change",
       "subheader": "Identifying Stakeholders | Understanding Stakeholder", 
-      "col1": "<h4>Definition of Stakeholders in the Context of Change Management </h4> <p>In change management, stakeholders are individuals, groups, or organizations with an interest in or affected by a change initiative. They can significantly influence the outcome of the change process and are crucial to its success.</p> <h4>Types of Stakeholders</h4> <h4>Internal Stakeholders</h4> <p>These are individuals or groups within the organization, such as employees, management, and board members, who are directly affected by the change.</p> <h4>External Stakeholders</h4> <p>These include customers, suppliers, investors, regulatory bodies, and the community at large, who may be impacted by the changes or have an interest in the organization's operations.</p> <h4>Change Agents</h4> <p>These are individuals or teams responsible for driving the change process, facilitating communication, and ensuring that stakeholders are engaged and informed.</p> <h4>Change Champions</h4> <p>Stakeholders who actively support and advocate for the change, helping to motivate others and overcome resistance</p> <h4>Resistors</h4> <p>Individuals or groups who oppose the change, either due to fear, misunderstanding, or perceived negative impacts.</p>", 
+      "col1": "<h4>Definition of Stakeholders in the Context of Change Management </h4> <p>In change management, stakeholders are individuals, groups, or organizations with an interest in or affected by a change initiative. They can significantly influence the outcome of the change process and are crucial to its success.</p> <h4>Types of Stakeholders:</h4> <h4>Internal Stakeholders</h4> <p>These are individuals or groups within the organization, such as employees, management, and board members, who are directly affected by the change.</p> <h4>External Stakeholders</h4> <p>These include customers, suppliers, investors, regulatory bodies, and the community at large, who may be impacted by the changes or have an interest in the organization's operations.</p> <h4>Change Agents</h4> <p>These are individuals or teams responsible for driving the change process, facilitating communication, and ensuring that stakeholders are engaged and informed.</p> <h4>Change Champions</h4> <p>Stakeholders who actively support and advocate for the change, helping to motivate others and overcome resistance</p> <h4>Resistors</h4> <p>Individuals or groups who oppose the change, either due to fear, misunderstanding, or perceived negative impacts.</p>", 
       "col2": "<h4>The Importance of Stakeholder Identification in Change Management </h4> <h4>Understanding Impact</h4> <p>Identifying stakeholders helps organizations recognize who will be affected by the change and how, enabling tailored communication and support strategies that address specific concerns.</p> <h4>Minimizing Resistance</h4> <p>By recognizing potential resistors and their concerns, organizations can proactively address issues and reduce resistance, leading to smoother transitions and greater acceptance of change.</p> <h4>Facilitating Collaboration</h4> <p>Stakeholder identification fosters collaboration among diverse groups, promoting teamwork and shared purpose, which can result in innovative solutions and a more effective change process.</p> <h4>Assessing Risks</h4> <p>Understanding the stakeholder landscape allows organizations to identify potential risks associated with change. By anticipating challenges, they can develop proactive strategies to address them.</p> <h4>Measuring Success</h4> <p>Stakeholder identification provides a framework for evaluating the success of the change initiative. By considering stakeholder feedback and outcomes, organizations can determine if the change has achieved its objectives and made a positive impact.</p>"
     },
     {
@@ -396,8 +396,8 @@
       "layout": "col-2",
       "title": "Analyzing Stakeholders Insight for Impactful Change",
       "subheader": "Identifying Stakeholders | Stakeholder Identification Process", 
-      "col1": "<h4>Understanding the Roles and Responsibilities of Different Stakeholders </h4> <p>Understanding stakeholder roles within a business is essential, as they involve overseeing the organization, making decisions, fostering growth, ensuring compliance, and providing support. Here’s a breakdown of common stakeholder roles and their responsibilities: </p> <h4>Executive Leadership</h4> <h5><b>Role</b></h5> <p>Visionaries and decision-makers.</p> <h5><b>Responsibilities</b></h5> <p>Set the strategic direction, allocate resources, and provide overall support for the change initiative. They also communicate the importance of the change to the organization.</p>", 
-      "col2": "<h4>Change Management Team</h4> <h5><b>Role</b></h5> <p>Facilitators of the change process.</p> <h5><b>Responsibilities</b></h5> <p>Plan, implement, and monitor the change initiative. They develop communication strategies, provide training, and engage stakeholders to ensure a smooth transition.</p> <h4>Department Heads/Managers</h4> <h5><b>Role</b></h5> <p>Leaders of affected departments.</p> <h5><b>Responsibilities</b></h5> <p>Communicate changes to their teams, manage resistance, and provide feedback on the impact of the change. They also ensure that departmental needs are addressed.</p> <h4>Employees</h4> <h5><b>Role</b></h5> <p>Individuals directly impacted by the change.</p> <h5><b>Responsibilities</b></h5> <p>Adapt to new processes or systems, provide feedback, and participate in training. Their engagement and buy-in are critical for successful implementation.</p> <h4>End Users</h4> <h5><b>Role</b></h5> <p>Users of new systems or processes.</p> <h5><b>Responsibilities</b></h5> <p>Utilize the changes in their daily work, provide feedback on usability, and participate in training sessions. Their input is vital for ensuring the change meets user needs.</p> <h4>Customers</h4> <h5><b>Role</b></h5> <p>External stakeholders affected by the change.</p> <h5><b>Responsibilities</b></h5> <p>Provide feedback on how changes impact their experience and needs. Their satisfaction is crucial for the success of the change initiative.</p>"
+      "col1": "<h4>Understanding the Roles and Responsibilities of Different Stakeholders </h4> <p>Understanding stakeholder roles within a business is essential, as they involve overseeing the organization, making decisions, fostering growth, ensuring compliance, and providing support. Here’s a breakdown of common stakeholder roles and their responsibilities: </p> <h4>Executive Leadership</h4> <h5><b>Role</b></h5> <p>Visionaries and decision-makers.</p> <h5><b>Responsibilities</b></h5> <p>Set the strategic direction, allocate resources, and provide overall support for the change initiative. They also communicate the importance of the change to the organization.</p><h4>Change Management Team</h4> <h5><b>Role</b></h5> <p>Facilitators of the change process.</p> <h5><b>Responsibilities</b></h5> <p>Plan, implement, and monitor the change initiative. They develop communication strategies, provide training, and engage stakeholders to ensure a smooth transition.</p><h4>Department Heads/Managers</h4> <h5><b>Role</b></h5> <p>Leaders of affected departments.</p> <h5><b>Responsibilities</b></h5> <p>Communicate changes to their teams, manage resistance, and provide feedback on the impact of the change. They also ensure that departmental needs are addressed.</p> ", 
+      "col2": " <h4>Employees</h4> <h5><b>Role</b></h5> <p>Individuals directly impacted by the change.</p> <h5><b>Responsibilities</b></h5> <p>Adapt to new processes or systems, provide feedback, and participate in training. Their engagement and buy-in are critical for successful implementation.</p> <h4>End Users</h4> <h5><b>Role</b></h5> <p>Users of new systems or processes.</p> <h5><b>Responsibilities</b></h5> <p>Utilize the changes in their daily work, provide feedback on usability, and participate in training sessions. Their input is vital for ensuring the change meets user needs.</p> <h4>Customers</h4> <h5><b>Role</b></h5> <p>External stakeholders affected by the change.</p> <h5><b>Responsibilities</b></h5> <p>Provide feedback on how changes impact their experience and needs. Their satisfaction is crucial for the success of the change initiative.</p>"
     },
     {
       "order": 45,
