@@ -68,6 +68,7 @@ const PostExamPage: React.FC<PreExamPageProps> = ({
   };
 
   const handleNextQuestion = () => {
+    if (!isAnswerSelected) return;
     // Evaluate the answer and update the score.
     if (currentQuestion.fieldType === "single_select") {
       if (selectedAnswer[0] === currentQuestion.correctAnswer) {
@@ -101,6 +102,7 @@ const PostExamPage: React.FC<PreExamPageProps> = ({
   };
 
   const finishExam = () => {
+    if (!isAnswerSelected) return;
     if (currentQuestion.fieldType === "single_select") {
       if (selectedAnswer[0] === currentQuestion.correctAnswer) {
         setScore((prev) => prev + 1);
@@ -203,7 +205,12 @@ const PostExamPage: React.FC<PreExamPageProps> = ({
                     ? handleNextQuestion
                     : finishExam
                 }
-                className="flex items-center gap-2 py-3 px-6 bg-green-600 hover:bg-green-700 text-white font-semibold rounded-lg shadow-md transition-colors duration-300"
+                className={`flex items-center gap-2 py-3 px-6 font-semibold rounded-lg shadow-md transition-colors duration-300 
+                  ${
+                    isAnswerSelected
+                      ? "bg-green-600 hover:bg-green-700 text-white"
+                      : "bg-gray-400 cursor-not-allowed text-gray-200"
+                  }`}
               >
                 {currentQuestionIndex < preExamQuestions.length - 1 ? (
                   <>

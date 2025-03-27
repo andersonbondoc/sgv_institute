@@ -135,7 +135,10 @@ const CoursePage: React.FC = () => {
         </div>
       </IonContent>
       {showVoucherCard && (
-        <VoucherCard onClose={() => setShowVoucherCard(false)} />
+        <VoucherCard
+          onClose={() => setShowVoucherCard(false)}
+          courseId={courseId}
+        />
       )}
     </IonPage>
   );

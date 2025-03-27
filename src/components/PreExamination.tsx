@@ -66,6 +66,8 @@ const PreExamPage: React.FC<PreExamPageProps> = ({
   };
 
   const handleNextQuestion = () => {
+    if (!isAnswerSelected) return;
+
     if (currentQuestion.fieldType === "single_select") {
       if (selectedAnswer[0] === currentQuestion.correctAnswer) {
         setScore((prev) => prev + 1);
@@ -98,6 +100,8 @@ const PreExamPage: React.FC<PreExamPageProps> = ({
   };
 
   const finishExam = () => {
+    if (!isAnswerSelected) return;
+
     if (currentQuestion.fieldType === "single_select") {
       if (selectedAnswer[0] === currentQuestion.correctAnswer) {
         setScore((prev) => prev + 1);
@@ -195,7 +199,13 @@ const PreExamPage: React.FC<PreExamPageProps> = ({
                     ? handleNextQuestion
                     : finishExam
                 }
-                className="flex items-center gap-2 py-3 px-6 bg-green-600 hover:bg-green-700 text-white font-semibold rounded-lg shadow-md transition-colors duration-300"
+                disabled={!isAnswerSelected} // Disable button if no answer is selected
+                className={`flex items-center gap-2 py-3 px-6 font-semibold rounded-lg shadow-md transition-colors duration-300 
+    ${
+      isAnswerSelected
+        ? "bg-green-600 hover:bg-green-700 text-white"
+        : "bg-gray-400 cursor-not-allowed text-gray-200"
+    }`}
               >
                 {currentQuestionIndex < preExamQuestions.length - 1 ? (
                   <>

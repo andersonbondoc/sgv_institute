@@ -1,4 +1,4 @@
-import { useState, useRef } from "react";
+import { useState, useRef, useEffect } from "react";
 import {
   IonCard,
   IonCardHeader,
@@ -8,13 +8,31 @@ import {
   IonItem,
 } from "@ionic/react";
 import { useHistory } from "react-router-dom";
-import { validateVoucher } from "../queries/voucherQueries";
+import { validateVoucher, isVoucherActivated } from "../queries/voucherQueries";
 
-const VoucherCard = ({ onClose }: any) => {
+const VoucherCard = ({ onClose, courseId }: any) => {
   const history = useHistory();
   const [voucherError, setVoucherError] = useState("");
   const voucherInputRef = useRef("");
-
+  console.log("courseId: ", courseId);
+  useEffect(() => {
+    const checkVoucher = async () => {
+      const storedUser = localStorage.getItem("user");
+      if (!storedUser) {
+        setVoucherError("User not found. Please log in again.");
+        return;
+      }
+      const user = JSON.parse(storedUser);
+      const userId = user.userid;
+      const fetchData = await isVoucherActivated(userId, courseId);
+      console.log("fetchData: ", fetchData);
+      if (fetchData) {
+        setVoucherError("");
+        onClose();
+      }
+    };
+    checkVoucher();
+  }, [courseId]);
   const handleApply = async () => {
     const voucherCode = voucherInputRef.current;
     if (!voucherCode) {
@@ -29,13 +47,14 @@ const VoucherCard = ({ onClose }: any) => {
     }
     const user = JSON.parse(storedUser);
     const userId = user.userid;
-    const result = await validateVoucher(voucherCode, userId);
-    if (!result.valid) {
-      setVoucherError(result.message);
-    } else {
-      localStorage.setItem("isCorrectVoucher", "true");
+    const result = await validateVoucher(courseId, voucherCode, userId);
+    console.log(result.valid, result.data, voucherCode);
+    if (result.valid && result.data === voucherCode) {
       setVoucherError("");
       onClose();
+    } else {
+      console.log(result.message, result);
+      setVoucherError(result.message);
     }
   };
 

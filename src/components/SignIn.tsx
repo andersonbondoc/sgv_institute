@@ -85,7 +85,7 @@ const SignInModal: React.FC<SignInModalProps> = ({
         <div className="relative">
           <IonInput
             type="email"
-            placeholder="Enter your email"
+            placeholder="Enter your username"
             className={`w-full p-3 border rounded-lg bg-gray-50 dark:bg-gray-700 text-gray-900 dark:text-gray-100 pr-10 
               ${
                 isEmailValid === false
