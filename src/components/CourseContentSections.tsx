@@ -666,10 +666,10 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
           </IonCard>
           {zoomedImage && (
             <div
-              className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-80 z-50 "
+              className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-80 z-50"
               onClick={() => setZoomedImage(null)}
             >
-              <div className="relative " onClick={(e) => e.stopPropagation()}>
+              <div className="relative" onClick={(e) => e.stopPropagation()}>
                 <IonIcon
                   icon={closeCircle}
                   className="absolute top-2 right-2 text-white text-4xl cursor-pointer"
@@ -678,7 +678,7 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
                 <img
                   src={zoomedImage}
                   alt="Zoomed"
-                  className="rounded-lg max-w-[100vh] max-h-[70vh]  w-full height-full object-contain"
+                  className="rounded-lg max-w-full max-h-full w-auto h-auto object-contain"
                 />
               </div>
             </div>
