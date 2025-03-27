@@ -8,13 +8,13 @@ export const getUserByEmail = async (email: string) => {
   const { data, error } = await supabase
     .from("users")
     .select("*")
-    .eq("email", email)
+    .eq("username", email)
     .single();
 
   if (error || !data) {
     return {
       exists: false,
-      error: "User not found. Please enter a valid email.",
+      error: "User not found. Please enter a valid username.",
       user: null,
     };
   }
@@ -38,13 +38,12 @@ export const getUserByEmailAndPassword = async (
   const { data, error } = await supabase
     .from("users")
     .select("*")
-    .eq("email", email)
+    .eq("username", email)
     .single();
-  console.log("data: ", data);
   if (error || !data) {
     return {
       success: false,
-      error: "User not found. Please check your email.",
+      error: "User not found. Please check your username.",
       user: null,
     };
   }
