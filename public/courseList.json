@@ -2,7 +2,7 @@
     "PMFIDS": {
       "courseId": "PMFIDS",
       "title": "Project Management Fundamentals for Implementation of Digital Solutions",
-      "description": "To introduce the fundamental tools and techniques of project management for learners' navigation of their current and future business transformation initiatives, equip learners with the knowledge and skills necessary to manage project budgets and costs effectively, and understand the function, importance, and purpose of risk management, quality assurance, and existing Philippine regulations during a project.",
+      "description": "Introduces essential project management techniques to help learners navigate business transformation initiatives.",
       "price": "Free",  
       "icon": "src/assets/img/icons/pm.jpg",
       "bgColor": "bg-indigo-100",
@@ -12,7 +12,7 @@
           "courseId": "PMFIDS",
           "moduleId": "PMFIDS_PM",
           "title": "Project Management Fundamentals, Tools, and Techniques",
-          "description": "This module is designed to provide you with a comprehensive understanding of project management, project management functions, tools, techniques, and frameworks, and project lifecycle",
+          "description": "This module is designed to provide you with a comprehensive understanding of project management, project management functions, tools, techniques, and frameworks, and project lifecycle.",
           "icon": "src/assets/img/icons/pm.jpg",
           "bgColor": "bg-indigo-100"
         },
@@ -39,7 +39,7 @@
     "ABSTIT": {
       "courseId": "ABSTIT",
       "title": "Aligning Business Strategy to Technology Innovations and Trends",
-      "description": "To help understand the importance of aligning a business strategy to technology innovations and trends through various methodologies and assessments, gain a foundational understanding of what are the available business enabling tools in the market that can amplify business operations, and define how crisis management will be integrated in their strategic planning.",
+      "description": "Focuses on the critical alignment of business strategies with technological innovations and trends, covering methodologies, tools, and crisis management in strategic planning.",
       "price": "Free",  
       "icon": "src/assets/img/icons/abs.jpg",
       "bgColor": "bg-indigo-100",
@@ -58,7 +58,7 @@
     "CM": {
       "courseId": "CM",
       "title": "Change Management",
-      "description": "To provide a comprehensive understanding of the principles and practices vital for effectively managing change within organizations, examine the crucial role of change management in ensuring smooth transitions, boosting employee engagement, and achieving organizational objectives, explore change management frameworks and methodologies, and acquire practical strategies for assessing the impact of change, engaging stakeholders, and implementing successful change initiatives.",
+      "description": "Provides a thorough understanding of change management principles essential for smooth organizational transitions.",
       "price": "Free",  
       "icon": "src/assets/img/icons/cm.jpg",
       "bgColor": "bg-indigo-100",
@@ -104,7 +104,7 @@
     "DCO": {
       "courseId": "DCO",
       "title": "Digital Customer Onboarding",
-      "description": "To understand the significance of digital customer onboarding on customer experience, identify the information and documentary requirements necessary for customer due diligence in accordance with the BSP MORB, develop systematic procedures for verifying the identity of new individual customers and juridical entities, gain insights into the significance of robust fraud detection strategies, explore key components of automating the recording and monitoring of approvals and claimed financial products, and gain insights on the importance of understanding the customer success lifecycle.",
+      "description": "Emphasizes the importance of digital customer onboarding in enhancing customer experience.",
       "price": "Free",  
       "icon": "src/assets/img/icons/dco.jpg",
       "bgColor": "bg-indigo-100",
@@ -141,7 +141,7 @@
     "DATAGOV": {
     "courseId": "DATAGOV",
       "title": "Data Governance of Digital Solutions – From Mapping to Managing the Project",
-      "description": "To introduce how data as an asset and how data governance is important for organizations now that we are in the digital era and its three main aspects: process, people, and technology, provide a comprehensive discussion on data governance frameworks, understand how data governance is applied during digital transformation, and explore various data governance trends and best practices.",
+      "description": "Introduces the concept of data as an asset and the significance of data governance in the digital era.",
       "price": "Free",  
       "icon": "src/assets/img/icons/datagov.jpg",
       "bgColor": "bg-indigo-100",

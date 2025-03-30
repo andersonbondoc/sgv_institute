@@ -153,7 +153,7 @@
         "layout": "col-1",
         "title": "The Importance of Alignment",
         "subheader":"Impacts of Technology on a Business",
-        "body":"<h4>Global Reach and Market Expansion</h4> <ul> <li>Technology facilitates online presence, allowing business to reach a global audience.</li> <li>This opens up new markets, potential clients, and opportunities for growth, enabling companies to compete on a larger scale.</li> </ul> <h4>Technology Infrastructure and Capabilities</h4> <ul> <li>Organizations are rethinking their products, strategies, and general capacity for embracing digitization and advancement.</li> <li></li> </ul> <h4>Culture of Innovation</h4> <ul> <li>Technology’s presence in businesses has helped encourage creative thinking, improve access to resources, experiment with various tools, foster collaboration, and practice iteration.</li> </ul> <h4>Change Navigation</h4> <ul> <li>In other perspectives, technology can be viewed as a disruption to operations but data-driven insights for change management assist in the decision-making of executives and team leads.</li> </ul>"
+        "body":"<h4>Global Reach and Market Expansion</h4> <ul> <li>Technology facilitates online presence, allowing business to reach a global audience.</li> <li>This opens up new markets, potential clients, and opportunities for growth, enabling companies to compete on a larger scale.</li> </ul> <h4>Technology Infrastructure and Capabilities</h4> <ul> <li>Organizations are rethinking their products, strategies, and general capacity for embracing digitization and advancement.</li> </ul> <h4>Culture of Innovation</h4> <ul> <li>Technology’s presence in businesses has helped encourage creative thinking, improve access to resources, experiment with various tools, foster collaboration, and practice iteration.</li> </ul> <h4>Change Navigation</h4> <ul> <li>In other perspectives, technology can be viewed as a disruption to operations but data-driven insights for change management assist in the decision-making of executives and team leads.</li> </ul>"
       },
       {
         "order": 9,
@@ -182,7 +182,7 @@
         "order": 12,
         "layout": "image righthand portion",
         "title": "Digital Transformation",
-        "body":"<ul> <li>The comprehensive integration of digital technologies into all aspects of an organization, fundamentally changing how it operates and delivers value to customers.</li> <li>It encompasses not only the adoption of new technologies but also a cultural shift that encourages organizations to continually challenge the status quo, experiment, and embrace change.</li> <li>Opens doors for connection over digital platforms and challenges existing mindset, goals, and KPIs within an organization.</li> </ul> <p>Digital transformation can involve various elements, including:</p> <ul> <li><b>Technology Integration</b> - Implementing advanced technologies such as cloud computing, artificial intelligence (AI), big data analytics, the Internet of Things (IoT), and automation to enhance operational efficiency and customer engagement.</li> <li><b>Process Reengineering</b> - Rethinking and redesigning business processes to leverage digital tools, improve efficiency, and enhance customer experiences.</li> <li><b>Cultural Change</b> - Fostering a culture that embraces innovation, agility, and collaboration across all levels of the organization.</li> <li><b>Customer-Centric Approach</b> - Redefining customer experiences by utilizing data and technology to understand customer needs better and deliver personalized services.</li> <li><b>Data-Driven Decision-Making</b> - Leveraging data analytics to inform strategic decisions, identify trends, and optimize business operations.</li> </ul>",
+        "body":"<ul> <li>The comprehensive integration of digital technologies into all aspects of an organization, fundamentally changing how it operates and delivers value to customers.</li> <li>It encompasses not only the adoption of new technologies but also a cultural shift that encourages organizations to continually challenge the status quo, experiment, and embrace change.</li> <li>Opens doors for connection over digital platforms and challenges existing mindset, goals, and KPIs within an organization.</li> </ul> <p><b>Digital transformation can involve various elements, including:</b></p> <ul> <li><b>Technology Integration</b> - Implementing advanced technologies such as cloud computing, artificial intelligence (AI), big data analytics, the Internet of Things (IoT), and automation to enhance operational efficiency and customer engagement.</li> <li><b>Process Reengineering</b> - Rethinking and redesigning business processes to leverage digital tools, improve efficiency, and enhance customer experiences.</li> <li><b>Cultural Change</b> - Fostering a culture that embraces innovation, agility, and collaboration across all levels of the organization.</li> <li><b>Customer-Centric Approach</b> - Redefining customer experiences by utilizing data and technology to understand customer needs better and deliver personalized services.</li> <li><b>Data-Driven Decision-Making</b> - Leveraging data analytics to inform strategic decisions, identify trends, and optimize business operations.</li> </ul>",
         "image": "src/assets/img/aligning business strat/order12.jpg" 
       },
       {
@@ -215,17 +215,18 @@
       },
       {
         "order": 16,
-        "layout": "col-1",
+        "layout": "col-2",
         "title": "Methodologies and Tools",
         "subheader": "Common Analysis Methods",
-        "body": "<p>In the rapidly evolving technology landscape, organizations must navigate a complex array of challenges and opportunities to remain competitive and relevant.To effectively assess their strategic position and make informed decisions, businesses often turn to established analysis methodologies. </p> <h4>SWOT ANALYSIS</h4> <p>A strategic planning tool that helps teams align their business strategy with technology by providing a structured approach to assess internal and external factors that can impact project success.</p> <h4>Define the Objective</h4> <ul> <li>Clearly articulate the purpose of the SWOT analysis. This could be for a specific project, a new technology implementation, or aligning business strategy with technological advancements.</li> </ul> <h4>Gather a Team</h4> <ul> <li>Assemble a diverse group of stakeholders, including project managers, team members, and relevant business leaders, to ensure a comprehensive perspective.</li> </ul> <h4>Identify Strengths</h4> <ul> <li>List the internal attributes and resources that give the project or organization an advantage over others. Consider factors such as skilled personnel, strong brand reputation, or advanced technology.</li> </ul> <h4>Identify Weaknesses</h4> <ul> <li>Assess internal limitations or challenges that may hinder project success. This could include resource constraints, lack of expertise, or outdated technology.</li> </ul> <h4>Identify Opportunities</h4> <ul> <li>Explore external factors that could be leveraged for project success. This might include market trends, technological advancements, or changes in regulations that could benefit the project.</li> </ul> <h4>Identify Threats</h4> <ul> <li>Evaluate external challenges that could pose risks to the project. This could involve competition, economic downturns, or changes in customer preferences.</li> </ul> <h4>Analyze and Prioritize</h4> <ul> <li>Review the identified factors and prioritize them based on their potential impact on the project. This will help in formulating actionable strategies.</li> </ul> <h4>Develop Strategies</h4> <ul> <li>Create strategies that leverage strengths and opportunities while addressing weaknesses and threats. This may involve resource allocation, risk management plans, or technology investments.</li> </ul> <h4>Implement and Monitor</h4> <ul> <li>Execute the strategies and continuously monitor their effectiveness. Adjust plans as necessary based on feedback and changing circumstances.</li> </ul>"
+        "col1": "<p>In the rapidly evolving technology landscape, organizations must navigate a complex array of challenges and opportunities to remain competitive and relevant.To effectively assess their strategic position and make informed decisions, businesses often turn to established analysis methodologies. </p> <h4>SWOT ANALYSIS</h4> <p>A strategic planning tool that helps teams align their business strategy with technology by providing a structured approach to assess internal and external factors that can impact project success.</p> <h4>Define the Objective</h4> <ul> <li>Clearly articulate the purpose of the SWOT analysis. This could be for a specific project, a new technology implementation, or aligning business strategy with technological advancements.</li> </ul> <h4>Gather a Team</h4> <ul> <li>Assemble a diverse group of stakeholders, including project managers, team members, and relevant business leaders, to ensure a comprehensive perspective.</li> </ul> <h4>Identify Strengths</h4> <ul> <li>List the internal attributes and resources that give the project or organization an advantage over others. Consider factors such as skilled personnel, strong brand reputation, or advanced technology.</li> </ul> <h4>Identify Weaknesses</h4> <ul> <li>Assess internal limitations or challenges that may hinder project success. This could include resource constraints, lack of expertise, or outdated technology.</li> </ul>", 
+        "col2": "<h4>Identify Opportunities</h4> <ul> <li>Explore external factors that could be leveraged for project success. This might include market trends, technological advancements, or changes in regulations that could benefit the project.</li> </ul> <h4>Identify Threats</h4> <ul> <li>Evaluate external challenges that could pose risks to the project. This could involve competition, economic downturns, or changes in customer preferences.</li> </ul> <h4>Analyze and Prioritize</h4> <ul> <li>Review the identified factors and prioritize them based on their potential impact on the project. This will help in formulating actionable strategies.</li> </ul> <h4>Develop Strategies</h4> <ul> <li>Create strategies that leverage strengths and opportunities while addressing weaknesses and threats. This may involve resource allocation, risk management plans, or technology investments.</li> </ul> <h4>Implement and Monitor</h4> <ul> <li>Execute the strategies and continuously monitor their effectiveness. Adjust plans as necessary based on feedback and changing circumstances.</li> </ul>"
       },
       {
         "order": 17,
         "layout": "image righthand portion",
         "title": "Methodologies and Tools",
         "subheader": "Common Analysis Methods", 
-        "body": "<p>In the rapidly evolving technology landscape, organizations must navigate a complex array of challenges and opportunities to remain competitive and relevant.To effectively assess their strategic position and make informed decisions, businesses often turn to established analysis methodologies.</p> <h4>SWOT ANALYSIS</h4> <ul> <li>Project Objective: To implement a new Digital Banking Platform to enhance customer engagement, streamline operations, and improve access to financial services for rural communities.</li> <li>Business Strategy: The rural bank aims to expand its customer base by offering innovative digital banking solutions that cater to the unique needs of rural populations. The strategy focuses on increasing financial inclusion, improving customer service, and leveraging technology to enhance operational efficiency. </li> </ul>>", 
+        "body": "<p>In the rapidly evolving technology landscape, organizations must navigate a complex array of challenges and opportunities to remain competitive and relevant.To effectively assess their strategic position and make informed decisions, businesses often turn to established analysis methodologies.</p> <h4>SWOT ANALYSIS</h4> <ul> <li><b>Project Objective</b>: To implement a new Digital Banking Platform to enhance customer engagement, streamline operations, and improve access to financial services for rural communities.</li> <li><b>Business Strategy</b>: The rural bank aims to expand its customer base by offering innovative digital banking solutions that cater to the unique needs of rural populations. The strategy focuses on increasing financial inclusion, improving customer service, and leveraging technology to enhance operational efficiency. </li></ul>", 
         "image": "src/assets/img/aligning business strat/order17.jpg"
       }, 
       {
@@ -233,7 +234,7 @@
         "layout": "image righthand portion",
         "title": "Methodologies and Tools",
         "subheader": "Common Analysis Methods", 
-        "body":"<p>In the rapidly evolving technology landscape, organizations must navigate a complex array of challenges and opportunities to remain competitive and relevant.To effectively assess their strategic position and make informed decisions, businesses often turn to established analysis methodologies.</p> <h4>SWOT ANALYSIS</h4> <p>Strategic Action</p>",
+        "body":"<p>In the rapidly evolving technology landscape, organizations must navigate a complex array of challenges and opportunities to remain competitive and relevant.To effectively assess their strategic position and make informed decisions, businesses often turn to established analysis methodologies.</p> <h4>SWOT ANALYSIS</h4> <p>Strategic actions to follow</p>",
         "image": "src/assets/img/aligning business strat/order18.jpg"
 
       }, 
@@ -250,7 +251,7 @@
         "layout": "image righthand portion",
         "title": "Methodologies and Tools",
         "subheader": "Common Analysis Methods", 
-        "body":"<h4>PORTER’S FIVE FORCES</h4><ul> <li>Project Objective: To implement a new Digital Banking Platform to enhance customer engagement, streamline operations, and improve access to financial services for rural communities.</li> <li>Business Strategy: The rural bank aims to expand its customer base by offering innovative digital banking solutions that cater to the unique needs of rural populations. The strategy focuses on increasing financial inclusion, improving customer service, and leveraging technology to enhance operational efficiency.</li> </ul> ", 
+        "body":"<h4>PORTER’S FIVE FORCES</h4><ul> <li><b>Project Objective</b>: To implement a new Digital Banking Platform to enhance customer engagement, streamline operations, and improve access to financial services for rural communities.</li> <li><b>Business Strategy</b>: The rural bank aims to expand its customer base by offering innovative digital banking solutions that cater to the unique needs of rural populations. The strategy focuses on increasing financial inclusion, improving customer service, and leveraging technology to enhance operational efficiency.</li> </ul> ", 
         "image": "src/assets/img/aligning business strat/order20.jpg" 
       }, 
       {
@@ -266,7 +267,7 @@
         "layout": "image righthand portion",
         "title": "Methodologies and Tools",
         "subheader": "Common Analysis Methods", 
-        "body": "<ul> <li>Project Objective: To implement a new Digital Banking Platform to enhance customer engagement, streamline operations, and improve access to financial services for rural communities.</li> <li>Business Strategy: The rural bank aims to expand its customer base by offering innovative digital banking solutions that cater to the unique needs of rural populations. The strategy focuses on increasing financial inclusion, improving customer service, and leveraging technology to enhance operational efficiency.</li> </ul>", 
+        "body": "<ul> <li><b>Project Objective</b>: To implement a new Digital Banking Platform to enhance customer engagement, streamline operations, and improve access to financial services for rural communities.</li> <li><b>Business Strategy</b>: The rural bank aims to expand its customer base by offering innovative digital banking solutions that cater to the unique needs of rural populations. The strategy focuses on increasing financial inclusion, improving customer service, and leveraging technology to enhance operational efficiency.</li> </ul>", 
         "image": "src/assets/img/aligning business strat/order22.jpg"
       }, 
       {
@@ -274,23 +275,23 @@
         "layout": "col-3",
         "title": "Methodologies and Tools",
         "subheader": "Design-Thinking", 
-        "body":"<p>A human-centered approach to innovation and problem-solving that emphasizes understanding the needs and experiences of users. It encourages collaboration, creativity, and iterative development to create solutions that are not only functional but also meaningful and user-friendly. The process is typically non-linear and involves continuous feedback and refinement.</p> <h4>Empathize</h4> <ul> <li>Understand the users and their needs through observation, interviews, and engagement. This stage focuses on gaining insights into the users' experiences and challenges.</li> </ul> <h4>Define</h4> <ul> <li>Clearly articulate the problem statement based on the insights gathered during the empathize stage. This helps to frame the challenge in a way that guides the design process.</li> </ul> <h4>Ideate</h4> <ul> <li>Generate a wide range of ideas and potential solutions through brainstorming sessions. This stage encourages creativity and open-mindedness, allowing for innovative thinking.</li> </ul> <h4>Prototype</h4> <ul> <li>Create low-fidelity representations of the ideas generated in the ideation phase. Prototypes can be sketches, models, or digital mockups that allow for testing and feedback.</li> </ul>", 
+        "col1":"<p>A human-centered approach to innovation and problem-solving that emphasizes understanding the needs and experiences of users. It encourages collaboration, creativity, and iterative development to create solutions that are not only functional but also meaningful and user-friendly. The process is typically non-linear and involves continuous feedback and refinement.</p> <h4>Empathize</h4> <ul> <li>Understand the users and their needs through observation, interviews, and engagement. This stage focuses on gaining insights into the users' experiences and challenges.</li> </ul> <h4>Define</h4> <ul> <li>Clearly articulate the problem statement based on the insights gathered during the empathize stage. This helps to frame the challenge in a way that guides the design process.</li> </ul> <h4>Ideate</h4> <ul> <li>Generate a wide range of ideas and potential solutions through brainstorming sessions. This stage encourages creativity and open-mindedness, allowing for innovative thinking.</li> </ul> <h4>Prototype</h4> <ul> <li>Create low-fidelity representations of the ideas generated in the ideation phase. Prototypes can be sketches, models, or digital mockups that allow for testing and feedback.</li> </ul>", 
         "col2": "<h4>Test</h4> <ul> <li>Gather feedback on the prototypes from users and stakeholders. This stage involves observing how users interact with the prototypes and refining the solutions based on their input.</li> </ul> <h4>Implement</h4> <ul> <li>Once a solution has been validated through testing, it can be developed and implemented. This stage may involve further iterations based on real-world usage and feedback</li> </ul> <p>A human-centered approach to innovation and problem-solving that emphasizes understanding the needs and experiences of users. It encourages collaboration, creativity, and iterative development to create solutions that are not only functional but also meaningful and user-friendly. The process is typically non-linear and involves continuous feedback and refinement.</p>", 
-        "col3": "<ul> <li>Promotes thinking outside of the box</li> <li>Promotes cross-disciplinary collaboration and teamwork</li> <li>Ensures alignment with organizational objectives</li> <li>Prioritizes user needs, desires, and challenges</li> <li>Increases stakeholder engagement and involvement</li> <li>Accounts for cultural and mindset shifts</li> <li>Improves problem-solving processes</li> <li>Reduces risk through early identification</li> <li>Develops long-term impact</li> </ul><img src='src/assets/img/aligning business strat/order23.jpg'>"
+        "col3": "<ul> <li>Promotes thinking outside of the box</li> <li>Promotes cross-disciplinary collaboration and teamwork</li> <li>Ensures alignment with organizational objectives</li> <li>Prioritizes user needs, desires, and challenges</li> <li>Increases stakeholder engagement and involvement</li> <li>Accounts for cultural and mindset shifts</li> <li>Improves problem-solving processes</li> <li>Reduces risk through early identification</li> <li>Develops long-term impact</li> </ul><img src='src/assets/img/aligning business strat/order23.jpg'/>"
       },
       {
         "order": 24,
         "layout": "col-1",
         "title": "Methodologies and Tools",
         "subheader": "Design-Thinking", 
-        "body": "<p>Design-thinking and project management methodologies are interconnected in ways complementing the other to enhance the overall effectiveness of projects: user-centric focus, iterative process, collaboration and teamwork, problem-solving framework, risk management, outcome orientation, and feedback loops.</p> <img src='src/assets/img/aligning business strat/order24.jpg'> <p>Integrating design-thinking into project management methodologies can lead to more innovative, user-centered solutions while maintaining the structure and discipline required for successful project execution. This synergy can enhance creativity, adaptability, and overall project outcomes.</p>"
+        "body": "<p>Design-thinking and project management methodologies are interconnected in ways complementing the other to enhance the overall effectiveness of projects: user-centric focus, iterative process, collaboration and teamwork, problem-solving framework, risk management, outcome orientation, and feedback loops.</p> <img src='src/assets/img/aligning business strat/order24.jpg'/> <p>Integrating design-thinking into project management methodologies can lead to more innovative, user-centered solutions while maintaining the structure and discipline required for successful project execution. This synergy can enhance creativity, adaptability, and overall project outcomes.</p>"
       },
       {
         "order": 25,
         "layout": "col-1",
         "title": "Methodologies and Tools",
         "subheader": "Design-Thinking: Applicability", 
-        "body": "<p>Design-Thinking plays a crucial role in aligning business strategy with technology by ensuring that technological solutions are developed with a deep understanding of user needs and business objectives. In the rural banking sector, this alignment is particularly important as banks aim to enhance financial inclusion and provide tailored services to underserved communities.</p> <p><b>Business Strategy</b>: A rural bank aims to implement a digital banking platform to improve customer engagement, streamline operations, and enhance access to financial services for rural communities.</p> <img src='src/assets/img/aligning business strat/order25.jpg'> <p><b>Design-Thinking is a powerful approach that fosters innovation and user-centered solutions, particularly in the rural banking sector.</b> By integrating design-thinking with project management methodologies like Waterfall and Agile, rural banks can enhance their ability to align business strategy with technology. This alignment ensures that technological solutions are not only effective but also resonate with users, ultimately driving financial inclusion and improving service delivery in underserved communities. </p>"
+        "body": "<p>Design-Thinking plays a crucial role in aligning business strategy with technology by ensuring that technological solutions are developed with a deep understanding of user needs and business objectives. In the rural banking sector, this alignment is particularly important as banks aim to enhance financial inclusion and provide tailored services to underserved communities.</p> <p><b>Business Strategy</b>: A rural bank aims to implement a digital banking platform to improve customer engagement, streamline operations, and enhance access to financial services for rural communities.</p> <img src='src/assets/img/aligning business strat/order25.jpg'/> <p><b>Design-Thinking is a powerful approach that fosters innovation and user-centered solutions, particularly in the rural banking sector.</b> By integrating design-thinking with project management methodologies like Waterfall and Agile, rural banks can enhance their ability to align business strategy with technology. This alignment ensures that technological solutions are not only effective but also resonate with users, ultimately driving financial inclusion and improving service delivery in underserved communities. </p>"
       },
       {
         "order": 26,
@@ -301,7 +302,7 @@
         "col2": "<p><b>Importance of Technology Roadmapping</b></p> <ul> <li>Alignment with Business Goals: Technology roadmapping ensures that technology initiatives are aligned with the overall business strategy, enabling organizations to leverage technology for competitive advantage.</li> <li>Risk Management: By identifying potential technology gaps and future needs, organizations can mitigate risks associated with technology obsolescence and market changes.</li> <li>Resource Allocation: Roadmapping helps organizations prioritize technology investments, ensuring that resources are allocated effectively to initiatives that drive the most value.</li> <li>Innovation Facilitation: A clear technology roadmap encourages innovation by providing a structured approach to exploring new technologies and their potential applications.</li> </ul>"
       },
       {
-        "order":27,  
+        "order": 27,  
         "layout":"image righthand portion",
         "title":"Methodologies and Tools",
         "subheader":"Technology Roadmapping",
@@ -370,7 +371,7 @@
         "title":"Methodologies and Tools",
         "subheader":"Technology Roadmapping",
         "body":"<h4>Integrated Roadmapping</h4><p>This method focuses on the technological capabilities and advancements that the organization aims to achieve, outlining the development of specific technologies and their applications.</p>",       
-        "image":"ssrc/assets/img/aligning business strat/order35.jpg"
+        "image":"src/assets/img/aligning business strat/order35.jpg"
       },
       {
         "order": 36,
@@ -405,7 +406,7 @@
         "order": 40,
         "layout":"image righthand portion", 
         "title":"Case Study: G Bank",
-        "subheader":"Roadmap Table",
+        "subheader":"Roadmap Visualization",
         "image":"src/assets/img/aligning business strat/order40.jpg"
       },
       {
@@ -413,14 +414,14 @@
         "layout":"col-1",
         "title":"Case Study: G Bank",
         "subheader":"Roadmap Visualization",
-        "body":"<img src='src/assets/img/aligning business strat/order41.jpg'> <p>A Gantt chart is useful for creating roadmaps for several reasons:</p> <ul> <li>Provides a clear visual representation of the project timeline, making it easy to see durations of tasks and how they overlap</li> <li>Allows project managers to track progress against the planned timeline.</li> <li>Serves as an excellent communication tool among stakeholders</li> <li>Highlights key milestones in the project, helping teams focus on important deadlines and deliverables.</li> </ul>"    
+        "body":"<img src='src/assets/img/aligning business strat/order41.jpg'/> <p>A Gantt chart is useful for creating roadmaps for several reasons:</p> <ul> <li>Provides a clear visual representation of the project timeline, making it easy to see durations of tasks and how they overlap</li> <li>Allows project managers to track progress against the planned timeline.</li> <li>Serves as an excellent communication tool among stakeholders</li> <li>Highlights key milestones in the project, helping teams focus on important deadlines and deliverables.</li> </ul>"    
       },
       {
         "order": 42,
         "layout": "col-1",
         "title":"Case Study: G Bank",
         "subheader":"Roadmap Rationale",
-        "body":" <p>The technology roadmap for G Bank can be classified as a layered roadmapping approach, with elements of integrated roadmapping. Here’s why:</p> <img src='src/assets/img/aligning business strat/order42.jpg'> <p>Overall, the G Bank technology roadmap exemplifies a structured and strategic approach to technology planning, integrating both layered and integrated road mapping methods. This allows the bank to effectively prioritize initiatives, allocate resources, and align technology efforts with its business goals, ultimately driving growth and success in the competitive financial services landscape. </p>"      
+        "body":" <p>The technology roadmap for G Bank can be classified as a layered roadmapping approach, with elements of integrated roadmapping. Here’s why:</p> <img src='src/assets/img/aligning business strat/order42.jpg'/> <p>Overall, the G Bank technology roadmap exemplifies a structured and strategic approach to technology planning, integrating both layered and integrated road mapping methods. This allows the bank to effectively prioritize initiatives, allocate resources, and align technology efforts with its business goals, ultimately driving growth and success in the competitive financial services landscape. </p>"      
       },
       {
         "order": 43,
@@ -442,7 +443,7 @@
         "layout":"image righthand portion",
         "title":"Methodologies and Tools",
         "subheader":"Emerging Methods",
-        "body":"<h4>MOSCOW TECHNIQUE</h4> <p>A rural bank is looking to enhance its services and align its business strategy to better serve its community</p>",       
+        "body":"<h4>MOSCOW TECHNIQUE</h4> <p>A rural bank is looking to enhance its services and align its business strategy to better serve its community.</p>",       
         "image":"src/assets/img/aligning business strat/order45.jpg"
       },
       {
@@ -450,7 +451,7 @@
         "layout":"image righthand portion",
         "title":"Methodologies and Tools",
         "subheader":"Emerging Methods",
-        "col2":"<p>By using MoSCoW prioritization, the rural bank can align its business strategy with the needs of its community. This structured approach allows organizations to allocate resources effectively, make informed decisions, and ultimately enhance its service offerings in a way that aligns with its strategic goals. </p>", 
+        "body":"<p>By using MoSCoW prioritization, the rural bank can align its business strategy with the needs of its community. This structured approach allows organizations to allocate resources effectively, make informed decisions, and ultimately enhance its service offerings in a way that aligns with its strategic goals. </p>", 
         "image": "src/assets/img/aligning business strat/order46.jpg"
       },  
       {
@@ -480,7 +481,7 @@
         "layout":"image righthand portion",
         "title":"Methodologies and Tools",
         "subheader":"Emerging Methods",
-        "body":"<h4>LEAN STARTUP METHODOLOGY</h4> <p>Scenario: A rural bank wants to develop a new digital banking service to better serve its customers, particularly farmers and small business owners in the community.</p> <p>Objective: To create a digital banking solution that meets the specific needs of the rural community.</p>",
+        "body":"<h4>LEAN STARTUP METHODOLOGY</h4> <p><b>Scenario</b>: A rural bank wants to develop a new digital banking service to better serve its customers, particularly farmers and small business owners in the community.</p> <p><b>Objective</b>: To create a digital banking solution that meets the specific needs of the rural community.</p>",
         "image": "src/assets/img/aligning business strat/order50.jpg"
       },
       {
@@ -488,7 +489,7 @@
         "layout":"col-1",
         "title":"Methodologies and Tools",
         "subheader":"Emerging Methods",
-        "body":"<p>By applying the Lean Startup methodology, the rural bank can align its digital banking service with its overall business strategy of enhancing customer service and increasing engagement. The iterative process allows the bank to:</p> <img src='src/assets/img/aligning business strat/order46_1.jpg'> <p>The methodology emphasizes rapid iteration and customer feedback, enabling businesses to develop products that truly meet market demands, further fostering a culture of continuous improvement and responsiveness to needs.</p>"
+        "body":"<p>By applying the Lean Startup methodology, the rural bank can align its digital banking service with its overall business strategy of enhancing customer service and increasing engagement. The iterative process allows the bank to:</p> <img src='src/assets/img/aligning business strat/order51.jpg'/> <p>The methodology emphasizes rapid iteration and customer feedback, enabling businesses to develop products that truly meet market demands, further fostering a culture of continuous improvement and responsiveness to needs.</p>"
       }, 
       {
         "order": 52,
@@ -535,7 +536,7 @@
         "order": 57,
         "layout": "col-2",
         "title": "AI and Machine Learning",
-        "col1": "<p>Artificial Intelligence (AI) is transforming the institutions by enhancing operational efficiency, improving customer experiences, and enabling better decision-making. The samples below show how AI is applied in banking through the following:</p> <h4>Fraud Detection and Prevention</h4> <h5><b>Real-Time Analytics</b></h5> <ul> <li>RCBC employs AI algorithms to monitor transactions in real-time, helping to detect and prevent fraudulent activities. The bank’s DiskarTech app benefits from around 50 artificial intelligence models developed in-house for credit checks and fraud detection. </li> </ul> <h5><b>Behavioral Biometrics</b></h5> <ul> <li>Banks can benefit from behavioral biometrics to analyze user interactions, further helping them in identifying legitimate users and detect potential fraud</li> </ul> <h5><b>Multi-Factor Authentication</b></h5> <ul> <li>Majority of Philippine banks utilize MFA through email authentication, OTP through SMS, biometrics (fingerprint, faceID), and even authentication applications.</li> </ul>",
+        "col1": "<p><b>Artificial Intelligence (AI)</b> is transforming the institutions by enhancing operational efficiency, improving customer experiences, and enabling better decision-making. The samples below show how AI is applied in banking through the following:</p> <h4>Fraud Detection and Prevention</h4> <h5><b>Real-Time Analytics</b></h5> <ul> <li>RCBC employs AI algorithms to monitor transactions in real-time, helping to detect and prevent fraudulent activities. The bank’s DiskarTech app benefits from around 50 artificial intelligence models developed in-house for credit checks and fraud detection. </li> </ul> <h5><b>Behavioral Biometrics</b></h5> <ul> <li>Banks can benefit from behavioral biometrics to analyze user interactions, further helping them in identifying legitimate users and detect potential fraud</li> </ul> <h5><b>Multi-Factor Authentication</b></h5> <ul> <li>Majority of Philippine banks utilize MFA through email authentication, OTP through SMS, biometrics (fingerprint, faceID), and even authentication applications.</li> </ul>",
         "col2": "<h4>Customer Service and Chatbots</h4> <h5><b>Conversational AI</b></h5> <ul> <li>UnionBank has implemented AI-powered chatbots to assist with customers with inquiries and transactions through their mobile app and website.</li> </ul> <h5><b>Omnichannel Support</b></h5> <ul> <li>HSBC has integrated AI across its mobile app, website, and social media platforms to provide consistent customer support. </li> </ul>"
       },
       {
@@ -565,7 +566,7 @@
         "layout": "image righthand portion",
         "title": "Geographic Information System (GIS) Tools",
         "subheader": "Sample Use of GIS", 
-        "body":"<p><b>Objectives</b></p> <ul> <li>Give users a visualization of assets juxtaposed with historical hazard occurrences on an interactive map, with ability to return an assessment of risk based on history of hazard occurrences.</li> </ul> <p></p> <ul> <li>Interactive map of natural hazard occurrences over time</li> <li>Pinned locations of assets, showing property details</li> <li>One-click hazard assessment where a simple algorithm is applied to determine hazard risk as low, medium, or high</li> </ul> <p><b>Future Work</b></p> <ul> <li>Embed more complex formulas or models to give a quantified hazard risk</li> </ul>", 
+        "body":"<p><b>Objectives</b></p> <ul> <li> Give users a visualization of assets juxtaposed with historical hazard occurrences on an interactive map, with ability to return an assessment of risk based on history of hazard occurrences. </li> </ul> <p><b>Components</b></p> <ul> <li>Interactive map of natural hazard occurrences over time</li> <li>Pinned locations of assets, showing property details</li> <li> One-click hazard assessment where a simple algorithm is applied to determine hazard risk as low, medium, or high </li> </ul> <p><b>Future Work</b></p> <ul> <li> Embed more complex formulas or models to give a quantified hazard risk </li> </ul>", 
         "image": "src/assets/img/aligning business strat/order61.jpg"
       },
       {
@@ -671,8 +672,8 @@
         "layout": "col-2",
         "title": "Controls, Measures, and Frameworks",
         "subheader": "Crisis Management Phases",
-        "col1": "<h4>FORDEC Model for Decision-Making</h4> <h4>Situation Analysis</h4> <ul> <li>Facts: gather and assess all relevant information related to the crisis (e.g. nature, potential impact, immediate threats, etc.).</li> <li>Options: identify and evaluate possible courses of action considering both short-term and long-term implications and its respective feasibility and effectiveness.</li> <li>Risks: analyze the risks associated with each option including likelihood of success and failure.</li> </ul>",
-        "col2": "<h4>Decision-Making</h4> <ul> <li>Decide: make a decision based on the analysis of facts, options, and risks by selecting the most appropriate course of action that aligns with the organization’s goals and values.</li> <li>Execute: implement the chosen course of action; mobilize resources, assign responsibilities, and ensure that all team members understand in executing the decision.</li> <li>Check: monitor the outcomes of the decision and assess its effectiveness.</li> </ul>"
+        "col1": "<h4>FORDEC Model for Decision-Making</h4> <h4>Situation Analysis</h4> <ul> <li><b>Facts</b>: gather and assess all relevant information related to the crisis (e.g. nature, potential impact, immediate threats, etc.).</li> <li><b>Options</b>: identify and evaluate possible courses of action considering both short-term and long-term implications and its respective feasibility and effectiveness.</li> <li><b>Risks</b>: analyze the risks associated with each option including likelihood of success and failure.</li> </ul>",
+        "col2": "<h4>Decision-Making</h4> <ul> <li><b>Decide</b>: make a decision based on the analysis of facts, options, and risks by selecting the most appropriate course of action that aligns with the organization’s goals and values.</li> <li><b>Execute</b>: implement the chosen course of action; mobilize resources, assign responsibilities, and ensure that all team members understand in executing the decision.</li> <li><b>Check</b>: monitor the outcomes of the decision and assess its effectiveness.</li> </ul>"
       },
       {
         "order": 75,
@@ -702,7 +703,7 @@
         "layout": "col-1",
         "title": "Relevant BSP Guidelines",
         "subheader": "BSP’s Guidelines on Operational Resilience",
-        "body": "<h4>Key Elements operational resilience</h4> <ul> <li>Utilize existing governance structure to establish, oversee, and implement an effective operational resilience approach.</li> <li>Determine critical operations, tolerance for disruption, and severe but plausible scenarios.</li> <li>Map interconnections and interdependencies.</li> <li>Plan and manage risks to critical operations.</li> <li>Test ability to deliver critical operations amidst disruption under severe but plausible scenarios.</li> <li>Respond and recover from disruption.</li> <li>Review, refine, and update risk management and operational resilience framework.</li>"
+        "body": "<h4>Key Elements of Operational Resilience</h4> <ul> <li>Utilize existing governance structure to establish, oversee, and implement an effective operational resilience approach.</li> <li>Determine critical operations, tolerance for disruption, and severe but plausible scenarios.</li> <li>Map interconnections and interdependencies.</li> <li>Plan and manage risks to critical operations.</li> <li>Test ability to deliver critical operations amidst disruption under severe but plausible scenarios.</li> <li>Respond and recover from disruption.</li> <li>Review, refine, and update risk management and operational resilience framework.</li>"
       },
       {
         "order": 79,
