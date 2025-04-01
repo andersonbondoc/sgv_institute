@@ -4,6 +4,7 @@ export const saveExamResult = async (
   examTitle: string,
   userId: string,
   examId: number,
+  score: number,
   totalQuestion: number,
   results: number,
   moduleId: string
@@ -13,6 +14,7 @@ export const saveExamResult = async (
       exam_title: examTitle,
       user_id: userId,
       exam_id: examId,
+      score: score,
       total_question: totalQuestion,
       results: results,
       end_exam: new Date().toISOString(),
