@@ -84,7 +84,7 @@ const CertificateEditor: React.FC<CertificateEditorProps> = ({
       drawTextInline(
         [
           { text: "This is to certify that ", font: fontRegular, size: 18 },
-          { text: `${name.toUpperCase()}`, font: fontBold, size: 18 },
+          { text: `${name.toUpperCase()} `, font: fontBold, size: 18 },
           { text: " of ", font: fontRegular, size: 18 },
           { text: `${ruralBankName.toUpperCase()}`, font: fontBold, size: 18 },
         ],
@@ -112,7 +112,7 @@ const CertificateEditor: React.FC<CertificateEditorProps> = ({
             size: 14,
           },
           { text: `${wblTitle} `, font: fontBold, size: 14 },
-          { text: "  specifically: ", font: fontRegular, size: 14 },
+          { text: "specifically: ", font: fontRegular, size: 14 },
         ],
         startY
       );

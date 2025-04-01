@@ -5,7 +5,7 @@ import { chevronBack, chevronForward } from "ionicons/icons";
 
 interface PreExamPageProps {
   sections: any;
-  handleFinishQuestionButton: () => void;
+  handleFinishQuestionButton: (score: any) => void;
 }
 
 const PreExamPage: React.FC<PreExamPageProps> = ({
@@ -120,7 +120,7 @@ const PreExamPage: React.FC<PreExamPageProps> = ({
     }
     localStorage.setItem("examScore", score.toString());
     setShowResult(true);
-    handleFinishQuestionButton();
+    handleFinishQuestionButton(score);
   };
 
   const handleRetryExam = () => {
