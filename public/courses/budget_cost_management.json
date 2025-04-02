@@ -163,7 +163,7 @@
         "order": 7,
         "title": "Lesson Summary",
         "subheader": "Congratulations on completing Lesson 1 of this module!",
-        "body": "<p>Now that you have completed this lesson, you should be able to:</p> <ul> <li>Understand the importance of cost management and budgeting in decision-making; Define cost management and its correlation with budgeting</li> </ul>",
+        "body": "<p>Now that you have completed this lesson, you should be able to:</p><ul> <li> Understand the importance of cost management and budgeting in decision-making </li> <li> Define cost management and its correlation with budgeting </li> </ul>",
         "image": "src/assets/img/general images/LessonSummary.jpg"
       },
       {
@@ -201,7 +201,7 @@
         "layout": "image righthand portion",
         "title": "The Four Functions of Cost Management",
         "subheader": "Cost Estimation Techniques",
-        "col1": "<h4>Bottom-Up Estimating</h4> <p>Bottom-Down Estimating is a method of estimating the costs of individual workstreams or activities of a project and then adding them up to arrive at the total project cost.</p> <ul> <li><b>Template Method</b> - The schedules and budget from past projects of similar starts but with different endings can be used as a starting point for the new project.</li> <li><b>Parametric Technique</b> - Uses a statistical relationship between relevant historical data and other variables to calculate a cost estimate for project work.</li> </ul> <p>Aside from the mentioned estimation techniques, the following are other methods and practices:</p>",
+        "body": "<h4>Bottom-Up Estimating</h4> <p>Bottom-Down Estimating is a method of estimating the costs of individual workstreams or activities of a project and then adding them up to arrive at the total project cost.</p> <ul> <li><b>Template Method</b> - The schedules and budget from past projects of similar starts but with different endings can be used as a starting point for the new project.</li> <li><b>Parametric Technique</b> - Uses a statistical relationship between relevant historical data and other variables to calculate a cost estimate for project work.</li> </ul> <p>Aside from the mentioned estimation techniques, the following are other methods and practices:</p>",
         "image": "src/assets/img/project_management/budgetandcostmgt/order12.jpg"
       },
       {
@@ -225,7 +225,7 @@
         "layout": "image righthand portion",
         "title": "The Four Functions of Cost Management",
         "subheader": "Defining Cost Budgeting",
-        "col1": "<h4>Cost Budgeting</h4><p>Project budgets outline in detail the planned expenditures for the project, specifying amounts and purposes with the project timeline.</p> ",
+        "body": "<h4>Cost Budgeting</h4><p>Project budgets outline in detail the planned expenditures for the project, specifying amounts and purposes with the project timeline.</p> ",
         "image": "src/assets/img/project_management/budgetandcostmgt/BudgetProcess.jpg"
       }, 
       {
@@ -306,7 +306,7 @@
         "title": "The Four Functions of Cost Management",
         "subheader": "Budgeting Steps",
         "body": "<h4>Step 4.1: Identify specific expenses that could be part of the project’s overall activities</h4> <p>Now let’s look at the design and development expenses. Following the table shown for the expenses of planning and analysis, we categorized this expense into three: UI/UX Design, Backend Development, and Frontend Development.</p> <p>Breaking down activity costs and expenses is essential for effective project management and financial planning. It enhances budget accuracy, improves cost control, supports better resource allocation, enables informed decision-making, increases transparency, improves risk management, enhances performance measurement, and ensures compliance and accurate reporting. By adopting a detailed approach to cost management, budgeting, and financial planning, organizations can achieve greater financial stability, efficiency, and success in their projects.</p>",
-        "image": "src/assets/img/project_management/udgetandcostmgt/BudgetingStep4_2.jpg"
+        "image": "src/assets/img/project_management/budgetandcostmgt/BudgetingStep4_2.jpg"
       },
       {
         "order": 24,
@@ -409,7 +409,7 @@
         "layout": "image righthand portion",
         "title": "The Four Functions of Cost Management",
         "subheader": "Cash Flow Forecasting Steps",
-        "body": "<h4>Final Steps</h4> <p>First, examine the cash balances at the end of each month. Are you comfortable with these balances? Ensure that there are no months where the cash balance drops too low, potentially putting you at risk of not being able to meet your financial obligations.; Next, identify any potential surpluses of cash. Is there a surplus of cash in certain months that could be used more effectively? Consider how you might allocate these funds to other phases or aspects of the project to ensure quality and maximize.; Finally, analyze if any phases of the project can make your cash vulnerable. Ensure that your data is up to date in order to be well-prepared for the project. This step helps you identify potential risks, make informed decisions, and maintain a healthy cash flow throughout the project lifecycle.; Remember, regular monitoring and updating of your cash flow forecast are essential to adapt to changing circumstances and maintain financial stability.</p>",
+        "body": "<h4>Final Steps</h4> <ul> <li>First, examine the cash balances at the end of each month. Are you comfortable with these balances? Ensure that there are no months where the cash balance drops too low, potentially putting you at risk of not being able to meet your financial obligations.</li> <li>Next, identify any potential surpluses of cash. Is there a surplus of cash in certain months that could be used more effectively? Consider how you might allocate these funds to other phases or aspects of the project to ensure quality and maximize.</li> <li>Finally, analyze if any phases of the project can make your cash vulnerable. Ensure that your data is up to date in order to be well-prepared for the project. This step helps you identify potential risks, make informed decisions, and maintain a healthy cash flow throughout the project lifecycle.</li> </ul> <p>Remember, regular monitoring and updating of your cash flow forecast are essential to adapt to changing circumstances and maintain financial stability.</p>",
         "image": "src/assets/img/project_management/budgetandcostmgt/CashFlowStepFinal.jpg"
       },
       {
@@ -508,7 +508,7 @@
             "G": "Unclear communication"
           }
         ],
-        "q_answer": "A; C; E; F; G"
+        "q_answer": "A, C, E, F, G"
       },
       {
         "order": 47,
@@ -524,13 +524,13 @@
             "D": "Monitoring cost performance to isolate and understand variances from approved cost baseline"
           }
         ],
-        "q_answer": "A; B; D"
+        "q_answer": "A, B, D"
       },
       {
         "order": 48,
         "title": "Lesson Summary",
         "subheader": "Congratulations on completing Lesson 2 of this course!",
-        "body": "<p>Now that you have completed this lesson. Here is a summary:</p><ul> <li>The four functions of cost management are resource planning, cost estimating, cost budgeting, and cost control</li> <li>A company's cash flow at any point in time is a juxtaposition of payables, receivables, debt service, capital expenditures, sales/repurchases of stock and other factors</li> <li>Cashflows are always important, especially in times of change or where there is a reasonable degree of risk; Issues and risks persist during the budget and cost management phase of a project</li> <li>Anticipating these issues can ensure that project teams are prepared with appropriate responses</li> </ul>",
+        "body": "<p>Now that you have completed this lesson. Here is a summary:</p> <ul> <li> The four functions of cost management are resource planning, cost estimating, cost budgeting, and cost control. </li> <li> A company's cash flow at any point in time is a juxtaposition of payables, receivables, debt service, capital expenditures, sales/repurchases of stock and other factors. </li> <li> Cashflows are always important, especially in times of change or where there is a reasonable degree of risk </li> <li>Issues and risks persist during the budget and cost management phase of a project; Anticipating these issues can ensure that project teams are prepared with appropriate responses. </li> </ul>",
         "image": "src/assets/img/general images/LessonSummary.jpg"
       },
       {

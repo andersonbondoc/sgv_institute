@@ -47,7 +47,7 @@
                  "E": "Risk Identification and Assessment"
                }
              ],
-             "q_answer": "A; C; D; E"
+             "q_answer": "A, C, D, E"
            },
            {
              "q_number": 3,
@@ -103,7 +103,7 @@
                  "D": "List of resources required to implement the mitigation strategies"
                }
              ],
-             "q_answer": "A; B; C"
+             "q_answer": "A, B, C"
            },
            {
              "q_number": 7,
@@ -118,7 +118,7 @@
                  "E": "Operational risks"
                }
              ],
-             "q_answer": "A; D"
+             "q_answer": "A, D"
            }
          ]
        }
@@ -146,7 +146,7 @@
     },
     {
       "order": 6,
-      "layout": "col-3",
+      "layout": "col-2",
       "title": "Overview of Risk",
       "subheader": "Types of Project Risk",
       "col1": "<h4>Internal Risk</h4> <p>Internal risks are those that may come from the organization. Project analysts must identify and prioritize these types of risks.</p> <h5><b>Types of Internal Risks</b></h5> <ul> <li> <b>Schedule Risk</b> - The risk of activities taking longer than expected can lead to schedule delays, increased costs, and the postponement of project benefits, potentially causing a loss of competitive advantage.</li> <li> <b>Resource Risk</b> - Outsourcing and personnel-related risks, such as high attrition rates, can slow down progress in large projects with many employees. Introducing new resources late in the project can further hinder progress and affect timelines.</li> <li> <b>Budget Risk</b> - Budget risks involve the escalation of project costs due to inaccurate cost estimations and scope creep.</li> <li> <b>Performance Risk</b> - The risk that a completed project may not perform as intended or fail to meet the business requirements that justified its initiation.</li> <li> <b>Scope Risk</b> - Scope risks encompass changes in scope, often resulting from scope creep.</li> <li> <b>Quality Risk</b> - Quality risks may arise if the product or project lacks clear acceptance criteria or fails to meet customer needs.</li> <li> <b>Technical Risk</b> - Technology failures, such as security incidents or service outages, can disrupt operations and impact business continuity, especially when new technology does not meet expectations. For instance, an e-commerce platform crash could result in lost revenue, while poor implementation or process issues in procurement, production, or distribution could further complicate operations.</li> </ul>",
@@ -241,8 +241,8 @@
       "layout":"col-2",
       "title": "Risk Identification",
       "subheader": "Risk Register",
-      "col1": "<h4>Risk Register Components</h4> <h5><b>Risk Identification</b></h5> <p>A risk identification field should include the following details to track and manage the risk effectively:</p> <ul> <li>Risk name</li> <li>Identification date</li> <li>Subtitle (if needed)</li> </ul> <h5><b>Risk Description</b></h5> <p>After identifying the risk, add a brief description to the log. The description should include a short high-level overview of the risk, explain why it's a potential issue, and remain concise, typically 80 to 100 characters, providing enough detail for clear identification without overcomplicating it.</p> <h5><b>Risk Category</b></h5> <p>Quickly identifying the risk allows for prompt assignment to the appropriate team, especially in complex projects. Possible risk categories include Operations, Budget, Schedule, Technology, Information, Security, Quality, and Project Plan. To determine the category, evaluate the risk source and identify who can help resolve it. You may consult with department heads if the solution isn’t immediately clear.</p> <h5><b>Risk likelihood</b></h5> <p>The likelihood of a risk occurring is documented using simple categories: Not likely, Likely, and Very likely. Categorizing risks by likelihood helps prioritize which risks require immediate attention and which can be deferred.</p>",
-      "col2": "<h5><b>Risk analysis</b></h5> <p>Risk analysis evaluates the potential impact of a risk on a project, using a simple five-point scale (very low to very high) to assess severity. Prioritization, which considers both likelihood and impact, can be clarified by consulting with a department head if needed.</p> <h5><b>Risk Mitigation</b></h5> <p>A mitigation plan, or risk response plan, is essential in a risk register, aiming to identify and reduce potential risks. It should include a step-by-step solution to lessen the risk, a brief description of the intended outcome, and how the plan will affect the risk's impact.</p> <h5><b>Risk Priority</b></h5> <p>Risk priority should be based on both the likelihood and impact of the risk, helping to identify which risks may have the most harmful consequences. Priority can be documented using a simple number scale: 1 (Low), 2 (Medium), and 3 (High).</p> <h5><b>Risk ownership</b></h5> <p>The individual responsible for managing the risk and implementing the prevention or contingency plans. Risk owners can include stakeholders, members of the project team, the project manager, and the project sponsor.</p> <h5><b>Risk Status</b></h5> <p>The risk status field indicates whether a risk has been successfully mitigated or not. It can be filled out with the following options: Open, In progress, or Closed, or a more detailed list such as active, not started, on hold, ongoing, and complete.</p>"
+      "col1": "<h4>Risk Register Components</h4> <h5><b>Risk Identification</b></h5> <p> A risk identification field should include the following details to track and manage the risk effectively: </p> <ul> <li>Risk name</li> <li>Identification date</li> <li>Subtitle (if needed)</li> </ul> <h5><b>Risk Description</b></h5> <p> After identifying the risk, add a brief description to the log. The description should include a short high-level overview of the risk, explain why it's a potential issue, and remain concise, typically 80 to 100 characters, providing enough detail for clear identification without overcomplicating it. </p> <h5><b>Risk Category</b></h5> <p> Quickly identifying the risk allows for prompt assignment to the appropriate team, especially in complex projects. Possible risk categories include Operations, Budget, Schedule, Technology, Information, Security, Quality, and Project Plan. To determine the category, evaluate the risk source and identify who can help resolve it. You may consult with department heads if the solution isn’t immediately clear. </p> <h5><b>Risk Likelihood</b></h5> <p> The likelihood of a risk occurring is documented using simple categories: Not likely, Likely, and Very likely. Categorizing risks by likelihood helps prioritize which risks require immediate attention and which can be deferred. </p>",
+      "col2": "<h5><b>Risk Analysis</b></h5> <p> Risk analysis evaluates the potential impact of a risk on a project, using a simple five-point scale (very low to very high) to assess severity. Prioritization, which considers both likelihood and impact, can be clarified by consulting with a department head if needed. </p> <h5><b>Risk Mitigation</b></h5> <p> A mitigation plan, or risk response plan, is essential in a risk register, aiming to identify and reduce potential risks. It should include a step-by-step solution to lessen the risk, a brief description of the intended outcome, and how the plan will affect the risk's impact. </p> <h5><b>Risk Priority</b></h5> <p> Risk priority should be based on both the likelihood and impact of the risk, helping to identify which risks may have the most harmful consequences. Priority can be documented using a simple number scale: 1 (Low), 2 (Medium), and 3 (High). </p> <h5><b>Risk Ownership</b></h5> <p> The individual responsible for managing the risk and implementing the prevention or contingency plans. Risk owners can include stakeholders, members of the project team, the project manager, and the project sponsor. </p> <h5><b>Risk Status</b></h5> <p> The risk status field indicates whether a risk has been successfully mitigated or not. It can be filled out with the following options: Open, In progress, or Closed, or a more detailed list such as active, not started, on hold, ongoing, and complete. </p>"
     },
     {
       "order": 17, 
@@ -429,7 +429,7 @@
       "order": 39,
       "layout": "col-3",
       "title": "Financial Services Cyber Resilience Plan 2024-2029",
-      "body": "<h4>Goal 1</h4> <p>This covers strategies to sharpen the industry’s capabilities to proactively respond to and recover from major cyber incidents.</p> <p>Priority actions under this goal are:</p> <p><b>D1:</b>Establish baseline industry incident response plan</p> <p><b>D2:</b> Develop scenario-based incident response playbooks</p> <p><b>D3:</b> Conduct progressive industry-wide cyber testing exercise regime</p> <p><b>D4:</b> Explore setting up of an industry Security Operations Center (SOC)</p> <h4>Goal 2</h4> <p>This encompasses strategies to institutionalize and expand sharing of timely and actionable cyberthreat intelligence across the financial community, including coordination and collaboration with other industry stakeholders and the National CERT (CERT-PH).</p> <p>Priority actions under this goal are:</p> <p><b>A1:</b>Expand and further enhance Bankers Association of the Philippines Cybersecurity Incident Database (BAPCID) as an industry sharing platform</p> <p><b>A2:</b> Strengthen and forge strategic partnerships in domestic and international for a</p> <p><b>A3:</b> Support the enactment of cyber-related legislative initiatives (e.g., Anti-Financial Account Scamming Act, Liberalization of Secrecy of Deposits, etc.)</p>", 
+      "col1": "<h4>Goal 1</h4> <p>This covers strategies to sharpen the industry’s capabilities to proactively respond to and recover from major cyber incidents.</p> <p>Priority actions under this goal are:</p> <p><b>D1:</b>Establish baseline industry incident response plan</p> <p><b>D2:</b> Develop scenario-based incident response playbooks</p> <p><b>D3:</b> Conduct progressive industry-wide cyber testing exercise regime</p> <p><b>D4:</b> Explore setting up of an industry Security Operations Center (SOC)</p> <h4>Goal 2</h4> <p>This encompasses strategies to institutionalize and expand sharing of timely and actionable cyberthreat intelligence across the financial community, including coordination and collaboration with other industry stakeholders and the National CERT (CERT-PH).</p> <p>Priority actions under this goal are:</p> <p><b>A1:</b>Expand and further enhance Bankers Association of the Philippines Cybersecurity Incident Database (BAPCID) as an industry sharing platform</p> <p><b>A2:</b> Strengthen and forge strategic partnerships in domestic and international for a</p> <p><b>A3:</b> Support the enactment of cyber-related legislative initiatives (e.g., Anti-Financial Account Scamming Act, Liberalization of Secrecy of Deposits, etc.)</p>", 
       "col2": "<h4>Goal 3</h4> <p>This goal covers strategies to instill strong cybersecurity culture and enhance cybersecurity skills and capabilities in the financial services industry.</p> <p>Key priority actions include:</p> <p><b>S1:</b> Develop and implement cyber education program for BSFI Board and Senior Management</p> <p><b>S2:</b> Regularly conduct Chief Information Security Officer (CISO)/cyber form and Annual Cybersecurity Summit</p> <p><b>S3:</b> Conduct cybersecurity roadshows for small and medium-sized financial institutions (FIs)</p> <p><b>S4:</b> Pursue holistic programs on cybersecurity skills and talent development</p> <p><b>S5:</b>Mainstream cyber education and awareness programs for financial clients.</p> <h4>Goal 4</h4> <p>This goal contains strategies to promote cybersecurity best practices and standards across cybersecurity domains.</p> <p>Priority actions under this goal are:</p> <p><b>H1:</b> Complete policy reforms on digital security controls, Application Programming Interface (API) security, Cybersecurity Maturity Model (CMM) framework, and supply chain risk managemen</p> <p><b>H2:</b> Explore establishment of an Industry Cyber Innovation/Research Hub</p> <p><b>H3:</b> Conduct benchmarking exercises on cyber capabilities</p>",
       "col3": "<img src='src/assets/img/project_management/risk_management/order39.jpg'>"
     },
@@ -508,7 +508,7 @@
                   "E": "Operational risks"
                 }
               ],
-              "q_answer": "A; D"
+              "q_answer": "A, D"
             },
             {
               "q_number": 3,
@@ -551,7 +551,7 @@
                   "E": "Conduct benchmarking exercises on cyber capabilities"
                 }
               ],
-              "q_answer": "B; C"
+              "q_answer": "B, C"
             },
             {
               "q_number": 6,
@@ -580,7 +580,7 @@
                   "E": "Risk Identification and Assessment"
                 }
               ],
-              "q_answer": "A; C; D; E"
+              "q_answer": "A, C, D, E"
               }
             ]
           }
