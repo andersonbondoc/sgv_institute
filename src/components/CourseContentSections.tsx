@@ -368,7 +368,7 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
             console.error("Error updating module end_module timestamp:", error);
           }
         }
-        onBackToModules();
+        //onBackToModules();
       }
       // onBackToModules();
     }
@@ -640,10 +640,20 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
                 </button>
                 {!nextButtonEnabled && (
                   <div className="mt-2 w-full text-center">
-                    <p className="text-sm text-gray-500">
-                      The next page is available in {countdown} second
-                      {countdown !== 1 && "s"}
-                    </p>
+                    {currentSection.title === "Knowledge Check" ? (
+                      <p className="text-sm text-gray-500">
+                        The next page is available in{" "}
+                        {Math.floor(countdown / 60)} minute
+                        {Math.floor(countdown / 60) !== 1 && "s"}{" "}
+                        {countdown % 60} second{countdown % 60 !== 1 && "s"}
+                      </p>
+                    ) : (
+                      <p className="text-sm text-gray-500">
+                        The next page is available in {countdown} second
+                        {countdown !== 1 && "s"}
+                      </p>
+                    )}
+
                     <IonProgressBar
                       value={(10 - countdown) / 10}
                       color="medium"
