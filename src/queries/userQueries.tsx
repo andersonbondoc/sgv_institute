@@ -96,8 +96,8 @@ export const getUserByEmailAndPassword = async (
     };
   }
 
-  const isPasswordValid = await bcrypt.compareSync(password, data.password);
-
+  const isPasswordValid = bcrypt.compareSync(password, data.password);
+  console.log(isPasswordValid);
   if (!isPasswordValid) {
     return {
       success: false,
