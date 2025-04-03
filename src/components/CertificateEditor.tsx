@@ -9,6 +9,7 @@ interface CertificateEditorProps {
   wblTitle: string;
   lessons: string[];
   isCertificateEnabled: boolean;
+  hours: any;
 }
 
 const CertificateEditor: React.FC<CertificateEditorProps> = ({
@@ -17,6 +18,7 @@ const CertificateEditor: React.FC<CertificateEditorProps> = ({
   wblTitle,
   lessons,
   isCertificateEnabled,
+  hours,
 }) => {
   console.log("isCertificateEnabled: ", isCertificateEnabled);
   const generatePDF = async () => {
@@ -92,7 +94,7 @@ const CertificateEditor: React.FC<CertificateEditorProps> = ({
       );
       startY -= fontRegular.heightAtSize(18) + 10;
       drawTextCentered(
-        "has successfully completed the Web-Based Learning (WBL) on",
+        `has successfully completed ${hours} the Web-Based Learning (WBL) on`,
         fontRegular,
         14,
         startY

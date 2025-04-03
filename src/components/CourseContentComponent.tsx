@@ -27,6 +27,7 @@ const CourseContentComponent: React.FC = () => {
     {}
   );
   const [isLoading, setIsLoading] = useState(false);
+  const [hours, setHours] = useState(String);
   useEffect(() => {
     const storedUser = localStorage.getItem("user");
     if (!storedUser) {
@@ -49,6 +50,7 @@ const CourseContentComponent: React.FC = () => {
       })
       .then((data) => {
         const course = data[courseId];
+        setHours(course.hours);
         setCourse(course.title);
         if (course && course.modules) {
           setModules(course.modules);
@@ -291,6 +293,7 @@ const CourseContentComponent: React.FC = () => {
               wblTitle={getCourse}
               lessons={getModule}
               isCertificateEnabled={isCertificateEnabled}
+              hours={hours}
             />
           )}
         </div>

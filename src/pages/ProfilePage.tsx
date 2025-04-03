@@ -124,14 +124,14 @@ const ProfilePage: React.FC = () => {
                   <span className="text-gray-600 font-medium">Email:</span>
                   <span className="text-gray-800">{profile.email}</span>
                 </div>
-                <div className="flex justify-between">
+                {/* <div className="flex justify-between">
                   <span className="text-gray-600 font-medium">Phone:</span>
                   <span className="text-gray-800">{profile.phone}</span>
                 </div>
                 <div className="flex justify-between">
                   <span className="text-gray-600 font-medium">Address:</span>
                   <span className="text-gray-800">{profile.address}</span>
-                </div>
+                </div> */}
               </div>
               {/* Button at the bottom */}
               <div className="w-full flex justify-center mb-8">

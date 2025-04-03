@@ -1,4 +1,5 @@
 import { supabase } from "./supabaseClient";
+import bcrypt from "bcryptjs";
 
 export const getUserByEmail = async (email: string) => {
   if (!email) {
@@ -22,6 +23,52 @@ export const getUserByEmail = async (email: string) => {
   return { exists: true, error: null, user: data };
 };
 
+// export const getUserByEmailAndPassword = async (
+//   email: string,
+//   password: string
+// ) => {
+//   if (!email || !password) {
+//     return {
+//       success: false,
+//       error: "Email and password are required",
+//       user: null,
+//     };
+//   }
+
+//   // Fetch user by email first
+//   const { data, error } = await supabase
+//     .from("users")
+//     .select("*")
+//     .eq("username", email)
+//     .single();
+//   if (error || !data) {
+//     return {
+//       success: false,
+//       error: "User not found. Please check your username.",
+//       user: null,
+//     };
+//   }
+
+//   // Compare the provided password with the stored password.
+//   // (Note: In production, passwords should be hashed. Use bcrypt.compare if that's the case.)
+//   if (data.password !== password) {
+//     return {
+//       success: false,
+//       loginError: "Incorrect password. Please try again.",
+//       user: null,
+//     };
+//   }
+
+//   // If everything matches, return the user data.
+//   return { success: true, loginError: null, user: data };
+// };
+
+export const hashPassword = async (password: any) => {
+  // Generate a salt and hash the password
+  const saltRounds = 10; // You can adjust the salt rounds as needed
+  const hashedPassword = await bcrypt.hash(password, saltRounds);
+  return hashedPassword;
+};
 export const getUserByEmailAndPassword = async (
   email: string,
   password: string
@@ -34,12 +81,13 @@ export const getUserByEmailAndPassword = async (
     };
   }
 
-  // Fetch user by email first
+  // Fetch user by email
   const { data, error } = await supabase
     .from("users")
     .select("*")
     .eq("username", email)
     .single();
+
   if (error || !data) {
     return {
       success: false,
@@ -48,9 +96,9 @@ export const getUserByEmailAndPassword = async (
     };
   }
 
-  // Compare the provided password with the stored password.
-  // (Note: In production, passwords should be hashed. Use bcrypt.compare if that's the case.)
-  if (data.password !== password) {
+  const isPasswordValid = await bcrypt.compareSync(password, data.password);
+
+  if (!isPasswordValid) {
     return {
       success: false,
       loginError: "Incorrect password. Please try again.",
@@ -58,7 +106,7 @@ export const getUserByEmailAndPassword = async (
     };
   }
 
-  // If everything matches, return the user data.
+  // If everything matches, return the user data
   return { success: true, loginError: null, user: data };
 };
 
