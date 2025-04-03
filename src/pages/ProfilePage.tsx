@@ -91,20 +91,14 @@ const ProfilePage: React.FC = () => {
         <ToastSuccess message={successMessage} show={showSuccessMessage} />
         <ToastError message={errorMessage} show={showErrorMessage} />
         <IonHeader>
-          <IonToolbar className="bg-indigo-500 text-white">
+          <IonToolbar className="bg-indigo-500">
             <h2 className="text-center text-lg font-bold">My Profile</h2>
           </IonToolbar>
         </IonHeader>
         <IonContent className="p-6">
           <div className="flex flex-col items-center space-y-6">
             {/* Profile Picture */}
-            <div className="w-24 h-24 rounded-full border-4 border-indigo-500 shadow-md overflow-hidden mt-8">
-              <img
-                src="/src/assets/abstract.png"
-                alt="Profile"
-                className="w-full h-full object-cover"
-              />
-            </div>
+            <div className="w-24 h-24  mt-8"></div>
 
             {/* Profile Information */}
             <div className="w-full max-w-md bg-white p-6 rounded-lg shadow-lg space-y-4">
@@ -120,10 +114,7 @@ const ProfilePage: React.FC = () => {
                   <span className="text-gray-600 font-medium">Name:</span>
                   <span className="text-gray-800">{profile.name}</span>
                 </div>
-                <div className="flex justify-between">
-                  <span className="text-gray-600 font-medium">Email:</span>
-                  <span className="text-gray-800">{profile.email}</span>
-                </div>
+
                 {/* <div className="flex justify-between">
                   <span className="text-gray-600 font-medium">Phone:</span>
                   <span className="text-gray-800">{profile.phone}</span>
