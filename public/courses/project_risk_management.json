@@ -141,7 +141,7 @@
       "order": 5,
       "layout": "col-1",
       "title": "Overview of Risk",
-      "subheader": "What is Project Risk",
+      "subheader": "What is Project Risk?",
       "body": "<ul> <li>An unpredictable event or situation that, if it happens, can positively or negatively impact the goals of a project.</li> <li>Project risks can have positive outcomes, referred to as opportunities, or they can result in negative or unfavorable consequences, known as threats.</li> </ul>"
     },
     {
@@ -307,11 +307,10 @@
     },
     {
       "order": 24,
-      "layout": "col-2",
+      "layout": "col-1",
       "title": "Quality Assurance",
       "subheader": "Quality Strategies",
-      "col1": "<h4>Total Quality Management</h4> <ul> <li>A strategy focused on continuous improvement</li> <li>Every employee in the company is accountable for maintaining quality</li> <li>Defines ‘quality’ based on customer requirements</li> </ul><img src='src/assets/img/project_management/risk_management/order24.jpg'>",
-      "col2": "<h4>Sample Quality Initiatives for Continuous Improvement</h4> <h5><b>Lean Manufacturing</b></h5> <p>Employs a method of eliminating waste and improving value.</p> <h5><b>Six Sigma</b></h5> <p>The Six Sigma standard, introduced by Bill Smith of Motorola, allows only 3.4 defects per million units. This technique is well-suited for manufacturing environments with large-scale production.</p> <h5><b>Deming Prize</b></h5> <p>One of the highest awards for total quality management in the world. It recognizes businesses that have successfully implemented total quality management in their processes.</p>"
+      "body": "<h4>Total Quality Management</h4> <ul> <li>A strategy focused on continuous improvement</li> <li>Every employee in the company is accountable for maintaining quality</li> <li>Defines ‘quality’ based on customer requirements</li> </ul><h4>Sample Quality Initiatives for Continuous Improvement</h4> <h5><b>Lean Manufacturing</b></h5> <p>Employs a method of eliminating waste and improving value.</p> <h5><b>Six Sigma</b></h5> <p>The Six Sigma standard, introduced by Bill Smith of Motorola, allows only 3.4 defects per million units. This technique is well-suited for manufacturing environments with large-scale production.</p> <h5><b>Deming Prize</b></h5> <p>One of the highest awards for total quality management in the world. It recognizes businesses that have successfully implemented total quality management in their processes.</p>"
     },
     {
       "order": 25,

@@ -258,11 +258,10 @@
     },
     {
       "order": 17,
-      "layout": "image righthand portion", 
+      "layout": "col-1", 
       "title": "Tools, Techniques, and Frameworks",         
       "subheader": "Deep-dive into Agile and Hybrid Methodologies",
-      "body": "<p><b>Agile</b> is an umbrella term for various types of software development approaches.</p> <p><b>Popular Agile Approaches:</b></p> <ul> <li><b>Scrum</b> - is a project management approach that anchors itself on teamwork, accountability and iterative progress toward a well-defined goal. Customers or stakeholders are actively involved in each sprint (fixed timeframes to deliver a feature).</li> <li><b>Kanban</b> - is a framework that requires real-time communication of capacity and full transparency of work. Work items are presented visually on what is called a “Kanban board.”</li> <li><b>Lean Software Development (LSD)</b> - is an approach derived from the Lean Management. It is where the team produces a bare minimum version of a product, gathers feedback from users, and iterates it based on what they need and don’t need</li> </ul> <p>The <b>Hybrid Approach</b> combines waterfall (traditional) and agile (adaptive) project management methodologies</p>",
-      "image": "src/assets/img/project_management/Project Fundamentals/order17.jpg"
+      "body": "<p><b>Agile</b> is an umbrella term for various types of software development approaches.</p> <p><b>Popular Agile Approaches:</b></p> <ul> <li><b>Scrum</b> - is a project management approach that anchors itself on teamwork, accountability and iterative progress toward a well-defined goal. Customers or stakeholders are actively involved in each sprint (fixed timeframes to deliver a feature).</li> <li><b>Kanban</b> - is a framework that requires real-time communication of capacity and full transparency of work. Work items are presented visually on what is called a “Kanban board.”</li> <li><b>Lean Software Development (LSD)</b> - is an approach derived from the Lean Management. It is where the team produces a bare minimum version of a product, gathers feedback from users, and iterates it based on what they need and don’t need</li> </ul> <p>The <b>Hybrid Approach</b> combines waterfall (traditional) and agile (adaptive) project management methodologies</p><img src='src/assets/img/project_management/Project Fundamentals/order17.jpg'/>"
     },
     {
       "order": 18,
