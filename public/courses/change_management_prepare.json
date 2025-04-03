@@ -148,11 +148,10 @@
     },
     {
       "order": 14, 
-      "layout":"image righthand portion",
+      "layout":"col-1",
       "title": "Crafting a Powerful Purpose, Vision and Case for Change",
       "subheader": "Assessment of the Change | Scoping the Change", 
-      "body": "<h4>Determining the Scope and Boundaries of the Change Initiative</h4><p>Defining the scope and boundaries of a change initiative is a vital step toward ensuring its success. The following key steps are recommended to define them: </p>", 
-      "image": "src/assets/img/change management/Prepare/order14.jpg"
+      "body": "<h4>Determining the Scope and Boundaries of the Change Initiative</h4><p>Defining the scope and boundaries of a change initiative is a vital step toward ensuring its success. The following key steps are recommended to define them: </p><img src='src/assets/img/change management/Prepare/order14.jpg'/>"
     },
     {
       "order": 15,
@@ -213,11 +212,10 @@
     },
     {
       "order": 22,
-      "layout": "image righthand portion",
+      "layout": "col-1",
       "title": "Defining Change Management KPIs",
       "subheader": "Overview of Key Performance Indicators (KPIs)", 
-      "body": "<h4>Differences between KPIs, Metrics and Performance Indicators:</h4>", 
-      "image":"src/assets/img/change management/Prepare/order22.jpg"
+      "body": "<h4>Differences between KPIs, Metrics and Performance Indicators:</h4><img src='src/assets/img/change management/Prepare/order22.jpg'/>"
     },  
     {
       "order": 23,
@@ -297,7 +295,7 @@
       "layout":"image righthand portion",
       "title": "Defining Change Management KPIs",
       "subheader": "Overview of Key Performance Indicators (KPIs)", 
-      "col1": "<h4>Importance of a Benefits Realization Plan</h4> <p>Benefits Realization Plan</p> <ul> <li>A Benefits Realization Plan (BRP) is a structured approach in change management that ensures the anticipated benefits of a project or initiative are clearly defined, tracked, and achieved. It outlines how these benefits will be realized, measured, and sustained over time.</li> <li>By offering clarity, accountability, and a systematic method for measuring success, a BRP significantly increases the likelihood of successful change implementation and the long-term sustainability of benefits.</li> </ul>", 
+      "body": "<h4>Importance of a Benefits Realization Plan</h4> <p>Benefits Realization Plan</p> <ul> <li>A Benefits Realization Plan (BRP) is a structured approach in change management that ensures the anticipated benefits of a project or initiative are clearly defined, tracked, and achieved. It outlines how these benefits will be realized, measured, and sustained over time.</li> <li>By offering clarity, accountability, and a systematic method for measuring success, a BRP significantly increases the likelihood of successful change implementation and the long-term sustainability of benefits.</li> </ul>", 
       "image": "src/assets/img/change management/Prepare/order31.jpg"
     },
     {
@@ -465,7 +463,7 @@
       "layout": "col-2",
       "title": "Executing Change Impact Assessment for Change to be Successful",
       "subheader": "Gap Assessment | Overview of Gap Analysis", 
-      "col1": "<h4>Objectives and benefits of conducting a gap analysis</h4> <h5><b>Objectives</b></h5> <h6><b>Identify Discrepancies</b></h6> <p>The main objective is to pinpoint gaps between the current and desired future states of the organization, including processes, performance, skills, and resources.</p> <h5><b>Prioritize Areas for Improvement</b></h5> <p>Identify the most critical gaps to address first, enabling a focused approach to change management.</p> <h5><b>Improve Stakeholder Communication</b></h5> <p>Develop a clear narrative about the need for change to engage and inform stakeholders on the objectives and benefits of the initiative.</p>", 
+      "col1": "<h4>Objectives and benefits of conducting a gap analysis</h4> <h5><b>Objectives</b></h5><h6><b>Identify Discrepancies</b></h6> <p>The main objective is to pinpoint gaps between the current and desired future states of the organization, including processes, performance, skills, and resources.</p> <h5><b>Prioritize Areas for Improvement</b></h5> <p>Identify the most critical gaps to address first, enabling a focused approach to change management.</p> <h5><b>Improve Stakeholder Communication</b></h5> <p>Develop a clear narrative about the need for change to engage and inform stakeholders on the objectives and benefits of the initiative.</p>", 
       "col2": "<h5><b>Benefits</b></h5> <h6><b>Increased Efficiency</b></h6> <p>Identifying inefficiencies allows organizations to streamline processes and enhance operational efficiency.</p> <h5><b>Enhanced Performance</b></h5> <p>Addressing specific gaps can improve performance metrics, including productivity, quality, and customer satisfaction.</p> <h5><b>Proactive Problem Solving</b></h5> <p>This approach enables organizations to anticipate and address potential challenges before they escalate, fostering effective change management.</p>"
     },
     {
@@ -595,9 +593,9 @@
       "layout": "col-3",
       "title": "Executing Change Impact Assessment for Change to be Successful", 
       "subheader": "Change Impact Assessment | Assessing the Scope and Scale of Impact",
-      "col1": "<h4>Identifying Depth and Breadth of the Impact Across the Organization</h4> <p>Depth of Impact refers to the intensity or severity of the change within specific areas of the organization. It considers how deeply the change will affect processes, systems, roles, and culture. To assess the depth:</p> <ul> <li>Analyze the Process Changes - Evaluate how significantly existing workflows will be altered. Will the change require complete overhauls, or will it involve minor adjustments?</li> <li>Assess Role Model Modifications - Determine how deeply individual roles and responsibilities will change. Will employees need to adopt new skills, or will their tasks remain largely the same?</li> <li>Evaluate Cultural Shifts - Consider whether the change will lead to fundamental shifts in organizational values, behaviors, or communication styles. A deep impact may require a cultural transformation.</li> </ul>", 
-      "col2": "<p>Breadth of Impact refers to the range or scope of the change across the organization. It assesses how many areas, departments, or functions will be affected. To evaluate the breadth:</p> <ul> <li>Identify Affected Departments - Map out which departments or teams will be impacted by the change. Is it limited to one area, or does it span multiple functions?</li> <li>Consider Cross-Functional Impacts - Evaluate whether the change will affect interdepartmental processes or require collaboration between different teams.</li> <li>Assess Customer and External Stakeholder Impact - Determine if the change will have implications for customers, suppliers, or other external stakeholders, broadening the scope of the impact.</li> </ul>", 
-      "col3": "<p>Create an impact matrix that categorizes the depth and breadth of the change. This matrix can include:</p> <ul> <li>Depth Levels - Define levels such as low, medium, and high depth of impact for various areas.</li> <li>Breadth Levels - Define levels such as localized, departmental, or organization-wide breadth of impact.</li></ul><img src='src/assets/img/change management/Prepare/order70.jpg'/>"
+      "col1": "<h4>Identifying Depth and Breadth of the Impact Across the Organization</h4> <p>Depth of Impact refers to the intensity or severity of the change within specific areas of the organization. It considers how deeply the change will affect processes, systems, roles, and culture. To assess the depth:</p> <ul> <li><b>Analyze the Process Changes</b> - Evaluate how significantly existing workflows will be altered. Will the change require complete overhauls, or will it involve minor adjustments?</li> <li><b>Assess Role Model Modifications</b> - Determine how deeply individual roles and responsibilities will change. Will employees need to adopt new skills, or will their tasks remain largely the same?</li> <li><b>Evaluate Cultural Shifts</b> - Consider whether the change will lead to fundamental shifts in organizational values, behaviors, or communication styles. A deep impact may require a cultural transformation.</li> </ul>", 
+      "col2": "<p>Breadth of Impact refers to the range or scope of the change across the organization. It assesses how many areas, departments, or functions will be affected. To evaluate the breadth:</p> <ul> <li><b>Identify Affected Departments</b> - Map out which departments or teams will be impacted by the change. Is it limited to one area, or does it span multiple functions?</li> <li><b>Consider Cross-Functional Impacts</b> - Evaluate whether the change will affect interdepartmental processes or require collaboration between different teams.</li> <li><b>Assess Customer and External Stakeholder Impact</b> - Determine if the change will have implications for customers, suppliers, or other external stakeholders, broadening the scope of the impact.</li> </ul>", 
+      "col3": "<p>Create an impact matrix that categorizes the depth and breadth of the change. This matrix can include:</p> <ul> <li><b>Depth Levels</b> - Define levels such as low, medium, and high depth of impact for various areas.</li> <li><b>Breadth Levels</b> - Define levels such as localized, departmental, or organization-wide breadth of impact.</li></ul><img src='src/assets/img/change management/Prepare/order70.jpg'/>"
     },
     {
       "order": 71,
@@ -653,11 +651,10 @@
     }, 
     {
       "order": 78,
-      "layout": "image righthand portion",
+      "layout": "col-1",
       "title": "ADKAR Model",
       "subheader": "The Human Side of Change", 
-      "body": "Addressing fears, anxieties, and uncertainties related to change is essential for successful change management. Here are several strategies to effectively manage these emotional responses:", 
-      "image": "src/assets/img/change management/Prepare/order78.jpg"
+      "body": "Addressing fears, anxieties, and uncertainties related to change is essential for successful change management. Here are several strategies to effectively manage these emotional responses:<img src='src/assets/img/change management/Prepare/order78.jpg'/>"
     }, 
     {
       "order": 79,
@@ -677,11 +674,10 @@
     },
     {
       "order": 81,
-      "layout":"image righthand portion",
+      "layout":"col-1",
       "title": "ADKAR Model",
       "subheader": "Integrating ADKAR with Organizational Change",
-      "body": "<p>To ensure the ADKAR Model supports overall organizational change efforts, its principles must be integrated into the broader change management strategy. Here are several strategies for effectively implementing the ADKAR Model to enhance these efforts:</p>", 
-      "image": "src/assets/img/change management/Prepare/order81.jpg"
+      "body": "<p>To ensure the ADKAR Model supports overall organizational change efforts, its principles must be integrated into the broader change management strategy. Here are several strategies for effectively implementing the ADKAR Model to enhance these efforts:</p><img src='src/assets/img/change management/Prepare/order81.jpg'/>"
     },
     {
       "order": 82,

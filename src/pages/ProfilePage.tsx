@@ -135,7 +135,14 @@ const ProfilePage: React.FC = () => {
               </div>
               {/* Button at the bottom */}
               <div className="w-full flex justify-center mb-8">
-                {isUserLoggedIn ? (
+                <button
+                  className="text-center px-6 py-2 bg-gray-700 text-white rounded-lg flex items-center gap-2"
+                  onClick={handleLogout}
+                >
+                  <IonIcon icon={logOutOutline} className="text-xl" />
+                  Logout
+                </button>
+                {/* {isUserLoggedIn ? (
                   <button
                     className="text-center px-6 py-2 bg-gray-700 text-white rounded-lg flex items-center gap-2"
                     onClick={handleLogout}
@@ -151,7 +158,7 @@ const ProfilePage: React.FC = () => {
                     <IonIcon icon={logInOutline} className="text-xl" />
                     Login
                   </button>
-                )}
+                )} */}
               </div>
             </div>
           </div>

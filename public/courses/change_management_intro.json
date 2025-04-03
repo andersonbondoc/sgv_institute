@@ -213,19 +213,19 @@
       {
         "order": 21,
         "title": "Lesson Summary",
-        "body": "<h4>Congratulations on completing Lesson 2 of this module!</h4> <p>Now that you have completed this lesson, you should be able to:</p> <ul> <li>To define the Prosci Methodology of Change Management and,</li> <li>Understand the overview of EY’s Change Experience.</li> </ul>", 
+        "body": "<h4>Congratulations on completing Lesson 2 of this module!</h4> <p>Now that you have completed this lesson, you should be able to:</p> <ul> <li>To define the Prosci Methodology of Change Management; and</li> <li>Understand the overview of EY’s Change Experience</li> </ul>", 
         "image":"src/assets/img/general images/LessonSummary.jpg"
-      }, 
+      },
       {
         "order": 22,
         "title": "Module Summary",
-        "body": "<p>Now that you have completed this module, you should be able to</p><ul> <li>Understand that the introduction to Change Management outlines the fundamental concepts and frameworks essential for effectively navigating and implementing change within organizations.</li> <li>Define that change is the act of making something different or undergoing modification, while Change Management refers to structured approaches that facilitate this process.</li> <li>Recognize that the Prosci Methodology prioritizes the human aspects of change, emphasizing employee engagement through the ADKAR Model.</li> <li>Understand that the Change Management Framework synthesizes these methodologies, structured around three key phases: Preparing for Change, which establishes readiness; Managing Change, which engages employees; and Sustaining Change, which ensures long-term benefits. This comprehensive approach is designed to enhance organizational effectiveness and support successful transitions during significant business transformations.</li> </ul>", 
+        "body": "<p>Now that you have completed this module, you should be able to:</p><ul> <li>Understand that the introduction to Change Management outlines the fundamental concepts and frameworks essential for effectively navigating and implementing change within organizations.</li> <li>Define that change is the act of making something different or undergoing modification, while Change Management refers to structured approaches that facilitate this process.</li> <li>Recognize that the Prosci Methodology prioritizes the human aspects of change, emphasizing employee engagement through the ADKAR Model.</li> <li>Understand that the Change Management Framework synthesizes these methodologies, structured around three key phases: Preparing for Change, which establishes readiness; Managing Change, which engages employees; and Sustaining Change, which ensures long-term benefits. This comprehensive approach is designed to enhance organizational effectiveness and support successful transitions during significant business transformations.</li> </ul>", 
         "image":"src/assets/img/general images/ModuleSummary.jpg"
       },
       {
         "order": 23,
         "title": "Module Completion",
-        "body": "<h4>Congratulations on completing the Change Management Lessons module!</h4><p>You've now gained a solid understanding of the essential terms and concepts for change management fundamentals.</p><p>As you move forward, remember that the principles and strategies you've learned here are vital tools for ensuring the  health and success of any project or organization. By applying these techniques, you'll be better equipped to make informed decisions</p><p>We hope this module has empowered you with the knowledge and confidence to tackle any challenge that comes your way. Keep honing your skills, stay diligent in your planning, and continue to strive for excellence in managing change.</p>", 
+        "body": "<h4>Congratulations on completing the Change Management Lessons module!</h4><p>You've now gained a solid understanding of the essential terms and concepts for change management fundamentals.</p><p>As you move forward, remember that the principles and strategies you've learned here are vital tools for ensuring the  health and success of any project or organization. By applying these techniques, you'll be better equipped to make informed decisions.</p><p>We hope this module has empowered you with the knowledge and confidence to tackle any challenge that comes your way. Keep honing your skills, stay diligent in your planning, and continue to strive for excellence in managing change.</p>", 
         "image":"src/assets/img/general images/ModuleCompletion.jpg"
       },
       {

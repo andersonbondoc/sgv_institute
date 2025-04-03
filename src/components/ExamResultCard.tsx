@@ -77,7 +77,7 @@ const ExamResultCard: React.FC<ExamResultCardProps> = ({
                 className="mb-4 px-6 py-2 bg-indigo-700 rounded-lg flex items-center gap-2 text-white"
                 onClick={onClose}
               >
-                Go Back
+                Continue
               </button>
             ) : (
               <button

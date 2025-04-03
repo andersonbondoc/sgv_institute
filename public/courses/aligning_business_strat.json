@@ -108,7 +108,7 @@
       {
         "order": 3,
         "title": "Course Credit and Completion Requirements and Learning Objective",
-        "body": "<h4>Credit and Completion Requirements</h4><p>To successfully earn credit and meet the learning objectives of this Web-Based Learning Application, it is essential to engage with every page, complete all knowledge checks, and complete the initial and final assessment independently. The assessment will require a <b>70% passing rate</b> and while you are encouraged to refer to your notes of the course content during the assessment, any form of cheating is discouraged. Please also note that this course will expire by <b>April 25, 2025</b>.</p><h4>Module Learning Objectives</h4><p>Upon successful completion of the module, you will be able to:</p> <ul> <li>Familiarize with common project management terms and methodologies including fundamentals, tools, skills, techniques, roles, and responsibilities</li> <li>Understand the different phases of a project: initiation, planning, execution, monitoring and controlling, and closing</li> <li>Recognize the key activities, deliverables, and goals for each phase</li> <li>To be equipped with the foundational knowledge needed to initiate, plan, execute, and close projects successfully</li></ul>", 
+        "body": "<h4>Credit and Completion Requirements</h4><p>To successfully earn credit and meet the learning objectives of this Web-Based Learning Application, it is essential to engage with every page, complete all knowledge checks, and complete the initial and final assessment independently. The assessment will require a <b>70% passing rate</b> and while you are encouraged to refer to your notes of the course content during the assessment, any form of cheating is discouraged. Please also note that this course will expire by <b>April 25, 2025</b>.</p><h4>Module Learning Objectives</h4><p>Upon successful completion of the module, you will be able to:</p> <ul> <li>Define and explain the key components of business strategy, including vision, mission, goals, objectives, market analysis, and resource allocation, to establish a solid foundation for strategic alignment.</li> <li>Recognize the importance of aligning business strategies with technology innovations and trends and evaluate the benefits of this alignment in enhancing operational efficiency, customer experience, and competitive advantage.</li> <li>Apply various methodologies and tools, such as SWOT analysis, Porter's Five Forces, PESTLE analysis, and technology roadmapping, to assess organizational strategies and external environments effectively.</li> <li>Leverage business enabling tools such as information systems, AI, machine learning, and GIS tools, to enhance operational efficiency, customer engagement, and overall effectiveness within organizations.</li> <li>Identify and implement key principles of crisis management, including pre-crisis planning, crisis response strategies, and post-crisis recovery measures, to ensure business continuity and resilience in the face of disruptive events.</li></ul>", 
         "image":"src/assets/img/general images/CreditCompletionLearningObjectives.jpg"
       },
       {
@@ -284,7 +284,7 @@
         "layout": "col-1",
         "title": "Methodologies and Tools",
         "subheader": "Design-Thinking", 
-        "body": "<p>Design-thinking and project management methodologies are interconnected in ways complementing the other to enhance the overall effectiveness of projects: user-centric focus, iterative process, collaboration and teamwork, problem-solving framework, risk management, outcome orientation, and feedback loops.</p> <img src='src/assets/img/aligning business strat/order24.jpg'/> <p>Integrating design-thinking into project management methodologies can lead to more innovative, user-centered solutions while maintaining the structure and discipline required for successful project execution. This synergy can enhance creativity, adaptability, and overall project outcomes.</p>"
+        "body": "<p>Design-thinking and project management methodologies are interconnected in ways complementing the other to enhance the overall effectiveness of projects: user-centric focus, iterative process, collaboration and teamwork, problem-solving framework, risk management, outcome orientation, and feedback loops.</p> <img src='src/assets/img/aligning business strat/order24.jpg'/> <img src='src/assets/img/aligning business strat/order24_1.jpg'/> <p>Integrating design-thinking into project management methodologies can lead to more innovative, user-centered solutions while maintaining the structure and discipline required for successful project execution. This synergy can enhance creativity, adaptability, and overall project outcomes.</p>"
       },
       {
         "order": 25,
@@ -436,7 +436,7 @@
         "layout": "col-1",
         "title": "Methodologies and Tools",
         "subheader": "Emerging Methods",
-        "body": "<p>Steps in Conducting MoSCoW Prioritization</p> <h4>Identify Requirements</h4> <ul> <li>Gather all potential requirements, tasks, or features related to the business strategy.</li> </ul> <h4>Categorize Requirements</h4> <ul> <li>Sort each requirement into one of the four MoSCoW categories (Must have, Should have, Could have, Won't have).</li> </ul> <h4>Review and Validate</h4> <ul> <li>Engage stakeholders to review the categorization and ensure alignment with business goals.</li> </ul> <h4>Prioritize</h4> <ul> <li>Focus on the Must Have requirements first, followed by Should Have and so on.</li> </ul> <h4>Develop Action Plan</h4> <ul> <li>Create a plan to implement the prioritized requirements, ensuring resources are allocated effectively.</li> </ul> <h4>Monitor and Adjust</h4> <ul> <li>Continuously monitor progress and adjust priorities as needed based on changing circumstances or feedback. </li> </ul>"
+        "body": "<p>Steps in Conducting MoSCoW Prioritization:</p> <h4>1. Identify Requirements</h4> <ul> <li> Gather all potential requirements, tasks, or features related to the business strategy. </li> </ul> <h4>2. Categorize Requirements</h4> <ul> <li> Sort each requirement into one of the four MoSCoW categories (Must have, Should have, Could have, Won't have). </li> </ul> <h4>3. Review and Validate</h4> <ul> <li> Engage stakeholders to review the categorization and ensure alignment with business goals. </li> </ul> <h4>4. Prioritize</h4> <ul> <li> Focus on the Must Have requirements first, followed by Should Have and so on. </li> </ul> <h4>5. Develop Action Plan</h4> <ul> <li> Create a plan to implement the prioritized requirements, ensuring resources are allocated effectively. </li> </ul> <h4>6. Monitor and Adjust</h4> <ul> <li> Continuously monitor progress and adjust priorities as needed based on changing circumstances or feedback. </li> </ul>"
       },
       {
         "order": 45, 
@@ -459,6 +459,7 @@
         "layout":"image righthand portion",
         "title":"Methodologies and Tools",
         "subheader":"Emerging Methods",
+        "body": "<h4>MOSCOW TECHNIQUE</h4><p>The MoSCoW Technique can be visualized through a prioritization matrix.</p>", 
         "image": "src/assets/img/aligning business strat/order47.jpg"
       },
       {
@@ -474,7 +475,7 @@
         "layout": "col-1",
         "title": "Methodologies and Tools",
         "subheader": "Emerging Methods",
-        "body": "<p>Procedures of Lean Startup Methodology</p> <h4>Identify a Problem</h4> <ul> <li>Understand the problem you want to solve for your target customers.</li> </ul> <h4>Develop a Hypothesis</h4> <ul> <li>Formulate a hypothesis about what customers want and how your solution will address their needs.</li> </ul> <h4>Build a Minimum Viable Product (MVP)</h4> <ul> <li>Create a simplified version of your product or service that includes only the essential features needed to test your hypothesis.</li> </ul> <h4>Test the MVP</h4> <ul> <li>Launch the MVP to a small segment of your target market to gather feedback and data.</li> </ul> <h4>Measure Results</h4> <ul> <li>Analyze the data collected from the MVP testing to assess its performance and customer reactions.</li> </ul> <h4>Learn and Iterate</h4> <ul> <li>Use the insights gained to refine your product, pivot if necessary, or scale up if the MVP is successful.</li> </ul> <h4>Repeat the Cycle</h4> <ul> <li>Continue the Build-Measure-Learn cycle until you achieve a product-market fit.</li> </ul>"
+        "body": "<p>Procedures of Lean Startup Methodology:</p> <h4>1. Identify a Problem</h4> <ul> <li>Understand the problem you want to solve for your target customers.</li> </ul> <h4>2. Develop a Hypothesis</h4> <ul> <li> Formulate a hypothesis about what customers want and how your solution will address their needs. </li> </ul> <h4>3. Build a Minimum Viable Product (MVP)</h4> <ul> <li> Create a simplified version of your product or service that includes only the essential features needed to test your hypothesis. </li> </ul> <h4>4. Test the MVP</h4> <ul> <li> Launch the MVP to a small segment of your target market to gather feedback and data. </li> </ul> <h4>5. Measure Results</h4> <ul> <li> Analyze the data collected from the MVP testing to assess its performance and customer reactions. </li> </ul> <h4>6. Learn and Iterate</h4> <ul> <li> Use the insights gained to refine your product, pivot if necessary, or scale up if the MVP is successful. </li> </ul> <h4>7. Repeat the Cycle</h4> <ul> <li> Continue the Build-Measure-Learn cycle until you achieve a product-market fit. </li> </ul>"
       },
       {
         "order": 50, 
@@ -571,32 +572,35 @@
       },
       {
         "order": 62,
+        "layout": "col-3",
+        "title": "Other Tools and Technology",
+        "subheader": "Enumerated below are the other tools used by digitally connected businesses.",
+        "col1": "<h4>Collaboration Tools</h4> <p>These facilitate communication and teamwork among employees, regardless of their physical location and enable real-time collaboration through chat, video, conferencing, and document sharing. Tools include Microsoft Teams, Slack, Google Workspace.</p> <h4>Implementation</h4> <p>Organizations can implement collaboration tools to enhance internal communication, share documents, and manage projects. For example, using Microsoft Teams allows employees to create channels for different departments, share files, and hold virtual meetings. This fosters a collaborative culture, improves information sharing, and enables remote work, which is particularly beneficial in rural areas where staff may be dispersed.</p>",
+        "col2": "<h4>Project Management Software</h4> <p>Project management software helps organizations plan, execute, and monitor projects effectively. Tools like Trello, Asana, and Monday.com provide features for task assignment, progress tracking, and deadline management.</p> <h4>Implementation</h4> <p>Organizations can use project management software to streamline their operations and ensure that projects are completed on time and within budget. For instance, a bank could use Asana to manage the rollout of a new service, assigning tasks to team members, setting deadlines, and tracking progress. This visibility helps ensure accountability and enhances project efficiency.</p>",
+        "col3": "<h4>Data Analytics and Business intelligence</h4> <p>Data analytics and business intelligence tools enable organizations to analyze data and derive actionable insights. Tools like Tableau, Power BI, and Google Analytics are commonly used for this purpose.</p> <h4>Implementation</h4> <p>Organizations can leverage data analytics to gain insights into customer behavior, market trends, and operational performance. By analyzing transaction data, banks can identify patterns, assess risk, and make informed decisions. For instance, a bank could use Power BI to visualize customer demographics and tailor products to meet the specific needs of   different segments.</p>"
+      }, 
+      {
+        "order": 63,
         "layout": "col-2",
         "title": "Other Tools and Technology",
         "col1": "<h4>Cloud Computing Services</h4> <p>Cloud computing services provide scalable and flexible IT resources over the internet. Providers like Amazon Web Services (AWS), Microsoft Azure, and Google Cloud offer various services, including storage, computing power, and software applications.</p> <h4>Implementation</h4> <p>Organizations can adopt cloud computing to reduce IT infrastructure costs and improve accessibility. By migrating to the cloud, banks can store customer data securely, access applications remotely, and scale their operations as needed. For example, a bank could use cloud-based accounting software to manage finances more efficiently without the need for extensive on-premises infrastructure.</p>",
         "col2": "<h4>Automation Tools</h4> <p>Automation tools streamline repetitive tasks and processes, improving efficiency and reducing human error. Tools like Zapier, UiPath, and Automation Anywhere are popular in this space.</p> <h4>Implementation</h4> <p>Organizations can implement automation tools to enhance operational efficiency. For instance, they can automate routine tasks such as data entry, report generation, and customer follow-ups. By using tools like UiPath, banks can create automated workflows that save time and allow employees to focus on more strategic activities.</p>"
       },
       {
-        "order": 63,
+        "order": 64,
         "layout": "col-2",
         "title": "Other Tools and Technology",
         "col1": "<h4>E-Commerce Platforms</h4> <p>E-commerce platforms enable businesses to sell products and services online. Platforms like Shopify, WooCommerce, and Magento facilitate online transactions and customer engagement.</p> <h4>Implementation</h4> <p>Organizations can leverage e-commerce platforms to offer financial products and services online, such as loan applications, account openings, and investment products. By creating an online presence, banks can reach a broader audience and provide convenient services to customers who may not be able to visit a physical branch.</p>",
         "col2": "<h4>HR Management Systems</h4> <p>HR management systems streamline human resource processes, including recruitment, payroll, performance management, and employee engagement. Tools like BambooHR, Gusto, and Workday are commonly used.</p> <h4>Implementation</h4> <p>Organizations can implement HR management systems to manage their workforce more effectively. These systems can automate payroll processing, track employee performance, and facilitate recruitment efforts. For instance, a bank could use BambooHR to streamline onboarding processes, ensuring that new hires are integrated smoothly into the organization.</p> "
       },
       {
-        "order": 64,
+        "order": 65,
         "layout": "col-3",
         "title": "Other Tools and Technology",
         "col1": "<h4>Cybersecurity</h4> <p>Cybersecurity tools protect organizations from cyber threats and data breaches. Solutions include firewalls, antivirus software, and intrusion detection systems.</p><h4>Implementation</h4> <p>Organizations must prioritize cybersecurity to protect sensitive customer data and maintain trust. Implementing robust cybersecurity measures, such as firewalls and encryption, can safeguard against cyber threats. Additionally, providing employee training on cybersecurity best practices can help mitigate risks associated with human error.</p> ",
         "col2": "<h4>Artificial Intelligence (AI) Tools</h4> <p>AI technologies, including AI-driven assistants like Microsoft Copilot and machine learning algorithms, can automate tasks, enhance decision-making, and improve customer interactions. </p> <h4>Implementation</h4> <p>Organizations can utilize AI tools in various back-office functions. For example, AI-driven chatbots can handle customer inquiries, providing instant responses and freeing up staff for more complex issues. Additionally, AI can analyze large datasets to identify trends and anomalies, aiding in risk assessment and fraud detection. By implementing AI solutions, rural banks can enhance operational efficiency, improve customer service, and make data-driven decisions.</p>",
         "col3": "<h4>Enterprise Risk Management Tools</h4> <p>ERM tools help organizations identify, assess, and manage risks across the enterprise. These tools provide frameworks for risk analysis, reporting, and compliance management. </p> <h4>Implementation</h4> <p>Organizations can implement ERM tools to enhance their risk management practices. By using ERM software, banks can systematically identify potential risks, such as credit risk, operational risk, and regulatory compliance issues. For instance, a bank could use an ERM tool to create risk profiles for different products and services, enabling them to make informed decisions about risk exposure and mitigation strategies. </p>"
       },
-      {
-        "order": 65,
-        "title": "Lesson Summary",
-        "body": "<h4>Congratulations on completing Lesson 2 of this module!</h4> <p>Now that you have completed this lesson, you should be able to:</p> <ul> <li>Learn how to improve operational efficiency, customer engagement, and effectiveness through the adoption of emerging tools.</li> <li>Apply various methodologies, including SWOT analysis, Porter's Five Forces, and PESTLE analysis, which help organizations assess their strategic position and external environment.</li> <li>Utilize information systems as organized frameworks for collecting, storing, managing, and processing data.</li> <li>Leverage AI and machine learning in banking to transform operations and improve customer experiences.</li></ul>", 
-        "image":"src/assets/img/general images/LessonSummary.jpg"
-      },    
       {
         "order": 66,
         "title": "Knowledge Check",
@@ -613,6 +617,12 @@
       },
       {
         "order": 67,
+        "title": "Lesson Summary",
+        "body": "<h4>Congratulations on completing Lesson 2 of this module!</h4> <p>Now that you have completed this lesson, you should be able to:</p> <ul> <li>Learn how to improve operational efficiency, customer engagement, and effectiveness through the adoption of emerging tools.</li> <li>Apply various methodologies, including SWOT analysis, Porter's Five Forces, and PESTLE analysis, which help organizations assess their strategic position and external environment.</li> <li>Utilize information systems as organized frameworks for collecting, storing, managing, and processing data.</li> <li>Leverage AI and machine learning in banking to transform operations and improve customer experiences.</li></ul>", 
+        "image":"src/assets/img/general images/LessonSummary.jpg"
+      },    
+      {
+        "order": 68,
         "layout": "image righthand portion",
         "title": "Aligning Business Strategy to Technology Innovations/Trends Lessons",
         "subheader": "Crisis Management for Business Continuity",
@@ -620,7 +630,7 @@
         "image": "src/assets/img/aligning business strat/order67.jpg"
       },
       {
-        "order": 68,
+        "order": 69,
         "layout": "col-2",
         "title": "Overview of Crisis Management",
         "subheader": "Crisis Management",
@@ -628,7 +638,7 @@
         "col2": "<h4>Crisis Management</h4> <p>Crisis Management is a critical function for organizations across all sectors, as it directly impacts their ability to navigate and recover from disruptive events. Here are several key reasons highlighting the importance of crisis management:</p> <ul> <li>Minimizing Impact</li> <li>Protecting Stakeholders</li> <li>Maintaining Business COntinuity</li> <li>Enhancing Reputation and Trust</li> <li>Improving Decision-Making</li> <li>Learning and Improvement</li> </ul>"
       },
       {
-        "order": 69,
+        "order": 70,
         "layout": "image righthand portion",
         "title": "Overview of Crisis Management",
         "subheader": "Crisis Management",
@@ -636,7 +646,7 @@
         "image": "src/assets/img/aligning business strat/order69.jpg"
       },
       {
-        "order": 70,
+        "order": 71,
         "layout": "col-2",
         "title": "Overview of Crisis Management",
         "subheader": "Resilience with Technology",
@@ -644,19 +654,11 @@
         "col2": "<ul> <li><b>Stakeholder Confidence</b> - Demonstrating a proactive approach to crisis management through technology alignment can enhance stakeholder trust. Customers, investors, and employees are more likely to have confidence in a business that can navigate challenges effectively.</li> <li><b>Long-term Strategy</b> - Crises can reshape market dynamics and consumer behavior. Aligning business strategy with technology tools allows organizations to pivot and realign their long-term goals in response to these changes, ensuring sustained relevance and competitiveness.</li> </ul>"
       },
       {
-        "order": 71,
-        "layout": "image righthand portion",
-        "title": "Controls, Measures, and Frameworks",
-        "subheader": "Crisis Management Phases",
-        "body": "<h4>Pre-Crisis</h4> <p>The pre-crisis phase is characterized by proactive planning and preparation aimed at identifying and mitigating potential risks before they escalate into ‘full-blown’ crises. This phase is crucial for organizations during risk assessments, identifying vulnerabilities and potential threats that could impact operations, reputation, and stakeholder trust.</p>",
-        "image": "src/assets/img/aligning business strat/order71.jpg"
-      },
-      {
         "order": 72,
         "layout": "image righthand portion",
         "title": "Controls, Measures, and Frameworks",
         "subheader": "Crisis Management Phases",
-        "body": "<h4>Crisis Management Plan</h4> <p>A strategic framework designed to prepare an organization for potential crises and guide its response when a crisis occurs. The main goal of this plan is to minimize the impact of a crisis. The key components of a crisis management plan are:</p>",
+        "body": "<h4>Pre-Crisis</h4> <p>The pre-crisis phase is characterized by proactive planning and preparation aimed at identifying and mitigating potential risks before they escalate into ‘full-blown’ crises. This phase is crucial for organizations during risk assessments, identifying vulnerabilities and potential threats that could impact operations, reputation, and stakeholder trust.</p>",
         "image": "src/assets/img/aligning business strat/order72.jpg"
       },
       {
@@ -664,11 +666,19 @@
         "layout": "image righthand portion",
         "title": "Controls, Measures, and Frameworks",
         "subheader": "Crisis Management Phases",
-        "body": "<h4>During Crisis</h4> <p>During a crisis, leaders are expected to make quick and informed decisions to coordinate action plans, mitigate impact, and manage the overall situation. Providing timely and accurate information during a crisis essential given its evolving nature.</p>",
+        "body": "<h4>Crisis Management Plan</h4> <p>A strategic framework designed to prepare an organization for potential crises and guide its response when a crisis occurs. The main goal of this plan is to minimize the impact of a crisis. The key components of a crisis management plan are:</p>",
         "image": "src/assets/img/aligning business strat/order73.jpg"
-      }, 
+      },
       {
         "order": 74,
+        "layout": "image righthand portion",
+        "title": "Controls, Measures, and Frameworks",
+        "subheader": "Crisis Management Phases",
+        "body": "<h4>During Crisis</h4> <p>During a crisis, leaders are expected to make quick and informed decisions to coordinate action plans, mitigate impact, and manage the overall situation. Providing timely and accurate information during a crisis essential given its evolving nature.</p>",
+        "image": "src/assets/img/aligning business strat/order74.jpg"
+      }, 
+      {
+        "order": 75,
         "layout": "col-2",
         "title": "Controls, Measures, and Frameworks",
         "subheader": "Crisis Management Phases",
@@ -676,72 +686,63 @@
         "col2": "<h4>Decision-Making</h4> <ul> <li><b>Decide</b>: make a decision based on the analysis of facts, options, and risks by selecting the most appropriate course of action that aligns with the organization’s goals and values.</li> <li><b>Execute</b>: implement the chosen course of action; mobilize resources, assign responsibilities, and ensure that all team members understand in executing the decision.</li> <li><b>Check</b>: monitor the outcomes of the decision and assess its effectiveness.</li> </ul>"
       },
       {
-        "order": 75,
-        "layout": "image righthand portion",
-        "title": "Controls, Measures, and Frameworks",
-        "subheader": "Crisis Management Phases",
-        "body": "<h4>Post-Crisis</h4> <p>The post-crisis phase of crisis management refers to the period following a crisis event, during which organizations assess the impact of the crisis, implement recovery strategies, and engage in reflection and learning to improve future crisis response.</p>",
-        "image": "src/assets/img/aligning business strat/order75.jpg"
-      },
-      {
         "order": 76,
         "layout": "image righthand portion",
         "title": "Controls, Measures, and Frameworks",
         "subheader": "Crisis Management Phases",
-        "body": "<h4>Post-crisis activities should be carefully managed and include:</h4>",
+        "body": "<h4>Post-Crisis</h4> <p>The post-crisis phase of crisis management refers to the period following a crisis event, during which organizations assess the impact of the crisis, implement recovery strategies, and engage in reflection and learning to improve future crisis response.</p>",
         "image": "src/assets/img/aligning business strat/order76.jpg"
       },
       {
         "order": 77,
         "layout": "col-1",
-        "title": "Relevant BSP Guidelines",
-        "subheader": "BSP’s Guidelines on Operational Resilience",
-        "body": "<p>Operational resilience refers to an organization’s ability to anticipate, prepare for, respond to, and recover from disruptive events while maintaining essential functions and services. This needs to be integrated with an organization’s governance structures and other related risk management processes such as:</p> <ul> <li>Operational Risk Management</li> <li>Business Continuity Management</li> <li>Cybersecurity</li> <li>Third Party Risk Management</li> </ul>"
+        "title": "Controls, Measures, and Frameworks",
+        "subheader": "Crisis Management Phases",
+        "body": "<h4>Post-crisis activities should be carefully managed and include:</h4><img src='src/assets/img/aligning business strat/order77.jpg'/>"
       },
       {
         "order": 78,
         "layout": "col-1",
         "title": "Relevant BSP Guidelines",
         "subheader": "BSP’s Guidelines on Operational Resilience",
-        "body": "<h4>Key Elements of Operational Resilience</h4> <ul> <li>Utilize existing governance structure to establish, oversee, and implement an effective operational resilience approach.</li> <li>Determine critical operations, tolerance for disruption, and severe but plausible scenarios.</li> <li>Map interconnections and interdependencies.</li> <li>Plan and manage risks to critical operations.</li> <li>Test ability to deliver critical operations amidst disruption under severe but plausible scenarios.</li> <li>Respond and recover from disruption.</li> <li>Review, refine, and update risk management and operational resilience framework.</li>"
+        "body": "<p>Operational resilience refers to an organization’s ability to anticipate, prepare for, respond to, and recover from disruptive events while maintaining essential functions and services. This needs to be integrated with an organization’s governance structures and other related risk management processes such as:</p> <ul> <li>Operational Risk Management</li> <li>Business Continuity Management</li> <li>Cybersecurity</li> <li>Third Party Risk Management</li> </ul>"
       },
       {
         "order": 79,
-        "layout": "image righthand portion",
+        "layout": "col-1",
         "title": "Relevant BSP Guidelines",
-        "subheader": "BSP’s Guidelines on Business Continuity Management",
-        "body": "<p>The Philippines is highly vulnerable to natural disasters like typhoons, earthquakes, and floods, which can disrupt banking operations and affect community livelihoods. This highlights the importance of disaster recovery and business continuity planning for rural banks, emphasizing the need for a comprehensive business continuity management (BCM) process within their operational risk management system.</p> <ul> <li><b>1. Physical Emergency Response Plan</b> - a comprehensive strategy designed to prepare for, respond to, and recover from physical emergencies or disasters that may impact an organization</li> <li><b>2. Cybersecurity Incident Response Plan</b> - structured approach that can help in the preparation, detection, response, and recovery from data breaches, malware infections, denial-of-service attacks, insider threats, and other security breaches that can compromise the confidentiality, integrity, or availability of information systems and data</li> <li><b>3. Crisis Management Plan</b> - a documented plan detailing the actions to be taken when a crisis strikes, designed to maintain order amidst the confusion surrounding such situations</li> <li><b>4. Business Continuity Plan</b> - a detailed plan on the orderly and expeditious process of recovery, resumption, and restoration of business functions in the event of disruptions; it should cover and establish linkages among its multiple components, such as communication plan, crisis management plan, contingency funding plan, and technology recovery plan</li> <li><b>5. IT Disaster Recovery Plan</b> -  a plan detailing the technology strategy and requirements during recovery for business and support functions; appropriate and alternative personnel should be assigned with the responsibility technology recovery</li> <ul> <h4>Alternate and Recovery Sites</h4> <p>Recovery sites are preferably geographically separate from the primary site to facilitate the restoration of  essential systems and the resumption of operations following a disruption. Ideally, recovery sites should  operate on separate electrical power and telecommunication systems to ensure resilience against the same disaster.</p>",
-        "image":"src/assets/img/aligning business strat/order79.jpg"
+        "subheader": "BSP’s Guidelines on Operational Resilience",
+        "body": "<h4>Key Elements of Operational Resilience</h4> <ul> <li>Utilize existing governance structure to establish, oversee, and implement an effective operational resilience approach.</li> <li>Determine critical operations, tolerance for disruption, and severe but plausible scenarios.</li> <li>Map interconnections and interdependencies.</li> <li>Plan and manage risks to critical operations.</li> <li>Test ability to deliver critical operations amidst disruption under severe but plausible scenarios.</li> <li>Respond and recover from disruption.</li> <li>Review, refine, and update risk management and operational resilience framework.</li>"
       },
       {
         "order": 80,
-        "layout": "image righthand portion",
+        "layout": "col-1",
         "title": "Relevant BSP Guidelines",
         "subheader": "BSP’s Guidelines on Business Continuity Management",
-        "body": "<h4>Alternate and Recovery Sites</h4> <p> Recovery sites’ levels of preparedness</p>",
-        "image": "src/assets/img/aligning business strat/order80.jpg"
+        "body": "<p>The Philippines is highly vulnerable to natural disasters like typhoons, earthquakes, and floods, which can disrupt banking operations and affect community livelihoods. This highlights the importance of disaster recovery and business continuity planning for rural banks, emphasizing the need for a comprehensive business continuity management (BCM) process within their operational risk management system.</p> <ul> <li><b>1. Physical Emergency Response Plan</b> - a comprehensive strategy designed to prepare for, respond to, and recover from physical emergencies or disasters that may impact an organization</li> <li><b>2. Cybersecurity Incident Response Plan</b> - structured approach that can help in the preparation, detection, response, and recovery from data breaches, malware infections, denial-of-service attacks, insider threats, and other security breaches that can compromise the confidentiality, integrity, or availability of information systems and data</li> <li><b>3. Crisis Management Plan</b> - a documented plan detailing the actions to be taken when a crisis strikes, designed to maintain order amidst the confusion surrounding such situations</li> <li><b>4. Business Continuity Plan</b> - a detailed plan on the orderly and expeditious process of recovery, resumption, and restoration of business functions in the event of disruptions; it should cover and establish linkages among its multiple components, such as communication plan, crisis management plan, contingency funding plan, and technology recovery plan</li> <li><b>5. IT Disaster Recovery Plan</b> -  a plan detailing the technology strategy and requirements during recovery for business and support functions; appropriate and alternative personnel should be assigned with the responsibility technology recovery</li> <ul> <h4>Alternate and Recovery Sites</h4> <p>Recovery sites are preferably geographically separate from the primary site to facilitate the restoration of  essential systems and the resumption of operations following a disruption. Ideally, recovery sites should  operate on separate electrical power and telecommunication systems to ensure resilience against the same disaster.</p><img src='src/assets/img/aligning business strat/order80.jpg'/>"
       },
       {
         "order": 81,
         "layout": "image righthand portion",
         "title": "Relevant BSP Guidelines",
         "subheader": "BSP’s Guidelines on Business Continuity Management",
-        "body": "<h4>Speed of Recovery</h4> <p>it is contingent upon the criticality of business operations, the nature of services provided, and the availability of alternative processing methods to maintain adequate services levels for customers</p> <h4>Disaster Recovery Testing</h4> <p>it is a critical component of the business continuity planning process. It must encompass a variety of scenarios (e.g.  total shutdowns, inaccessibility of the primary data center, failures in the individual or cluster level, etc.) to ensure understanding of all components’ cohesiveness and structure</p> <h4>IT Systems Compatibility</h4> <p>it must ensure that the IT systems at the recovery sites are compatible with the primary systems to adequately support the critical business functions and are up to date with current version of systems and utilized software</p>",
+        "body": "<h4>Alternate and Recovery Sites</h4> <p> Recovery sites’ levels of preparedness</p>",
         "image": "src/assets/img/aligning business strat/order81.jpg"
       },
       {
         "order": 82,
+        "layout": "image righthand portion",
+        "title": "Relevant BSP Guidelines",
+        "subheader": "BSP’s Guidelines on Business Continuity Management",
+        "body": "<h4>Speed of Recovery</h4> <p>it is contingent upon the criticality of business operations, the nature of services provided, and the availability of alternative processing methods to maintain adequate services levels for customers</p> <h4>Disaster Recovery Testing</h4> <p>it is a critical component of the business continuity planning process. It must encompass a variety of scenarios (e.g.  total shutdowns, inaccessibility of the primary data center, failures in the individual or cluster level, etc.) to ensure understanding of all components’ cohesiveness and structure</p> <h4>IT Systems Compatibility</h4> <p>it must ensure that the IT systems at the recovery sites are compatible with the primary systems to adequately support the critical business functions and are up to date with current version of systems and utilized software</p>",
+        "image": "src/assets/img/aligning business strat/order82.jpg"
+      },
+      {
+        "order": 83,
         "layout": "col-1",
         "title": "Relevant BSP Guidelines",
         "subheader": "BSP’s Guidelines on Recovery Plan of Banks",
         "body": "<p>Recovery planning is essential for mitigating risks from a bank's distress or failure, safeguarding the financial system and economy. It is a key component of risk management, allowing banks to respond swiftly and effectively to financial stress, protecting depositors and promoting viability while maintaining shareholder value. Typically, recovery planning is integrated into the bank's standard risk management framework.</p> <h4>Key principles, terminologies, and overall considerations to develop, review, maintain, and implement a recovery plan</h4> <ul> <li>Governance Arrangements</li> <li>Critical Functions and Services</li> <li>Early Warning Indicators and Triggers</li> <li>Restoration Points</li> <li>Recovery Options</li> <li>Stress Scenarios</li> <li>Preparatory Measures</li> <li>Testing/Simulation Exercise</li> <li>Review and Updating of the Recovery Plan</li> <li>Communication Strategy</li> </ul>"
-      },
-      {
-        "order": 83,
-        "title": "Lesson Summary",
-        "subheader": "Congratulations on completing Lesson 3 of this module!",
-        "body": "<p>Now that you have completed this lesson, you should be able to:</p><ul> <li>Recognize that crisis management is a critical function for organizations across all sectors, as it directly impacts their ability to navigate and recover from disruptive events. </li> <li>Identify a crisis as an abnormal and unstable situation that threatens an organization or community.</li> <li>Understand that the phases of crisis management include pre-crisis, during crisis, and post-crisis.</li> <li>Develop a crisis management plan as a strategic framework designed to prepare an organization for potential crises and guide its response when a crisis occurs.</li> </ul>",
-        "image":"src/assets/img/general images/LessonSummary.jpg"
       },
       {
         "order": 84,
@@ -760,17 +761,24 @@
       {
         "order": 85,
         "title": "Lesson Summary",
+        "subheader": "Congratulations on completing Lesson 3 of this module!",
+        "body": "<p>Now that you have completed this lesson, you should be able to:</p><ul> <li>Recognize that crisis management is a critical function for organizations across all sectors, as it directly impacts their ability to navigate and recover from disruptive events. </li> <li>Identify a crisis as an abnormal and unstable situation that threatens an organization or community.</li> <li>Understand that the phases of crisis management include pre-crisis, during crisis, and post-crisis.</li> <li>Develop a crisis management plan as a strategic framework designed to prepare an organization for potential crises and guide its response when a crisis occurs.</li> </ul>",
+        "image":"src/assets/img/general images/LessonSummary.jpg"
+      },
+      {
+        "order": 86,
+        "title": "Lesson Summary",
         "body": "<h4>Congratulations on completing Lesson 3 of this course!</h4><p>Now that you have completed this course, you should be able to:</p><ul> <li>Recognize that crisis management is a critical function for organizations across all sectors, as it directly impacts their ability to navigate and recover from disruptive events. </li> <li>Identify a crisis as an abnormal and unstable situation that threatens an organization or community.</li> <li>Understand that the phases of crisis management include pre-crisis, during crisis, and post-crisis. </li><li>Develop a crisis management plan as a strategic framework designed to prepare an organization for potential crises and guide its response when a crisis occurs.</li> </ul>", 
         "image":"src/assets/img/general images/CourseSummary.jpg"
       },
       {
-        "order": 86,
+        "order": 87,
         "title": "Course Completion",
         "body": "<h4>Congratulations on completing the Aligning Business Strategy to Technology Innovations and Trends course!</h4><p>Now that you have completed this course, you should be able to:</p><ul> <li>Define the key components of a business strategy, including vision, mission, goals, and resource allocation, to establish a solid foundation for strategic alignment.</li> <li>Recognize the importance of aligning business strategies with technology innovations and evaluate the benefits of this alignment in enhancing operational efficiency and customer experience.</li> <li>Leverage emerging business enabling tools, such as information systems, AI, and GIS, to improve decision-making and enhance overall organizational effectiveness.</li> <li>Identify the critical role of crisis management in organizations and understand the phases of crisis management, including pre-crisis planning, crisis response, and post-crisis evaluation.</li> </ul>", 
         "image":"src/assets/img/general images/CourseCompletion.jpg"
       },
       {
-        "order": 87,
+        "order": 88,
         "title": "Module Post-Examination",
         "exams": [{
             "exam_id": 4,

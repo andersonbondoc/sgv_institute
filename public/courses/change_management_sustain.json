@@ -143,7 +143,7 @@
         "title": "Stakeholder Proficiency",
         "subheader": "Assessing Stakeholder Proficiency",
         "body": "<h4>Techniques for Assessing the Current Proficiency Levels of Stakeholders</h4> <p>Assessing stakeholders' current proficiency levels is crucial for effective change management. This evaluation identifies gaps in knowledge, skills, and engagement, enabling organizations to tailor their change strategies accordingly.</p>",
-        "image": "src/assets/img/change management/Sustain/PMFIDS_CM_order12.jpg"
+        "image": "src/assets/img/change management/Sustain/order12.jpg"
       },
       {
         "order": 13,
@@ -179,11 +179,10 @@
       },
       {
         "order": 16,
-        "layout": "image righthand portion",
+        "layout": "col-1",
         "title": "Adoption and Compliance",
         "subheader": "Understanding Adoption and Compliance",
-        "body": "<h4>Differences between Adoption and Compliance</h4> <p>The differences between adoption and compliance in the context of change management can be summarized as follows:</p>",
-        "image": "src/assets/img/change management/Sustain/order16.jpg"
+        "body": "<h4>Differences between Adoption and Compliance</h4> <p>The differences between adoption and compliance in the context of change management can be summarized as follows:</p><img src='src/assets/img/change management/Sustain/order16.jpg'/>"
       },
       {
         "order": 17,
@@ -212,7 +211,7 @@
         "layout": "col-1",
         "title": "Adoption and Compliance",
         "subheader": "Factors Influencing Adoption",
-        "body": "<h4>Addressing Barriers to Adoption</h4> <p>Addressing barriers to adoption is crucial for successful change management. Common barriers include resistance, lack of understanding, and fear of the unknown.</p> <img src='src/assets/img/change management/Sustain/order20.jpg'/> <p>By understanding the root causes of resistance, lack of understanding, and fear of the unknown, organizations can implement targeted strategies for a smoother transition. Fostering an environment of open communication, support, and involvement will enhance employee engagement and commitment to the change initiative, ultimately leading to successful adoption. a culture that values both engagement and adherence to standards, organizations can achieve their change objectives and drive long-term success.</p>"
+        "body": "<h4>Addressing Barriers to Adoption</h4> <p>Addressing barriers to adoption is crucial for successful change management. Common barriers include resistance, lack of understanding, and fear of the unknown.</p> <img src='src/assets/img/change management/Sustain/order20.jpg'/> <p>Understanding the root causes of resistance allows organizations to implement targeted strategies, fostering an environment of open communication, support, and involvement that enhances employee engagement and commitment, leading to successful change adoption.</p>"
       },
       {
         "order": 21,
@@ -241,7 +240,7 @@
         "layout": "col-1",
         "title": "Adoption and Compliance",
         "subheader": "Compliance Monitoring and Reporting",
-        "body": "<h4>Reporting Compliance Status to Stakeholders and Decision-Makers</h4> <p>Reporting compliance status to stakeholders and decision-makers is crucial for effective compliance management. Clear and transparent reporting ensures that all relevant parties are informed about compliance levels, potential risks, and areas for improvement.</p> <img src='src/assets/img/change management/Sustain/order24.jpg'/> <p>Reporting compliance status to stakeholders and decision-makers is vital for maintaining transparency, accountability, and informed decision-making within an organization. By developing a clear format, providing context and analysis, and including actionable recommendations, organizations can effectively communicate compliance status and foster a culture of compliance. This proactive approach enhances compliance management and supports overall organizational success.</p>"
+        "body": "<h4>Reporting Compliance Status to Stakeholders and Decision-Makers</h4> <p>Reporting compliance status to stakeholders and decision-makers is crucial for effective compliance management. Clear and transparent reporting ensures that all relevant parties are informed about compliance levels, potential risks, and areas for improvement.</p> <img src='src/assets/img/change management/Sustain/order24.jpg'/> <p>Reporting compliance status to stakeholders is vital for transparency and accountability, and when done effectively with clear formats, context, analysis, and recommendations, it fosters a culture of compliance and supports organizational success.</p>"
       },
       {
         "order": 25,
@@ -283,28 +282,28 @@
         "layout": "col-1",
         "title": "Adoption and Compliance",
         "subheader": "Continuous Improvement",
-        "body": "<h4>Regularly Reassessing Adoption and Compliance Levels and Addressing New Gaps</h4> <p>Regularly reassessing adoption and compliance levels is essential for ensuring that organizations remain aligned with their goals, regulatory requirements, and best practices. This ongoing evaluation helps identify new gaps, adapt to changes, and reinforce a culture of continuous improvement.</p> <img src='src/assets/img/change management/Sustain/order30.jpg/>"
+        "body": "<h4>Regularly Reassessing Adoption and Compliance Levels and Addressing New Gaps</h4> <p>Regularly reassessing adoption and compliance levels is essential for ensuring that organizations remain aligned with their goals, regulatory requirements, and best practices. This ongoing evaluation helps identify new gaps, adapt to changes, and reinforce a culture of continuous improvement.</p><img src='src/assets/img/change management/Sustain/order30.jpg'/>"
       },
       {
         "order": 31,
-        "layout": "col-1",
+        "layout": "image righthand portion",
         "title": "Tracking KPIs",
         "subheader": "How to effectively track identified KPIs",
-        "body": "src/assets/img/change management/Sustain/order31.jpg"
+        "image": "src/assets/img/change management/Sustain/order31.jpg"
       },
       {
         "order": 32,
-        "layout": "col-1",
+        "layout": "image righthand portion",
         "title": "Tracking KPIs",
         "subheader": "Setting Up your KPI Trackers",
-        "body": "src/assets/img/change management/Sustain/order32.jpg"
+        "image": "src/assets/img/change management/Sustain/order32.jpg"
       },
       {
         "order": 33,
-        "layout": "col-1",
+        "layout": "image righthand portion",
         "title": "Tracking KPIs",
         "subheader": "KPI Tracker Sample",
-        "body": "src/assets/img/change management/Sustain/order33.jpg"
+        "image": "src/assets/img/change management/Sustain/order33.jpg"
       },
       {
         "order": 34,
@@ -370,7 +369,7 @@
         "layout": "col-1",
         "title": "IT Risk Management Standards and Guidelines",
         "subheader": "Introduction to IT Risk Management",
-        "body": "<h4>Key Components and Terminology in IT Risk Management</h4> <img src='src/assets/img/change management/Sustain/PMFIDS_CM_order41.jpg'/>"
+        "body": "<h4>Key Components and Terminology in IT Risk Management</h4> <img src='src/assets/img/change management/Sustain/order41.jpg'/>"
       },
       {
         "order": 43, 
@@ -470,10 +469,10 @@
       },
       {
         "order": 55,
-        "layout": "col-2",
+        "layout": "col-1",
         "title": "Effective Crisis Management to Achieve Change Initiatives",
         "subheader": "The Role of Change Management in Crisis Situations",
-        "col1": "<h4>How Change Management Principles Apply during a Crisis</h4> <p>Change management principles are essential during a crisis, offering a structured approach to navigating the complexities and uncertainties that arise. Here’s a brief overview of how these principles apply:</p> <img src='src/assets/img/change management/Sustain/order55.jpg'/> <h4>The Importance of Being Prepared for Unexpected Changes</h4> <p>Being prepared for unexpected changes is essential for organizations to maintain resilience and adaptability in an ever-evolving environment.</p> <img src='src/assets/img/change management/Sustain/order55_1.jpg'/>"
+        "body": "<h4>How Change Management Principles Apply during a Crisis</h4> <p>Change management principles are essential during a crisis, offering a structured approach to navigating the complexities and uncertainties that arise. Here’s a brief overview of how these principles apply:</p> <img src='src/assets/img/change management/Sustain/order55.jpg'/> <h4>The Importance of Being Prepared for Unexpected Changes</h4> <p>Being prepared for unexpected changes is essential for organizations to maintain resilience and adaptability in an ever-evolving environment.</p> <img src='src/assets/img/change management/Sustain/order55_1.jpg'/>"
       },
       {
         "order": 56,
@@ -487,7 +486,7 @@
         "layout": "image righthand portion",
         "title": "Effective Crisis Management to Achieve Change Initiatives",
         "subheader": "Sample Case Study",
-        "body": "<h4>Financial and IT Crisis Management of RCBC</h4> <p>In February 2016, a big financial and IT crisis happened when hackers attempted to steal nearly $1 billion from the Bangladesh Bank’s account at the Federal Reserve bank of New York. Part of the larger Bangladesh Bank cyber heist, resulted in the successful laundering of $81 million through the Philippines, primarily deposited into four fictitious accounts at Rizal Commercial Banking Corporation (RCBC).</p>In response to the crisis, Bangladesh Bank initially filed lawsuits against RCBC, alleging complicity in the heist. RCBC denied these claims but faced regulatory repercussions, including a nearly $53 million fine from the Banko Sentral ng Pilipinas in relation to the cyber heist and for failing to comply with banking regulations.</p> <p>Considering this issue and to make sure that the Bank would not experience the same crisis, they have officially created and implemented a comprehensive crisis management and business continuity plan:</p>",
+        "body": "<h4>Financial and IT Crisis Management of RCBC</h4> <p>In February 2016, a big financial and IT crisis happened when hackers attempted to steal nearly $1 billion from the Bangladesh Bank’s account at the Federal Reserve bank of New York. Part of the larger Bangladesh Bank cyber heist, resulted in the successful laundering of $81 million through the Philippines, primarily deposited into four fictitious accounts at Rizal Commercial Banking Corporation (RCBC).</p>In response to the crisis, Bangladesh Bank initially filed lawsuits against RCBC, alleging complicity in the heist. RCBC denied these claims but faced regulatory repercussions, including a nearly $53 million fine from the Banko Sentral ng Pilipinas in relation to the cyber heist and for failing to comply with banking regulations.</p>",
         "image": "src/assets/img/change management/Sustain/order57.jpg"
       },
       {
@@ -495,7 +494,7 @@
         "layout": "col-2",
         "title": "Effective Crisis Management to Achieve Change Initiatives",
         "subheader": "Sample Case Study",
-        "col1": "<h4>Financial and IT Crisis Management of RCBC</h4> <p>1. RCBC recognized the urgent need to strengthen its operational resilience. To safeguard its stakeholders and restore trust, the bank has developed its business continuity initiative using the BS25999:2007 model, which emphasizes comprehensive risk management and recovery strategies.</p><img src='src/assets/img/change management/Sustain/order58_1.jpg'/>",
+        "col1": "<h4>Financial and IT Crisis Management of RCBC</h4> <p>Considering this issue and to make sure that the Bank would not experience the same crisis, they have officially created and implemented a comprehensive crisis management and business continuity plan:</p> <p>1. RCBC recognized the urgent need to strengthen its operational resilience. To safeguard its stakeholders and restore trust, the bank has developed its business continuity initiative using the BS25999:2007 model, which emphasizes comprehensive risk management and recovery strategies.</p><img src='src/assets/img/change management/Sustain/order58_1.jpg'/>",
         "col2": "<p>2. In response to the fallout from the RCBC money laundering issue, the bank’s executive management took the decisive action by leading the development of a new crisis management plan. This initiative was crucial for addressing the vulnerabilities exposed during the cyber heist and aimed to enhance the bank's ability to respond swiftly to similar threats in the future.</p> <img src='src/assets/img/change management/Sustain/order58_2.jpg'/>"
       },
       {
@@ -649,13 +648,13 @@
       {
         "order": 79,
         "title": "Module Summary",
-        "body": "<p>Now that you have completed this module, you should be able to</p> <ul> <li>Understand that Sustain Change focuses on the critical importance of maintaining new behaviors, processes, and practices over the long term within an organization. This phase of change management is essential for ensuring that the changes implemented are not merely temporary but become ingrained in the organization's culture and operations.</li> <li>Realize that performance reviews play a vital role in this phase, serving as systematic evaluations of employee performance, behavior, and contributions during periods of change. These reviews help assess how well employees adapt to new processes and establish accountability for individual and team performance.</li> <li>Recognize that continuous monitoring mechanisms are crucial for evaluating adherence to new policies and procedures, allowing organizations to adapt and evolve based on feedback and changing circumstances. </li> </ul>",
+        "body": "<p>Now that you have completed this module, you should be able to:</p> <ul> <li>Understand that Sustain Change focuses on the critical importance of maintaining new behaviors, processes, and practices over the long term within an organization. This phase of change management is essential for ensuring that the changes implemented are not merely temporary but become ingrained in the organization's culture and operations.</li> <li>Realize that performance reviews play a vital role in this phase, serving as systematic evaluations of employee performance, behavior, and contributions during periods of change. These reviews help assess how well employees adapt to new processes and establish accountability for individual and team performance.</li> <li>Recognize that continuous monitoring mechanisms are crucial for evaluating adherence to new policies and procedures, allowing organizations to adapt and evolve based on feedback and changing circumstances. </li> </ul>",
         "image": "src/assets/img/general images/ModuleSummary.jpg"
       },
       {
         "order": 80,
         "title": "Module Completion",
-        "body": "<h4>Congratulations on completing the Sustain Change module!</h4> <p>You've now gained a solid understanding of the essential terms and concepts for change management fundamentals.</p><p>As you move forward, remember that the principles and strategies you've learned here are vital tools for ensuring the  health and success of any project or organization. By applying these techniques, you'll be better equipped to make informed decisions</p><p>We hope this module has empowered you with the knowledge and confidence to tackle any challenge that comes your way. Keep honing your skills, stay diligent in your planning, and continue to strive for excellence in managing change.</p>",
+        "body": "<h4>Congratulations on completing the Sustain Change module!</h4> <p>You've now gained a solid understanding of the essential terms and concepts for change management fundamentals.</p><p>As you move forward, remember that the principles and strategies you've learned here are vital tools for ensuring the  health and success of any project or organization. By applying these techniques, you'll be better equipped to make informed decisions.</p><p>We hope this module has empowered you with the knowledge and confidence to tackle any challenge that comes your way. Keep honing your skills, stay diligent in your planning, and continue to strive for excellence in managing change.</p>",
         "image": "src/assets/img/general images/ModuleCompletion.jpg"
       },
       {

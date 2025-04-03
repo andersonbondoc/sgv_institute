@@ -70,7 +70,7 @@
       {
         "order": 3,
         "title": "Module Credit and Completion Requirements and Learning Objective",
-        "body": "<h2>Credit and Completion Requirements</h2> <p>To successfully earn credit and meet the learning objectives of this Web-Based Learning Application, it is essential to engage with every page, complete all knowledge checks, and complete the initial and final assessment independently. The assessment will require a <b>70% passing rate</b> and while you are encouraged to refer to your notes of the course content during the assessment, any form of cheating is discouraged. Please also note that this course will expire by <b>April 25, 2025.</b></p> <h2>Module Learning Objectives</h2> <p>Upon successful completion of the course, you will be able to:</p> <ul> <li>Demonstrate the essential skills and knowledge required to effectively serve as Change Managers on projects.</li> <li>Understand key change management concepts, theories, and frameworks, with a focus on the human side of change.</li> <li>Understand the process of managing change.</li> <li>Gain knowledge on how to manage a change management plan.</li> <li>Learn how to implement effective strategies and communication to ensure smoother transitions, enhance employee engagement, and achieve desired outcomes.</li> </ul>",
+        "body": "<h4>Credit and Completion Requirements</h4> <p>To successfully earn credit and meet the learning objectives of this Web-Based Learning Application, it is essential to engage with every page, complete all knowledge checks, and complete the initial and final assessment independently. The assessment will require a <b>70% passing rate</b> and while you are encouraged to refer to your notes of the course content during the assessment, any form of cheating is discouraged. Please also note that this course will expire by <b>April 25, 2025.</b></p> <h4>Module Learning Objectives</h4> <p>Upon successful completion of the course, you will be able to:</p> <ul> <li>Demonstrate the essential skills and knowledge required to effectively serve as Change Managers on projects.</li> <li>Understand key change management concepts, theories, and frameworks, with a focus on the human side of change.</li> <li>Understand the process of managing change.</li> <li>Gain knowledge on how to manage a change management plan.</li> <li>Learn how to implement effective strategies and communication to ensure smoother transitions, enhance employee engagement, and achieve desired outcomes.</li> </ul>",
         "image": "src/assets/img/general images/CreditCompletionLearningObjectives.jpg"
       },
       {
@@ -243,7 +243,7 @@
         "layout": "col-1",
         "title": "Communication and Engagement",
         "subheader": "How to develop a communications calendar",
-        "body": "<p>A communications calendar helps to keep stakeholders informed, engaged, and aligned with the change initiatives, reducing uncertainty and resistance. Additionally, a communications calendar allows better coordination of messaging, enabling organizations to anticipate and address potential issues proactively to all stakeholders involved.</p> <p>Communications calendar: It will be maintained by the PMO, the methods (media) that will be used to deliver these communications, the frequency of these communications, the targeted audience and the person with responsibility for creating and delivering these communications will be outlined under the calendar.</p>"
+        "body": "<p>A communications calendar helps to keep stakeholders informed, engaged, and aligned with the change initiatives, reducing uncertainty and resistance. Additionally, a communications calendar allows better coordination of messaging, enabling organizations to anticipate and address potential issues proactively to all stakeholders involved.</p> <p><b>Communications calendar</b>: It will be maintained by the PMO, the methods (media) that will be used to deliver these communications, the frequency of these communications, the targeted audience and the person with responsibility for creating and delivering these communications will be outlined under the calendar.</p><img src='src/assets/img/change management/Manage/order23.jpg'/>"
       },
       {
         "order": 24,
@@ -256,7 +256,7 @@
       {
         "order": 25,
         "title": "Lesson Summary",
-        "body": "<h2>Congratulations on completing Lesson 2 of this module!</h2> <p>Now that you have completed this lesson, you should be able to:</p> <ul> <li>Define what is employee engagement;</li> <li>How to drive employee engagement with Change Management;</li> <li>How to communicate the change;and</li> <li>Create a communications plan</li> </ul>",
+        "body": "<h4>Congratulations on completing Lesson 2 of this module!</h4> <p>Now that you have completed this lesson, you should be able to:</p> <ul> <li>Define what is employee engagement;</li> <li>How to drive employee engagement with Change Management;</li> <li>How to communicate the change;and</li> <li>Create a communications plan</li> </ul>",
         "image": "src/assets/img/general images/LessonSummary.jpg"
       },
       {
@@ -322,7 +322,7 @@
       {
         "order": 33,
         "title": "Lesson Summary",
-        "body": "<h2>Congratulations on completing Lesson 3 of this module!</h2> <p>Now that you have completed this lesson, you should be able to:</p> <ul> <li>Understand the change management facilitation; and</li> <li>How to design change management workshops</li> </ul>",
+        "body": "<h4>Congratulations on completing Lesson 3 of this module!</h4> <p>Now that you have completed this lesson, you should be able to:</p> <ul> <li>Understand the change management facilitation; and</li> <li>How to design change management workshops</li> </ul>",
         "image": "src/assets/img/general images/LessonSummary.jpg"
       },
       {
@@ -335,7 +335,7 @@
       {
         "order": 35,
         "title": "Module Completion",
-        "body": "<h2>Congratulations on completing the Manage Change module!</h2> <p>You've now gained a solid understanding of the essential terms and concepts for change management fundamentals.</p><p>As you move forward, remember that the principles and strategies you've learned here are vital tools for ensuring the  health and success of any project or organization. By applying these techniques, you'll be better equipped to make informed decisions</p><p>We hope this module has empowered you with the knowledge and confidence to tackle any challenge that comes your way. Keep honing your skills, stay diligent in your planning, and continue to strive for excellence in managing change.</p>",
+        "body": "<h4>Congratulations on completing the Manage Change module!</h4> <p>You've now gained a solid understanding of the essential terms and concepts for change management fundamentals.</p><p>As you move forward, remember that the principles and strategies you've learned here are vital tools for ensuring the  health and success of any project or organization. By applying these techniques, you'll be better equipped to make informed decisions.</p><p>We hope this module has empowered you with the knowledge and confidence to tackle any challenge that comes your way. Keep honing your skills, stay diligent in your planning, and continue to strive for excellence in managing change.</p>",
         "image": "src/assets/img/general images/ModuleCompletion.jpg"
       },
       {

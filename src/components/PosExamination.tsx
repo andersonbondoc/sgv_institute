@@ -4,7 +4,7 @@ import { chevronBack, chevronForward, trophyOutline } from "ionicons/icons";
 import { IonIcon } from "@ionic/react";
 interface PreExamPageProps {
   sections: any;
-  handleFinishQuestionButton: () => void;
+  handleFinishQuestionButton: (score: any) => void;
 }
 
 const PostExamPage: React.FC<PreExamPageProps> = ({
@@ -132,7 +132,7 @@ const PostExamPage: React.FC<PreExamPageProps> = ({
   };
 
   const handleClose = () => {
-    handleFinishQuestionButton();
+    handleFinishQuestionButton(score);
     setShowResult(false);
   };
   return (

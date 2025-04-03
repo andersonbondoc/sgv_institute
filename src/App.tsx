@@ -49,6 +49,7 @@ import { useEffect, useState } from "react";
 setupIonicReact();
 
 const App: React.FC = () => {
+  const [isLogin, setIsLogin] = useState(!!localStorage.getItem("user"));
   const [paletteToggle, setPaletteToggle] = useState(
     localStorage.getItem("darkMode") === "true"
   );
@@ -94,6 +95,7 @@ const App: React.FC = () => {
     };
   }, []);
 
+  console.log("isLogin: ", isLogin);
   return (
     <div>
       <IonApp className="mb-20">
@@ -142,19 +144,19 @@ const App: React.FC = () => {
           <BookOpenIcon className="h-6 w-6" />
           <span>Courses</span>
         </a>
-
-        <a
-          href="/profile"
-          className={`flex flex-col items-center mr-[100px] ${
-            window.location.pathname === "/profile"
-              ? "text-blue-500 font-bold"
-              : ""
-          }`}
-        >
-          <UserIcon className="h-6 w-6" />
-          <span>Profile</span>
-        </a>
-
+        {isLogin && (
+          <a
+            href="/profile"
+            className={`flex flex-col items-center mr-[100px] ${
+              window.location.pathname === "/profile"
+                ? "text-blue-500 font-bold"
+                : ""
+            }`}
+          >
+            <UserIcon className="h-6 w-6" />
+            <span>Profile</span>
+          </a>
+        )}
         <button onClick={toggleChange} className="flex flex-col items-center">
           {paletteToggle ? (
             <>

@@ -313,7 +313,7 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
   const isExam =
     currentSection?.title === "Module Pre-Examination" ||
     currentSection?.title === "Module Post-Examination";
-  const handleFinishModule = async () => {
+  const handleFinishModule = async (score: any) => {
     const examModule = sections.find(
       (section) => section.title === currentSection?.title
     );
@@ -335,7 +335,7 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
     const user = JSON.parse(storedUser);
     const userId = user.userid;
 
-    const examScoreStr = localStorage.getItem("examScore") || "0";
+    const examScoreStr = score || "0";
     const examScore = parseInt(examScoreStr, 10);
     const percentage = ((examScore / totalQuestion) * 100).toFixed(2);
     if (currentSectionIndex === sections.length - 1) {
@@ -346,6 +346,7 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
       examTitle,
       userId,
       examId,
+      score,
       totalQuestion,
       parseFloat(percentage),
       moduleId
@@ -367,7 +368,7 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
             console.error("Error updating module end_module timestamp:", error);
           }
         }
-        onBackToModules();
+        //onBackToModules();
       }
       // onBackToModules();
     }
@@ -639,10 +640,20 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
                 </button>
                 {!nextButtonEnabled && (
                   <div className="mt-2 w-full text-center">
-                    <p className="text-sm text-gray-500">
-                      The next page is available in {countdown} second
-                      {countdown !== 1 && "s"}
-                    </p>
+                    {currentSection.title === "Knowledge Check" ? (
+                      <p className="text-sm text-gray-500">
+                        The next page is available in{" "}
+                        {Math.floor(countdown / 60)} minute
+                        {Math.floor(countdown / 60) !== 1 && "s"}{" "}
+                        {countdown % 60} second{countdown % 60 !== 1 && "s"}
+                      </p>
+                    ) : (
+                      <p className="text-sm text-gray-500">
+                        The next page is available in {countdown} second
+                        {countdown !== 1 && "s"}
+                      </p>
+                    )}
+
                     <IonProgressBar
                       value={(10 - countdown) / 10}
                       color="medium"
