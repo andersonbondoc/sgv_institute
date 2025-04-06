@@ -17,7 +17,7 @@ const PostExamPage: React.FC<PreExamPageProps> = ({
   const [score, setScore] = useState(0);
   const [totalQuestion, setTotalQuestion] = useState(0);
   const [showResult, setShowResult] = useState(false);
-
+  const [retryCount, setRetryCount] = useState(0);
   useEffect(() => {
     const sectionsArray = Array.isArray(sections) ? sections : [sections];
     if (sectionsArray.length > 0) {
@@ -125,6 +125,7 @@ const PostExamPage: React.FC<PreExamPageProps> = ({
   };
 
   const handleRetryExam = () => {
+    setRetryCount((prev) => prev + 1);
     setScore(0);
     setCurrentQuestionIndex(0);
     setSelectedAnswer([]);
@@ -133,6 +134,7 @@ const PostExamPage: React.FC<PreExamPageProps> = ({
 
   const handleClose = () => {
     handleFinishQuestionButton(score);
+    setRetryCount(0);
     setShowResult(false);
   };
   return (
@@ -231,11 +233,12 @@ const PostExamPage: React.FC<PreExamPageProps> = ({
       {showResult && (
         <ExamResultCard
           show={showResult}
-          onClose={() => handleClose()}
+          onClose={handleClose}
           score={score}
           totalQuestion={totalQuestion}
           title="Post-Examination"
           onRetry={handleRetryExam}
+          retryCount={retryCount}
         />
       )}
     </div>
