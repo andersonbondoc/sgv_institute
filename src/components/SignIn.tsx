@@ -10,6 +10,7 @@ import {
   getUserByEmail,
   getUserByEmailAndPassword,
 } from "../queries/userQueries";
+import PrivacyModal from "./PrivacyComponent";
 
 interface SignInModalProps {
   onClose: () => void;
@@ -25,7 +26,10 @@ const SignInModal: React.FC<SignInModalProps> = ({
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [isEmailValid, setIsEmailValid] = useState<boolean | null>(null);
+  const [showPrivacyModal, setShowPrivacyModal] = useState(false);
+  const [hasAcceptedPolicy, setHasAcceptedPolicy] = useState(false);
 
+  const [isAccepted, setIsAccepted] = useState(false);
   const validateEmail = async () => {
     const { exists, error } = await getUserByEmail(email);
     console.log("exists: ", exists);
@@ -55,18 +59,34 @@ const SignInModal: React.FC<SignInModalProps> = ({
       );
       if (success) {
         successToast("Login successfully", 2000);
+        const hasUserCheckedPrivacyContent = user.hasAcceptedPrivacy;
+        setShowPrivacyModal(!hasUserCheckedPrivacyContent);
         localStorage.setItem("user", JSON.stringify(user));
-        setTimeout(() => {
-          window.location.reload();
-        }, 1000);
       } else {
         errorToast("Error", 3000);
       }
     }
   };
+  const handleAccept = () => {
+    setShowPrivacyModal(false);
+    setTimeout(() => {
+      window.location.reload();
+    }, 1000);
+  };
 
+  const handleClose = () => {
+    setShowPrivacyModal(false);
+  };
   return (
     <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
+      {showPrivacyModal && (
+        <PrivacyModal
+          onAccept={handleAccept}
+          onClose={handleClose}
+          isAccepted={isAccepted}
+          setIsAccepted={setIsAccepted}
+        />
+      )}
       <IonCard className="bg-white dark:bg-gray-800 p-8 rounded-xl shadow-2xl w-96 text-center relative">
         {/* Close Button */}
         <button

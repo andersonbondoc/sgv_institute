@@ -23,6 +23,7 @@ import {
 import { ToastError, ToastSuccess } from "../components/Toast";
 import { supabase } from "../queries/supabaseClient";
 import SignInModal from "../components/SignIn";
+import PrivacyModal from "../components/PrivacyComponent";
 
 const LandingPage: React.FC = () => {
   const history = useHistory();
@@ -39,6 +40,10 @@ const LandingPage: React.FC = () => {
 
   const [isEmailValid, setIsEmailValid] = useState(false);
 
+  const [showPrivacyModal, setShowPrivacyModal] = useState(false);
+  const [hasAcceptedPolicy, setHasAcceptedPolicy] = useState(false);
+
+  const [isAccepted, setIsAccepted] = useState(false);
   useEffect(() => {
     setEmail("");
     setPassword("");
@@ -46,6 +51,13 @@ const LandingPage: React.FC = () => {
 
   const handleTakeCourse = (courseId: string) => {
     const isLogin = localStorage.getItem("user");
+    if (!isLogin) {
+      console.error("User not found");
+      return;
+    }
+    const user = JSON.parse(isLogin);
+    const hasUserCheckedPrivacyContent = user.hasAcceptedPrivacy;
+    setShowPrivacyModal(!hasUserCheckedPrivacyContent);
     if (isLogin) {
       history.push(`/course/${courseId}`);
     } else {
@@ -89,7 +101,6 @@ const LandingPage: React.FC = () => {
     }, timeout);
   };
 
-  // Toast error function
   const errorToast = (message: string, timeout: number) => {
     setErrorMessage(message);
     setShowErrorMessage(true);
@@ -113,6 +124,13 @@ const LandingPage: React.FC = () => {
     setIsCardOpen(true);
   };
 
+  const handleAccept = () => {
+    setShowPrivacyModal(false);
+  };
+
+  const handleClose = () => {
+    setShowPrivacyModal(false);
+  };
   return (
     <IonPage>
       <IonContent className="p-6 bg-gradient-to-b from-purple-50 via-pink-50 to-white relative">
@@ -123,6 +141,14 @@ const LandingPage: React.FC = () => {
             onClose={() => setIsCardOpen(false)}
             successToast={successToast}
             errorToast={errorToast}
+          />
+        )}
+        {showPrivacyModal && (
+          <PrivacyModal
+            onAccept={handleAccept}
+            onClose={handleClose}
+            isAccepted={isAccepted}
+            setIsAccepted={setIsAccepted}
           />
         )}
         <div className="flex flex-col items-center space-y-4 pt-8 p-4">
@@ -136,8 +162,8 @@ const LandingPage: React.FC = () => {
             </div>
             <h2 className="text-3xl font-bold">SGV FSO Academy</h2>
             <p>
-              SGV FSO Academy offers a variety of courses to elevate your
-              skills and knowledge.{" "}
+              SGV FSO Academy offers a variety of courses to elevate your skills
+              and knowledge.{" "}
             </p>
           </div>
 
@@ -191,8 +217,12 @@ const LandingPage: React.FC = () => {
                       />
                     </div>
                     <div className="flex-1">
-                      <h4 className="text-lg font-medium text-yellow-600">{course.title}</h4>
-                      <p className="text-sm text-gray-600">{course.description}</p>
+                      <h4 className="text-lg font-medium text-yellow-600">
+                        {course.title}
+                      </h4>
+                      <p className="text-sm text-gray-600">
+                        {course.description}
+                      </p>
                     </div>
                   </div>
                   <div className="mt-8 mb-2 flex justify-between items-center">
@@ -213,12 +243,12 @@ const LandingPage: React.FC = () => {
           </div>
           <div className="footer">
             <div className="flex">
-                <div>
-                  © 2025 SGV FSO All rights reserved.
-                </div>
-                <div className="ml-2">
-                   <a href="#"><u>Privacy Policy</u></a>
-                </div>
+              <div>© 2025 SGV FSO All rights reserved.</div>
+              <div className="ml-2">
+                <a onClick={() => setShowPrivacyModal(true)}>
+                  <u>Privacy Policy</u>
+                </a>
+              </div>
             </div>
           </div>
         </div>

@@ -193,7 +193,7 @@ const PostExamPage: React.FC<PreExamPageProps> = ({
 
             <div className="mt-8 flex justify-between">
               {/* Placeholder for consistent positioning */}
-              <div className="w-36">
+              {/* <div className="w-36">
                 {currentQuestionIndex !== 0 && (
                   <button
                     onClick={handlePreviousQuestion}
@@ -204,7 +204,7 @@ const PostExamPage: React.FC<PreExamPageProps> = ({
                     Previous
                   </button>
                 )}
-              </div>
+              </div> */}
 
               <button
                 onClick={
