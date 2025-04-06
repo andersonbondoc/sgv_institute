@@ -18,6 +18,10 @@ const PostExamPage: React.FC<PreExamPageProps> = ({
   const [totalQuestion, setTotalQuestion] = useState(0);
   const [showResult, setShowResult] = useState(false);
   const [retryCount, setRetryCount] = useState(0);
+  const [userAnswers, setUserAnswers] = useState<(string[] | null)[]>(
+    Array(preExamQuestions.length).fill(null)
+  );
+
   useEffect(() => {
     const sectionsArray = Array.isArray(sections) ? sections : [sections];
     if (sectionsArray.length > 0) {
@@ -97,6 +101,7 @@ const PostExamPage: React.FC<PreExamPageProps> = ({
   const handlePreviousQuestion = () => {
     if (currentQuestionIndex > 0) {
       setSelectedAnswer([]);
+      setScore((prev) => prev - 1);
       setCurrentQuestionIndex(currentQuestionIndex - 1);
     }
   };

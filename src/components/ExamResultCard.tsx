@@ -33,7 +33,7 @@ const ExamResultCard: React.FC<ExamResultCardProps> = ({
   localStorage.setItem("examScore", score.toString());
   const resultMessage = passed
     ? "Congratulations for passing this course examination! 🥳🥳🥳"
-    : "Unfortunately, you did not pass the course examination.";
+    : `Unfortunately, you did not pass the ${title} examination.`;
 
   return (
     <div className="fixed inset-0 flex items-center justify-center z-50">
