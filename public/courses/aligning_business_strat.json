@@ -20,16 +20,16 @@
             "title": "Module Pre-Examination",
             "body": "This assessment is designed to test your knowledge. Results of this  assessment will be used to structure the workshop.",
             "questions": [{
-                  "q_number": 1,
-                  "q_statement": "A financial institution, TrustBank, is preparing for potential crises by conducting risk assessments and developing a crisis management plan.Question: What is a critical component of TrustBank's crisis management plan?",
-                  "q_field_type": "single_select" ,
-                  "q_selection": [{
-                        "A": "Crisis Definition and Scope",
-                        "B": "Reducing the number of employees.",
-                        "C": "Ignoring external factors.",
-                        "D": "Limiting customer communication"
-                      }],
-                  "q_answer": "A"
+                "q_number": 1,
+                "q_statement": "A financial institution, TrustBank, is preparing for potential crises by conducting risk assessments and developing a crisis management plan. Question: What is a critical component of TrustBank's crisis management plan?",
+                "q_field_type": "single_select" ,
+                "q_selection": [{
+                      "A": "Crisis Definition and Scope",
+                      "B": "Reducing the number of employees.",
+                      "C": "Ignoring external factors.",
+                      "D": "Limiting customer communication"
+                    }],
+                "q_answer": "A"
             },
             {
                   "q_number": 2,
@@ -131,7 +131,7 @@
         "layout": "col-2",
         "title": "Business Strategies",
         "subheader": "Key Components of a Business Strategy",
-        "col1": "<h4>Vision and Mission</h4> <ul> <li>A clear statement of the organization’s purpose and long-term aspirations, guiding its direction and decision-making.</li> </ul> <h4>Goals and Objectives</h4> <ul> <li>Specific, measurable,achievable, relevant, and time-bound (SMART) targets the organization aims to achieve.</li> </ul> <h4>Market Analysis</h4> <ul> <li>An assessment of the industry landscape, including market trends, customer needs, and competitive dynamics, to identify opportunities and threats.</li> </ul> <h4>Resource Allocation</h4> <ul> <li>A plan for how resources (financial, human, technological, etc.) will be allocated to support strategic initiatives and achieve goals.</li> </ul> <h4>Target Audience</h4> <ul> <li>Identification of the specific customer segments the organization aims to serve, including their preferences and behaviors.</li> </ul>",
+        "col1": "<h4>Vision and Mission</h4> <ul> <li>A clear statement of the organization’s purpose and long-term aspirations, guiding its direction and decision-making.</li> </ul> <h4>Goals and Objectives</h4> <ul> <li>Specific, measurable, achievable, relevant, and time-bound (SMART) targets the organization aims to achieve.</li> </ul> <h4>Market Analysis</h4> <ul> <li>An assessment of the industry landscape, including market trends, customer needs, and competitive dynamics, to identify opportunities and threats.</li> </ul> <h4>Resource Allocation</h4> <ul> <li>A plan for how resources (financial, human, technological, etc.) will be allocated to support strategic initiatives and achieve goals.</li> </ul> <h4>Target Audience</h4> <ul> <li>Identification of the specific customer segments the organization aims to serve, including their preferences and behaviors.</li> </ul>",
         "col2": "<h4>Implementation Plan</h4> <ul> <li>A detailed outline of the actions, timelines, and responsibilities required to execute the strategy effectively.</li> </ul> <h4>Performance Metrics</h4> <ul> <li>Key performance indicators (KPIs) that will be used to measure progress and success, allowing for ongoing evaluation and adjustment of the strategy.</li> </ul> <h4>Risk Management</h4> <ul> <li>An assessment of potential risks and challenges, along with strategies to mitigate them, ensuring the organization is prepared for uncertainties. </li> </ul> <h4>Continuous Improvement</h4> <ul> <li>A commitment to regularly review and refine the strategy based on performance data, market changes, and stakeholder feedback to ensure ongoing relevance and effectiveness.</li> </ul> <h4>Value Proposition</h4> <ul> <li>The unique benefits and value that the organization offers to its customers, differentiating it from competitors.</li> </ul>"
       },
       {
@@ -414,7 +414,7 @@
         "layout":"col-1",
         "title":"Case Study: G Bank",
         "subheader":"Roadmap Visualization",
-        "body":"<img src='src/assets/img/aligning business strat/order41.jpg'/> <p>A Gantt chart is useful for creating roadmaps for several reasons:</p> <ul> <li>Provides a clear visual representation of the project timeline, making it easy to see durations of tasks and how they overlap</li> <li>Allows project managers to track progress against the planned timeline.</li> <li>Serves as an excellent communication tool among stakeholders</li> <li>Highlights key milestones in the project, helping teams focus on important deadlines and deliverables.</li> </ul>"    
+        "body":"<img src='src/assets/img/aligning business strat/order41.jpg'> <p>A Gantt chart is useful for creating roadmaps for several reasons:</p> <ul> <li>Provides a clear visual representation of the project timeline, making it easy to see durations of tasks and how they overlap.</li> <li>Allows project managers to track progress against the planned timeline.</li> <li>Serves as an excellent communication tool among stakeholders.</li> <li>Highlights key milestones in the project, helping teams focus on important deadlines and deliverables.</li> </ul>"
       },
       {
         "order": 42,
@@ -428,7 +428,7 @@
         "layout": "col-2",
         "title": "Methodologies and Tools",
         "subheader": "Emerging Methods",
-        "col1": "<p><b>MoSCoW Technique…</b></p> <ul> <li>is a prioritization technique used to reach a common understanding with stakeholders on the relative importance they place on the delivery of each requirement</li> <li>is used to prioritize requirements and deliver the most essential and urgent business needs early</li> <li>is usually used in business analysis, project management, and software development.</li> </ul>",
+        "col1": "<p><b>MoSCoW Technique…</b></p> <ul> <li>is a prioritization technique used to reach a common understanding with stakeholders on the relative importance they place on the delivery of each requirement.</li> <li>is used to prioritize requirements and deliver the most essential and urgent business needs early.</li> <li>is usually used in business analysis, project management, and software development.</li> </ul>",
         "col2": "<ul> <li><b>Must Have</b> - Critical requirements that are non-negotiable for the project or strategy to succeed.</li> <li><b>Should Have</b> - Important requirements that are not critical but add significant value.</li> <li><b>Could Have</b> - Desirable requirements that can enhance the project but are not essential.</li> <li><b>Won’t Have</b> - Requirements that are agreed upon as not necessary for the current phase or project.</li> </ul>"
       },
       {
@@ -530,21 +530,21 @@
         "order": 56,
         "layout": "col-2",
         "title": "Information Systems",
-        "col1": "<h4>Transaction Processing Systems</h4> <p>Handle routine transactions and operations.</p> <ul> <li>Automated Teller Machines (ATMs) and online banking platforms that process transactions such as deposits, withdrawals, and fund transfers in real-time.</li> </ul> <h4>Management Information Systems</h4> <p>Provide reports and tools to support management decision-making; involves collecting, storing, processing, and presenting data</p> <ul> <li>Banking dashboards that provide branch managers with report on key performance indicators (KPIs), such as loan approvals, customer transactions, and account balances</li> <li>Accounting information systems manage financial data and transactions. Its key functions include recording financial transactions, generating financial statements, managing accounts payable and receivable, supporting compliance with financial regulations and standards, and providing data for audits and financial analysis</li> </ul> <h4>Decision Support Systems</h4> <p>Assist in complex decision-making and problem-solving through data analysis</p> <ul> <li>Risk assessment tools used by banks to evaluate loan applications using the client’s credit scores and financial history</li> </ul><h4>Executive Information Systems</h4> <p>Offer high-level summaries and insights of the company’s performance, market trends, competitive landscape, and other information for executives</p> <ul> <li>Tableau and Microsoft PowerBI are both data visualization tools that enables organizations to build dashboards to monitor performance and make strategic decisions for the executives</li> </ul> ",
-        "col2": "<h4>Customer Relationship Management Systems</h4> <p>Manage interactions and enhance relationships with customers; usually guide a company’s sales, marketing, customer support, and other customer-facing departments</p> <ul> <li>Salesforce or Microsoft Dynamics CRM, which banks use to manage customer interactions, track sales leads, and enhance customer service by providing personalized banking experiences</li> </ul> <h4>Enterprise Resource Planning Systems</h4> <p>Integrate core business processes across departments</p> <ul> <li>SAP for Banking, which integrates various banking functions such as finance, human resources, and compliance into a single system to streamline operations and improve efficiency</li> <li>Other common providers of ERP systems are Oracle, MS Dynamics 365, NetSuite, and Workday</li> </ul> <h4>Geographic Information Systems</h4> <p>Both a technology and framework that enables the collection, storage, analysis, management, and visualization of spatial or geographic data. It integrates hardware, software, data, and people to facilitate the understanding and interpretation of spatial relationships and patterns.</p> <ul> <li>Project NOAH (Nationwide Operational Assessment of Hazards) provides real-time data and information on natural hazards, utilizing GIS to map flood-prone areas, landslide risks, and other disaster-related information. </li> </ul>"
+        "col1": "<h4>Transaction Processing Systems</h4> <p>Handle routine transactions and operations.</p> <ul> <li>Automated Teller Machines (ATMs) and online banking platforms that process transactions such as deposits, withdrawals, and fund transfers in real-time.</li> </ul> <h4>Management Information Systems</h4> <p>Provide reports and tools to support management decision-making; involves collecting, storing, processing, and presenting data.</p> <ul> <li>Banking dashboards that provide branch managers with report on key performance indicators (KPIs), such as loan approvals, customer transactions, and account balances</li> <li>Accounting information systems manage financial data and transactions. Its key functions include recording financial transactions, generating financial statements, managing accounts payable and receivable, supporting compliance with financial regulations and standards, and providing data for audits and financial analysis.</li> </ul> <h4>Decision Support Systems</h4> <p>Assist in complex decision-making and problem-solving through data analysis.</p> <ul> <li>Risk assessment tools used by banks to evaluate loan applications using the client’s credit scores and financial history.</li> </ul><h4>Executive Information Systems</h4> <p>Offer high-level summaries and insights of the company’s performance, market trends, competitive landscape, and other information for executives.</p> <ul> <li>Tableau and Microsoft PowerBI are both data visualization tools that enables organizations to build dashboards to monitor performance and make strategic decisions for the executives.</li> </ul> ",
+        "col2": "<h4>Customer Relationship Management Systems</h4> <p>Manage interactions and enhance relationships with customers; usually guide a company’s sales, marketing, customer support, and other customer-facing departments.</p> <ul> <li>Salesforce or Microsoft Dynamics CRM, which banks use to manage customer interactions, track sales leads, and enhance customer service by providing personalized banking experiences.</li> </ul> <h4>Enterprise Resource Planning Systems</h4> <p>Integrate core business processes across departments.</p> <ul> <li>SAP for Banking, which integrates various banking functions such as finance, human resources, and compliance into a single system to streamline operations and improve efficiency.</li> <li>Other common providers of ERP systems are Oracle, MS Dynamics 365, NetSuite, and Workday.</li> </ul> <h4>Geographic Information Systems</h4> <p>Both a technology and framework that enables the collection, storage, analysis, management, and visualization of spatial or geographic data. It integrates hardware, software, data, and people to facilitate the understanding and interpretation of spatial relationships and patterns.</p> <ul> <li>Project NOAH (Nationwide Operational Assessment of Hazards) provides real-time data and information on natural hazards, utilizing GIS to map flood-prone areas, landslide risks, and other disaster-related information. </li> </ul>"
       },
       {
         "order": 57,
         "layout": "col-2",
         "title": "AI and Machine Learning",
-        "col1": "<p><b>Artificial Intelligence (AI)</b> is transforming the institutions by enhancing operational efficiency, improving customer experiences, and enabling better decision-making. The samples below show how AI is applied in banking through the following:</p> <h4>Fraud Detection and Prevention</h4> <h5><b>Real-Time Analytics</b></h5> <ul> <li>RCBC employs AI algorithms to monitor transactions in real-time, helping to detect and prevent fraudulent activities. The bank’s DiskarTech app benefits from around 50 artificial intelligence models developed in-house for credit checks and fraud detection. </li> </ul> <h5><b>Behavioral Biometrics</b></h5> <ul> <li>Banks can benefit from behavioral biometrics to analyze user interactions, further helping them in identifying legitimate users and detect potential fraud</li> </ul> <h5><b>Multi-Factor Authentication</b></h5> <ul> <li>Majority of Philippine banks utilize MFA through email authentication, OTP through SMS, biometrics (fingerprint, faceID), and even authentication applications.</li> </ul>",
+        "col1": "<p>Artificial Intelligence (AI) is transforming the institutions by enhancing operational efficiency, improving customer experiences, and enabling better decision-making. The samples below show how AI is applied in banking through the following:</p> <h4>Fraud Detection and Prevention</h4> <h5><b>Real-Time Analytics</b></h5> <ul> <li>RCBC employs AI algorithms to monitor transactions in real-time, helping to detect and prevent fraudulent activities. The bank’s DiskarTech app benefits from around 50 artificial intelligence models developed in-house for credit checks and fraud detection. </li> </ul> <h5><b>Behavioral Biometrics</b></h5> <ul> <li>Banks can benefit from behavioral biometrics to analyze user interactions, further helping them in identifying legitimate users and detect potential fraud.</li> </ul> <h5><b>Multi-Factor Authentication</b></h5> <ul> <li>Majority of Philippine banks utilize MFA through email authentication, OTP through SMS, biometrics (fingerprint, faceID), and even authentication applications.</li> </ul>",
         "col2": "<h4>Customer Service and Chatbots</h4> <h5><b>Conversational AI</b></h5> <ul> <li>UnionBank has implemented AI-powered chatbots to assist with customers with inquiries and transactions through their mobile app and website.</li> </ul> <h5><b>Omnichannel Support</b></h5> <ul> <li>HSBC has integrated AI across its mobile app, website, and social media platforms to provide consistent customer support. </li> </ul>"
       },
       {
         "order": 58,
         "layout": "col-2",
         "title": "AI and Machine Learning",
-        "col1": "<h4>Personalized Banking Experience</h4> <h5><b>Hyper-Personalization</b></54> <ul> <li>Banks can leverage AI to analyze customer data and provide personalized product offerings and financial advice tailored to a client’s needs.</li> </ul> <h5><b>Predictive Customer Insights</b></h5> <ul> <li>Banks can use predictive analytics to anticipate customer needs and suggest relevant banking products and services.</li> </ul> <h4>Risk Management</h4> <h5><b>Alternative Data Sources</b></h5> <ul> <li>BSP has asked financial firms to look into clients’ non-traditional or alternative data such as social media or online transactions for credit scoring. Source: PIDS - Philippine Institute for Development Studies </li> <li>Maya created an AI-driven credit scoring model that uses payments and other alternative data, allowing it to lend profitably with speed and at scale. Source: Global Finance names Maya best digital bank </li> </ul> <h4>Dynamic Risk Assessment</h4> <ul> <li>Banks are adopting AI to continuously evaluate the credit risk of borrowers based on real-time data and changing market conditions.</li> </ul>",
+        "col1": "<h4>Personalized Banking Experience</h4> <h5><b>Hyper-Personalization</b></54> <ul> <li>Banks can leverage AI to analyze customer data and provide personalized product offerings and financial advice tailored to a client’s needs.</li> </ul> <h5><b>Predictive Customer Insights</b></h5> <ul> <li>Banks can use predictive analytics to anticipate customer needs and suggest relevant banking products and services.</li> </ul> <h4>Risk Management</h4> <h5><b>Alternative Data Sources</b></h5> <ul> <li>BSP has asked financial firms to look into clients’ non-traditional or alternative data such as social media or online transactions for credit scoring. Source: PIDS - Philippine Institute for Development Studies.</li> <li>Maya created an AI-driven credit scoring model that uses payments and other alternative data, allowing it to lend profitably with speed and at scale. Source: Global Finance names Maya best digital bank </li> </ul> <h4>Dynamic Risk Assessment</h4> <ul> <li>Banks are adopting AI to continuously evaluate the credit risk of borrowers based on real-time data and changing market conditions.</li> </ul>",
         "col2": "<h4>Regulatory Compliance</h4> <h5><b>RegTech Solutions</b></h5> <ul> <li>The adoption of RegTech solutions can assist in the streamlining of compliance process and monitoring of transactions for adherence to regulations by utilizing AI. </li> </ul> <h5><b>Automated Reporting</b></h5> <ul> <li>AI can help assist banks in compliance reporting, making it easier to adhere to regulatory requirements.</li> </ul> <h4>Process Automation</h4> <h5><b>Robotic Process Automation</b></h5> <ul> <li>RPA is adopted to automate routine tasks, such as data entry and compliance checks, improving operational efficiency. </li> </ul> <h5><b>AI-Driven Workflow Optimization</b></h5> <ul> <li>JPMorgan Chase uses AI to analyze workflows and identify areas for improvement, streamlining operations.</li> </ul>"
       },
       {
@@ -567,7 +567,7 @@
         "layout": "image righthand portion",
         "title": "Geographic Information System (GIS) Tools",
         "subheader": "Sample Use of GIS", 
-        "body":"<p><b>Objectives</b></p> <ul> <li> Give users a visualization of assets juxtaposed with historical hazard occurrences on an interactive map, with ability to return an assessment of risk based on history of hazard occurrences. </li> </ul> <p><b>Components</b></p> <ul> <li>Interactive map of natural hazard occurrences over time</li> <li>Pinned locations of assets, showing property details</li> <li> One-click hazard assessment where a simple algorithm is applied to determine hazard risk as low, medium, or high </li> </ul> <p><b>Future Work</b></p> <ul> <li> Embed more complex formulas or models to give a quantified hazard risk </li> </ul>", 
+        "body":"<p><b>Objectives</b></p> <ul> <li>Give users a visualization of assets juxtaposed with historical hazard occurrences on an interactive map, with ability to return an assessment of risk based on history of hazard occurrences.</li> </ul> <p><b>Components</b></p> <ul> <li>Interactive map of natural hazard occurrences over time.</li> <li>Pinned locations of assets, showing property details.</li> <li>One-click hazard assessment where a simple algorithm is applied to determine hazard risk as low, medium, or high.</li> </ul> <p><b>Future Work</b></p> <ul> <li>Embed more complex formulas or models to give a quantified hazard risk.</li> </ul>", 
         "image": "src/assets/img/aligning business strat/order61.jpg"
       },
       {
@@ -604,7 +604,7 @@
       {
         "order": 66,
         "title": "Knowledge Check",
-        "body": "Which of the following is a key role of Geographic Information Systems (GIS) in banking",
+        "body": "Which of the following is a key role of Geographic Information Systems (GIS) in banking?",
         "image":"src/assets/img/general images/KnowledgeCheck.jpg", 
         "q_field_type": "single_select" ,
         "q_selection": [{
@@ -618,7 +618,7 @@
       {
         "order": 67,
         "title": "Lesson Summary",
-        "body": "<h4>Congratulations on completing Lesson 2 of this module!</h4> <p>Now that you have completed this lesson, you should be able to:</p> <ul> <li>Learn how to improve operational efficiency, customer engagement, and effectiveness through the adoption of emerging tools.</li> <li>Apply various methodologies, including SWOT analysis, Porter's Five Forces, and PESTLE analysis, which help organizations assess their strategic position and external environment.</li> <li>Utilize information systems as organized frameworks for collecting, storing, managing, and processing data.</li> <li>Leverage AI and machine learning in banking to transform operations and improve customer experiences.</li></ul>", 
+        "body": "<h4>Congratulations on completing Lesson 2 of this module!</h4> <p>Now that you have completed this lesson, you should be able to:</p> <ul> <li>Learn how to improve operational efficiency, customer engagement, and effectiveness through the adoption of emerging tools.</li> <li>Utilize information systems as organized frameworks for collecting, storing, managing, and processing data.</li> <li>Leverage AI and machine learning in banking to transform operations and improve customer experiences.</li></ul>", 
         "image":"src/assets/img/general images/LessonSummary.jpg"
       },    
       {
@@ -639,11 +639,10 @@
       },
       {
         "order": 70,
-        "layout": "image righthand portion",
+        "layout": "col-1",
         "title": "Overview of Crisis Management",
         "subheader": "Crisis Management",
-        "body": "<h4>Crisis</h4> <p>A crisis is an abnormal and unstable situation that threatens an organization or community. It requires a strategic, adaptive, and timely response in order to reserve its viability and integrity. - ISO 22361 – The Crisis Management Standard</p> <p>It is a significant disruption or deterioration in the operations and systems of an organization, threatening its stability, solvency, or ability to operate effectively. - EY Resource</p><p>Crisis situations can arise from various sources and can be categorized into different types based on their nature, causes, and impacts. Understanding these types of crises is essential for effective crisis management and preparedness. The types of crises are the following:</p>",
-        "image": "src/assets/img/aligning business strat/order69.jpg"
+        "body": "<h4>Crisis</h4> <p>A crisis is an abnormal and unstable situation that threatens an organization or community. It requires a strategic, adaptive, and timely response in order to reserve its viability and integrity. - ISO 22361 – The Crisis Management Standard</p> <p>It is a significant disruption or deterioration in the operations and systems of an organization, threatening its stability, solvency, or ability to operate effectively. - EY Resource</p><p>Crisis situations can arise from various sources and can be categorized into different types based on their nature, causes, and impacts. Understanding these types of crises is essential for effective crisis management and preparedness. The types of crises are the following:</p><img src='src/assets/img/aligning business strat/order70.jpg'/>"
       },
       {
         "order": 71,
@@ -663,11 +662,10 @@
       },
       {
         "order": 73,
-        "layout": "image righthand portion",
+        "layout": "col-1",
         "title": "Controls, Measures, and Frameworks",
         "subheader": "Crisis Management Phases",
-        "body": "<h4>Crisis Management Plan</h4> <p>A strategic framework designed to prepare an organization for potential crises and guide its response when a crisis occurs. The main goal of this plan is to minimize the impact of a crisis. The key components of a crisis management plan are:</p>",
-        "image": "src/assets/img/aligning business strat/order73.jpg"
+        "body": "<h4>Crisis Management Plan</h4> <p>A strategic framework designed to prepare an organization for potential crises and guide its response when a crisis occurs. The main goal of this plan is to minimize the impact of a crisis. The key components of a crisis management plan are:</p><img src='src/assets/img/aligning business strat/order73.jpg'/>"
       },
       {
         "order": 74,
@@ -767,7 +765,7 @@
       },
       {
         "order": 86,
-        "title": "Lesson Summary",
+        "title": "Course Summary",
         "body": "<h4>Congratulations on completing Lesson 3 of this course!</h4><p>Now that you have completed this course, you should be able to:</p><ul> <li>Recognize that crisis management is a critical function for organizations across all sectors, as it directly impacts their ability to navigate and recover from disruptive events. </li> <li>Identify a crisis as an abnormal and unstable situation that threatens an organization or community.</li> <li>Understand that the phases of crisis management include pre-crisis, during crisis, and post-crisis. </li><li>Develop a crisis management plan as a strategic framework designed to prepare an organization for potential crises and guide its response when a crisis occurs.</li> </ul>", 
         "image":"src/assets/img/general images/CourseSummary.jpg"
       },

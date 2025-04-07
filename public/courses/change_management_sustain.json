@@ -13,23 +13,23 @@
         "image": "src/assets/img/general images/ModuleIntroduction.jpg"
       },
       {
-          "order": 2,
+        "order": 2,
+        "title": "Module Pre-Examination",
+        "exams": [{
+          "exam_id": 8,
           "title": "Module Pre-Examination",
-          "exams": [{
-              "exam_id": 8,
-              "title": "Module Pre-Examination",
-              "body": "This assessment is designed to test your knowledge. Results of this  assessment will be used to structure the workshop.",
-              "questions": [{
-                      "q_number": 1,
-                      "q_statement": "What is change experience?",
-                      "q_field_type": "single_select" ,
-                      "q_selection": [{
-                          "A": "Refers to employees' subjective experiences during organizational change, encompassing their awareness, understanding, acceptance, and adaptation.",
-                          "B": "Provides a structured framework for guiding an organization through the transition process.",
-                          "C": "Measures the level of commitment and connection an employee has with their organization.",
-                          "D": "A structured approach to managing organizational changes.."
-                          }],
-                      "q_answer": "A"
+          "body": "This assessment is designed to test your knowledge. Results of this  assessment will be used to structure the workshop.",
+          "questions": [{
+                "q_number": 1,
+                "q_statement": "What is change experience?",
+                "q_field_type": "single_select" ,
+                "q_selection": [{
+                    "A": "Refers to employees' subjective experiences during organizational change, encompassing their awareness, understanding, acceptance, and adaptation.",
+                    "B": "Provides a structured framework for guiding an organization through the transition process.",
+                    "C": "Measures the level of commitment and connection an employee has with their organization.",
+                    "D": "A structured approach to managing organizational changes.."
+                    }],
+                    "q_answer": "A"
               },
               {
                 "q_number": 2,
@@ -73,7 +73,7 @@
         "order": 4,
         "title": "Sustain Change Lessons",
         "subheader": "Monitoring Change Management KPIs: Your Roadmap to Success",
-        "body": "<h4>Learning Objectives</h4> <p>At the end of this lesson, you will be able to:</p> <ul> <li>Understand the change experience concept</li> <li>Learn how to reinforce changes.</li> <li>Realize the importance of stakeholder proficiency</li> <li>Understand the role of adoption and compliance in change management</li> </ul>",
+        "body": "<h4>Learning Objectives</h4> <p>At the end of this lesson, you will be able to:</p> <ul> <li>Understand the change experience concept</li> <li>Learn how to reinforce changes</li> <li>Realize the importance of stakeholder proficiency</li> <li>Understand the role of adoption and compliance in change management</li> </ul>",
         "image": "src/assets/img/change management/Sustain/order4.jpg"
       },
       {
@@ -275,7 +275,7 @@
         "layout": "col-1",
         "title": "Adoption and Compliance",
         "subheader": "Reinforcement and Sustainability",
-        "body": "<h4>Ensuring that the Change is Sustained Over Time through Continuous Monitoring and Support</h4> <p>Ensuring that change is sustained over time requires a proactive approach that includes continuous monitoring, support, and reinforcement of the new behaviors and practices.</p> <h5><b>Establish Continuous Monitoring Mechanisms</b></h4> <p>Conduct periodic audits and assessments to evaluate adherence to new policies and procedures. This helps identify areas where additional support may be needed.</p> <h5><b>Adapt and Evolve</b></h5> <p>Be open to adapting the change as needed based on feedback and changing circumstances. Continuous improvement should be a core principle of the change initiative.</p> <h5><b>Measure Long-Term Impact<b></h5> <p>Periodically evaluate the long-term impact of the change on organizational performance, employee satisfaction, and other relevant metrics. This helps assess whether the change has achieved its intended goals.</p>"
+        "body": "<h4>Ensuring that the Change is Sustained Over Time through Continuous Monitoring and Support</h4> <p>Ensuring that change is sustained over time requires a proactive approach that includes continuous monitoring, support, and reinforcement of the new behaviors and practices.</p> <h5><b>Establish Continuous Monitoring Mechanisms</b></h4> <p>Conduct periodic audits and assessments to evaluate adherence to new policies and procedures. This helps identify areas where additional support may be needed.</p> <h5><b>Adapt and Evolve</b></h5> <p>Be open to adapting the change as needed based on feedback and changing circumstances. Continuous improvement should be a core principle of the change initiative.</p> <h5><b>Measure Long-Term Impact</b></h5> <p>Periodically evaluate the long-term impact of the change on organizational performance, employee satisfaction, and other relevant metrics. This helps assess whether the change has achieved its intended goals.</p>"
       },
       {
         "order": 30,
@@ -286,17 +286,17 @@
       },
       {
         "order": 31,
-        "layout": "image righthand portion",
+        "layout": "col-1",
         "title": "Tracking KPIs",
         "subheader": "How to effectively track identified KPIs",
-        "image": "src/assets/img/change management/Sustain/order31.jpg"
+        "body": "<img src='src/assets/img/change management/Sustain/order31.jpg'/>"
       },
       {
         "order": 32,
-        "layout": "image righthand portion",
+        "layout": "col-1",
         "title": "Tracking KPIs",
         "subheader": "Setting Up your KPI Trackers",
-        "image": "src/assets/img/change management/Sustain/order32.jpg"
+        "body": "<img src='src/assets/img/change management/Sustain/order32.jpg'/>"
       },
       {
         "order": 33,
@@ -315,7 +315,7 @@
       {
         "order": 35,
         "title": "Lesson Summary",
-        "body": "<h2>Congratulations on completing Lesson 1 of this module!</h2> <p>Now that you have completed this lesson, you should be able to:</p> <ul> <li>Understand the change experience concept;</li> <li>Realize the importance of stakeholder proficiency;and</li> <li>Understand the role of adoption and compliance in change management</li> </ul>",
+        "body": "<h2>Congratulations on completing Lesson 1 of this module!</h2> <p>Now that you have completed this lesson, you should be able to:</p> <ul> <li>Understand the change experience concept;</li> <li>Realize the importance of stakeholder proficiency; and</li> <li>Understand the role of adoption and compliance in change management</li> </ul>",
         "image": "src/assets/img/general images/LessonSummary.jpg"
       },
       {
@@ -399,7 +399,7 @@
         "layout": "col-1",
         "title": "IT Risk Management Standards and Guidelines",
         "subheader": "Introduction to IT Risk Management",
-        "body": "<h4>IT Risk Management Frameworks</h4> <h5><b>Overview of widely recognized IT risk management frameworks</b></h5> <ul> <li><b>ISO/IEC 27001</b> - ISO/IEC 27001 is an international standard for information security management systems (ISMS). It provides a systematic approach to managing sensitive company information, ensuring its confidentiality, integrity, and availability.</li> <li><b>COBIT (Control Objectives for Information and Related Technologies)</b> - COBIT is a framework developed by ISACA for the governance and management of enterprise IT. It provides a comprehensive set of best practices, tools, and models to help organizations achieve their IT goals while managing risks.</li> <li><b>OCTAVE (Operationally Critical Threat, Asset, and Vulnerability Evaluation)</b> - OCTAVE is a risk management framework developed by Carnegie Mellon University that focuses on identifying and managing information security risks. It emphasizes the importance of organizational context and stakeholder involvement.</li> </ul>"
+        "body": "<h4>IT Risk Management Frameworks</h4> <h5><b>Overview of widely recognized IT risk management frameworks</b></h5> <ul> <li><b>ISO/IEC 27001</b> - ISO/IEC 27001 is an international standard for information security management systems (ISMS). It provides a systematic approach to managing sensitive company information, ensuring its confidentiality, integrity, and availability.</li> <li><b>COBIT (Control Objectives for Information and Related Technologies)</b> - COBIT is a framework developed by ISACA (Previously known as Information Systems Audit and Control Association)  for the governance and management of enterprise IT. It provides a comprehensive set of best practices, tools, and models to help organizations achieve their IT goals while managing risks.</li> <li><b>OCTAVE (Operationally Critical Threat, Asset, and Vulnerability Evaluation)</b> - OCTAVE is a risk management framework developed by Carnegie Mellon University that focuses on identifying and managing information security risks. It emphasizes the importance of organizational context and stakeholder involvement.</li> </ul>"
       },
       {
         "order": 46,
@@ -427,21 +427,21 @@
         "layout": "col-1",
         "title": "IT Risk Management Standards and Guidelines",
         "subheader": "Introduction to IT Risk Management",
-        "body": "<h4>Monitoring Progress and Making Adjustments</h4> <p>Continuously tracking the progress of action plans is crucial for ensuring that initiatives based on evaluation results are effectively implemented and achieve desired outcomes. This ongoing monitoring process helps organizations stay aligned with their objectives, make timely adjustments, and foster a culture of accountability and improvement.</p> <img src='src/assets/img/change management/Sustain/order49.jpg'/> <p>Making necessary adjustments based on ongoing feedback and evaluation is vital for effective change management and continuous improvement. This process ensures that organizations remain responsive to stakeholder needs and can adapt to changing circumstances.</p>"
+        "body": "<h4>Monitoring Progress and Making Adjustments</h4> <p>Continuously tracking the progress of action plans is crucial for ensuring that initiatives based on evaluation results are effectively implemented and the desired outcomes are achieved. This ongoing monitoring process helps organizations stay aligned with their objectives, make timely adjustments, and foster a culture of accountability and improvement.</p> <img src='src/assets/img/change management/Sustain/order49.jpg'/> <p>Making necessary adjustments based on ongoing feedback and evaluation is vital for effective change management and continuous improvement. This process ensures that organizations remain responsive to stakeholder needs and can adapt to changing circumstances.</p>"
       },
       {
         "order": 50,
         "layout": "col-1",
         "title": "IT Risk Management Standards and Guidelines",
         "subheader": "Introduction to IT Risk Management",
-        "body": "<h4>Documenting or Risks (RAID Log)</h4> <p>Documenting risks in a RAID log is essential in project and change management, helping organizations identify, assess, and manage potential risks throughout a project's lifecycle.</p> <img src='src/assets/img/change management/Sustain/order50.jpg'/>"
+        "body": "<h4>Documenting for Risks (RAID Log)</h4> <p>Documenting risks in a RAID log is essential in project and change management, helping organizations identify, assess, and manage potential risks throughout a project's lifecycle.</p> <img src='src/assets/img/change management/Sustain/order50.jpg'/>"
       },
       {
         "order": 51,
         "layout": "col-1",
         "title": "IT Risk Management Standards and Guidelines",
         "subheader": "Introduction to IT Risk Management",
-        "body": "<h4>Importance of Maintaining RAID Log</h4> <h5>The RAID Log…</h5> <ul> <li>provides a structured approach to identifying and managing risks, enabling organizations to take proactive measures to mitigate potential issues before they escalate.</li> <li>serves as a centralized document that can be easily shared with stakeholders, fostering transparency and facilitating discussions about risks, assumptions, issues, and dependencies.</li> <li>assigns ownership for managing risks and issues, ensuring that team members are accountable for monitoring and addressing specific items.</li> </ul>"
+        "body": "<h4>Importance of Maintaining RAID Log</h4> <h5>The RAID Log…</h5> <ul><li>provides a structured approach to identifying and managing risks, enabling organizations to take proactive measures to mitigate potential issues before they escalate.</li> <li>serves as a centralized document that can be easily shared with stakeholders, fostering transparency and facilitating discussions about risks, assumptions, issues, and dependencies.</li> <li>assigns ownership for managing risks and issues, ensuring that team members are accountable for monitoring and addressing specific items.</li> </ul>"
       },
       {
         "order": 52,
@@ -508,14 +508,14 @@
       {
         "order": 60,
         "title": "Lesson Summary",
-        "body": "<h2>Congratulations on completing Lesson 2 of this module!</h2> <p>Now that you have completed this lesson, you should be able to:</p> <ul> <li>UKnow what are issues and risks;</li> <li>Understand the IT risk management and its aligned regulatory;and</li> <li>Realize the importance of crisis management</li> </ul>",
+        "body": "<h2>Congratulations on completing Lesson 2 of this module!</h2> <p>Now that you have completed this lesson, you should be able to:</p> <ul> <li>Know what are issues and risks;</li> <li>Understand the IT risk management and its aligned regulatory;and</li> <li>Realize the importance of crisis management</li> </ul>",
         "image": "src/assets/img/general images/LessonSummary.jpg"
       },
       {
         "order": 61,
         "title": "Sustain Change Lessons",
         "subheader": "Ensuring Lasting Transformation: Strategies for Sustaining Change",
-        "body": "<p>At the end of this lesson, you will be able to:</p> <ul> <li>Understand Performance Review</li> <li>Know on how to conduct handover sessions</li> <li>Realize on how to transition to business as usual (BAU)</li> </ul>",
+        "body": "<p>At the end of this lesson, you will be able to:</p> <ul> <li>Understand Performance Review</li> <li>Know how to conduct handover sessions</li> <li>Realize how to transition to business as usual (BAU)</li> </ul>",
         "image": "src/assets/img/change management/Sustain/order60.jpg"
       },
       {
@@ -532,14 +532,14 @@
         "title": "Ensuring Lasting Transformation:",
         "subheader": "Strategies for Sustaining Change",
         "col1": "<h4>Review Performance | Understanding Performance Review</h4> <h5><b>Definition and Importance of Performance Reviews</b></h5> <ul> <li>Performance reviews in change management are systematic evaluations of an employee's performance, behavior, and contributions, particularly during periods of change. These reviews assess how well employees adapt to new processes, technologies, or organizational structures introduced during change initiatives.</li> <li>They serve as a vital feedback mechanism, helping employees understand how their performance is perceived in the context of change. Constructive feedback guides employees in adjusting their behaviors and strategies to meet new expectations.</li> <li>Performance reviews also establish accountability for individual and team performance during change initiatives, clarifying expectations and holding employees responsible for their contributions to the change process.</li>",
-        "col2": "<h5><b>Objectives of Performance Reviews</b></h5> <ul> <li><b>Assessing Achievements</b></li> <ul> <li>Evaluate the accomplishments of employees over a specific period.</li> <li>Measure performance against established goals and key performance indicators (KPIs).</li> </ul> <li><b>Identifying Areas for Improvement</b></li> <ul> <li>Pinpoint specific skills or competencies that need enhancement.</li> <li>Identify obstacles that may hinder performance and suggest solutions.</li> </ul> <li><b>Setting Future Goals</b></li> <ul> <li>Align individual goals with organizational objectives to ensure everyone is working towards common aims.</li> <li>Encourage employees to take ownership of their development by setting personal career aspirations.</li> </ul> </ul>"
+        "col2": "<h5><b>Objectives of Performance Reviews</b></h5> <p><b>1. Assessing Achievements</b></p> <ul> <li>Evaluate the accomplishments of employees over a specific period.</li> <li>Measure performance against established goals and key performance indicators (KPIs).</li> </ul> <p><b>2. Identifying Areas for Improvement</b></p> <ul> <li>Pinpoint specific skills or competencies that need enhancement.</li> <li>Identify obstacles that may hinder performance and suggest solutions.</li> </ul> <p><b>3. Setting Future Goals</b></p> <ul> <li>Align individual goals with organizational objectives to ensure everyone is working towards common aims.</li> <li>Encourage employees to take ownership of their development by setting personal career aspirations.</li> </ul>"
       },
       {
         "order": 64,
         "layout": "col-1",
         "title": "Ensuring Lasting Transformation:",
         "subheader": "Strategies for Sustaining Change",
-        "body": "<h4>Review Performance | Conducting the Performance Review</h4> <h5><b>Using a Structured Approach to Discuss Performance</b></h5> <p>Using a structured approach to discuss performance is essential for creating clear, constructive, and productive conversations between employees and managers.</p> <ul> <li><b>Strengths</b> - Beginning the performance discussion by acknowledging an employee's strengths sets a positive tone. Recognizing what the employee does well not only boosts morale but also reinforces behaviors that contribute to success. By highlighting strengths, managers can encourage employees to leverage these attributes in their future work.</li> <li><b>Areas for Improvement</b> - After discussing strengths, it’s important to address areas for improvement. Providing specific, actionable feedback helps employees understand where they can enhance their performance. Managers should also invite employees to share their perspectives on areas they feel need improvement, fostering a collaborative environment.</li> <li><b>Future Goals</b> - The final component of the structured approach involves setting future goals. This is a crucial step that aligns individual objectives with organizational priorities. By collaboratively establishing clear, measurable, and achievable goals, both the employee and manager can ensure that expectations are understood and agreed upon.</li> </ul>"
+        "body": "<h4>Review Performance | Conducting the Performance Review</h4> <h5><b>Using a Structured Approach to Discuss Performance</b></h5> <p>Using a structured approach to discuss performance is essential for creating clear, constructive, and productive conversations between employees and managers.</p> <ul> <li><b>Strengths</b> - Beginning the performance discussion by acknowledging an employee's strengths sets a positive tone. Recognizing what the employee does well not only boosts morale but also reinforces behaviors that contribute to success. By highlighting strengths, managers can encourage employees to leverage these attributes in their future work.</li> <li><b>Areas for Improvement</b> - After discussing strengths, it’s important to address areas for improvement. Providing specific, actionable feedback helps employees understand where they can enhance their performance. Managers should also invite employees to share their perspectives on areas they feel need improvement, fostering a collaborative environment.</li> <li><b>Future Goals</b> - The final component of the structured approach involves setting future goals. This is a crucial step that aligns individual objectives with organizational priorities. By collaboratively establishing clear, measurable, and achievable goals, both the employee and the manager can ensure that expectations are understood and agreed upon.</li> </ul>"
       },
       {
         "order": 65,
@@ -577,7 +577,7 @@
         "layout": "col-1",
         "title": "Ensuring Lasting Transformation:",
         "subheader": "Strategies for Sustaining Change",
-        "body": "<h4>Handover Sessions | Conducting the Handover Session</h4> <ul> <li><b>Role Description</b> - Begin with a clear description of the role being handed over, including its primary responsibilities, objectives, and how it contributes to the team or organization.</li> <li><b>Project or Task Details</b> - Provide specific information about ongoing projects or tasks, including their current status, timelines, and any challenges faced. Highlight important milestones and deliverables that the incoming individual should be aware of.</li> <li><b>Key Contacts</b> - Identify key stakeholders, team members, and any external contacts relevant to the role or project.</li> <li><b>Resources and Documentation</b> Mention any relevant resources, tools, or documentation that the incoming individual will need to reference. This could include project plans, reports, or standard operating procedures.</li> <li><b>Critical Insights</b> - Share any lessons learned, best practices, or insights gained during the tenure in the role. This information can help the incoming individual avoid potential pitfalls and enhance their effectiveness.</li> </ul>" 
+        "body": "<h4>Handover Sessions | Conducting the Handover Session</h4> <ul> <li><b>Role Description</b> - Begin with a clear description of the role being handed over, including its primary responsibilities, objectives, and how it contributes to the team or organization.</li> <li><b>Project or Task Details</b> - Provide specific information about ongoing projects or tasks, including their current status, timelines, and any challenges faced. Highlight important milestones and deliverables that the incoming individual should be aware of.</li> <li><b>Key Contacts</b> - Identify key stakeholders, team members, and any external contacts relevant to the role or project.</li> <li><b>Resources and Documentation</b> - Mention any relevant resources, tools, or documentation that the incoming individual will need to reference. This could include project plans, reports, or standard operating procedures.</li> <li><b>Critical Insights</b> - Share any lessons learned, best practices, or insights gained during the tenure in the role. This information can help the incoming individual avoid potential pitfalls and enhance their effectiveness.</li> </ul>"
       },
       {
         "order": 70,
@@ -591,7 +591,7 @@
         "layout": "col-1",
         "title": "Ensuring Lasting Transformation:",
         "subheader": "Strategies for Sustaining Change",
-        "body": "<h4>Handover Sessions | Documenting the Handover</h4> <h5><b>Key Components of a Handover Document</b></h5> <ul> <li><b>Role Overview</b> - Include a brief description of the role, its primary responsibilities, and how it fits into the larger organizational context.</li> <li><b>Current Projects and Tasks</b> - Provide details about ongoing projects, including their status, key milestones, deadlines, and any challenges faced. This section should outline specific tasks that need attention.</li> <li><b>Key Contacts and Stakeholders</b> List important contacts, including team members, managers, clients, and other stakeholders. Include their roles, responsibilities, and preferred communication methods.</li> <li><b>Processes and Procedures</b> - Document any standard operating procedures, workflows, or best practices relevant to the role. This information helps the incoming individual understand how to navigate their responsibilities effectively.</li> <li><b>Access Information</b> - Include details about access to relevant systems, tools, and resources, along with any necessary login credentials or permissions.</li> <li><b>Important Documents and Resources</b> - Reference key documents, reports, and resources that the incoming individual should review. This may include project plans, meeting notes, and training materials.</li> <li><b>Additional Insights</b> - Share any lessons learned, tips, or insights gained during the tenure in the role. This information can help the incoming individual avoid potential pitfalls and enhance their effectiveness.</li> </ul>"
+        "body": "<h4>Handover Sessions | Documenting the Handover</h4> <h5><b>Key Components of a Handover Document</b></h5> <ul> <li><b>Role Overview</b> - Include a brief description of the role, its primary responsibilities, and how it fits into the larger organizational context.</li> <li><b>Current Projects and Tasks</b> - Provide details about ongoing projects, including their status, key milestones, deadlines, and any challenges faced. This section should outline specific tasks that need attention.</li> <li><b>Key Contacts and Stakeholders</b> - List important contacts, including team members, managers, clients, and other stakeholders. Include their roles, responsibilities, and preferred communication methods.</li> <li><b>Processes and Procedures</b> - Document any standard operating procedures, workflows, or best practices relevant to the role. This information helps the incoming individual understand how to navigate their responsibilities effectively.</li> <li><b>Access Information</b> - Include details about access to relevant systems, tools, and resources, along with any necessary login credentials or permissions.</li> <li><b>Important Documents and Resources</b> - Reference key documents, reports, and resources that the incoming individual should review. This may include project plans, meeting notes, and training materials.</li> <li><b>Additional Insights</b> - Share any lessons learned, tips, or insights gained during the tenure in the role. This information can help the incoming individual avoid potential pitfalls and enhance their effectiveness.</li> </ul>"
       },
       {
         "order": 72,
@@ -606,7 +606,7 @@
         "layout": "col-1",
         "title": "Ensuring Lasting Transformation:",
         "subheader": "Strategies for Sustaining Change",
-        "body": "<h4>Smooth Transition to BAU | Transition to Business As Usual (BAU)</h4> <h5>The Role of Change Management in Facilitating a Smooth Transition</h5> <p>Change management is essential for ensuring a smooth transition from a period of change or disruption back to BAU. It involves a structured approach to managing the people, processes, and technology in the transition, aiming to minimize resistance and maximize engagement.</p> <img src='src/assets/img/change management/Sustain/order72.jpg'/>"
+        "body": "<h4>Smooth Transition to BAU | Transition to Business As Usual (BAU)</h4> <h5><b>The Role of Change Management in Facilitating a Smooth Transition</b></h5> <p>Change management is essential for ensuring a smooth transition from a period of change or disruption back to BAU. It involves a structured approach to managing the people, processes, and technology in the transition, aiming to minimize resistance and maximize engagement.</p> <img src='src/assets/img/change management/Sustain/order72.jpg'/>"
       },
       {
         "order": 74,
@@ -614,8 +614,8 @@
         "title": "Ensuring Lasting Transformation:",
         "subheader": "Strategies for Sustaining Change",
         "col1": "<h4>Smooth Transition to BAU | Planning for the Transition</h4> <h5><b>Developing a Detailed Transition Plan that Outlines Key Activities, Timelines, and Responsibilities</b></h5> <p>A detailed transition plan is a critical component of successfully moving from a change initiative back to Business as Usual (BAU). This plan serves as a roadmap, outlining the key activities, timelines, and responsibilities necessary to ensure a smooth transition.</p> <ul> <li><b>Key Activities</b> - The transition plan should identify all the key activities required for the transition. Each activity should be clearly defined to ensure that all team members understand their roles and contributions.</li> <li><b>Timelines</b> - Establishing a timeline is crucial for maintaining momentum and accountability throughout the transition. Timelines help ensure that the transition stays on schedule and allows for timely adjustments if any delays occur.</li> <li><b>Responsibilities</b> - Clearly defining responsibilities is essential for effective execution of the transition plan. This clarity helps prevent overlaps, ensures accountability, and fosters collaboration among team members.</li> </ul>",
-        "col2": "<h5><b>Identifying Critical Success Factors for a Smooth Transition</b></h5> <p>CSFs are the key areas that must be effectively managed to achieve desired outcomes and ensure a successful transition. Here are some critical success factors to consider:</p> <ul> <li><b>Leadership Support</b> - Strong and visible support from leadership is crucial for a successful transition. Their commitment helps to create a positive environment and encourages buy-in from all levels of the organization.</li> <li><b>Stakeholder Engagement</b> Actively involving stakeholders throughout the transition is essential. This involvement can lead to greater acceptance of changes and smoother implementation.</li> <li><b>Training and Development</b> - Providing adequate training and development opportunities is critical for equipping employees with the skills and knowledge needed to adapt to new processes or technologies. A well-planned training program enhances employee confidence and competence, facilitating a smoother transition.</li> <li><b>Resource Allocation</b> - Ensuring that sufficient resources—such as time, budget, and personnel—are allocated to the transition is vital. Proper resource allocation helps prevent bottlenecks and ensures that all necessary activities can be completed effectively and on schedule.</li> </ul>"
-      },
+        "col2": "<h5><b>Identifying Critical Success Factors for a Smooth Transition</b></h5> <p>CSFs are the key areas that must be effectively managed to achieve desired outcomes and ensure a successful transition. Here are some critical success factors to consider:</p> <ul> <li><b>Leadership Support</b> - Strong and visible support from leadership is crucial for a successful transition. Their commitment helps to create a positive environment and encourages buy-in from all levels of the organization.</li> <li><b>Stakeholder Engagement</b> - Actively involving stakeholders throughout the transition is essential. This involvement can lead to greater acceptance of changes and smoother implementation.</li> <li><b>Training and Development</b> - Providing adequate training and development opportunities is critical for equipping employees with the skills and knowledge needed to adapt to new processes or technologies. A well-planned training program enhances employee confidence and competence, facilitating a smoother transition.</li> <li><b>Resource Allocation</b> - Ensuring that sufficient resources—such as time, budget, and personnel—are allocated to the transition is vital. Proper resource allocation helps prevent bottlenecks and ensures that all necessary activities can be completed effectively and on schedule.</li> </ul>"
+      }, 
       {
         "order": 75,
         "layout": "col-1",

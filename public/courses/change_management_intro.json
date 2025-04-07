@@ -96,8 +96,8 @@
         "layout": "image righthand portion", 
         "title": "Introduction to Change Management",
         "subheader": "What is Change Management?", 
-        "body": "<h4>The Bridges Transition Model:</h4> <ul> <li>Bridges' Transition Model, created by William Bridges, focuses on the individual emotional journey during organizational change. It differentiates between change, the external event, and transition.</li> </ul>",
-        "image": "src/assets/img/change management/Intro/order8.jpg"    
+        "body": "<h4>The Bridges' Transition Model:</h4> <ul> <li>Bridges' Transition Model, created by William Bridges, focuses on the individual emotional journey during organizational change. It differentiates between change, the external event, and transition.</li> </ul>",
+        "image": "src/assets/img/change management/Intro/order8.jpg"
       },
       {
         "order": 9,
@@ -225,7 +225,7 @@
       {
         "order": 23,
         "title": "Module Completion",
-        "body": "<h4>Congratulations on completing the Change Management Lessons module!</h4><p>You've now gained a solid understanding of the essential terms and concepts for change management fundamentals.</p><p>As you move forward, remember that the principles and strategies you've learned here are vital tools for ensuring the  health and success of any project or organization. By applying these techniques, you'll be better equipped to make informed decisions.</p><p>We hope this module has empowered you with the knowledge and confidence to tackle any challenge that comes your way. Keep honing your skills, stay diligent in your planning, and continue to strive for excellence in managing change.</p>", 
+        "body": "<h4>Congratulations on completing the Change Management Fundamentals module!</h4><p>You've now gained a solid understanding of the essential terms and concepts for change management fundamentals.</p><p>As you move forward, remember that the principles and strategies you've learned here are vital tools for ensuring the  health and success of any project or organization. By applying these techniques, you'll be better equipped to make informed decisions.</p><p>We hope this module has empowered you with the knowledge and confidence to tackle any challenge that comes your way. Keep honing your skills, stay diligent in your planning, and continue to strive for excellence in managing change.</p>", 
         "image":"src/assets/img/general images/ModuleCompletion.jpg"
       },
       {

@@ -7,7 +7,7 @@
     {
       "order": 1,
       "title": "Module Introduction",
-      "subheader": "Welcome to the WBL (Web-Based Learning) module on Change Management: Change Management: Prepare Approach!",
+      "subheader": "Welcome to the WBL (Web-Based Learning) module on Change Management: Prepare Approach!",
       "body": "Welcome to the Web-Based Learning (WBL) module on Change Management! This module aims to provide you with a comprehensive understanding of the principles and practices vital for effectively managing change within organizations. Throughout the module, you will examine the crucial role of change management in ensuring smooth transitions, boosting employee engagement, and achieving organizational objectives. We will explore various change management frameworks and methodologies, highlighting the significance of addressing the personnel aspects of change. Additionally, you will acquire practical strategies for assessing the impact of change, engaging stakeholders, and implementing successful change initiatives that thrive in today’s dynamic business landscape.", 
       "image": "src/assets/img/general images/ModuleIntroduction.jpg"
     },
@@ -66,15 +66,14 @@
       "order": 4,
       "title": "Change Management Lessons",
       "subheader": "Crafting a Powerful Purpose, Vision and Case for Change", 
-      "body": "<h4>Module Overview</h4><h5>Learning Objective</h5> <p>At the end of this lesson, you will be able to:</p> <ul> <li>Understand the nature of change</li> <li>Asses the change initiative of the organization</li> </ul>",
+      "body": "<h4>Module Overview</h4><h5>Learning Objective</h5> <p>At the end of this lesson, you will be able to:</p> <ul> <li>Understand the nature of change</li> <li>Assess the change initiative of the organization</li> </ul>",
       "image": "src/assets/img/change management/Prepare/order4.jpg"
     }, 
     {
       "order": 5,
-      "layout":"image righthand portion",
+      "layout":"col-1",
       "title": "Change Management Lessons",
-      "subheader": "On a Page", 
-      "image": "src/assets/img/change management/Prepare/order5.jpg"
+      "body": "<h4>On a Page</h4> <img src='src/assets/img/change management/Prepare/order5.jpg'/>"
     },
     {
       "order": 6,
@@ -134,8 +133,8 @@
       "layout": "col-2",
       "title": "Crafting a Powerful Purpose, Vision and Case for Change",
       "subheader": "Defining Changes | Identifying the Need for Change", 
-      "col1": "<h4>SWOT Analysis and its Importance to Change Initiative</h4> <p>SWOT Analysis plays a crucial role in change initiatives by providing a structured approach to understanding the factors that can influence the success or failure of the change. </p> <img src='src/assets/img/change management/Prepare/order12_0.jpg'/>", 
-      "col2": "<h4>SWOT Analysis and its Importance to Change Initiative</h4> <p>A change initiative is essential for Change Managers as it offers a structured framework for managing organizational transitions. It enables effective communication of the change vision and benefits to stakeholders, mitigates resistance, fosters engagement, and allows for the measurement of progress and success, ensuring the change is sustainable and integrated into the organizational culture. </p> <img src='src/assets/img/change management/Prepare/order12_1.jpg'/>"
+      "col1": "<h4>SWOT Analysis and its Importance to Change Initiative</h4> <p>SWOT Analysis plays a crucial role in change initiatives by providing a structured approach to understanding the factors that can influence the success or failure of the change. </p> <img src='src/assets/img/change management/Prepare/order12_0.jpg'>", 
+      "col2": "<p>A change initiative is essential for Change Managers as it offers a structured framework for managing organizational transitions. It enables effective communication of the change vision and benefits to stakeholders, mitigates resistance, fosters engagement, and allows for the measurement of progress and success, ensuring the change is sustainable and integrated into the organizational culture. </p> <img src='src/assets/img/change management/Prepare/order12_1.jpg'>"
     },
     {
       "order": 13, 
@@ -165,7 +164,7 @@
       "layout":"col-1", 
       "title": "Crafting a Powerful Purpose, Vision and Case for Change",
       "subheader": "Assessment of the Change | Developing a Case for Change", 
-      "body": "<h4>Creating a Detailed Case for Change</h4> <ul> <li><b>Executive Summary</b> - Provide a concise overview of the Case for Change</li> <li><b>Background</b> - Describe the organization’s situation, the events that have shaped the current environment and how this has contributed to the reason for this initiative</li> <li><b>Current Situation</b> - Describe the current state operating model, focusing on operational strategy, process and policy, people and organization, data and technology and performance measurement.</li><li><b>Challenges with Current State</b> - Describe the challenges with the current state operating model.</li> <li><b>Drivers of Change</b> - Provide a detailed description of the key reasons for a change in current state.</li> <li><b>Consequences of “doing nothing”</b> - Outline the consequences of not proceeding with change.</li> <li><b>Summary and benefits of future state to address challenges with current state</b> - Provide a description of the future state operating model, or proposed changes and the related benefits resulting from the change.</li> <li><b>Supporting evidence</b> - If applicable, provide additional evidence or description of the project or program, such as: What, How, When</li> </ul>"
+      "body": "<h4>Creating a Detailed Case for Change</h4> <ul> <li><b>Executive Summary</b> - Provide a concise overview of the Case for Change</li> <li><b>Background</b> - Describe the organization’s situation, the events that have shaped the current environment and how this has contributed to the reason for this initiative.</li> <li><b>Current Situation</b> - Describe the current state operating model, focusing on operational strategy, process and policy, people and organization, data and technology and performance measurement.</li><li><b>Challenges with Current State</b> - Describe the challenges with the current state operating model.</li> <li><b>Drivers of Change</b> - Provide a detailed description of the key reasons for a change in current state.</li> <li><b>Consequences of “doing nothing”</b> - Outline the consequences of not proceeding with change.</li> <li><b>Summary and benefits of future state to address challenges with current state</b> - Provide a description of the future state operating model, or proposed changes and the related benefits resulting from the change.</li> <li><b>Supporting evidence</b> - If applicable, provide additional evidence or description of the project or program, such as: What, How, When</li> </ul>"
     },
     {
       "order": 17,
@@ -192,7 +191,7 @@
     {
       "order": 19,
       "title": "Lesson Summary",
-      "body": "<h4>Congratulations on completing Lesson 1 of this module!</h4> <p>Now that you have completed this lesson, you should be able to:</p> <ul> <li>Understand the nature of change</li> <li>Asses the change initiative of the organization</li> </ul>", 
+      "body": "<h4>Congratulations on completing Lesson 1 of this module!</h4> <p>Now that you have completed this lesson, you should be able to:</p> <ul> <li>Understand the nature of change</li> <li>Assess the change initiative of the organization</li> </ul>", 
       "image":"src/assets/img/general images/LessonSummary.jpg"
     },
     {
@@ -252,8 +251,8 @@
       "layout":"col-1",
       "title": "Defining Change Management KPIs",
       "subheader": "Overview of Key Performance Indicators (KPIs)", 
-      "body": "<h4>Aligning KPIs with Change Objectives</h4> <p>Aligning KPIs with the overall goals of a change initiative is essential for measuring success and driving performance. </p> <h4>1. Define Clear Objectives</h4> <p>Start by clearly defining the goals and objectives of the change initiative. Ensure they are specific, measurable, achievable, relevant, and time-bound (SMART).</p> <h4>2. Involve Stakeholders</h4> <p>Engage key stakeholders in the process of defining KPIs.</p> <h4>3. Regular Review and Adjustment</h4> <p>Establish a process for regularly reviewing the KPIs and their alignment with the goals.</p> <h4>4. Communicate Clearly</h4> <p>Ensure that all team members understand the KPIs and their importance in relation to the change initiative.</p> <h4>Foster a Culture of Accountability</h4> <p>Encourage a culture where team members take ownership of their contributions to the KPIs.</p>"
-    },  
+      "body": "<h4>Aligning KPIs with Change Objectives</h4> <p>Aligning KPIs with the overall goals of a change initiative is essential for measuring success and driving performance. </p> <h4>1. Define Clear Objectives</h4> <p>Start by clearly defining the goals and objectives of the change initiative. Ensure they are specific, measurable, achievable, relevant, and time-bound (SMART).</p> <h4>2. Involve Stakeholders</h4> <p>Engage key stakeholders in the process of defining KPIs.</p> <h4>3. Regular Review and Adjustment</h4> <p>Establish a process for regularly reviewing the KPIs and their alignment with the goals.</p> <h4>4. Communicate Clearly</h4> <p>Ensure that all team members understand the KPIs and their importance in relation to the change initiative.</p> <h4>5. Foster a Culture of Accountability</h4> <p>Encourage a culture where team members take ownership of their contributions to the KPIs.</p>"
+    }, 
     {
       "order": 27,
       "title": "Knowledge Check",
@@ -280,8 +279,8 @@
       "layout":"col-2",
       "title": "Defining Change Management KPIs",
       "subheader": "Overview of Key Performance Indicators (KPIs)", 
-      "col1": "<h4>Identifying Key Areas for Measurement</h4> <h4>Process Efficiency</h4> <h5><b>Cycle Time</b></h5> <ul> <li>Measure the time taken to complete processes before and after the change.</li> </ul> <h5><b>Error Rates</b></h5> <ul> <li>Track the frequency of errors or defects in processes. </li> </ul> <h5><b>Resource Utilization</b></h5> <ul> <li>Assess how effectively resources (time, personnel, materials) are being used.</li> </ul> <h5><b>Cost Savings</b></h5> <ul> <li>Evaluate any reductions in costs associated with the new processes.</li> </ul>", 
-      "col2": "<h4>Employee Engagement</h4> <h5><b>Surveys and Feedback</b></h5> <ul> <li>Conduct regular employee surveys to gauge morale and engagement levels.</li> </ul> <h5><b>Turnover Rates</b></h5> <ul> <li>Monitor employee retention and turnover rates as indicators of engagement. </li> </ul> <h5><b>Participation in Training</b></h5> <ul> <li>Measure attendance and participation in training sessions related to the change.</li> </ul> <h5><b>Productivity Metrics</b></h5> <ul> <li>Assess changes in productivity levels pre- and post-implementation.</li> </ul>" 
+      "col1": "<h4>Identifying Key Areas for Measurement</h4> <h4>1. Process Efficiency</h4> <h5><b>Cycle Time</b></h5> <ul> <li>Measure the time taken to complete processes before and after the change.</li> </ul> <h5><b>Error Rates</b></h5> <ul> <li>Track the frequency of errors or defects in processes. </li> </ul> <h5><b>Resource Utilization</b></h5> <ul> <li>Assess how effectively resources (time, personnel, materials) are being used.</li> </ul> <h5><b>Cost Savings</b></h5> <ul> <li>Evaluate any reductions in costs associated with the new processes.</li> </ul>", 
+      "col2": "<h4>2. Employee Engagement</h4> <h5><b>Surveys and Feedback</b></h5> <ul> <li>Conduct regular employee surveys to gauge morale and engagement levels.</li> </ul> <h5><b>Turnover Rates</b></h5> <ul> <li>Monitor employee retention and turnover rates as indicators of engagement. </li> </ul> <h5><b>Participation in Training</b></h5> <ul> <li>Measure attendance and participation in training sessions related to the change.</li> </ul> <h5><b>Productivity Metrics</b></h5> <ul> <li>Assess changes in productivity levels pre- and post-implementation.</li> </ul>" 
     },
     {
       "order": 30,
@@ -340,8 +339,8 @@
       "layout": "col-1",
       "title": "Analyzing Stakeholders Insight for Impactful Change",
       "subheader": "Assessment of the Organization | Introduction to Organizational Assessment", 
-      "body": "<h4>Understanding the Role of Organizational Culture in Change Management </h4> <p>Organizational culture plays a crucial role in change management, influencing employee preparedness, engagement, and resistance to new initiatives. A positive and flexible culture can facilitate change, while a resistant culture can obstruct it. Thus, understanding the current culture is vital for successful change implementation. Current culture can be assessed through the following:</p> <h4>Surveys</h4> <h5><b>Purpose</b></h5> <p>Surveys can collect quantitative data from a large number of employees, providing a broad overview of the organizational culture.</p> <h5><b>Design</b></h5> <p>Questions can cover various aspects of culture, such as values, communication styles, leadership effectiveness, and employee satisfaction.</p> <h5><b>Analysis</b></h5> <p>The results can be analyzed to identify trends, strengths, and areas for improvement within the culture.</p> <h5><b>Advantages</b></h5> <p>Surveys are cost-effective, can reach a wide audience, and allow for anonymity, encouraging honest feedback.</p>"
-    }, 
+      "body": "<h4>Understanding the Role of Organizational Culture in Change Management </h4> <p>Organizational culture plays a crucial role in change management, influencing employee preparedness, engagement, and resistance to new initiatives. A positive and flexible culture can facilitate change, while a resistant culture can obstruct it. Thus, understanding the current culture is vital for successful change implementation. <b>Current culture can be assessed through the following:</b></p> <h4>Surveys</h4> <h5><b>1. Purpose</b></h5> <p>Surveys can collect quantitative data from a large number of employees, providing a broad overview of the organizational culture.</p> <h5><b>2. Design</b></h5> <p>Questions can cover various aspects of culture, such as values, communication styles, leadership effectiveness, and employee satisfaction.</p> <h5><b>3. Analysis</b></h5> <p>The results can be analyzed to identify trends, strengths, and areas for improvement within the culture.</p> <h5><b>4. Advantages</b></h5> <p>Surveys are cost-effective, can reach a wide audience, and allow for anonymity, encouraging honest feedback.</p>"
+    },
     {
       "order": 38,
       "layout": "col-1",
@@ -362,9 +361,9 @@
       "layout": "col-2",
       "title": "Analyzing Stakeholders Insight for Impactful Change",
       "subheader": "Identifying Stakeholders | Understanding Stakeholder", 
-      "col1": "<h4>Definition of Stakeholders in the Context of Change Management </h4> <p>In change management, stakeholders are individuals, groups, or organizations with an interest in or affected by a change initiative. They can significantly influence the outcome of the change process and are crucial to its success.</p> <h4>Types of Stakeholders:</h4> <h4>Internal Stakeholders</h4> <p>These are individuals or groups within the organization, such as employees, management, and board members, who are directly affected by the change.</p> <h4>External Stakeholders</h4> <p>These include customers, suppliers, investors, regulatory bodies, and the community at large, who may be impacted by the changes or have an interest in the organization's operations.</p> <h4>Change Agents</h4> <p>These are individuals or teams responsible for driving the change process, facilitating communication, and ensuring that stakeholders are engaged and informed.</p> <h4>Change Champions</h4> <p>Stakeholders who actively support and advocate for the change, helping to motivate others and overcome resistance</p> <h4>Resistors</h4> <p>Individuals or groups who oppose the change, either due to fear, misunderstanding, or perceived negative impacts.</p>", 
-      "col2": "<h4>The Importance of Stakeholder Identification in Change Management </h4> <h4>Understanding Impact</h4> <p>Identifying stakeholders helps organizations recognize who will be affected by the change and how, enabling tailored communication and support strategies that address specific concerns.</p> <h4>Minimizing Resistance</h4> <p>By recognizing potential resistors and their concerns, organizations can proactively address issues and reduce resistance, leading to smoother transitions and greater acceptance of change.</p> <h4>Facilitating Collaboration</h4> <p>Stakeholder identification fosters collaboration among diverse groups, promoting teamwork and shared purpose, which can result in innovative solutions and a more effective change process.</p> <h4>Assessing Risks</h4> <p>Understanding the stakeholder landscape allows organizations to identify potential risks associated with change. By anticipating challenges, they can develop proactive strategies to address them.</p> <h4>Measuring Success</h4> <p>Stakeholder identification provides a framework for evaluating the success of the change initiative. By considering stakeholder feedback and outcomes, organizations can determine if the change has achieved its objectives and made a positive impact.</p>"
-    },
+      "col1": "<h4>Definition of Stakeholders in the Context of Change Management </h4> <p>In change management, stakeholders are individuals, groups, or organizations with an interest in or affected by a change initiative. They can significantly influence the outcome of the change process and are crucial to its success.</p> <h4>Types of Stakeholders:</h4> <h5><b>nternal Stakeholders</b></h5> <p>These are individuals or groups within the organization, such as employees, management, and board members, who are directly affected by the change.</p> <h5><b>External Stakeholders</b></h5> <p>These include customers, suppliers, investors, regulatory bodies, and the community at large, who may be impacted by the changes or have an interest in the organization's operations.</p> <h5><b>Change Agents</b></h5> <p>These are individuals or teams responsible for driving the change process, facilitating communication, and ensuring that stakeholders are engaged and informed.</p> <h5><b>Change Champions</b></h5> <p>Stakeholders who actively support and advocate for the change, helping to motivate others and overcome resistance.</p> <h5><b>Resistors</b></h5> <p>Individuals or groups who oppose the change, either due to fear, misunderstanding, or perceived negative impacts.</p>", 
+      "col2": "<h4>The Importance of Stakeholder Identification in Change Management </h4> <h5><b>Understanding Impact</b></h5> <p>Identifying stakeholders helps organizations recognize who will be affected by the change and how, enabling tailored communication and support strategies that address specific concerns.</p> <h5><b>Minimizing Resistance</b></h5> <p>By recognizing potential resistors and their concerns, organizations can proactively address issues and reduce resistance, leading to smoother transitions and greater acceptance of change.</p> <h5><b>Facilitating Collaboration</b></h5> <p>Stakeholder identification fosters collaboration among diverse groups, promoting teamwork and shared purpose, which can result in innovative solutions and a more effective change process.</p> <h5><b>Assessing Risks</b></h5> <p>Understanding the stakeholder landscape allows organizations to identify potential risks associated with change. By anticipating challenges, they can develop proactive strategies to address them.</p> <h5><b>Measuring Success</b></h5> <p>Stakeholder identification provides a framework for evaluating the success of the change initiative. By considering stakeholder feedback and outcomes, organizations can determine if the change has achieved its objectives and made a positive impact.</p>"
+    }, 
     {
       "order": 41,
       "layout": "col-2",
@@ -410,9 +409,9 @@
       "layout": "col-2",
       "title": "Analyzing Stakeholders Insight for Impactful Change",
       "subheader": "Identifying Stakeholders | Stakeholder Analysis and Mapping", 
-      "col1": "<img src='src/assets/img/change management/Prepare/order46.jpg'/><h4>Creating a Stakeholder Map to Visualize the Relationships and Influence of Stakeholders </h4> <p>A Stakeholder Map visually represents the data entered in the Stakeholder Analysis sheet.</p> <h4>Adversary (High Degree of Influence, Low Degree of Support)</h4> <h5><b>Action Steps:</b></h5> <ul> <li>Understand rationale for being undecided/not supporting change</li> <li>Manage uncertainties</li> </ul> <h5><b>Communication and Engagement activities:</b></h5> <ul> <li>Engage in 1:1 coaching (especially for those with high influence)</li> </ul> <h4>Champion (High Degree of Influence, High Degree of Support)</h4> <h5><b>Action Steps:</b></h5> <ul> <li>Capitalize on their power to inspire</li> <li>Use them as change champions</li> </ul> <h5><b>Communication and Engagement activities:</b></h5> <ul> <li>Possible members of communication team </li> <li>Participate in pilot runs</li> </ul>", 
+      "col1": "<h4>Creating a Stakeholder Map to Visualize the Relationships and Influence of Stakeholders </h4> <p>A Stakeholder Map visually represents the data entered in the Stakeholder Analysis sheet.</p> <h4>Adversary (High Degree of Influence, Low Degree of Support)</h4> <h5><b>Action Steps:</b></h5> <ul> <li>Understand rationale for being undecided/not supporting change</li> <li>Manage uncertainties</li> </ul> <h5><b>Communication and Engagement Activities:</b></h5> <ul> <li>Engage in 1:1 coaching (especially for those with high influence)</li> </ul> <h4>Champion (High Degree of Influence, High Degree of Support)</h4> <h5><b>Action Steps:</b></h5> <ul> <li>Capitalize on their power to inspire</li> <li>Use them as change champions</li> </ul> <h5><b>Communication and Engagement activities:</b></h5> <ul> <li>Possible members of communication team </li> <li>Participate in pilot runs</li> </ul> <img src='src/assets/img/change management/Prepare/order46.jpg'>", 
       "col2": "<h4>Enthusiast (Low Degree of Influence, High Degree of Support)</h4> <h5><b>Action Steps:</b></h5> <ul> <li>Could be used as change champions in limited capacity</li> <li>Manage uncertainties</li> </ul> <h5><b>Communication and Engagement activities:</b></h5> <ul> <li>Involve through active participation</li> <li>Raise their awareness levels with fact-based information</li> </ul> <h4>Resistor (Low Degree of Influence, Low Degree of Support)</h4> <h5><b>Action Steps:</b></h5> <ul> <li>Understand rationale for opposition and resolve through awareness if possible </li> <li>Isolate “implacable opponents”</li> </ul> <h5><b>Communication and Engagement activities:</b></h5> <ul> <li>Coaching, brainstorming, negotiating</li> </ul> <h5><b>Replace, as a last resort</b></h5>"
-    },
+    },   
     {
       "order": 47,
       "layout":"image righthand portion",
@@ -463,8 +462,8 @@
       "layout": "col-2",
       "title": "Executing Change Impact Assessment for Change to be Successful",
       "subheader": "Gap Assessment | Overview of Gap Analysis", 
-      "col1": "<h4>Objectives and benefits of conducting a gap analysis</h4> <h5><b>Objectives</b></h5><h6><b>Identify Discrepancies</b></h6> <p>The main objective is to pinpoint gaps between the current and desired future states of the organization, including processes, performance, skills, and resources.</p> <h5><b>Prioritize Areas for Improvement</b></h5> <p>Identify the most critical gaps to address first, enabling a focused approach to change management.</p> <h5><b>Improve Stakeholder Communication</b></h5> <p>Develop a clear narrative about the need for change to engage and inform stakeholders on the objectives and benefits of the initiative.</p>", 
-      "col2": "<h5><b>Benefits</b></h5> <h6><b>Increased Efficiency</b></h6> <p>Identifying inefficiencies allows organizations to streamline processes and enhance operational efficiency.</p> <h5><b>Enhanced Performance</b></h5> <p>Addressing specific gaps can improve performance metrics, including productivity, quality, and customer satisfaction.</p> <h5><b>Proactive Problem Solving</b></h5> <p>This approach enables organizations to anticipate and address potential challenges before they escalate, fostering effective change management.</p>"
+      "col1": "<h4>Objectives and benefits of conducting a gap analysis</h4> <h4>Objectives</h4> <p><b>1. Identify Discrepancies</b></p> <p>The main objective is to pinpoint gaps between the current and desired future states of the organization, including processes, performance, skills, and resources.</p> <p><b>2. Prioritize Areas for Improvement</b></p> <p>Identify the most critical gaps to address first, enabling a focused approach to change management.</p> <p><b>3. Improve Stakeholder Communication</b></p> <p>Develop a clear narrative about the need for change to engage and inform stakeholders on the objectives and benefits of the initiative.</p>", 
+      "col2": "<h4>Benefits</h4> <p><b>1. Increased Efficiency</b></p> <p>Identifying inefficiencies allows organizations to streamline processes and enhance operational efficiency.</p> <p><b>2. Enhanced Performance</b></p> <p>Addressing specific gaps can improve performance metrics, including productivity, quality, and customer satisfaction.</p> <p><b>3. Proactive Problem Solving</b></p> <p>This approach enables organizations to anticipate and address potential challenges before they escalate, fostering effective change management.</p>"
     },
     {
       "order": 54,
@@ -500,24 +499,21 @@
     },
     {
       "order": 58,
-      "layout":"image righthand portion",
+      "layout":"col-1",
       "title": "Executing Change Impact Assessment for Change to be Successful",
-      "subheader": "Gap Assessment | Defining the Desired Future State", 
-      "image": "src/assets/img/change management/Prepare/order58.jpg"
+      "body": "<h4>Gap Assessment | Defining the Desired Future State</h4> <img src='src/assets/img/change management/Prepare/order58.jpg'/>" 
     },
     {
       "order": 59,
-      "layout":"image righthand portion",
+      "layout":"col-1",
       "title": "Executing Change Impact Assessment for Change to be Successful",
-      "subheader": "Gap Assessment | Defining the Desired Future State", 
-      "image": "src/assets/img/change management/Prepare/order59.jpg"
+      "body": "<h4>Gap Assessment | Defining the Desired Future State</h4> <img src='src/assets/img/change management/Prepare/order59.jpg'/>"
     },
     {
       "order": 60,
-      "layout":"image righthand portion",
+      "layout":"col-1",
       "title": "Executing Change Impact Assessment for Change to be Successful",
-      "subheader": "Gap Assessment | Defining the Desired Future State",
-      "image": "src/assets/img/change management/Prepare/order60.jpg"
+      "body": "<h4>Gap Assessment | Defining the Desired Future State</h4> <img src='src/assets/img/change management/Prepare/order60.jpg'/>"
     },
     {
       "order": 61,
@@ -548,8 +544,8 @@
       "layout": "col-1",
       "title": "Executing Change Impact Assessment for Change to be Successful",
       "subheader": "Change Impact Assessment | Introduction to Change Impact Analysis",
-      "body": "<h4>What is Change Impact Analysis in Change Management and Its Importance</h4> <ul> <li>Change impact analysis in change management is a systematic process that assesses the potential consequences of a proposed change within an organization. It identifies affected areas, including processes, systems, and personnel, and evaluates the extent of these impacts. </li> <li>This analysis is crucial for understanding the risks and benefits associated with the change, enabling informed decision-making. </li> <li>This analysis is crucial for understanding the risks and benefits associated with the change, enabling informed decision-making. </li> </ul>"
-    },
+      "body": "<h4>What is Change Impact Analysis in Change Management and Its Importance</h4> <ul> <li>Change impact analysis in change management is a systematic process that assesses the potential consequences of a proposed change within an organization. It identifies affected areas, including processes, systems, and personnel, and evaluates the extent of these impacts. </li> <li>This analysis is crucial for understanding the risks and benefits associated with the change, enabling informed decision-making. </li> <li>By anticipating the effects of change, organizations can develop strategies to mitigate negative impacts, enhance stakeholder communication, and ensure a smoother transition. Ultimately, effective change impact analysis fosters a proactive approach to change management, leading to greater acceptance and successful implementation of changes.</li> </ul>"
+    }, 
     {
       "order": 65,
       "layout": "col-2",
@@ -646,7 +642,7 @@
       "layout": "col-2",
       "title": "ADKAR Model",
       "subheader": "The Human Side of Change", 
-      "col1": "<p>Recognizing the human aspects of change management involves understanding how individuals and teams react to change and how to support them through the transition.</p>p>By focusing on these human aspects, organizations can enhance their change management efforts, leading to smoother transitions and more successful outcomes.</p><img src='src/assets/img/change management/Prepare/order77.jpg'/>",
+      "col1": "<p>Recognizing the human aspects of change management involves understanding how individuals and teams react to change and how to support them through the transition.</p> <p>By focusing on these human aspects, organizations can enhance their change management efforts, leading to smoother transitions and more successful outcomes.</p><img src='src/assets/img/change management/Prepare/order77.jpg'>",
       "col2": "<p>The emotional and psychological impact of change on individuals can be profound and multifaceted. Change, whether in a personal or organizational context, often triggers a range of emotional responses and psychological effects.</p><h4>Anxiety & Uncertainty</h4> <p>Change often brings uncertainty, leading to feelings of anxiety. Individuals may worry about their future roles, job security, or the ability to adapt to new situations.</p> <h4>Hope & Excitement</h4> <p>Change can evoke positive emotions, such as hope and excitement, as individuals anticipate new opportunities, growth, and potential improvements.</p> <h4>Identity Crisis</h4> <p>Significant changes can challenge an individual's sense of identity, leading to questions about purpose and self-worth, especially when roles or responsibilities are altered.</p> <h4>Resistance & Frustration</h4> <p>Individuals may resist change due to discomfort or skepticism, leading to frustration that can manifest as conflict or disengagement.</p> <h4>Stress & Burnout</h4> <p>Prolonged exposure to change without adequate support can lead to stress and burnout. Individuals may feel overwhelmed, leading to decreased productivity and well-being.</p>"
     }, 
     {
@@ -661,8 +657,8 @@
       "layout": "col-2",
       "title": "ADKAR Model",
       "subheader": "The Human Side of Change", 
-      "col1": "<h4>Definition, origins, and importance of the ADKAR Model</h4> <h4>ADKAR Model is…</h4> <ul> <li>the word “ADKAR” is an acronym for the five outcomes an individual needs to achieve for a change to be successful: Awareness, Desire, Knowledge, Ability and Reinforcement.</li> <li>the model was developed nearly two decades ago by Prosci founder Jeff Hiatt after studying the change patterns of more than 700 organizations.</li> <li>emphasizes that organizational change occurs only when individuals change. It focuses on guiding individuals through specific changes while addressing any roadblocks or barriers they encounter. </li> </ul>", 
-      "col2": "<ul> <li><b>Structured Approach</b>: The ADKAR Model provides a clear and structured approach to managing change, making it easier for organizations to plan and execute change initiatives systematically. The model helps you identify any elements that have been overlooked along the way. </li> <li><b>Focus on individual</b>: Unlike some change management models that focus primarily on organizational processes, ADKAR emphasizes the individual’s journey through change. This focus helps leaders understand and address the human aspects of change. </li> </ul>"
+      "col1": "<h4>Definition, origins, and importance of the ADKAR Model</h4> <h4>ADKAR Model...</h4> <ul> <li>the word “ADKAR” is an acronym for the five outcomes an individual needs to achieve for a change to be successful: Awareness, Desire, Knowledge, Ability and Reinforcement.</li> <li>the model was developed nearly two decades ago by Prosci founder Jeff Hiatt after studying the change patterns of more than 700 organizations.</li> <li>emphasizes that organizational change occurs only when individuals change. It focuses on guiding individuals through specific changes while addressing any roadblocks or barriers they encounter. </li> </ul>", 
+      "col2": "<ul> <li><b>Structured Approach</b> - The ADKAR Model provides a clear and structured approach to managing change, making it easier for organizations to plan and execute change initiatives systematically. The model helps you identify any elements that have been overlooked along the way. </li> <li><b>Focus on individual</b> - Unlike some change management models that focus primarily on organizational processes, ADKAR emphasizes the individual’s journey through change. This focus helps leaders understand and address the human aspects of change. </li> </ul>"
     },
     {
       "order": 80,
@@ -699,7 +695,7 @@
       "layout": "col-1",
       "title": "ADKAR Model: Case Study",
       "subheader": "Lapo Microfinance Bank: Shared Identity and Charismatic Relationship", 
-      "body": "<p>LAPO Microfinance Bank is Nigeria's largest national microfinance bank, founded and led by Godwin Ehigiamusoe. With around 5,500 employees and over 3 million customers, LAPO primarily uses group lending to provide financial services. The brand LAPO has become synonymous with credit among Nigerian micro-entrepreneurs, especially in the informal sector, representing a vital source of finance for many.</p> <p>In 2017, LAPO initiated an agent network, recruiting motivated agents from its engaged customer base, which fostered a shared identity and loyalty. However, internal resistance emerged as branch staff viewed agents as competitors, hindering the promotion of the digital channel. The limited scale of the pilot (50 agents) led to insufficient communication about the benefits of the agent network, resulting in misunderstandings among employees.</p> <p>To address this challenge, LAPO developed a change management strategy focused on enhancing communication and training to inform staff about the changes and their potential benefits, aiming to reduce resistance and maintain productivity during the agent network rollout.</p> <h4>Robust communication plan</h4> <p>The first step was to inform all staff via e-mail about the change management initiated and to open multiples channels of communication, including through videos and a dedicated e-mail address.</p> <h4>Addressing emotional aspects of change</h4> <p>The MD created a video to explain the changes and the impact of digitization, reassuring staff about job security. He shared his vision for LAPO, emphasized the urgency of supporting digital financial services, and used his leadership to gain internal support for the initiative.</p> <h4>Training Sessions</h4> <p>A change management plan was presented to LAPO's senior management, featuring training strategies for all 5,500 staff on digital channels. Regional facilitators conducted training sessions in Lagos and Benin City, which were then rolled out to branches. All employees received training, accompanied by evaluation forms to gather feedback and assess knowledge retention.</p> <h4>Constant feedback and adaptation</h4> <p>A dedicated change management email address facilitated employee feedback and reinforced messaging. Management regularly sends emails to support the change management strategy after training sessions.</p>"
+      "body": "<p>LAPO Microfinance Bank is Nigeria's largest national microfinance bank, founded and led by Godwin Ehigiamusoe. With around 5,500 employees and over 3 million customers, LAPO primarily uses group lending to provide financial services. The brand LAPO has become synonymous with credit among Nigerian micro-entrepreneurs, especially in the informal sector, representing a vital source of finance for many.</p> <p>In 2017, LAPO initiated an agent network, recruiting motivated agents from its engaged customer base, which fostered a shared identity and loyalty. However, internal resistance emerged as branch staff viewed agents as competitors, hindering the promotion of the digital channel. The limited scale of the pilot (50 agents) led to insufficient communication about the benefits of the agent network, resulting in misunderstandings among employees.</p> <p>To address this challenge, LAPO developed a change management strategy focused on enhancing communication and training to inform staff about the changes and their potential benefits, aiming to reduce resistance and maintain productivity during the agent network rollout.</p> <h4>Robust communication plan</h4> <p>The first step was to inform all staff via e-mail about the change management initiated and to open multiples channels of communication, including through videos and a dedicated e-mail address.</p> <h4>Addressing emotional aspects of change</h4> <p>The Managing Director (MD) created a video to explain the changes and the impact of digitization, reassuring staff about job security. He shared his vision for LAPO, emphasized the urgency of supporting digital financial services, and used his leadership to gain internal support for the initiative.</p> <h4>Training Sessions</h4> <p>A change management plan was presented to LAPO's senior management, featuring training strategies for all 5,500 staff on digital channels. Regional facilitators conducted training sessions in Lagos and Benin City, which were then rolled out to branches. All employees received training, accompanied by evaluation forms to gather feedback and assess knowledge retention.</p> <h4>Constant feedback and adaptation</h4> <p>A dedicated change management email address facilitated employee feedback and reinforced messaging. Management regularly sends emails to support the change management strategy after training sessions.</p>"
     },
     {
       "order": 85,
@@ -716,7 +712,7 @@
     {
       "order": 87,
       "title": "Module Completion",
-      "body": "<h4>Congratulations on completing the Change Management Lessons module!</h4><p>You've now gained a solid understanding of the essential terms and concepts for change management fundamentals.</p><p>As you move forward, remember that the principles and strategies you've learned here are vital tools for ensuring the  health and success of any project or organization. By applying these techniques, you'll be better equipped to make informed decisions</p><p>We hope this module has empowered you with the knowledge and confidence to tackle any challenge that comes your way. Keep honing your skills, stay diligent in your planning, and continue to strive for excellence in managing change.</p>", 
+      "body": "<h4>Congratulations on completing the Prepare Approach module!</h4><p>You've now gained a solid understanding of the essential terms and concepts for change management fundamentals.</p><p>As you move forward, remember that the principles and strategies you've learned here are vital tools for ensuring the  health and success of any project or organization. By applying these techniques, you'll be better equipped to make informed decisions</p><p>We hope this module has empowered you with the knowledge and confidence to tackle any challenge that comes your way. Keep honing your skills, stay diligent in your planning, and continue to strive for excellence in managing change.</p>", 
       "image":"src/assets/img/general images/ModuleCompletion.jpg"
     },
     {
