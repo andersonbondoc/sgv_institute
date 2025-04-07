@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { IonCard, IonInput, IonIcon, IonListHeader } from "@ionic/react";
 import {
   checkmarkCircleOutline,
@@ -9,6 +9,8 @@ import { ToastError, ToastSuccess } from "./Toast";
 import {
   getUserByEmail,
   getUserByEmailAndPassword,
+  onAccept,
+  updateHasAccepted,
 } from "../queries/userQueries";
 import PrivacyModal from "./PrivacyComponent";
 
@@ -24,12 +26,14 @@ const SignInModal: React.FC<SignInModalProps> = ({
   errorToast,
 }) => {
   const [email, setEmail] = useState("");
+  const [userid, setUserId] = useState(0);
   const [password, setPassword] = useState("");
   const [isEmailValid, setIsEmailValid] = useState<boolean | null>(null);
   const [showPrivacyModal, setShowPrivacyModal] = useState(false);
   const [hasAcceptedPolicy, setHasAcceptedPolicy] = useState(false);
 
   const [isAccepted, setIsAccepted] = useState(false);
+
   const validateEmail = async () => {
     const { exists, error } = await getUserByEmail(email);
     console.log("exists: ", exists);
@@ -42,7 +46,12 @@ const SignInModal: React.FC<SignInModalProps> = ({
       successToast("Email validated successfully.", 3000);
     }
   };
-
+  useEffect(() => {
+    const fetchPrivacy = async () => {
+      await updateHasAccepted(setIsAccepted, userid);
+    };
+    fetchPrivacy();
+  }, [userid]);
   const handleUserLogin = async () => {
     const { exists, error } = await getUserByEmail(email);
 
@@ -60,6 +69,7 @@ const SignInModal: React.FC<SignInModalProps> = ({
       if (success) {
         successToast("Login successfully", 2000);
         const hasUserCheckedPrivacyContent = user.hasAcceptedPrivacy;
+        setUserId(user.userid);
         setShowPrivacyModal(!hasUserCheckedPrivacyContent);
         localStorage.setItem("user", JSON.stringify(user));
       } else {
@@ -67,8 +77,11 @@ const SignInModal: React.FC<SignInModalProps> = ({
       }
     }
   };
-  const handleAccept = () => {
+  const handleAccept = async () => {
+    const updateUser = await onAccept(userid);
+    console.log("updateUser: ", updateUser);
     setShowPrivacyModal(false);
+    onClose();
     setTimeout(() => {
       window.location.reload();
     }, 1000);

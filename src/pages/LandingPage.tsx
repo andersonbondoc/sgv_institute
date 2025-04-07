@@ -18,7 +18,9 @@ import {
 import {
   getUserByEmail,
   getUserByEmailAndPassword,
+  onAccept,
   supabaseSendEmail,
+  updateHasAccepted,
 } from "../queries/userQueries";
 import { ToastError, ToastSuccess } from "../components/Toast";
 import { supabase } from "../queries/supabaseClient";
@@ -44,10 +46,28 @@ const LandingPage: React.FC = () => {
   const [hasAcceptedPolicy, setHasAcceptedPolicy] = useState(false);
 
   const [isAccepted, setIsAccepted] = useState(false);
+
+  const [userid, setUserId] = useState(0);
   useEffect(() => {
     setEmail("");
     setPassword("");
   }, []);
+  useEffect(() => {
+    const isLogin = localStorage.getItem("user");
+    if (!isLogin) {
+      console.error("User not found");
+      return;
+    }
+    const user = JSON.parse(isLogin);
+    setUserId(user.userid);
+    const hasUserCheckedPrivacyContent = user.hasAcceptedPrivacy;
+    setShowPrivacyModal(!hasUserCheckedPrivacyContent);
+    console.log("user.userid: ", user.userid);
+    const fetchPrivacy = async () => {
+      await updateHasAccepted(setIsAccepted, user.userid);
+    };
+    fetchPrivacy();
+  }, [userid]);
 
   const handleTakeCourse = (courseId: string) => {
     const isLogin = localStorage.getItem("user");
@@ -56,6 +76,7 @@ const LandingPage: React.FC = () => {
       return;
     }
     const user = JSON.parse(isLogin);
+    setUserId(user.userid);
     const hasUserCheckedPrivacyContent = user.hasAcceptedPrivacy;
     setShowPrivacyModal(!hasUserCheckedPrivacyContent);
     if (isLogin) {
@@ -124,8 +145,15 @@ const LandingPage: React.FC = () => {
     setIsCardOpen(true);
   };
 
-  const handleAccept = () => {
+  const handleAccept = async () => {
+    console.log("test", userid);
+    const updateUser = await onAccept(userid);
+    console.log("updateUser: ", updateUser);
     setShowPrivacyModal(false);
+    setIsCardOpen(false);
+    // setTimeout(() => {
+    //   window.location.reload();
+    // }, 1000);
   };
 
   const handleClose = () => {

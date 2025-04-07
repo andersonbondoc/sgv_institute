@@ -128,3 +128,34 @@ export const supabaseSendEmail = async (email: string) => {
 
   return { success: true };
 };
+
+export const onAccept = async (userId: number) => {
+  const { data, error } = await supabase
+    .from("users")
+    .update({ hasAcceptedPrivacy: true })
+    .eq("userid", userId);
+  console.log(data, error);
+  if (error) {
+    console.error("Error updating privacy acceptance:", error);
+  } else {
+    console.log("Privacy acceptance updated:", data);
+  }
+};
+
+export const updateHasAccepted = async (
+  setIsAccepted: (value: boolean) => void,
+  userid: number
+) => {
+  const { data, error } = await supabase
+    .from("users")
+    .select("hasAcceptedPrivacy")
+    .eq("id", userid)
+    .single();
+
+  if (error) {
+    console.error("Error fetching privacy status:", error);
+    setIsAccepted(false);
+  } else if (data) {
+    setIsAccepted(!!data.hasAcceptedPrivacy);
+  }
+};

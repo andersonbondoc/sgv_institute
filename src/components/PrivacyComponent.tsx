@@ -22,7 +22,7 @@ const PrivacyModal: React.FC<PrivacyModalProps> = ({
 
         <div className="text-sm space-y-6 mb-8 overflow-y-auto max-h-[60vh] text-gray-800 dark:text-gray-300">
           <p>
-            <strong>Date Updated:</strong> April 7, 2024
+            <strong>Date Updated:</strong> April 8, 2024
           </p>
           <p>
             Welcome to SGV FSO Academy ("Application," "we," "us," or "our").
@@ -67,59 +67,198 @@ const PrivacyModal: React.FC<PrivacyModalProps> = ({
               services.
             </li>
           </ul>
+          <p>
+            You can manage cookie preferences through your browser settings.
+          </p>
           <h3 className="font-semibold pt-2">
             4. How We Share Personal Information
           </h3>
+          <ul className="list-disc list-inside ml-4">
+            <li>
+              {" "}
+              We do not collect personal information or any information outside
+              of the intended use of this Application.
+            </li>
+          </ul>
+          <h3 className="font-semibold pt-2">5. How We Secure Information</h3>
           <p>
-            We do not sell or rent personal information. However, we may share
-            information with legal authorities if required by law.
+            We take appropriate technical and organizational measures to protect
+            personal information from unauthorized access, alteration,
+            disclosure, or destruction. These include:
           </p>
-          <h3 className="font-semibold pt-2">
-            5. Location of Personal Information
-          </h3>
-          <p>
-            Your data may be stored on secure servers located in different
-            jurisdictions...
-          </p>
-          <h3 className="font-semibold pt-2">6. How We Secure Information</h3>
           <ul className="list-disc list-inside ml-4">
             <li>Encryption of sensitive data.</li>
             <li>Secure access controls and authentication measures.</li>
             <li>Regular security audits and updates.</li>
           </ul>
-          <h3 className="font-semibold pt-2">7. Access and Choice</h3>
+          <h3 className="font-semibold pt-2">6. Access and Choice</h3>
+          <p>You have the right to:</p>
           <ul className="list-disc list-inside ml-4">
             <li>Access, update, or correct your personal information.</li>
             <li>Request deletion of your account and associated data.</li>
           </ul>
-          <h3 className="font-semibold pt-2">
-            8. Retention of Personal Information
-          </h3>
-          <p>We retain personal information as long as necessary...</p>
-          <h3 className="font-semibold pt-2">
-            9. Contact, Notices, and Revisions
-          </h3>
           <p>
-            Contact us at Ruben.D.Simon@ph.ey.com or SGV Building 1, 6760 Ayala
-            Avenue, 1200 Makati City, Metro Manila.
+            You can manage these settings in your account or contact us for
+            assistance.
           </p>
           <h3 className="font-semibold pt-2">
-            10. Philippine Data Privacy Framework
+            7. Retention of Personal Information
           </h3>
-          <p>We comply with the Philippine Data Privacy Act of 2012...</p>
+          <p>
+            We retain personal information as long as necessary for not longer
+            than 6 months upon access of this web-based learning tool to fulfill
+            our services, comply with legal obligations, and resolve disputes.
+            When no longer needed, data is securely deleted or anonymized.
+          </p>
           <h3 className="font-semibold pt-2">
-            11. Examples of Information Collected
+            8. Contact, Notices, and Revisions
           </h3>
-          <ul className="list-disc list-inside ml-4">
-            <li>Account Information: Name and password</li>
-            <li>Learning Data: Course progress and exam scores</li>
-          </ul>
+          <p>
+            If you have any questions about this Privacy Policy, you may contact
+            us at: Email: Ruben.D.Simon@ph.ey.com Address: SGV Building 1 6760
+            Ayala Avenue 1200 Makati City Metro Manila
+          </p>
+          <p>
+            If you have any questions about this Privacy Policy, you may contact
+            us at: Email: Ruben.D.Simon@ph.ey.com Address: SGV Building 1 6760
+            Ayala Avenue 1200 Makati City Metro Manila
+          </p>
+          <p>
+            We may update this policy from time to time. Any changes will be
+            posted with a revised "Date Updated."
+          </p>
+          <h3 className="font-semibold pt-2">
+            9. Philippine Data Privacy Framework
+          </h3>
+          <p>
+            We comply with the Philippine Data Privacy Act of 2012 (RA 10173)
+            and related regulations. Users have rights regarding data access,
+            correction, and security as provided by Philippine law.
+          </p>
+          <h3 className="font-semibold pt-2">
+            10. Examples of Information Collected
+          </h3>
+          <table className="min-w-full border-collapse">
+            <thead>
+              <tr>
+                <th className="border px-4 py-2">Category</th>
+                <th className="border px-4 py-2">Examples</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td className="border px-4 py-2">Account Information</td>
+                <td className="border px-4 py-2">Name and password</td>
+              </tr>
+              <tr>
+                <td className="border px-4 py-2">Account Information</td>
+                <td className="border px-4 py-2">
+                  Course progress and exam scores
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h3 className="font-semibold pt-2">
+            By using our Web-Based Learning Application, you agree to the terms
+            outlined in this Privacy Policy.
+          </h3>
           <h3 className="font-semibold pt-2">
             Terms and Conditions for Web-Based Learning Application
           </h3>
           <p>
-            <strong>Last Updated:</strong> April 7, 2025
+            <strong>Last Updated:</strong> April 8, 2025
           </p>
+          <h3 className="font-semibold pt-2">1. Acceptance of Terms</h3>
+          <ul className="list-disc list-inside ml-4">
+            <li>
+              {" "}
+              By accessing or using this SGV FSO Web-Based Learning (WBL)
+              application (the "Service"), you agree to be bound by these Terms
+              and Conditions. If you do not agree, please do not use the
+              Service.
+            </li>
+          </ul>
+          <h3 className="font-semibold pt-2">2. Use of Service</h3>
+          <ul className="list-disc list-inside ml-4">
+            <li>
+              {" "}
+              You may use the Service for learning purposes. You agree to use
+              the Service in accordance with all applicable laws and not to
+              misuse it in any way that could damage, disable, or impair its
+              functionality.
+            </li>
+          </ul>
+          <h3 className="font-semibold pt-2">3. User Accounts</h3>
+          <ul className="list-disc list-inside ml-4">
+            <li>
+              {" "}
+              You are responsible for maintaining the confidentiality of your
+              login information. You agree to notify us immediately of any
+              unauthorized use of your account.
+            </li>
+          </ul>
+          <h3 className="font-semibold pt-2">
+            4. Content and Intellectual Property
+          </h3>
+          <ul className="list-disc list-inside ml-4">
+            <li>
+              {" "}
+              All content provided through the Service, including text,
+              graphics, logos, and course materials, is the intellectual
+              property of the Service provider. You may not copy, reproduce,
+              distribute, or create derivative works without explicit
+              permission.
+            </li>
+          </ul>
+          <h3 className="font-semibold pt-2">5. Privacy</h3>
+          <ul className="list-disc list-inside ml-4">
+            <li>
+              {" "}
+              Your use of the Service is subject to our Privacy Policy, which
+              describes how we collect, use, and protect your personal
+              information.
+            </li>
+          </ul>
+          <h3 className="font-semibold pt-2">6. Disclaimer of Warranties</h3>
+          <ul className="list-disc list-inside ml-4">
+            <li>
+              {" "}
+              The Service is provided "as is" without warranties of any kind,
+              either express or implied. We do not guarantee that the Service
+              will be error-free, secure, or available always.
+            </li>
+          </ul>
+          <h3 className="font-semibold pt-2">7. Limitation of Liability</h3>
+          <ul className="list-disc list-inside ml-4">
+            <li>
+              {" "}
+              In no event shall the Service provider be liable for any indirect,
+              incidental, special, or consequential damages arising from the use
+              or inability to use the Service, even if advised of the
+              possibility of such damages.
+            </li>
+          </ul>
+          <h3 className="font-semibold pt-2">8. Changes to Terms</h3>
+          <ul className="list-disc list-inside ml-4">
+            <li>
+              {" "}
+              We reserve the right to modify these Terms and Conditions at any
+              time. Any changes will be posted on the website, and your
+              continued use of the Service constitutes acceptance of the updated
+              terms.
+            </li>
+          </ul>
+          <h3 className="font-semibold pt-2">9. Governing Law</h3>
+          <ul className="list-disc list-inside ml-4">
+            <li>
+              {" "}
+              These Terms and Conditions are governed by and construed in
+              accordance with the laws of the jurisdiction in which the Service
+              provider operates, without regard to its conflict of law
+              provisions.
+            </li>
+          </ul>
           <p>
             By accessing or using this SGV FSO Web-Based Learning (WBL)
             application (the "Service"), you agree to be bound by these Terms
