@@ -7,6 +7,7 @@ import {
   IonListHeader,
   IonInput,
   IonCard,
+  IonAlert,
 } from "@ionic/react";
 import { useHistory } from "react-router-dom";
 import {
@@ -26,7 +27,7 @@ import { ToastError, ToastSuccess } from "../components/Toast";
 import { supabase } from "../queries/supabaseClient";
 import SignInModal from "../components/SignIn";
 import PrivacyModal from "../components/PrivacyComponent";
-
+import PrivacyPolicy from "../components/Modal";
 const LandingPage: React.FC = () => {
   const history = useHistory();
   const [courses, setCourses] = useState<any[]>([]);
@@ -48,6 +49,9 @@ const LandingPage: React.FC = () => {
   const [isAccepted, setIsAccepted] = useState(false);
 
   const [userid, setUserId] = useState(0);
+
+  const [showModal, setShowModal] = useState(true);
+
   useEffect(() => {
     setEmail("");
     setPassword("");
@@ -146,14 +150,15 @@ const LandingPage: React.FC = () => {
   };
 
   const handleAccept = async () => {
-    console.log("test", userid);
-    const updateUser = await onAccept(userid);
-    console.log("updateUser: ", updateUser);
-    setShowPrivacyModal(false);
-    setIsCardOpen(false);
-    // setTimeout(() => {
-    //   window.location.reload();
-    // }, 1000);
+    if (userid === 0) {
+      setShowPrivacyModal(false);
+      setIsCardOpen(false);
+    } else {
+      const updateUser = await onAccept(userid);
+      setShowPrivacyModal(false);
+      setIsCardOpen(false);
+      setShowModal(false);
+    }
   };
 
   const handleClose = () => {
@@ -164,6 +169,12 @@ const LandingPage: React.FC = () => {
       <IonContent className="p-6 bg-gradient-to-b from-purple-50 via-pink-50 to-white relative">
         <ToastSuccess message={successMessage} show={showSuccessMessage} />
         <ToastError message={errorMessage} show={showErrorMessage} />
+        <PrivacyPolicy
+          isOpen={showModal}
+          onClose={() => setShowModal(false)}
+          title="Privacy"
+          showPrivacyModal={() => setShowPrivacyModal(true)}
+        />
         {isCardOpen && (
           <SignInModal
             onClose={() => setIsCardOpen(false)}
