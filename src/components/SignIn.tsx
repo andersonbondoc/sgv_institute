@@ -72,6 +72,9 @@ const SignInModal: React.FC<SignInModalProps> = ({
         setUserId(user.userid);
         setShowPrivacyModal(!hasUserCheckedPrivacyContent);
         localStorage.setItem("user", JSON.stringify(user));
+        setTimeout(() => {
+          window.location.reload();
+        }, 1000);
       } else {
         errorToast("Error", 3000);
       }

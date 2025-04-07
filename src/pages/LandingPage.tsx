@@ -62,6 +62,7 @@ const LandingPage: React.FC = () => {
       console.error("User not found");
       return;
     }
+    setShowModal(!isLogin);
     const user = JSON.parse(isLogin);
     setUserId(user.userid);
     const hasUserCheckedPrivacyContent = user.hasAcceptedPrivacy;
