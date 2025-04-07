@@ -223,8 +223,8 @@
     "layout": "col-2",
     "title": "New Application Stage",
     "subheader": "Know Your Customer | Understanding the KYC Process | Enhanced Due Diligence",
-    "col1": "<h4>Bangko Sentral ng Pilipinas Manual of Regulations for Banks</h4> <h5><b>Enhanced Due Diligence</b></h5> <p>(b) In case of entities:</p> <ul> <li>prior or existing bank references;</li> <li>the name, present address, nationality, date of birth, nature of work, contact number and source of funds of each of  the  primary  officers (e.g., President, Treasurer);</li> <li>volume of assets, other information available through public databases or internet and supporting information on the intended nature of the business relationship, source of funds or source of wealth of the customer (ITR, Audited Financial Statement, Loan Application, Deed of Donation, Deed of Sale, etc.); and</li> <li>reasons for intended or performed transactions</li> </ul> <p><b>2.</b> Conduct validation procedures in accordance with this Section on (Customer acceptance and identification policy) on any or all of the information provided;</p> <p><b>3.</b> Secure senior management approval to commence or continue business relationship/transacting with the customer;</p> <p><b>4.</b> Conduct enhanced ongoing monitoring of the business relationship, by, among others, increasing the number and timing of controls applied, and selecting patterns of transactions that need further examination;</p> <p><b>5.</b> Require the first payment to be carried out through an account in the customer’s name with a bank subject to similar CDD standards, where applicable; and</p> <p><b>6.</b> Perform such other measures as the covered person may deem reasonable or necessary.</p>", 
-    "col2": "<p>Where additional information cannot be obtained, or any information or document provided is false or falsified, or result of the validation process is unsatisfactory, the covered person shall deny banking relationship with the customer without prejudice to the reporting of a suspicious transaction to the AMLC when circumstances warrant.</p>"
+    "col1": "<h4>Bangko Sentral ng Pilipinas Manual of Regulations for Banks</h4> <h5><b>Enhanced Due Diligence</b></h5> <p>(b) In case of entities:</p> <ul> <li>prior or existing bank references;</li> <li>the name, present address, nationality, date of birth, nature of work, contact number and source of funds of each of  the  primary  officers (e.g., President, Treasurer);</li> <li>volume of assets, other information available through public databases or internet and supporting information on the intended nature of the business relationship, source of funds or source of wealth of the customer (ITR, Audited Financial Statement, Loan Application, Deed of Donation, Deed of Sale, etc.); and</li> <li>reasons for intended or performed transactions</li> </ul> <p><b>2.</b> Conduct validation procedures in accordance with this Section on (Customer acceptance and identification policy) on any or all of the information provided;</p> <p><b>3.</b> Secure senior management approval to commence or continue business relationship/transacting with the customer;</p> <p><b>4.</b> Conduct enhanced ongoing monitoring of the business relationship, by, among others, increasing the number and timing of controls applied, and selecting patterns of transactions that need further examination;</p>", 
+    "col2": " <p><b>5.</b> Require the first payment to be carried out through an account in the customer’s name with a bank subject to similar CDD standards, where applicable; and</p> <p><b>6.</b> Perform such other measures as the covered person may deem reasonable or necessary.</p><p>Where additional information cannot be obtained, or any information or document provided is false or falsified, or result of the validation process is unsatisfactory, the covered person shall deny banking relationship with the customer without prejudice to the reporting of a suspicious transaction to the AMLC when circumstances warrant.</p>"
   }, 
   {
     "order": 26,
@@ -329,7 +329,7 @@
     "title": "New Application Stage",
     "subheader": "Setting up the Application Form and Listing the Suitable Documentary Requirements",
     "col1": "<h4>Clarity on Mandatory vs. Optional Fields</h4> <h5><b>Mandatory Fields</b></h5> <p>Mandatory fields are those that must be completed by the applicant before they can proceed with the onboarding process. These fields are essential for the bank to verify the identity of the customer and comply with regulatory requirements. <b>The following are its importance:</b></p> <ul> <li><b>Regulatory Compliance</b> - Banks are required to collect certain information to comply with Know Your Customer (KYC) regulations and anti-money laundering (AML) laws.</li> <li><b>Risk Management</b> - Collecting essential data helps banks assess the risk associated with onboarding a new customer.</li> <li><b>User Trust</b> - Clearly indicating mandatory fields helps build trust with users, as they understand what information is necessary for their application to be processed.</li> </ul>",
-    "col2": "<h5><b>Optional Fields</b></h5> <p>Optional fields are those that the applicant can choose to complete but are not required to submit the application. These fields may enhance the bank's understanding of the customer but are not critical for the onboarding process. <b>The following are its importance:</b></p> <ul> <li><b>User Experience</b> - Optional fields can improve the user experience by allowing customers to provide additional information that may help the bank tailor services to their needs without overwhelming them with too many required fields.</li> <li><b>Data Enrichment</b> - Collecting optional information can help banks gain insights into customer preferences and behaviors, aiding in personalized marketing and service offerings.</li> <li><b>Friction Reduction,/b> - By not making too many fields mandatory, banks can reduce friction in the onboarding process, leading to higher completion rates.</li> </ul>"
+    "col2": "<h5><b>Optional Fields</b></h5> <p>Optional fields are those that the applicant can choose to complete but are not required to submit the application. These fields may enhance the bank's understanding of the customer but are not critical for the onboarding process. <b>The following are its importance:</b></p> <ul> <li><b>User Experience</b> - Optional fields can improve the user experience by allowing customers to provide additional information that may help the bank tailor services to their needs without overwhelming them with too many required fields.</li> <li><b>Data Enrichment</b> - Collecting optional information can help banks gain insights into customer preferences and behaviors, aiding in personalized marketing and service offerings.</li> <li><b>Friction Reduction</b> - By not making too many fields mandatory, banks can reduce friction in the onboarding process, leading to higher completion rates.</li> </ul>"
   },
   {
     "order": 40,
@@ -385,11 +385,10 @@
   },
   {
     "order": 47,
-    "layout": "image righthand portion",
+    "layout": "col-1",
     "title": "New Application Stage",
     "subheader": "Automating the New Application Stage",
-    "body": "<h4>Smart Contracts</h4> <p>A contract is a meeting of the minds between two parties that takes place when an offer by one party is accepted by the other party. In terms of smart contracts, the following key steps are applied:</p>",
-    "image": "src/assets/img/digital_customer_onboarding/new_application/order47.jpg"
+    "body": "<h4>Smart Contracts</h4> <p>A contract is a meeting of the minds between two parties that takes place when an offer by one party is accepted by the other party. In terms of smart contracts, the following key steps are applied:</p><img src='src/assets/img/digital_customer_onboarding/new_application/order47.jpg'/>"
   },
   {
     "order": 48, 
@@ -509,11 +508,10 @@
   },
   {
     "order": 63,
-    "layout": "col-2",
+    "layout": "col-1",
     "title": "Application Screening",
     "subheader": "Financial Crimes and Fraud Detection Measures",
-    "col1": "<h4>Financial Crimes: Terrorism Financing</h4> <b>Under Section 3(j), Terrorist Acts refer to the following:</b></h6> <p>1. Any act in <b>violation of Section 3 or Section 4</b> of the Human Security Act of 2007</p>",
-    "col2": "<p>2. Any other act intended to <b>cause death or serious bodily injury to a civilian, or to any other person</b> not taking an active part in the hostilities in a situation of armed conflict, when the purpose of such act, by its nature or context, is to intimidate a population, or to compel a government or an international organization to do or to abstain from doing any act</p>"
+    "body": "<h4>Financial Crimes: Terrorism Financing</h4> <b>Under Section 3(j), Terrorist Acts refer to the following:</b></h6> <p>1. Any act in <b>violation of Section 3 or Section 4</b> of the Human Security Act of 2007</p><p>2. Any other act intended to <b>cause death or serious bodily injury to a civilian, or to any other person</b> not taking an active part in the hostilities in a situation of armed conflict, when the purpose of such act, by its nature or context, is to intimidate a population, or to compel a government or an international organization to do or to abstain from doing any act</p>"
   },
   {
     "order": 64,
@@ -720,11 +718,10 @@
   },
   {
     "order": 91,
-    "layout": "col-2",
+    "layout": "col-1",
     "title": "Application Screening",
     "subheader": "Valuing Your Customer's Privacy",
-    "col1": "<h4>Data Security</h4> <p>Pertains to the measures and practices implemented to safeguard data from unauthorized access, breaches, and various threats</p>",
-    "col2": "<h4>Data Privacy</h4> <p>In contrast, data privacy focuses on the appropriate handling, processing, and use of personal data. It encompasses individuals' rights to manage their personal information, including how it is collected, stored, and shared.</p>"
+    "body": "<h4>Data Security</h4> <p>Pertains to the measures and practices implemented to safeguard data from unauthorized access, breaches, and various threats</p><h4>Data Privacy</h4> <p>In contrast, data privacy focuses on the appropriate handling, processing, and use of personal data. It encompasses individuals' rights to manage their personal information, including how it is collected, stored, and shared.</p>"
   },
   {
     "order": 92,
