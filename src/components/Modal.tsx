@@ -19,15 +19,13 @@ const MyModal: React.FC<MyModalProps> = ({
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-60">
-      <div className="bg-white dark:bg-gray-800 rounded-2xl max-w-lg w-full p-6 shadow-xl">
+      <div className="bg-white rounded-2xl max-w-lg w-full p-6 shadow-xl">
         {title && (
           <div className="mb-4">
-            <h2 className="text-xl font-bold text-gray-900 dark:text-gray-100">
-              {title}
-            </h2>
+            <h2 className="text-xl font-bold text-black">{title}</h2>
           </div>
         )}
-        <div className="mb-6 text-white">
+        <div className="mb-6 text-black">
           By using this application, you agree to our{" "}
           <a onClick={() => showPrivacyModal()}>
             <u>Privacy Policy</u>
