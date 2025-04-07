@@ -145,7 +145,7 @@
       },
       {
         "order": 6,
-        "layout": "col-3",
+        "layout": "col-2",
         "title": "Data",
         "subheader": "Importance of Data",
         "col1": "<p>Data plays a crucial role in various aspects of modern organizations and society as a whole. Its importance can be discussed through several key dimensions, particularly in the context of data governance frameworks. Here’s a thorough exploration of the importance of data.</p> <h4>Decision-making</h4> <ul> <li><b>Informed Decision</b> - Data provides the necessary insights that help organizations make informed decisions. By analyzing data, businesses can identify trends, forecast outcomes, and evaluate the effectiveness of their strategies.</li> <li><b>Risk Management</b> - Data helps in assessing risks and making decisions that minimize potential losses. Organizations can analyze historical data to predict future risks and implement measures to mitigate them.</li> </ul>",
@@ -221,7 +221,7 @@
         "title": "Data Governance",
         "subheader": "Key Components",
         "col1": "<h4>Regulatory Compliance</h4> <p><b>1. Policies and Standards</b> - Establish policies and standards to effectively manage, regulate, evaluate, oversee, and independently verify data to guarantee that it is properly governed, accurate, comprehensive, timely, and maintained in a private and secure manner.</p> <p><b>2. Accountability and Ownership</b> - Outline roles and responsibilities to ensure the effective execution of policies and standards.</p> <p><b>3. Data Risks and Controls</b></p> <ul> <li>Demonstrate that data risks are recognized and effectively addressed through controls that align with the organization's risk tolerance across the entire data supply chain.</li> <li>Verify, monitor, and report that data in use is suitable for its intended purpose (e.g., meets the necessary quality standards) and that any resulting issues are acknowledged and managed appropriately.</li> </ul>",
-        "col2": "<h4>Efficiency Enablement</h4> <p><b>4. Metadata and Lineage - Gather, store, and oversee the information needed to comprehend data assets, which includes defining data elements, identifying the sources and usage of data, understanding its relationship to essential processes, assessing risks and controls, and clarifying roles and responsibilities, among other aspects.</p> <p><b>5. Data Sourcing, Storage, and Use</b> - Define the criteria for managing data from its origin (sourcing) through the entire data supply chain, encompassing aspects such as storage and utilization.</p> <p><b>Master / Reference Data</b> - Provide guidance for the management and necessary integration of data deemed as “master” or “reference” data within the organization, including the definitions of these concepts, relevant processes, standards, and more.</p> <p><b>7. Privacy, Security, and Ethics</b></p> <ul> <li>Establish requirements to ensure that data remains private and secure.</li> <li>Govern the ethical access and proper utilization of data and monitor to ensure that the results of data access and usage adhere to ethical standards.</li> </ul>",
+        "col2": "<h4>Efficiency Enablement</h4> <p> <b>4. Metadata and Lineage</b> - Gather, store, and oversee the information needed to comprehend data assets, which includes defining data elements, identifying the sources and usage of data, understanding its relationship to essential processes, assessing risks and controls, and clarifying roles and responsibilities, among other aspects. </p> <p> <b>5. Data Sourcing, Storage, and Use</b> - Define the criteria for managing data from its origin (sourcing) through the entire data supply chain, encompassing aspects such as storage and utilization. </p> <p> <b>Master / Reference Data</b> - Provide guidance for the management and necessary integration of data deemed as “master” or “reference” data within the organization, including the definitions of these concepts, relevant processes, standards, and more. </p> <p><b>7. Privacy, Security, and Ethics</b></p> <ul> <li> Establish requirements to ensure that data remains private and secure. </li> <li> Govern the ethical access and proper utilization of data and monitor to ensure that the results of data access and usage adhere to ethical standards. </li> </ul>",
         "col3": "<h4>Sustainability</h4> <p><b>8. Issue Management</b> - Define the requirements and procedures for identifying, assessing, prioritizing, managing, and resolving data-related issues.</p> <p><b>Change Management</b> - Establish a standardized process for effectively identifying, documenting, escalating, and addressing organizational changes related to data.</p> <p><b>Data Training and Communications</b></p> <ul> <li>Verify that data owners and users understand requirements for data and are aware of changes in accountability, policies, and standards.</li> <li>Ensure that effective communication practices are in place to support continuous dialogue regarding data management throughout the organization.</li> </ul>"
       },
       {
@@ -267,7 +267,7 @@
         "title": "Data Governance of Digital Solutions – From Mapping to Managing the Project",
         "subheader": "Data Governance Frameworks",
         "body": "<h4>Learning Objective</h4> <p>At the end of this lesson, you will be able to:</p> <ul> <li>Identify and describe key components of a data governance framework</li> <li>Compare and contrast different data governance frameworks and their applicability to various organizational contexts</li></ul>",
-        "image": "src/assets/img/data_gov/order19.jpg"
+        "image": "src/assets/img/data_gov/order20.jpg"
       },
       {
         "order": 21,
@@ -282,14 +282,14 @@
         "layout": "col-1",
         "title": "The PPT Framework",
         "subheader": "Process, Policies, & Standards (P)",
-        "body": "<p>Setting up data governance policies involves several key steps:</p> <img src='src/assets/img/data_gov/order21.jpg'/>"
+        "body": "<p>Setting up data governance policies involves several key steps:</p> <img src='src/assets/img/data_gov/order22.jpg'/>"
       },
       {
         "order": 23,
         "layout": "col-1",
         "title": "The PPT Framework",
         "subheader": "Process, Policies, & Standards (P)",
-        "body": "<p>Setting up data governance policies involves several key steps:</p> <img src='src/assets/img/data_gov/order22.jpg'/>"
+        "body": "<p>Setting up data governance policies involves several key steps:</p> <img src='src/assets/img/data_gov/order23.jpg'/>"
       },
       {
         "order": 24,
@@ -337,14 +337,14 @@
         "layout": "col-1",
         "title": "The PPT Framework",
         "subheader": "People & Organizations (P)",
-        "body": "<p>Data Governance Models are a range of governance structures that can be used to implement and manage data governance, such as the following:</p> <img src='src/assets/img/data_gov/order28.jpg'/>"
+        "body": "<p>Data Governance Models are a range of governance structures that can be used to implement and manage data governance, such as the following:</p> <img src='src/assets/img/data_gov/order29.jpg'/>"
       },
       {
         "order": 30,
         "layout": "col-1",
         "title": "The PPT Framework",
         "subheader": "People & Organizations (P)",
-        "body": "<p>Data Governance Models are a range of governance structures that can be used to implement and manage data governance, such as the following:</p> <img src='src/assets/img/data_gov/order29.jpg'/>"
+        "body": "<p>Data Governance Models are a range of governance structures that can be used to implement and manage data governance, such as the following:</p> <img src='src/assets/img/data_gov/order30.jpg'/>"
       },
       {
         "order": 31,
@@ -359,7 +359,7 @@
         "layout": "col-1",
         "title": "The PPT Framework",
         "subheader": "Tools & Technology (T)",
-        "body": "<p>The technology aspect of data governance encompasses the tools and systems that will support digital transformation and data-related initiatives. To uphold data integrity, organizations should invest in data management solutions that promote efficient data entry, workflow oversight, and data security.</p> <p>With the help of appropriate tools and technology, it will be more efficient to:</p> <img src='src/assets/img/data_gov/order31.jpg'/>"
+        "body": "<p>The technology aspect of data governance encompasses the tools and systems that will support digital transformation and data-related initiatives. To uphold data integrity, organizations should invest in data management solutions that promote efficient data entry, workflow oversight, and data security.</p> <p>With the help of appropriate tools and technology, it will be more efficient to:</p> <img src='src/assets/img/data_gov/order32.jpg'/>"
       },
       {
         "order": 33,
@@ -448,7 +448,7 @@
         "title": "Relevant Frameworks",
         "subheader": "DAMA-DMBOK Framework",
         "col1": "<p><b>The DAMA-DMBOK (Data Management Body of Knowledge) </b>is a comprehensive framework developed by the DAMA (Data Management Association) that outlines best practices, principles, and guidelines for effective data management. </p> <p>DAMA-DMBOK Functional Framework Version 3 10 Data Management Functions:</p> <ul> <li><b>Data Governance</b> - planning, supervision, and control over data management and use </li> <li><b>Data Architecture Management</b> - as an integral part of enterprise architecture</li> <li><b>Data Development</b> - analysis, design, building, testing, deployment, and maintenance</li> <li><b>Database Operations Management</b> - support for structured physical data assets</li> <li><b>Data Security Management</b> - ensuring privacy, confidentiality, and appropriate access</li>",
-        "col2": "<li><b>Reference & Master Data Management</b> - managing golden versions and replicas</li> <li><b>Data Warehousing & Business Intelligence Management</b> - enabling access to decision support data for reporting and analysis</li> <li><b>Document & Content Management</b> - storing, protecting, indexing, and enabling access to data found in unstructured sources (electronic files and physical records) </li> <li><b>Meta Data Management</b> - integrating, controlling, and delivering meta data </li> <li><b>Data Quality Management</b> - defining, monitoring, and improving data quality </li> </ul>"
+        "col2": "<li><b>Reference & Master Data Management</b> - managing golden versions and replicas</li> <li><b>Data Warehousing & Business Intelligence Management</b> - enabling access to decision support data for reporting and analysis</li> <li><b>Document & Content Management</b> - storing, protecting, indexing, and enabling access to data found in unstructured sources (electronic files and physical records) </li> <li><b>Meta Data Management</b> - integrating, controlling, and delivering meta data </li> <li><b>Data Quality Management</b> - defining, monitoring, and improving data quality </li> </ul><img src='src/assets/img/data_gov/order43.jpg'/>"
       },
       {
         "order": 44,
@@ -456,7 +456,7 @@
         "title": "Relevant Frameworks",
         "subheader": "DAMA-DMBOK Framework",
         "col1": "<p>DAMA-DMBOK Functional Framework Version 3 Seven Environmental Elements:</p> <ul> <li><b>Goals & Principles</b> -The directional business goals of each function and fundamental principles that guide performance of each function. </li> <li><b>Activities</b> - Each function is further decomposed into lower-level activities. Some activities are grouped into sub-functions and can be further decomposed into tasks and steps. </li> <li><b>Deliverables</b> - The information and physical databases and documents created as interim and final outputs of each functions.</li> <li><b>Roles & Responsibilities</b> - The business and IT roles involved in performing and supervising the function and the specific responsibilities of each role in that function.</li>",
-        "col2": "<li><b>Practices & Procedures</b> - Common and popular methods and techniques used to perform the processes and produce the deliverables. May also include common conventions, best practice recommendations, and alternative approaches without elaboration. </li> <li><b>Technology</b> - Categories of supporting technology, standards and protocols, product selection criteria, and common learning curves.</li> <li><b>Organization & Culture</b> - These issues might include management metrics, success factors, reporting structures, group dynamics, cultural-related factors, etc.</li> </ul>"
+        "col2": "<ul> <li> <b>Practices & Procedures</b> - Common and popular methods and techniques used to perform the processes and produce the deliverables. May also include common conventions, best practice recommendations, and alternative approaches without elaboration. </li> <li> <b>Technology</b> - Categories of supporting technology, standards and protocols, product selection criteria, and common learning curves. </li> <li> <b>Organization & Culture</b> - These issues might include management metrics, success factors, reporting structures, group dynamics, cultural-related factors, etc. </li> </ul><img src='src/assets/img/data_gov/order44.jpg'>"
       },
       {
         "order": 45,
@@ -464,7 +464,7 @@
         "title": "Relevant Frameworks",
         "subheader": "COSO Internal Framework",
         "body": "<p>The COSO Internal Control Framework helps companies visualize various dimensions of internal control. Internal controls must be implemented to ensure proper data governance.</p> <ul> <li>The top face of the cube illustrates why internal controls are needed. Internal controls over data governance are necessary for operations, reporting, and compliance.</li> <li>The right face of the cube illustrates where we need internal control. Internal controls over data governance should be implemented at all levels of the organization.</li> <li>The front face of the cube illustrates how organizations can have good internal controls, or what components must be in place. </li> </ul>",
-        "image": "src/assets/img/data_gov/order44.jpg"
+        "image": "src/assets/img/data_gov/order45.jpg"
       },
       {
         "order": 46,
@@ -477,10 +477,10 @@
       },
       {
         "order": 47,
-        "layout": "image righthand portion",
+        "layout": "col-1",
         "title": "Relevant Frameworks",
         "subheader": "ISACA’s COBIT Framework",
-        "body": "<p>COBIT 2019 is a framework designed for the governance and management of enterprise information and technology. It provides a comprehensive set of practices, tools, and resources to help organizations achieve their objectives by aligning IT with business goals.</p> <img src='src/assets/img/order46.jpg'/>"
+        "body": "<p>COBIT 2019 is a framework designed for the governance and management of enterprise information and technology. It provides a comprehensive set of practices, tools, and resources to help organizations achieve their objectives by aligning IT with business goals.</p> <img src='src/assets/img/data_gov/order47.jpg'/>"
       },
       {
         "order": 48,
@@ -496,7 +496,7 @@
         "layout": "col-1",
         "title": "Case Study",
         "subheader": "Rural Bank XYZ",
-        "body": "Rural Bank XYZ, located in a small town in the Philippines, has been serving its community for over 30 years. With the increasing demand for digital banking services, the bank has decided to undergo a digital transformation to improve customer experience, streamline operations, and comply with the Philippine Data Privacy Act of 2012. The bank's leadership recognizes that a robust data governance framework is essential to support this transformation."
+        "body": "Rural Bank XYZ, located in a small town in the Philippines, has been serving its community for over 30 years. With the increasing demand for digital banking services, the bank has decided to undergo a digital transformation to improve customer experience, streamline operations, and comply with the Philippine Data Privacy Act of 2012. The bank's leadership recognizes that a robust data governance framework is essential to support this transformation.<img src='src/assets/img/data_gov/order49.jpg'/>"
       },
       {
         "order": 50,
@@ -567,13 +567,13 @@
         "title": "Data Governance Lessons",
         "subheader": "Applicability of Data Governance",
         "body": "<h4>Learning Objective</h4> <b>At the end of this lesson, you will be able to:</b> <ul> <li>Understand the various roles of data governance in the context of digital transformation</li> </ul>",
-        "image": "src/assets/img/data_gov/order56.jpg"
+        "image": "src/assets/img/data_gov/order57.jpg"
       },
       {
         "order": 58,
-        "layout": "Image righthand portion",
+        "layout": "col-1",
         "title": "To thrive in the age of digital transformation, mastering data governance is an essential skill.",
-        "body": "<p>Digital transformation has become a vital necessity for maintaining competitiveness in today’s market. Organizations across various sectors are leveraging technology and data-driven strategies to transform their operations, products, and services. Yet, amid this digital evolution, one crucial element that is often overlooked is data governance.</p> <img src='src/assets/img/data_gov/order57.jpg'/>"
+        "body": "<p>Digital transformation has become a vital necessity for maintaining competitiveness in today’s market. Organizations across various sectors are leveraging technology and data-driven strategies to transform their operations, products, and services. Yet, amid this digital evolution, one crucial element that is often overlooked is data governance.</p> <img src='src/assets/img/data_gov/order58.jpg'/>"
       },
       {
         "order": 59,
@@ -581,7 +581,7 @@
         "title": "Data Governance in Digital Transformation",
         "subheader": "System Development Lifecycle",
         "body": "<p>The <b>System Development Lifecycle (SDLC)</b> is a structured approach to developing information systems, encompassing various phases from planning and analysis to design, implementation, and maintenance. It ensures that data management practices are integrated throughout the development process.</p>",
-        "image": "src/assets/img/data_gov/order58.jpg"
+        "image": "src/assets/img/data_gov/order59.jpg"
       },
       {
         "order": 60,
@@ -621,7 +621,7 @@
         "layout": "col-2",
         "title": "Data Governance in Digital Transformation",
         "subheader": "Stakeholder Engagement",
-        "col1": "<p>Stakeholders, including employees, customers, partners, and regulators, play a vital role in shaping the direction and outcomes of digital transformation efforts. Data governance serves as a foundational element that can significantly enhance stakeholder management by ensuring that data is accurate, accessible, and secure. This discussion explores how data governance can be leveraged to improve stakeholder engagement during digital transformation.</p><br/> <h5><b>Enhancing Decision-Making</b></h5> <ul> <li><b>Data-Driven Insights</b> - Data governance ensures that stakeholders have access to high-quality data analytics. By leveraging these insights, stakeholders can make informed decisions that align with the organization’s goals.</li> <li><b>Alignment with Stakeholder Interests</b> - Understanding stakeholder needs through data analysis allows organizations to tailor their digital transformation strategies. This alignment increases stakeholder buy-in and support.</li> </ul>",
+        "col1": "<h5><b>Enhancing Decision-Making</b></h5> <ul> <li><b>Data-Driven Insights</b> - Data governance ensures that stakeholders have access to high-quality data analytics. By leveraging these insights, stakeholders can make informed decisions that align with the organization’s goals.</li> <li><b>Alignment with Stakeholder Interests</b> - Understanding stakeholder needs through data analysis allows organizations to tailor their digital transformation strategies. This alignment increases stakeholder buy-in and support.</li> </ul>",
         "col2": "<h5><b>Empowering Stakeholders through Data Literacy</b></h5> <ul> <li><b>Training and Education</b> - Data governance initiatives can include training programs that enhance stakeholders' data literacy. Empowering stakeholders with the skills to understand and utilize data fosters greater engagement.</li> <li><b>Encouraging Data-Driven Culture</b> - Promoting a culture that values data-driven decision-making encourages stakeholders to actively participate in the transformation process. When stakeholders feel equipped to contribute, their engagement levels rise.</li> </ul>"
       },
       {
@@ -637,7 +637,7 @@
         "layout": "col-2",
         "title": "Data Governance in Digital Transformation",
         "subheader": "Risk Management",
-        "col1": "<p>Effective risk management is essential for navigating digital transformation risks such as data breaches, compliance issues, and operational inefficiencies. This discussion explores how data governance can be leveraged to enhance risk management during digital transformation initiatives.</p><br/> <h5><b>Enhancing Compliance and Regulatory Adherence</b></h5> <ul> <li><b>Regulatory Monitoring</b> - Establishing processes to monitor changes in regulations and ensure that data governance policies are updated accordingly. This proactive approach helps organizations stay compliant and avoid penalties.</li> <li><b>Audit Trails</b> - Implementing audit trails that track data access and usage. These trails provide transparency and accountability, making it easier to demonstrate compliance during audits.</li> </ul>",
+        "col1": "<h5><b>Enhancing Compliance and Regulatory Adherence</b></h5> <ul> <li><b>Regulatory Monitoring</b> - Establishing processes to monitor changes in regulations and ensure that data governance policies are updated accordingly. This proactive approach helps organizations stay compliant and avoid penalties.</li> <li><b>Audit Trails</b> - Implementing audit trails that track data access and usage. These trails provide transparency and accountability, making it easier to demonstrate compliance during audits.</li> </ul>",
         "col2": "<h5><b>Mitigating Data Security Risks</b></h5> <ul> <li><b>Access Controls</b> - Establishing strict access controls to ensure that only authorized personnel can access sensitive data. This reduces the risk of unauthorized access and data breaches.</li> <li><b>Data Encryption and Masking</b> - Implementing data encryption and masking techniques to protect sensitive information. These measures help safeguard data both at rest and in transit.</li> </ul>"
       },
       {
@@ -645,7 +645,7 @@
         "layout": "col-2",
         "title": "Data Governance in Digital Transformation",
         "subheader": "Risk Management",
-        "col1": "<p>Effective risk management is essential for navigating digital transformation risks such as data breaches, compliance issues, and operational inefficiencies. This discussion explores how data governance can be leveraged to enhance risk management during digital transformation initiatives.</p><br/> <h5><b>Promoting a Risk-Aware Culture</b></h5> <ul> <li><b>Training and Education</b> - Providing training programs that educate employees about data governance policies, data security best practices, and the importance of risk management. Empowered employees are more likely to recognize and report potential risks.</li> <li><b>Encouraging Reporting</b> - Creating an environment where employees feel comfortable reporting data-related risks and incidents. Open communication channels facilitate timely responses to emerging threats.</li> </ul>",
+        "col1": "<h5><b>Promoting a Risk-Aware Culture</b></h5> <ul> <li><b>Training and Education</b> - Providing training programs that educate employees about data governance policies, data security best practices, and the importance of risk management. Empowered employees are more likely to recognize and report potential risks.</li> <li><b>Encouraging Reporting</b> - Creating an environment where employees feel comfortable reporting data-related risks and incidents. Open communication channels facilitate timely responses to emerging threats.</li> </ul>",
         "col2": "<h5><b>Continuous Monitoring and Improvement</b></h5> <ul> <li><b>Key Risk Indicators (KRIs)</b> - Establishing KRIs that provide insights into potential risks. By monitoring these indicators, organizations can detect early warning signs and take proactive measures.</li> <li><b>Regular Audits and Reviews</b> - Conducting regular audits and reviews of data governance practices to identify areas for improvement. This iterative approach ensures that risk management strategies remain effective and relevant.</li> </ul>"
       },
       {
@@ -654,25 +654,23 @@
         "title": "Data Governance in Digital Transformation",
         "subheader": "Information Security",
         "col1": "<p>In today's digital landscape, information security is a critical component of an organization's overall risk management strategy, particularly as organizations undergo digital transformation. As data governance frameworks are established to manage data effectively, information security plays a vital role in protecting that data from threats and vulnerabilities. This discussion explores the connection between information security, data governance, and risk management, highlighting how they work together to safeguard organizational assets.</p> <h4>Understanding Information Security</h4> <p><b>Information Security…</b></p> <ul> <li>is the processes and practices designed to protect sensitive information from unauthorized access, disclosure, alteration, and destruction.</li> <li>encompasses a wide range of measures, including physical security, network security, application security, and data protection.</li> </ul>",
-        "col2": "<h5><b>Key Objectives of Information Security</b></h5> <ul> <li><b>Confidentiality</b> - Ensuring that sensitive information is accessible only to authorized individuals.</li> <li><b>Integrity</b> - Maintaining the accuracy and completeness of data, preventing unauthorized modifications.</li> <li><b>Availability</b> - Ensuring that information and resources are accessible to authorized users when needed.</li> </ul>"
+        "col2": "<h5><b>Key Objectives of Information Security:</b></h5> <ul> <li><b>Confidentiality</b> - Ensuring that sensitive information is accessible only to authorized individuals.</li> <li><b>Integrity</b> - Maintaining the accuracy and completeness of data, preventing unauthorized modifications.</li> <li><b>Availability</b> - Ensuring that information and resources are accessible to authorized users when needed.</li> </ul>"
       },
       {
         "order": 69,
-        "layout": "col-3",
+        "layout": "col-2",
         "title": "Data Governance in Digital Transformation",
         "subheader": "Information Security",
-        "col1": "<h4>The Role of Information Security in Data Governance</h4> <p>Information security is integral to effective data governance, as it provides the necessary safeguards to protect data throughout its lifecycle. Here are some key connections:</p> <h5><b>Data Protection Policies</b></h5> <p>Information security complements policies established by data governance frameworks by defining security measures that protect data from breaches and unauthorized access.</p> <p>Data governance may dictate how customer data is collected and stored, while information security outlines how that data should be encrypted.</p>",
-        "col2": "<h5><b>Risk Assessment and Management</b></h5> <p>Data governance frameworks facilitate the risk identification and assessment associated with data management while information security enhances this process by providing tools and methodologies for assessing security risks.</p>",
-        "col3": "<h5><b>Regulatory Adherence</b></h5> <p>Many industries are subject to strict regulations regarding data protection and privacy (e.g. Philippine Data Privacy Act of 2012). Information security along with data governance frameworks practices ensure that organizations comply with these regulations by implementing necessary controls and safeguards.</p>"
+        "col1": "<h4>The Role of Information Security in Data Governance</h4> <p>Information security is integral to effective data governance, as it provides the necessary safeguards to protect data throughout its lifecycle. Here are some key connections:</p> <h5><b>1. Data Protection Policies</b></h5> <p>Information security complements policies established by data governance frameworks by defining security measures that protect data from breaches and unauthorized access.</p> <p>Data governance may dictate how customer data is collected and stored, while information security outlines how that data should be encrypted.</p>",
+        "col2": "<h5><b>2. Risk Assessment and Management</b></h5> <p>Data governance frameworks facilitate the risk identification and assessment associated with data management while information security enhances this process by providing tools and methodologies for assessing security risks.</p><h5><b>3. Regulatory Adherence</b></h5> <p>Many industries are subject to strict regulations regarding data protection and privacy (e.g. Philippine Data Privacy Act of 2012). Information security along with data governance frameworks practices ensure that organizations comply with these regulations by implementing necessary controls and safeguards.</p>"
       },
       {
         "order": 70,
-        "layout": "col-3",
+        "layout": "col-2",
         "title": "Data Governance in Digital Transformation",
         "subheader": "Information Security",
-        "col1": "<h4>Enhancing Risk Management through Information Security</h4> <p>Effective risk management requires a holistic approach that integrates data governance and information security. Here’s how information security contributes to risk management:</p> <h5><b>Access Controls</b></h5> <p>Information security establishes strict access controls to ensure that only authorized personnel can access sensitive data. This reduces the risk of data breaches and unauthorized access. Data governance frameworks can define roles and responsibilities for data access, while information security enforces these controls through technologies such as role-based access control (RBAC).</p>",
-        "col2": "<h5><b>Incident Response and Recovery</b></h5> <p>Information security includes incident response plans that outline how to respond to data breaches and security incidents. These plans are essential for minimizing the impact of security threats. Data governance frameworks can provide guidelines for reporting incidents and ensuring that data handling practices are followed during a security event.</p>",
-        "col3": "<h5><b>Continuous Monitoring</b></h5> <p>Information security involves continuous monitoring of systems and networks to detect potential threats and vulnerabilities. This approach complements data governance by ensuring that data management practices are regularly assessed for security risks. Organizations can establish KRIs related to information security to monitor potential threats.</p>"
+        "col1": "<h4>Enhancing Risk Management through Information Security</h4> <p>Effective risk management requires a holistic approach that integrates data governance and information security. Here’s how information security contributes to risk management:</p> <h5><b>1. Access Controls</b></h5> <p>Information security establishes strict access controls to ensure that only authorized personnel can access sensitive data. This reduces the risk of data breaches and unauthorized access. Data governance frameworks can define roles and responsibilities for data access, while information security enforces these controls through technologies such as role-based access control (RBAC).</p>",
+        "col2": "<h5><b>2. Incident Response and Recovery</b></h5> <p>Information security includes incident response plans that outline how to respond to data breaches and security incidents. These plans are essential for minimizing the impact of security threats. Data governance frameworks can provide guidelines for reporting incidents and ensuring that data handling practices are followed during a security event.</p><h5><b>3. Continuous Monitoring</b></h5> <p>Information security involves continuous monitoring of systems and networks to detect potential threats and vulnerabilities. This approach complements data governance by ensuring that data management practices are regularly assessed for security risks. Organizations can establish KRIs related to information security to monitor potential threats.</p>"
       },
       {
         "order": 71,
@@ -708,7 +706,7 @@
         "title": "Data Governance Lessons",
         "subheader": "Data Governance Trends",
         "body": "<h4>Learning Objective</h4> <b>At the end of this lesson, you will be able to:</b> <ul> <li>Discuss emerging trends in data governance</li> </ul>",
-        "image": "src/assets/img/data_gov/order73.jpg"
+        "image": "src/assets/img/data_gov/order74.jpg"
       },
       {
         "order": 75,
@@ -763,40 +761,40 @@
         "layout": "col-2",
         "title": "Emerging Trends",
         "subheader": "In the Lens of the Philippines",
-        "col1": "<p>Here are the emerging trends in data governance in the Philippines, along with descriptions and examples of real banks implementing these practices:</p> <h4>Increased Regulatory Compliance</h4> <p>Organizations are focusing on compliance with data protection laws, such as the <b>Data Privacy Act of 2012</b>. This includes establishing frameworks to ensure adherence to legal requirements and mitigate risks associated with non-compliance.</p> <p>Example:</p> <img src='src/assets/img/data_gov/order80_1.jpg'/> <p><b>Bank of the Philippine Islands (BPI)</b> has established a comprehensive compliance framework, appointing data protection officers and conducting regular audits to ensure compliance with data protection regulations.</p>",
-        "col2": "<h4>Data Privacy Awareness</h4> <p>There is a growing awareness of data privacy among consumers and organizations. Businesses are investing in training programs and awareness campaigns to educate employees and customers about data privacy rights and responsibilities.</p> <p>Example:</p> <img src='src/assets/img/data_gov/order80_2.jpg'/><p><b>Union Bank of the Philippines</b> has launched an initiative called Selyado 5.0 series to raise awareness about data privacy among its customers and employees, providing educational materials and conducting training sessions on data privacy rights.</p>"
+        "col1": "<p>Here are the emerging trends in data governance in the Philippines, along with descriptions and examples of real banks implementing these practices:</p> <h4>1. Increased Regulatory Compliance</h4> <p>Organizations are focusing on compliance with data protection laws, such as the <b>Data Privacy Act of 2012</b>. This includes establishing frameworks to ensure adherence to legal requirements and mitigate risks associated with non-compliance.</p> <p>Example:</p> <img src='src/assets/img/data_gov/order81_1.jpg'/> <p><b>Bank of the Philippine Islands (BPI)</b> has established a comprehensive compliance framework, appointing data protection officers and conducting regular audits to ensure compliance with data protection regulations.</p>",
+        "col2": "<h4>2. Data Privacy Awareness</h4> <p>There is a growing awareness of data privacy among consumers and organizations. Businesses are investing in training programs and awareness campaigns to educate employees and customers about data privacy rights and responsibilities.</p> <p>Example:</p> <img src='src/assets/img/data_gov/order81_2.jpg'/><p><b>Union Bank of the Philippines</b> has launched an initiative called Selyado 5.0 series to raise awareness about data privacy among its customers and employees, providing educational materials and conducting training sessions on data privacy rights.</p>"
       },
       {
         "order": 82,
         "layout": "col-2",
         "title": "Emerging Trends",
         "subheader": "In the Lens of the Philippines",
-        "col1": "<p>Here are the emerging trends in data governance in the Philippines, along with descriptions and examples of real banks implementing these practices:</p> <h4>Adoption of Data Governance Frameworks</h4> <p>Organizations are adopting formal data governance frameworks to manage data effectively. This includes defining roles, responsibilities, and processes for data management to ensure accountability and compliance.</p> <p>Example:</p> <img src='src/assets/img/data_gov/order81_1.jpg'/><p><b>Metrobank</b> has implemented a formal data governance framework that outlines roles, responsibilities, and processes for managing data effectively, ensuring accountability and compliance with regulations.</p>",
-        "col2": "<h4>Integration of Data Analytics</h4> <p>The use of data analytics is becoming more prevalent in decision-making processes. Organizations leverage data analytics tools to derive insights from data, improve operational efficiency, and enhance customer experiences.</p> <p>Example:</p><img src='src/assets/img/data_gov/order81_2.jpg'/><p><b>Rizal Commercial Banking Corporation (RCBC)</b> leverages data analytics to enhance customer experiences and improve operational efficiency, using analytics to gain insights into customer behavior and preferences.</p>"
+        "col1": "<p>Here are the emerging trends in data governance in the Philippines, along with descriptions and examples of real banks implementing these practices:</p> <h4>3. Adoption of Data Governance Frameworks</h4> <p>Organizations are adopting formal data governance frameworks to manage data effectively. This includes defining roles, responsibilities, and processes for data management to ensure accountability and compliance.</p> <p>Example:</p> <img src='src/assets/img/data_gov/order82_1.jpg'/><p><b>Metrobank</b> has implemented a formal data governance framework that outlines roles, responsibilities, and processes for managing data effectively, ensuring accountability and compliance with regulations.</p>",
+        "col2": "<h4>4. Integration of Data Analytics</h4> <p>The use of data analytics is becoming more prevalent in decision-making processes. Organizations leverage data analytics tools to derive insights from data, improve operational efficiency, and enhance customer experiences.</p> <p>Example:</p><img src='src/assets/img/data_gov/order82_2.jpg'/><p><b>Rizal Commercial Banking Corporation (RCBC)</b> leverages data analytics to enhance customer experiences and improve operational efficiency, using analytics to gain insights into customer behavior and preferences.</p>"
       },
       {
         "order": 83,
         "layout": "col-2",
         "title": "Emerging Trends",
         "subheader": "In the Lens of the Philippines",
-        "col1": "<p>Here are the emerging trends in data governance in the Philippines, along with descriptions and examples of real banks implementing these practices:</p> <h4>Focus on Data Quality Management</h4> <p>There is an increasing emphasis on ensuring data quality and integrity. Organizations are implementing data quality management practices to validate, cleanse, and maintain accurate data. </p> <p>Example:</p><img src='src/assets/img/data_gov/order82_1.jpg'/> <p><b>Philippine National Bank (PNB)</b> has implemented data quality management practices to ensure the accuracy and reliability of its data, including regular data validation and cleansing processes.</p>",
-        "col2": "<h4>Collaboration and Data Sharing</h4> <p>Public and private sectors are exploring collaborative approaches to data sharing. Initiatives aimed at sharing data for research, policy-making, and public service delivery are gaining traction, particularly in areas like health, education, and disaster response.</p> <p>Example:</p> <img src='src/assets/img/data_gov/order82_2.jpg'/><p><b>Land Bank of the Philippines</b> collaborates with government agencies to share data for public service delivery, particularly in agricultural financing and disaster response.</p>"
+        "col1": "<p>Here are the emerging trends in data governance in the Philippines, along with descriptions and examples of real banks implementing these practices:</p> <h4>5. Focus on Data Quality Management</h4> <p>There is an increasing emphasis on ensuring data quality and integrity. Organizations are implementing data quality management practices to validate, cleanse, and maintain accurate data. </p> <p>Example:</p><img src='src/assets/img/data_gov/order83_1.jpg'/> <p><b>Philippine National Bank (PNB)</b> has implemented data quality management practices to ensure the accuracy and reliability of its data, including regular data validation and cleansing processes.</p>",
+        "col2": "<h4>6. Collaboration and Data Sharing</h4> <p>Public and private sectors are exploring collaborative approaches to data sharing. Initiatives aimed at sharing data for research, policy-making, and public service delivery are gaining traction, particularly in areas like health, education, and disaster response.</p> <p>Example:</p> <img src='src/assets/img/data_gov/order83_2.jpg'/><p><b>Land Bank of the Philippines</b> collaborates with government agencies to share data for public service delivery, particularly in agricultural financing and disaster response.</p>"
       },
       {
         "order": 84,
         "layout": "col-2",
         "title": "Emerging Trends",
         "subheader": "In the Lens of the Philippines",
-        "col1": "<p>Here are the emerging trends in data governance in the Philippines, along with descriptions and examples of real banks implementing these practices:</p> <h4>Emergence of Data Literacy Programs</h4> <p>Organizations are recognizing the importance of data literacy among employees. Training programs are being developed to enhance employees' understanding of data governance, data management, and data analytics. </p> <p>Example:</p> <img src='src/assets/img/data_gov/order83_1.jpg'/> <p><b>Security Bank</b> has initiated data literacy programs to train employees on data governance, data management, and analytics, empowering staff to make informed decisions based on data insights.</p>",
-        "col2": "<h4>Cloud Adoption and Data Security</h4> <p>As more organizations migrate to cloud-based solutions, there is a heightened focus on data security and governance in cloud environments. Organizations are implementing security measures and governance policies to protect data stored in the cloud.</p> <p>Example:</p><img src='src/assets/img/data_gov/order83_2.jpg'/><p><b>EastWest Banking Corporation</b> has migrated to cloud-based solutions while implementing stringent data security measures and governance policies to protect customer data stored in the cloud.</p>"
+        "col1": "<p>Here are the emerging trends in data governance in the Philippines, along with descriptions and examples of real banks implementing these practices:</p> <h4>7. Emergence of Data Literacy Programs</h4> <p>Organizations are recognizing the importance of data literacy among employees. Training programs are being developed to enhance employees' understanding of data governance, data management, and data analytics. </p> <p>Example:</p> <img src='src/assets/img/data_gov/order84_1.jpg'/> <p><b>Security Bank</b> has initiated data literacy programs to train employees on data governance, data management, and analytics, empowering staff to make informed decisions based on data insights.</p>",
+        "col2": "<h4>8. Cloud Adoption and Data Security</h4> <p>As more organizations migrate to cloud-based solutions, there is a heightened focus on data security and governance in cloud environments. Organizations are implementing security measures and governance policies to protect data stored in the cloud.</p> <p>Example:</p><img src='src/assets/img/data_gov/order84_2.jpg'/><p><b>EastWest Banking Corporation</b> has migrated to cloud-based solutions while implementing stringent data security measures and governance policies to protect customer data stored in the cloud.</p>"
       },
       {
         "order": 85,
         "layout": "col-2",
         "title": "Emerging Trends",
         "subheader": "In the Lens of the Philippines",
-        "col1": "<p>Here are the emerging trends in data governance in the Philippines, along with descriptions and examples of real banks implementing these practices:</p> <h4>Adoption of Data Governance Frameworks</h4> <p>Organizations are adopting formal data governance frameworks to manage data effectively. This includes defining roles, responsibilities, and processes for data management to ensure accountability and compliance.</p> <p>Example:</p> <img src='src/assets/img/data_gov/order81_1.jpg'/><p><b>Metrobank</b> has implemented a formal data governance framework that outlines roles, responsibilities, and processes for managing data effectively, ensuring accountability and compliance with regulations.</p>",
-        "col2": "<h4>Sustainability and Ethical Data Use</h4> <p>There is a growing emphasis on ethical data use and sustainability. Organizations are considering the ethical implications of data collection and usage, promoting responsible data practices that align with social and environmental goals.</p> <p>Example:</p> <img src='src/assets/img/data_gov/order80_1.jpg'/> <p><b>BPI</b> is committed to sustainability and ethical data use, promoting responsible banking practices and considering the ethical implications of data collection and usage.</p>"
+        "col1": "<p>Here are the emerging trends in data governance in the Philippines, along with descriptions and examples of real banks implementing these practices:</p> <h4>9. Adoption of Data Governance Frameworks</h4> <p>Organizations are adopting formal data governance frameworks to manage data effectively. This includes defining roles, responsibilities, and processes for data management to ensure accountability and compliance.</p> <p>Example:</p> <img src='src/assets/img/data_gov/order82_1.jpg'/><p><b>Metrobank</b> has implemented a formal data governance framework that outlines roles, responsibilities, and processes for managing data effectively, ensuring accountability and compliance with regulations.</p>",
+        "col2": "<h4>10. Sustainability and Ethical Data Use</h4> <p>There is a growing emphasis on ethical data use and sustainability. Organizations are considering the ethical implications of data collection and usage, promoting responsible data practices that align with social and environmental goals.</p> <p>Example:</p> <img src='src/assets/img/data_gov/order81_1.jpg'/> <p><b>BPI</b> is committed to sustainability and ethical data use, promoting responsible banking practices and considering the ethical implications of data collection and usage.</p>"
       },
       {
         "order": 86,
@@ -822,10 +820,9 @@
       },
       {
         "order": 88,
-        "title": "Course Summary",
-        "subheader": "Congratulations on completing this course!",
-        "body": "<p>Now that you have completed this course, you should be able to:</p> <ul> <li>Understand the key concepts of data governance, including its importance, components, and impact on data quality, security, and compliance.</li> <li>Apply the principles and elements from frameworks like DGI’s mission and value, DAMA-DMBOK’s data management functions, and COSO’s internal controls to enhance the organization’s data governance practices.</li> <li>Recognize the importance of data governance in digital transformation, as it ensures data accuracy, security, and compliance.</li> <li>Prioritize emerging trends such as regulatory compliance, data analytics, ethical standards in data governance</li> </ul>",
-        "image": "src/assets/img/general images/CourseSummary.jpg"
+        "title": "Course Completion",
+        "body": "<h4>Congratulations on completing the Data Governance of Digital Solutions – From Mapping to Managing the Project course!</h4><p>Now that you have completed this course, you should be able to:</p> <ul> <li>Understand the key concepts of data governance, including its importance, components, and impact on data quality, security, and compliance.</li> <li>Apply the principles and elements from frameworks like DGI’s mission and value, DAMA-DMBOK’s data management functions, and COSO’s internal controls to enhance the organization’s data governance practices.</li> <li>Recognize the importance of data governance in digital transformation, as it ensures data accuracy, security, and compliance.</li> <li>Prioritize emerging trends such as regulatory compliance, data analytics, ethical standards in data governance</li> </ul>", 
+        "image":"src/assets/img/general images/CourseCompletion.jpg"
       },
       {
         "order": 89,

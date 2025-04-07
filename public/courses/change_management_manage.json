@@ -23,7 +23,7 @@
             "questions": [
               {
                 "q_number": 1,
-                "q_statement": "What is change management plan?",
+                "q_statement": "What is a change management plan?",
                 "q_field_type": "single_select",
                 "q_selection": [
                   {
@@ -37,7 +37,7 @@
               },
               {
                 "q_number": 2,
-                "q_statement": "What is the purpose of communication plan?",
+                "q_statement": "What is the purpose of a communication plan?",
                 "q_field_type": "single_select",
                 "q_selection": [
                   {
@@ -77,7 +77,7 @@
         "order": 4,
         "title": "Manage Change Lessons",
         "subheader": "Change Management Plan",
-        "body": "<h4>Lesson Objectives</h4> <p>At the end of this lesson, you will be able to:</p> <ul> <li>Define what is change management plan;</li> <li>How to create change management plan; and</li> <li>Know the important of CM plan in change initiative</li> </ul>",
+        "body": "<h4>Lesson Objectives</h4> <p>At the end of this lesson, you will be able to:</p> <ul> <li>Define what is a change management plan;</li> <li>How to create change management plan; and</li> <li>Know the important of CM plan in change initiative</li> </ul>",
         "image": "src/assets/img/change management/Manage/order4.jpg"
       },
       {
@@ -143,7 +143,7 @@
         "order": 12,
         "title": "Manage Change Lessons",
         "subheader": "Communication and Engagement",
-        "body": "<h4>Lesson Objectives</h4> <p>At the end of this lesson, you will be able to:</p> <ul> <li>Define what is employee engagement;</li> <li>How to drive employee engagement with Change Management;</li> <liHow to communicate the change; and</li> <li>Create a communications plan</li> </ul>",
+        "body": "<h4>Lesson Objectives</h4> <p>At the end of this lesson, you will be able to:</p> <ul> <li>Define what is employee engagement;</li> <li>How to drive employee engagement with Change Management;</li> <li>How to communicate the change; and</li> <li>Create a communications plan</li> </ul>",
         "image": "src/assets/img/change management/Manage/order12.jpg"
       },
       {
@@ -179,10 +179,9 @@
       },
       {
         "order": 16,
-        "layout": "image righthand portion",
+        "layout": "col-1",
         "title": "Communication and Engagement",
-        "subheader": "Overview of communications plan",
-        "image": "src/assets/img/change management/Manage/order16.jpg"
+        "body": "<h4>Overview of communications plan</h4> <img src='src/assets/img/change management/Manage/order16.jpg'/>"
       },
       {
         "order": 17,
@@ -212,20 +211,19 @@
         "layout": "col-2",
         "title": "Communication and Engagement",
         "subheader": "Creating a Communication Plan",
-        "col1": "<h4>What is Communication plan and its purpose?</h4> <ul> <li>A communication plan is a strategic document that outlines how information will be shared within an organization or project.</li> <li>It serves as a roadmap for effective communication, ensuring that all stakeholders are informed and engaged throughout the process.</li> <li><b>Purpose</b> - The communication plan is a formal strategy identifying the best methods to deliver timely and useful information to different stakeholders who will be involved with and impacted by the change initiative.</li> </ul>",
+        "col1": "<h4>What is Communication plan and its purpose?</h4> <ul> <li>A communication plan is a strategic document that outlines how information will be shared within an organization or project.</li> <li>It serves as a roadmap for effective communication, ensuring that all stakeholders are informed and engaged throughout the process.</li> <li>The communication plan is a formal strategy identifying the best methods to deliver timely and useful information to different stakeholders who will be involved with and impacted by the change initiative.</li> </ul>",
         "col2": "<h5><b>Scope, Objectives, and Approach:</b></h5> <ul> <li><b>Scope</b> - The scope of the communications plan consists of internal communications to various departments within an organization, as well as external communications to major stakeholders.</li> <li><b>Objectives</b> - A communication plan must provide a structure and schedule regarding the objectives, development, and distribution of information sent to the different audiences involved.</li> <li><b>Approach</b> - This section explains to whom the document is directed, and which sections may be most useful for the corresponding personnel.</li> </ul>"
       },
       {
         "order": 21, 
-        "layout": "image righthand portion",
+        "layout": "col-1",
         "title": "Communication and Engagement",
-        "subheader": "Overview of communications plan",
-        "image": "src/assets/img/change management/Manage/order21.jpg"
+        "body": "<h4>Overview of communications plan</h4> <img src='src/assets/img/change management/Manage/order21.jpg'/>"
       },
       {
         "order": 22,
         "title": "Knowledge Check",
-        "body": "What is communication plan?",
+        "body": "What is a communication plan?",
         "image": "src/assets/img/general images/KnowledgeCheck.jpg",
         "q_field_type": "single_select",
         "q_selection": [
@@ -243,20 +241,20 @@
         "layout": "col-1",
         "title": "Communication and Engagement",
         "subheader": "How to develop a communications calendar",
-        "body": "<p>A communications calendar helps to keep stakeholders informed, engaged, and aligned with the change initiatives, reducing uncertainty and resistance. Additionally, a communications calendar allows better coordination of messaging, enabling organizations to anticipate and address potential issues proactively to all stakeholders involved.</p> <p><b>Communications calendar</b>: It will be maintained by the PMO, the methods (media) that will be used to deliver these communications, the frequency of these communications, the targeted audience and the person with responsibility for creating and delivering these communications will be outlined under the calendar.</p><img src='src/assets/img/change management/Manage/order23.jpg'/>"
+        "body": "<p>A communications calendar helps to keep stakeholders informed, engaged, and aligned with the change initiatives, reducing uncertainty and resistance. Additionally, a communications calendar allows better coordination of messaging, enabling organizations to anticipate and address potential issues proactively to all stakeholders involved.</p> <p><b>Communications calendar</b>: The communications calendar will be maintained by the PMO. The methods (media) for delivering communications, their frequency, the targeted audience, and the individual responsible for creating and delivering them will be outlined under the calendar.</p><img src='src/assets/img/change management/Manage/order23.jpg'/>"
       },
       {
         "order": 24,
         "layout": "image righthand portion",
         "title": "Communication and Engagement",
         "subheader": "Implementation of communications approach",
-        "body": "<ul> <li><b>Implementation of communications approach</b> - After the development of the communications approach, the next step is to outline steps for implementation.</li> <li>The following diagram outlines each step that contributes to the overall structure of the communications approach.</li> <li>No single step, by itself, constitutes the communications program, but as part of a unified effort, each step plays a vital role in the implementation of the overall communications approach.</li> </ul>",
+        "body": "<ul> <li><b>What are the steps  that the diagram outlines?</b> - After the development of the communications approach, the next step is to outline steps for implementation.</li> <li>The following diagram outlines each step that contributes to the overall structure of the communications approach.</li> <li>No single step, by itself, constitutes the communications program, but as part of a unified effort, each step plays a vital role in the implementation of the overall communications approach.</li> </ul>",
         "image": "src/assets/img/change management/Manage/order24.jpg"
       },
       {
         "order": 25,
         "title": "Lesson Summary",
-        "body": "<h4>Congratulations on completing Lesson 2 of this module!</h4> <p>Now that you have completed this lesson, you should be able to:</p> <ul> <li>Define what is employee engagement;</li> <li>How to drive employee engagement with Change Management;</li> <li>How to communicate the change;and</li> <li>Create a communications plan</li> </ul>",
+        "body": "<h2>Congratulations on completing Lesson 2 of this module!</h2> <p>Now that you have completed this lesson, you should be able to:</p> <ul> <li>Define what is employee engagement;</li> <li>How to drive employee engagement with Change Management;</li> <li>How to communicate the change; and</li> <li>Create a communications plan</li> </ul>",
         "image": "src/assets/img/general images/LessonSummary.jpg"
       },
       {
@@ -329,7 +327,7 @@
         "order": 34,
         "title": "Module Summary",
         "subheader": "Congratulations on completing Manage Change Module!",
-        "body": "<p>Now that you have completed this module, you should be able to</p> <ul> <li>Change can evoke a range of emotional responses, including anxiety and resistance, making it crucial to address these feelings and uncertainties proactively.</li> <li>Factors such as organizational values, visible leadership commitment, and employee participation significantly influence the adoption of change.</li> <li>Providing a well-structured change initiative and effectively delivering the initiative to various stakeholders, organizations can efficiently enhance and carry out the change initiative.</li> </ul>",
+        "body": "<p>Now that you have completed this module, you should be able to:</p> <ul> <li>Understand that change can evoke a range of emotional responses, including anxiety and resistance, making it crucial to address these feelings and uncertainties proactively.</li> <li>Understand that factors such as organizational values, visible leadership commitment, and employee participation significantly influence the adoption of change.</li> <li>Provide a well-structured change initiative and effectively delivering the initiative to various stakeholders, organizations can efficiently enhance and carry out the change initiative.</li> </ul>",
         "image": "src/assets/img/general images/ModuleSummary.jpg"
       },
       {
