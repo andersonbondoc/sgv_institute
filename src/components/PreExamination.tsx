@@ -92,12 +92,12 @@ const PreExamPage: React.FC<PreExamPageProps> = ({
     }
   };
 
-  const handlePreviousQuestion = () => {
-    if (currentQuestionIndex > 0) {
-      setSelectedAnswer([]);
-      setCurrentQuestionIndex(currentQuestionIndex - 1);
-    }
-  };
+  // const handlePreviousQuestion = () => {
+  //   if (currentQuestionIndex > 0) {
+  //     setSelectedAnswer([]);
+  //     setCurrentQuestionIndex(currentQuestionIndex - 1);
+  //   }
+  // };
 
   const finishExam = () => {
     if (!isAnswerSelected) return;
@@ -180,7 +180,7 @@ const PreExamPage: React.FC<PreExamPageProps> = ({
             </div>
             <div className="mt-8 flex justify-between">
               {/* Placeholder for consistent positioning */}
-              <div className="w-36">
+              {/* <div className="w-36">
                 {currentQuestionIndex !== 0 && (
                   <button
                     onClick={handlePreviousQuestion}
@@ -191,7 +191,7 @@ const PreExamPage: React.FC<PreExamPageProps> = ({
                     Previous
                   </button>
                 )}
-              </div>
+              </div> */}
 
               <button
                 onClick={
