@@ -40,6 +40,7 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
   const [zoomedImage, setZoomedImage] = useState<string | null>(null);
   const [inPreviousPage, setInPreviousPage] = useState(false);
   const [visitedPages, setVisitedPages] = useState<number[]>([]);
+  const [correctAnswer, setCorrectAnswer] = useState<String>("");
   useEffect(() => {
     const fileMapping: Record<string, string> = {
       PMFIDS_PM: "project_management.json",
@@ -199,7 +200,13 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
       setNextButtonEnabled(true);
       return;
     }
-
+    console.log("currentSection?.title: ", currentSection?.title);
+    if (currentSection?.title === "Knowledge Check") {
+      console.log("test");
+      setCountdown(0);
+      setNextButtonEnabled(true);
+      return;
+    }
     const highestVisitedPage = Math.max(...visitedPages, 0);
     let nextpage = currentSectionIndex + 1;
     if (nextpage < highestVisitedPage) {
@@ -208,8 +215,7 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
       return;
     }
     // Set countdown duration based on the title
-    const countdownDuration =
-      currentSection?.title === "Knowledge Check" ? 300 : 10;
+    const countdownDuration = 10;
     setCountdown(countdownDuration);
 
     const timer = setInterval(() => {
@@ -288,14 +294,16 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
       selectedAnswers.length === correctAnswers.length &&
       selectedAnswers.every((answer) => correctAnswers.includes(answer)) &&
       correctAnswers.every((answer: any) => selectedAnswers.includes(answer));
-
     setFeedback(
-      isCorrect ? "✅ Correct answer!" : "❌ Wrong answer. Try again."
+      isCorrect
+        ? "✅ Correct answer!"
+        : `❌ Wrong answer. The answer is ${correctAnswers}.`
     );
-    if (isCorrect) {
-      setCanNext(true);
-      setCountdown(0);
-    }
+    // if (isCorrect) {
+    //   setCanNext(true);
+    //   setCountdown(0);
+    // }
+    setCanNext(true);
     setIsAnswerShown(true);
   };
 
@@ -441,7 +449,7 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
       </>
     );
   };
-
+  console.log("correctAnswer: ", correctAnswer);
   return (
     <div>
       <div className="flex justify-end">
@@ -490,7 +498,7 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
                     <img
                       src={currentSection.image}
                       alt={currentSection.title}
-                      className="rounded-lg max-w-[500px] h-auto transition-transform duration-200 hover:scale-105"
+                      className="rounded-lg  h-auto transition-transform duration-200 hover:scale-105"
                       style={{ cursor: "zoom-in" }}
                       onClick={() => setZoomedImage(currentSection.image)}
                     />
@@ -593,7 +601,7 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
                               Show Answer
                             </button>
                           )}
-                          {feedback &&
+                          {/* {feedback &&
                             feedback.includes("❌") &&
                             selectedAnswer.length > 0 &&
                             retryCount < 3 && (
@@ -603,11 +611,13 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
                               >
                                 Retry
                               </button>
-                            )}
+                            )} */}
                           {feedback && (
-                            <p className="text-3xl font-semibold mt-10">
-                              {feedback}
-                            </p>
+                            <>
+                              <p className="text-3xl font-semibold mt-10">
+                                {feedback}
+                              </p>
+                            </>
                           )}
                         </div>
                       </div>
@@ -677,19 +687,22 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
           </IonCard>
           {zoomedImage && (
             <div
-              className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-80 z-50"
+              className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-80 z-50 p-4"
               onClick={() => setZoomedImage(null)}
             >
-              <div className="relative" onClick={(e) => e.stopPropagation()}>
+              <div
+                className="relative lg:w-[70%] md:[70%] s:w-[90%] sm:w-[90%]"
+                onClick={(e) => e.stopPropagation()}
+              >
                 <IonIcon
                   icon={closeCircle}
-                  className="absolute top-2 right-2 text-white text-4xl cursor-pointer"
+                  className="absolute top-2 right-2 text-white cursor-pointer"
                   onClick={() => setZoomedImage(null)}
                 />
                 <img
                   src={zoomedImage}
                   alt="Zoomed"
-                  className="rounded-lg max-w-full max-h-full w-auto h-auto object-contain"
+                  className="rounded-lg max-w-full max-h-full object-contain"
                 />
               </div>
             </div>

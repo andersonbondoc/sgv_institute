@@ -17,6 +17,10 @@ const PostExamPage: React.FC<PreExamPageProps> = ({
   const [score, setScore] = useState(0);
   const [totalQuestion, setTotalQuestion] = useState(0);
   const [showResult, setShowResult] = useState(false);
+  const [retryCount, setRetryCount] = useState(0);
+  const [userAnswers, setUserAnswers] = useState<(string[] | null)[]>(
+    Array(preExamQuestions.length).fill(null)
+  );
 
   useEffect(() => {
     const sectionsArray = Array.isArray(sections) ? sections : [sections];
@@ -97,6 +101,7 @@ const PostExamPage: React.FC<PreExamPageProps> = ({
   const handlePreviousQuestion = () => {
     if (currentQuestionIndex > 0) {
       setSelectedAnswer([]);
+      setScore((prev) => prev - 1);
       setCurrentQuestionIndex(currentQuestionIndex - 1);
     }
   };
@@ -125,6 +130,7 @@ const PostExamPage: React.FC<PreExamPageProps> = ({
   };
 
   const handleRetryExam = () => {
+    setRetryCount((prev) => prev + 1);
     setScore(0);
     setCurrentQuestionIndex(0);
     setSelectedAnswer([]);
@@ -133,6 +139,7 @@ const PostExamPage: React.FC<PreExamPageProps> = ({
 
   const handleClose = () => {
     handleFinishQuestionButton(score);
+    setRetryCount(0);
     setShowResult(false);
   };
   return (
@@ -186,7 +193,7 @@ const PostExamPage: React.FC<PreExamPageProps> = ({
 
             <div className="mt-8 flex justify-between">
               {/* Placeholder for consistent positioning */}
-              <div className="w-36">
+              {/* <div className="w-36">
                 {currentQuestionIndex !== 0 && (
                   <button
                     onClick={handlePreviousQuestion}
@@ -197,7 +204,7 @@ const PostExamPage: React.FC<PreExamPageProps> = ({
                     Previous
                   </button>
                 )}
-              </div>
+              </div> */}
 
               <button
                 onClick={
@@ -231,11 +238,12 @@ const PostExamPage: React.FC<PreExamPageProps> = ({
       {showResult && (
         <ExamResultCard
           show={showResult}
-          onClose={() => handleClose()}
+          onClose={handleClose}
           score={score}
           totalQuestion={totalQuestion}
           title="Post-Examination"
           onRetry={handleRetryExam}
+          retryCount={retryCount}
         />
       )}
     </div>

@@ -13,6 +13,7 @@ interface ExamResultCardProps {
   totalQuestion: number;
   title: string;
   onRetry?: () => void;
+  retryCount?: number;
 }
 
 const ExamResultCard: React.FC<ExamResultCardProps> = ({
@@ -22,6 +23,7 @@ const ExamResultCard: React.FC<ExamResultCardProps> = ({
   totalQuestion,
   title,
   onRetry,
+  retryCount,
 }) => {
   if (!show) return null;
 
@@ -31,7 +33,7 @@ const ExamResultCard: React.FC<ExamResultCardProps> = ({
   localStorage.setItem("examScore", score.toString());
   const resultMessage = passed
     ? "Congratulations for passing this course examination! 🥳🥳🥳"
-    : "Unfortunately, you did not pass the course examination.";
+    : `Unfortunately, you did not pass the ${title} examination.`;
 
   return (
     <div className="fixed inset-0 flex items-center justify-center z-50">
@@ -72,7 +74,7 @@ const ExamResultCard: React.FC<ExamResultCardProps> = ({
             <p className="mt-4 mb-4">{resultMessage}</p>
           </div>
           <div className="flex justify-center items-center">
-            {passed ? (
+            {passed || (retryCount !== undefined && retryCount >= 3) ? (
               <button
                 className="mb-4 px-6 py-2 bg-indigo-700 rounded-lg flex items-center gap-2 text-white"
                 onClick={onClose}

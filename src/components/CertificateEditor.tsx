@@ -2,7 +2,11 @@ import React from "react";
 import { PDFDocument, rgb, StandardFonts } from "pdf-lib";
 import { IonIcon } from "@ionic/react";
 import { cloudDownloadOutline } from "ionicons/icons";
-
+type TextFragment = {
+  text: string;
+  font: any; // Replace 'any' with a more specific type if available
+  size: number;
+};
 interface CertificateEditorProps {
   name: string;
   ruralBankName: string;
@@ -21,6 +25,7 @@ const CertificateEditor: React.FC<CertificateEditorProps> = ({
   hours,
 }) => {
   console.log("isCertificateEnabled: ", isCertificateEnabled);
+
   const generatePDF = async () => {
     try {
       // Load the PDF template
@@ -36,32 +41,30 @@ const CertificateEditor: React.FC<CertificateEditorProps> = ({
       const fontRegular = await pdfDoc.embedFont(StandardFonts.Helvetica);
       const fontBold = await pdfDoc.embedFont(StandardFonts.HelveticaBold);
 
-      // ✅ Function to Draw Inline Text (Prevent Overlap)
+      // Define margins and available width
+      const margin = 50;
+      const availableWidth = pageWidth - margin * 2;
+
+      // Function to draw inline text on a given line with a starting X
       const drawTextInline = (
-        texts: { text: string; font: any; size: number }[],
-        y: number
+        texts: TextFragment[],
+        y: number,
+        startX: number
       ) => {
-        let totalWidth = texts.reduce((acc, { text, font, size }) => {
-          return acc + font.widthOfTextAtSize(text, size);
-        }, 0);
-
-        // Calculate the starting X position to center everything
-        let startX = (pageWidth - totalWidth) / 2;
-
-        // Render each part inline without overlap
+        let currentX = startX;
         texts.forEach(({ text, font, size }) => {
           page.drawText(text, {
-            x: startX,
+            x: currentX,
             y,
             size,
             font,
             color: rgb(0, 0, 0),
           });
-          startX += font.widthOfTextAtSize(text, size);
+          currentX += font.widthOfTextAtSize(text, size);
         });
       };
 
-      // ✅ Function to Center Text
+      // Function to center text on the page
       const drawTextCentered = (
         text: string,
         font: any,
@@ -79,20 +82,96 @@ const CertificateEditor: React.FC<CertificateEditorProps> = ({
         });
       };
 
+      // Function to split text fragments into lines if they exceed maxWidth.
+      const splitFragmentsIntoLines = (
+        fragments: TextFragment[],
+        maxWidth: number
+      ): TextFragment[][] => {
+        const lines: TextFragment[][] = [];
+        let currentLine: TextFragment[] = [];
+
+        // Helper: calculate the width of an array of fragments.
+        const getLineWidth = (frags: TextFragment[]) =>
+          frags.reduce(
+            (acc, frag) =>
+              acc + frag.font.widthOfTextAtSize(frag.text, frag.size),
+            0
+          );
+
+        fragments.forEach((frag) => {
+          // Check if adding this fragment would exceed maxWidth.
+          if (getLineWidth([...currentLine, frag]) > maxWidth) {
+            // If currentLine is not empty, push it as one line.
+            if (currentLine.length > 0) {
+              lines.push(currentLine);
+              currentLine = [];
+            }
+            // If a single fragment is too long, break it by words.
+            if (frag.font.widthOfTextAtSize(frag.text, frag.size) > maxWidth) {
+              const words = frag.text.split(" ");
+              let lineText = "";
+              words.forEach((word, index) => {
+                const testLine = lineText ? lineText + " " + word : word;
+                if (
+                  frag.font.widthOfTextAtSize(testLine, frag.size) > maxWidth &&
+                  lineText !== ""
+                ) {
+                  lines.push([
+                    { text: lineText, font: frag.font, size: frag.size },
+                  ]);
+                  lineText = word;
+                } else {
+                  lineText = testLine;
+                }
+                if (index === words.length - 1 && lineText) {
+                  // Add the remaining text to currentLine
+                  currentLine.push({
+                    text: lineText,
+                    font: frag.font,
+                    size: frag.size,
+                  });
+                }
+              });
+            } else {
+              currentLine.push(frag);
+            }
+          } else {
+            currentLine.push(frag);
+          }
+        });
+        if (currentLine.length > 0) lines.push(currentLine);
+        return lines;
+      };
+
+      // Starting Y position for certificate content.
       let startY = pageHeight * 0.55;
       drawTextCentered("CERTIFICATE OF COMPLETION", fontBold, 24, startY);
       startY -= fontBold.heightAtSize(24) + 20;
 
-      drawTextInline(
-        [
-          { text: "This is to certify that ", font: fontRegular, size: 18 },
-          { text: `${name.toUpperCase()} `, font: fontBold, size: 18 },
-          { text: " of ", font: fontRegular, size: 18 },
-          { text: `${ruralBankName.toUpperCase()}`, font: fontBold, size: 18 },
-        ],
-        startY
-      );
-      startY -= fontRegular.heightAtSize(18) + 10;
+      // Prepare the inline text fragments that may require wrapping.
+      const fragments: TextFragment[] = [
+        { text: "This is to certify that ", font: fontRegular, size: 18 },
+        { text: `${name.toUpperCase()} `, font: fontBold, size: 18 },
+        { text: " of ", font: fontRegular, size: 18 },
+        { text: `${ruralBankName.toUpperCase()}`, font: fontBold, size: 18 },
+      ];
+
+      // Split the fragments into lines if needed.
+      const lines = splitFragmentsIntoLines(fragments, availableWidth);
+      lines.forEach((lineFragments) => {
+        // Calculate line width to center each line.
+        const lineWidth = lineFragments.reduce(
+          (acc, frag) =>
+            acc + frag.font.widthOfTextAtSize(frag.text, frag.size),
+          0
+        );
+        const startX = (pageWidth - lineWidth) / 2;
+        drawTextInline(lineFragments, startY, startX);
+        // Adjust startY for next line (change spacing as desired).
+        startY -= fontRegular.heightAtSize(18) + 10;
+      });
+
+      // Continue with other text as needed.
       drawTextCentered(
         `has successfully completed ${hours} the Web-Based Learning (WBL) on`,
         fontRegular,
@@ -101,24 +180,34 @@ const CertificateEditor: React.FC<CertificateEditorProps> = ({
       );
       startY -= fontRegular.heightAtSize(14) + 15;
 
-      // ✅ WBL Title
+      // WBL Title
       drawTextCentered(`${wblTitle}`, fontBold, 16, startY);
       startY -= fontBold.heightAtSize(16) + 25;
 
-      // ✅ Topics Covered
-      drawTextInline(
-        [
-          {
-            text: "This WBL covered essential topics on ",
-            font: fontRegular,
-            size: 14,
-          },
-          { text: `${wblTitle} `, font: fontBold, size: 14 },
-          { text: "specifically: ", font: fontRegular, size: 14 },
-        ],
-        startY
+      // Topics Covered
+      const topicsFragments: TextFragment[] = [
+        {
+          text: "This WBL covered essential topics on ",
+          font: fontRegular,
+          size: 14,
+        },
+        { text: `${wblTitle} `, font: fontBold, size: 14 },
+        { text: "specifically: ", font: fontRegular, size: 14 },
+      ];
+      const topicsLines = splitFragmentsIntoLines(
+        topicsFragments,
+        availableWidth
       );
-      startY -= fontRegular.heightAtSize(12) + 15;
+      topicsLines.forEach((lineFragments) => {
+        const lineWidth = lineFragments.reduce(
+          (acc, frag) =>
+            acc + frag.font.widthOfTextAtSize(frag.text, frag.size),
+          0
+        );
+        const startX = (pageWidth - lineWidth) / 2;
+        drawTextInline(lineFragments, startY, startX);
+        startY -= fontRegular.heightAtSize(14) + 15;
+      });
 
       let lessonY = startY;
       const lessonX = pageWidth * 0.15;
