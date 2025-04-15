@@ -96,17 +96,20 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
         return;
       }
       const user = JSON.parse(storedUser);
+
       const { data, error } = await supabase
         .from("user_progress")
         .select("current_page")
         .eq("user_id", user.userid)
         .eq("module_id", moduleId)
-        .single();
+        .order("created_at", { ascending: false }) // Sort by latest end_date
+        .limit(1); // Only get the latest one
+      console.log("data: ", data);
       if (error) {
         console.error("Error fetching progress:", error);
         setCurrentSectionIndex(0);
       } else if (data) {
-        setCurrentSectionIndex(data.current_page);
+        setCurrentSectionIndex(data[0].current_page);
       }
     };
     fetchProgress();
@@ -174,14 +177,14 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
           .select("*")
           .eq("user_id", user.userid)
           .eq("module_id", moduleId)
-          .single(); // Assuming the query returns a single row
-
+          .order("created_at", { ascending: false }) // Sort by latest end_date
+          .limit(1); // Only get the latest one
         if (error) {
           console.error("Error fetching user progress:", error);
           return;
         }
         if (data) {
-          const { current_page, total_pages } = data;
+          const { current_page, total_pages } = data[0];
           if (current_page === total_pages) {
             setFinishedModule(true);
           }
