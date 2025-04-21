@@ -61,7 +61,6 @@ const CourseExamination: React.FC = () => {
   }, [courseId]);
 
   const handleAnswerChange = (qNumber: number, value: string) => {
-    console.log("t1");
     setAnswers((prev) => ({ ...prev, [qNumber]: value }));
   };
 

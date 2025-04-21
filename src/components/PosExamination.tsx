@@ -28,7 +28,6 @@ const PostExamPage: React.FC<PreExamPageProps> = ({
       const postExamSection = sectionsArray.find(
         (section) => section.title === "Module Post-Examination"
       );
-      console.log("postExamSection: ", postExamSection);
       const totalQuestion = postExamSection.exams.flatMap(
         (exam: any) => exam.questions
       ).length;
@@ -77,7 +76,6 @@ const PostExamPage: React.FC<PreExamPageProps> = ({
     if (currentQuestion.fieldType === "single_select") {
       if (selectedAnswer[0] === currentQuestion.correctAnswer) {
         setScore((prev) => prev + 1);
-        console.log("correct");
       }
     } else {
       const correctAnswersArray = currentQuestion.correctAnswer
@@ -89,7 +87,6 @@ const PostExamPage: React.FC<PreExamPageProps> = ({
         selectedAnswer.length === correctAnswersArray.length
       ) {
         setScore((prev) => prev + 1);
-        console.log("correct");
       }
     }
     setSelectedAnswer([]);

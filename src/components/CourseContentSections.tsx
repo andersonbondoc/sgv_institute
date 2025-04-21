@@ -103,8 +103,7 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
         .eq("user_id", user.userid)
         .eq("module_id", moduleId)
         .order("created_at", { ascending: false }) // Sort by latest end_date
-        .limit(1); // Only get the latest one
-      console.log("data: ", data);
+        .limit(1);
       if (error) {
         console.error("Error fetching progress:", error);
         setCurrentSectionIndex(0);
@@ -203,9 +202,7 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
       setNextButtonEnabled(true);
       return;
     }
-    console.log("currentSection?.title: ", currentSection?.title);
     if (currentSection?.title === "Knowledge Check") {
-      console.log("test");
       setCountdown(0);
       setNextButtonEnabled(true);
       return;
@@ -452,7 +449,6 @@ const CourseContentSection: React.FC<CourseContentSectionProps> = ({
       </>
     );
   };
-  console.log("correctAnswer: ", correctAnswer);
   return (
     <div>
       <div className="flex justify-end">

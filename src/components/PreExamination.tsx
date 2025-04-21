@@ -71,7 +71,6 @@ const PreExamPage: React.FC<PreExamPageProps> = ({
     if (currentQuestion.fieldType === "single_select") {
       if (selectedAnswer[0] === currentQuestion.correctAnswer) {
         setScore((prev) => prev + 1);
-        console.log("correct");
       }
     } else {
       const correctAnswersArray = currentQuestion.correctAnswer
@@ -83,7 +82,6 @@ const PreExamPage: React.FC<PreExamPageProps> = ({
         selectedAnswer.length === correctAnswersArray.length
       ) {
         setScore((prev) => prev + 1);
-        console.log("correct");
       }
     }
     setSelectedAnswer([]);

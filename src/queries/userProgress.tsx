@@ -43,7 +43,6 @@ export async function insertUserProgress(
         ? current
         : latest;
     });
-    console.log("latestRecord: ", latestRecord);
     return await supabase
       .from("user_progress")
       .update({ current_page })

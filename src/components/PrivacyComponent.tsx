@@ -24,7 +24,6 @@ const PrivacyModal: React.FC<PrivacyModalProps> = ({
       setUser(true);
     }
   }, [user]);
-  console.log("user: ", user);
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-60">
       <div className="bg-white dark:bg-gray-800 rounded-2xl max-w-4xl w-full p-6 shadow-xl overflow-y-auto max-h-[90vh]">

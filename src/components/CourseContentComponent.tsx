@@ -148,20 +148,20 @@ const CourseContentComponent: React.FC = () => {
       console.error("Error checking existing module:", checkError);
       return;
     }
-    console.log("existingModule: ", existingModule);
-    let saveData = existingModule.length > 0 ? existingModule : existingModule;
+    let saveData =
+      existingModule && existingModule.length > 0
+        ? existingModule
+        : existingModule;
 
     // If no record exists, insert a new one.
     if (!existingModule) {
-      const { data, error: insertError } = await insertModuleForUser(
-        user.userid,
-        moduleId
-      );
-      if (insertError) {
+      try {
+        const data = await insertModuleForUser(user.userid, moduleId);
+        saveData = data;
+      } catch (insertError) {
         console.error("Error inserting module:", insertError);
         return;
       }
-      saveData = data;
     }
 
     if (saveData) {

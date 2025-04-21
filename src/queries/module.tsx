@@ -17,7 +17,14 @@ export async function getModuleForUser(userId: string, moduleId: string) {
 }
 
 export async function insertModuleForUser(userId: string, moduleId: string) {
-  return supabase
+  const { data, error } = await supabase
     .from("modules")
-    .insert([{ user_id: userId, module_id: moduleId }]);
+    .insert([{ user_id: userId, module_id: moduleId }])
+    .select();
+
+  if (error) {
+    throw error;
+  }
+
+  return data;
 }

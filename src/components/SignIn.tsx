@@ -36,7 +36,6 @@ const SignInModal: React.FC<SignInModalProps> = ({
 
   const validateEmail = async () => {
     const { exists, error } = await getUserByEmail(email);
-    console.log("exists: ", exists);
     if (!exists) {
       setIsEmailValid(false);
       setPassword("");
@@ -82,7 +81,6 @@ const SignInModal: React.FC<SignInModalProps> = ({
   };
   const handleAccept = async () => {
     const updateUser = await onAccept(userid);
-    console.log("updateUser: ", updateUser);
     setShowPrivacyModal(false);
     onClose();
     setTimeout(() => {

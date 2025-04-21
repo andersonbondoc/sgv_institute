@@ -14,7 +14,6 @@ const VoucherCard = ({ onClose, courseId }: any) => {
   const history = useHistory();
   const [voucherError, setVoucherError] = useState("");
   const voucherInputRef = useRef("");
-  console.log("courseId: ", courseId);
   useEffect(() => {
     const checkVoucher = async () => {
       const storedUser = localStorage.getItem("user");
@@ -25,7 +24,6 @@ const VoucherCard = ({ onClose, courseId }: any) => {
       const user = JSON.parse(storedUser);
       const userId = user.userid;
       const fetchData = await isVoucherActivated(userId, courseId);
-      console.log("fetchData: ", fetchData);
       if (fetchData) {
         setVoucherError("");
         onClose();
@@ -48,12 +46,10 @@ const VoucherCard = ({ onClose, courseId }: any) => {
     const user = JSON.parse(storedUser);
     const userId = user.userid;
     const result = await validateVoucher(courseId, voucherCode, userId);
-    console.log(result.valid, result.data, voucherCode);
     if (result.valid && result.data === voucherCode) {
       setVoucherError("");
       onClose();
     } else {
-      console.log(result.message, result);
       setVoucherError(result.message);
     }
   };

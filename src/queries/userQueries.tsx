@@ -97,7 +97,6 @@ export const getUserByEmailAndPassword = async (
   }
 
   const isPasswordValid = bcrypt.compareSync(password, data.password);
-  console.log(isPasswordValid);
   if (!isPasswordValid) {
     return {
       success: false,
@@ -124,8 +123,6 @@ export const supabaseSendEmail = async (email: string) => {
     return { success: false, error: "Error sending magic link." };
   }
 
-  console.log("OTP sent successfully to email:", email);
-
   return { success: true };
 };
 
@@ -134,7 +131,6 @@ export const onAccept = async (userId: number) => {
     .from("users")
     .update({ hasAcceptedPrivacy: true })
     .eq("userid", userId);
-  console.log(data, error);
   if (error) {
     console.error("Error updating privacy acceptance:", error);
   } else {

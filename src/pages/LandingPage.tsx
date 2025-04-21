@@ -67,7 +67,6 @@ const LandingPage: React.FC = () => {
     setUserId(user.userid);
     const hasUserCheckedPrivacyContent = user.hasAcceptedPrivacy;
     setShowPrivacyModal(!hasUserCheckedPrivacyContent);
-    console.log("user.userid: ", user.userid);
     const fetchPrivacy = async () => {
       await updateHasAccepted(setIsAccepted, user.userid);
     };
