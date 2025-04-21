@@ -72,7 +72,6 @@ const CourseContentComponent: React.FC = () => {
 
   useEffect(() => {
     const fetchProgressData = async () => {
-      console.log("initiate");
       setLoading(true);
       const storedUser = localStorage.getItem("user");
       if (!storedUser) {
@@ -92,7 +91,6 @@ const CourseContentComponent: React.FC = () => {
         console.error("Error fetching progress data:", error);
         return;
       }
-      console.log("data: ", data);
       const progressMap: Record<string, number> = {};
       const sectionsMap: Record<string, number> = {};
       getModuleId.forEach((id) => {
@@ -104,7 +102,6 @@ const CourseContentComponent: React.FC = () => {
         progressMap[item.module_id] = item.current_page || 0;
         sectionsMap[item.module_id] = item.total_pages || 0;
       });
-      console.log("progressMap: ", progressMap);
       setSavedProgress(progressMap);
       setTotalSections(sectionsMap);
 
@@ -151,8 +148,8 @@ const CourseContentComponent: React.FC = () => {
       console.error("Error checking existing module:", checkError);
       return;
     }
-
-    let saveData = existingModule;
+    console.log("existingModule: ", existingModule);
+    let saveData = existingModule.length > 0 ? existingModule : existingModule;
 
     // If no record exists, insert a new one.
     if (!existingModule) {
@@ -169,7 +166,6 @@ const CourseContentComponent: React.FC = () => {
 
     if (saveData) {
       const { data, error } = await getUserProgress(user.userid, moduleId);
-      console.log("data: ", data);
       let progress = 0;
       if (error || !data) {
         const { error: insertError } = await insertUserProgress(

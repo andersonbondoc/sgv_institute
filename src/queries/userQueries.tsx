@@ -149,7 +149,7 @@ export const updateHasAccepted = async (
   const { data, error } = await supabase
     .from("users")
     .select("hasAcceptedPrivacy")
-    .eq("id", userid)
+    .eq("userid", userid)
     .single();
 
   if (error) {
